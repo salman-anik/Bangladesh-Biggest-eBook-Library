@@ -143,102 +143,102 @@
 | 89 | কুরআন শরীফ সরল অনুবাদ.pdf | আল কুরআন এর সরল অনুবাদ | 28.1 MB | [Open in Drive](https://drive.google.com/file/d/1mjCu-OgxE62aOyTCO0kDXSGNb0AXjxjL/view) |
 | 90 | কুরআন শরীফ সরল বাংলা অনুবাদ.pdf | আল কুরআন এর সরল অনুবাদ | 28.1 MB | [Open in Drive](https://drive.google.com/file/d/13FlX6sKUm69mn49bFAhbrlg-Jdu0nFPX/view) |
 | 91 | কুরআনের সরল অনুবাদ-হাফেজ মুনির উদ্দিন.pdf | আল কুরআন এর সরল অনুবাদ | 15.8 MB | [Open in Drive](https://drive.google.com/file/d/11NOM7Kdwp1zaW_Y4b543birSPgOKv4TX/view) |
-| 92 | Al Quraner Shikkha 1.pdf | আল কুরআন মাজিদ | 5.9 MB | [Open in Drive](https://drive.google.com/file/d/1mLiTVZNX0DoXkIhHY8QsItWWQXA8AwOk/view) |
-| 93 | Al Quraner Shikkha 2.pdf | আল কুরআন মাজিদ | 5.3 MB | [Open in Drive](https://drive.google.com/file/d/1mOupPPJXqtpkWLbkNpEGiJLKyUpYIy-J/view) |
-| 94 | Darse Quran 1.pdf | আল কুরআন মাজিদ | 4.1 MB | [Open in Drive](https://drive.google.com/file/d/1mWT7V_JMXziD9Wwaf5N-xuIgRYD_yHJQ/view) |
-| 95 | Darse Quran 2.pdf | আল কুরআন মাজিদ | 4.2 MB | [Open in Drive](https://drive.google.com/file/d/1mYWsMziU5Bjl1SyLYrWkouCIZCaBY5Kn/view) |
-| 96 | Darse Quran 3.pdf | আল কুরআন মাজিদ | 4.5 MB | [Open in Drive](https://drive.google.com/file/d/1me0w4CjeUIvFHgB_BcxcEtIN1bDR1aXR/view) |
-| 97 | Darse Quran 4.pdf | আল কুরআন মাজিদ | 4.2 MB | [Open in Drive](https://drive.google.com/file/d/1mpVm-Y6bEMUPtiwCNwbwo8G4cur_oK7o/view) |
-| 98 | Darse Quran 5.pdf | আল কুরআন মাজিদ | 4.1 MB | [Open in Drive](https://drive.google.com/file/d/1mr5BLXD_GHpwOr5Sw_7p4ERmpR7nlcIj/view) |
-| 99 | Darse Quran 6.pdf | আল কুরআন মাজিদ | 4.4 MB | [Open in Drive](https://drive.google.com/file/d/1msMToVp2pF2cz4aJBNXBZoeOB-SFjefV/view) |
-| 100 | Darsul Quran 1 Badruzzaman.pdf | আল কুরআন মাজিদ | 3.9 MB | [Open in Drive](https://drive.google.com/file/d/1mt7MqpYEB3hc4oYIG9ia28NZLN5vk8rH/view) |
-| 101 | Darsul Quran 1 H Parveen.pdf | আল কুরআন মাজিদ | 4.5 MB | [Open in Drive](https://drive.google.com/file/d/1mwsYUVL9w1dD-ORrqQMEPhAhx5_wqEqo/view) |
-| 102 | Darsul Quran 2 Badruzzaman.pdf | আল কুরআন মাজিদ | 3.1 MB | [Open in Drive](https://drive.google.com/file/d/1mzwggZICUddaXrPQ2mOoHJ3FFWLL1l6y/view) |
-| 103 | Darsul Quran 2 H Parveen.pdf | আল কুরআন মাজিদ | 4.4 MB | [Open in Drive](https://drive.google.com/file/d/1n1aV77dN1MGR9h-G9ZbonU5H3HBuzOwH/view) |
-| 104 | Inbe Kasir 1 2 3.pdf | আল কুরআন মাজিদ | 23.7 MB | [Open in Drive](https://drive.google.com/file/d/1odFcB5u_34sc_Iri7GYgCVs54UjdtQIJ/view) |
-| 105 | Inbe Kasir 12.pdf | আল কুরআন মাজিদ | 10.1 MB | [Open in Drive](https://drive.google.com/file/d/1oe1IxOER51hiM1zA4CwaicLmU3Q7ZmNq/view) |
-| 106 | Inbe Kasir 13.pdf | আল কুরআন মাজিদ | 11.0 MB | [Open in Drive](https://drive.google.com/file/d/1ohKRCV1o9gGlOOGKLwHv_hNI0_SYQ4Wo/view) |
-| 107 | Inbe Kasir 14.pdf | আল কুরআন মাজিদ | 13.9 MB | [Open in Drive](https://drive.google.com/file/d/1ooEsACAGpz8FSVyrrxTESBpeM89aCTd3/view) |
-| 108 | Inbe Kasir 15.pdf | আল কুরআন মাজিদ | 23.1 MB | [Open in Drive](https://drive.google.com/file/d/1pExzdIj9K5fBGZ4sCsH8Hy6Wu9QNV7H_/view) |
-| 109 | Inbe Kasir 16.pdf | আল কুরআন মাজিদ | 20.7 MB | [Open in Drive](https://drive.google.com/file/d/1pYvSZEmxpo0_BQwSdLZVGtq3SkaAyKcX/view) |
-| 110 | Inbe Kasir 17.pdf | আল কুরআন মাজিদ | 20.7 MB | [Open in Drive](https://drive.google.com/file/d/1pbL5T9C1Er0NL44--Yx2fTqvkkg73Ada/view) |
-| 111 | Inbe Kasir 18.pdf | আল কুরআন মাজিদ | 10.7 MB | [Open in Drive](https://drive.google.com/file/d/1pbvPyX9mid369ck7bO99uHJLBNgTkA_2/view) |
-| 112 | Inbe Kasir 4 5 6 7.pdf | আল কুরআন মাজিদ | 24.6 MB | [Open in Drive](https://drive.google.com/file/d/1pdLLntX5UWyPWUP2NH6KFN8osu7xH-eP/view) |
-| 113 | Inbe Kasir 8 9 10 11.pdf | আল কুরআন মাজিদ | 25.2 MB | [Open in Drive](https://drive.google.com/file/d/1pkgBua69GVPJJcicdDrj6ZUY5jpSXkoO/view) |
-| 114 | Nirbachito Darse Quran 1.pdf | আল কুরআন মাজিদ | 3.9 MB | [Open in Drive](https://drive.google.com/file/d/1nIoxylwJmqRqpIiYv-HqvofU25CwIn6C/view) |
-| 115 | Nirbachito Darse Quran 2.pdf | আল কুরআন মাজিদ | 3.8 MB | [Open in Drive](https://drive.google.com/file/d/1nIvXivrlKt00emTIg9hdiRKDooKtDIof/view) |
-| 116 | Nirbachito Darse Quran 3.pdf | আল কুরআন মাজিদ | 4.0 MB | [Open in Drive](https://drive.google.com/file/d/1nJ2U2qiIuEzAva6nkKqEOsNPl6iWDo4g/view) |
-| 117 | Nurani Poddhotite 27 hour Quarn shikkha.pdf | আল কুরআন মাজিদ | 2.7 MB | [Open in Drive](https://drive.google.com/file/d/1trF6jWZjPg7b0o7LY9t0lyedi8Wli5jt/view) |
-| 118 | Shobde Shobde Al-Quran P P.pdf | আল কুরআন মাজিদ | 6.1 MB | [Open in Drive](https://drive.google.com/file/d/1tmPyXRjS_B_PJpDHImqYLsW999zspOjY/view) |
-| 119 | Shobde_Shobde_Al-Quran_01.pdf | আল কুরআন মাজিদ | 12.2 MB | [Open in Drive](https://drive.google.com/file/d/1nJPzP1TEZnguPjji0L_V_aJQJfjF__Vc/view) |
-| 120 | Shobde_Shobde_Al-Quran_02.pdf | আল কুরআন মাজিদ | 17.8 MB | [Open in Drive](https://drive.google.com/file/d/1nKbxFrYIuSHtGNt0BP0Y4gQtx6BqaUyI/view) |
-| 121 | Shobde_Shobde_Al-Quran_03.pdf | আল কুরআন মাজিদ | 8.7 MB | [Open in Drive](https://drive.google.com/file/d/1nY0znSRDw1jHvmo5INifsjG5rf_ZrgDy/view) |
-| 122 | Shobde_Shobde_Al-Quran_04.pdf | আল কুরআন মাজিদ | 7.8 MB | [Open in Drive](https://drive.google.com/file/d/1n_j1n2NR662B23eaG-Hn4UNra0calzxf/view) |
-| 123 | Shobde_Shobde_Al-Quran_05.pdf | আল কুরআন মাজিদ | 11.1 MB | [Open in Drive](https://drive.google.com/file/d/1ngW6Ie0pBYBZQr9b4WACBsQyS2hlKcLq/view) |
-| 124 | Shobde_Shobde_Al-Quran_06.pdf | আল কুরআন মাজিদ | 9.8 MB | [Open in Drive](https://drive.google.com/file/d/1njXWpYAvFkFNhwI5lsCEInSoxVdoYL_C/view) |
-| 125 | Shobde_Shobde_Al-Quran_07.pdf | আল কুরআন মাজিদ | 9.8 MB | [Open in Drive](https://drive.google.com/file/d/1nsWOOorsYW75gvoJuM_IunF0ba3Azn-K/view) |
-| 126 | Shobde_Shobde_Al-Quran_08.pdf | আল কুরআন মাজিদ | 14.1 MB | [Open in Drive](https://drive.google.com/file/d/1nva2wumuHixw34KQjX5-POd8fuoT8SZz/view) |
-| 127 | Shobde_Shobde_Al-Quran_09.pdf | আল কুরআন মাজিদ | 13.0 MB | [Open in Drive](https://drive.google.com/file/d/1oDxzf5pyiYLMLsOD3NlZSeoGwfHa1JvV/view) |
-| 128 | Shobde_Shobde_Al-Quran_10.pdf | আল কুরআন মাজিদ | 14.8 MB | [Open in Drive](https://drive.google.com/file/d/1oE-DpC2NGknsia6uGHsycBPML0sbEQB0/view) |
-| 129 | Shobde_Shobde_Al-Quran_11.pdf | আল কুরআন মাজিদ | 12.6 MB | [Open in Drive](https://drive.google.com/file/d/1oEro3giM-dWSddDZiy7862fscngNCwty/view) |
-| 130 | Shobde_Shobde_Al-Quran_12.pdf | আল কুরআন মাজিদ | 14.0 MB | [Open in Drive](https://drive.google.com/file/d/1oHZqYHsvrRY5MY_LHqWU5-PacB6zNHxp/view) |
-| 131 | Shobde_Shobde_Al-Quran_13.pdf | আল কুরআন মাজিদ | 15.0 MB | [Open in Drive](https://drive.google.com/file/d/1oLITsMpSKDIPhDeI44NHfmpYrkt_0fdA/view) |
-| 132 | Shobde_Shobde_Al-Quran_14.pdf | আল কুরআন মাজিদ | 8.2 MB | [Open in Drive](https://drive.google.com/file/d/1oQRlGagK_-yd7mnJF6ZcxeRBdn2T7PtQ/view) |
-| 133 | Shohoz banglay quarner onubad 1.pdf | আল কুরআন মাজিদ | 16.5 MB | [Open in Drive](https://drive.google.com/file/d/1kwg_Mk-jME7_I6QpmVoJ9h90KlDYDl-x/view) |
-| 134 | Shohoz banglay quarner onubad 2.pdf | আল কুরআন মাজিদ | 16.2 MB | [Open in Drive](https://drive.google.com/file/d/1kx4KumK-F9GkfueUtGhA7Dme3zGhoNAd/view) |
-| 135 | Shohoz banglay quarner onubad 3.pdf | আল কুরআন মাজিদ | 14.9 MB | [Open in Drive](https://drive.google.com/file/d/1kxqdiTDwVkV5W4Gp0vhW2m4XfxDXGAxF/view) |
-| 136 | Sura Fatehar Tafsir.pdf | আল কুরআন মাজিদ | 1.4 MB | [Open in Drive](https://drive.google.com/file/d/1scBEi3w7P81b-fxdaJXIcGVuX1af5u3p/view) |
-| 137 | Tadabbure Quran 01.pdf | আল কুরআন মাজিদ | 27.9 MB | [Open in Drive](https://drive.google.com/file/d/1qOQfxx9igT-gXCSH-pVCzdVI22BIlwdJ/view) |
-| 138 | Tadabbure Quran 02.pdf | আল কুরআন মাজিদ | 25.9 MB | [Open in Drive](https://drive.google.com/file/d/1qSNxvS-LLivYQ85DAGZShk_YsLOMnRD9/view) |
-| 139 | Tafhimul Quran nirdheshok.pdf | আল কুরআন মাজিদ | 12.2 MB | [Open in Drive](https://drive.google.com/file/d/1qXMpzQDogY4nTTIOd1byS_JUBMrroIN5/view) |
-| 140 | Tafir a Jalalail 01.pdf | আল কুরআন মাজিদ | 37.6 MB | [Open in Drive](https://drive.google.com/file/d/1sdqY6k9c9chqxMX0xcf1w1JcwMthdDRL/view) |
-| 141 | Tafir a Jalalail 02.pdf | আল কুরআন মাজিদ | 35.9 MB | [Open in Drive](https://drive.google.com/file/d/1sfD9JaI82rygp3N8yrnEorq2-mPhdIP4/view) |
-| 142 | Tafsir a Zilalil 1.pdf | আল কুরআন মাজিদ | 16.6 MB | [Open in Drive](https://drive.google.com/file/d/1qu5PgydGvozcExx9oS7SWCkM1CJ90xv9/view) |
-| 143 | Tafsir a Zilalil 10.pdf | আল কুরআন মাজিদ | 47.7 MB | [Open in Drive](https://drive.google.com/file/d/1qx7htoduiBJ7r0WIOpvN7zgl0HCRw8CC/view) |
-| 144 | Tafsir a Zilalil 11.pdf | আল কুরআন মাজিদ | 30.9 MB | [Open in Drive](https://drive.google.com/file/d/1r1JBLRFRhwMRtXqhmZltg30V987R5mdY/view) |
-| 145 | Tafsir a Zilalil 12.pdf | আল কুরআন মাজিদ | 40.2 MB | [Open in Drive](https://drive.google.com/file/d/1r2t-ssM2nynuQ5EVu7KTib0GLmy2BAVK/view) |
-| 146 | Tafsir a Zilalil 13.pdf | আল কুরআন মাজিদ | 29.4 MB | [Open in Drive](https://drive.google.com/file/d/1r976pTxWtaBg1qy7Lg6ssntlV-jfIAha/view) |
-| 147 | Tafsir a Zilalil 14.pdf | আল কুরআন মাজিদ | 13.7 MB | [Open in Drive](https://drive.google.com/file/d/1rBOPZkfoIHK7ZINCOhjhiVyv-dnCvnQl/view) |
-| 148 | Tafsir a Zilalil 15.pdf | আল কুরআন মাজিদ | 7.8 MB | [Open in Drive](https://drive.google.com/file/d/1rL0rzl5lSKQ6NTIC1-cbjPCcrpdnhEVA/view) |
-| 149 | Tafsir a Zilalil 16.pdf | আল কুরআন মাজিদ | 23.9 MB | [Open in Drive](https://drive.google.com/file/d/1rNbr1ulDEc2PjfMzZYESEt0-yh6BAdAI/view) |
-| 150 | Tafsir a Zilalil 17.pdf | আল কুরআন মাজিদ | 25.6 MB | [Open in Drive](https://drive.google.com/file/d/1rtSXNvOvuWWPURtxuL0Z4KlM-YYhIT2C/view) |
-| 151 | Tafsir a Zilalil 19.pdf | আল কুরআন মাজিদ | 34.9 MB | [Open in Drive](https://drive.google.com/file/d/1rtuh8YbXtfgtj7V-8kIJGqEZcsq5ZXSq/view) |
-| 152 | Tafsir a Zilalil 20.pdf | আল কুরআন মাজিদ | 45.3 MB | [Open in Drive](https://drive.google.com/file/d/1ruQcIrt1PiL6of2N0bjb4nDphLujpJy4/view) |
-| 153 | Tafsir a Zilalil 21.pdf | আল কুরআন মাজিদ | 35.0 MB | [Open in Drive](https://drive.google.com/file/d/1rwiayCMAw2fAhaEXnjSn3Ae47G4mra4k/view) |
-| 154 | Tafsir a Zilalil 4.pdf | আল কুরআন মাজিদ | 29.4 MB | [Open in Drive](https://drive.google.com/file/d/1rz3eZ1aQkol6hyLsjoHiw1W6Fe2okv7S/view) |
-| 155 | Tafsir a Zilalil 5.pdf | আল কুরআন মাজিদ | 22.2 MB | [Open in Drive](https://drive.google.com/file/d/1s-0MboWh7u3QcD7Tfxgrv8I7U4SPYVoH/view) |
-| 156 | Tafsir a Zilalil 6.pdf | আল কুরআন মাজিদ | 27.9 MB | [Open in Drive](https://drive.google.com/file/d/1s8LGhsL4_iydna7SN5Je5Nv4sYIEeJqn/view) |
-| 157 | Tafsir a Zilalil 7.pdf | আল কুরআন মাজিদ | 23.3 MB | [Open in Drive](https://drive.google.com/file/d/1sBk93CaMFfA2RIFWQcdmHyN5ZZhrsJjh/view) |
-| 158 | Tafsir a Zilalil 8.pdf | আল কুরআন মাজিদ | 18.2 MB | [Open in Drive](https://drive.google.com/file/d/1sLcmCSm8cmrbbUGaSOMgod43mqwjGETU/view) |
-| 159 | Tafsir a Zilalil 9.pdf | আল কুরআন মাজিদ | 20.0 MB | [Open in Drive](https://drive.google.com/file/d/1sR1dRE-Kxfsxw-PeG0bGEAcVl-VsC1Bg/view) |
-| 160 | Tafsir a Zilalil Ampara.pdf | আল কুরআন মাজিদ | 30.9 MB | [Open in Drive](https://drive.google.com/file/d/1sWN5KUGmvks4u3IVoxVCafTvTc0yJklp/view) |
-| 161 | Tafsirul Quran - tawhid prokashoni.pdf | আল কুরআন মাজিদ | 25.3 MB | [Open in Drive](https://drive.google.com/file/d/1sk6ukSMIkqn1sG2R5LM9M0zNXe9mXwhk/view) |
-| 162 | _page 1-50.pdf | আল কুরআন মাজিদ | 6.3 MB | [Open in Drive](https://drive.google.com/file/d/1pmKWK79NkyJSXXupiVd1iZPpeW4yuG9G/view) |
-| 163 | _page 104-162.pdf | আল কুরআন মাজিদ | 7.8 MB | [Open in Drive](https://drive.google.com/file/d/1pusPhEomUCd5C72bcOXMij6_K2iV9obr/view) |
-| 164 | _pagr 51-103.pdf | আল কুরআন মাজিদ | 6.6 MB | [Open in Drive](https://drive.google.com/file/d/1px1DktPYcHsl8sFfMLts798XAzo9EfBY/view) |
-| 165 | page 1-54.pdf | আল কুরআন মাজিদ | 5.4 MB | [Open in Drive](https://drive.google.com/file/d/1pxU9hNcdYDN6RWWO-lMa-GmC6d4vStO6/view) |
-| 166 | page 119-182.pdf | আল কুরআন মাজিদ | 5.1 MB | [Open in Drive](https://drive.google.com/file/d/1q-al76Ja1oASI_UlAPVG31x27TkK9TGF/view) |
-| 167 | page 183-246.pdf | আল কুরআন মাজিদ | 5.5 MB | [Open in Drive](https://drive.google.com/file/d/1q0qoDR-5sX9CGZBKFqAc5UCMyhvt2BJr/view) |
-| 168 | page 55-118.pdf | আল কুরআন মাজিদ | 4.8 MB | [Open in Drive](https://drive.google.com/file/d/1qBTio57XIHbk56zwxOV9dOOEUqwoAncD/view) |
-| 169 | কোরআন মাজিদ আরবি-বাংলা (মুজিবর রহমান).pdf | আল কুরআন মাজিদ | 26.9 MB | [Open in Drive](https://drive.google.com/file/d/1k4MBiveUfN4tybC6A67j4ZR_VXNVcUUJ/view) |
-| 170 | কোরআন মাজিদ-বাংলা_ড.জহুরুল হক ১.pdf | আল কুরআন মাজিদ | 1.9 MB | [Open in Drive](https://drive.google.com/file/d/1kBOROYvogCyC5NRfPWTt35Y7yU_m35dA/view) |
-| 171 | কোরআন মাজিদ-বাংলা_ড.জহুরুল হক ২.pdf | আল কুরআন মাজিদ | 3.1 MB | [Open in Drive](https://drive.google.com/file/d/1kFQUpfY-lhxCwcOJq3kzme6oVx24EfH2/view) |
-| 172 | কোরআন মাজিদ-বাংলা_ড.জহুরুল হক ৩.pdf | আল কুরআন মাজিদ | 4.4 MB | [Open in Drive](https://drive.google.com/file/d/1kHfVHVIQPMYDy1WQAYkXIH0SUd5o1KEW/view) |
-| 173 | কোরআন শরীফ (১ম খণ্ড) আকরাম খাঁ.pdf | আল কুরআন মাজিদ | 16.4 MB | [Open in Drive](https://drive.google.com/file/d/1kNa-aJ-tzzXGWsPahiyA23U3oPsuw81J/view) |
-| 174 | কোরআন শরীফ - আল কোরআন একাডেমী লন্ডন.pdf | আল কুরআন মাজিদ | 27.6 MB | [Open in Drive](https://drive.google.com/file/d/1kLUJo1AAFVM-IeQxKX4ek2hweSn6ZyHd/view) |
-| 175 | তরজমায়ে কুরআন মজীদ.pdf | আল কুরআন মাজিদ | 44.9 MB | [Open in Drive](https://drive.google.com/file/d/1kVPznkrxvF-ooEZVwYMxNL_-WsEAXhUK/view) |
-| 176 | পারা ২৯ নূরানী.pdf | আল কুরআন মাজিদ | 4.9 MB | [Open in Drive](https://drive.google.com/file/d/1kWr5h7sJqY9cv1n9-XdXQljbiORIJ4Aa/view) |
-| 177 | পারা ৩০ নূরানী.pdf | আল কুরআন মাজিদ | 5.4 MB | [Open in Drive](https://drive.google.com/file/d/1kYUUMcXVOa1Gxpy06rRGRBDxFtvuIdlA/view) |
-| 178 | শব্দার্থে আল কুরআনুল মজীদ - ১ম খন্ড.pdf | আল কুরআন মাজিদ | 8.4 MB | [Open in Drive](https://drive.google.com/file/d/1soAKVU_VIqm8I81pf1OE4juKsK8zIXDm/view) |
-| 179 | শব্দার্থে আল কুরআনুল মজীদ - ১০ম খন্ড.pdf | আল কুরআন মাজিদ | 6.6 MB | [Open in Drive](https://drive.google.com/file/d/1sn96Z-NcWfm0WUMSvywhv8NO9YpQLc-W/view) |
-| 180 | শব্দার্থে আল কুরআনুল মজীদ - ২য় খন্ড.pdf | আল কুরআন মাজিদ | 9.3 MB | [Open in Drive](https://drive.google.com/file/d/1sstQe7h_TIaumaM5j8kgLwD9ryYgfXnQ/view) |
-| 181 | শব্দার্থে আল কুরআনুল মজীদ - ৩য় খন্ড.pdf | আল কুরআন মাজিদ | 10.5 MB | [Open in Drive](https://drive.google.com/file/d/1sytj0j2VV6TmPlNmLtc4ABU77Y73F5JS/view) |
-| 182 | শব্দার্থে আল কুরআনুল মজীদ - ৪র্থ খন্ড.pdf | আল কুরআন মাজিদ | 8.1 MB | [Open in Drive](https://drive.google.com/file/d/1t-VwXuOKSvAUCPRJRRrwaR9zo53DsZvt/view) |
-| 183 | শব্দার্থে আল কুরআনুল মজীদ - ৫ম খন্ড.pdf | আল কুরআন মাজিদ | 8.9 MB | [Open in Drive](https://drive.google.com/file/d/1t4ngb7bIRn6NmUKD1ifAz3TH5MLQgkZ6/view) |
-| 184 | শব্দার্থে আল কুরআনুল মজীদ - ৬ষ্ঠ খন্ড.pdf | আল কুরআন মাজিদ | 8.7 MB | [Open in Drive](https://drive.google.com/file/d/1tAIFfAW3qvZfC9Is9p4gN99L5nISNj1e/view) |
-| 185 | শব্দার্থে আল কুরআনুল মজীদ - ৭ম খন্ড.pdf | আল কুরআন মাজিদ | 8.5 MB | [Open in Drive](https://drive.google.com/file/d/1tBdzOh2RtThBdP3nxXmHVbjOaDT5WX2n/view) |
-| 186 | শব্দার্থে আল কুরআনুল মজীদ - ৮ম খন্ড.pdf | আল কুরআন মাজিদ | 7.9 MB | [Open in Drive](https://drive.google.com/file/d/1tDP_3weX29uDT2xmqSoCnU9tvZanxm1-/view) |
-| 187 | শব্দার্থে আল কুরআনুল মজীদ - ৯ম খন্ড.pdf | আল কুরআন মাজিদ | 7.0 MB | [Open in Drive](https://drive.google.com/file/d/1tZbNz91bvhTTcSEjFB64q1attRg3IzQG/view) |
+| 92 | Al Quraner Shikkha 1.pdf | আল কুরআন মাজিদ | 5.9 MB | [Open in Drive](https://drive.google.com/file/d/1sAxKLUOiJ51DfFCjYvSfrvkyk1AV04hq/view) |
+| 93 | Al Quraner Shikkha 2.pdf | আল কুরআন মাজিদ | 5.3 MB | [Open in Drive](https://drive.google.com/file/d/1hUrfBUxnK9ucYtGL71gWfaXTBYGuzBKq/view) |
+| 94 | Darse Quran 1.pdf | আল কুরআন মাজিদ | 4.1 MB | [Open in Drive](https://drive.google.com/file/d/10hnC29umD5MAGl81R060abyic3ykQF8J/view) |
+| 95 | Darse Quran 2.pdf | আল কুরআন মাজিদ | 4.2 MB | [Open in Drive](https://drive.google.com/file/d/1_IaAOK_Q2xhLmcbpZn_uPZZffvlM2vUq/view) |
+| 96 | Darse Quran 3.pdf | আল কুরআন মাজিদ | 4.5 MB | [Open in Drive](https://drive.google.com/file/d/1j2oxYZfdpgaLckRELjJOXsH32utu7Znf/view) |
+| 97 | Darse Quran 4.pdf | আল কুরআন মাজিদ | 4.2 MB | [Open in Drive](https://drive.google.com/file/d/1ZRvbcvD5DRUSPWOO8fyorvGPzL1Q00lZ/view) |
+| 98 | Darse Quran 5.pdf | আল কুরআন মাজিদ | 4.1 MB | [Open in Drive](https://drive.google.com/file/d/1oudzQdisYVGN-dYS0MxzE2xtZDhPnuDE/view) |
+| 99 | Darse Quran 6.pdf | আল কুরআন মাজিদ | 4.4 MB | [Open in Drive](https://drive.google.com/file/d/14ZS9e4oWLXc9mrS0xyMn6lYYAQ7R95XX/view) |
+| 100 | Darsul Quran 1 Badruzzaman.pdf | আল কুরআন মাজিদ | 3.9 MB | [Open in Drive](https://drive.google.com/file/d/1mlbTc6_T5rXuy05S-b_TB3U5ZqinMBnj/view) |
+| 101 | Darsul Quran 1 H Parveen.pdf | আল কুরআন মাজিদ | 4.5 MB | [Open in Drive](https://drive.google.com/file/d/1zKwQ6JmytiY9tiR42p2WxBiAUSCUy50f/view) |
+| 102 | Darsul Quran 2 Badruzzaman.pdf | আল কুরআন মাজিদ | 3.1 MB | [Open in Drive](https://drive.google.com/file/d/1SwKquSEcFvNcvU4eHPb8woxKrYlDKccL/view) |
+| 103 | Darsul Quran 2 H Parveen.pdf | আল কুরআন মাজিদ | 4.4 MB | [Open in Drive](https://drive.google.com/file/d/1Kapsxi9MpbHUMxPPDJ7rEtlsAL34PJa6/view) |
+| 104 | Inbe Kasir 1 2 3.pdf | আল কুরআন মাজিদ | 23.7 MB | [Open in Drive](https://drive.google.com/file/d/1BxlvBp7WkgA12icEMjszUT5pKTsKoepL/view) |
+| 105 | Inbe Kasir 12.pdf | আল কুরআন মাজিদ | 10.1 MB | [Open in Drive](https://drive.google.com/file/d/1iapbleSDGRfaN4SRIaVBSs9wrayu-rO8/view) |
+| 106 | Inbe Kasir 13.pdf | আল কুরআন মাজিদ | 11.0 MB | [Open in Drive](https://drive.google.com/file/d/1xWra18QygJNeKVUVbjUO1XXWqAZxqJL-/view) |
+| 107 | Inbe Kasir 14.pdf | আল কুরআন মাজিদ | 13.9 MB | [Open in Drive](https://drive.google.com/file/d/1FRFTbuNIVhQonjePXt_8wiDKOgXkqWom/view) |
+| 108 | Inbe Kasir 15.pdf | আল কুরআন মাজিদ | 23.1 MB | [Open in Drive](https://drive.google.com/file/d/1ixtJjG5NWx8ks_pbCvNmRaNZaX58GWnK/view) |
+| 109 | Inbe Kasir 16.pdf | আল কুরআন মাজিদ | 20.7 MB | [Open in Drive](https://drive.google.com/file/d/1N-QDPfXRIR2BTb7y6vXBAlP8Mmjy2MZ-/view) |
+| 110 | Inbe Kasir 17.pdf | আল কুরআন মাজিদ | 20.7 MB | [Open in Drive](https://drive.google.com/file/d/1dshmnbX38Ya9d_opH05oHFfczuqVuqaL/view) |
+| 111 | Inbe Kasir 18.pdf | আল কুরআন মাজিদ | 10.7 MB | [Open in Drive](https://drive.google.com/file/d/1Hrno7gTZ4Xim2JWd87YMPtEaqatflqsd/view) |
+| 112 | Inbe Kasir 4 5 6 7.pdf | আল কুরআন মাজিদ | 24.6 MB | [Open in Drive](https://drive.google.com/file/d/14ozK0E8zNoNawHgahetTRHM4mPJippw0/view) |
+| 113 | Inbe Kasir 8 9 10 11.pdf | আল কুরআন মাজিদ | 25.2 MB | [Open in Drive](https://drive.google.com/file/d/1CovJfjfa_gAfu5eCTNDY3_rce85qVRh_/view) |
+| 114 | Nirbachito Darse Quran 1.pdf | আল কুরআন মাজিদ | 3.9 MB | [Open in Drive](https://drive.google.com/file/d/1ZAoKfzUybd5Wb95cevOliP8bIh4Yukvj/view) |
+| 115 | Nirbachito Darse Quran 2.pdf | আল কুরআন মাজিদ | 3.8 MB | [Open in Drive](https://drive.google.com/file/d/1mGyfb_uXYnKZNXEUZKnjqtRCaGLl09-W/view) |
+| 116 | Nirbachito Darse Quran 3.pdf | আল কুরআন মাজিদ | 4.0 MB | [Open in Drive](https://drive.google.com/file/d/1OtbEXVT0aA_2DeRLcm1wTupIvElCrZjA/view) |
+| 117 | Nurani Poddhotite 27 hour Quarn shikkha.pdf | আল কুরআন মাজিদ | 2.7 MB | [Open in Drive](https://drive.google.com/file/d/1WZCyma8G8kRHuWteghFeRp7xP2PKjoH6/view) |
+| 118 | Shobde Shobde Al-Quran P P.pdf | আল কুরআন মাজিদ | 6.1 MB | [Open in Drive](https://drive.google.com/file/d/12E_9zDaL6Y4iz1qh0-OftaSrIx0rzU8A/view) |
+| 119 | Shobde_Shobde_Al-Quran_01.pdf | আল কুরআন মাজিদ | 12.2 MB | [Open in Drive](https://drive.google.com/file/d/1RogY70AZ2oYdEJIwxO-AGqm20aJpleLN/view) |
+| 120 | Shobde_Shobde_Al-Quran_02.pdf | আল কুরআন মাজিদ | 17.8 MB | [Open in Drive](https://drive.google.com/file/d/1W_pj6hg_Ynnl32YTjPTVojDZJ7-mZPCA/view) |
+| 121 | Shobde_Shobde_Al-Quran_03.pdf | আল কুরআন মাজিদ | 8.7 MB | [Open in Drive](https://drive.google.com/file/d/1TdBc3IRx4cKsr9uS2ZI1nYJ1Po5XuDSb/view) |
+| 122 | Shobde_Shobde_Al-Quran_04.pdf | আল কুরআন মাজিদ | 7.8 MB | [Open in Drive](https://drive.google.com/file/d/1TKxfIF4v7JYZIgpo7ykze6eU7pKd9lO9/view) |
+| 123 | Shobde_Shobde_Al-Quran_05.pdf | আল কুরআন মাজিদ | 11.1 MB | [Open in Drive](https://drive.google.com/file/d/1x2q2QhMbK0dTz6JJgNAa3E_Cwzc7PaB-/view) |
+| 124 | Shobde_Shobde_Al-Quran_06.pdf | আল কুরআন মাজিদ | 9.8 MB | [Open in Drive](https://drive.google.com/file/d/1coqUqoAOJJ_r2L5Az6j52gz1hMe7NIfp/view) |
+| 125 | Shobde_Shobde_Al-Quran_07.pdf | আল কুরআন মাজিদ | 9.8 MB | [Open in Drive](https://drive.google.com/file/d/1I4SwsngxKQpr_gJyAqeHAHrAr-MXJGmZ/view) |
+| 126 | Shobde_Shobde_Al-Quran_08.pdf | আল কুরআন মাজিদ | 14.1 MB | [Open in Drive](https://drive.google.com/file/d/10WJep4iCNYmhGlJNYP65q-1_bwA9ShqO/view) |
+| 127 | Shobde_Shobde_Al-Quran_09.pdf | আল কুরআন মাজিদ | 13.0 MB | [Open in Drive](https://drive.google.com/file/d/1wAtCqV4SNscLWwxcDofcuhHWsLCIPaci/view) |
+| 128 | Shobde_Shobde_Al-Quran_10.pdf | আল কুরআন মাজিদ | 14.8 MB | [Open in Drive](https://drive.google.com/file/d/1Z-E00RLeF7oQWayoM_fRL3KvOX1FfsdR/view) |
+| 129 | Shobde_Shobde_Al-Quran_11.pdf | আল কুরআন মাজিদ | 12.6 MB | [Open in Drive](https://drive.google.com/file/d/1ZXp-FebvXY4ao9meZCXVb9Refp5ia3w_/view) |
+| 130 | Shobde_Shobde_Al-Quran_12.pdf | আল কুরআন মাজিদ | 14.0 MB | [Open in Drive](https://drive.google.com/file/d/1idZzaQb9aljS3_geoDSkHEwNSP1_Nk8X/view) |
+| 131 | Shobde_Shobde_Al-Quran_13.pdf | আল কুরআন মাজিদ | 15.0 MB | [Open in Drive](https://drive.google.com/file/d/1cve2BRRxFgcDrGfvC_xJY26Ei0l78ayB/view) |
+| 132 | Shobde_Shobde_Al-Quran_14.pdf | আল কুরআন মাজিদ | 8.2 MB | [Open in Drive](https://drive.google.com/file/d/1_vgtdF6Xcvsd2ejiT6lETcCT1YBDUIpe/view) |
+| 133 | Shohoz banglay quarner onubad 1.pdf | আল কুরআন মাজিদ | 16.5 MB | [Open in Drive](https://drive.google.com/file/d/100CaaaR0oCYHcANH-bmNVEwOGUQxjxR7/view) |
+| 134 | Shohoz banglay quarner onubad 2.pdf | আল কুরআন মাজিদ | 16.2 MB | [Open in Drive](https://drive.google.com/file/d/1Kgj5OrntOYzIM_4qkXnwt6IV-5C4ucwX/view) |
+| 135 | Shohoz banglay quarner onubad 3.pdf | আল কুরআন মাজিদ | 14.9 MB | [Open in Drive](https://drive.google.com/file/d/1HAbtiLD209xlWzreDQja_MuKEIOcTNB2/view) |
+| 136 | Sura Fatehar Tafsir.pdf | আল কুরআন মাজিদ | 1.4 MB | [Open in Drive](https://drive.google.com/file/d/1prj7QSpZbJA1MFiT8zulohp2e2x2nE7R/view) |
+| 137 | Tadabbure Quran 01.pdf | আল কুরআন মাজিদ | 27.9 MB | [Open in Drive](https://drive.google.com/file/d/1SfyXQn1bdiDPUjHdaKbqR7NITzhBTPkC/view) |
+| 138 | Tadabbure Quran 02.pdf | আল কুরআন মাজিদ | 25.9 MB | [Open in Drive](https://drive.google.com/file/d/1srXyEdw-sM0SS2EfSADahFHCU5eFQrj-/view) |
+| 139 | Tafhimul Quran nirdheshok.pdf | আল কুরআন মাজিদ | 12.2 MB | [Open in Drive](https://drive.google.com/file/d/1D2_Dlq5mBW6eiyvBImJG3W9IFJ88Gwtt/view) |
+| 140 | Tafir a Jalalail 01.pdf | আল কুরআন মাজিদ | 37.6 MB | [Open in Drive](https://drive.google.com/file/d/1Il0Q-5Q8v_YC4gF4cGXNF1fumbJactd0/view) |
+| 141 | Tafir a Jalalail 02.pdf | আল কুরআন মাজিদ | 35.9 MB | [Open in Drive](https://drive.google.com/file/d/1gexB-f27oqODGzYlUiufCXF78AuojPLu/view) |
+| 142 | Tafsir a Zilalil 1.pdf | আল কুরআন মাজিদ | 16.6 MB | [Open in Drive](https://drive.google.com/file/d/1aIaDwRYUUhTRhTUGT9Na-dkKoSsQ2Un2/view) |
+| 143 | Tafsir a Zilalil 10.pdf | আল কুরআন মাজিদ | 47.7 MB | [Open in Drive](https://drive.google.com/file/d/1RYdiyfvje3jzXz_WJpXtRR72Pu4DUW0C/view) |
+| 144 | Tafsir a Zilalil 11.pdf | আল কুরআন মাজিদ | 30.9 MB | [Open in Drive](https://drive.google.com/file/d/1FBZ2-iWEtZo-OrhRfm5U5AbxiWZMk0P-/view) |
+| 145 | Tafsir a Zilalil 12.pdf | আল কুরআন মাজিদ | 40.2 MB | [Open in Drive](https://drive.google.com/file/d/1ULURMiC3p_RF28bbfw6aeR1cg0RxyMmt/view) |
+| 146 | Tafsir a Zilalil 13.pdf | আল কুরআন মাজিদ | 29.4 MB | [Open in Drive](https://drive.google.com/file/d/12PRcM429F6GCiFFSQvuGfm-V-EYEs3EK/view) |
+| 147 | Tafsir a Zilalil 14.pdf | আল কুরআন মাজিদ | 13.7 MB | [Open in Drive](https://drive.google.com/file/d/1jOW8AZL8Dr1zL1StcLxYVC9vi6Zfgvx8/view) |
+| 148 | Tafsir a Zilalil 15.pdf | আল কুরআন মাজিদ | 7.8 MB | [Open in Drive](https://drive.google.com/file/d/1iA4TxC3InRkT4wZDzxVWwhj86Fg3dONv/view) |
+| 149 | Tafsir a Zilalil 16.pdf | আল কুরআন মাজিদ | 23.9 MB | [Open in Drive](https://drive.google.com/file/d/1zfFzDOMLtljYVoKabQ2DhJaONF2RyN7v/view) |
+| 150 | Tafsir a Zilalil 17.pdf | আল কুরআন মাজিদ | 25.6 MB | [Open in Drive](https://drive.google.com/file/d/12RQfXrNjPCQRxOq2H-O8Z_xx5kxPafiO/view) |
+| 151 | Tafsir a Zilalil 19.pdf | আল কুরআন মাজিদ | 34.9 MB | [Open in Drive](https://drive.google.com/file/d/1c6lcWUEWQKpLCCPLdqQb_R3iLTsW6e08/view) |
+| 152 | Tafsir a Zilalil 20.pdf | আল কুরআন মাজিদ | 45.3 MB | [Open in Drive](https://drive.google.com/file/d/19BaY5HWGGPFRQIK2Jzyr32_FxNu-Y-xS/view) |
+| 153 | Tafsir a Zilalil 21.pdf | আল কুরআন মাজিদ | 35.0 MB | [Open in Drive](https://drive.google.com/file/d/1WOqbY7pXHjuMrIwpATgMzhoDcB2RAz9G/view) |
+| 154 | Tafsir a Zilalil 4.pdf | আল কুরআন মাজিদ | 29.4 MB | [Open in Drive](https://drive.google.com/file/d/127ZMZZDS1fqonC_Q4OivBzEvQrbbpdBt/view) |
+| 155 | Tafsir a Zilalil 5.pdf | আল কুরআন মাজিদ | 22.2 MB | [Open in Drive](https://drive.google.com/file/d/1FYJFgq3DTWjkjQea_gpbTIlBwfaQfPsu/view) |
+| 156 | Tafsir a Zilalil 6.pdf | আল কুরআন মাজিদ | 27.9 MB | [Open in Drive](https://drive.google.com/file/d/16zN3ecsEnn_-36jEDgCnAAzbVo7ZYYy9/view) |
+| 157 | Tafsir a Zilalil 7.pdf | আল কুরআন মাজিদ | 23.3 MB | [Open in Drive](https://drive.google.com/file/d/10_VJdW6UUcumH3hZPp10gHnHzfm2b-sO/view) |
+| 158 | Tafsir a Zilalil 8.pdf | আল কুরআন মাজিদ | 18.2 MB | [Open in Drive](https://drive.google.com/file/d/13MXbQIHiPfPXz9O_KIMobIqDc2DQkkHD/view) |
+| 159 | Tafsir a Zilalil 9.pdf | আল কুরআন মাজিদ | 20.0 MB | [Open in Drive](https://drive.google.com/file/d/1id0MLx4ExBVjPM5yeFsydF5_MGWvljBM/view) |
+| 160 | Tafsir a Zilalil Ampara.pdf | আল কুরআন মাজিদ | 30.9 MB | [Open in Drive](https://drive.google.com/file/d/1czpF98px3v9KTrWqc5yWzhm8QG2ai2l_/view) |
+| 161 | Tafsirul Quran - tawhid prokashoni.pdf | আল কুরআন মাজিদ | 25.3 MB | [Open in Drive](https://drive.google.com/file/d/1YDc8rnHnFTmKTKP58_-Y_5mqXdLBQnjg/view) |
+| 162 | _page 1-50.pdf | আল কুরআন মাজিদ | 6.3 MB | [Open in Drive](https://drive.google.com/file/d/1stibTXNeh7q45ydmWhwwbJk-JhfZJGIe/view) |
+| 163 | _page 104-162.pdf | আল কুরআন মাজিদ | 7.8 MB | [Open in Drive](https://drive.google.com/file/d/14Np4saeO7dOAiif2AxqlzddfI3i7eb5w/view) |
+| 164 | _pagr 51-103.pdf | আল কুরআন মাজিদ | 6.6 MB | [Open in Drive](https://drive.google.com/file/d/11A-9OjVp_iAoPZpTSWffuV-0LPVrY2lf/view) |
+| 165 | page 1-54.pdf | আল কুরআন মাজিদ | 5.4 MB | [Open in Drive](https://drive.google.com/file/d/10gWjnw2T1EoERd4ORWi8EoIhLNZa9vVS/view) |
+| 166 | page 119-182.pdf | আল কুরআন মাজিদ | 5.1 MB | [Open in Drive](https://drive.google.com/file/d/1O5LpNvDL8pZfdQQCG8IQIRUXvsZv39z_/view) |
+| 167 | page 183-246.pdf | আল কুরআন মাজিদ | 5.5 MB | [Open in Drive](https://drive.google.com/file/d/1uPrEdRFP0iUCZK4LNm1ohHK2dmXjuX7B/view) |
+| 168 | page 55-118.pdf | আল কুরআন মাজিদ | 4.8 MB | [Open in Drive](https://drive.google.com/file/d/1sZ5DMkb-mSyv5vcMZ7FDERWPV5IPbL3D/view) |
+| 169 | কোরআন মাজিদ আরবি-বাংলা (মুজিবর রহমান).pdf | আল কুরআন মাজিদ | 26.9 MB | [Open in Drive](https://drive.google.com/file/d/1EMsDxyL-ihLvBihZ9bOmm3JIwJA7kDhV/view) |
+| 170 | কোরআন মাজিদ-বাংলা_ড.জহুরুল হক ১.pdf | আল কুরআন মাজিদ | 1.9 MB | [Open in Drive](https://drive.google.com/file/d/1UcfattYoVEyZWElDqfnV897rSlUcpQ_N/view) |
+| 171 | কোরআন মাজিদ-বাংলা_ড.জহুরুল হক ২.pdf | আল কুরআন মাজিদ | 3.1 MB | [Open in Drive](https://drive.google.com/file/d/1N-s_Sgp_PYT-8H28YxmLKlqo77_p-slm/view) |
+| 172 | কোরআন মাজিদ-বাংলা_ড.জহুরুল হক ৩.pdf | আল কুরআন মাজিদ | 4.4 MB | [Open in Drive](https://drive.google.com/file/d/1_4HR9J0tQPtNHXa9FQ9Twg6qVmt4ChRb/view) |
+| 173 | কোরআন শরীফ (১ম খণ্ড) আকরাম খাঁ.pdf | আল কুরআন মাজিদ | 16.4 MB | [Open in Drive](https://drive.google.com/file/d/1lTE7RrljPkYuUHA6BX8jNmxnUdoX1tqY/view) |
+| 174 | কোরআন শরীফ - আল কোরআন একাডেমী লন্ডন.pdf | আল কুরআন মাজিদ | 27.6 MB | [Open in Drive](https://drive.google.com/file/d/1strWOgLGeLzFalWvXm0C9FJHZCqQG9JB/view) |
+| 175 | তরজমায়ে কুরআন মজীদ.pdf | আল কুরআন মাজিদ | 44.9 MB | [Open in Drive](https://drive.google.com/file/d/1V1VeuP4rDT9XCMYzFQnRLMShija4D9Jd/view) |
+| 176 | পারা ২৯ নূরানী.pdf | আল কুরআন মাজিদ | 4.9 MB | [Open in Drive](https://drive.google.com/file/d/1HVpgzhTRB95d4SsA03vslOZv-9oTmad1/view) |
+| 177 | পারা ৩০ নূরানী.pdf | আল কুরআন মাজিদ | 5.4 MB | [Open in Drive](https://drive.google.com/file/d/1P91QHe4ZzT73mwG6WWBtYRvg1s9hv9Lx/view) |
+| 178 | শব্দার্থে আল কুরআনুল মজীদ - ১ম খন্ড.pdf | আল কুরআন মাজিদ | 8.4 MB | [Open in Drive](https://drive.google.com/file/d/18X68sb_TTxDsPrS8taQBQtxVyNW4KdJU/view) |
+| 179 | শব্দার্থে আল কুরআনুল মজীদ - ১০ম খন্ড.pdf | আল কুরআন মাজিদ | 6.6 MB | [Open in Drive](https://drive.google.com/file/d/1vu-Exu6Y2Z-5I--jLx932cLEb1u_WeTe/view) |
+| 180 | শব্দার্থে আল কুরআনুল মজীদ - ২য় খন্ড.pdf | আল কুরআন মাজিদ | 9.3 MB | [Open in Drive](https://drive.google.com/file/d/17sH6Jy78Bk9lKHkXWsYfjUFPEG-bgtgW/view) |
+| 181 | শব্দার্থে আল কুরআনুল মজীদ - ৩য় খন্ড.pdf | আল কুরআন মাজিদ | 10.5 MB | [Open in Drive](https://drive.google.com/file/d/1YhuET2wnprTtb3M0b8Atg4Q8grJSs1FH/view) |
+| 182 | শব্দার্থে আল কুরআনুল মজীদ - ৪র্থ খন্ড.pdf | আল কুরআন মাজিদ | 8.1 MB | [Open in Drive](https://drive.google.com/file/d/1gQipEJ5DvwMVKTWkWkXmUGE64OpDh7MM/view) |
+| 183 | শব্দার্থে আল কুরআনুল মজীদ - ৫ম খন্ড.pdf | আল কুরআন মাজিদ | 8.9 MB | [Open in Drive](https://drive.google.com/file/d/1-ZfSdQK4nmcRv07UybDQZbzpcOabNCSb/view) |
+| 184 | শব্দার্থে আল কুরআনুল মজীদ - ৬ষ্ঠ খন্ড.pdf | আল কুরআন মাজিদ | 8.7 MB | [Open in Drive](https://drive.google.com/file/d/1je3eLyN2qjIMlTMiY97WWG2cX-DtJZyd/view) |
+| 185 | শব্দার্থে আল কুরআনুল মজীদ - ৭ম খন্ড.pdf | আল কুরআন মাজিদ | 8.5 MB | [Open in Drive](https://drive.google.com/file/d/1EaGzB24JJtkxqs8lQ31b_bzI185Sugej/view) |
+| 186 | শব্দার্থে আল কুরআনুল মজীদ - ৮ম খন্ড.pdf | আল কুরআন মাজিদ | 7.9 MB | [Open in Drive](https://drive.google.com/file/d/17I3ncuk7uUAta-23q-gpdnIaW5kZurQk/view) |
+| 187 | শব্দার্থে আল কুরআনুল মজীদ - ৯ম খন্ড.pdf | আল কুরআন মাজিদ | 7.0 MB | [Open in Drive](https://drive.google.com/file/d/1x_Tsob65JDWMuYCsAo43kRIxCK3OkTLt/view) |
 | 188 | 01আল কুরআনুল কারীম .pdf | আল-কোরআন সম্পর্কে বই | 54.4 MB | [Open in Drive](https://drive.google.com/file/d/1WrUIf9EVxLSdWlUhxOvKnFDywjGHAnvN/view) |
 | 189 | 02তাফসীরুল উশরিল আখীর.pdf | আল-কোরআন সম্পর্কে বই | 15.5 MB | [Open in Drive](https://drive.google.com/file/d/1PWH_rCyVrYWtDYQe11QTeOFrwKKbKRld/view) |
 | 190 | 04 quran kivabe porbo o bujhbo@Islamke Janun call-01811909111 -01927807760 -.pdf | আল-কোরআন সম্পর্কে বই | 2.4 MB | [Open in Drive](https://drive.google.com/file/d/1VkuK5ejt6TDDL9WDl_xybObgfgmZ5s_5/view) |
@@ -256,26 +256,26 @@
 | 202 | আল কুরআনে বিজ্ঞান.pdf | ইসলাম ও বিজ্ঞান | 16.9 MB | [Open in Drive](https://drive.google.com/file/d/1L9z2LZ4pj17XH3-_A__X3_55e2Si0fDB/view) |
 | 203 | বাইবেল,কোরআন ও বিজ্ঞান-ড. মরিস বুকাইলি.pdf | ইসলাম ও বিজ্ঞান | 7.3 MB | [Open in Drive](https://drive.google.com/file/d/11H77vvZpNotTuDAImjyOSrCSN9WwqOu5/view) |
 | 204 | বিজ্ঞানময় কুরআন.pdf | ইসলাম ও বিজ্ঞান | 15.4 MB | [Open in Drive](https://drive.google.com/file/d/1nNHXhlwGllg9ow_OmDknFvQIaOLT7OGD/view) |
-| 205 | আল কুরআন আত তাফসির.pdf | ইসলামিক সাহিত্য | 5.8 MB | [Open in Drive](https://drive.google.com/file/d/16XmjUH9DWrW86vGNRI0koRkGAWzKWGjJ/view) |
-| 206 | আল কুরআন এক মহাবিস্ময়.pdf | ইসলামিক সাহিত্য | 2.5 MB | [Open in Drive](https://drive.google.com/file/d/16gnwEItvuGyX4epRQlLOTWf7qdgW8Ack/view) |
-| 207 | আল কুরআনে নারী - ১ম খন্ড.pdf | ইসলামিক সাহিত্য | 4.5 MB | [Open in Drive](https://drive.google.com/file/d/10FVBLVSXuwSHGARI4vO-uVlpMtkgJO78/view) |
-| 208 | আল কুরআনে নারী - ২য় খন্ড.pdf | ইসলামিক সাহিত্য | 6.9 MB | [Open in Drive](https://drive.google.com/file/d/10Jg3STVOtIX4wY2Vqa8m0-cXcAViP6kN/view) |
-| 209 | আল কোরআন এর আরবি শিক্ষা.pdf | ইসলামিক সাহিত্য | 658.9 KB | [Open in Drive](https://drive.google.com/file/d/16mkNcOh51wP1ai__EUzYdCioMsQ-mHz4/view) |
-| 210 | আল কোরআন শিক্ষা পদ্ধতি.pdf | ইসলামিক সাহিত্য | 2.6 MB | [Open in Drive](https://drive.google.com/file/d/16oTKb38-nPFTxy-KzG86Ct7dctAApEJA/view) |
-| 211 | আল-কুরআনে নবুয়্যত ও রিসালাত.pdf | ইসলামিক সাহিত্য | 8.3 MB | [Open in Drive](https://drive.google.com/file/d/16tFIlZgKZWHceuTggWO2Kv9LXz-EovPr/view) |
-| 212 | আল-কুরআনের আলোকে তাওরাত,যাবূর,ইনজীল বনাম ‘পবিত্র বাইবেল’ পর্ব -২.pdf | ইসলামিক সাহিত্য | 747.7 KB | [Open in Drive](https://drive.google.com/file/d/174JMYngMdV1WLAftAjgINHM7XMUdyZcU/view) |
-| 213 | আল-কোরআনের দৃষ্টিতে মহাকাশ ও বিজ্ঞান.pdf | ইসলামিক সাহিত্য | 3.5 MB | [Open in Drive](https://drive.google.com/file/d/178omQSppY1NYlpEN2x-gHvyxmH8yNBA2/view) |
-| 214 | ইসমুত তাফসীর.pdf | ইসলামিক সাহিত্য | 2.6 MB | [Open in Drive](https://drive.google.com/file/d/17ntGktRt-aOVMvGDobQ-DoSvil9N736W/view) |
-| 215 | কুরআন ও আধুনিক বিজ্ঞান - সংগতিপূর্ণ না সংগতিহীন.pdf | ইসলামিক সাহিত্য | 1.7 MB | [Open in Drive](https://drive.google.com/file/d/1AXIdP8a-2P32E5xFqa6IxJSgc0taUUZ4/view) |
-| 216 | কুরআন ও সহীহ হাদীসের আলোকে রাসূল স. এর প্র্যাকটিক্যাল নামায.pdf | ইসলামিক সাহিত্য | 8.4 MB | [Open in Drive](https://drive.google.com/file/d/1AXRbjVfHnyRVjX3D4CPmOPXUpQAlCAL0/view) |
-| 217 | কুরআন ও সহীহ হাদীসের আলোকে সহীহ ফাযায়েলে আমল.pdf | ইসলামিক সাহিত্য | 14.8 MB | [Open in Drive](https://drive.google.com/file/d/1Ac-0AizihN2iX1LmGaOVof14QKNbKRop/view) |
-| 218 | কোরআন মাজিদের কিছু গোপন রহস্য.pdf | ইসলামিক সাহিত্য | 13.7 MB | [Open in Drive](https://drive.google.com/file/d/1BG2LaZOhlutcFlRjsMeQY07M7x7azCgd/view) |
-| 219 | চাঁদ ও কোরআন.pdf | ইসলামিক সাহিত্য | 1.1 MB | [Open in Drive](https://drive.google.com/file/d/1-vhr1YI4DgNBOdefdOsKveEoe4Xc-XUh/view) |
-| 220 | পবিত্র আল-কুরআনের দু_আ.pdf | ইসলামিক সাহিত্য | 1.7 MB | [Open in Drive](https://drive.google.com/file/d/1E68wRzNoEfe0lVPiHbfEhvAEOcHCKjg5/view) |
-| 221 | পবিত্র কোরআনের মু_জিজা.pdf | ইসলামিক সাহিত্য | 4.1 MB | [Open in Drive](https://drive.google.com/file/d/1EB04A3MODW_p4_-_WNHYZmfeRpm0R7ku/view) |
+| 205 | আল কুরআন আত তাফসির.pdf | ইসলামিক সাহিত্য | 5.8 MB | [Open in Drive](https://drive.google.com/file/d/1PKTWRlblhSiPMzWffe5ERgLjkay1sAar/view) |
+| 206 | আল কুরআন এক মহাবিস্ময়.pdf | ইসলামিক সাহিত্য | 2.5 MB | [Open in Drive](https://drive.google.com/file/d/1qpITrStCvceCUxHa_PlGoYpmHdMIrZwc/view) |
+| 207 | আল কুরআনে নারী - ১ম খন্ড.pdf | ইসলামিক সাহিত্য | 4.5 MB | [Open in Drive](https://drive.google.com/file/d/1T2xLyO44CipV7ceyQfIK3-YukCXMbtFn/view) |
+| 208 | আল কুরআনে নারী - ২য় খন্ড.pdf | ইসলামিক সাহিত্য | 6.9 MB | [Open in Drive](https://drive.google.com/file/d/12EzGK-bo1QVUABWekXo_tYdLvBLp_iFd/view) |
+| 209 | আল কোরআন এর আরবি শিক্ষা.pdf | ইসলামিক সাহিত্য | 658.9 KB | [Open in Drive](https://drive.google.com/file/d/1RtxmXQgBLbCk4QUWXdk38w4iaLaAwKK5/view) |
+| 210 | আল কোরআন শিক্ষা পদ্ধতি.pdf | ইসলামিক সাহিত্য | 2.6 MB | [Open in Drive](https://drive.google.com/file/d/1ckBYuD3VdCc6WR5t8bkqMbUP3oj5yaUm/view) |
+| 211 | আল-কুরআনে নবুয়্যত ও রিসালাত.pdf | ইসলামিক সাহিত্য | 8.3 MB | [Open in Drive](https://drive.google.com/file/d/1l47DQrrbVMRNQoeBlmFpLsAArJhyeU4L/view) |
+| 212 | আল-কুরআনের আলোকে তাওরাত,যাবূর,ইনজীল বনাম ‘পবিত্র বাইবেল’ পর্ব -২.pdf | ইসলামিক সাহিত্য | 747.7 KB | [Open in Drive](https://drive.google.com/file/d/1R7kNVL3wB6EMVQco-Mz2l0-uaBHEsTmJ/view) |
+| 213 | আল-কোরআনের দৃষ্টিতে মহাকাশ ও বিজ্ঞান.pdf | ইসলামিক সাহিত্য | 3.5 MB | [Open in Drive](https://drive.google.com/file/d/1kaionRZRRFlN-6HWKvNQTFUgmaJzzVF8/view) |
+| 214 | ইসমুত তাফসীর.pdf | ইসলামিক সাহিত্য | 2.6 MB | [Open in Drive](https://drive.google.com/file/d/1y1JmOP-pz6G9NkSP5HeEUe3nOCq9gcFl/view) |
+| 215 | কুরআন ও আধুনিক বিজ্ঞান - সংগতিপূর্ণ না সংগতিহীন.pdf | ইসলামিক সাহিত্য | 1.7 MB | [Open in Drive](https://drive.google.com/file/d/1pKiCXJcmX0w5abuMRfSzmYxcR-P6pmJP/view) |
+| 216 | কুরআন ও সহীহ হাদীসের আলোকে রাসূল স. এর প্র্যাকটিক্যাল নামায.pdf | ইসলামিক সাহিত্য | 8.4 MB | [Open in Drive](https://drive.google.com/file/d/1CflSeHyDKYYbso_sJdllQtcBd6AL6saN/view) |
+| 217 | কুরআন ও সহীহ হাদীসের আলোকে সহীহ ফাযায়েলে আমল.pdf | ইসলামিক সাহিত্য | 14.8 MB | [Open in Drive](https://drive.google.com/file/d/1BYljYIzsr9O2ZSRku4lZ-KQlqYElKiOI/view) |
+| 218 | কোরআন মাজিদের কিছু গোপন রহস্য.pdf | ইসলামিক সাহিত্য | 13.7 MB | [Open in Drive](https://drive.google.com/file/d/1XT3cooSP4VKfUyAZd-57qdvDZlwtwts0/view) |
+| 219 | চাঁদ ও কোরআন.pdf | ইসলামিক সাহিত্য | 1.1 MB | [Open in Drive](https://drive.google.com/file/d/1OHZbeTduIzEk1q2YdJ3XCud6l85o8ff5/view) |
+| 220 | পবিত্র আল-কুরআনের দু_আ.pdf | ইসলামিক সাহিত্য | 1.7 MB | [Open in Drive](https://drive.google.com/file/d/1kXHjhduC2LgcdF8BkDhBoBKZKkUCcdga/view) |
+| 221 | পবিত্র কোরআনের মু_জিজা.pdf | ইসলামিক সাহিত্য | 4.1 MB | [Open in Drive](https://drive.google.com/file/d/1nVUrYleaKlQyRpBJQZ5qOFa0BW94ifKf/view) |
 | 222 | কুরআন ও সুন্নায় সুদ নিষিদ্ধকরণ.pdf | ইসলামী অর্থনীতি,ব্যাংক,সুদ ও ব্যবসা | 933.1 KB | [Open in Drive](https://drive.google.com/file/d/1WTA5FUiuPOdt-tbc_ehRQOsQsCM8pUJb/view) |
 | 223 | আল কুরআনের গল্প, শিশুতোষ.pdf | ইসলামী গল্প | 2.4 MB | [Open in Drive](https://drive.google.com/file/d/1ZDsPhYv8JMd0VBxmdL1o59Q1LZ_IFd4F/view) |
-| 224 | কোরআন হাদীস সংকলনের ইতিহাস.pdf | ইসলামের ইতিহাস | 4.5 MB | [Open in Drive](https://drive.google.com/file/d/1zi7BorDIAIWzbDd-ePMwcOw5CTibsxAv/view) |
+| 224 | কোরআন হাদীস সংকলনের ইতিহাস.pdf | ইসলামের ইতিহাস | 4.5 MB | [Open in Drive](https://drive.google.com/file/d/17Ylfk00t0jWRMe-v-7fuRIKilicMUd8d/view) |
 | 225 | ইসলামী আকীদা( কুরআন-সুন্নাহর আলোকে)- ড. আব্দুল্লাহ জাহাঙ্গীর.pdf | ঈমান ও আকীদা | 18.6 MB | [Open in Drive](https://drive.google.com/file/d/1KjrMrnkNsrZqBHuZ2VL1A-p8HuHrS2P5/view) |
 | 226 | ঈমানের মৌলিক বিষয়সমুহ(কুরআন সুন্নাহের আলোকে).pdf | ঈমান ও আকীদা | 34.4 MB | [Open in Drive](https://drive.google.com/file/d/1Xz_1W_1jU66TO1k63BSumHboNC5wQwWU/view) |
 | 227 | কাসাসুল কুরআন-01.pdf | কাসাসুল কুরআন | 5.2 MB | [Open in Drive](https://drive.google.com/file/d/1hCmUXjsiFyO8woxQj1vjZ3vfI-WIh8_C/view) |
@@ -423,13 +423,13 @@
 | 369 | দারসে কুরান ৫ম খণ্ড – অধ্যাপক আবদুল মতিন.pdf | দারসে কুরআন | 4.2 MB | [Open in Drive](https://drive.google.com/file/d/1fuHI8GxnyqF-B-sKz8WrPOZ0k_UJvl_G/view) |
 | 370 | দারসে কুরান ৬ষ্ঠ খণ্ড – অধ্যাপক আবদুল মতিন.pdf | দারসে কুরআন | 4.5 MB | [Open in Drive](https://drive.google.com/file/d/1iiv_NL-UNSEQXVSozaV4LEEc0VrLnZpg/view) |
 | 371 | পবিত্র কোরআনের মু'জিজা – আল্লামা দেলাওয়ার হোসাইন সাঈদী.pdf | দেলোয়ার হুসেন সাঈদী | 4.1 MB | [Open in Drive](https://drive.google.com/file/d/1HonoKLGSj8OX2DrHPBBwvCA0WpZqpMkT/view) |
-| 372 | Al-Quran-Ek-Mohabissoy.pdf | নতুন | 2.7 MB | [Open in Drive](https://drive.google.com/file/d/1nF1kO_FV3C5nmtAldFFgM9kPRzRuHnLr/view) |
-| 373 | bn_quran_buzar_sohoj_obhidhan.pdf | নতুন | 2.1 MB | [Open in Drive](https://drive.google.com/file/d/1BY5zgHHKN-JNziZrpIta-xAHa76H_XWs/view) |
-| 374 | quran bujha sohoj.pdf | নতুন | 1.2 MB | [Open in Drive](https://drive.google.com/file/d/1GvEkk2EePHHcixFCGchwDlSrYQRhg8Hj/view) |
-| 375 | আল_কুরআনের_শিল্পিক_সৌন্দর্য_–_সাইয়েদ_কুতুব_.pdf | নতুন | 8.6 MB | [Open in Drive](https://drive.google.com/file/d/1xaVRWBVjvUF3NXZNmrzTBz59LiSCGUki/view) |
-| 376 | কুরআন_হাদীসের_35টি_ভবিষ্যদ্বাণী.pdf | নতুন | 28.3 MB | [Open in Drive](https://drive.google.com/file/d/1EKK_rdss_0VTlklWxWyOzjjRcPdYdhpd/view) |
-| 377 | নবীর_কুরআনী_পরিচয়_–_সাইয়েদ_আবুল_আলা_মওদুদী.pdf | নতুন | 1.1 MB | [Open in Drive](https://drive.google.com/file/d/1qwDlFHtpa46pUNlIKQaH1i-0fs0J7lvv/view) |
-| 378 | সহজ জামালুল কুরআন.pdf | নতুন | 1.4 MB | [Open in Drive](https://drive.google.com/file/d/1aJ_D9Nmb_P0nnyJ8_8k6A7CF0k5B7hMz/view) |
+| 372 | Al-Quran-Ek-Mohabissoy.pdf | নতুন | 2.7 MB | [Open in Drive](https://drive.google.com/file/d/1vy3Un1mQXD75JEamq79c9HD1r8tzjadr/view) |
+| 373 | bn_quran_buzar_sohoj_obhidhan.pdf | নতুন | 2.1 MB | [Open in Drive](https://drive.google.com/file/d/1lDuCatwsso-i5vcVKkrWMXOgi9PYH-1R/view) |
+| 374 | quran bujha sohoj.pdf | নতুন | 1.2 MB | [Open in Drive](https://drive.google.com/file/d/1F7Jisk52G6eOyUmvZo0EELqZgrK_RYDG/view) |
+| 375 | আল_কুরআনের_শিল্পিক_সৌন্দর্য_–_সাইয়েদ_কুতুব_.pdf | নতুন | 8.6 MB | [Open in Drive](https://drive.google.com/file/d/1iTHGwETwmiDlQcz5RN7oKfdLuK5YgLp-/view) |
+| 376 | কুরআন_হাদীসের_35টি_ভবিষ্যদ্বাণী.pdf | নতুন | 28.3 MB | [Open in Drive](https://drive.google.com/file/d/1NoZqNtk24_n8PUmc8Nn8qk5kp9fQiySM/view) |
+| 377 | নবীর_কুরআনী_পরিচয়_–_সাইয়েদ_আবুল_আলা_মওদুদী.pdf | নতুন | 1.1 MB | [Open in Drive](https://drive.google.com/file/d/1QdjlBgPq9FoHdAt2g0Upv0siVRIzEhcI/view) |
+| 378 | সহজ জামালুল কুরআন.pdf | নতুন | 1.4 MB | [Open in Drive](https://drive.google.com/file/d/1a8Tps0FxFeoJJvsOIenZZYTN1tzDQgAh/view) |
 | 379 | আল কুরআনে নারী-01.pdf | নারী | 4.5 MB | [Open in Drive](https://drive.google.com/file/d/12wdwOwrJAZs-LAq7-pqd0Os6SksdnOUO/view) |
 | 380 | আল কুরআনে নারী-02.pdf | নারী | 7.0 MB | [Open in Drive](https://drive.google.com/file/d/1ZzxVydsLGfHCIq6jN9aOhFSaw8Vzju71/view) |
 | 381 | কুরআন হাদীস ও চ.txt | প্রায় ৮০ টি ইসলামিক ও প্রয়োজনীয় text ফাইল | 26.8 KB | [Open in Drive](https://drive.google.com/file/d/1oRIL3x5Z1i8qaOK-kGJtk7Up8Wsjc4_A/view) |

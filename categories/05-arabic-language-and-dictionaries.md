@@ -97,17 +97,17 @@
 | 78 | ব্যাবহারিক আরবি-1-Calp Program-উন্মুক্ত বিশ্ববিদ্যালয়.pdf | আরবী ভাষা শিক্ষা বই | 2.6 MB | [Open in Drive](https://drive.google.com/file/d/16WZhDpyEFmo9DlW7XDW8QHeeNNcNb_e2/view) |
 | 79 | ব্যাবহারিক আরবি-2-Calp Program-উন্মুক্ত বিশ্ববিদ্যালয়.pdf | আরবী ভাষা শিক্ষা বই | 2.8 MB | [Open in Drive](https://drive.google.com/file/d/1darzRxfXxIaQ9KGh6iGAJivi4ZwLSgTh/view) |
 | 80 | ২৫ দিনে সহজ উপায়ে সৌদি ভাষা শিক্ষা.pdf | আরবী ভাষা শিক্ষা বই | 10.3 MB | [Open in Drive](https://drive.google.com/file/d/1m-296WLg8t0l4bp-aT7AjlHJdVTHF3TD/view) |
-| 81 | কোরআনের অভিধান.pdf | আল কুরআন মাজিদ | 5.5 MB | [Open in Drive](https://drive.google.com/file/d/1kQMwLUx_VIzpq4w3_Q1WFtA-Gg5hzBQZ/view) |
-| 82 | Fathul Bari Sharah Sahih Al-Bukhari (Arabic) 01.pdf | হাদীস শরীফ | 21.3 MB | [Open in Drive](https://drive.google.com/file/d/1c5MjNx4fOJh9BS-SUC6yQ0Krd7MVWOPs/view) |
-| 83 | Fathul Bari Sharah Sahih Al-Bukhari (Arabic) 02.pdf | হাদীস শরীফ | 20.6 MB | [Open in Drive](https://drive.google.com/file/d/1cKQXREnKg2TLvVVUTeZTrSUkIN0H_r_T/view) |
-| 84 | Fathul Bari Sharah Sahih Al-Bukhari (Arabic) 03.pdf | হাদীস শরীফ | 21.6 MB | [Open in Drive](https://drive.google.com/file/d/1cNx3NkG476WwHUn9G2cJotk2NU6cQ9aa/view) |
-| 85 | Fathul Bari Sharah Sahih Al-Bukhari (Arabic) 04.pdf | হাদীস শরীফ | 18.4 MB | [Open in Drive](https://drive.google.com/file/d/1cX7asFl-IEoEgrnuNITV3ZAadq9Nekf9/view) |
-| 86 | Fathul Bari Sharah Sahih Al-Bukhari (Arabic) 05.pdf | হাদীস শরীফ | 14.3 MB | [Open in Drive](https://drive.google.com/file/d/1cl5F-hrnDrZJbH_6dbTbGJh22zjkGKfr/view) |
-| 87 | Fathul Bari Sharah Sahih Al-Bukhari (Arabic) 06.pdf | হাদীস শরীফ | 20.9 MB | [Open in Drive](https://drive.google.com/file/d/1clN7wYthy6aadu72nkr1Tz9ZoS1iiaMm/view) |
-| 88 | Fathul Bari Sharah Sahih Al-Bukhari (Arabic) 07.pdf | হাদীস শরীফ | 17.8 MB | [Open in Drive](https://drive.google.com/file/d/1clpSekgERdErhSqpUmMkccqyy3tAdYCd/view) |
-| 89 | Fathul Bari Sharah Sahih Al-Bukhari (Arabic) 08.pdf | হাদীস শরীফ | 25.6 MB | [Open in Drive](https://drive.google.com/file/d/1cpuxcEWv6XfxCpm1fTKQZw9uFmFv-0_V/view) |
-| 90 | Fathul Bari Sharah Sahih Al-Bukhari (Arabic) 09.pdf | হাদীস শরীফ | 16.2 MB | [Open in Drive](https://drive.google.com/file/d/1cvLvkL2WjHLQSooF7J23hiScx8jCsTFA/view) |
-| 91 | Fathul Bari Sharah Sahih Al-Bukhari (Arabic) 10.pdf | হাদীস শরীফ | 22.9 MB | [Open in Drive](https://drive.google.com/file/d/1cvXD2u1eaapYPk8kmYTaajoRSUQmLxxN/view) |
-| 92 | Fathul Bari Sharah Sahih Al-Bukhari (Arabic) 11.pdf | হাদীস শরীফ | 25.4 MB | [Open in Drive](https://drive.google.com/file/d/1dND56Zxaabis1V6yO4FvXPV9XbCiM-gd/view) |
-| 93 | Fathul Bari Sharah Sahih Al-Bukhari (Arabic) 12.pdf | হাদীস শরীফ | 18.2 MB | [Open in Drive](https://drive.google.com/file/d/1dOfPmmiAu47fmiG-6QD5SbXVM7qtRAy5/view) |
-| 94 | Fathul Bari Sharah Sahih Al-Bukhari (Arabic) 13.pdf | হাদীস শরীফ | 19.5 MB | [Open in Drive](https://drive.google.com/file/d/1dSgbak4SlcdJSc7A3r27Y4v9QCITTAb3/view) |
+| 81 | কোরআনের অভিধান.pdf | আল কুরআন মাজিদ | 5.5 MB | [Open in Drive](https://drive.google.com/file/d/1PHiHI4ZEj-09JcmjTMCzkcGrcoRhrI01/view) |
+| 82 | Fathul Bari Sharah Sahih Al-Bukhari (Arabic) 01.pdf | হাদীস শরীফ | 21.3 MB | [Open in Drive](https://drive.google.com/file/d/1YEVdwKdFYUoFMbFZWHjuxWin6DPq5i_U/view) |
+| 83 | Fathul Bari Sharah Sahih Al-Bukhari (Arabic) 02.pdf | হাদীস শরীফ | 20.6 MB | [Open in Drive](https://drive.google.com/file/d/1AUli3d8LVFqkI4jw9LWsWunbrxC9O5Sg/view) |
+| 84 | Fathul Bari Sharah Sahih Al-Bukhari (Arabic) 03.pdf | হাদীস শরীফ | 21.6 MB | [Open in Drive](https://drive.google.com/file/d/18_e5nM5-uxx2vC0Yw3Pc0_CN7DzrY29f/view) |
+| 85 | Fathul Bari Sharah Sahih Al-Bukhari (Arabic) 04.pdf | হাদীস শরীফ | 18.4 MB | [Open in Drive](https://drive.google.com/file/d/16lHZE7DOMrraimmmR5x2weraqWVPfmsK/view) |
+| 86 | Fathul Bari Sharah Sahih Al-Bukhari (Arabic) 05.pdf | হাদীস শরীফ | 14.3 MB | [Open in Drive](https://drive.google.com/file/d/1GPZ8wZsHZyvsxfWObuj8sMtbQpjmTeqa/view) |
+| 87 | Fathul Bari Sharah Sahih Al-Bukhari (Arabic) 06.pdf | হাদীস শরীফ | 20.9 MB | [Open in Drive](https://drive.google.com/file/d/1EDpMqe4ktt9TPjr7GZ7UlHBz-ernFvld/view) |
+| 88 | Fathul Bari Sharah Sahih Al-Bukhari (Arabic) 07.pdf | হাদীস শরীফ | 17.8 MB | [Open in Drive](https://drive.google.com/file/d/1egJkXCwe9LpxeUaBKoPx8VeVPupF8MLa/view) |
+| 89 | Fathul Bari Sharah Sahih Al-Bukhari (Arabic) 08.pdf | হাদীস শরীফ | 25.6 MB | [Open in Drive](https://drive.google.com/file/d/1nJca6wEbhvV5SW71B2vUXeb4fylkf8M1/view) |
+| 90 | Fathul Bari Sharah Sahih Al-Bukhari (Arabic) 09.pdf | হাদীস শরীফ | 16.2 MB | [Open in Drive](https://drive.google.com/file/d/1Ect9s3mhK7jxUs3qdP6P49bB040flqJa/view) |
+| 91 | Fathul Bari Sharah Sahih Al-Bukhari (Arabic) 10.pdf | হাদীস শরীফ | 22.9 MB | [Open in Drive](https://drive.google.com/file/d/1xcjLiV1RXtHFjO_dyOeLnzMd5TChueLH/view) |
+| 92 | Fathul Bari Sharah Sahih Al-Bukhari (Arabic) 11.pdf | হাদীস শরীফ | 25.4 MB | [Open in Drive](https://drive.google.com/file/d/16LMyZ7RPcbE08BaOlByeJZkXwRn73Mwt/view) |
+| 93 | Fathul Bari Sharah Sahih Al-Bukhari (Arabic) 12.pdf | হাদীস শরীফ | 18.2 MB | [Open in Drive](https://drive.google.com/file/d/1uCEaBLBzFQgjLfJVLo4VRN8gl2pO2PGB/view) |
+| 94 | Fathul Bari Sharah Sahih Al-Bukhari (Arabic) 13.pdf | হাদীস শরীফ | 19.5 MB | [Open in Drive](https://drive.google.com/file/d/1Py_f-oMhKoNjQ5bWlruuogiDyAx9dMez/view) |
