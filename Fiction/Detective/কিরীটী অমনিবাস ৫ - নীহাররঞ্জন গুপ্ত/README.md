@@ -1,0 +1,29 @@
+# 📖 কিরীটী অমনিবাস ৫ - নীহাররঞ্জন গুপ্ত
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Fiction](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Fiction/README.md) / [Detective](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Fiction/Detective/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1iHQsUs3MsYzjto9l-kZ1cjcHD_JeOrS1)
+
+![কিরীটী অমনিবাস ৫ - নীহাররঞ্জন গুপ্ত](https://drive.google.com/thumbnail?id=14xMIZpv3Y5eSqAC9fWWnsnnl6t4V5e9L&sz=w600)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1iHQsUs3MsYzjto9l-kZ1cjcHD_JeOrS1) |
+| 📄 **Structured Text (JSON)** | [Open Text JSON in Drive](https://drive.google.com/file/d/1WzYrPhGxXt5LDiHyyZq2QRbgL7bWLOau/view) |
+| 🖼️ **Cover Image** | [View Cover in Drive](https://drive.google.com/file/d/14xMIZpv3Y5eSqAC9fWWnsnnl6t4V5e9L/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | কিরীটী অমনিবাস ৫ - নীহাররঞ্জন গুপ্ত |
+| **Author** | নীহাররঞ্জন গুপ্ত |
+| **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
+| **Category** | Fiction/Detective |
+| **Formats** | COVER, TEXT, json |
+| **Total Size** | 2.5 MB |
+
+### 📂 Files Inside Folder
+
+- [কিরীটী অমনিবাস ৫ - নীহাররঞ্জন গুপ্ত.jpg](https://drive.google.com/file/d/14xMIZpv3Y5eSqAC9fWWnsnnl6t4V5e9L/view) (40.1 KB)
+- [কিরীটী অমনিবাস ৫ - নীহাররঞ্জন গুপ্ত.json](https://drive.google.com/file/d/1WzYrPhGxXt5LDiHyyZq2QRbgL7bWLOau/view) (2.5 MB)

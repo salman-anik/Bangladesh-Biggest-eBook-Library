@@ -1,0 +1,31 @@
+# 📖 সহধর্মিণী - পাঁচকড়ি দে
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Fiction](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Fiction/README.md) / [Detective](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Fiction/Detective/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1iREJZmG8VFbx6QGbNp5bjG8s9VWv9Aag)
+
+![সহধর্মিণী - পাঁচকড়ি দে](https://drive.google.com/thumbnail?id=1oKuRwthglBLY6w_ihb-UX4m--9lSHnje&sz=w600)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1iREJZmG8VFbx6QGbNp5bjG8s9VWv9Aag) |
+| 📱 **EPUB eBook** | [Open EPUB in Drive](https://drive.google.com/file/d/18CVz7tUqELpqZj1H7wlAexGA5uirQuGk/view) |
+| 📄 **Structured Text (JSON)** | [Open Text JSON in Drive](https://drive.google.com/file/d/17wv6FdGGMWhIV5t5ugsNaM2sdvkCKhlj/view) |
+| 🖼️ **Cover Image** | [View Cover in Drive](https://drive.google.com/file/d/1oKuRwthglBLY6w_ihb-UX4m--9lSHnje/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | সহধর্মিণী - পাঁচকড়ি দে |
+| **Author** | পাঁচকড়ি দে |
+| **Publication / Source** | Kindle Bangla (kindlebangla.com) |
+| **Category** | Fiction/Detective |
+| **Formats** | COVER, EPUB, TEXT, json |
+| **Total Size** | 694.1 KB |
+
+### 📂 Files Inside Folder
+
+- [সহধর্মিণী - পাঁচকড়ি দে.epub](https://drive.google.com/file/d/18CVz7tUqELpqZj1H7wlAexGA5uirQuGk/view) (285.5 KB)
+- [সহধর্মিণী - পাঁচকড়ি দে.jpg](https://drive.google.com/file/d/1oKuRwthglBLY6w_ihb-UX4m--9lSHnje/view) (64.2 KB)
+- [সহধর্মিণী - পাঁচকড়ি দে.json](https://drive.google.com/file/d/17wv6FdGGMWhIV5t5ugsNaM2sdvkCKhlj/view) (344.4 KB)

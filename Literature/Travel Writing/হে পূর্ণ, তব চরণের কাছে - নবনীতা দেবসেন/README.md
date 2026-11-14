@@ -1,0 +1,29 @@
+# 📖 হে পূর্ণ, তব চরণের কাছে - নবনীতা দেবসেন
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/README.md) / [Travel Writing](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Travel%20Writing/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/16P0nSOIPbHq5oR0fCHjY89Au53dbJpf9)
+
+![হে পূর্ণ, তব চরণের কাছে - নবনীতা দেবসেন](https://drive.google.com/thumbnail?id=13n9COk59BlnymETw2S4d4PkSf_uiYL1F&sz=w600)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/16P0nSOIPbHq5oR0fCHjY89Au53dbJpf9) |
+| 📄 **Structured Text (JSON)** | [Open Text JSON in Drive](https://drive.google.com/file/d/1YixRxrdy-GiA5USIzmYj3LgYVyp0pSxP/view) |
+| 🖼️ **Cover Image** | [View Cover in Drive](https://drive.google.com/file/d/13n9COk59BlnymETw2S4d4PkSf_uiYL1F/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | হে পূর্ণ, তব চরণের কাছে - নবনীতা দেবসেন |
+| **Author** | নবনীতা দেবসেন |
+| **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
+| **Category** | Literature/Travel Writing |
+| **Formats** | COVER, TEXT, json |
+| **Total Size** | 767.6 KB |
+
+### 📂 Files Inside Folder
+
+- [হে পূর্ণ, তব চরণের কাছে - নবনীতা দেবসেন.jpg](https://drive.google.com/file/d/13n9COk59BlnymETw2S4d4PkSf_uiYL1F/view) (76.6 KB)
+- [হে পূর্ণ, তব চরণের কাছে - নবনীতা দেবসেন.json](https://drive.google.com/file/d/1YixRxrdy-GiA5USIzmYj3LgYVyp0pSxP/view) (691.0 KB)

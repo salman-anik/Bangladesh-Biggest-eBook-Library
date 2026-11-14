@@ -1,0 +1,25 @@
+# 📖 বৈদিক ভারত - রায়বাহাদুর ডক্টর দীনেশ চন্দ্র সেন
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/README.md) / [Literary Criticism](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Literary%20Criticism/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1BowUbSIm-_-TJTc53jCUyCaS51I0Ep0f)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1BowUbSIm-_-TJTc53jCUyCaS51I0Ep0f) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/1NxS6jMmusF7JS8Chg1uwAWhC239vgRD0/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | বৈদিক ভারত - রায়বাহাদুর ডক্টর দীনেশ চন্দ্র সেন |
+| **Author** | Various / Unknown |
+| **Publication / Source** | মৃণালের ই-লাইব্রেরি |
+| **Category** | Literature/Literary Criticism |
+| **Formats** | PDF |
+| **Total Size** | 5.2 MB |
+
+### 📂 Files Inside Folder
+
+- [বৈদিক ভারত - রায়বাহাদুর ডক্টর দীনেশ চন্দ্র সেন.pdf](https://drive.google.com/file/d/1NxS6jMmusF7JS8Chg1uwAWhC239vgRD0/view) (5.2 MB)

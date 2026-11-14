@@ -1,0 +1,25 @@
+# 📖 SattyajitRay Gonesh Mutshuddir Prorate Satyajeet
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Religion](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/README.md) / [Quran](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/Islam/Quran/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1f1n3i34OSSKz3YJHmcWaZWvIGs-uwP4O)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1f1n3i34OSSKz3YJHmcWaZWvIGs-uwP4O) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/1ogxK1t8lx7fBMxuuUwh2VpxKoTJAwq9t/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | SattyajitRay Gonesh Mutshuddir Prorate Satyajeet |
+| **Author** | Various / Compiled (সংকলিত) |
+| **Publication / Source** | SM-Collection Bangla eBook Archive |
+| **Category** | Religion/Islam/Quran |
+| **Formats** | PDF |
+| **Total Size** | 1.1 MB |
+
+### 📂 Files Inside Folder
+
+- [SattyajitRay Gonesh Mutshuddir Prorate Satyajeet.pdf](https://drive.google.com/file/d/1ogxK1t8lx7fBMxuuUwh2VpxKoTJAwq9t/view) (1.1 MB)

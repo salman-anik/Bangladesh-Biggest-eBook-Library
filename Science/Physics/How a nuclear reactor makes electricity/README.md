@@ -1,0 +1,20 @@
+# 📖 How a nuclear reactor makes electricity
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Science](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Science/README.md) / [Physics](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Science/Physics/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1zb7UX11iOb3yKp7VuI0u4gSVJiZXO3Ro)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1zb7UX11iOb3yKp7VuI0u4gSVJiZXO3Ro) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | How a nuclear reactor makes electricity |
+| **Author** | Various / Compiled (সংকলিত) |
+| **Publication / Source** | University Physics - Geophysics & 4th Year |
+| **Category** | Science/Physics |
+| **Formats** | — |
+| **Total Size** | — |

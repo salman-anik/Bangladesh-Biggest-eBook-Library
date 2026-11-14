@@ -1,0 +1,25 @@
+# 📖 Ami Mujib Bolchi
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [History](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/History/README.md) / [Bangladesh History](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/History/Bangladesh%20History/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1VGQig8RDyV8EDUY61ndnqc04m8AJkR_x)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1VGQig8RDyV8EDUY61ndnqc04m8AJkR_x) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/1sxGISCO2QpMLCdgb6SoFUkMFQ1BFiXzc/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | Ami Mujib Bolchi |
+| **Author** | Various / Unknown |
+| **Publication / Source** | মৃণালের ই-লাইব্রেরি |
+| **Category** | History/Bangladesh History |
+| **Formats** | PDF |
+| **Total Size** | 29.0 MB |
+
+### 📂 Files Inside Folder
+
+- [Ami Mujib Bolchi.pdf](https://drive.google.com/file/d/1sxGISCO2QpMLCdgb6SoFUkMFQ1BFiXzc/view) (29.0 MB)

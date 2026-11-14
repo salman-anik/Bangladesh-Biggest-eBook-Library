@@ -1,0 +1,25 @@
+# 📖 নারীদের জন্য অভিভাবকের অনুমতি ছাড়া বিয়ে করা কি বৈধ - মুহাম্মদ আকমাল হুসাইন
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/README.md) / [Novels](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Novels/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1BNa9VeR5jWdM4l5TNRzuvsEpzomVUamt)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1BNa9VeR5jWdM4l5TNRzuvsEpzomVUamt) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/1OpHpBSwIhCwYxSG3IZ1vKNY-WoonqgVe/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | নারীদের জন্য অভিভাবকের অনুমতি ছাড়া বিয়ে করা কি বৈধ - মুহাম্মদ আকমাল হুসাইন |
+| **Author** | Various / Unknown |
+| **Publication / Source** | ইসলামী বই |
+| **Category** | Literature/Novels |
+| **Formats** | PDF |
+| **Total Size** | 6.4 MB |
+
+### 📂 Files Inside Folder
+
+- [নারীদের জন্য অভিভাবকের অনুমতি ছাড়া বিয়ে করা কি বৈধ - মুহাম্মদ আকমাল হুসাইন.pdf](https://drive.google.com/file/d/1OpHpBSwIhCwYxSG3IZ1vKNY-WoonqgVe/view) (6.4 MB)

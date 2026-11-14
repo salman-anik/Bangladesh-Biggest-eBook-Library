@@ -7,6 +7,7 @@ import subprocess
 import sys
 import tempfile
 import time
+import unicodedata
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -363,8 +364,8 @@ def main() -> None:
         clean_lp = clean_tax_path(f"{top_path}/{leaf}")
         clean_leaf = clean_tax_segment(leaf)
 
-        raw_title = (b.get("title") or "").strip()
-        raw_auth = (b.get("author") or "").strip()
+        raw_title = unicodedata.normalize("NFC", (b.get("title") or "").strip())
+        raw_auth = unicodedata.normalize("NFC", (b.get("author") or "").strip())
         # Strip trailing author from title if already present so real_title is pure book name
         real_title = raw_title
         if raw_auth and raw_auth != "Various / Unknown":
@@ -372,7 +373,7 @@ def main() -> None:
                 if real_title.endswith(f"{sep}{raw_auth}"):
                     real_title = real_title[: -len(f"{sep}{raw_auth}")].strip()
         b["real_title"] = real_title or raw_title
-        if raw_auth and raw_auth != "Various / Unknown" and raw_auth not in real_title:
+        if raw_auth and raw_auth != "Various / Unknown" and raw_auth.lower() not in (real_title or "").lower():
             fname_base = sanitize_filename(f"{real_title} - {raw_auth}")
         else:
             fname_base = sanitize_filename(real_title or raw_title)
@@ -430,6 +431,7 @@ def main() -> None:
                             "cover_url": b.get("cover_url", ""),
                             "thumbnail_url": b.get("thumbnail_url", ""),
                             "source_url": b["url"],
+                            "internal_title": b["real_title"],
                         })
                         done_src_keys.add(src_id)
                 if done % 100 == 0:
@@ -474,7 +476,7 @@ def main() -> None:
                         downloaded_covs.append(res)
 
             print(f"  Downloaded {len(downloaded_covs)} cover images; uploading to Drive...", flush=True)
-            with concurrent.futures.ThreadPoolExecutor(max_workers=4) as uex:
+            with concurrent.futures.ThreadPoolExecutor(max_workers=16) as uex:
                 futs = {uex.submit(gd_upload, p, covers_eb_folder_id): cu for cu, p, _ in downloaded_covs}
                 done_c = 0
                 for f in concurrent.futures.as_completed(futs):

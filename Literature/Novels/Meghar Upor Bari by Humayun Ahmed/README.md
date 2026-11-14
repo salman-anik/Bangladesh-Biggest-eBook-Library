@@ -1,0 +1,25 @@
+# 📖 Meghar Upor Bari by Humayun Ahmed
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/README.md) / [Novels](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Novels/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1MrbuW3tEACLiNcIFj9H7VqHr09cOFXlg)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1MrbuW3tEACLiNcIFj9H7VqHr09cOFXlg) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/1xzgnKgyHAfomRdRy7sga7zVSyJtU2szH/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | Meghar Upor Bari by Humayun Ahmed |
+| **Author** | Various / Unknown |
+| **Publication / Source** | মৃণালের ই-লাইব্রেরি |
+| **Category** | Literature/Novels |
+| **Formats** | PDF |
+| **Total Size** | 1.0 MB |
+
+### 📂 Files Inside Folder
+
+- [Meghar Upor Bari by Humayun Ahmed.pdf](https://drive.google.com/file/d/1xzgnKgyHAfomRdRy7sga7zVSyJtU2szH/view) (1.0 MB)

@@ -1,0 +1,29 @@
+# 📖 উপকণ্ঠে - গজেন্দ্রকুমার মিত্র
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/README.md) / [Novels](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Novels/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1eOdM9Q4uwQoiRNxQypoJ6q1XyvSJgUh2)
+
+![উপকণ্ঠে - গজেন্দ্রকুমার মিত্র](https://drive.google.com/thumbnail?id=1CkyBjFm4Ho9COpefdeFbChJmZXHXecNw&sz=w600)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1eOdM9Q4uwQoiRNxQypoJ6q1XyvSJgUh2) |
+| 📄 **Structured Text (JSON)** | [Open Text JSON in Drive](https://drive.google.com/file/d/1grBwJb8b27XN98zTRuARv4R0xgSdslMt/view) |
+| 🖼️ **Cover Image** | [View Cover in Drive](https://drive.google.com/file/d/1CkyBjFm4Ho9COpefdeFbChJmZXHXecNw/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | উপকণ্ঠে - গজেন্দ্রকুমার মিত্র |
+| **Author** | গজেন্দ্রকুমার মিত্র |
+| **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
+| **Category** | Literature/Novels |
+| **Formats** | COVER, TEXT, json |
+| **Total Size** | 1.8 MB |
+
+### 📂 Files Inside Folder
+
+- [উপকণ্ঠে - গজেন্দ্রকুমার মিত্র.jpg](https://drive.google.com/file/d/1CkyBjFm4Ho9COpefdeFbChJmZXHXecNw/view) (21.7 KB)
+- [উপকণ্ঠে - গজেন্দ্রকুমার মিত্র.json](https://drive.google.com/file/d/1grBwJb8b27XN98zTRuARv4R0xgSdslMt/view) (1.8 MB)

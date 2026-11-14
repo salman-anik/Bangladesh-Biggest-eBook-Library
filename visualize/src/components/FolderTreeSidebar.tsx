@@ -164,7 +164,7 @@ export function FolderTreeSidebar({
       >
         <span className="flex items-center gap-2 truncate">
           <Home className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
-          <span className="truncate">BANGLA_LIBRARY</span>
+          <span className="truncate">Bangladesh-Biggest-eBook-Library</span>
         </span>
         <span className="text-[11px] px-1.5 py-0.5 rounded bg-slate-800 text-slate-300">
           {totalBooks.toLocaleString()}

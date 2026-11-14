@@ -1,0 +1,28 @@
+# 📖 সত্যজিৎ রচনাবলী - ৭ সত্যজিৎ রায়
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/README.md) / [Collected Works](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Collected%20Works/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1moFT0-dGkhyE-aQ-AoWEoyFq-hZpG8hu)
+
+![সত্যজিৎ রচনাবলী - ৭ সত্যজিৎ রায়](https://drive.google.com/thumbnail?id=1DvT1rAmNKYhsh8xpUh-5BfsGjbXThRYo&sz=w600)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1moFT0-dGkhyE-aQ-AoWEoyFq-hZpG8hu) |
+| 📄 **Structured Text (JSON)** | [Open Text JSON in Drive](https://drive.google.com/file/d/1fDd97H836kLuaWlwYcQpfzTJpnpmGKot/view) |
+| 🖼️ **Cover Image** | [View Cover in Drive](https://drive.google.com/file/d/1DvT1rAmNKYhsh8xpUh-5BfsGjbXThRYo/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | সত্যজিৎ রচনাবলী - ৭ সত্যজিৎ রায় |
+| **Author** | সত্যজিৎ রায় |
+| **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
+| **Category** | Literature/Collected Works |
+| **Formats** | TEXT |
+| **Total Size** | 1.3 KB |
+
+### 📂 Files Inside Folder
+
+- [সত্যজিৎ রচনাবলী - ৭ সত্যজিৎ রায়.json](https://drive.google.com/file/d/1fDd97H836kLuaWlwYcQpfzTJpnpmGKot/view) (1.3 KB)

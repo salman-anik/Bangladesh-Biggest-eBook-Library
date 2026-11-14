@@ -5,3 +5,9 @@ visualize/node_modules/
 visualize/.next/
 visualize/out/
 tmp_downloads/
+data/ebanglalibrary_raw.json
+data/eb_chapters.sqlite
+data/*.sqlite*
+data/live_drive_snapshot.json
+data/*.tmp
+tmp_*/

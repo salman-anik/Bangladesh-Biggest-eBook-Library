@@ -1,0 +1,25 @@
+# 📖 হারানো মানিক
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Religion](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/README.md) / [Islamic Lifestyle](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/Islam/Islamic%20Lifestyle/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1BNAq13OcqLNUmDkuZF1RBmngdtOB2Cn9)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1BNAq13OcqLNUmDkuZF1RBmngdtOB2Cn9) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/1qmc84ysX1VxgpSrnh_nqzoimXBHqMrRC/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | হারানো মানিক |
+| **Author** | Various / Unknown |
+| **Publication / Source** | ইসলামী বই |
+| **Category** | Religion/Islam/Islamic Lifestyle |
+| **Formats** | PDF |
+| **Total Size** | 4.2 MB |
+
+### 📂 Files Inside Folder
+
+- [হারানো মানিক.pdf](https://drive.google.com/file/d/1qmc84ysX1VxgpSrnh_nqzoimXBHqMrRC/view) (4.2 MB)

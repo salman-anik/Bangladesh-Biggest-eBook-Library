@@ -1,5 +1,0 @@
-# Geology
-
-> **Path**: `pdf/Science/Geology` | **Books**: **0** | [Google Drive Folder ↗](https://drive.google.com/drive/folders/17jE5UrVAdYWClafokSrEQ-HVPQ1w_BDq)
-
-*No books placed directly in this folder yet. Browse subfolders or see [Master Catalog](../../README.md).*

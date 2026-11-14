@@ -44,14 +44,18 @@ def main() -> None:
     trashed = load_json(DATA_DIR / "trashed_ids.json", [])
     kb_cat = load_json(DATA_DIR / "kindlebangla_catalog.json", [])
     kb_state = load_json(DATA_DIR / "kb_ingest_state.json", {})
-    eb_raw = load_json(DATA_DIR / "ebanglalibrary_raw.json", [])
+    eb_meta = load_json(DATA_DIR / "ebanglalibrary_meta.json", [])
     eb_state = load_json(DATA_DIR / "eb_upload_state.json", {})
+    sync_eb_state = load_json(DATA_DIR / "sync_full_eb_state.json", {})
     bde_cat = load_json(DATA_DIR / "bdebooks_catalog.json", [])
     bde_state = load_json(DATA_DIR / "bde_ingest_state.json", {})
+    merged_books = load_json(DATA_DIR / "merged_books.json", [])
+    rename_state = load_json(DATA_DIR / "book_rename_state.json", {})
     books_all = load_json(REPO_DIR / "books.json", [])
 
     # Compute breakdowns
-    top_counts = Counter(b.get("top_category", "Unknown") for b in books_all)
+    catalog_for_counts = books_all if books_all else merged_books
+    top_counts = Counter(b.get("top_category", "Unknown") for b in catalog_for_counts)
     src_counts = Counter()
     for b in extra:
         sid = b.get("source_id") or ""
@@ -83,6 +87,11 @@ def main() -> None:
     cov_by_src = Counter(v.get("source", "unknown") for v in covers.values() if isinstance(v, dict))
     cov_drive_cnt = sum(1 for v in covers.values() if isinstance(v, dict) and v.get("cover_drive_id"))
 
+    eb_complete_cnt = sum(1 for b in eb_meta if isinstance(b, dict) and b.get("full_text_complete"))
+    eb_multi_cnt = sum(1 for b in eb_meta if isinstance(b, dict) and int(b.get("chapter_count") or 0) > 0)
+    merged_both = sum(1 for m in merged_books if (m.get("pdf_file_id") or m.get("epub_file_id") or any(str(f.get("name", "")).lower().endswith((".pdf", ".epub", ".zip", ".docx", ".doc")) for f in (m.get("files") or []))) and m.get("text_file_id"))
+    merged_with_cover = sum(1 for m in merged_books if m.get("cover_file_id") or m.get("cover_url") or m.get("thumbnail_url"))
+
     lines = [
         "=" * 80,
         "BANGLADESH BIGGEST EBOOK LIBRARY - AI HANDOFF & ARCHITECTURE REPORT",
@@ -95,26 +104,28 @@ def main() -> None:
         f"- GitHub Repository     : https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library (branch: main, HEAD: {git_head()})",
         f"- Live Explorer Site    : https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/",
         f"- Google Drive Root     : https://drive.google.com/drive/folders/1fMsplDtUnpUhnNBJGKvYQ1sdZx0QVJWq (Name: Bangladesh-Biggest-eBook-Library)",
-        f"  - Root Renamed        : {reorg.get('root_renamed', False)}",
-        f"  - pdf/ Folder ID      : {clean_folders.get('pdf', reorg.get('top_created', {}).get('pdf', 'pending'))}",
-        f"  - text/ Folder ID     : {clean_folders.get('text', reorg.get('top_created', {}).get('text', 'pending'))}",
-        f"  - covers/ Folder ID   : {clean_folders.get('covers', reorg.get('top_created', {}).get('covers', 'pending'))}",
+        f"  - Root Layout         : Unified Per-Book Folder Structure (25 Categories directly at Root; no legacy pdf/text/covers split)",
+        f"  - Merged Book Folders : {len(merged_books):,} (data/merged_books.json)",
         "  - UNTOUCHED Separate Drive Folder : 1ObOiGGQXl9B4bodcnDkx7g5yU_dc-Gol (Bangladesh-Biggest-Public-Database - DO NOT MODIFY)",
         "",
         "2. FOLDER ARCHITECTURE & NAMING CONVENTION",
         "-" * 80,
         "- Clean English Category & Subcategory Names (no numeric prefixes 01_..25_ and no Bengali suffixes):",
         "  Examples: Fiction, Literature, Religion, Education and Academics, Literature/Children's Literature",
-        "- Top-Level Google Drive Layout:",
+        "- Unified Top-Level Google Drive & GitHub Layout:",
         "  Bangladesh-Biggest-eBook-Library/",
-        "    ├── pdf/       -> 25 clean-named categories + Education and Academics/{Pre-Primary, Class 1..Class 10}",
-        "    ├── text/      -> 25 clean-named categories containing 1 JSON file per ebanglalibrary.com book",
-        "    └── covers/    -> Cover & thumbnail image archive (KindleBangla/, BDeBooks/, eBanglaLibrary/)",
-        f"- Mapped Drive Folders in data/clean_folders.json : {len(clean_folders)}",
+        "    └── <Clean Category>/              (25 clean-named top categories directly at Root)",
+        "        └── <Clean Leaf>/              (clean-named subcategories + Class 1..Class 10, Pre-Primary)",
+        "            └── <Clean Book Name>/     (1 folder per book, named by true internal title)",
+        "                ├── <Clean Book Name>.<pdf|epub|zip|docx|txt>",
+        "                ├── <Clean Book Name>.json     (full scraped chapters/topics + metadata)",
+        "                └── <Clean Book Name>.<jpg|png|webp> (cover image)",
+        f"- Mapped Category/Leaf Drive Folders in data/clean_folders.json : {len(clean_folders):,}",
         "",
         "3. PROGRESS & COLLECTION TOTALS (LIVE STATE)",
         "-" * 80,
         f"- Current Indexed Catalog (books.json)         : {len(books_all):,} records",
+        f"- Merged Per-Book Folders (merged_books.json)  : {len(merged_books):,} books ({merged_both:,} with both Ebook & Text JSON | {merged_with_cover:,} with cover image/URL)",
         f"- Ingested Extra Books (data/extra_books.json) : {len(extra):,} records",
         "  Breakdown of Extra Collections:",
     ]
@@ -124,13 +135,13 @@ def main() -> None:
     lines.extend([
         "",
         "- Website Collection Status:",
-        f"    * kindlebangla.com   : {len(kb_cat):,} cataloged pages | {len(kb_state.get('processed_urls', {})):,} Drive processed | {len(kb_state.get('copied_covers', {})):,} Drive covers copied",
-        f"    * ebanglalibrary.com : {len(eb_raw):,} cataloged books | {len(eb_state.get('uploaded', {})):,} JSON files uploaded to text/",
-        f"    * bdebooks.com/bn/   : {len(bde_cat):,} cataloged books | {len(bde_state.get('processed_slugs', {})):,} processed | {len(bde_state.get('covers_uploaded', {})):,} Drive covers uploaded",
+        f"    * kindlebangla.com   : {len(kb_cat):,} cataloged pages | {len(kb_state.get('processed_urls', {})):,} Drive processed | {len(kb_state.get('copied_covers', {})):,} Drive covers copied (note: 114 remaining entries are .kfx-only RARs + 1 upstream 404)",
+        f"    * ebanglalibrary.com : {len(eb_meta):,} books ({eb_complete_cnt:,} full-text complete across all non-blank chapters; {eb_multi_cnt:,} multi-chapter) | {len(eb_state.get('uploaded', {})):,} initial Drive uploads | {len(sync_eb_state.get('synced', {})):,} full chapter+topic JSONs synced",
+        f"    * bdebooks.com/bn/   : {len(bde_cat):,} cataloged books (Cloudflare Error 1006 / 403 blocked beyond initial sample; {len(bde_state.get('processed_slugs', {})):,} processed | {len(bde_state.get('covers_uploaded', {})):,} covers uploaded)",
         "",
         "- Covers & Thumbnails Registry (data/book_covers.json):",
         f"    * Total Tracked Cover/Thumbnail Entries : {len(covers):,}",
-        f"    * Cover Files Stored in Drive covers/   : {cov_drive_cnt:,}",
+        f"    * Cover Files Stored in Drive (per-book): {cov_drive_cnt:,}",
     ])
     for src, cnt in sorted(cov_by_src.items()):
         lines.append(f"    * {src:<30}: {cnt:,} cover/thumbnail URLs")
@@ -147,11 +158,11 @@ def main() -> None:
         "",
         "5. CLEANUP, JUNK PURGE & INTERNAL TITLE RENAMING",
         "-" * 80,
-        f"- Trashed Junk/Non-Book Files (IA CIA Reading Room, Sinhala, .ini, .apk): {len(trashed):,}",
+        f"- Trashed Junk/Non-Book/Dupes/Legacy Folders: {len(trashed):,}",
         f"- NCTB Textbooks Moved to Class Folders   : {len(reorg.get('nctb_moved', [])):,}",
         f"- NCTB Shared 9-10 Copied to Class 10     : {len(reorg.get('nctb_copied_10', {})):,}",
         f"- Renamed Category/Leaf Folders in Drive  : {len(reorg.get('renamed_folders', {})):,}",
-        f"- Book Title Rename State                 : {'Done' if (DATA_DIR / 'book_rename_state.json').exists() else 'Pending / Scheduled after collections'}",
+        f"- Book Title Rename State                 : {'Done (' + str(len(rename_state.get('renamed', rename_state))) + ' tracked)' if rename_state else 'Pending'}",
         "",
         "6. TOP CATEGORIES DISTRIBUTION (FROM books.json)",
         "-" * 80,
@@ -163,16 +174,18 @@ def main() -> None:
         "",
         "7. SCRIPTS & DATA FILES REFERENCE",
         "-" * 80,
-        "  - scripts/reorganize_drive_and_clean.py   : Cleans Drive root & folder names, purges junk, creates Class 1-10",
-        "  - scripts/collect_kindlebangla.py         : Crawls kindlebangla.com, copies ebooks & covers into Drive",
-        "  - scripts/collect_ebanglalibrary_json.py  : Crawls ebanglalibrary.com, exports 1 JSON/book to text/ & covers",
-        "  - scripts/collect_bdebooks.py             : Crawls bdebooks.com/bn/, downloads PDFs/EPUBs & covers",
-        "  - scripts/rename_books_by_internal_title.py: Renames all books in Drive/catalog to true internal book names",
-        "  - scripts/build_25cat_library.py          : Generates clean Markdown tree, SEO FAQ README, books.json, sitemap",
-        "  - scripts/update_ebook_report.py          : Regenerates this report (always run after work)",
+        "  - scripts/merge_books_by_title.py         : Merges books into <Category>/<Leaf>/<Book Name>/ & removes pdf/text/covers",
+        "  - scripts/sync_full_eb_jsons_to_drive.py  : Streams 3.74 GB ebanglalibrary_raw.json into Drive per-book JSONs",
+        "  - scripts/eb_stream.py                    : Streaming JSON array reader & metadata builder (avoids OOM)",
+        "  - scripts/fetch_ebanglalibrary_topics.py  : Scrapes LearnDash sub-topics & rebuilds ebanglalibrary_raw.json",
+        "  - scripts/build_merged_github_and_report.py: Rebuilds GitHub Markdown tree, books.json, sitemap, visualizer & report",
+        "  - scripts/rename_books_by_internal_title.py: Renames books in Drive/catalog to true internal book names",
+        "  - scripts/update_ebook_report.py          : Regenerates this report (uses lightweight ebanglalibrary_meta.json)",
+        "  - data/merged_books.json                  : Canonical unified per-book folder catalog",
+        "  - data/ebanglalibrary_meta.json           : Lightweight 4,183-book metadata index",
         "  - data/book_covers.json                   : Master cover_url, thumbnail_url, and cover_drive_id index",
-        "  - data/clean_folders.json                 : Full Drive path -> folder ID map for pdf/, text/, covers/",
-        "  - data/extra_books.json                   : Metadata for all ingested external collections",
+        "  - data/clean_folders.json                 : Full Drive path -> folder ID map",
+        "  - data/extra_books.json                   : Metadata for external collections",
         "  - C:\\Users\\USER\\Desktop\\Report\\ebook_report.txt : Canonical AI handoff report",
         "",
         "=" * 80,

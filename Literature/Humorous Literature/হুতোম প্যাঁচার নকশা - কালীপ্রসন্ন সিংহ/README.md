@@ -1,0 +1,25 @@
+# 📖 হুতোম প্যাঁচার নকশা - কালীপ্রসন্ন সিংহ
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/README.md) / [Humorous Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Humorous%20Literature/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1otJ_e8l-ccAEZYpWa9NTE4ZVRuBXMZoz)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1otJ_e8l-ccAEZYpWa9NTE4ZVRuBXMZoz) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/1pe2B66hopUj6_xZ-gU2AcL1zgFO_HaSB/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | হুতোম প্যাঁচার নকশা - কালীপ্রসন্ন সিংহ |
+| **Author** | Various / Unknown |
+| **Publication / Source** | মৃণালের ই-লাইব্রেরি |
+| **Category** | Literature/Humorous Literature |
+| **Formats** | PDF |
+| **Total Size** | 6.1 MB |
+
+### 📂 Files Inside Folder
+
+- [হুতোম প্যাঁচার নকশা - কালীপ্রসন্ন সিংহ.pdf](https://drive.google.com/file/d/1pe2B66hopUj6_xZ-gU2AcL1zgFO_HaSB/view) (6.1 MB)

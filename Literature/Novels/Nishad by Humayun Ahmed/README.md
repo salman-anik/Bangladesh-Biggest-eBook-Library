@@ -1,0 +1,25 @@
+# 📖 Nishad by Humayun Ahmed
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/README.md) / [Novels](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Novels/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1aMX7qYD_l6XFY4pk_xYQmEeaFrD7rrEe)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1aMX7qYD_l6XFY4pk_xYQmEeaFrD7rrEe) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/1kAYv19ePq4JbyzXam8ZIp6M4hueTgj6Y/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | Nishad by Humayun Ahmed |
+| **Author** | Various / Unknown |
+| **Publication / Source** | মৃণালের ই-লাইব্রেরি |
+| **Category** | Literature/Novels |
+| **Formats** | PDF |
+| **Total Size** | 7.6 MB |
+
+### 📂 Files Inside Folder
+
+- [Nishad by Humayun Ahmed.pdf](https://drive.google.com/file/d/1kAYv19ePq4JbyzXam8ZIp6M4hueTgj6Y/view) (7.6 MB)

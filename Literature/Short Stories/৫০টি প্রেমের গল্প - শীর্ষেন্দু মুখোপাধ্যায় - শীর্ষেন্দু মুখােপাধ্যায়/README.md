@@ -1,0 +1,29 @@
+# 📖 ৫০টি প্রেমের গল্প - শীর্ষেন্দু মুখোপাধ্যায় - শীর্ষেন্দু মুখােপাধ্যায়
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/README.md) / [Short Stories](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Short%20Stories/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1Sq-mJ5Q45EObVdZ_ofaP_YhKNRE-AZe6)
+
+![৫০টি প্রেমের গল্প - শীর্ষেন্দু মুখোপাধ্যায় - শীর্ষেন্দু মুখােপাধ্যায়](https://drive.google.com/thumbnail?id=13ZXZ-4QW-MrM3BQIWVsOyvj3NzZHd-W5&sz=w600)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1Sq-mJ5Q45EObVdZ_ofaP_YhKNRE-AZe6) |
+| 📄 **Structured Text (JSON)** | [Open Text JSON in Drive](https://drive.google.com/file/d/1tlpA_wiVBYegDH62kRPmMEdtLFVLFHAI/view) |
+| 🖼️ **Cover Image** | [View Cover in Drive](https://drive.google.com/file/d/13ZXZ-4QW-MrM3BQIWVsOyvj3NzZHd-W5/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | ৫০টি প্রেমের গল্প - শীর্ষেন্দু মুখোপাধ্যায় - শীর্ষেন্দু মুখােপাধ্যায় |
+| **Author** | শীর্ষেন্দু মুখােপাধ্যায় |
+| **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
+| **Category** | Literature/Short Stories |
+| **Formats** | COVER, TEXT, json |
+| **Total Size** | 2.3 MB |
+
+### 📂 Files Inside Folder
+
+- [৫০টি প্রেমের গল্প - শীর্ষেন্দু মুখোপাধ্যায় - শীর্ষেন্দু মুখােপাধ্যায়.jpg](https://drive.google.com/file/d/13ZXZ-4QW-MrM3BQIWVsOyvj3NzZHd-W5/view) (19.1 KB)
+- [৫০টি প্রেমের গল্প - শীর্ষেন্দু মুখোপাধ্যায় - শীর্ষেন্দু মুখােপাধ্যায়.json](https://drive.google.com/file/d/1tlpA_wiVBYegDH62kRPmMEdtLFVLFHAI/view) (2.2 MB)

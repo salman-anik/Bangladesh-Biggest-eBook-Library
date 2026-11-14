@@ -1,0 +1,25 @@
+# 📖 কুরআনের ডাক ২
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Religion](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/README.md) / [Quran](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/Islam/Quran/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/11nUhlVYd3f-ouWcQLK8a5uC5ZgMJo8BV)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/11nUhlVYd3f-ouWcQLK8a5uC5ZgMJo8BV) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/1wqtBYTbAVQQhixcwFWEgiNvFtilInxsc/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | কুরআনের ডাক ২ |
+| **Author** | Various / Compiled (সংকলিত) |
+| **Publication / Source** | Shared Islamic Books (israt) |
+| **Category** | Religion/Islam/Quran |
+| **Formats** | PDF |
+| **Total Size** | 10.6 MB |
+
+### 📂 Files Inside Folder
+
+- [কুরআনের ডাক ২.pdf](https://drive.google.com/file/d/1wqtBYTbAVQQhixcwFWEgiNvFtilInxsc/view) (10.6 MB)

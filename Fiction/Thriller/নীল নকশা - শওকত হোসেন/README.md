@@ -1,0 +1,28 @@
+# 📖 নীল নকশা - শওকত হোসেন
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Fiction](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Fiction/README.md) / [Thriller](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Fiction/Thriller/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1_q9m6-IHbsBl9YzLvbVzZmsQQVC7yhcl)
+
+![নীল নকশা - শওকত হোসেন](https://drive.google.com/thumbnail?id=11RaIVAsz_JCw6s-XhL7bZ_cg776z6VtK&sz=w600)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1_q9m6-IHbsBl9YzLvbVzZmsQQVC7yhcl) |
+| 📄 **Structured Text (JSON)** | [Open Text JSON in Drive](https://drive.google.com/file/d/10Nbvvk4PDkfA10J_4gKT-XBTOYhWv8L5/view) |
+| 🖼️ **Cover Image** | [View Cover in Drive](https://drive.google.com/file/d/11RaIVAsz_JCw6s-XhL7bZ_cg776z6VtK/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | নীল নকশা - শওকত হোসেন |
+| **Author** | শওকত হোসেন |
+| **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
+| **Category** | Fiction/Thriller |
+| **Formats** | TEXT |
+| **Total Size** | 615.5 KB |
+
+### 📂 Files Inside Folder
+
+- [নীল নকশা - শওকত হোসেন.json](https://drive.google.com/file/d/10Nbvvk4PDkfA10J_4gKT-XBTOYhWv8L5/view) (615.5 KB)

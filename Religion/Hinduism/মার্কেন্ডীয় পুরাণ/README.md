@@ -1,0 +1,24 @@
+# 📖 মার্কেন্ডীয় পুরাণ
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Religion](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/README.md) / [Hinduism](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/Hinduism/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/12RwXauO7N21jVoT1initqmVktpiXzhK8)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/12RwXauO7N21jVoT1initqmVktpiXzhK8) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | মার্কেন্ডীয় পুরাণ |
+| **Author** | Various / Unknown |
+| **Publication / Source** | মৃণালের ই-লাইব্রেরি |
+| **Category** | Religion/Hinduism |
+| **Formats** | ZIP |
+| **Total Size** | 37.5 MB |
+
+### 📂 Files Inside Folder
+
+- [মার্কেন্ডীয় পুরাণ.zip](https://drive.google.com/file/d/12qYnlAHOyMZJbFK49_6b0is14mHJXf3D/view) (37.5 MB)

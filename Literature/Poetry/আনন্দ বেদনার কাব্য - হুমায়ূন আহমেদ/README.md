@@ -1,0 +1,25 @@
+# 📖 আনন্দ বেদনার কাব্য - হুমায়ূন আহমেদ
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/README.md) / [Poetry](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Poetry/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1F_7v-6ezCkQWzTAQK2J-aQn3zi0QFi9u)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1F_7v-6ezCkQWzTAQK2J-aQn3zi0QFi9u) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/1SPK5g8x6v8byA_w1Yukz5AQEEh36T0DH/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | আনন্দ বেদনার কাব্য - হুমায়ূন আহমেদ |
+| **Author** | Various / Unknown |
+| **Publication / Source** | মৃণালের ই-লাইব্রেরি |
+| **Category** | Literature/Poetry |
+| **Formats** | PDF |
+| **Total Size** | 16.1 MB |
+
+### 📂 Files Inside Folder
+
+- [আনন্দ বেদনার কাব্য - হুমায়ূন আহমেদ.pdf](https://drive.google.com/file/d/1SPK5g8x6v8byA_w1Yukz5AQEEh36T0DH/view) (16.1 MB)

@@ -27,10 +27,35 @@ WATERMARK_PATTERNS = [
     r"\s+by\s+(?:bdebooks|boimate|amarbooks|banglabook)\s*$",
 ]
 
-OPAQUE_STEM_RE = re.compile(
-    r"^(?:[\d\s._-]+|(?:book|file|doc|document|scan|img|untitled|part|vol|chapter|pdf|epub|page)[\d\s._-]*|new[\s._-]*doc.*|camscanner.*)$",
-    re.I,
-)
+import sys as _sys
+_sys.path.insert(0, str(Path(__file__).resolve().parent))
+import title_cleaner as _tc
+
+OPAQUE_STEM_RE = _tc.OPAQUE_STEM_RE
+
+_EB_RAW_LOOKUP: dict[str, dict] | None = None
+
+
+def _get_eb_raw(post_id: str = "", url: str = "") -> dict | None:
+    global _EB_RAW_LOOKUP
+    if _EB_RAW_LOOKUP is None:
+        _EB_RAW_LOOKUP = {}
+        raw_p = Path(__file__).resolve().parent.parent / "data" / "ebanglalibrary_raw.json"
+        if raw_p.exists():
+            try:
+                import json as _json
+                for row in _json.loads(raw_p.read_text(encoding="utf-8")):
+                    if row.get("post_id"):
+                        _EB_RAW_LOOKUP[f"pid:{row['post_id']}"] = row
+                    if row.get("url"):
+                        _EB_RAW_LOOKUP[f"url:{row['url']}"] = row
+            except Exception:
+                pass
+    if post_id and f"pid:{post_id}" in _EB_RAW_LOOKUP:
+        return _EB_RAW_LOOKUP[f"pid:{post_id}"]
+    if url and f"url:{url}" in _EB_RAW_LOOKUP:
+        return _EB_RAW_LOOKUP[f"url:{url}"]
+    return None
 
 
 def gd_run(args: list[str], timeout: int = 60) -> subprocess.CompletedProcess:
@@ -92,14 +117,19 @@ def clean_book_filename(rec: dict) -> str:
     # 2. If record carries explicit internal_title from website/ebook metadata
     ititle = (rec.get("internal_title") or "").strip()
     author = (rec.get("author") or "").strip()
+    if sid.startswith("eb:"):
+        pid = sid.split(":", 1)[1] if ":" in sid else ""
+        raw_eb = _get_eb_raw(post_id=pid, url=rec.get("url") or "")
+        if raw_eb:
+            author = author or (raw_eb.get("author") or "").strip()
+            eb_title = (raw_eb.get("title") or "").strip()
+            if eb_title and (not ititle or len(eb_title) > len(ititle)):
+                ititle = eb_title
     if ititle and (sid.startswith(("kb:", "eb:", "bde:"))):
-        if author and "Various" not in author and author.lower() not in ititle.lower():
-            base = f"{ititle} - {author}"
-        else:
-            base = ititle
-        base = sanitize_filename(base)
-        if base:
-            return f"{base}{ext or '.pdf'}"
+        clean_stem = _tc.clean_book_stem(ititle, author=author)
+        clean_stem = sanitize_filename(clean_stem)
+        if clean_stem:
+            return f"{clean_stem}{ext or '.pdf'}"
 
     # 3. Clean URLs, watermarks, underscores, leading track numbers, duplicate author
     s = stem
@@ -166,10 +196,79 @@ def extract_title_from_pdf(pdf_path: Path) -> str | None:
     return None
 
 
+def _extract_title_v2(file_id: str, ext: str, tmp_dir: Path) -> str | None:
+    eff_ext = ext or ".pdf"
+    out_path = tmp_dir / f"{file_id}{eff_ext}"
+    try:
+        res = gd_run(["readonly", "download", file_id, "--out", str(out_path)], timeout=90)
+        if res.returncode != 0 or not out_path.exists():
+            return None
+        # EPUB OPF metadata extraction
+        if eff_ext.lower() == ".epub":
+            import zipfile
+            import xml.etree.ElementTree as ET
+            with zipfile.ZipFile(out_path) as zf:
+                opf_names = [n for n in zf.namelist() if n.lower().endswith(".opf")]
+                if opf_names:
+                    root_xml = ET.fromstring(zf.read(opf_names[0]))
+                    dc_title = ""
+                    dc_creator = ""
+                    for elem in root_xml.iter():
+                        tag = elem.tag.lower()
+                        if tag.endswith("}title") or tag == "title":
+                            if elem.text and elem.text.strip():
+                                dc_title = elem.text.strip()
+                        elif tag.endswith("}creator") or tag == "creator":
+                            if elem.text and elem.text.strip():
+                                dc_creator = elem.text.strip()
+                    if dc_title:
+                        return _tc.clean_book_stem(dc_title, author=dc_creator)
+            return None
+        # PDF extraction via PyMuPDF
+        import pymupdf
+        doc = pymupdf.open(str(out_path))
+        try:
+            meta_title = (doc.metadata or {}).get("title") or ""
+            meta_title = _tc.strip_watermarks_and_noise(meta_title)
+            if meta_title and not _tc.is_opaque_stem(meta_title) and not re.match(r"^(?:untitled|document|book|page|slide)\d*$", meta_title, re.I):
+                return meta_title
+            # Fallback to pages 0..2 first meaningful lines
+            chunks: list[str] = []
+            for pno in range(min(3, len(doc))):
+                txt = doc[pno].get_text("text") or ""
+                if txt.strip():
+                    chunks.append(txt)
+            combined = "\n".join(chunks)
+            lines = []
+            for ln in combined.splitlines():
+                s = _tc.strip_watermarks_and_noise(ln)
+                if not s or len(s) < 3 or len(s) > 120:
+                    continue
+                if re.search(r"(www\.|http|\.com|\.org|\.in|yanabi|amarboi|banglainternet|pathagar)", s, re.I):
+                    continue
+                if _tc.is_opaque_stem(s):
+                    continue
+                lines.append(s)
+                if len(lines) >= 2:
+                    break
+            if lines:
+                candidate = " - ".join(lines) if len(lines) == 2 and len(lines[0]) + len(lines[1]) < 95 else lines[0]
+                return candidate
+        finally:
+            doc.close()
+    except Exception:
+        return None
+    finally:
+        if out_path.exists():
+            out_path.unlink(missing_ok=True)
+    return None
+
+
 def inspect_opaque_file_title(file_id: str, ext: str, tmp_dir: Path) -> str | None:
+    return _extract_title_v2(file_id, ext, tmp_dir)
     out_path = tmp_dir / f"{file_id}{ext}"
     try:
-        res = gd_run(["readonly", "download", file_id, "--output", str(out_path)], timeout=60)
+        res = gd_run(["readonly", "download", file_id, "--out", str(out_path)], timeout=60)
         if res.returncode != 0 or not out_path.exists():
             return None
         if ext == ".epub":
@@ -226,7 +325,7 @@ def main() -> None:
         print(f"Inspecting {len(opaque_candidates)} opaque-named books internally for <dc:title> / PDF /Title...", flush=True)
         with tempfile.TemporaryDirectory() as tmp:
             tmp_dir = Path(tmp)
-            for item in opaque_candidates[:200]:
+            for item in opaque_candidates:
                 if len(item) == 2:
                     rec, ext = item
                     fid = rec["file_id"]

@@ -5,10 +5,15 @@ import re
 import shutil
 import subprocess
 import sys
+import tempfile
 import time
+import unicodedata
 import urllib.parse
 import urllib.request
+import zipfile
 from pathlib import Path
+
+UNRAR_EXE = Path(r"C:\Users\USER\.gemini\antigravity\scratch\tools\unrar\UnRAR.exe")
 
 LANGUAGE_SERVER = r"C:\Users\USER\AppData\Local\Programs\antigravity\resources\bin\language_server.exe"
 GDRIVE_BASE = (
@@ -68,18 +73,26 @@ def quote_iri(url: str) -> str:
 
 def resolve_redirect(url: str) -> str:
     opener = urllib.request.build_opener(NoRedirect)
-    safe_url = quote_iri(url)
-    for attempt in range(3):
+    cur = quote_iri(url)
+    for attempt in range(4):
         try:
-            req = urllib.request.Request(safe_url, headers=REQ_HDR)
-            resp = opener.open(req, timeout=15)
-            return resp.url
-        except urllib.error.HTTPError as e:
-            if e.code in (301, 302, 303, 307, 308) and e.headers.get("Location"):
-                return urllib.parse.urljoin(safe_url, e.headers["Location"])
-            return ""
+            u = cur
+            for _ in range(6):
+                req = urllib.request.Request(quote_iri(u), headers=REQ_HDR)
+                try:
+                    resp = opener.open(req, timeout=20)
+                    return resp.url
+                except urllib.error.HTTPError as e:
+                    if e.code in (301, 302, 303, 307, 308) and e.headers.get("Location"):
+                        nxt = urllib.parse.urljoin(u, e.headers["Location"])
+                        if "drive.google.com" in nxt or "docs.google.com" in nxt:
+                            return nxt
+                        u = nxt
+                        continue
+                    return ""
+            return u
         except Exception:
-            time.sleep(0.8 * (attempt + 1))
+            time.sleep(1.0 * (attempt + 1))
     return ""
 
 
@@ -152,6 +165,55 @@ def gd_info(file_id: str) -> dict | None:
     except Exception:
         pass
     return None
+
+
+def gd_upload(local_path: Path, parent_id: str) -> str | None:
+    for attempt in range(4):
+        try:
+            res = gd_run(["mutate", "upload", str(local_path), "--parent", parent_id], timeout=120)
+            if res.returncode == 0:
+                fid = parse_gdrive_id(res.stdout)
+                if fid:
+                    return fid
+        except Exception:
+            pass
+        time.sleep(1.0 * (attempt + 1))
+    return None
+
+
+def gd_download(file_id: str, out_path: Path) -> bool:
+    for attempt in range(3):
+        try:
+            res = gd_run(["readonly", "download", file_id, "--out", str(out_path)], timeout=180)
+            if res.returncode == 0 and out_path.exists() and out_path.stat().st_size > 0:
+                return True
+        except Exception:
+            pass
+        time.sleep(1.0 * (attempt + 1))
+    return False
+
+
+def extract_archive(arc_path: Path, out_dir: Path) -> bool:
+    ext = arc_path.suffix.lower()
+    if ext == ".rar" and UNRAR_EXE.exists():
+        res = subprocess.run(
+            [str(UNRAR_EXE), "x", "-y", "-idq", str(arc_path), str(out_dir) + "\\"],
+            stdin=subprocess.DEVNULL,
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+            timeout=120,
+        )
+        return res.returncode == 0
+    if ext == ".zip":
+        try:
+            with zipfile.ZipFile(arc_path, "r") as zf:
+                zf.extractall(out_dir)
+            return True
+        except Exception:
+            return False
+    return False
 
 
 def gd_cp(src_id: str, name: str, parent_id: str) -> str | None:
@@ -240,7 +302,7 @@ def parse_kb_book_page(book_url: str) -> dict | None:
 def main() -> None:
     sys.stdout.reconfigure(encoding="utf-8")
     sys.path.insert(0, str(REPO_DIR / "scripts"))
-    import build_25cat_library as b25  # noqa: E402
+    import clean_classifier as cc  # noqa: E402
 
     clean_folders = json.loads((DATA_DIR / "clean_folders.json").read_text(encoding="utf-8"))
     covers_kb_folder_id = clean_folders["covers/KindleBangla"]
@@ -306,71 +368,150 @@ def main() -> None:
 
         ebook_item = None
         cover_item = None
-        opf_meta = None
+        local_ebook_path = None
+        local_cover_path = None
 
-        if rec.get("drive_folder_id"):
-            children = streamed_folders.get(rec["drive_folder_id"])
-            if children is None:
-                children = gd_ls(rec["drive_folder_id"])
-            ebooks = [c for c in children if Path(c["name"]).suffix.lower() in EBOOK_EXTS]
-            ebooks.sort(key=lambda c: {".pdf": 0, ".epub": 1, ".mobi": 2, ".azw3": 3}.get(Path(c["name"]).suffix.lower(), 9))
-            covers = [c for c in children if Path(c["name"]).suffix.lower() in IMAGE_EXTS]
-            if ebooks:
-                ebook_item = ebooks[0]
-            if covers:
-                cover_item = covers[0]
-        elif rec.get("drive_file_id"):
-            info = gd_info(rec["drive_file_id"])
-            if info and info.get("id"):
-                ebook_item = {
-                    "id": info["id"],
-                    "name": info.get("name") or f"{rec['title']}.pdf",
-                    "size": info.get("size", 0),
-                    "mimeType": info.get("mimeType", "application/epub+zip"),
-                }
+        with tempfile.TemporaryDirectory() as work_tmp:
+            work_dir = Path(work_tmp)
+            src_key_id = ""
 
-        cover_drive_id = None
-        if cover_item and rec["url"] not in kb_state["copied_covers"]:
-            cover_drive_id = gd_cp(cover_item["id"], cover_item["name"], covers_kb_folder_id)
-            if cover_drive_id:
-                kb_state["copied_covers"][rec["url"]] = cover_drive_id
+            if rec.get("drive_folder_id"):
+                children = streamed_folders.get(rec["drive_folder_id"])
+                if children is None:
+                    children = gd_ls(rec["drive_folder_id"])
+                ebooks = [c for c in children if Path(c["name"]).suffix.lower() in EBOOK_EXTS]
+                ebooks.sort(key=lambda c: {".pdf": 0, ".epub": 1, ".mobi": 2, ".azw3": 3}.get(Path(c["name"]).suffix.lower(), 9))
+                covers = [c for c in children if Path(c["name"]).suffix.lower() in IMAGE_EXTS]
+                if ebooks:
+                    ebook_item = ebooks[0]
+                    src_key_id = ebook_item["id"]
+                if covers:
+                    cover_item = covers[0]
+            elif rec.get("drive_file_id"):
+                info = gd_info(rec["drive_file_id"])
+                if info and info.get("id"):
+                    fname = info.get("name") or f"{rec['title']}.pdf"
+                    fext = Path(fname).suffix.lower()
+                    src_key_id = info["id"]
+                    if fext in (".rar", ".zip"):
+                        arc_path = work_dir / f"arc{fext}"
+                        ext_dir = work_dir / "ext"
+                        ext_dir.mkdir(parents=True, exist_ok=True)
+                        if gd_download(info["id"], arc_path) and extract_archive(arc_path, ext_dir):
+                            all_files = [p for p in ext_dir.rglob("*") if p.is_file()]
+                            eb_files = [p for p in all_files if p.suffix.lower() in EBOOK_EXTS]
+                            eb_files.sort(key=lambda p: {".pdf": 0, ".epub": 1, ".mobi": 2, ".azw3": 3}.get(p.suffix.lower(), 9))
+                            cov_files = [p for p in all_files if p.suffix.lower() in IMAGE_EXTS]
+                            if eb_files:
+                                local_ebook_path = eb_files[0]
+                                ebook_item = {
+                                    "id": info["id"],
+                                    "name": local_ebook_path.name,
+                                    "size": local_ebook_path.stat().st_size,
+                                    "mimeType": "application/pdf" if local_ebook_path.suffix.lower() == ".pdf" else "application/epub+zip",
+                                }
+                            if cov_files:
+                                local_cover_path = cov_files[0]
+                        if not ebook_item:
+                            # Archive extraction unavailable or contained no standard ebook ext; keep archive itself
+                            ebook_item = {
+                                "id": info["id"],
+                                "name": fname,
+                                "size": info.get("size", 0),
+                                "mimeType": info.get("mimeType", "application/x-rar"),
+                            }
+                    else:
+                        ebook_item = {
+                            "id": info["id"],
+                            "name": fname,
+                            "size": info.get("size", 0),
+                            "mimeType": info.get("mimeType", "application/epub+zip"),
+                        }
 
-        res_record = None
-        if ebook_item:
-            src_id = f"kb:{ebook_item['id']}"
-            if src_id not in done_src_keys:
-                raw_item = {
-                    "name": ebook_item["name"],
-                    "category": " ".join(rec.get("categories", [])),
-                    "subfolder": rec.get("author", ""),
-                    "source_path": f"{' '.join(rec.get('categories', []))} {rec['title']}",
-                    "size": int(ebook_item.get("size") or 0),
-                }
-                top_path, leaf, _, _ = b25.classify_book_leaf(raw_item)
-                clean_top = clean_tax_segment(top_path.split("/")[0])
-                clean_lp = clean_tax_path(f"{top_path}/{leaf}")
-                clean_leaf = clean_tax_segment(leaf)
-                dest_folder_id = clean_folders.get(f"pdf/{clean_lp}") or clean_folders["pdf/Literature/Novels"]
-                new_fid = gd_cp(ebook_item["id"], ebook_item["name"], dest_folder_id)
-                if new_fid:
-                    res_record = {
-                        "source_id": src_id,
-                        "file_id": new_fid,
-                        "name": ebook_item["name"],
-                        "size": int(ebook_item.get("size") or 0),
-                        "mimeType": ebook_item.get("mimeType", "application/epub+zip"),
-                        "top_category": clean_top,
-                        "leaf_path": clean_lp,
-                        "leaf_category": clean_leaf,
-                        "subfolder": None,
-                        "author": rec.get("author") or "Various / Compiled (সংকলিত)",
-                        "publication": "Kindle Bangla (kindlebangla.com)",
-                        "link": f"https://drive.google.com/file/d/{new_fid}/view",
-                        "cover_url": rec.get("cover_url", ""),
-                        "thumbnail_url": rec.get("thumbnail_url", ""),
-                        "cover_drive_id": cover_drive_id or kb_state["copied_covers"].get(rec["url"], ""),
-                        "internal_title": rec.get("title", ""),
-                    }
+            norm_title = unicodedata.normalize("NFC", (rec.get("title") or "").strip())
+            norm_auth = unicodedata.normalize("NFC", (rec.get("author") or "").strip())
+            if norm_auth and norm_auth.lower() not in norm_title.lower():
+                raw_label = f"{norm_title} - {norm_auth}"
+            else:
+                raw_label = norm_title
+            clean_base = re.sub(r'[<>:"/\\|?*\x00-\x1f]+', " ", raw_label).strip(" .")[:120]
+
+            cover_drive_id = None
+            if local_cover_path and rec["url"] not in kb_state["copied_covers"]:
+                cov_ext = local_cover_path.suffix.lower() if local_cover_path.suffix.lower() in IMAGE_EXTS else ".jpg"
+                target_cov = work_dir / f"{clean_base or local_cover_path.stem}{cov_ext}"
+                if target_cov != local_cover_path:
+                    shutil.copy2(local_cover_path, target_cov)
+                cover_drive_id = gd_upload(target_cov, covers_kb_folder_id)
+                if cover_drive_id:
+                    kb_state["copied_covers"][rec["url"]] = cover_drive_id
+            elif cover_item and rec["url"] not in kb_state["copied_covers"]:
+                cov_ext = Path(cover_item["name"]).suffix.lower() or ".jpg"
+                cov_name = f"{clean_base}{cov_ext}" if clean_base else cover_item["name"]
+                cover_drive_id = gd_cp(cover_item["id"], cov_name, covers_kb_folder_id)
+                if cover_drive_id:
+                    kb_state["copied_covers"][rec["url"]] = cover_drive_id
+            elif rec.get("cover_url") and rec["url"] not in kb_state["copied_covers"]:
+                try:
+                    cu = rec["cover_url"]
+                    ext = Path(urllib.parse.urlparse(cu).path).suffix.lower()
+                    if ext not in IMAGE_EXTS:
+                        ext = ".jpg"
+                    cname = (clean_base or "cover") + ext
+                    cp = work_dir / cname
+                    creq = urllib.request.Request(cu, headers=REQ_HDR)
+                    with urllib.request.urlopen(creq, timeout=15) as cr:
+                        data = cr.read()
+                    if len(data) >= 512:
+                        cp.write_bytes(data)
+                        cfid = gd_upload(cp, covers_kb_folder_id)
+                        if cfid:
+                            cover_drive_id = cfid
+                            kb_state["copied_covers"][rec["url"]] = cfid
+                except Exception:
+                    pass
+
+            res_record = None
+            if ebook_item and src_key_id:
+                src_id = f"kb:{src_key_id}"
+                if src_id not in done_src_keys:
+                    clean_lp = cc.classify_clean_leaf(
+                        title=rec.get("title") or ebook_item["name"],
+                        author=rec.get("author", ""),
+                        genres=rec.get("categories", []),
+                        publication="Kindle Bangla (kindlebangla.com)",
+                    )
+                    clean_top = clean_lp.split("/")[0]
+                    clean_leaf = clean_lp.split("/")[-1]
+                    dest_folder_id = clean_folders.get(f"pdf/{clean_lp}") or clean_folders["pdf/Literature/Novels"]
+                    eb_ext = Path(ebook_item["name"]).suffix.lower() or ".epub"
+                    eb_target_name = f"{clean_base}{eb_ext}" if clean_base else ebook_item["name"]
+                    if local_ebook_path:
+                        target_eb = work_dir / eb_target_name
+                        if target_eb != local_ebook_path:
+                            shutil.copy2(local_ebook_path, target_eb)
+                        new_fid = gd_upload(target_eb, dest_folder_id)
+                    else:
+                        new_fid = gd_cp(ebook_item["id"], eb_target_name, dest_folder_id)
+                    if new_fid:
+                        res_record = {
+                            "source_id": src_id,
+                            "file_id": new_fid,
+                            "name": eb_target_name,
+                            "size": int(ebook_item.get("size") or 0),
+                            "mimeType": ebook_item.get("mimeType", "application/epub+zip"),
+                            "top_category": clean_top,
+                            "leaf_path": clean_lp,
+                            "leaf_category": clean_leaf,
+                            "subfolder": None,
+                            "author": norm_auth or "Various / Compiled (সংকলিত)",
+                            "publication": "Kindle Bangla (kindlebangla.com)",
+                            "link": f"https://drive.google.com/file/d/{new_fid}/view",
+                            "cover_url": rec.get("cover_url", ""),
+                            "thumbnail_url": rec.get("thumbnail_url", ""),
+                            "cover_drive_id": cover_drive_id or kb_state["copied_covers"].get(rec["url"], ""),
+                            "internal_title": norm_title,
+                        }
         return {
             "url": url,
             "rec": rec,

@@ -1,12 +1,13 @@
 "use client";
 
 import React, { useEffect } from "react";
-import { Download, ExternalLink, X } from "lucide-react";
+import { Download, ExternalLink, FolderOpen, X } from "lucide-react";
 import {
   BookRecord,
   cleanCategoryLabel,
   formatBytes,
   getDriveDownloadUrl,
+  getDriveFolderUrl,
   getDrivePreviewUrl,
   getDriveViewUrl,
 } from "@/types/library";
@@ -27,6 +28,8 @@ export function PreviewModal({ book, onClose }: PreviewModalProps) {
   }, [book, onClose]);
 
   if (!book) return null;
+
+  const primaryId = book.pdf_file_id || book.epub_file_id || book.text_file_id || book.file_id;
 
   return (
     <div
@@ -50,9 +53,31 @@ export function PreviewModal({ book, onClose }: PreviewModalProps) {
             </p>
           </div>
 
-          <div className="flex items-center gap-2 shrink-0">
+          <div className="flex flex-wrap items-center gap-2 shrink-0">
+            {book.folder_id && (
+              <a
+                href={getDriveFolderUrl(book.folder_id)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-amber-300 text-xs font-medium border border-slate-700"
+              >
+                <FolderOpen className="w-3.5 h-3.5" />
+                Book Folder
+              </a>
+            )}
+            {book.text_file_id && (
+              <a
+                href={getDriveDownloadUrl(book.text_file_id)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-sky-300 text-xs font-medium border border-slate-700"
+              >
+                <Download className="w-3.5 h-3.5" />
+                Text JSON
+              </a>
+            )}
             <a
-              href={book.link || getDriveViewUrl(book.file_id)}
+              href={book.link || getDriveViewUrl(primaryId)}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-medium border border-slate-700"
@@ -61,7 +86,7 @@ export function PreviewModal({ book, onClose }: PreviewModalProps) {
               Open in Drive
             </a>
             <a
-              href={getDriveDownloadUrl(book.file_id)}
+              href={getDriveDownloadUrl(primaryId)}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-semibold"
@@ -82,7 +107,7 @@ export function PreviewModal({ book, onClose }: PreviewModalProps) {
 
         <div className="flex-1 bg-slate-950 relative">
           <iframe
-            src={getDrivePreviewUrl(book.file_id)}
+            src={getDrivePreviewUrl(primaryId)}
             title={book.name}
             className="w-full h-full border-0"
             allow="autoplay"

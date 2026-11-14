@@ -1,0 +1,24 @@
+# 📖 Wastes
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Science](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Science/README.md) / [Physics](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Science/Physics/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/13LTjZeUvBGVMOTh3Ipu1UGtQL1UrJcVl)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/13LTjZeUvBGVMOTh3Ipu1UGtQL1UrJcVl) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | Wastes |
+| **Author** | Various / Compiled (সংকলিত) |
+| **Publication / Source** | University Physics - Geophysics & 4th Year |
+| **Category** | Science/Physics |
+| **Formats** | DOCX |
+| **Total Size** | 39.4 KB |
+
+### 📂 Files Inside Folder
+
+- [Wastes.docx](https://drive.google.com/file/d/1vjoXdfGFEqlkP8kq_W_aTg21NdGN-Egg/view) (39.4 KB)

@@ -1,0 +1,28 @@
+# 📖 ৩০. এক নিউ ওয়ার্ল্ড - সাইমুম সিরিজ #৩০ - আবুল আসাদ
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Religion](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/README.md) / [Islamic Lifestyle](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/Islam/Islamic%20Lifestyle/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1Od3qyn0Ep24leRRU_WyFdsizpOcwTeoe)
+
+![৩০. এক নিউ ওয়ার্ল্ড - সাইমুম সিরিজ #৩০ - আবুল আসাদ](https://drive.google.com/thumbnail?id=11RaIVAsz_JCw6s-XhL7bZ_cg776z6VtK&sz=w600)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1Od3qyn0Ep24leRRU_WyFdsizpOcwTeoe) |
+| 📄 **Structured Text (JSON)** | [Open Text JSON in Drive](https://drive.google.com/file/d/1AaUhwBhkY6AmFpoPDmWhlimnHkwCQzbk/view) |
+| 🖼️ **Cover Image** | [View Cover in Drive](https://drive.google.com/file/d/11RaIVAsz_JCw6s-XhL7bZ_cg776z6VtK/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | ৩০. এক নিউ ওয়ার্ল্ড - সাইমুম সিরিজ #৩০ - আবুল আসাদ |
+| **Author** | আবুল আসাদ |
+| **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
+| **Category** | Religion/Islam/Islamic Lifestyle |
+| **Formats** | TEXT |
+| **Total Size** | 650.3 KB |
+
+### 📂 Files Inside Folder
+
+- [৩০. এক নিউ ওয়ার্ল্ড - সাইমুম সিরিজ #৩০ - আবুল আসাদ.json](https://drive.google.com/file/d/1AaUhwBhkY6AmFpoPDmWhlimnHkwCQzbk/view) (650.3 KB)

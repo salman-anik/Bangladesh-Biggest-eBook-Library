@@ -358,22 +358,26 @@
         grid.innerHTML = `<div class="empty" style="grid-column:1/-1;">No books matched your search.</div>`;
       } else {
         grid.innerHTML = slice.map(b => {
-          const covUrl = b.cover_drive_id ? `https://drive.google.com/file/d/${b.cover_drive_id}/view` : (b.cover_url || "");
+          const covId = b.cover_file_id || b.cover_drive_id;
+          const covUrl = covId ? `https://drive.google.com/file/d/${covId}/view` : (b.cover_url || "");
+          const pdfId = b.pdf_file_id || b.epub_file_id;
           return `
           <div class="card">
             <div>
               <div class="card-title">${escapeHtml(b.name)}</div>
               <div class="card-meta" style="margin-top:0.45rem;">
-                <span class="badge">${escapeHtml(b.section || "pdf")} / ${escapeHtml(b.leaf_path || b.top_category)}</span>
+                <span class="badge">${escapeHtml(b.leaf_path || b.top_category)}</span>
                 <span>✍️ ${escapeHtml(b.author)}</span>
                 <span>🏢 ${escapeHtml(b.publication)}</span>
               </div>
             </div>
             <div class="card-actions">
               <span class="size">${fmtSize(b.size)}</span>
-              <div style="display:flex;gap:0.4rem;align-items:center;">
+              <div style="display:flex;gap:0.4rem;align-items:center;flex-wrap:wrap;">
+                ${pdfId ? `<a class="btn" style="background:var(--surface-2);color:var(--text);" href="https://drive.google.com/file/d/${escapeHtml(pdfId)}/view" target="_blank" rel="noopener">eBook</a>` : ""}
+                ${b.text_file_id ? `<a class="btn" style="background:var(--surface-2);color:var(--text);" href="https://drive.google.com/file/d/${escapeHtml(b.text_file_id)}/view" target="_blank" rel="noopener">Text</a>` : ""}
                 ${covUrl ? `<a class="btn" style="background:var(--surface-2);color:var(--text);" href="${escapeHtml(covUrl)}" target="_blank" rel="noopener">Cover</a>` : ""}
-                <a class="btn" href="${escapeHtml(b.link)}" target="_blank" rel="noopener">Open in Drive ↗</a>
+                <a class="btn" href="${escapeHtml(b.link)}" target="_blank" rel="noopener">Folder ↗</a>
               </div>
             </div>
           </div>

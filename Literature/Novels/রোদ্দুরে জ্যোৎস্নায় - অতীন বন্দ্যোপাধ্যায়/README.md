@@ -1,0 +1,25 @@
+# 📖 রোদ্দুরে জ্যোৎস্নায় - অতীন বন্দ্যোপাধ্যায়
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/README.md) / [Novels](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Novels/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/18kU6E6YZFsOsKbrA10yFZNTtbksFBAuN)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/18kU6E6YZFsOsKbrA10yFZNTtbksFBAuN) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/1V14BJttUxmbzAe8_g3RHtXf8QAGuYp1B/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | রোদ্দুরে জ্যোৎস্নায় - অতীন বন্দ্যোপাধ্যায় |
+| **Author** | Various / Unknown |
+| **Publication / Source** | মৃণালের ই-লাইব্রেরি |
+| **Category** | Literature/Novels |
+| **Formats** | PDF |
+| **Total Size** | 6.7 MB |
+
+### 📂 Files Inside Folder
+
+- [রোদ্দুরে জ্যোৎস্নায় - অতীন বন্দ্যোপাধ্যায়.pdf](https://drive.google.com/file/d/1V14BJttUxmbzAe8_g3RHtXf8QAGuYp1B/view) (6.7 MB)

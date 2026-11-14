@@ -295,7 +295,7 @@ export function LibraryExplorer() {
             <div>
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 text-xs font-semibold mb-2">
                 <BookOpen className="w-3.5 h-3.5" />
-                বাংলাদেশের বৃহত্তম ই-বুক লাইব্রেরি • 25 Bilingual Categories
+                বাংলাদেশের বৃহত্তম ই-বুক লাইব্রেরি • 25 Clean Categories
               </div>
               <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-white">
                 Bangladesh&apos;s Biggest E-Book Library

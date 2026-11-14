@@ -1,0 +1,25 @@
+# 📖 বৈশাখী - বুদ্ধদেব গুহ
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/README.md) / [Novels](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Novels/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1j-yIQvV6m3rs1BNTQGl3M9Tk4rj8GxUN)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1j-yIQvV6m3rs1BNTQGl3M9Tk4rj8GxUN) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/10A9REUpzWBQUJVTyqOKnlRNiNEwVKyOS/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | বৈশাখী - বুদ্ধদেব গুহ |
+| **Author** | Various / Unknown |
+| **Publication / Source** | মৃণালের ই-লাইব্রেরি |
+| **Category** | Literature/Novels |
+| **Formats** | PDF |
+| **Total Size** | 184.1 KB |
+
+### 📂 Files Inside Folder
+
+- [বৈশাখী - বুদ্ধদেব গুহ.pdf](https://drive.google.com/file/d/10A9REUpzWBQUJVTyqOKnlRNiNEwVKyOS/view) (184.1 KB)

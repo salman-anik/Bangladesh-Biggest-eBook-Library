@@ -1,0 +1,25 @@
+# 📖 দোয়া ও জিকির(রাসুল সঃ দৈনন্দিক জীবনে পড়তেন)
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Religion](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/README.md) / [Dua and Prayer](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/Islam/Dua%20and%20Prayer/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1aaklM2AFj7tMDkm5cv6m75cWzZaU2CWp)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1aaklM2AFj7tMDkm5cv6m75cWzZaU2CWp) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/15pLuwC-Fz7RdzP-2Ab_Ei44-nNUa6H9p/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | দোয়া ও জিকির(রাসুল সঃ দৈনন্দিক জীবনে পড়তেন) |
+| **Author** | Various / Unknown |
+| **Publication / Source** | ইসলামী বই |
+| **Category** | Religion/Islam/Dua and Prayer |
+| **Formats** | PDF |
+| **Total Size** | 3.3 MB |
+
+### 📂 Files Inside Folder
+
+- [দোয়া ও জিকির(রাসুল সঃ দৈনন্দিক জীবনে পড়তেন).pdf](https://drive.google.com/file/d/15pLuwC-Fz7RdzP-2Ab_Ei44-nNUa6H9p/view) (3.3 MB)

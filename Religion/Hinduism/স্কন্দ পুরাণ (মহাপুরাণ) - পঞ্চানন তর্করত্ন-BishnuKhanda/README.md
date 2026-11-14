@@ -1,0 +1,25 @@
+# 📖 স্কন্দ পুরাণ (মহাপুরাণ) - পঞ্চানন তর্করত্ন-BishnuKhanda
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Religion](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/README.md) / [Hinduism](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/Hinduism/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/18-oA7aA3qTJVhL6jvb_Ds7_oZoYA2uXE)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/18-oA7aA3qTJVhL6jvb_Ds7_oZoYA2uXE) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/1K5_ckGEQNP5nfUkr2Jmr3shbqj1jwuBg/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | স্কন্দ পুরাণ (মহাপুরাণ) - পঞ্চানন তর্করত্ন-BishnuKhanda |
+| **Author** | Various / Unknown |
+| **Publication / Source** | মৃণালের ই-লাইব্রেরি |
+| **Category** | Religion/Hinduism |
+| **Formats** | PDF |
+| **Total Size** | 122.4 MB |
+
+### 📂 Files Inside Folder
+
+- [স্কন্দ পুরাণ (মহাপুরাণ) - পঞ্চানন তর্করত্ন-BishnuKhanda.pdf](https://drive.google.com/file/d/1K5_ckGEQNP5nfUkr2Jmr3shbqj1jwuBg/view) (122.4 MB)

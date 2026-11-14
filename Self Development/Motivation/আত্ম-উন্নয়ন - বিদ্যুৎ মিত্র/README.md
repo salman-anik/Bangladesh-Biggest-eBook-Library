@@ -1,0 +1,29 @@
+# 📖 আত্ম-উন্নয়ন - বিদ্যুৎ মিত্র
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Self Development](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Self%20Development/README.md) / [Motivation](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Self%20Development/Motivation/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1WybrZQfKBvdwXCHS_Cz8G09qo1G6asud)
+
+![আত্ম-উন্নয়ন - বিদ্যুৎ মিত্র](https://drive.google.com/thumbnail?id=1d7WM9z23DTlhtEwKEdPYU57Dqx-LdqV-&sz=w600)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1WybrZQfKBvdwXCHS_Cz8G09qo1G6asud) |
+| 📄 **Structured Text (JSON)** | [Open Text JSON in Drive](https://drive.google.com/file/d/1nsGspVh5nO5fpVZGr7wBlvKaVRxZZ3Q0/view) |
+| 🖼️ **Cover Image** | [View Cover in Drive](https://drive.google.com/file/d/1d7WM9z23DTlhtEwKEdPYU57Dqx-LdqV-/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | আত্ম-উন্নয়ন - বিদ্যুৎ মিত্র |
+| **Author** | বিদ্যুৎ মিত্র |
+| **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
+| **Category** | Self Development/Motivation |
+| **Formats** | COVER, TEXT, json |
+| **Total Size** | 464.1 KB |
+
+### 📂 Files Inside Folder
+
+- [আত্ম-উন্নয়ন - বিদ্যুৎ মিত্র.jpg](https://drive.google.com/file/d/1d7WM9z23DTlhtEwKEdPYU57Dqx-LdqV-/view) (36.8 KB)
+- [আত্ম-উন্নয়ন - বিদ্যুৎ মিত্র.json](https://drive.google.com/file/d/1nsGspVh5nO5fpVZGr7wBlvKaVRxZZ3Q0/view) (427.4 KB)

@@ -1,0 +1,24 @@
+# 📖 Novels About Himu
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/README.md) / [Novels](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Novels/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1nLXBf8l3jIyRN5mjfPv8QVPLdtro_SpP)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1nLXBf8l3jIyRN5mjfPv8QVPLdtro_SpP) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | Novels About Himu |
+| **Author** | Various / Unknown |
+| **Publication / Source** | মৃণালের ই-লাইব্রেরি |
+| **Category** | Literature/Novels |
+| **Formats** | DOCX |
+| **Total Size** | 17.2 KB |
+
+### 📂 Files Inside Folder
+
+- [Novels About Himu.docx](https://drive.google.com/file/d/1gLatN9IVBOaeGdxQlcj1pJdON-bhTS4I/view) (17.2 KB)

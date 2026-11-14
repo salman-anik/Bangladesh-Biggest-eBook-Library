@@ -1,0 +1,25 @@
+# 📖 ডিজিটাল প্রযুক্তি (BV) - ২০২৪ মাধ্যমিক সপ্তম শ্রেণির (NCTB 2024) - NCTB (জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ড
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Education and Academics](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Education%20and%20Academics/README.md) / [Class 7](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Education%20and%20Academics/Class%207/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1iWR1937ZlyOWZRGvUYC8dDZvTW0R3k_S)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1iWR1937ZlyOWZRGvUYC8dDZvTW0R3k_S) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/1l7e1DklLZRg4KPP-ohhs7JNcC84vN0-A/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | ডিজিটাল প্রযুক্তি (BV) - ২০২৪ মাধ্যমিক সপ্তম শ্রেণির (NCTB 2024) - NCTB (জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ড (1) |
+| **Author** | NCTB (জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ড) |
+| **Publication / Source** | NCTB (National Curriculum and Textbook Board) |
+| **Category** | Education and Academics/Class 7 |
+| **Formats** | PDF |
+| **Total Size** | 3.1 MB |
+
+### 📂 Files Inside Folder
+
+- [ডিজিটাল প্রযুক্তি (BV) - ২০২৪ মাধ্যমিক সপ্তম শ্রেণির (NCTB 2024) - NCTB (জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ড.pdf](https://drive.google.com/file/d/1l7e1DklLZRg4KPP-ohhs7JNcC84vN0-A/view) (3.1 MB)

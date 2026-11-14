@@ -1,0 +1,29 @@
+# 📖 তেইশ নম্বর তৈলচিত্র - আলাউদ্দিন আল আজাদ
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/README.md) / [Novels](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Novels/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1utg3C9JAAunG81ULaY37x_TbmgOmgF1C)
+
+![তেইশ নম্বর তৈলচিত্র - আলাউদ্দিন আল আজাদ](https://drive.google.com/thumbnail?id=17sl7nyOIdqx6Gu7-zRhT43YlUBn7Yxlw&sz=w600)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1utg3C9JAAunG81ULaY37x_TbmgOmgF1C) |
+| 📄 **Structured Text (JSON)** | [Open Text JSON in Drive](https://drive.google.com/file/d/1rW8YWZVj-t7wkrvv6H05m3bdRgKki7Rk/view) |
+| 🖼️ **Cover Image** | [View Cover in Drive](https://drive.google.com/file/d/17sl7nyOIdqx6Gu7-zRhT43YlUBn7Yxlw/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | তেইশ নম্বর তৈলচিত্র - আলাউদ্দিন আল আজাদ |
+| **Author** | আলাউদ্দিন আল আজাদ |
+| **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
+| **Category** | Literature/Novels |
+| **Formats** | COVER, TEXT, json |
+| **Total Size** | 385.6 KB |
+
+### 📂 Files Inside Folder
+
+- [তেইশ নম্বর তৈলচিত্র - আলাউদ্দিন আল আজাদ.jpg](https://drive.google.com/file/d/17sl7nyOIdqx6Gu7-zRhT43YlUBn7Yxlw/view) (7.7 KB)
+- [তেইশ নম্বর তৈলচিত্র - আলাউদ্দিন আল আজাদ.json](https://drive.google.com/file/d/1rW8YWZVj-t7wkrvv6H05m3bdRgKki7Rk/view) (377.9 KB)

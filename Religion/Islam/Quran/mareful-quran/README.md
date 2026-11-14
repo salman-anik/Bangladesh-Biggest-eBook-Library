@@ -1,0 +1,25 @@
+# 📖 mareful-quran
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Religion](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/README.md) / [Quran](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/Islam/Quran/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1XRBawVK-Q1t9jistAymB2fyjb7uFV2zB)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1XRBawVK-Q1t9jistAymB2fyjb7uFV2zB) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/1ufOUlQVWh1TttVipxhpYcwHtHFm7EHJs/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | mareful-quran |
+| **Author** | Various / Compiled (সংকলিত) |
+| **Publication / Source** | Shared Islamic & General Books (irfan) |
+| **Category** | Religion/Islam/Quran |
+| **Formats** | PDF |
+| **Total Size** | 188.7 MB |
+
+### 📂 Files Inside Folder
+
+- [mareful-quran.pdf](https://drive.google.com/file/d/1ufOUlQVWh1TttVipxhpYcwHtHFm7EHJs/view) (188.7 MB)

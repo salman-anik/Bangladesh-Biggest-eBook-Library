@@ -1,6 +1,13 @@
 export interface BookRecord {
   source_id?: string;
   file_id: string;
+  folder_id?: string;
+  pdf_file_id?: string;
+  epub_file_id?: string;
+  text_file_id?: string;
+  cover_file_id?: string;
+  cover_url?: string;
+  formats?: string[];
   name: string;
   size: number;
   mimeType?: string;
@@ -52,4 +59,8 @@ export function getDrivePreviewUrl(fileId: string): string {
 
 export function getDriveDownloadUrl(fileId: string): string {
   return `https://drive.google.com/uc?export=download&id=${fileId}`;
+}
+
+export function getDriveThumbnailUrl(fileId: string): string {
+  return `https://drive.google.com/thumbnail?id=${fileId}&sz=w400`;
 }

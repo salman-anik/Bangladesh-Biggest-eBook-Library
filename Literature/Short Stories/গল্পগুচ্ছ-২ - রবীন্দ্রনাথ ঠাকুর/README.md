@@ -1,0 +1,29 @@
+# 📖 গল্পগুচ্ছ-২ - রবীন্দ্রনাথ ঠাকুর
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/README.md) / [Short Stories](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Short%20Stories/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1UscWkL-D7oNNooeQt1sVOrg9dZZF0zNs)
+
+![গল্পগুচ্ছ-২ - রবীন্দ্রনাথ ঠাকুর](https://drive.google.com/thumbnail?id=19JjwvvWgJ2zN6SNIGMSq3Sk6toNN88Y3&sz=w600)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1UscWkL-D7oNNooeQt1sVOrg9dZZF0zNs) |
+| 📱 **EPUB eBook** | [Open EPUB in Drive](https://drive.google.com/file/d/1ZB9G2vvynZPlrGSwpuPTzBjvA5qiZbli/view) |
+| 🖼️ **Cover Image** | [View Cover in Drive](https://drive.google.com/file/d/19JjwvvWgJ2zN6SNIGMSq3Sk6toNN88Y3/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | গল্পগুচ্ছ-২ - রবীন্দ্রনাথ ঠাকুর |
+| **Author** | রবীন্দ্রনাথ ঠাকুর |
+| **Publication / Source** | Kindle Bangla (kindlebangla.com) |
+| **Category** | Literature/Short Stories |
+| **Formats** | COVER, EPUB |
+| **Total Size** | 931.3 KB |
+
+### 📂 Files Inside Folder
+
+- [গল্পগুচ্ছ-২ - রবীন্দ্রনাথ ঠাকুর.epub](https://drive.google.com/file/d/1ZB9G2vvynZPlrGSwpuPTzBjvA5qiZbli/view) (855.2 KB)
+- [গল্পগুচ্ছ-২ - রবীন্দ্রনাথ ঠাকুর.jpg](https://drive.google.com/file/d/19JjwvvWgJ2zN6SNIGMSq3Sk6toNN88Y3/view) (76.1 KB)

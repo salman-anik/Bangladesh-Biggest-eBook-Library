@@ -1,0 +1,25 @@
+# 📖 অসমাপ্ত চুম্বনের ১৯ বছর পর - আনিসুল হক
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/README.md) / [Novels](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Novels/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1yZdm7kn6eOrfqOYG5sqWxpVynxxHqOn4)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1yZdm7kn6eOrfqOYG5sqWxpVynxxHqOn4) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/1hEhceIzrKrpUosSchmQiMwJr5CEfd6su/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | অসমাপ্ত চুম্বনের ১৯ বছর পর - আনিসুল হক |
+| **Author** | Various / Unknown |
+| **Publication / Source** | মৃণালের ই-লাইব্রেরি |
+| **Category** | Literature/Novels |
+| **Formats** | PDF |
+| **Total Size** | 4.7 MB |
+
+### 📂 Files Inside Folder
+
+- [অসমাপ্ত চুম্বনের ১৯ বছর পর - আনিসুল হক.pdf](https://drive.google.com/file/d/1hEhceIzrKrpUosSchmQiMwJr5CEfd6su/view) (4.7 MB)

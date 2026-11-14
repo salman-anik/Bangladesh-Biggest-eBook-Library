@@ -1,0 +1,29 @@
+# 📖 মাসুদ রানা ০০৬ - দুর্গম দুর্গ - কাজী আনোয়ার হোসেন
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Fiction](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Fiction/README.md) / [Thriller](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Fiction/Thriller/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1_QKUy8P7mdgAUOVDLmDRaqUP4VgUYOY5)
+
+![মাসুদ রানা ০০৬ - দুর্গম দুর্গ - কাজী আনোয়ার হোসেন](https://drive.google.com/thumbnail?id=12qcPwo2dwVA2MhCXTxYvU44-AtSE-HEH&sz=w600)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1_QKUy8P7mdgAUOVDLmDRaqUP4VgUYOY5) |
+| 📄 **Structured Text (JSON)** | [Open Text JSON in Drive](https://drive.google.com/file/d/1Kh12wFQV1AVTiwYtitA00hcWqCNE00HS/view) |
+| 🖼️ **Cover Image** | [View Cover in Drive](https://drive.google.com/file/d/12qcPwo2dwVA2MhCXTxYvU44-AtSE-HEH/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | মাসুদ রানা ০০৬ - দুর্গম দুর্গ - কাজী আনোয়ার হোসেন |
+| **Author** | কাজী আনোয়ার হোসেন |
+| **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
+| **Category** | Fiction/Thriller |
+| **Formats** | COVER, TEXT, json |
+| **Total Size** | 520.6 KB |
+
+### 📂 Files Inside Folder
+
+- [মাসুদ রানা ০০৬ - দুর্গম দুর্গ - কাজী আনোয়ার হোসেন.jpg](https://drive.google.com/file/d/12qcPwo2dwVA2MhCXTxYvU44-AtSE-HEH/view) (12.5 KB)
+- [মাসুদ রানা ০০৬ - দুর্গম দুর্গ - কাজী আনোয়ার হোসেন.json](https://drive.google.com/file/d/1Kh12wFQV1AVTiwYtitA00hcWqCNE00HS/view) (508.0 KB)

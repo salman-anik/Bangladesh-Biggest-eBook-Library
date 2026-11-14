@@ -1,0 +1,29 @@
+# 📖 চন্দ্রলেখা অন্তর্ধান রহস্য - অভিরূপ সরকার
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Fiction](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Fiction/README.md) / [Detective](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Fiction/Detective/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1c7abGlPHQk3MQqtRjdW5V3IZhqH9fBEH)
+
+![চন্দ্রলেখা অন্তর্ধান রহস্য - অভিরূপ সরকার](https://drive.google.com/thumbnail?id=1hNt_otitk3hTG-sGor5r3Uf5rvX00_yQ&sz=w600)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1c7abGlPHQk3MQqtRjdW5V3IZhqH9fBEH) |
+| 📄 **Structured Text (JSON)** | [Open Text JSON in Drive](https://drive.google.com/file/d/1W0IOm7S5TgwXsE4W52vi2Ns53ma7dzCV/view) |
+| 🖼️ **Cover Image** | [View Cover in Drive](https://drive.google.com/file/d/1hNt_otitk3hTG-sGor5r3Uf5rvX00_yQ/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | চন্দ্রলেখা অন্তর্ধান রহস্য - অভিরূপ সরকার |
+| **Author** | অভিরূপ সরকার |
+| **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
+| **Category** | Fiction/Detective |
+| **Formats** | COVER, TEXT, json |
+| **Total Size** | 1.1 MB |
+
+### 📂 Files Inside Folder
+
+- [চন্দ্রলেখা অন্তর্ধান রহস্য - অভিরূপ সরকার.jpg](https://drive.google.com/file/d/1hNt_otitk3hTG-sGor5r3Uf5rvX00_yQ/view) (7.9 KB)
+- [চন্দ্রলেখা অন্তর্ধান রহস্য - অভিরূপ সরকার.json](https://drive.google.com/file/d/1W0IOm7S5TgwXsE4W52vi2Ns53ma7dzCV/view) (1.0 MB)

@@ -1,0 +1,31 @@
+# 📖 আয়নামহল - সুচিত্রা ভট্টাচার্য
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/README.md) / [Novels](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Novels/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/12BE85DsGB-jhftmMY_1g8g0rqRax-yGh)
+
+![আয়নামহল - সুচিত্রা ভট্টাচার্য](https://drive.google.com/thumbnail?id=1ekMPlPDLZALzjmNIISN5VwS45UyFUBUA&sz=w600)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/12BE85DsGB-jhftmMY_1g8g0rqRax-yGh) |
+| 📱 **EPUB eBook** | [Open EPUB in Drive](https://drive.google.com/file/d/1uQIB_0URKdcQCwp4CpmPRoHSiMKEoZYE/view) |
+| 📄 **Structured Text (JSON)** | [Open Text JSON in Drive](https://drive.google.com/file/d/1Djqv2SP3Njf-15ECWqGsA5aDNDwVGg3w/view) |
+| 🖼️ **Cover Image** | [View Cover in Drive](https://drive.google.com/file/d/1ekMPlPDLZALzjmNIISN5VwS45UyFUBUA/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | আয়নামহল - সুচিত্রা ভট্টাচার্য |
+| **Author** | সুচিত্রা ভট্টাচার্য |
+| **Publication / Source** | Kindle Bangla (kindlebangla.com) |
+| **Category** | Literature/Novels |
+| **Formats** | COVER, EPUB, TEXT, json |
+| **Total Size** | 1.1 MB |
+
+### 📂 Files Inside Folder
+
+- [আয়নামহল - সুচিত্রা ভট্টাচার্য.epub](https://drive.google.com/file/d/1uQIB_0URKdcQCwp4CpmPRoHSiMKEoZYE/view) (370.1 KB)
+- [আয়নামহল - সুচিত্রা ভট্টাচার্য.jpg](https://drive.google.com/file/d/1ekMPlPDLZALzjmNIISN5VwS45UyFUBUA/view) (91.9 KB)
+- [আয়নামহল - সুচিত্রা ভট্টাচার্য.json](https://drive.google.com/file/d/1Djqv2SP3Njf-15ECWqGsA5aDNDwVGg3w/view) (625.5 KB)

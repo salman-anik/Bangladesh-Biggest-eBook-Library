@@ -131,7 +131,7 @@ export function FolderBrowserGrid({
             }`}
           >
             <Home className="w-3.5 h-3.5 text-emerald-400" />
-            BANGLA_LIBRARY
+            Bangladesh-Biggest-eBook-Library
           </button>
           {segments.map((seg, idx) => {
             const segPath = segments.slice(0, idx + 1).join("/");

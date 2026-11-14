@@ -1,0 +1,25 @@
+# 📖 Sei Rajakar
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [History](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/History/README.md) / [Bangladesh History](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/History/Bangladesh%20History/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1PJqk9pjtqseIhAFS1unL0iLtPrg_3d31)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1PJqk9pjtqseIhAFS1unL0iLtPrg_3d31) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/1SA9m01UDEIEo1Kkg54rn0xl7-gcfpqnM/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | Sei Rajakar |
+| **Author** | Various / Unknown |
+| **Publication / Source** | মৃণালের ই-লাইব্রেরি |
+| **Category** | History/Bangladesh History |
+| **Formats** | PDF |
+| **Total Size** | 18.8 MB |
+
+### 📂 Files Inside Folder
+
+- [Sei Rajakar.pdf](https://drive.google.com/file/d/1SA9m01UDEIEo1Kkg54rn0xl7-gcfpqnM/view) (18.8 MB)

@@ -1,0 +1,29 @@
+# 📖 অপারেশন তেলআবিব-২ - সাইমুম সিরিজ #২ - আবুল আসাদ
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Religion](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/README.md) / [Islamic Lifestyle](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/Islam/Islamic%20Lifestyle/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1FwTt7N5_bi6E_6sYORlCkuVIMmyiKeYm)
+
+![অপারেশন তেলআবিব-২ - সাইমুম সিরিজ #২ - আবুল আসাদ](https://drive.google.com/thumbnail?id=1S9BT9QsQySEtxbxAfMs3ZV-ZDGRJFwdI&sz=w600)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1FwTt7N5_bi6E_6sYORlCkuVIMmyiKeYm) |
+| 📄 **Structured Text (JSON)** | [Open Text JSON in Drive](https://drive.google.com/file/d/1YClQ24BJC5huKsZcGHX1uWGnGfUQQRMg/view) |
+| 🖼️ **Cover Image** | [View Cover in Drive](https://drive.google.com/file/d/1S9BT9QsQySEtxbxAfMs3ZV-ZDGRJFwdI/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | অপারেশন তেলআবিব-২ - সাইমুম সিরিজ #২ - আবুল আসাদ |
+| **Author** | আবুল আসাদ |
+| **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
+| **Category** | Religion/Islam/Islamic Lifestyle |
+| **Formats** | COVER, TEXT, json |
+| **Total Size** | 723.5 KB |
+
+### 📂 Files Inside Folder
+
+- [অপারেশন তেলআবিব-২ - সাইমুম সিরিজ #২ - আবুল আসাদ.jpg](https://drive.google.com/file/d/1S9BT9QsQySEtxbxAfMs3ZV-ZDGRJFwdI/view) (51.7 KB)
+- [অপারেশন তেলআবিব-২ - সাইমুম সিরিজ #২ - আবুল আসাদ.json](https://drive.google.com/file/d/1YClQ24BJC5huKsZcGHX1uWGnGfUQQRMg/view) (671.8 KB)

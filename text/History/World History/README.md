@@ -1,5 +1,0 @@
-# World History
-
-> **Path**: `text/History/World History` | **Books**: **0** | [Google Drive Folder ↗](https://drive.google.com/drive/folders/1bnsxMSa6FqnvB75StOXdbcNWa0TQccn5)
-
-*No books placed directly in this folder yet. Browse subfolders or see [Master Catalog](../../README.md).*

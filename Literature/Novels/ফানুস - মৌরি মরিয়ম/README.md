@@ -1,0 +1,29 @@
+# 📖 ফানুস - মৌরি মরিয়ম
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/README.md) / [Novels](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Novels/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1FewprXlhRCv13m_fgNHJZjmoRWNArrFC)
+
+![ফানুস - মৌরি মরিয়ম](https://drive.google.com/thumbnail?id=1zIy2lxU7u-tYiDFEwe9i-RYCkH8KegKj&sz=w600)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1FewprXlhRCv13m_fgNHJZjmoRWNArrFC) |
+| 📄 **Structured Text (JSON)** | [Open Text JSON in Drive](https://drive.google.com/file/d/1IDyPTtew2dXx_Ff4grstvI1uXdLa9AVk/view) |
+| 🖼️ **Cover Image** | [View Cover in Drive](https://drive.google.com/file/d/1zIy2lxU7u-tYiDFEwe9i-RYCkH8KegKj/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | ফানুস - মৌরি মরিয়ম |
+| **Author** | মৌরি মরিয়ম |
+| **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
+| **Category** | Literature/Novels |
+| **Formats** | COVER, TEXT, json |
+| **Total Size** | 1016.4 KB |
+
+### 📂 Files Inside Folder
+
+- [ফানুস - মৌরি মরিয়ম.json](https://drive.google.com/file/d/1IDyPTtew2dXx_Ff4grstvI1uXdLa9AVk/view) (1005.7 KB)
+- [ফানুস - মৌরি মরিয়ম.jpg](https://drive.google.com/file/d/1zIy2lxU7u-tYiDFEwe9i-RYCkH8KegKj/view) (10.7 KB)

@@ -1,0 +1,29 @@
+# 📖 ক্ষমা - কাশেম বিন আবু বকর
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/README.md) / [Novels](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Novels/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1nAcgt-MIwlzLCa56AJrRbDi2mHgPDsXD)
+
+![ক্ষমা - কাশেম বিন আবু বকর](https://drive.google.com/thumbnail?id=1q6lrFvCYNOEhb3R8tMkHk7FphpmOoQQ7&sz=w600)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1nAcgt-MIwlzLCa56AJrRbDi2mHgPDsXD) |
+| 📱 **EPUB eBook** | [Open EPUB in Drive](https://drive.google.com/file/d/1U0gsfXqJEi5IrhjVBpEm1oUthTbJ6iAF/view) |
+| 🖼️ **Cover Image** | [View Cover in Drive](https://drive.google.com/file/d/1q6lrFvCYNOEhb3R8tMkHk7FphpmOoQQ7/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | ক্ষমা - কাশেম বিন আবু বকর |
+| **Author** | কাশেম বিন আবু বকর |
+| **Publication / Source** | Kindle Bangla (kindlebangla.com) |
+| **Category** | Literature/Novels |
+| **Formats** | COVER, EPUB |
+| **Total Size** | 282.8 KB |
+
+### 📂 Files Inside Folder
+
+- [ক্ষমা - কাশেম বিন আবু বকর.epub](https://drive.google.com/file/d/1U0gsfXqJEi5IrhjVBpEm1oUthTbJ6iAF/view) (252.7 KB)
+- [ক্ষমা - কাশেম বিন আবু বকর.jpg](https://drive.google.com/file/d/1q6lrFvCYNOEhb3R8tMkHk7FphpmOoQQ7/view) (30.2 KB)

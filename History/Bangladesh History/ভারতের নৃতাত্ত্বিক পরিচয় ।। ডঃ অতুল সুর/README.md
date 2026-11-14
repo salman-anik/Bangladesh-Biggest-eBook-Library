@@ -1,0 +1,25 @@
+# 📖 ভারতের নৃতাত্ত্বিক পরিচয় ।। ডঃ অতুল সুর
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [History](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/History/README.md) / [Bangladesh History](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/History/Bangladesh%20History/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/16n9OHpMp9d8Ex64182T2O6B-cHbj8-Wc)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/16n9OHpMp9d8Ex64182T2O6B-cHbj8-Wc) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/174DjoS9Ely-Wd3Z23fKC9i1CCl-QrJOF/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | ভারতের নৃতাত্ত্বিক পরিচয় ।। ডঃ অতুল সুর |
+| **Author** | Various / Unknown |
+| **Publication / Source** | মৃণালের ই-লাইব্রেরি |
+| **Category** | History/Bangladesh History |
+| **Formats** | PDF |
+| **Total Size** | 18.6 MB |
+
+### 📂 Files Inside Folder
+
+- [ভারতের নৃতাত্ত্বিক পরিচয় ।। ডঃ অতুল সুর.pdf](https://drive.google.com/file/d/174DjoS9Ely-Wd3Z23fKC9i1CCl-QrJOF/view) (18.6 MB)

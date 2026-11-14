@@ -1,0 +1,31 @@
+# 📖 বাঙলা ভাষার শত্রুমিত্র - হুমায়ুন আজাদ
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/README.md) / [Essays](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Essays/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1dOVBpaxvBO1RDePysGNXXlZF1pboYPpI)
+
+![বাঙলা ভাষার শত্রুমিত্র - হুমায়ুন আজাদ](https://drive.google.com/thumbnail?id=117Kmt04DUe7hyF4fq9Gr7vXkDFSpPMWx&sz=w600)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1dOVBpaxvBO1RDePysGNXXlZF1pboYPpI) |
+| 📱 **EPUB eBook** | [Open EPUB in Drive](https://drive.google.com/file/d/12azoWlKm9o-OWVVxs4as-qCV_lJiBnKS/view) |
+| 📄 **Structured Text (JSON)** | [Open Text JSON in Drive](https://drive.google.com/file/d/1CRdEKmeApLP3mVrGREcDujShhV5jeusx/view) |
+| 🖼️ **Cover Image** | [View Cover in Drive](https://drive.google.com/file/d/117Kmt04DUe7hyF4fq9Gr7vXkDFSpPMWx/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | বাঙলা ভাষার শত্রুমিত্র - হুমায়ুন আজাদ |
+| **Author** | হুমায়ুন আজাদ |
+| **Publication / Source** | Kindle Bangla (kindlebangla.com) |
+| **Category** | Literature/Essays |
+| **Formats** | COVER, EPUB, TEXT, json |
+| **Total Size** | 645.8 KB |
+
+### 📂 Files Inside Folder
+
+- [বাঙলা ভাষার শত্রুমিত্র - হুমায়ুন আজাদ.epub](https://drive.google.com/file/d/12azoWlKm9o-OWVVxs4as-qCV_lJiBnKS/view) (272.6 KB)
+- [বাঙলা ভাষার শত্রুমিত্র - হুমায়ুন আজাদ.jpg](https://drive.google.com/file/d/117Kmt04DUe7hyF4fq9Gr7vXkDFSpPMWx/view) (52.9 KB)
+- [বাঙলা ভাষার শত্রুমিত্র - হুমায়ুন আজাদ.json](https://drive.google.com/file/d/1CRdEKmeApLP3mVrGREcDujShhV5jeusx/view) (320.4 KB)

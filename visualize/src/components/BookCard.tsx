@@ -1,12 +1,14 @@
 "use client";
 
 import React from "react";
-import { Building2, Download, ExternalLink, Eye, FileText, FolderTree, User } from "lucide-react";
+import { Building2, Download, ExternalLink, Eye, FileText, FolderOpen, FolderTree, User } from "lucide-react";
 import {
   BookRecord,
   cleanCategoryLabel,
   formatBytes,
   getDriveDownloadUrl,
+  getDriveFolderUrl,
+  getDriveThumbnailUrl,
   getDriveViewUrl,
 } from "@/types/library";
 
@@ -35,21 +37,41 @@ export function BookCard({
   onFilterPublication,
   onNavigatePath,
 }: BookCardProps) {
-  const badge = getFileBadge(book.name, book.mimeType);
-  const viewUrl = book.link || getDriveViewUrl(book.file_id);
-  const downloadUrl = getDriveDownloadUrl(book.file_id);
+  const badges = book.formats && book.formats.length > 0 ? book.formats : [getFileBadge(book.name, book.mimeType)];
+  const primaryId = book.pdf_file_id || book.epub_file_id || book.text_file_id || book.file_id;
+  const viewUrl = book.folder_id ? getDriveFolderUrl(book.folder_id) : (book.link || getDriveViewUrl(primaryId));
+  const downloadUrl = getDriveDownloadUrl(primaryId);
+  const coverSrc = book.cover_file_id ? getDriveThumbnailUrl(book.cover_file_id) : (book.cover_url || "");
 
   return (
     <article className="bg-slate-900/90 border border-slate-800 hover:border-slate-700 rounded-xl p-4 flex flex-col justify-between gap-3 transition">
       <div className="space-y-2.5">
-        <div className="flex items-start justify-between gap-2">
-          <h3 className="text-sm font-semibold text-slate-100 leading-snug break-words">
-            {book.name}
-          </h3>
-          <span className="shrink-0 inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px] font-bold uppercase tracking-wide bg-slate-800 text-slate-300 border border-slate-700">
-            <FileText className="w-3 h-3 text-emerald-400" />
-            {badge}
-          </span>
+        <div className="flex items-start justify-between gap-2.5">
+          {coverSrc && (
+            <img
+              src={coverSrc}
+              alt={book.name}
+              loading="lazy"
+              onError={(e) => { e.currentTarget.style.display = "none"; }}
+              className="w-12 h-16 object-cover rounded-md border border-slate-700/80 bg-slate-950 shrink-0"
+            />
+          )}
+          <div className="min-w-0 flex-1 space-y-1.5">
+            <h3 className="text-sm font-semibold text-slate-100 leading-snug break-words">
+              {book.name}
+            </h3>
+            <div className="flex flex-wrap items-center gap-1">
+              {badges.map((badge) => (
+                <span
+                  key={badge}
+                  className="inline-flex items-center gap-1 px-1.5 py-0.5 rounded text-[10px] font-bold uppercase tracking-wide bg-slate-800 text-slate-300 border border-slate-700"
+                >
+                  <FileText className="w-2.5 h-2.5 text-emerald-400" />
+                  {badge}
+                </span>
+              ))}
+            </div>
+          </div>
         </div>
 
         {/* Category & Subfolder */}
@@ -122,8 +144,12 @@ export function BookCard({
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-medium border border-slate-700 transition"
           >
-            <ExternalLink className="w-3.5 h-3.5 text-emerald-400" />
-            Drive
+            {book.folder_id ? (
+              <FolderOpen className="w-3.5 h-3.5 text-amber-400" />
+            ) : (
+              <ExternalLink className="w-3.5 h-3.5 text-emerald-400" />
+            )}
+            {book.folder_id ? "Folder" : "Drive"}
           </a>
 
           <a

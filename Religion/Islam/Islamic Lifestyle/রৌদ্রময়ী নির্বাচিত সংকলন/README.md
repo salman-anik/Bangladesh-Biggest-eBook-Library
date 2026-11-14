@@ -1,0 +1,25 @@
+# 📖 রৌদ্রময়ী নির্বাচিত সংকলন
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Religion](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/README.md) / [Islamic Lifestyle](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/Islam/Islamic%20Lifestyle/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1F3UvLD9j2_2kmF_PWOX3Kq30BHbYpnax)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1F3UvLD9j2_2kmF_PWOX3Kq30BHbYpnax) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/1vy_d-3XHM-xlPbO642At7aULwG2KaaPf/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | রৌদ্রময়ী নির্বাচিত সংকলন |
+| **Author** | Various / Unknown |
+| **Publication / Source** | ইসলামী বই |
+| **Category** | Religion/Islam/Islamic Lifestyle |
+| **Formats** | PDF |
+| **Total Size** | 69.2 MB |
+
+### 📂 Files Inside Folder
+
+- [রৌদ্রময়ী নির্বাচিত সংকলন.pdf](https://drive.google.com/file/d/1vy_d-3XHM-xlPbO642At7aULwG2KaaPf/view) (69.2 MB)
