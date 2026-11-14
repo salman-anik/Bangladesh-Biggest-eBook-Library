@@ -136,13 +136,13 @@
 | 82 | কোরআন কি হাদীস কি.doc | অনেকগুলো ইসলামিক বই এই ফাইলে | 27.5 KB | [Open in Drive](https://drive.google.com/file/d/1EaMtt0hUOgFMwxUiTB2RzA43iAE6grgu/view) |
 | 83 | কোরআন হাদিসের আলোকে সাফাআত.doc | অনেকগুলো ইসলামিক বই এই ফাইলে | 5.8 MB | [Open in Drive](https://drive.google.com/file/d/19BGIs5WFCQJmjKeVAU9X9gzHxTJcylQq/view) |
 | 84 | আই লাভ কুরআন-শাইখ আতিক উল্লাহ.pdf | আতিক উল্লাহ | 49.1 MB | [Open in Drive](https://drive.google.com/file/d/1VuMpIbgzBnxyDsgaG8NETppDNS7hWizW/view) |
-| 85 | কুরআনি ভাবনা-শাইখ আতিক উল্লাহ.pdf | আতিক উল্লাহ | 1.1 MB | [Open in Drive](https://drive.google.com/file/d/1ZTQvZDJjN7dyVrZhH1PTTuGfCuvBLna6/view) |
+| 85 | কুরআনি ভাবনা-শাইখ আতিক উল্লাহ.pdf | আতিক উল্লাহ | 1.1 MB | [Open in Drive](https://drive.google.com/file/d/1h-P_00_HqrdA3I5V9UED281LglvH7H0d/view) |
 | 86 | কুরআনের চারটি মৌলিক পরিভাষা-আবুল আলা মওদুদী.pdf | আবুল আলা মওদুদী | 2.9 MB | [Open in Drive](https://drive.google.com/file/d/1dJQZcVt3RjEXjmK3VLARICaHdpdYMV-A/view) |
-| 87 | কুরআন থেকে নেওয়া জীবনের পাঠ আরিফ আজাদ.pdf | আরিফ আজাদ | 35.1 MB | [Open in Drive](https://drive.google.com/file/d/176aU8yg6URU5HvkM1SrnntayEeQ7K1ae/view) |
-| 88 | আল কুরআন সহজ বাংলা অনুবাদ – আবদুস শহীদ নাসিম.pdf | আল কুরআন এর সরল অনুবাদ | 17.7 MB | [Open in Drive](https://drive.google.com/file/d/1iZbCIl9GkTX1phncozVCYB-5Ko3fQHMQ/view) |
-| 89 | কুরআন শরীফ সরল অনুবাদ.pdf | আল কুরআন এর সরল অনুবাদ | 28.1 MB | [Open in Drive](https://drive.google.com/file/d/1j-n8Ub3XPLL6-JKRzdG1FSzNbCSpWg5m/view) |
-| 90 | কুরআন শরীফ সরল বাংলা অনুবাদ.pdf | আল কুরআন এর সরল অনুবাদ | 28.1 MB | [Open in Drive](https://drive.google.com/file/d/10awX2jnL6LcaJzszhHA_nTEeDJ-qzel_/view) |
-| 91 | কুরআনের সরল অনুবাদ-হাফেজ মুনির উদ্দিন.pdf | আল কুরআন এর সরল অনুবাদ | 15.8 MB | [Open in Drive](https://drive.google.com/file/d/1hgMdTk7NzgpappRkUnUqzrXAc4Tj85zw/view) |
+| 87 | কুরআন থেকে নেওয়া জীবনের পাঠ আরিফ আজাদ.pdf | আরিফ আজাদ | 35.1 MB | [Open in Drive](https://drive.google.com/file/d/1oTj426Ya-gU0Nm8bvwPGJNVm8lApPyVQ/view) |
+| 88 | আল কুরআন সহজ বাংলা অনুবাদ – আবদুস শহীদ নাসিম.pdf | আল কুরআন এর সরল অনুবাদ | 17.7 MB | [Open in Drive](https://drive.google.com/file/d/1DDkbOcznUQsLSzmuSbep-62louVlF1nd/view) |
+| 89 | কুরআন শরীফ সরল অনুবাদ.pdf | আল কুরআন এর সরল অনুবাদ | 28.1 MB | [Open in Drive](https://drive.google.com/file/d/1mjCu-OgxE62aOyTCO0kDXSGNb0AXjxjL/view) |
+| 90 | কুরআন শরীফ সরল বাংলা অনুবাদ.pdf | আল কুরআন এর সরল অনুবাদ | 28.1 MB | [Open in Drive](https://drive.google.com/file/d/13FlX6sKUm69mn49bFAhbrlg-Jdu0nFPX/view) |
+| 91 | কুরআনের সরল অনুবাদ-হাফেজ মুনির উদ্দিন.pdf | আল কুরআন এর সরল অনুবাদ | 15.8 MB | [Open in Drive](https://drive.google.com/file/d/11NOM7Kdwp1zaW_Y4b543birSPgOKv4TX/view) |
 | 92 | Al Quraner Shikkha 1.pdf | আল কুরআন মাজিদ | 5.9 MB | [Open in Drive](https://drive.google.com/file/d/1mLiTVZNX0DoXkIhHY8QsItWWQXA8AwOk/view) |
 | 93 | Al Quraner Shikkha 2.pdf | আল কুরআন মাজিদ | 5.3 MB | [Open in Drive](https://drive.google.com/file/d/1mOupPPJXqtpkWLbkNpEGiJLKyUpYIy-J/view) |
 | 94 | Darse Quran 1.pdf | আল কুরআন মাজিদ | 4.1 MB | [Open in Drive](https://drive.google.com/file/d/1mWT7V_JMXziD9Wwaf5N-xuIgRYD_yHJQ/view) |
@@ -248,14 +248,14 @@
 | 194 | 08 quran_shikkha-bidhan_poddhoti_fojilat@Islamke Janun call-01811909111 -019.pdf | আল-কোরআন সম্পর্কে বই | 305.5 KB | [Open in Drive](https://drive.google.com/file/d/1Azw0fgoMHsf5wehnxQCKpjAeSHrR_N8n/view) |
 | 195 | 09 tilawah@Islamke Janun call-01811909111 -01927807760 -01818519600.pdf | আল-কোরআন সম্পর্কে বই | 312.3 KB | [Open in Drive](https://drive.google.com/file/d/1AqF4FqDFtW31ZIvsekUc3JE9BBjcSwGm/view) |
 | 196 | আল কুরআনুল মানুষের সরুপ বিশ্লেষণ .pdf | আল-কোরআন সম্পর্কে বই | 4.9 MB | [Open in Drive](https://drive.google.com/file/d/1AbdjNjrHkLgVfAkuGAzXzkdhHHIo2V0b/view) |
-| 197 | আহকামুল-কুরআন-১ম-খণ্ড.pdf | আহকামুল কুরআন | 17.3 MB | [Open in Drive](https://drive.google.com/file/d/1EEyTjJg-ljfkV2sW2sGHNOE6PjW5CBt1/view) |
-| 198 | আহকামুল-কুরআন-২য়-খণ্ড.pdf | আহকামুল কুরআন | 19.1 MB | [Open in Drive](https://drive.google.com/file/d/1ECTua5ye2yhEaCl-h4XDwwU4WNL3ByfK/view) |
-| 199 | আহকামুল-কুরআন-৩য়-খণ্ড.pdf | আহকামুল কুরআন | 16.3 MB | [Open in Drive](https://drive.google.com/file/d/1EDf_8G_1dyLiQ5HBvcRDyusNQKYogKDP/view) |
-| 200 | কোরআন দিয়ে নিজের চিকিৎসা করুন.pdf | ইসলাম ও চিকিৎসা | 32.0 MB | [Open in Drive](https://drive.google.com/file/d/1YsrkwSHPifq9bmyV0_Lze2MQAl_XZjxl/view) |
-| 201 | বদনজর জাদু ও জিনের কুরআন সুন্নাহ দ্বারা চিকিৎসা – আবু আহমাদ সাইফুদ্দিন বেলাল.pdf | ইসলাম ও চিকিৎসা | 1.2 MB | [Open in Drive](https://drive.google.com/file/d/1KeNi5RZL27Eay1zpxNEOIBH7ROfpahVL/view) |
-| 202 | আল কুরআনে বিজ্ঞান.pdf | ইসলাম ও বিজ্ঞান | 16.9 MB | [Open in Drive](https://drive.google.com/file/d/1cCITMyjul5zC8x818Fgel87oOZ6V9QQg/view) |
-| 203 | বাইবেল,কোরআন ও বিজ্ঞান-ড. মরিস বুকাইলি.pdf | ইসলাম ও বিজ্ঞান | 7.3 MB | [Open in Drive](https://drive.google.com/file/d/1cM-lAoC8GZ2Oeh_AvDM_RexEY7do9q6P/view) |
-| 204 | বিজ্ঞানময় কুরআন.pdf | ইসলাম ও বিজ্ঞান | 15.4 MB | [Open in Drive](https://drive.google.com/file/d/1c9nuH3woR8OdicsNyhrCOVMfWWen8SLI/view) |
+| 197 | আহকামুল-কুরআন-১ম-খণ্ড.pdf | আহকামুল কুরআন | 17.3 MB | [Open in Drive](https://drive.google.com/file/d/1Gf16AsL8LOs5gshFjiRoYmVyoS1nprMw/view) |
+| 198 | আহকামুল-কুরআন-২য়-খণ্ড.pdf | আহকামুল কুরআন | 19.1 MB | [Open in Drive](https://drive.google.com/file/d/16Gmd9kIt6TO8aqeVmJZ0_fo94m1656Ah/view) |
+| 199 | আহকামুল-কুরআন-৩য়-খণ্ড.pdf | আহকামুল কুরআন | 16.3 MB | [Open in Drive](https://drive.google.com/file/d/1xiDvFi-aYRidlxqpnzy31TxxZRR4mgMo/view) |
+| 200 | কোরআন দিয়ে নিজের চিকিৎসা করুন.pdf | ইসলাম ও চিকিৎসা | 32.0 MB | [Open in Drive](https://drive.google.com/file/d/19wLf1ZPcV36jaTIyZY_OYYi7hZv7vBug/view) |
+| 201 | বদনজর জাদু ও জিনের কুরআন সুন্নাহ দ্বারা চিকিৎসা – আবু আহমাদ সাইফুদ্দিন বেলাল.pdf | ইসলাম ও চিকিৎসা | 1.2 MB | [Open in Drive](https://drive.google.com/file/d/1YHKbMEEb49EFaAdR5gQSOdpbvK5QwNi5/view) |
+| 202 | আল কুরআনে বিজ্ঞান.pdf | ইসলাম ও বিজ্ঞান | 16.9 MB | [Open in Drive](https://drive.google.com/file/d/1L9z2LZ4pj17XH3-_A__X3_55e2Si0fDB/view) |
+| 203 | বাইবেল,কোরআন ও বিজ্ঞান-ড. মরিস বুকাইলি.pdf | ইসলাম ও বিজ্ঞান | 7.3 MB | [Open in Drive](https://drive.google.com/file/d/11H77vvZpNotTuDAImjyOSrCSN9WwqOu5/view) |
+| 204 | বিজ্ঞানময় কুরআন.pdf | ইসলাম ও বিজ্ঞান | 15.4 MB | [Open in Drive](https://drive.google.com/file/d/1nNHXhlwGllg9ow_OmDknFvQIaOLT7OGD/view) |
 | 205 | আল কুরআন আত তাফসির.pdf | ইসলামিক সাহিত্য | 5.8 MB | [Open in Drive](https://drive.google.com/file/d/16XmjUH9DWrW86vGNRI0koRkGAWzKWGjJ/view) |
 | 206 | আল কুরআন এক মহাবিস্ময়.pdf | ইসলামিক সাহিত্য | 2.5 MB | [Open in Drive](https://drive.google.com/file/d/16gnwEItvuGyX4epRQlLOTWf7qdgW8Ack/view) |
 | 207 | আল কুরআনে নারী - ১ম খন্ড.pdf | ইসলামিক সাহিত্য | 4.5 MB | [Open in Drive](https://drive.google.com/file/d/10FVBLVSXuwSHGARI4vO-uVlpMtkgJO78/view) |
@@ -273,21 +273,21 @@
 | 219 | চাঁদ ও কোরআন.pdf | ইসলামিক সাহিত্য | 1.1 MB | [Open in Drive](https://drive.google.com/file/d/1-vhr1YI4DgNBOdefdOsKveEoe4Xc-XUh/view) |
 | 220 | পবিত্র আল-কুরআনের দু_আ.pdf | ইসলামিক সাহিত্য | 1.7 MB | [Open in Drive](https://drive.google.com/file/d/1E68wRzNoEfe0lVPiHbfEhvAEOcHCKjg5/view) |
 | 221 | পবিত্র কোরআনের মু_জিজা.pdf | ইসলামিক সাহিত্য | 4.1 MB | [Open in Drive](https://drive.google.com/file/d/1EB04A3MODW_p4_-_WNHYZmfeRpm0R7ku/view) |
-| 222 | কুরআন ও সুন্নায় সুদ নিষিদ্ধকরণ.pdf | ইসলামী অর্থনীতি,ব্যাংক,সুদ ও ব্যবসা | 933.1 KB | [Open in Drive](https://drive.google.com/file/d/1RLJbb90sV6eoeUsfK7eQQdFDFHcpAr6F/view) |
-| 223 | আল কুরআনের গল্প, শিশুতোষ.pdf | ইসলামী গল্প | 2.4 MB | [Open in Drive](https://drive.google.com/file/d/1LhzDuBcEGLW5MuzRIZWdAeBEbtBqKQ2_/view) |
+| 222 | কুরআন ও সুন্নায় সুদ নিষিদ্ধকরণ.pdf | ইসলামী অর্থনীতি,ব্যাংক,সুদ ও ব্যবসা | 933.1 KB | [Open in Drive](https://drive.google.com/file/d/1WTA5FUiuPOdt-tbc_ehRQOsQsCM8pUJb/view) |
+| 223 | আল কুরআনের গল্প, শিশুতোষ.pdf | ইসলামী গল্প | 2.4 MB | [Open in Drive](https://drive.google.com/file/d/1ZDsPhYv8JMd0VBxmdL1o59Q1LZ_IFd4F/view) |
 | 224 | কোরআন হাদীস সংকলনের ইতিহাস.pdf | ইসলামের ইতিহাস | 4.5 MB | [Open in Drive](https://drive.google.com/file/d/1zi7BorDIAIWzbDd-ePMwcOw5CTibsxAv/view) |
-| 225 | ইসলামী আকীদা( কুরআন-সুন্নাহর আলোকে)- ড. আব্দুল্লাহ জাহাঙ্গীর.pdf | ঈমান ও আকীদা | 18.6 MB | [Open in Drive](https://drive.google.com/file/d/1kV9xm8Cm9PlK1eNVFvEaZDd9eSpQGOWF/view) |
-| 226 | ঈমানের মৌলিক বিষয়সমুহ(কুরআন সুন্নাহের আলোকে).pdf | ঈমান ও আকীদা | 34.4 MB | [Open in Drive](https://drive.google.com/file/d/19EdKXHqiTOXf-_55MlqGquNjmmSCPGDY/view) |
-| 227 | কাসাসুল কুরআন-01.pdf | কাসাসুল কুরআন | 5.2 MB | [Open in Drive](https://drive.google.com/file/d/1oyND5P7ZyJcXoc-NKdkAxTuMMdAo-Ogw/view) |
-| 228 | কাসাসুল কুরআন-02.pdf | কাসাসুল কুরআন | 5.5 MB | [Open in Drive](https://drive.google.com/file/d/1p7n4qTb_pv91UVCiCF6mRI6p9IkB7pfD/view) |
-| 229 | কাসাসুল কুরআন-03.pdf | কাসাসুল কুরআন | 3.5 MB | [Open in Drive](https://drive.google.com/file/d/1pAuoundZBCO_Y6bvPxs_loYFFFDBWTPR/view) |
-| 230 | কাসাসুল কুরআন-04.pdf | কাসাসুল কুরআন | 8.7 MB | [Open in Drive](https://drive.google.com/file/d/1pNFul46b31iqbmrTBNQ_39p8UIgLOEIV/view) |
-| 231 | কাসাসুল কুরআন-05.pdf | কাসাসুল কুরআন | 4.2 MB | [Open in Drive](https://drive.google.com/file/d/1pNPbLJ23dvEtLTs6VGPTfmRDbCTEZ3Zo/view) |
-| 232 | কাসাসুল কুরআন-06.pdf | কাসাসুল কুরআন | 4.5 MB | [Open in Drive](https://drive.google.com/file/d/1pNbDI6uqMJ59uNjUD4VOKXMOLrZbB8O5/view) |
-| 233 | কাসাসুল কুরআন-07.pdf | কাসাসুল কুরআন | 3.1 MB | [Open in Drive](https://drive.google.com/file/d/1pQYq9r6mvzuYcep_xlOoiQjoqLxMt5kh/view) |
-| 234 | কাসাসুল কুরআন-08.pdf | কাসাসুল কুরআন | 12.7 MB | [Open in Drive](https://drive.google.com/file/d/1W7f8Kl6AcfqNrGCgnv0E2Dag-fQH0pU_/view) |
-| 235 | কাসাসুল কুরআন-09.pdf | কাসাসুল কুরআন | 6.9 MB | [Open in Drive](https://drive.google.com/file/d/1pTnloTpZwd_ey0NYP_9-IvfbjpgFIJx8/view) |
-| 236 | কাসাসুল কুরআন-10.pdf | কাসাসুল কুরআন | 6.1 MB | [Open in Drive](https://drive.google.com/file/d/1p_R7CZ1I4q0L-gIXS3fihv-zuhsNUlhj/view) |
+| 225 | ইসলামী আকীদা( কুরআন-সুন্নাহর আলোকে)- ড. আব্দুল্লাহ জাহাঙ্গীর.pdf | ঈমান ও আকীদা | 18.6 MB | [Open in Drive](https://drive.google.com/file/d/1KjrMrnkNsrZqBHuZ2VL1A-p8HuHrS2P5/view) |
+| 226 | ঈমানের মৌলিক বিষয়সমুহ(কুরআন সুন্নাহের আলোকে).pdf | ঈমান ও আকীদা | 34.4 MB | [Open in Drive](https://drive.google.com/file/d/1Xz_1W_1jU66TO1k63BSumHboNC5wQwWU/view) |
+| 227 | কাসাসুল কুরআন-01.pdf | কাসাসুল কুরআন | 5.2 MB | [Open in Drive](https://drive.google.com/file/d/1hCmUXjsiFyO8woxQj1vjZ3vfI-WIh8_C/view) |
+| 228 | কাসাসুল কুরআন-02.pdf | কাসাসুল কুরআন | 5.5 MB | [Open in Drive](https://drive.google.com/file/d/1h7DRUrPVYTNGRtsQ-uy6-khpXZeaZwcj/view) |
+| 229 | কাসাসুল কুরআন-03.pdf | কাসাসুল কুরআন | 3.5 MB | [Open in Drive](https://drive.google.com/file/d/1ORZxDKepRHIkfQe6EhWHTo2R6TRh435y/view) |
+| 230 | কাসাসুল কুরআন-04.pdf | কাসাসুল কুরআন | 8.7 MB | [Open in Drive](https://drive.google.com/file/d/1xVwiHSjxNhHK5uL0JRDfI_VGqduWLuIL/view) |
+| 231 | কাসাসুল কুরআন-05.pdf | কাসাসুল কুরআন | 4.2 MB | [Open in Drive](https://drive.google.com/file/d/16iO-ZdLeUatmsHKDGfOYyX5bmuzSC2jH/view) |
+| 232 | কাসাসুল কুরআন-06.pdf | কাসাসুল কুরআন | 4.5 MB | [Open in Drive](https://drive.google.com/file/d/1QB2FQLIdctqjsbG7oZqZj7j4oksaVU4L/view) |
+| 233 | কাসাসুল কুরআন-07.pdf | কাসাসুল কুরআন | 3.1 MB | [Open in Drive](https://drive.google.com/file/d/1YHNwiIl2yg5yqQbuuG6BuNifzcf6SCqr/view) |
+| 234 | কাসাসুল কুরআন-08.pdf | কাসাসুল কুরআন | 12.7 MB | [Open in Drive](https://drive.google.com/file/d/1MklY6RJhfziOWrD9N7xMxqvg2S9AltUl/view) |
+| 235 | কাসাসুল কুরআন-09.pdf | কাসাসুল কুরআন | 6.9 MB | [Open in Drive](https://drive.google.com/file/d/1cIsoo8JIcUHn0qvpe5sAohTIH8u0uihK/view) |
+| 236 | কাসাসুল কুরআন-10.pdf | কাসাসুল কুরআন | 6.1 MB | [Open in Drive](https://drive.google.com/file/d/1X88e1jCpPoOVmuKy4MFQja4lfyC_5zmi/view) |
 | 237 | 02তাফসীরুল উশরিল আখীর.pdf | কিছু তাফসিরের বই | 15.5 MB | [Open in Drive](https://drive.google.com/file/d/15KvvNxIau4x4S8GD9I6i2IUmLx0zHhq8/view) |
 | 238 | quranul-karim-01-dr-zakaria.pdf | কিছু তাফসিরের বই | 53.7 MB | [Open in Drive](https://drive.google.com/file/d/1qX2PfXxsmYYAQEYEggms6RdaTSQRvJnK/view) |
 | 239 | quranul-karim-02-dr-zakaria.pdf | কিছু তাফসিরের বই | 50.1 MB | [Open in Drive](https://drive.google.com/file/d/1CWTCQ1LNTY1Pr9yeYhyXkUshLlTrv8MX/view) |
@@ -301,79 +301,79 @@
 | 247 | তাহকীক তাফসীর ইবনে কাসির ১.pdf | কিছু তাফসিরের বই | 42.4 MB | [Open in Drive](https://drive.google.com/file/d/14aQ5ktCAD6rIEJLI2hyBU8aSqm2ywWzL/view) |
 | 248 | সুরাহ ফাতেহার তাফসীর .pdf | কিছু তাফসিরের বই | 1.8 MB | [Open in Drive](https://drive.google.com/file/d/1u0bBo5kvWTxuhoybo4M1Vl7GCgfCH-L9/view) |
 | 249 | সুরাহ ফাতেহার তাফসীর .pdf | কিছু তাফসিরের বই | 1.8 MB | [Open in Drive](https://drive.google.com/file/d/14X6PLDRBg9hgHAHOrEh9DYDeZRh2P-sZ/view) |
-| 250 | _PART 1+2+3.pdf | কুরআন | 24.8 MB | [Open in Drive](https://drive.google.com/file/d/1kCRVjUhGejoYrv3xkmLi01osuSZVtzHZ/view) |
-| 251 | _PART 12.pdf | কুরআন | 10.6 MB | [Open in Drive](https://drive.google.com/file/d/1N5v9dQFd5ez9qAYeEbKvrO0MF2uOL4mq/view) |
-| 252 | _PART 13.pdf | কুরআন | 11.5 MB | [Open in Drive](https://drive.google.com/file/d/1b-lcOmp8AovxgmRRQGkIpBtteV7PjgKH/view) |
-| 253 | _PART 14.pdf | কুরআন | 14.5 MB | [Open in Drive](https://drive.google.com/file/d/1vgTMNSfq3iVxC4qDagCj-sLKuPCC0xr4/view) |
-| 254 | _PART 15.pdf | কুরআন | 23.6 MB | [Open in Drive](https://drive.google.com/file/d/1hN7k5H1Aux_mXCz82tdXlr-wIlx8djqN/view) |
-| 255 | _PART 16.pdf | কুরআন | 21.4 MB | [Open in Drive](https://drive.google.com/file/d/10llVWvHVyq_vyGNBAVfu7ySf857RdmIW/view) |
-| 256 | _PART 17.pdf | কুরআন | 21.2 MB | [Open in Drive](https://drive.google.com/file/d/1gmFMyL26k8qX2iiHOnbH8akKPW-u0Y0D/view) |
-| 257 | _PART 18.pdf | কুরআন | 11.2 MB | [Open in Drive](https://drive.google.com/file/d/1B-6gpV1f6gNKSabx-1Z_lmW-GxJjLgtG/view) |
-| 258 | _PART 4+5+6+7.pdf | কুরআন | 25.2 MB | [Open in Drive](https://drive.google.com/file/d/1YfIigxucdmW9qdAw0Koz7v9CXlwFDzPX/view) |
-| 259 | _PART 8+9+10+11.pdf | কুরআন | 25.7 MB | [Open in Drive](https://drive.google.com/file/d/1Re33Q6PFdIPtlRJ7r7XbkE8DXQHYeOj2/view) |
-| 260 | আল কুরআন ও আধুনিক বিজ্ঞান-ড. জাকির নায়েক.pdf | কুরআন | 1.6 MB | [Open in Drive](https://drive.google.com/file/d/17zu_TkK4QH4rxYo37PQKmHjmf-btBka0/view) |
-| 261 | আল কুরআন ও আধুনিক বিজ্ঞান-ড. জাকির নায়েক.pdf | কুরআন | 2.6 MB | [Open in Drive](https://drive.google.com/file/d/17vx7cUH3xJh7gRc8x_JgyJJpC6d3aJRP/view) |
-| 262 | ইলমুত  তাফসির,ইলমুল  হাদিস, ইলমুল  ফিকাহ.pdf | কুরআন | 4.7 MB | [Open in Drive](https://drive.google.com/file/d/1UlOTqJzR797zRyy_8YZpO843nnzqfRQM/view) |
-| 263 | ইসলাম ও পাশ্চাত্য সভ্যতার দ্বন্দ্ব .pdf | কুরআন | 12.3 MB | [Open in Drive](https://drive.google.com/file/d/1cCnCWo3ZG8zhMzzhhuWD2vANaJYZFpvx/view) |
-| 264 | কুরআন ও আধুনিক বিজ্ঞান.pdf | কুরআন | 1.7 MB | [Open in Drive](https://drive.google.com/file/d/1WjG0LKMt8Sh-0SZQyeKL56HSGHvlU1FO/view) |
-| 265 | কুরআন ও আধুনিক বিজ্ঞান.pdf | কুরআন | 1.7 MB | [Open in Drive](https://drive.google.com/file/d/1cGufynXzSgN0n9COQD_CTo-mw8SF5JMJ/view) |
-| 266 | কুরআন কি আল্লাহর বাণী.pdf | কুরআন | 2.4 MB | [Open in Drive](https://drive.google.com/file/d/1WnpKJ4z_yhK52M0hKW98V_oOFvrFZnxl/view) |
-| 267 | কুরআনুল কারীম বঙ্গানুবাদ ও সংক্ষিপ্ত তাফসীর ১ম খন্ড.pdf | কুরআন | 54.4 MB | [Open in Drive](https://drive.google.com/file/d/13FlSJmwnB6YCNg4JxRTIeRg2y4EGSQnb/view) |
-| 268 | কুরআনের বাংলা তাফসীর-ড,মুজিবুর রহমান.pdf | কুরআন | 28.8 MB | [Open in Drive](https://drive.google.com/file/d/1Mbhl8Q2yk6c4W1Kwte1URSl4nJUcExLU/view) |
-| 269 | কেন পশ্চিমারা ইসলাম গ্রহণ করছে.pdf | কুরআন | 2.0 MB | [Open in Drive](https://drive.google.com/file/d/1Wpu79_9L6arqjq63afBRScAx1fHpBUTK/view) |
-| 270 | তফসীরে মা আরেফুল কোরআন ১ম খন্ড.pdf | কুরআন | 24.8 MB | [Open in Drive](https://drive.google.com/file/d/1-vbmCiPT1bf__kE1Y2nBbc43NTHsjmxi/view) |
-| 271 | তফসীরে মা আরেফুল কোরআন ২য় খন্ড.pdf | কুরআন | 21.0 MB | [Open in Drive](https://drive.google.com/file/d/1-yEtqnaAALKi70zTvZbLyqQW8DP3OVgK/view) |
-| 272 | তফসীরে মা আরেফুল কোরআন ৩য় খন্ড.pdf | কুরআন | 22.7 MB | [Open in Drive](https://drive.google.com/file/d/10KN5gwSg6t5icIJVJ5wi3QqgVuZq7RkT/view) |
-| 273 | তফসীরে মা আরেফুল কোরআন ৪র্থ খন্ড.pdf | কুরআন | 26.2 MB | [Open in Drive](https://drive.google.com/file/d/1Wpj-p7RUMoJqMjyj-Ot5YQRSpqfHXrG8/view) |
-| 274 | তফসীরে মা আরেফুল কোরআন ৫ম খন্ড.pdf | কুরআন | 22.1 MB | [Open in Drive](https://drive.google.com/file/d/1WsXY9ZFJYP9vCGc3E4PNv4wE2fiqLKI_/view) |
-| 275 | তফসীরে মা আরেফুল কোরআন ৬ষ্ট খন্ড.pdf | কুরআন | 28.4 MB | [Open in Drive](https://drive.google.com/file/d/10Lo6DqAVJTdwxt2SSfIMOMJv2cfsHgdG/view) |
-| 276 | তফসীরে মা আরেফুল কোরআন ৭ম খন্ড.pdf | কুরআন | 27.7 MB | [Open in Drive](https://drive.google.com/file/d/10MVELt6Emtz2rQEUYn2wpn-l5nCsYpvJ/view) |
-| 277 | তফসীরে মা আরেফুল কোরআন ৮ম খন্ড.pdf | কুরআন | 30.3 MB | [Open in Drive](https://drive.google.com/file/d/10ONS9oVcAcnl2oxKznzP0moD9oTrinTK/view) |
-| 278 | তাফসির তাওযীহুল কোরআন সকল খন্ড একসাথে.pdf | কুরআন | 54.1 MB | [Open in Drive](https://drive.google.com/file/d/1OZ18DtXOYCtoBVvROhjhWE5CCZVEqewg/view) |
-| 279 | তাফসীর তাইসিরুল কুরআন.pdf | কুরআন | 23.5 MB | [Open in Drive](https://drive.google.com/file/d/1T0AwEH5A_CaDYYCO8FpjLXta8_UEP32N/view) |
-| 280 | তাফসীরে জালালাইন-1.pdf | কুরআন | 38.9 MB | [Open in Drive](https://drive.google.com/file/d/1Vsv4Ny8vwtI9Y0MOf2sh0K9n1ohhBEQi/view) |
-| 281 | তাফসীরে জালালাইন-2.pdf | কুরআন | 40.0 MB | [Open in Drive](https://drive.google.com/file/d/1R5W48hJjh7nSXADAiCRRaI2c0Tk5Kqka/view) |
-| 282 | তাফসীরে জালালাইন-3.pdf | কুরআন | 30.7 MB | [Open in Drive](https://drive.google.com/file/d/1YmPHLie2S3cxndzTc9mfC5aoipQnnfeh/view) |
-| 283 | তাফসীরে জালালাইন-4.pdf | কুরআন | 36.6 MB | [Open in Drive](https://drive.google.com/file/d/1xQ7r9YuRNdAvTgbB8lu2bBZmUASP-max/view) |
-| 284 | তাফসীরে জালালাইন-5.pdf | কুরআন | 39.1 MB | [Open in Drive](https://drive.google.com/file/d/1GkE_85kuriwXJHnJRE35xY4mv7cMvLTq/view) |
-| 285 | তাফসীরে জালালাইন-6.pdf | কুরআন | 17.2 MB | [Open in Drive](https://drive.google.com/file/d/1bM2AFtjHcsIVBTtX_UscbYqHTc5800Xp/view) |
-| 286 | তাফসীরে জালালাইন-7.pdf | কুরআন | 31.4 MB | [Open in Drive](https://drive.google.com/file/d/1oQOc-HubjkBKM6n6CPONt-3ie1Wmbv_q/view) |
-| 287 | তাফসীরে তাবারী-1.pdf | কুরআন | 20.6 MB | [Open in Drive](https://drive.google.com/file/d/1GVNaQ92INrJrkmMOe9bk-6Nr9C3flFam/view) |
-| 288 | তাফসীরে তাবারী-2.pdf | কুরআন | 19.9 MB | [Open in Drive](https://drive.google.com/file/d/1U6Iqsl9-MAlGv1IrugxkE4-evOKhgQZd/view) |
-| 289 | তাফসীরে তাবারী-3.pdf | কুরআন | 19.8 MB | [Open in Drive](https://drive.google.com/file/d/11DHkfhX8opCZqtpbNQvbhWvSGjkAx4tY/view) |
-| 290 | তাফসীরে তাবারী-4.pdf | কুরআন | 26.3 MB | [Open in Drive](https://drive.google.com/file/d/1ncL3EtNyGs9R3D0AFrwHi-mWuAbgkVPt/view) |
-| 291 | তাফসীরে তাবারী-5.pdf | কুরআন | 23.2 MB | [Open in Drive](https://drive.google.com/file/d/19UWQC5lr7BF-Jn06O1pw7lgTWgLQGZxo/view) |
-| 292 | তাফসীরে তাবারী-6.pdf | কুরআন | 24.8 MB | [Open in Drive](https://drive.google.com/file/d/1NZwlFy1Te9A0yAONKTDE_jpWRypbetWN/view) |
-| 293 | তাফসীরে তাবারী-7.pdf | কুরআন | 23.7 MB | [Open in Drive](https://drive.google.com/file/d/1sx9j7SgX2IdnjY6E8WHeGj2N2CJkByPE/view) |
-| 294 | তাফসীরে তাবারী-8.pdf | কুরআন | 24.5 MB | [Open in Drive](https://drive.google.com/file/d/1vKJRBl-Icoi1K_XMHe7vL0UgZ5jSv2Fd/view) |
-| 295 | তাফসীরে তাবারী-9.pdf | কুরআন | 20.3 MB | [Open in Drive](https://drive.google.com/file/d/15jgHK4kktuhUWmZg-SK1R4l0ARBhVWW5/view) |
-| 296 | ফী যিলালিল কোরআন ১ম খণ্ড.pdf | কুরআন | 7.9 MB | [Open in Drive](https://drive.google.com/file/d/1-9OapTm03eIltzrXq-RKfp5YAN7ndrh-/view) |
-| 297 | ফী যিলালিল কোরআন ১০ম খণ্ড.pdf | কুরআন | 12.6 MB | [Open in Drive](https://drive.google.com/file/d/101koAM8ACSoRHlvsVfBtkRoNEHSlKso-/view) |
-| 298 | ফী যিলালিল কোরআন ১১তম খণ্ড.pdf | কুরআন | 10.6 MB | [Open in Drive](https://drive.google.com/file/d/10AOGYpD4p0p8qh_V8iaU5bcAMz-jBh9k/view) |
-| 299 | ফী যিলালিল কোরআন ১৩তম খণ্ড.pdf | কুরআন | 10.6 MB | [Open in Drive](https://drive.google.com/file/d/10DBWb62SBVzKyEEekhOrrmvy7PYFQlzj/view) |
-| 300 | ফী যিলালিল কোরআন ১৫তম খণ্ড.pdf | কুরআন | 10.7 MB | [Open in Drive](https://drive.google.com/file/d/10PIOSoM3WOA45B8mRcbknlLRv0HbCiTF/view) |
-| 301 | ফী যিলালিল কোরআন ১৬তম খণ্ড.pdf | কুরআন | 9.9 MB | [Open in Drive](https://drive.google.com/file/d/10RBs40UjFivzB8qadxuVLALeonDiHhTd/view) |
-| 302 | ফী যিলালিল কোরআন ১৭তম খণ্ড.pdf | কুরআন | 9.9 MB | [Open in Drive](https://drive.google.com/file/d/10SlNjUs6yXATZ8tc0s4isTdmDVQmlTy1/view) |
-| 303 | ফী যিলালিল কোরআন ১৮তম খণ্ড.pdf | কুরআন | 10.8 MB | [Open in Drive](https://drive.google.com/file/d/10TedE3dGgiY_kS-yFCGglf2sDF-LiWvc/view) |
-| 304 | ফী যিলালিল কোরআন ১৯তম খণ্ড.pdf | কুরআন | 13.0 MB | [Open in Drive](https://drive.google.com/file/d/10XaRkeHn7PVHgxUaghOsIWb9hjt_MsVY/view) |
-| 305 | ফী যিলালিল কোরআন ২য় খণ্ড.pdf | কুরআন | 16.2 MB | [Open in Drive](https://drive.google.com/file/d/1-Ge1hvHIoy8_umxz_NQGHwoQ6E2lQf61/view) |
-| 306 | ফী যিলালিল কোরআন ৩য় খণ্ড.pdf | কুরআন | 12.2 MB | [Open in Drive](https://drive.google.com/file/d/1-XDM6nf3ujCEMOnuDkALDa9j7LPMFJCf/view) |
-| 307 | ফী যিলালিল কোরআন ৪র্থ খণ্ড.pdf | কুরআন | 16.4 MB | [Open in Drive](https://drive.google.com/file/d/1-YNP_uuudCwc-FnX3cpzSLs7lH8d5Pxv/view) |
-| 308 | ফী যিলালিল কোরআন ৫ম খণ্ড.pdf | কুরআন | 11.4 MB | [Open in Drive](https://drive.google.com/file/d/1-YbUqVQQRUpw558rlDPOF9L19ol3kIJD/view) |
-| 309 | ফী যিলালিল কোরআন ৬ষ্ঠ খণ্ড.pdf | কুরআন | 14.9 MB | [Open in Drive](https://drive.google.com/file/d/1-ZtzMm_ZqbSfU80N0Mqzm0lgPVc1CNz7/view) |
-| 310 | ফী যিলালিল কোরআন ৭ম খণ্ড.pdf | কুরআন | 12.7 MB | [Open in Drive](https://drive.google.com/file/d/1-ckuEDR1_5sQREQ9D2tGgidW1BCHh4Ul/view) |
-| 311 | ফী যিলালিল কোরআন ৮ম খণ্ড.pdf | কুরআন | 9.4 MB | [Open in Drive](https://drive.google.com/file/d/1-hQWdpEVozeaDVoMuFk5Zn9B-yajI8QZ/view) |
-| 312 | ফী যিলালিল কোরআন ৯ম খণ্ড.pdf | কুরআন | 10.6 MB | [Open in Drive](https://drive.google.com/file/d/1-k8xHNa32jzM6rDUwansABrW-Qa72vFO/view) |
-| 313 | বাংলা তাফসীর কুরআনুল কারীম-মুজিবুর রহমান.pdf | কুরআন | 28.8 MB | [Open in Drive](https://drive.google.com/file/d/1aI5Oq__CHzKneftu5oxcxQzMVkBUbsJl/view) |
-| 314 | সুরা ফাতিহার তাফসীর.pdf | কুরআন | 938.0 KB | [Open in Drive](https://drive.google.com/file/d/1AO5q3zFOYdB8Hbgl4E1SFHX7lvGqeunT/view) |
-| 315 | Imdadia Hafezi Quran.pdf | কুরআন তরজমা | 15.0 MB | [Open in Drive](https://drive.google.com/file/d/1iew5qqCQMfCpVMOKuN7QM3No3uIfCYQl/view) |
-| 316 | Quranul_Karim_01-Dr.Zakaria.pdf | কুরআনুল কারীম(ড.জাকারিয়া) | 53.7 MB | [Open in Drive](https://drive.google.com/file/d/1hb3WEeDK_IC6qhLASrc68jAEJrFlufQ-/view) |
-| 317 | Quranul_Karim_02-Dr.Zakaria.pdf | কুরআনুল কারীম(ড.জাকারিয়া) | 50.1 MB | [Open in Drive](https://drive.google.com/file/d/1hbNSf5S-Yyj4KUmEOAZS6U_uz4lk1ef6/view) |
-| 318 | আল কুরআন ও আধুনিক বিজ্ঞান-ড. জাকির নায়েক.pdf | জাকির নায়েক | 1.7 MB | [Open in Drive](https://drive.google.com/file/d/17rIBOz0HK2VIKtW345E5mwsbkJ_-9Hez/view) |
-| 319 | আল কুরআন বুঝে পড়া উচিত-ড. জাকির নায়েক.pdf | জাকির নায়েক | 2.2 MB | [Open in Drive](https://drive.google.com/file/d/17nwODUwA457p49Wg8v-RmA2nEArM5rzU/view) |
-| 320 | কুরআন বুঝে পড়া উচিত-জাকির নায়েক.pdf | জাকির নায়েক | 2.2 MB | [Open in Drive](https://drive.google.com/file/d/1WiMgGLcXerQOFWcASd9o_24QbB-OchdX/view) |
-| 321 | জান্নাত জাহান্নামের বর্ণনা(কুরআন সুন্নাহর আলোকে)-ইকবাল কিলানী.pdf | জান্নাত জাহান্নাম | 13.5 MB | [Open in Drive](https://drive.google.com/file/d/1b9NJYywhH-bs4Kesw4wJshvbxf1bPEnD/view) |
-| 322 | রামাযানের শেষ দশক লাইলাতুল কদর ও ইতিকাফ কুরআন সুন্নাহ আমার জান্নাতের.pdf | জান্নাত জাহান্নাম | 236.4 KB | [Open in Drive](https://drive.google.com/file/d/1Ulq5QVUY7WUypHwWyDg2ObWnJCMFSb9K/view) |
+| 250 | _PART 1+2+3.pdf | কুরআন | 24.8 MB | [Open in Drive](https://drive.google.com/file/d/1XMEpvEkkx7dCe4kQUkmP3O1OjToqXpmL/view) |
+| 251 | _PART 12.pdf | কুরআন | 10.6 MB | [Open in Drive](https://drive.google.com/file/d/1kWayrhj-UXCXgI-7uw-PEPcywEo0CICs/view) |
+| 252 | _PART 13.pdf | কুরআন | 11.5 MB | [Open in Drive](https://drive.google.com/file/d/10d0HEJLxtVjrGdLyJamMJvkXOWUlRSPG/view) |
+| 253 | _PART 14.pdf | কুরআন | 14.5 MB | [Open in Drive](https://drive.google.com/file/d/1r2MRpSp_su6a15i2zLrMINKp2xtAfNHu/view) |
+| 254 | _PART 15.pdf | কুরআন | 23.6 MB | [Open in Drive](https://drive.google.com/file/d/1tl-OM7t6kwV_zw-ou1Ok2k4z_1AzEeYK/view) |
+| 255 | _PART 16.pdf | কুরআন | 21.4 MB | [Open in Drive](https://drive.google.com/file/d/1laeCIw0bR_s-6C88NY0m9wtpo87dOCXe/view) |
+| 256 | _PART 17.pdf | কুরআন | 21.2 MB | [Open in Drive](https://drive.google.com/file/d/188Dum8D5MzMNyOhPtmH-RDJ0kdi0Mvua/view) |
+| 257 | _PART 18.pdf | কুরআন | 11.2 MB | [Open in Drive](https://drive.google.com/file/d/1I91DjW0JNAK1U7TwLPCl2-HAxpV2NCXs/view) |
+| 258 | _PART 4+5+6+7.pdf | কুরআন | 25.2 MB | [Open in Drive](https://drive.google.com/file/d/1SRxzCPR1B7EhLSWiEf7TCFykT177QhqA/view) |
+| 259 | _PART 8+9+10+11.pdf | কুরআন | 25.7 MB | [Open in Drive](https://drive.google.com/file/d/1Sz3vEdQO67XYIKx36RFcF4e1vfCz2nAH/view) |
+| 260 | আল কুরআন ও আধুনিক বিজ্ঞান-ড. জাকির নায়েক.pdf | কুরআন | 1.6 MB | [Open in Drive](https://drive.google.com/file/d/1BN2HSBvWKGU2svyOPEC0rWbwSavwYTS2/view) |
+| 261 | আল কুরআন ও আধুনিক বিজ্ঞান-ড. জাকির নায়েক.pdf | কুরআন | 2.6 MB | [Open in Drive](https://drive.google.com/file/d/1D_7k6hcTIOz7NAkTy09YW89N4S3oNutW/view) |
+| 262 | ইলমুত  তাফসির,ইলমুল  হাদিস, ইলমুল  ফিকাহ.pdf | কুরআন | 4.7 MB | [Open in Drive](https://drive.google.com/file/d/1JAGKZFxZzEaLT09HSmMUjisrjinQwYuk/view) |
+| 263 | ইসলাম ও পাশ্চাত্য সভ্যতার দ্বন্দ্ব .pdf | কুরআন | 12.3 MB | [Open in Drive](https://drive.google.com/file/d/1JX732PWF0YJVYc1ZkAlLAQbnAWRKKIF8/view) |
+| 264 | কুরআন ও আধুনিক বিজ্ঞান.pdf | কুরআন | 1.7 MB | [Open in Drive](https://drive.google.com/file/d/1hiMZVTCIc_nmtio3x6Rk-VGXPQdXo3ot/view) |
+| 265 | কুরআন ও আধুনিক বিজ্ঞান.pdf | কুরআন | 1.7 MB | [Open in Drive](https://drive.google.com/file/d/15IYxZ8JtE6qlyFaMHAWJy69QISinCml-/view) |
+| 266 | কুরআন কি আল্লাহর বাণী.pdf | কুরআন | 2.4 MB | [Open in Drive](https://drive.google.com/file/d/1naHwULJHgfBT4P2t-8iTsOAOpG7SeyMX/view) |
+| 267 | কুরআনুল কারীম বঙ্গানুবাদ ও সংক্ষিপ্ত তাফসীর ১ম খন্ড.pdf | কুরআন | 54.4 MB | [Open in Drive](https://drive.google.com/file/d/1nagO82ckJmOA-R7oOdHqTQwwF4H5WMyn/view) |
+| 268 | কুরআনের বাংলা তাফসীর-ড,মুজিবুর রহমান.pdf | কুরআন | 28.8 MB | [Open in Drive](https://drive.google.com/file/d/1qZStKX6DONVgOFGSPWY4j_rr3PVx94NZ/view) |
+| 269 | কেন পশ্চিমারা ইসলাম গ্রহণ করছে.pdf | কুরআন | 2.0 MB | [Open in Drive](https://drive.google.com/file/d/1pCG8cezNYO1ONPqgt348r-trxyMTG7VZ/view) |
+| 270 | তফসীরে মা আরেফুল কোরআন ১ম খন্ড.pdf | কুরআন | 24.8 MB | [Open in Drive](https://drive.google.com/file/d/1p8a98KZLjSmlmWcYR0-JirncFMetdWZ-/view) |
+| 271 | তফসীরে মা আরেফুল কোরআন ২য় খন্ড.pdf | কুরআন | 21.0 MB | [Open in Drive](https://drive.google.com/file/d/1SBKc2d9x-Cy9KI767FXkS6RD29yxRHvA/view) |
+| 272 | তফসীরে মা আরেফুল কোরআন ৩য় খন্ড.pdf | কুরআন | 22.7 MB | [Open in Drive](https://drive.google.com/file/d/1Gn27IOx6QJA4H5lwJIFSqIrtLjzLL7uO/view) |
+| 273 | তফসীরে মা আরেফুল কোরআন ৪র্থ খন্ড.pdf | কুরআন | 26.2 MB | [Open in Drive](https://drive.google.com/file/d/1TgXudENYVumUoDLBOwXJVWpomzHp_CHe/view) |
+| 274 | তফসীরে মা আরেফুল কোরআন ৫ম খন্ড.pdf | কুরআন | 22.1 MB | [Open in Drive](https://drive.google.com/file/d/1iRZHaXFvlAX0qXMKZ7G_f9_6I1Y9taMp/view) |
+| 275 | তফসীরে মা আরেফুল কোরআন ৬ষ্ট খন্ড.pdf | কুরআন | 28.4 MB | [Open in Drive](https://drive.google.com/file/d/1e6MOGxHCTdN0xvn-hSgRKR_L4yI5zxBW/view) |
+| 276 | তফসীরে মা আরেফুল কোরআন ৭ম খন্ড.pdf | কুরআন | 27.7 MB | [Open in Drive](https://drive.google.com/file/d/1yCvdy7jMFUxLFOsq0P0HYc3dVjbCpdAX/view) |
+| 277 | তফসীরে মা আরেফুল কোরআন ৮ম খন্ড.pdf | কুরআন | 30.3 MB | [Open in Drive](https://drive.google.com/file/d/1MQJp1ULkTPrAyeVVFVcM0ptq3m9pyuvT/view) |
+| 278 | তাফসির তাওযীহুল কোরআন সকল খন্ড একসাথে.pdf | কুরআন | 54.1 MB | [Open in Drive](https://drive.google.com/file/d/1faXd7jAMu1wI4Sg1TjHun0GVMDDymy5B/view) |
+| 279 | তাফসীর তাইসিরুল কুরআন.pdf | কুরআন | 23.5 MB | [Open in Drive](https://drive.google.com/file/d/1bDnClBIWCmo-p5EKHU7DUluexHpYycTt/view) |
+| 280 | তাফসীরে জালালাইন-1.pdf | কুরআন | 38.9 MB | [Open in Drive](https://drive.google.com/file/d/1dvuJlnsxjy6BrhR4TICW-T0j7Kpxu_t3/view) |
+| 281 | তাফসীরে জালালাইন-2.pdf | কুরআন | 40.0 MB | [Open in Drive](https://drive.google.com/file/d/1ZtyhFhYrNbFnQHij2aB9Ra6pQKDOr1QL/view) |
+| 282 | তাফসীরে জালালাইন-3.pdf | কুরআন | 30.7 MB | [Open in Drive](https://drive.google.com/file/d/1asPNqBbEiGm-A_ARB_NhWZ43-LkTc1vH/view) |
+| 283 | তাফসীরে জালালাইন-4.pdf | কুরআন | 36.6 MB | [Open in Drive](https://drive.google.com/file/d/1mLqQVpGulpCg9kgTA05Gxh-QnsdRfqAt/view) |
+| 284 | তাফসীরে জালালাইন-5.pdf | কুরআন | 39.1 MB | [Open in Drive](https://drive.google.com/file/d/1wn4mLR2WK6t3w6V1DPg5uJPaWC9sqPHr/view) |
+| 285 | তাফসীরে জালালাইন-6.pdf | কুরআন | 17.2 MB | [Open in Drive](https://drive.google.com/file/d/1OhDQE20WninNQO8x6F8o6REY6a-h20e6/view) |
+| 286 | তাফসীরে জালালাইন-7.pdf | কুরআন | 31.4 MB | [Open in Drive](https://drive.google.com/file/d/1BXuTCNbzc54XClai4kJUFkXl0sk_j4vE/view) |
+| 287 | তাফসীরে তাবারী-1.pdf | কুরআন | 20.6 MB | [Open in Drive](https://drive.google.com/file/d/1PJlNOnc2kvc7M5KQtg7z5uLSjHUDNVBH/view) |
+| 288 | তাফসীরে তাবারী-2.pdf | কুরআন | 19.9 MB | [Open in Drive](https://drive.google.com/file/d/1S2HWD8mMZKKepDDt5q6JhQvDnnc5lqzX/view) |
+| 289 | তাফসীরে তাবারী-3.pdf | কুরআন | 19.8 MB | [Open in Drive](https://drive.google.com/file/d/15YsyQjmYrHhjMlFVJi-JQgvMWaB3LHA4/view) |
+| 290 | তাফসীরে তাবারী-4.pdf | কুরআন | 26.3 MB | [Open in Drive](https://drive.google.com/file/d/1SACRT5QEZv7UHIDukYWl22J79nqIKoAj/view) |
+| 291 | তাফসীরে তাবারী-5.pdf | কুরআন | 23.2 MB | [Open in Drive](https://drive.google.com/file/d/1fSQTVx7QuJ1houZuyFRFeboO2M_Kk_kN/view) |
+| 292 | তাফসীরে তাবারী-6.pdf | কুরআন | 24.8 MB | [Open in Drive](https://drive.google.com/file/d/1F3_jNDJjf6bJXeVCGYMbUpJLrA0AFcez/view) |
+| 293 | তাফসীরে তাবারী-7.pdf | কুরআন | 23.7 MB | [Open in Drive](https://drive.google.com/file/d/1jNs7Y0KttZpGsPvf59hRdR5qvcSf1cBw/view) |
+| 294 | তাফসীরে তাবারী-8.pdf | কুরআন | 24.5 MB | [Open in Drive](https://drive.google.com/file/d/11ZB83V95Nq5dUxdPOIK4xksqeMy3iBqB/view) |
+| 295 | তাফসীরে তাবারী-9.pdf | কুরআন | 20.3 MB | [Open in Drive](https://drive.google.com/file/d/1sUqGv7EWDg8D0rVCzSxK0ltfpfod-48c/view) |
+| 296 | ফী যিলালিল কোরআন ১ম খণ্ড.pdf | কুরআন | 7.9 MB | [Open in Drive](https://drive.google.com/file/d/1Kc0Zut4QX4VXv9ukKmC9Jj-b6T6mk0lp/view) |
+| 297 | ফী যিলালিল কোরআন ১০ম খণ্ড.pdf | কুরআন | 12.6 MB | [Open in Drive](https://drive.google.com/file/d/1-lzGcK6buq3bKxFyQANWbs8QkH2UluQb/view) |
+| 298 | ফী যিলালিল কোরআন ১১তম খণ্ড.pdf | কুরআন | 10.6 MB | [Open in Drive](https://drive.google.com/file/d/1BA72jAza5Aynl25RbBs218loNo9jgkMo/view) |
+| 299 | ফী যিলালিল কোরআন ১৩তম খণ্ড.pdf | কুরআন | 10.6 MB | [Open in Drive](https://drive.google.com/file/d/1uhm73ZlA0T5WVn87WczprCN6LeR4VrEM/view) |
+| 300 | ফী যিলালিল কোরআন ১৫তম খণ্ড.pdf | কুরআন | 10.7 MB | [Open in Drive](https://drive.google.com/file/d/19_h7JPxl4BvJjMxDzfuQeUDbZwT8b9JD/view) |
+| 301 | ফী যিলালিল কোরআন ১৬তম খণ্ড.pdf | কুরআন | 9.9 MB | [Open in Drive](https://drive.google.com/file/d/1EcrKQyR0fyPUUFmzFqBYJ5Cd7z-to_FV/view) |
+| 302 | ফী যিলালিল কোরআন ১৭তম খণ্ড.pdf | কুরআন | 9.9 MB | [Open in Drive](https://drive.google.com/file/d/135uwQRzwx6N9n56r6eQVI1EFwEup4xt4/view) |
+| 303 | ফী যিলালিল কোরআন ১৮তম খণ্ড.pdf | কুরআন | 10.8 MB | [Open in Drive](https://drive.google.com/file/d/1-GlIrns2W6b1omZOH0SenGBYb6ge2aZ4/view) |
+| 304 | ফী যিলালিল কোরআন ১৯তম খণ্ড.pdf | কুরআন | 13.0 MB | [Open in Drive](https://drive.google.com/file/d/1463Xem0Zq10TbfKoh_tD-ArYU5GovTsl/view) |
+| 305 | ফী যিলালিল কোরআন ২য় খণ্ড.pdf | কুরআন | 16.2 MB | [Open in Drive](https://drive.google.com/file/d/1FaHxuoR6oi_p7nT1neyV4k4JPjJR7d1W/view) |
+| 306 | ফী যিলালিল কোরআন ৩য় খণ্ড.pdf | কুরআন | 12.2 MB | [Open in Drive](https://drive.google.com/file/d/1j8Xi5HAQzJ4v1fNVobuxrsAbEsmRlNE2/view) |
+| 307 | ফী যিলালিল কোরআন ৪র্থ খণ্ড.pdf | কুরআন | 16.4 MB | [Open in Drive](https://drive.google.com/file/d/1WOmB5_AckjHn1dLjV0t1sttkGCYLhYya/view) |
+| 308 | ফী যিলালিল কোরআন ৫ম খণ্ড.pdf | কুরআন | 11.4 MB | [Open in Drive](https://drive.google.com/file/d/1CT4jHGuPakzretuin9Amkbj1EtnqrEK8/view) |
+| 309 | ফী যিলালিল কোরআন ৬ষ্ঠ খণ্ড.pdf | কুরআন | 14.9 MB | [Open in Drive](https://drive.google.com/file/d/1fwKkfr_l1ortmQ_pW6UhUVi3JvzYPf3M/view) |
+| 310 | ফী যিলালিল কোরআন ৭ম খণ্ড.pdf | কুরআন | 12.7 MB | [Open in Drive](https://drive.google.com/file/d/1xhrrJSdLTGFCbHy8FAAnWkO0rcDJjo1w/view) |
+| 311 | ফী যিলালিল কোরআন ৮ম খণ্ড.pdf | কুরআন | 9.4 MB | [Open in Drive](https://drive.google.com/file/d/13iyliDIViOUGGeDMJ8Ck2y374U5bnKKJ/view) |
+| 312 | ফী যিলালিল কোরআন ৯ম খণ্ড.pdf | কুরআন | 10.6 MB | [Open in Drive](https://drive.google.com/file/d/13YW1e6Y7kwRIpthSEj9zlPEBZp9Jnx8Y/view) |
+| 313 | বাংলা তাফসীর কুরআনুল কারীম-মুজিবুর রহমান.pdf | কুরআন | 28.8 MB | [Open in Drive](https://drive.google.com/file/d/1AxFkHzPYqFIysjXMa1BAU33OrsOltLbP/view) |
+| 314 | সুরা ফাতিহার তাফসীর.pdf | কুরআন | 938.0 KB | [Open in Drive](https://drive.google.com/file/d/1X0J8dW5DIHBrW7myqTu2QGbupHkg6NiV/view) |
+| 315 | Imdadia Hafezi Quran.pdf | কুরআন তরজমা | 15.0 MB | [Open in Drive](https://drive.google.com/file/d/1NC7p3Ek7dqPBKfnVPzxptheT_bOMP_J8/view) |
+| 316 | Quranul_Karim_01-Dr.Zakaria.pdf | কুরআনুল কারীম(ড.জাকারিয়া) | 53.7 MB | [Open in Drive](https://drive.google.com/file/d/1novhDqoeRUfwpjGuQu6vMiTI3Glh96OC/view) |
+| 317 | Quranul_Karim_02-Dr.Zakaria.pdf | কুরআনুল কারীম(ড.জাকারিয়া) | 50.1 MB | [Open in Drive](https://drive.google.com/file/d/1FLwXoXl9VLwB-Dcn5JChskHD1aeenxjH/view) |
+| 318 | আল কুরআন ও আধুনিক বিজ্ঞান-ড. জাকির নায়েক.pdf | জাকির নায়েক | 1.7 MB | [Open in Drive](https://drive.google.com/file/d/1p1VVw4CshS_IADAm1OH0x54TcVIvMuoN/view) |
+| 319 | আল কুরআন বুঝে পড়া উচিত-ড. জাকির নায়েক.pdf | জাকির নায়েক | 2.2 MB | [Open in Drive](https://drive.google.com/file/d/1T2wcz3g7ArVwQxqPycYh8fm6k7gNmgXS/view) |
+| 320 | কুরআন বুঝে পড়া উচিত-জাকির নায়েক.pdf | জাকির নায়েক | 2.2 MB | [Open in Drive](https://drive.google.com/file/d/1egr-czPI_n1a2LHjspPs5balNKsLv4OD/view) |
+| 321 | জান্নাত জাহান্নামের বর্ণনা(কুরআন সুন্নাহর আলোকে)-ইকবাল কিলানী.pdf | জান্নাত জাহান্নাম | 13.5 MB | [Open in Drive](https://drive.google.com/file/d/1gjQT6ZhA95MnJUSyz8Udt8AeFcxQlEwE/view) |
+| 322 | রামাযানের শেষ দশক লাইলাতুল কদর ও ইতিকাফ কুরআন সুন্নাহ আমার জান্নাতের.pdf | জান্নাত জাহান্নাম | 236.4 KB | [Open in Drive](https://drive.google.com/file/d/1E_brSKG80hfjLku9xP-t3zePXb8dfIwP/view) |
 | 323 | ০১ তাফসির ইবনে কাসির-1-2-3.pdf | তাফসির ইবনে কাসির নতুন সংস্করণ ঝকঝকে পৃন্ট | 4.9 MB | [Open in Drive](https://drive.google.com/file/d/1FcDJ15d8ZXN1QVLzLvHrZKlA7pgjox9E/view) |
 | 324 | ০২ তাফসির ইবনে কাসির-4-5-6-7.pdf | তাফসির ইবনে কাসির নতুন সংস্করণ ঝকঝকে পৃন্ট | 4.3 MB | [Open in Drive](https://drive.google.com/file/d/1FudzTP6n5l_fH-YyhmBz8JIu8ziwP4w_/view) |
 | 325 | ০৩ তাফসির ইবনে কাসির-8-9-10-11.pdf | তাফসির ইবনে কাসির নতুন সংস্করণ ঝকঝকে পৃন্ট | 5.9 MB | [Open in Drive](https://drive.google.com/file/d/1G3cODy7KnW2vM1-xpj9QaiZ1_C6U59j0/view) |
@@ -415,14 +415,14 @@
 | 361 | তাফসীর ফী যিলালিল কোরআন২০খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 45.3 MB | [Open in Drive](https://drive.google.com/file/d/1GThNV8imH9wQFVRDaTZeyRBcg_Sjxlag/view) |
 | 362 | তাফসীর ফী যিলালিল কোরআন২১খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 35.0 MB | [Open in Drive](https://drive.google.com/file/d/1HzdVO19TZKLjJDImLhU1SnkKCcZRFXm4/view) |
 | 363 | তাফসীর ফী যিলালিল কোরআন২২খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 30.9 MB | [Open in Drive](https://drive.google.com/file/d/1Hh4mC87PgvbvPf4CG2yEzFODSzGGv2od/view) |
-| 364 | পথ ও পাথেয়ঃ নির্বাচিত কুরআন হাদীস – এস. এম. রুহুল আমীন.pdf | দাওয়াত | 5.7 MB | [Open in Drive](https://drive.google.com/file/d/1IYfNCCtjizDQLX1hbq_jANuL0JvelZqd/view) |
-| 365 | সহজ আকীদা(কুরআন হাদিসের আলোকে).pdf | দাওয়াত | 2.3 MB | [Open in Drive](https://drive.google.com/file/d/19yTK3WgKNNwmYxNHiLlqjKQP0TystS2U/view) |
-| 366 | দারসে কুরান ১ম খণ্ড – অধ্যাপক আবদুল মতিন.pdf | দারসে কুরআন | 4.2 MB | [Open in Drive](https://drive.google.com/file/d/1bFna7S8xNJUH3jbh56aeQz2wGqoX4VCS/view) |
-| 367 | দারসে কুরান ৩য় খণ্ড – অধ্যাপক আবদুল মতিন.pdf | দারসে কুরআন | 4.6 MB | [Open in Drive](https://drive.google.com/file/d/1bHIK8VQhJifzm7SNRpIvgR-9Ch_HPuHP/view) |
-| 368 | দারসে কুরান ৪র্থ খণ্ড – অধ্যাপক আবদুল মতিন.pdf | দারসে কুরআন | 4.2 MB | [Open in Drive](https://drive.google.com/file/d/1bPnOgIiuzFmWVPPkRgXYGocH0Sfmt6ht/view) |
-| 369 | দারসে কুরান ৫ম খণ্ড – অধ্যাপক আবদুল মতিন.pdf | দারসে কুরআন | 4.2 MB | [Open in Drive](https://drive.google.com/file/d/1b_sWVTnAGWCmfrx4e_HzRRIJcIu2d7Ci/view) |
-| 370 | দারসে কুরান ৬ষ্ঠ খণ্ড – অধ্যাপক আবদুল মতিন.pdf | দারসে কুরআন | 4.5 MB | [Open in Drive](https://drive.google.com/file/d/1beHmzZihbYx8UR5S1G54oPSLBxjur1a9/view) |
-| 371 | পবিত্র কোরআনের মু'জিজা – আল্লামা দেলাওয়ার হোসাইন সাঈদী.pdf | দেলোয়ার হুসেন সাঈদী | 4.1 MB | [Open in Drive](https://drive.google.com/file/d/1IcLaoWMqni6qur_HoUwWeKx-mQ-Rg02_/view) |
+| 364 | পথ ও পাথেয়ঃ নির্বাচিত কুরআন হাদীস – এস. এম. রুহুল আমীন.pdf | দাওয়াত | 5.7 MB | [Open in Drive](https://drive.google.com/file/d/1ZUdBwaTdlzRbpBqJfrYlvGiC4Nt-Hv1d/view) |
+| 365 | সহজ আকীদা(কুরআন হাদিসের আলোকে).pdf | দাওয়াত | 2.3 MB | [Open in Drive](https://drive.google.com/file/d/1i4wocSg7yxgsiHtwm4IoK2P8X_xhEdiP/view) |
+| 366 | দারসে কুরান ১ম খণ্ড – অধ্যাপক আবদুল মতিন.pdf | দারসে কুরআন | 4.2 MB | [Open in Drive](https://drive.google.com/file/d/16fo2Fr6SHeyDdVQ79oODJ8M51LUO0MeN/view) |
+| 367 | দারসে কুরান ৩য় খণ্ড – অধ্যাপক আবদুল মতিন.pdf | দারসে কুরআন | 4.6 MB | [Open in Drive](https://drive.google.com/file/d/1OvYMG6vGcwIaUo1ZXpspC7qS4jpfXAkE/view) |
+| 368 | দারসে কুরান ৪র্থ খণ্ড – অধ্যাপক আবদুল মতিন.pdf | দারসে কুরআন | 4.2 MB | [Open in Drive](https://drive.google.com/file/d/1FC2ehXOMJVf7VxywQrM7zzIefxol2N36/view) |
+| 369 | দারসে কুরান ৫ম খণ্ড – অধ্যাপক আবদুল মতিন.pdf | দারসে কুরআন | 4.2 MB | [Open in Drive](https://drive.google.com/file/d/1fuHI8GxnyqF-B-sKz8WrPOZ0k_UJvl_G/view) |
+| 370 | দারসে কুরান ৬ষ্ঠ খণ্ড – অধ্যাপক আবদুল মতিন.pdf | দারসে কুরআন | 4.5 MB | [Open in Drive](https://drive.google.com/file/d/1iiv_NL-UNSEQXVSozaV4LEEc0VrLnZpg/view) |
+| 371 | পবিত্র কোরআনের মু'জিজা – আল্লামা দেলাওয়ার হোসাইন সাঈদী.pdf | দেলোয়ার হুসেন সাঈদী | 4.1 MB | [Open in Drive](https://drive.google.com/file/d/1HonoKLGSj8OX2DrHPBBwvCA0WpZqpMkT/view) |
 | 372 | Al-Quran-Ek-Mohabissoy.pdf | নতুন | 2.7 MB | [Open in Drive](https://drive.google.com/file/d/1nF1kO_FV3C5nmtAldFFgM9kPRzRuHnLr/view) |
 | 373 | bn_quran_buzar_sohoj_obhidhan.pdf | নতুন | 2.1 MB | [Open in Drive](https://drive.google.com/file/d/1BY5zgHHKN-JNziZrpIta-xAHa76H_XWs/view) |
 | 374 | quran bujha sohoj.pdf | নতুন | 1.2 MB | [Open in Drive](https://drive.google.com/file/d/1GvEkk2EePHHcixFCGchwDlSrYQRhg8Hj/view) |
@@ -430,13 +430,13 @@
 | 376 | কুরআন_হাদীসের_35টি_ভবিষ্যদ্বাণী.pdf | নতুন | 28.3 MB | [Open in Drive](https://drive.google.com/file/d/1EKK_rdss_0VTlklWxWyOzjjRcPdYdhpd/view) |
 | 377 | নবীর_কুরআনী_পরিচয়_–_সাইয়েদ_আবুল_আলা_মওদুদী.pdf | নতুন | 1.1 MB | [Open in Drive](https://drive.google.com/file/d/1qwDlFHtpa46pUNlIKQaH1i-0fs0J7lvv/view) |
 | 378 | সহজ জামালুল কুরআন.pdf | নতুন | 1.4 MB | [Open in Drive](https://drive.google.com/file/d/1aJ_D9Nmb_P0nnyJ8_8k6A7CF0k5B7hMz/view) |
-| 379 | আল কুরআনে নারী-01.pdf | নারী | 4.5 MB | [Open in Drive](https://drive.google.com/file/d/1VHnaXdPHitc49d7xUpqoiYwF5FImEWhS/view) |
-| 380 | আল কুরআনে নারী-02.pdf | নারী | 7.0 MB | [Open in Drive](https://drive.google.com/file/d/1WPWmx2JQr5HZvnsO0Nv4C7wlrQ01jBzF/view) |
+| 379 | আল কুরআনে নারী-01.pdf | নারী | 4.5 MB | [Open in Drive](https://drive.google.com/file/d/12wdwOwrJAZs-LAq7-pqd0Os6SksdnOUO/view) |
+| 380 | আল কুরআনে নারী-02.pdf | নারী | 7.0 MB | [Open in Drive](https://drive.google.com/file/d/1ZzxVydsLGfHCIq6jN9aOhFSaw8Vzju71/view) |
 | 381 | কুরআন হাদীস ও চ.txt | প্রায় ৮০ টি ইসলামিক ও প্রয়োজনীয় text ফাইল | 26.8 KB | [Open in Drive](https://drive.google.com/file/d/1GvuT4vJdLOPSNTGp6HUm9F04NRrkZJpR/view) |
 | 382 | কোরআনের আলোকে নাস্তিকদের জবাব.txt | প্রায় ৮০ টি ইসলামিক ও প্রয়োজনীয় text ফাইল | 73.8 KB | [Open in Drive](https://drive.google.com/file/d/1G89CyE7Q3kzrnSCGeglkQJipHJYa2aUS/view) |
-| 383 | কুরআনের বিষয়ভিত্তিক আয়াত.pdf | বিষয়ভিত্তিক আয়াত হাদিস | 35.9 MB | [Open in Drive](https://drive.google.com/file/d/1DHm2fnEyQqWLUYJGNAgxu2zHSxroQNvB/view) |
-| 384 | কুরআন ও সহীহ হাদিসের আলোকে বিয়ে.pdf | বিয়ে ও দাম্পত্য | 7.4 MB | [Open in Drive](https://drive.google.com/file/d/1NRjHRNC29Pwh9OiyUF8NRYkqFpetC97M/view) |
+| 383 | কুরআনের বিষয়ভিত্তিক আয়াত.pdf | বিষয়ভিত্তিক আয়াত হাদিস | 35.9 MB | [Open in Drive](https://drive.google.com/file/d/1Oin4GeOV9pgnbzaK_osESLb2B2QHP1Sw/view) |
+| 384 | কুরআন ও সহীহ হাদিসের আলোকে বিয়ে.pdf | বিয়ে ও দাম্পত্য | 7.4 MB | [Open in Drive](https://drive.google.com/file/d/14-zf1YNfJYsYTNQENFWmI3Hujpd-kISY/view) |
 | 385 | তাফসীর কি মিথ্যা হতে পারে .pdf | মাজহাব এবং ইমাম আবু হানিফা সম্পর্কে বই | 875.1 KB | [Open in Drive](https://drive.google.com/file/d/18lMo1o-_X-97AUEKmgfd-wc-NLuNehS5/view) |
-| 386 | আর রাহীকুল মাখতূম(আল কুরআন একাডেমি প্রকাশনী).pdf | রাহীকুল মাখতুম | 18.2 MB | [Open in Drive](https://drive.google.com/file/d/1aYUbdFPGkh_PS7XDgFcPWhvx5Qhz8e_3/view) |
-| 387 | কুরআন মজীদ ও সহীহ হাদীসের আলোকে রমাযানুল মুবারক-আলকাউসার.pdf | রোজা,কদর ও ইতিকাফ | 199.4 KB | [Open in Drive](https://drive.google.com/file/d/1PR_0Pw8-ZcnlbekO9aXdy97Ycd_LBo1O/view) |
-| 388 | রামাদ্বান পরিকল্পনাঃ একাডেমী অব কুরআন স্টাডিজ.pdf | রোজা,কদর ও ইতিকাফ | 13.4 MB | [Open in Drive](https://drive.google.com/file/d/1REVq9pLz-QQBF-rTmvXOTf9wAtqdC7vg/view) |
+| 386 | আর রাহীকুল মাখতূম(আল কুরআন একাডেমি প্রকাশনী).pdf | রাহীকুল মাখতুম | 18.2 MB | [Open in Drive](https://drive.google.com/file/d/1vAjfE0Me9mfGHkng79IRLmzBn1CGcnvZ/view) |
+| 387 | কুরআন মজীদ ও সহীহ হাদীসের আলোকে রমাযানুল মুবারক-আলকাউসার.pdf | রোজা,কদর ও ইতিকাফ | 199.4 KB | [Open in Drive](https://drive.google.com/file/d/1UfvN4Gcq7Gyhk_msfGYlKvrvK7jxhT9L/view) |
+| 388 | রামাদ্বান পরিকল্পনাঃ একাডেমী অব কুরআন স্টাডিজ.pdf | রোজা,কদর ও ইতিকাফ | 13.4 MB | [Open in Drive](https://drive.google.com/file/d/1dL1LtPkkJGtmuXj3yiqF_WzOaIDyTz_x/view) |
