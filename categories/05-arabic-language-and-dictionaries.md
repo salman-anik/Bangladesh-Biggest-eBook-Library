@@ -21,55 +21,55 @@
 | 2 | vocabulary-of-madinah-arabic.pdf | General | 2.9 MB | [Open in Drive](https://drive.google.com/file/d/1wsiA1_P30vI-Xxo5k1lIW9c0xi26jBav/view) |
 | 3 | আধুনিক আরবী-বাংলা অভিধান.pdf | General | 40.3 MB | [Open in Drive](https://drive.google.com/file/d/1qcQvkg8FNWuXVND4bmJ02eetVXGEUEkJ/view) |
 | 4 | আলকুরানের সংক্ষিপ্ত অভিধান.pdf | General | 349.9 KB | [Open in Drive](https://drive.google.com/file/d/1aGM9IfNv-Mx_AzegLDo07c3dmKqcb5Mb/view) |
-| 5 | Bangla Academy Bengali-English Dictionary \[v1\].pdf | অভিধান | 39.7 MB | [Open in Drive](https://drive.google.com/file/d/13OpheEMyLQg5ipYbgDfICw1UWMH3yJkZ/view) |
-| 6 | Bangla Academy English-Bangla Dictionary.pdf | অভিধান | 42.0 MB | [Open in Drive](https://drive.google.com/file/d/1X5dwKaGrvQ7Rbk30AAux3JbgTE42jHwP/view) |
-| 7 | CAREY's A Dictionary Of The Bengali Language.pdf | অভিধান | 170.0 MB | [Open in Drive](https://drive.google.com/file/d/1vw7gvzhaCjVLq1-UX3HbJG6uuY_IQiHo/view) |
-| 8 | POCKET DICTIONARY (English to Bengali & English)- Ashutosh Dev.pdf | অভিধান | 38.2 MB | [Open in Drive](https://drive.google.com/file/d/1aCGv-R757LnAvDhCGIrzk5Y8MzWP9KpB/view) |
-| 9 | অন্ত্যমিল অভিধান - দীপংকর চক্রবর্তী.pdf | অভিধান | 4.1 MB | [Open in Drive](https://drive.google.com/file/d/16yse7hwskBNLA7MtzHH0AEta9-GZoBcb/view) |
-| 10 | অপরাধ জগতের ভাষা ও শব্দকোষ - ১ম সংস্করণ ।। ভক্তিপ্রসাদ মল্লিক.pdf | অভিধান | 6.2 MB | [Open in Drive](https://drive.google.com/file/d/17r_OqmROg7X7UhuL-0sM3uC07NDwGU5V/view) |
-| 11 | অপরাধ জগতের ভাষা ও শব্দকোষ ।। ভক্তিপ্রসাদ মল্লিক.pdf | অভিধান | 8.9 MB | [Open in Drive](https://drive.google.com/file/d/1fJyZz7545kpEZKIqFCk4wP23e1BXiNGu/view) |
-| 12 | আদর্শ বাংগালা অভিধান.pdf | অভিধান | 78.4 MB | [Open in Drive](https://drive.google.com/file/d/1K_zZ4ZniIxRAz8D6MF7Lw6SoICM5OdK_/view) |
-| 13 | ইংরাজি-বাংলা পারিভাষিক শব্দকোষ - ডঃ মোহাম্মদ কলিমুদ্দিন.pdf | অভিধান | 61.1 MB | [Open in Drive](https://drive.google.com/file/d/1vuhHK-iHMv6fU0BtG9f9G7WBwpWJOx2s/view) |
-| 14 | গালি অভিধান.pdf | অভিধান | 21.4 MB | [Open in Drive](https://drive.google.com/file/d/13mXexxK2YVLYPLqEym5RVEwDnzSkFCF7/view) |
-| 15 | ঢাকাইয়া কুট্টি ভাষার অভিধান.pdf | অভিধান | 12.9 MB | [Open in Drive](https://drive.google.com/file/d/19q0Nk5u4l3D5Ah2NDHyh7J7Hn8xKsve0/view) |
-| 16 | পরমা ভাষার সংকেত - কলিম খান.pdf | অভিধান | 15.7 MB | [Open in Drive](https://drive.google.com/file/d/1i5OtEisYtnKzk2FnqXm07wdY8v-XsLuj/view) |
-| 17 | প্রবচন সংগ্রহ (নূতন বাঙ্গালা অভিধান - আশুতোষ দেব সংকলিত).pdf | অভিধান | 15.7 MB | [Open in Drive](https://drive.google.com/file/d/1CwHePOeZ0-TMVMVpsTHfnq5iOC55u3FI/view) |
-| 18 | প্রশাসনিক পরিভাষা.pdf | অভিধান | 1.4 MB | [Open in Drive](https://drive.google.com/file/d/1p7-TyWbz1Srz7ZXg48Jxjw5JbVTte4ZP/view) |
-| 19 | বঙ্গীয় শব্দকোষ ১ - শ্রীহরিচরণ বন্দ্যোপাধ্যায়.pdf | অভিধান | 37.1 MB | [Open in Drive](https://drive.google.com/file/d/1Uw85af-HrG7QX17h7i8777KlSIYBv_ua/view) |
-| 20 | বঙ্গীয় শব্দকোষ ২ - শ্রীহরিচরণ বন্দ্যোপাধ্যায়.pdf | অভিধান | 165.1 MB | [Open in Drive](https://drive.google.com/file/d/1_eOLbPS7nzUjKH2Zy0UeUiwjDLYRr_K6/view) |
-| 21 | বাংলা একাডেমি আধুনিক বাংলা অভিধান .pdf | অভিধান | 80.1 MB | [Open in Drive](https://drive.google.com/file/d/1QZyQ5mVb5FzUuY_RhAlHZlzaqMa3ULF0/view) |
-| 22 | বাংলা একাডেমি আধুনিক বাংলা অভিধান \[v1\].pdf | অভিধান | 51.3 MB | [Open in Drive](https://drive.google.com/file/d/1sQuIA5i1UpmTUJO2V-G0Q4PQqB8jY6q-/view) |
-| 23 | বাংলা একাডেমি প্রমিত বাংলা বানানের নিয়ম .pdf | অভিধান | 645.0 KB | [Open in Drive](https://drive.google.com/file/d/1yc5gNE9FlQS4oG6u-MRGiXDhgHlzNW93/view) |
-| 24 | বাংলা একাডেমি বাংলা বানান অভিধান.pdf | অভিধান | 29.3 MB | [Open in Drive](https://drive.google.com/file/d/1DIOzNg-RCd5kHkpht_96sS2L47W5yTjS/view) |
-| 25 | বাংলা একাডেমি বিবর্তনমূলক বাংলা অভিধান ১ - গোলাম মুরশিদ.pdf | অভিধান | 69.9 MB | [Open in Drive](https://drive.google.com/file/d/1rq5jp0e7LQj-_NuK9gd4gIPu2g-uLHGc/view) |
-| 26 | বাংলা একাডেমি বিবর্তনমূলক বাংলা অভিধান ২ - গোলাম মুরশিদ.pdf | অভিধান | 30.1 MB | [Open in Drive](https://drive.google.com/file/d/14kI1hJs0rAIsONyVKrYdXp3ABfYw7qnn/view) |
-| 27 | বাংলা একাডেমি ব্যবহারিক বাংলা অভিধান.pdf | অভিধান | 126.6 MB | [Open in Drive](https://drive.google.com/file/d/1uvJjrXuunXdX3Mp29zrHic1fL8IqPezT/view) |
-| 28 | বাংলা একাডেমি সংক্ষিপ্ত বাংলা অভিধান.pdf | অভিধান | 28.2 MB | [Open in Drive](https://drive.google.com/file/d/1KrDmhQaN5aLr_y_L9N_bVlsa2gDMl14z/view) |
-| 29 | বাংলা ভাষা প্রসঙ্গে - সুনীতিকুমার চট্টোপাধ্যায়.pdf | অভিধান | 9.7 MB | [Open in Drive](https://drive.google.com/file/d/1BEJUMRFoatt4oHLt--PZBVewb2YXSQCv/view) |
-| 30 | বাংলা ভাষার বানান সংস্কার.pdf | অভিধান | 6.3 MB | [Open in Drive](https://drive.google.com/file/d/1eN5ueRAquQY_D_3HwqE6aXhMwjE-IOaL/view) |
-| 31 | বাংলা ভাষায় আরবী ফারসী তুর্কী হিন্দী উর্দু শব্দের অভিধান.pdf | অভিধান | 10.5 MB | [Open in Drive](https://drive.google.com/file/d/1K2plb7jSfa1dUJmVnb1bk1ZiDxOIE3GM/view) |
-| 32 | বাংলা শব্দ বর্ণ বানান - হোসাইন রিদওয়ান আলী খান.pdf | অভিধান | 8.3 MB | [Open in Drive](https://drive.google.com/file/d/1cBXrpUiraxA33pLGj3raIVPfF6R21H4x/view) |
-| 33 | বাংলা স্ল্যাং সমীক্ষা ও অভিধান - অভ্র বসু.pdf | অভিধান | 15.6 MB | [Open in Drive](https://drive.google.com/file/d/1q4FQnMOZxBdgfLa3p0LKN1Zzm34QpaMj/view) |
-| 34 | বাংলাদেশের আঞ্চলিক ভাষার অভিধান ।। অখণ্ড - বাংলা একাডেমি.pdf | অভিধান | 61.8 MB | [Open in Drive](https://drive.google.com/file/d/1iNVeY8ZT7LoMVah5j6Q2CSMWbbc3PGbv/view) |
-| 35 | বাঙ্গালা বচনাভিধান - শ্রীঅমরেন্দ্রনাথ রায় সঙ্কলিত.pdf | অভিধান | 4.7 MB | [Open in Drive](https://drive.google.com/file/d/1Hc9BZmrwM2qWTxcofTBWTqo2Dzr_Pvsp/view) |
-| 36 | বিয়ের শব্দকোষ - হরিপদ ভৌমিক.pdf | অভিধান | 12.5 MB | [Open in Drive](https://drive.google.com/file/d/150ExDTRKcxLNWSVfC3iFAc3tKfbsMdTd/view) |
-| 37 | ব্যবহারিক শব্দকোষ - কাজী আবদুল ওদুদ সংকলিত Byabaharik Shabdakosh.pdf | অভিধান | 57.6 MB | [Open in Drive](https://drive.google.com/file/d/1ibnhiRT6N6uWFZd7oiFWCz6NktDsLErG/view) |
-| 38 | ভারতী বাঙলা অভিধান - বিশিষ্ট পণ্ডিত ও অধ্যাপকমণ্ডলী কর্তৃক সম্পাদিত Bharati Bangla Abhidhan.pdf | অভিধান | 56.6 MB | [Open in Drive](https://drive.google.com/file/d/1Il1o-WRlBL2ExASrOA1pJZBqWguCrh22/view) |
-| 39 | রাজনীতির অভিধান - সৌরেন্দ্রমোহন গঙ্গোপাধ্যায়.pdf | অভিধান | 35.2 MB | [Open in Drive](https://drive.google.com/file/d/1_FintpsGIR3urReDqClky43tDcn2lMYi/view) |
-| 40 | লেখক ও সম্পাদকের অভিধান - বাংলাবাজার পত্রিকা.pdf | অভিধান | 7.9 MB | [Open in Drive](https://drive.google.com/file/d/1cweGRPtRnjEXdrItmeDZp-XQHOUoVJL-/view) |
-| 41 | লৌকিক শব্দকোষ - শ্রী কামিনীকুমার রায়.pdf | অভিধান | 8.0 MB | [Open in Drive](https://drive.google.com/file/d/1cP0GD55ny_DkF2XtJrQpJ_liMfbTDEI1/view) |
-| 42 | শব্দবোধ অভিধান (ক) -- শিরোনাম, ভূমিকা এবং অ - ঔ.pdf | অভিধান | 21.8 MB | [Open in Drive](https://drive.google.com/file/d/11_DZRHNaxT3YyRnmblK9J62duGliCoOO/view) |
-| 43 | শব্দবোধ অভিধান (খ) -- ক - ট.pdf | অভিধান | 20.2 MB | [Open in Drive](https://drive.google.com/file/d/1PK-omZa75w5KpyiDZR_yojjtsWHrsLKm/view) |
-| 44 | শব্দবোধ অভিধান (গ) -- ঠ - ব.pdf | অভিধান | 29.5 MB | [Open in Drive](https://drive.google.com/file/d/1x2fYAcUCfJkXoSb39bs4G83oOt87SPT2/view) |
-| 45 | শব্দবোধ অভিধান (ঘ) -- ভ - হ.pdf | অভিধান | 20.6 MB | [Open in Drive](https://drive.google.com/file/d/1KYOjlkL11yJCyT1E8rV7uKJx9MjxTWpu/view) |
-| 46 | শব্দবোধ অভিধান (ঙ) -- চরিতাবলী, বিবিধ ও পরিশিষ্ট.pdf | অভিধান | 22.1 MB | [Open in Drive](https://drive.google.com/file/d/1mUMGe3q8jQqhZXHtakXLU1AM4UtYBMj8/view) |
-| 47 | সংসদ বাংলা অভিধান.pdf | অভিধান | 16.7 MB | [Open in Drive](https://drive.google.com/file/d/1ksErmtqGyCwVQT74MzTo2dwauM7z4jZJ/view) |
-| 48 | সংসদ বাংলা টু ইংলিশ ডিকশনারি.pdf | অভিধান | 11.4 MB | [Open in Drive](https://drive.google.com/file/d/1ShgaOHsQTHa-XoMagbOSlqb6goZ5SXRL/view) |
-| 49 | সংসদ বাঙালি চরিতাভিধান.pdf | অভিধান | 13.7 MB | [Open in Drive](https://drive.google.com/file/d/13l5SNwTebkGRWGb8pfGJCb8muyt9MSXn/view) |
-| 50 | সংসদ বাঙ্গালা অভিধান - শৈলেন্দ্র বিশ্বাস সংকলিত.pdf | অভিধান | 81.5 MB | [Open in Drive](https://drive.google.com/file/d/1H6A0xVLBAiBzUYOG_grD4hZFxEfUYnDA/view) |
-| 51 | সমার্থ শব্দকোষ - অশোক মুখোপাধ্যায়.pdf | অভিধান | 12.5 MB | [Open in Drive](https://drive.google.com/file/d/1x4RpfJUdusqI4KOh4wcn2vKL8S_8qIfP/view) |
-| 52 | সরকারি কাজে ব্যবহারিক বাংলা.pdf | অভিধান | 738.8 KB | [Open in Drive](https://drive.google.com/file/d/1uk6TWFry2HpfYpNLdJn81BrrbRtciWtP/view) |
-| 53 | সাহিত্যের শব্দার্থকোষ - সুরভি বন্দ্যোপাধ্যায়.pdf | অভিধান | 12.1 MB | [Open in Drive](https://drive.google.com/file/d/1vCuyOqp0FJ3jXkt-drFsvDFbxEoO3RRi/view) |
+| 5 | Bangla Academy Bengali-English Dictionary \[v1\].pdf | অভিধান | 39.7 MB | [Open in Drive](https://drive.google.com/file/d/1huBpWluNgV-fwSOk6YMhAawSFyfAumoo/view) |
+| 6 | Bangla Academy English-Bangla Dictionary.pdf | অভিধান | 42.0 MB | [Open in Drive](https://drive.google.com/file/d/1dR2d_phD3AV4-FAs7GggeJuE-k2AcGF1/view) |
+| 7 | CAREY's A Dictionary Of The Bengali Language.pdf | অভিধান | 170.0 MB | [Open in Drive](https://drive.google.com/file/d/1PG2BqzDWyUa_q5QLVjw1VY8NsE_N2fVQ/view) |
+| 8 | POCKET DICTIONARY (English to Bengali & English)- Ashutosh Dev.pdf | অভিধান | 38.2 MB | [Open in Drive](https://drive.google.com/file/d/1azMDnBOOB1hwlYVMxw0ZtqFutpECs03o/view) |
+| 9 | অন্ত্যমিল অভিধান - দীপংকর চক্রবর্তী.pdf | অভিধান | 4.1 MB | [Open in Drive](https://drive.google.com/file/d/1mw-8p4BKjaQ0V8xRMV6qHmb6A7oVJ04l/view) |
+| 10 | অপরাধ জগতের ভাষা ও শব্দকোষ - ১ম সংস্করণ ।। ভক্তিপ্রসাদ মল্লিক.pdf | অভিধান | 6.2 MB | [Open in Drive](https://drive.google.com/file/d/1eLtoImopMh9DSLig8k8UiLyOmbeWdo_m/view) |
+| 11 | অপরাধ জগতের ভাষা ও শব্দকোষ ।। ভক্তিপ্রসাদ মল্লিক.pdf | অভিধান | 8.9 MB | [Open in Drive](https://drive.google.com/file/d/1odCA_Z8G4egMg_8ZKcj-2qXrQArWNj7z/view) |
+| 12 | আদর্শ বাংগালা অভিধান.pdf | অভিধান | 78.4 MB | [Open in Drive](https://drive.google.com/file/d/1Szo5-3Fqxy9Oh8uHPnRgLg_Z41SFWxWV/view) |
+| 13 | ইংরাজি-বাংলা পারিভাষিক শব্দকোষ - ডঃ মোহাম্মদ কলিমুদ্দিন.pdf | অভিধান | 61.1 MB | [Open in Drive](https://drive.google.com/file/d/1G0wRt0YqPWSW8-UsVmwPAF0GHYI3Ad-N/view) |
+| 14 | গালি অভিধান.pdf | অভিধান | 21.4 MB | [Open in Drive](https://drive.google.com/file/d/1Cb5JlFveEC_LbvPicIBF8qRpEuGOkAPA/view) |
+| 15 | ঢাকাইয়া কুট্টি ভাষার অভিধান.pdf | অভিধান | 12.9 MB | [Open in Drive](https://drive.google.com/file/d/1YbiHdBWm3x2unuCLWnMN_39OL9g8242b/view) |
+| 16 | পরমা ভাষার সংকেত - কলিম খান.pdf | অভিধান | 15.7 MB | [Open in Drive](https://drive.google.com/file/d/1mH-1MrfHGuUd5fMvjq3gsg34Q7hqJTx9/view) |
+| 17 | প্রবচন সংগ্রহ (নূতন বাঙ্গালা অভিধান - আশুতোষ দেব সংকলিত).pdf | অভিধান | 15.7 MB | [Open in Drive](https://drive.google.com/file/d/15PCCHA6UoPVkxivue1bwq8k28jWl7Pog/view) |
+| 18 | প্রশাসনিক পরিভাষা.pdf | অভিধান | 1.4 MB | [Open in Drive](https://drive.google.com/file/d/1XBJpjoKzCS4mk8M_VVN0pe0ojWShHccF/view) |
+| 19 | বঙ্গীয় শব্দকোষ ১ - শ্রীহরিচরণ বন্দ্যোপাধ্যায়.pdf | অভিধান | 37.1 MB | [Open in Drive](https://drive.google.com/file/d/1ZDt1WkuC4hmstdRUn1uhjU9fdM9e-YH9/view) |
+| 20 | বঙ্গীয় শব্দকোষ ২ - শ্রীহরিচরণ বন্দ্যোপাধ্যায়.pdf | অভিধান | 165.1 MB | [Open in Drive](https://drive.google.com/file/d/1V0gLlhHhW5c7v5L3hTsDVFbyimfJJLyq/view) |
+| 21 | বাংলা একাডেমি আধুনিক বাংলা অভিধান .pdf | অভিধান | 80.1 MB | [Open in Drive](https://drive.google.com/file/d/1IlhacuCcUzwk5slonxpWlvc8IMLJhl3B/view) |
+| 22 | বাংলা একাডেমি আধুনিক বাংলা অভিধান \[v1\].pdf | অভিধান | 51.3 MB | [Open in Drive](https://drive.google.com/file/d/1RwuW3S3vPW7eLp1XFAHYlq43AhuzGA0R/view) |
+| 23 | বাংলা একাডেমি প্রমিত বাংলা বানানের নিয়ম .pdf | অভিধান | 645.0 KB | [Open in Drive](https://drive.google.com/file/d/1n7C_U8BZVmoAoQhOwuWf5hi-vh5_sCsc/view) |
+| 24 | বাংলা একাডেমি বাংলা বানান অভিধান.pdf | অভিধান | 29.3 MB | [Open in Drive](https://drive.google.com/file/d/1FVBZyX3Hp_rahHrr5UF-BciyTYYaBgT7/view) |
+| 25 | বাংলা একাডেমি বিবর্তনমূলক বাংলা অভিধান ১ - গোলাম মুরশিদ.pdf | অভিধান | 69.9 MB | [Open in Drive](https://drive.google.com/file/d/1062FE8Ai10SiZQn9rsEljmF9-Pxbtkzx/view) |
+| 26 | বাংলা একাডেমি বিবর্তনমূলক বাংলা অভিধান ২ - গোলাম মুরশিদ.pdf | অভিধান | 30.1 MB | [Open in Drive](https://drive.google.com/file/d/1Ubh-z689Kf6kP6J2q-XESklwSRns6TCZ/view) |
+| 27 | বাংলা একাডেমি ব্যবহারিক বাংলা অভিধান.pdf | অভিধান | 126.6 MB | [Open in Drive](https://drive.google.com/file/d/1GdzsKujqXpOvox2ZlFV7joUrwTYtq7EP/view) |
+| 28 | বাংলা একাডেমি সংক্ষিপ্ত বাংলা অভিধান.pdf | অভিধান | 28.2 MB | [Open in Drive](https://drive.google.com/file/d/1fdiux7tVQQFxuD03vQn-wTN8AV7wgfhC/view) |
+| 29 | বাংলা ভাষা প্রসঙ্গে - সুনীতিকুমার চট্টোপাধ্যায়.pdf | অভিধান | 9.7 MB | [Open in Drive](https://drive.google.com/file/d/1PoLZwF7u_fzmLo5XS-YaKBpErvKohcyn/view) |
+| 30 | বাংলা ভাষার বানান সংস্কার.pdf | অভিধান | 6.3 MB | [Open in Drive](https://drive.google.com/file/d/1-nu3AbwDRiD3QVb-q3w8BEz8raBnMpdv/view) |
+| 31 | বাংলা ভাষায় আরবী ফারসী তুর্কী হিন্দী উর্দু শব্দের অভিধান.pdf | অভিধান | 10.5 MB | [Open in Drive](https://drive.google.com/file/d/1pRkBIiln_IAAtxXb3DnYUskbyuH_bP5G/view) |
+| 32 | বাংলা শব্দ বর্ণ বানান - হোসাইন রিদওয়ান আলী খান.pdf | অভিধান | 8.3 MB | [Open in Drive](https://drive.google.com/file/d/1WDL_krFCiKmRwyYmTHeCps7S-u4W2R6W/view) |
+| 33 | বাংলা স্ল্যাং সমীক্ষা ও অভিধান - অভ্র বসু.pdf | অভিধান | 15.6 MB | [Open in Drive](https://drive.google.com/file/d/1eagb3L6tV9pLiluTJXiTxZ-JimvRPcNm/view) |
+| 34 | বাংলাদেশের আঞ্চলিক ভাষার অভিধান ।। অখণ্ড - বাংলা একাডেমি.pdf | অভিধান | 61.8 MB | [Open in Drive](https://drive.google.com/file/d/1LcKbqm-3Ve6Q24xp40CFCl68w5bSXN7s/view) |
+| 35 | বাঙ্গালা বচনাভিধান - শ্রীঅমরেন্দ্রনাথ রায় সঙ্কলিত.pdf | অভিধান | 4.7 MB | [Open in Drive](https://drive.google.com/file/d/1nuc2ENUhM53FNFtih18BqfVvJ4y9WqtV/view) |
+| 36 | বিয়ের শব্দকোষ - হরিপদ ভৌমিক.pdf | অভিধান | 12.5 MB | [Open in Drive](https://drive.google.com/file/d/1P9OjgvKGK-BPHEQb52FJ0Vrzoty2n_g6/view) |
+| 37 | ব্যবহারিক শব্দকোষ - কাজী আবদুল ওদুদ সংকলিত Byabaharik Shabdakosh.pdf | অভিধান | 57.6 MB | [Open in Drive](https://drive.google.com/file/d/1JKF81ntI91pETuPMfX6ylxe_Zt5pDbPd/view) |
+| 38 | ভারতী বাঙলা অভিধান - বিশিষ্ট পণ্ডিত ও অধ্যাপকমণ্ডলী কর্তৃক সম্পাদিত Bharati Bangla Abhidhan.pdf | অভিধান | 56.6 MB | [Open in Drive](https://drive.google.com/file/d/1MYBZ2JcPiJ1e_1DvzZLWbpuMvX6K3XOA/view) |
+| 39 | রাজনীতির অভিধান - সৌরেন্দ্রমোহন গঙ্গোপাধ্যায়.pdf | অভিধান | 35.2 MB | [Open in Drive](https://drive.google.com/file/d/1OwVWCODDLL7GntmGpAZs7iQr5yGtDCSF/view) |
+| 40 | লেখক ও সম্পাদকের অভিধান - বাংলাবাজার পত্রিকা.pdf | অভিধান | 7.9 MB | [Open in Drive](https://drive.google.com/file/d/1cOx83JNGYKB2WFyTOsV00JBD12jFZofz/view) |
+| 41 | লৌকিক শব্দকোষ - শ্রী কামিনীকুমার রায়.pdf | অভিধান | 8.0 MB | [Open in Drive](https://drive.google.com/file/d/1fBghJIrlzIcGEptujbEiwIFa4tudtM1k/view) |
+| 42 | শব্দবোধ অভিধান (ক) -- শিরোনাম, ভূমিকা এবং অ - ঔ.pdf | অভিধান | 21.8 MB | [Open in Drive](https://drive.google.com/file/d/1d9CLNr9wyOdbYNz9izJRKA0DICrdp6Ad/view) |
+| 43 | শব্দবোধ অভিধান (খ) -- ক - ট.pdf | অভিধান | 20.2 MB | [Open in Drive](https://drive.google.com/file/d/1Zg5qjXU7CfD3bbrQVz5MtYsbfZs-y2G7/view) |
+| 44 | শব্দবোধ অভিধান (গ) -- ঠ - ব.pdf | অভিধান | 29.5 MB | [Open in Drive](https://drive.google.com/file/d/1wIuP-XQQzqjdMdjqkiueEOj3G6H8qZ-O/view) |
+| 45 | শব্দবোধ অভিধান (ঘ) -- ভ - হ.pdf | অভিধান | 20.6 MB | [Open in Drive](https://drive.google.com/file/d/1jeD9tmKr283qZ3hUDxjM0DDCu4ictqy6/view) |
+| 46 | শব্দবোধ অভিধান (ঙ) -- চরিতাবলী, বিবিধ ও পরিশিষ্ট.pdf | অভিধান | 22.1 MB | [Open in Drive](https://drive.google.com/file/d/1-4t_AKVLWa0Cc_3Ji_EmIstTLWeNod7b/view) |
+| 47 | সংসদ বাংলা অভিধান.pdf | অভিধান | 16.7 MB | [Open in Drive](https://drive.google.com/file/d/1NsV8IDXc7WR8v9-k411PXXs1Vac8oHbG/view) |
+| 48 | সংসদ বাংলা টু ইংলিশ ডিকশনারি.pdf | অভিধান | 11.4 MB | [Open in Drive](https://drive.google.com/file/d/18KRJf64noTQrn6sTTZzHUiNhxhin-IOY/view) |
+| 49 | সংসদ বাঙালি চরিতাভিধান.pdf | অভিধান | 13.7 MB | [Open in Drive](https://drive.google.com/file/d/1pJvik-yUGqepZN8Y8zJ6SlU2z2aUY30D/view) |
+| 50 | সংসদ বাঙ্গালা অভিধান - শৈলেন্দ্র বিশ্বাস সংকলিত.pdf | অভিধান | 81.5 MB | [Open in Drive](https://drive.google.com/file/d/14LtiQhgz3evZNMVqUb0rB37necQa7ujc/view) |
+| 51 | সমার্থ শব্দকোষ - অশোক মুখোপাধ্যায়.pdf | অভিধান | 12.5 MB | [Open in Drive](https://drive.google.com/file/d/1_5X9mVBnPYC6A5Yvz5m67a8g_qaV-J3m/view) |
+| 52 | সরকারি কাজে ব্যবহারিক বাংলা.pdf | অভিধান | 738.8 KB | [Open in Drive](https://drive.google.com/file/d/1D4o5s5W3tgIz7Itn-709Jj5EBzvepJAn/view) |
+| 53 | সাহিত্যের শব্দার্থকোষ - সুরভি বন্দ্যোপাধ্যায়.pdf | অভিধান | 12.1 MB | [Open in Drive](https://drive.google.com/file/d/1H6nHzv-1z1FUppoXWMD45T5BW0di0hqq/view) |
 | 54 | কুরআন অর্থ বুঝার সহজ অভিধান-আবু বকর জাকারিয়া.pdf | আবু বকর জাকারিয়া | 2.1 MB | [Open in Drive](https://drive.google.com/file/d/1-wG_fiM6ygH4NZT2qRtO81JcnfT56yZT/view) |
 | 55 | Esho Arbi Shikhi.pdf | আরবী ভাষা শিক্ষা বই | 9.5 MB | [Open in Drive](https://drive.google.com/file/d/1WXo-58cCtd1w4VNyyREhC0_7970Q54u_/view) |
 | 56 | আদদুরুসুল আরাবিয়্যা-1.pdf | আরবী ভাষা শিক্ষা বই | 9.1 MB | [Open in Drive](https://drive.google.com/file/d/1VDpsSv3zFhCTg2u0lFgUsmAj4WVbS4qo/view) |

@@ -1113,7 +1113,7 @@
 | 1006 | KhutbatulAhkam-Page81-160-MaulanaAshrafAliThanvi.pdf | ইসলামিক সাহিত্য | 2.3 MB | [Open in Drive](https://drive.google.com/file/d/1NqrqIdSpVVm5k3MpXX5_cjtB_oqHdrpT/view) |
 | 1007 | NamazOfRasulullahSAWS-LessonOfRulesPart2.pdf | ইসলামিক সাহিত্য | 2.9 MB | [Open in Drive](https://drive.google.com/file/d/1u8QEaafq1dvOekItj2Hk4fi9M3k_7WA7/view) |
 | 1008 | Political Thoughts of Abul A_la Mawdudi - amarboi.org.pdf | ইসলামিক সাহিত্য | 1.3 MB | [Open in Drive](https://drive.google.com/file/d/1ROoxwia26-elH7EwrYlb0qfbleYKgZqi/view) |
-| 1009 | ShowOffWorship-Reea-Part1-ImamGhazali.pdf | ইসলামিক সাহিত্য | 3.8 MB | [Open in Drive](https://drive.google.com/file/d/14vqT1V8GnlhX39Z1gXiUh4vDdDjPlVPw/view) |
+| 1009 | ShowOffWorship-Reea-Part1-ImamGhazali.pdf | ইসলামিক সাহিত্য | 3.8 MB | [Open in Drive](https://drive.google.com/file/d/1RV4PC0hL0SSqFKcedduw9VDM9lZMe_SV/view) |
 | 1010 | অপ্রয়জনিয় গুনহা.pdf | ইসলামিক সাহিত্য | 3.5 MB | [Open in Drive](https://drive.google.com/file/d/1YwnrSPENatDuiZPPav_-DX_-8aluDnY6/view) |
 | 1011 | অবমাননার শাস্তি.pdf | ইসলামিক সাহিত্য | 1.7 MB | [Open in Drive](https://drive.google.com/file/d/1N36nhAH0bfCSlfLGyDiI6GskEtEq8Uh5/view) |
 | 1012 | আক্বীদা বিষয়ক কতিপয় মাসয়ালা.pdf | ইসলামিক সাহিত্য | 971.0 KB | [Open in Drive](https://drive.google.com/file/d/1HGuKfmVVoPjWiUc3rsnw5jnmvTmp4YNZ/view) |

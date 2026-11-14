@@ -3,7 +3,7 @@
 A curated, categorized open digital library of **6,364 e-books** (71.4 GB) spanning Quran & Tafsir, Hadith, Islamic Studies, Seerah & History, Arabic & Dictionaries, and Bengali/World Literature.
 
 - **Total Books:** 6,364
-- **Synced to Personal Drive:** 3,200 / 6,364
+- **Synced to Personal Drive:** 4,000 / 6,364
 - **Interactive Searchable Web Library:** Enable GitHub Pages on `main` branch (`/` root) to browse & search all books in `index.html`.
 
 ## 🗂️ Categories
