@@ -55,7 +55,7 @@
 | 38 | Complete Work of Swami Vivekananda 8.zip | মৃণালের ই-লাইব্রেরি | 947.5 KB | [Open in Drive](https://drive.google.com/file/d/1WgAq25ABc2oVkN5yh2nVnj0NJG-yu7fh/view) |
 | 39 | Complete Work of Swami Vivekananda 9.zip | মৃণালের ই-লাইব্রেরি | 1.2 MB | [Open in Drive](https://drive.google.com/file/d/1fZlnhMd5cUuoWbtWpJa7zcEV9su9OjMa/view) |
 | 40 | Complete Works of Swami Vivekananda 1.zip | মৃণালের ই-লাইব্রেরি | 1.4 MB | [Open in Drive](https://drive.google.com/file/d/1zukMNAVDTuzu_g7mMHQFpJyyJuEotaUr/view) |
-| 41 | Speech of BangoBandhu on 21 February, 1971.avi | মৃণালের ই-লাইব্রেরি | 25.8 MB | [Open in Drive](https://drive.google.com/file/d/1RioCAVvYq7ECwRpfw2bYKtgZvix13gyZ/view) |
+| 41 | Speech of BangoBandhu on 21 February, 1971.avi | মৃণালের ই-লাইব্রেরি | 25.8 MB | [Open in Drive](https://drive.google.com/file/d/1vxVfMz6iiDYzstzeOjmPsST6jWnMx6cL/view) |
 | 42 | অডিও বই - আলো হাতে চলিয়াছে আঁধারের যাত্রী ।। অভিজিৎ রায়.m4a | মৃণালের ই-লাইব্রেরি | 12.7 MB | [Open in Drive](https://drive.google.com/file/d/1dUUeZqnKY0kQPr8wuG01Q1LZUwWNYSN9/view) |
 | 43 | ঋগ্বেদ সংহিতা.zip | মৃণালের ই-লাইব্রেরি | 18.9 MB | [Open in Drive](https://drive.google.com/file/d/10nxQG4bhqkh4Nt8GMxqW5hzt7QwewPdq/view) |
 | 44 | মহাভাগবত পুরাণ.zip | মৃণালের ই-লাইব্রেরি | 34.0 MB | [Open in Drive](https://drive.google.com/file/d/1rO_mYhJ064mM3IrejSL5tZSis1dnzk5b/view) |
