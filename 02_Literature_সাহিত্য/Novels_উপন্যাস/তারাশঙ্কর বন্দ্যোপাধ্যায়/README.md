@@ -1,0 +1,62 @@
+# 📁 তারাশঙ্কর বন্দ্যোপাধ্যায়
+
+[⬅️ Back to Home](../../../README.md) / [Parent](../README.md) | [📁 Open Folder in Google Drive](https://drive.google.com/drive/folders/1ErFksP0J_Tm6rVEGMtJkGKZiJwDBqnJv)
+
+**Total Books:** 52 | **Total Size:** 593.2 MB
+
+## 📖 Books (52)
+
+| # | Book Title | Author | Publication / Series | Size | Google Drive Link |
+|---:|---|---|---|---:|---|
+| 1 | (০১) তারাশঙ্কর বন্দ্যোপাধ্যায়ের প্রিয় গল্প.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 14.4 MB | [Open in Drive](https://drive.google.com/file/d/14RHRdA0o__vjWQd-3raXciohIpEV1y11/view) |
+| 2 | (০১) তারাশঙ্কর-রচনাবলী - প্রথম খণ্ড.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 7.3 MB | [Open in Drive](https://drive.google.com/file/d/1PwL9zVkpaQpBJtX_W_gWDCTNjNZMfY8o/view) |
+| 3 | (০২) তারাশঙ্কর বন্দ্যোপাধ্যায়ের শ্রেষ্ঠ গল্প.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 19.5 MB | [Open in Drive](https://drive.google.com/file/d/1_WVIpmwitNSmV5vulEaHjzGFuVsMrVpM/view) |
+| 4 | (০২) তারাশঙ্কর-রচনাবলী - দ্বিতীয় খণ্ড.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 7.2 MB | [Open in Drive](https://drive.google.com/file/d/1mcy6Jq_yq9sfbfT4LFTDsV5eEguy3RMb/view) |
+| 5 | (০৩) তারাশঙ্কর বন্দ্যোপাধ্যায়ের স্ব-নির্বাচিত গল্প.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 4.1 MB | [Open in Drive](https://drive.google.com/file/d/1T0dHJkubqAsv5ilu4TZJPAtfA2jb440h/view) |
+| 6 | (০৩) তারাশঙ্কর-রচনাবলী - তৃতীয় খণ্ড.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 7.3 MB | [Open in Drive](https://drive.google.com/file/d/1zwGapZ4jCUcZBZHd71s8J2GXeuV72mgD/view) |
+| 7 | (০৪) কামধেনু (গল্পগ্রন্থ) - তারাশঙ্কর বন্দ্যোপাধ্যায়.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 5.0 MB | [Open in Drive](https://drive.google.com/file/d/1bnKfXbq9kRJfmC9wcyjMhCCyhzHWc-kC/view) |
+| 8 | (০৪) তারাশঙ্কর-রচনাবলী - চতুর্থ খণ্ড.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 7.1 MB | [Open in Drive](https://drive.google.com/file/d/1w7FZ_Rzur4d_6j0nVGwUK8ohtJ03Ehev/view) |
+| 9 | (০৫) গল্প পঞ্চাশৎ - তারাশঙ্কর বন্দ্যোপাধ্যায়.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 55.3 MB | [Open in Drive](https://drive.google.com/file/d/1-mHrDbfGC1gEGcRmi2AqJX72obUJ-ZzC/view) |
+| 10 | (০৫) তারাশঙ্কর-রচনাবলী - পঞ্চম খণ্ড.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 7.0 MB | [Open in Drive](https://drive.google.com/file/d/1QjIw2v6H2Hhg6Y9IrdMQPqFEb0aNlt2u/view) |
+| 11 | (০৬) চিরন্তনী (গল্পগ্রন্থ) - তারাশঙ্কর বন্দ্যোপাধ্যায়.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 10.9 MB | [Open in Drive](https://drive.google.com/file/d/1yUguzB8o074o58wzMMLpJqFP4xK3e50y/view) |
+| 12 | (০৬) তারাশঙ্কর-রচনাবলী - ষষ্ঠ খণ্ড.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 7.7 MB | [Open in Drive](https://drive.google.com/file/d/12bGnWeh6md7rGhvENJXrqmoQksiBfBwG/view) |
+| 13 | (০৭) তারাশঙ্কর-রচনাবলী - সপ্তম খণ্ড.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 8.1 MB | [Open in Drive](https://drive.google.com/file/d/1PPhRVV91-WrnVud58giHqbibQwRq9cY1/view) |
+| 14 | (০৭) তিন শূন্য (গল্পগ্রন্থ) - তারাশঙ্কর বন্দ্যোপাধ্যায়.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 12.0 MB | [Open in Drive](https://drive.google.com/file/d/1RR06h1yeRJQcp5GUi5wi0NKEaAR3PFaB/view) |
+| 15 | (০৮) তারাশঙ্কর-রচনাবলী - অষ্টম খণ্ড.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 6.0 MB | [Open in Drive](https://drive.google.com/file/d/1f9TfZM9hxmUx01oQrovx0IHRHYg195VQ/view) |
+| 16 | (০৮) দিল্লীকা লাড্ডু (গল্পগ্রন্থ) - তারাশঙ্কর বন্দ্যোপাধ্যায়.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 4.7 MB | [Open in Drive](https://drive.google.com/file/d/1ZZPePMeI8Wi3DmIx-NOirxWjkIxPVyhc/view) |
+| 17 | (০৯) তারাশঙ্কর-রচনাবলী - নবম খণ্ড.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 8.5 MB | [Open in Drive](https://drive.google.com/file/d/1y5JXZBKiOsCbfXMwIzNClzjID6J_OqCr/view) |
+| 18 | (০৯) প্রসাদমালা (গল্পগ্রন্থ) - তারাশঙ্কর বন্দ্যোপাধ্যায়.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 5.8 MB | [Open in Drive](https://drive.google.com/file/d/1Pf2c4eS_5VHXVHp5I2rC22GnEQbP3tsv/view) |
+| 19 | (১) চকমকি (নাটক) - তারাশঙ্কর বন্দ্যোপাধ্যায়  Chakmaki.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 1.2 MB | [Open in Drive](https://drive.google.com/file/d/1X0co90LlmrlTOAXXe0BFB_EGaMNa1GFr/view) |
+| 20 | (১) ছায়াপথ - তারাশঙ্কর বন্দ্যোপাধ্যায়  Chhayapath.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 13.0 MB | [Open in Drive](https://drive.google.com/file/d/12dCJut2T3902tYmJVZqOHw7kYSN1gDzE/view) |
+| 21 | (১০) তারাশঙ্কর-রচনাবলী - দশম খণ্ড.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 7.8 MB | [Open in Drive](https://drive.google.com/file/d/157QI_RwKg3f4A1-T693NvSkIUcF3Z6dI/view) |
+| 22 | (১০) মানুষের মন (গল্পগ্রন্থ) - তারাশঙ্কর বন্দ্যোপাধ্যায়.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 10.4 MB | [Open in Drive](https://drive.google.com/file/d/15jLxFltIYxlVeQdhnShY9gJxjTBfkC-B/view) |
+| 23 | (১১) তারাশঙ্কর-রচনাবলী - একাদশ খণ্ড.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 32.4 MB | [Open in Drive](https://drive.google.com/file/d/1AVJ0nJxYAyDb1XKqG8Oonq3k8n8t_iaC/view) |
+| 24 | (১১) মহাত্মা গান্ধীকে (গল্পগ্রন্থ) - তারাশঙ্কর বন্দ্যোপাধ্যায়.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 9.1 MB | [Open in Drive](https://drive.google.com/file/d/1hWFF5kyupdf7Koai7BI_-_OlelB0y4lS/view) |
+| 25 | (১২) তারাশঙ্কর-রচনাবলী - দ্বাদশ খণ্ড.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 7.7 MB | [Open in Drive](https://drive.google.com/file/d/1pv1F5POMvx2Dn_repkuh35fZaI8ih3Te/view) |
+| 26 | (১২) রবিবারের আসর (গল্পগ্রন্থ) - তারাশঙ্কর বন্দ্যোপাধ্যায়.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 8.2 MB | [Open in Drive](https://drive.google.com/file/d/1SE35j7C7h0H4T5mCH2aOgtBUyAJsnSV8/view) |
+| 27 | (১৩) তারাশঙ্কর-রচনাবলী - ত্রয়োদশ খণ্ড.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 21.2 MB | [Open in Drive](https://drive.google.com/file/d/1vQF4zOxet0s9wBdpbFfrv9qlSgs-jNvk/view) |
+| 28 | (১৩) রসকলি (গল্পগ্রন্থ) - তারাশঙ্কর বন্দ্যোপাধ্যায়.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 9.2 MB | [Open in Drive](https://drive.google.com/file/d/1vTIrJUMHj68H442DrMbU9vh6MSpwx553/view) |
+| 29 | (১৪) তারাশঙ্কর-রচনাবলী - চতুর্দশ খণ্ড.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 9.7 MB | [Open in Drive](https://drive.google.com/file/d/1UIpgQHURsZFELyWaCIau64Xo3Fb2UoBv/view) |
+| 30 | (১৪) শিলাসন (গল্পগ্রন্থ) - তারাশঙ্কর বন্দ্যোপাধ্যায়.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 7.3 MB | [Open in Drive](https://drive.google.com/file/d/1z66MlMrCm8Qbf77EM8x7UG7DVmQ2Xmmu/view) |
+| 31 | (১৫) তারাশঙ্কর-রচনাবলী - পঞ্চদশ খণ্ড.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 8.9 MB | [Open in Drive](https://drive.google.com/file/d/1h95poMxe-MXng7DWaHW5ehzOc_00ygRh/view) |
+| 32 | (১৫) স্থলপদ্ম (গল্পগ্রন্থ) - তারাশঙ্কর বন্দ্যোপাধ্যায়.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 7.6 MB | [Open in Drive](https://drive.google.com/file/d/1AT0BpDrRN8Mm6dUJ1td_G5nBfqUNS-Kg/view) |
+| 33 | (১৬) তারাশঙ্কর-রচনাবলী - ষোড়শ খণ্ড.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 8.7 MB | [Open in Drive](https://drive.google.com/file/d/18eJ0UVSEGPVGPGqNCHn9s6NPlJraHH8q/view) |
+| 34 | (১৬) হারানো সুর (গল্পগ্রন্থ) - তারাশঙ্কর বন্দ্যোপাধ্যায়.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 10.4 MB | [Open in Drive](https://drive.google.com/file/d/1zAJXzk8hrqgC00llr5TIid0JZ_krN92K/view) |
+| 35 | (১৭) তারাশঙ্কর-রচনাবলী - সপ্তদশ খণ্ড.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 7.3 MB | [Open in Drive](https://drive.google.com/file/d/1kdmAMRaFdIM5Qpf1e3RKNV41XRWu16_l/view) |
+| 36 | (১৮) তারাশঙ্কর-রচনাবলী - অষ্টাদশ খণ্ড.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 7.3 MB | [Open in Drive](https://drive.google.com/file/d/1pxvL9c1hieoFF6twKEk0Uwbbrxbb-XK6/view) |
+| 37 | (১৯) তারাশঙ্কর-রচনাবলী - উনবিংশ খণ্ড.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 6.0 MB | [Open in Drive](https://drive.google.com/file/d/1P28e2SXCcGj3eyuTf-TqqTpUkdy1tHeY/view) |
+| 38 | (২) যুগ-বিপ্লব (নাটক) - তারাশঙ্কর বন্দ্যোপাধ্যায়.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 4.8 MB | [Open in Drive](https://drive.google.com/file/d/1-uZs2FrHuY3WPMoFVnStAB7eSisjtaUw/view) |
+| 39 | (২০) তারাশঙ্কর-রচনাবলী - বিংশ খণ্ড.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 28.7 MB | [Open in Drive](https://drive.google.com/file/d/186qlJlEEoG9V_O0rTTQlauWBNJabOG26/view) |
+| 40 | (২১) তারাশঙ্কর-রচনাবলী - একবিংশ খণ্ড.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 35.9 MB | [Open in Drive](https://drive.google.com/file/d/1W8u_ztjnH4G6jzwIsoT1KdV1NYWsSTae/view) |
+| 41 | (২২) তারাশঙ্কর-রচনাবলী - দ্বাবিংশ খণ্ড.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 41.1 MB | [Open in Drive](https://drive.google.com/file/d/1rznXGj1u1AFTxCcl8u5frJ26UhHUWilp/view) |
+| 42 | (৩) পথের ডাক (নাটক) - তারাশঙ্কর বন্দ্যোপাধ্যায়  Pather Dak.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 4.9 MB | [Open in Drive](https://drive.google.com/file/d/1RvLWo_MVTqiCjBC6wV9hhejgqUh1wr98/view) |
+| 43 | (৪) বিংশ শতাব্দী (নাটক) - তারাশঙ্কর বন্দ্যোপাধ্যায়.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 5.8 MB | [Open in Drive](https://drive.google.com/file/d/1teLcLSjmiD1xqrnAjAT78noUDqqenqOr/view) |
+| 44 | (৫) বাংলা গল্প-বিচিত্রা (তারাশঙ্কর) - নারায়ণ গঙ্গোপাধ্যায়.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 448.0 KB | [Open in Drive](https://drive.google.com/file/d/11wKXUXKX3XxtK1tpm95eONeW0WTvdOcE/view) |
+| 45 | আমার সাহিত্য জীবন - তারাশঙ্কর বন্দ্যোপাধ্যায়.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 17.0 MB | [Open in Drive](https://drive.google.com/file/d/1zhYL6KAf-l0LYR6dLTQTtEBzCSFwgwc5/view) |
+| 46 | কবি – তারাশঙ্কর বন্দ্যোপাধ্যায়.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 3.7 MB | [Open in Drive](https://drive.google.com/file/d/17gVLTZCEcZ7cjNOG1m7kKpmpsi-GM5La/view) |
+| 47 | কৈশোর স্মৃতি - তারাশঙ্কর বন্দ্যোপাধ্যায়.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 11.0 MB | [Open in Drive](https://drive.google.com/file/d/1eAOaB0DyjW9EPu2yNO2HfqU0ENc489mW/view) |
+| 48 | গণদেবতা – তারাশঙ্কর বন্দ্যোপাধ্যায়.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 5.5 MB | [Open in Drive](https://drive.google.com/file/d/1cZk76anEmiN2_jXh7Tnrl_oygwdo-_f4/view) |
+| 49 | তারাশঙ্কর - শ্রীহরপ্রসাদ মিত্র Tarashankar.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 21.2 MB | [Open in Drive](https://drive.google.com/file/d/1aO1C9P9WrLUOEOapRtE0fscMZS9l1Vao/view) |
+| 50 | ধাত্রী দেবতা – তারাশঙ্কর বন্দ্যোপাধ্যায়.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 7.6 MB | [Open in Drive](https://drive.google.com/file/d/1rkP7gmo3AbW0eXFxjAA1hqdUa-vjhyu9/view) |
+| 51 | বিচিত্র - তারাশঙ্কর বন্দ্যোপাধ্যায়.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 2.0 MB | [Open in Drive](https://drive.google.com/file/d/1niU-QWGi_7wa2v0M2l6vLPIM1whlr9uW/view) |
+| 52 | সন্দীপন পাঠশালা - তারাশঙ্কর বন্দ্যোপাধ্যায়.pdf | তারাশঙ্কর বন্দ্যোপাধ্যায় | কথাপ্রকাশ / সন্দীপন | 12.0 MB | [Open in Drive](https://drive.google.com/file/d/17pYzx_Lio66rBJWeIqPvrA5Cpf3AWvzm/view) |

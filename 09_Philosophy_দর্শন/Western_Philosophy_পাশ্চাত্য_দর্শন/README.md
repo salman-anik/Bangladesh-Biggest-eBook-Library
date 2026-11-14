@@ -1,0 +1,9 @@
+# 📂 Western_Philosophy_পাশ্চাত্য_দর্শন
+
+[⬅️ Back to Home](../../README.md) / [Parent](../README.md) | [📁 Open Folder in Google Drive](https://drive.google.com/drive/folders/1UiJmnnvaZp7tRUtOZFn22uNtUGL9J3vK)
+
+**Total Books:** 0 | **Total Size:** -
+
+## 📖 Books (0)
+
+_No books placed directly in this section yet — see subfolders above or contribute via PR._
