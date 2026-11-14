@@ -1082,11 +1082,19 @@ def main():
             "link": f"https://drive.google.com/file/d/{new_file_id}/view",
         }
         enriched.append(rec)
-        if is_mixed:
-            file_moves.append((new_file_id, leaf_path, sub_name))
-        else:
+        file_moves.append((new_file_id, leaf_path, sub_name))
+        if not is_mixed:
             old_key = f"{it['category']}||{it['subfolder']}"
             folder_moves[old_key] = (leaf_path, sub_name)
+
+    extra_file = DATA_DIR / "extra_books.json"
+    if extra_file.exists():
+        extra = json.loads(extra_file.read_text(encoding="utf-8"))
+        existing_ids = {r["file_id"] for r in enriched}
+        for rec in extra:
+            if rec.get("file_id") and rec["file_id"] not in existing_ids:
+                enriched.append(rec)
+                existing_ids.add(rec["file_id"])
 
     if args.dry_run:
         top_counts = Counter(r["top_category"] for r in enriched)
@@ -1211,7 +1219,7 @@ def main():
         todo_files = [(fid, lp, sn) for fid, lp, sn in file_moves if fid not in moved_files_set]
         if todo_files:
             print(f"Moving {len(todo_files)} individual books from mixed folders into exact leaf categories...", flush=True)
-            with concurrent.futures.ThreadPoolExecutor(max_workers=14) as ex:
+            with concurrent.futures.ThreadPoolExecutor(max_workers=24) as ex:
                 futs = {}
                 for fid, lp, sn in todo_files:
                     dest_path = f"{lp}/{sn}" if sn else lp
@@ -1445,15 +1453,19 @@ def main():
         pub_lines.append("")
     (REPO_DIR / "PUBLICATIONS.md").write_text("\n".join(pub_lines), encoding="utf-8")
 
-    # Generate Root README.md
+    # Generate Root README.md + SEO sitemaps
     total_size = sum(b["size"] for b in enriched)
+    repo_gh_url = "https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library"
+    site_url = "https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/"
     root_lines = [
-        "# 📚 Bangladesh's Biggest E-Book Library (`bangladesh biggest e book library`)",
+        "# 📚 Bangladesh's Biggest eBook Library (`bangladesh biggest e book library`)",
         "",
-        "বাংলাদেশের বৃহত্তম ই-বুক লাইব্রেরি — A complete, categorized bilingual digital library of **6,364+ e-books** organized across **25 subject categories**, **every folder documented with its own `README.md`**, and full search by **Category**, **Author**, and **Publication**.",
+        f"বাংলাদেশের বৃহত্তম ই-বুক লাইব্রেরি — A complete, categorized bilingual digital library of **{len(enriched):,}+ e-books** organized across **25 subject categories**, **every folder documented with its own `README.md`**, full search by **Category**, **Author**, and **Publication**, plus a **Next.js Explorer App** in [`visualize/`](visualize/README.md).",
         "",
         f"- 📁 **Google Drive Root Folder (`bangladesh biggest e book library`):** [Open in Google Drive](https://drive.google.com/drive/folders/{ROOT_DRIVE_ID})",
-        f"- 🌐 **Interactive Searchable Web Library:** https://salman-anik.github.io/bangladesh-biggest-ebook-library/",
+        f"- 🌐 **Interactive Searchable Web Library:** {site_url}",
+        f"- ⚡ **Next.js Library Visualizer & Downloader:** [`visualize/`](visualize/README.md) (`cd visualize && npm install && npm run dev`)",
+        f"- 💻 **GitHub Repository:** {repo_gh_url}",
         f"- ✍️ **Browse by Author ({len(by_author):,} authors):** [AUTHORS.md](AUTHORS.md)",
         f"- 🏢 **Browse by Publication ({len(by_pub):,} publications):** [PUBLICATIONS.md](PUBLICATIONS.md)",
         f"- 📖 **Total Books:** {len(enriched):,} ({fmt_size(total_size)})",
@@ -1483,9 +1495,56 @@ def main():
         root_lines.append(
             f"| **{lf}** | {len(by_leaf[lp]):,} | [Browse]({gh_p}) | [Open in Drive]({folder_url(lp)}) |"
         )
-    root_lines.append("")
+    root_lines.extend([
+        "",
+        "## 🔍 Search Keywords & Open-Access Scope (SEO)",
+        "",
+        "**Subjects Covered:** Bangla PDF books (`বাংলা বই পিডিএফ`), Free Bangla eBooks & EPUBs, All NCTB Textbooks (Pre-Primary to Class 12 / Dakhil / Vocational), Quran & Tafsir, Sahih Hadith Collections, Bengali Literature (`রবীন্দ্রনাথ ঠাকুর`, `কাজী নজরুল ইসলাম`, `হুমায়ূন আহমেদ`), Science, Computer Science & Programming, Engineering, Medical & Health, Law, Economics, BCS & University Admission Preparation, History, Philosophy, Psychology, Agriculture, Biography, Children & Periodicals.",
+        "",
+        f"<!-- Sitemap: {site_url}sitemap.xml | Robots: {site_url}robots.txt -->",
+        "",
+    ])
     (REPO_DIR / "README.md").write_text("\n".join(root_lines), encoding="utf-8")
-    print("All README.md, AUTHORS.md, PUBLICATIONS.md, and books.json generated cleanly!", flush=True)
+
+    # Generate SEO robots.txt & sitemap.xml for GitHub Pages / Google Search indexing
+    robots_txt = "\n".join([
+        "User-agent: *",
+        "Allow: /",
+        "",
+        f"Sitemap: {site_url}sitemap.xml",
+        "",
+    ])
+    (REPO_DIR / "robots.txt").write_text(robots_txt, encoding="utf-8")
+
+    from datetime import timezone
+    import datetime as _dt
+    lastmod = _dt.datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    sitemap_urls = [
+        (site_url, "1.0", "daily"),
+        (f"{site_url}AUTHORS.html", "0.8", "weekly"),
+        (f"{site_url}PUBLICATIONS.html", "0.8", "weekly"),
+        (f"{site_url}README.html", "0.9", "daily"),
+        (f"{site_url}books.json", "0.7", "daily"),
+    ]
+    for tc in TAXONOMY.keys():
+        sitemap_urls.append((f"{site_url}{quote(tc)}/", "0.8", "weekly"))
+    xml_lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+    ]
+    for u, prio, freq in sitemap_urls:
+        xml_lines.extend([
+            "  <url>",
+            f"    <loc>{u}</loc>",
+            f"    <lastmod>{lastmod}</lastmod>",
+            f"    <changefreq>{freq}</changefreq>",
+            f"    <priority>{prio}</priority>",
+            "  </url>",
+        ])
+    xml_lines.append("</urlset>")
+    (REPO_DIR / "sitemap.xml").write_text("\n".join(xml_lines) + "\n", encoding="utf-8")
+
+    print("All README.md, AUTHORS.md, PUBLICATIONS.md, robots.txt, sitemap.xml, and books.json generated cleanly!", flush=True)
 
 
 def _write_leaf_subfolders_into(parent_fs, leaf_path, leaf_books, by_sub, folder_url, rel_link, write_book_table, lines, depth_back):

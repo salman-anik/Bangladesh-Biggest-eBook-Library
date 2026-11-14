@@ -1,0 +1,7 @@
+node_modules/
+.next/
+out/
+visualize/node_modules/
+visualize/.next/
+visualize/out/
+tmp_downloads/

@@ -2,8 +2,10 @@
 
 [⬅️ Back to Home](../../README.md) / [Parent](../README.md) | [📁 Open Folder in Google Drive](https://drive.google.com/drive/folders/1BBxkYMi4oXaBlcLduTarlL2XPRmDyBI1)
 
-**Total Books:** 0 | **Total Size:** -
+**Total Books:** 1 | **Total Size:** 120.7 KB
 
-## 📖 Books (0)
+## 📖 Books (1)
 
-_No books placed directly in this section yet — see subfolders above or contribute via PR._
+| # | Book Title | Author | Publication / Series | Size | Google Drive Link |
+|---:|---|---|---|---:|---|
+| 1 | CIA Reading Room cia-rdp80-00809a000600020147-3 EDUCATION AND TRAINING.pdf | CIA Reading Room | Internet Archive Open Library (archive.org) | 120.7 KB | [Open in Drive](https://drive.google.com/file/d/1hLDqoay5PeV18OOOg0n9QkMyB-A60BkT/view) |

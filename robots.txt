@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/sitemap.xml

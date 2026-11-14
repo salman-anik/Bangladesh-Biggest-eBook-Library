@@ -2,8 +2,10 @@
 
 [⬅️ Back to Home](../../README.md) / [Parent](../README.md) | [📁 Open Folder in Google Drive](https://drive.google.com/drive/folders/1bnsxMSa6FqnvB75StOXdbcNWa0TQccn5)
 
-**Total Books:** 0 | **Total Size:** -
+**Total Books:** 1 | **Total Size:** 1.9 MB
 
-## 📖 Books (0)
+## 📖 Books (1)
 
-_No books placed directly in this section yet — see subfolders above or contribute via PR._
+| # | Book Title | Author | Publication / Series | Size | Google Drive Link |
+|---:|---|---|---|---:|---|
+| 1 | La politique et nous, cycle supérieur, 1972.pdf | Ontario Ministry of Education | Internet Archive Open Library (archive.org) | 1.9 MB | [Open in Drive](https://drive.google.com/file/d/1qPWj5bJCzRsiCPnTSqY7_EMgvz-6pI2E/view) |

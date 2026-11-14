@@ -2,8 +2,10 @@
 
 [⬅️ Back to Home](../../README.md) / [Parent](../README.md) | [📁 Open Folder in Google Drive](https://drive.google.com/drive/folders/17MALcRNtVWHttir0ws9RkYZYvIA2cowR)
 
-**Total Books:** 0 | **Total Size:** -
+**Total Books:** 1 | **Total Size:** 85.7 KB
 
-## 📖 Books (0)
+## 📖 Books (1)
 
-_No books placed directly in this section yet — see subfolders above or contribute via PR._
+| # | Book Title | Author | Publication / Series | Size | Google Drive Link |
+|---:|---|---|---|---:|---|
+| 1 | The Political Economy of the Corporation Sahil Jai Duta Interviews Sandy Brian Hager.pdf | Sandy Brian Hager, Sahil Jai Dutta | Internet Archive Open Library (archive.org) | 85.7 KB | [Open in Drive](https://drive.google.com/file/d/1vQRRCyZApMvz0_DpQZjQ-PCZ-sqrvloT/view) |

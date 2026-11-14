@@ -2,8 +2,10 @@
 
 [⬅️ Back to Home](../../README.md) / [Parent](../README.md) | [📁 Open Folder in Google Drive](https://drive.google.com/drive/folders/1jc-QRwVEj8EwzYi29p2ITiYRn0leCqQ3)
 
-**Total Books:** 0 | **Total Size:** -
+**Total Books:** 1 | **Total Size:** 1.0 MB
 
-## 📖 Books (0)
+## 📖 Books (1)
 
-_No books placed directly in this section yet — see subfolders above or contribute via PR._
+| # | Book Title | Author | Publication / Series | Size | Google Drive Link |
+|---:|---|---|---|---:|---|
+| 1 | The Brutus Bulletin 98 and 99.pdf | John Michaelski | Internet Archive Open Library (archive.org) | 1.0 MB | [Open in Drive](https://drive.google.com/file/d/1av_EQ7lXo5S_0K_JmrFa7-ZdXLMmQ6Wh/view) |

@@ -2,8 +2,10 @@
 
 [⬅️ Back to Home](../../README.md) / [Parent](../README.md) | [📁 Open Folder in Google Drive](https://drive.google.com/drive/folders/16UEpUAFItTDxmJMfU_d1iQR8fBDgpIoY)
 
-**Total Books:** 0 | **Total Size:** -
+**Total Books:** 1 | **Total Size:** 2.3 MB
 
-## 📖 Books (0)
+## 📖 Books (1)
 
-_No books placed directly in this section yet — see subfolders above or contribute via PR._
+| # | Book Title | Author | Publication / Series | Size | Google Drive Link |
+|---:|---|---|---|---:|---|
+| 1 | Manual of information relative to the Philippine civil service showing the positions, classified and unclassified, the methods governing examinat.pdf | Philippines. Bureau of Civil Service | Internet Archive Open Library (archive.org) | 2.3 MB | [Open in Drive](https://drive.google.com/file/d/1LV_OcVsaDkB9sreHFA2RoYpRcXqBF-1v/view) |

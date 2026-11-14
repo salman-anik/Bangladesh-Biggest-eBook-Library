@@ -2,8 +2,10 @@
 
 [⬅️ Back to Home](../../README.md) / [Parent](../README.md) | [📁 Open Folder in Google Drive](https://drive.google.com/drive/folders/1VLuDUlTyNAQVe32S0VG5Eec6CGU6o7c_)
 
-**Total Books:** 0 | **Total Size:** -
+**Total Books:** 1 | **Total Size:** 192.0 KB
 
-## 📖 Books (0)
+## 📖 Books (1)
 
-_No books placed directly in this section yet — see subfolders above or contribute via PR._
+| # | Book Title | Author | Publication / Series | Size | Google Drive Link |
+|---:|---|---|---|---:|---|
+| 1 | International Journal of Modern Engineering Research.pdf | Various / Internet Archive | Internet Archive Open Library (archive.org) | 192.0 KB | [Open in Drive](https://drive.google.com/file/d/1ChD4dDarA7hGmYrRrkOULysuLtUN5YPm/view) |

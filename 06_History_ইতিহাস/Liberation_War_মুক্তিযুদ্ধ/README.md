@@ -2,7 +2,7 @@
 
 [⬅️ Back to Home](../../README.md) / [Parent](../README.md) | [📁 Open Folder in Google Drive](https://drive.google.com/drive/folders/1ZL1OLj0vp5vBAh3RvERcnPfjrFX3x_hF)
 
-**Total Books:** 59 | **Total Size:** 932.9 MB
+**Total Books:** 60 | **Total Size:** 940.0 MB
 
 ## 📁 Author / Topic Subfolders
 
@@ -11,7 +11,7 @@
 | **আমার একাত্তর** | 55 | [Browse](./%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%B0%20%E0%A6%8F%E0%A6%95%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%B0/README.md) | [Open in Drive](https://drive.google.com/drive/folders/1nQg3Ui2MUuyWJWuz96sz2v2OAk4AbTiO) |
 | **জাহানারা ইমাম** | 2 | [Browse](./%E0%A6%9C%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A6%BE%20%E0%A6%87%E0%A6%AE%E0%A6%BE%E0%A6%AE/README.md) | [Open in Drive](https://drive.google.com/drive/folders/1BfxHx34FPOuTIvfAFmAbRFF7PrHPZHXD) |
 
-## 📖 Books (59)
+## 📖 Books (60)
 
 | # | Book Title | Author | Publication / Series | Size | Google Drive Link |
 |---:|---|---|---|---:|---|
@@ -36,41 +36,42 @@
 | 19 | Speech of BangoBandhu on 21 February, 1971.avi | Various / Compiled (সংকলিত) | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 25.8 MB | [Open in Drive](https://drive.google.com/file/d/1vxVfMz6iiDYzstzeOjmPsST6jWnMx6cL/view) |
 | 20 | Swadhinota_Songrame_Dhaka_Biswabidyalay.pdf | Various / Compiled (সংকলিত) | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 17.3 MB | [Open in Drive](https://drive.google.com/file/d/1el9vO6s-kh7HyqjDc783jalUAJDk4XUU/view) |
 | 21 | albadar-muntasir-mamun.pdf | Various / Compiled (সংকলিত) | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 8.8 MB | [Open in Drive](https://drive.google.com/file/d/1Tzfr9NJZrtHfoQJe8vsCQUdFGbds_2ym/view) |
-| 22 | chorom-potro-mukul.pdf | Various / Compiled (সংকলিত) | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 10.7 MB | [Open in Drive](https://drive.google.com/file/d/1QDTqTvwPAE8GiJFavCIXxgcG9EAqJoRm/view) |
-| 23 | desktop.ini | Various / Compiled (সংকলিত) | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 142 B | [Open in Drive](https://drive.google.com/file/d/1RWUNkQqPCU2htlWiCqRJhVb0v5mKL3C1/view) |
-| 24 | desktop.ini | জাহানারা ইমাম | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 142 B | [Open in Drive](https://drive.google.com/file/d/1Z3ctKSvVu3TIJxdeONAeiuGF8hZaxSQ0/view) |
-| 25 | ebook-16-december.pdf | december | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 5.2 MB | [Open in Drive](https://drive.google.com/file/d/1EV7C8nkwYNBGSMjMSZ5s1TnIN7eTG7Zy/view) |
-| 26 | muktijudder-itihaash-mahfuzur rahman.pdf | mahfuzur rahman | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 7.6 MB | [Open in Drive](https://drive.google.com/file/d/1XAzi2FuHS1GzW2Yf8YkMHBV0pTTYG7Fc/view) |
-| 27 | neta-o-pita-.pdf | Various / Compiled (সংকলিত) | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 16.4 MB | [Open in Drive](https://drive.google.com/file/d/1ORauqauTs4EcAtptFYlx94VSH4zAwQyM/view) |
-| 28 | war criminal-1971.doc | Various / Compiled (সংকলিত) | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 334.0 KB | [Open in Drive](https://drive.google.com/file/d/1j8hqunUSII30JuaXry2TuXPGTfCDdgSf/view) |
-| 29 | war criminal-1971.pdf | Various / Compiled (সংকলিত) | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 323.3 KB | [Open in Drive](https://drive.google.com/file/d/1V0koLBbqvmhtlH7JJcEEl5vCyZnT2Q_i/view) |
-| 30 | আমি বিজয় দেখেছি - এম আর আখতার মুকুল.pdf | এম আর আখতার মুকুল | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 14.1 MB | [Open in Drive](https://drive.google.com/file/d/1O4Xo-Zz1uYC3iKsdZxlGs_29wGYTSrAm/view) |
-| 31 | আলবদর ১৯৭১ - মুনতাসির মামুন.pdf | মুনতাসির মামুন | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 8.8 MB | [Open in Drive](https://drive.google.com/file/d/1ZBN8wPrV3ThYZfc_iZWkB_mT2WHjOe-J/view) |
-| 32 | আলেম মুক্তিযুদ্ধার খোঁজে.pdf | Various / Compiled (সংকলিত) | ইসলামী ডিজিটাল আর্কাইভ (Islamic e-Book Archive) | 25.8 MB | [Open in Drive](https://drive.google.com/file/d/1C4Wkw9_qVOzxjDbP3EC9adgqgGOjE-va/view) |
-| 33 | একাত্তরের ডায়েরি - সুফিয়া কামাল.pdf | সুফিয়া কামাল | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 2.8 MB | [Open in Drive](https://drive.google.com/file/d/1Hi7ZPCEzEy6g09bGcA_TioJML1X7j1Fo/view) |
-| 34 | একাত্তরের দিনগুলি - জাহানারা ইমাম.pdf | জাহানারা ইমাম | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 7.8 MB | [Open in Drive](https://drive.google.com/file/d/1y1ejMi7A0Fsut6L4MpX3XSt_kodcmODU/view) |
-| 35 | একাত্তরের ৭১ - অজয় দাসগুপ্ত.pdf | অজয় দাসগুপ্ত | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 294.1 KB | [Open in Drive](https://drive.google.com/file/d/1sOCeMAPf2wZJ64AIG_q_FC6ugdMyyx8U/view) |
-| 36 | গেরিলা থেকে সম্মুখ যুদ্ধে ১ম খণ্ড - মাহবুব আলম.pdf | মাহবুব আলম | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 12.0 MB | [Open in Drive](https://drive.google.com/file/d/1HsdvsUlA3MMhPwlZSRTIPiTW8e-77BzO/view) |
-| 37 | গেরিলা থেকে সম্মুখ যুদ্ধে ২য় খণ্ড - মাহবুব আলম.pdf | মাহবুব আলম | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 19.6 MB | [Open in Drive](https://drive.google.com/file/d/15TJj1JwHc-NcJWwwZJhT7e3uGe_T3SIf/view) |
-| 38 | চরমপত্র - এম আর আখতার মুকুল (1).pdf | এম আর আখতার মুকুল | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 10.7 MB | [Open in Drive](https://drive.google.com/file/d/1LSd0Pen6Lzn3W4VOiUFXzS-9AQlpRy9p/view) |
-| 39 | চরমপত্র - এম আর আখতার মুকুল.pdf | এম আর আখতার মুকুল | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 10.7 MB | [Open in Drive](https://drive.google.com/file/d/1pNYO_BUSes9-xYVKlzHlXM4YRQtyoivv/view) |
-| 40 | দালাল আইনে সাজাপ্রাপ্ত যুদ্ধাপরাধী.pdf | Various / Compiled (সংকলিত) | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 9.2 MB | [Open in Drive](https://drive.google.com/file/d/18PSFxRnX75CDu2AafD90PIjJVYw_pFhk/view) |
-| 41 | নেতা ও পিতা - তাজউদ্দীন আহমদ - শারমিন আহমদ.pdf | শারমিন আহমদ | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 16.4 MB | [Open in Drive](https://drive.google.com/file/d/1Z_T6OuqwCIkNMLaClVVZ4Gn5y6Fo2nVK/view) |
-| 42 | বাংলাদেশের গণআন্দোলনঃ স্লোগান প্ল্যাকার্ড ও পোস্টার .pdf | Various / Compiled (সংকলিত) | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 5.1 MB | [Open in Drive](https://drive.google.com/file/d/1o7GgbGuSj0J0RN8pAxGne__G0j9CN9aH/view) |
-| 43 | বাংলাদেশের জন্ম - রাও ফরমান আলী খান অনুবাদ শাহ আহমদ রেজা ভূমিকা মুনতাসীর মামুন.pdf | Various / Compiled (সংকলিত) | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 9.2 MB | [Open in Drive](https://drive.google.com/file/d/1-UsvQ16RcBbNB2hCAG69drxv0T-5lR-V/view) |
-| 44 | বাংলাদেশের স্বাধীনতা যুদ্ধ দলিলপত্র - ১৫ খণ্ড সম্পূর্ণ.pdf | Various / Compiled (সংকলিত) | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 88.4 MB | [Open in Drive](https://drive.google.com/file/d/1wD-tqGZXGVYjQ0ap9HAYMvI970Chk8mN/view) |
-| 45 | বাংলাদেশের স্বাধীনতা যুদ্ধ দলিলপত্র ১৫ খন্ড একত্রে.pdf | Various / Compiled (সংকলিত) | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 88.4 MB | [Open in Drive](https://drive.google.com/file/d/1lZtUwlpvW-WcA33FyEG7yLTCouD6yb01/view) |
-| 46 | বাংলাদেশের স্বাধীনতাযুদ্ধ দলিলপত্র.pdf | Various / Compiled (সংকলিত) | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 59.2 MB | [Open in Drive](https://drive.google.com/file/d/16CPJ1CpJOIeN1QOR19DFr7q0OvnVQX9f/view) |
-| 47 | মুক্তিযুদ্ধ-সমগ্র-মুনতাসীর-মামুন-১ম-খণ্ড.pdf | Various / Compiled (সংকলিত) | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 11.3 MB | [Open in Drive](https://drive.google.com/file/d/19DPcZJZjhpD_Dws9QT2PoNq_r-dicFNC/view) |
-| 48 | মুক্তিযুদ্ধ-সমগ্র-মুনতাসীর-মামুন-২য়-খণ্ড.pdf | Various / Compiled (সংকলিত) | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 10.0 MB | [Open in Drive](https://drive.google.com/file/d/1p_j0jouXrq2b_A-PP3PUaVuKpZu3dOe5/view) |
-| 49 | মুক্তিযুদ্ধের ইতিহাস - মুহম্মদ জাফর ইকবাল.pdf | মুহম্মদ জাফর ইকবাল | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 3.9 MB | [Open in Drive](https://drive.google.com/file/d/1xFIejnsONDhTnNqWM1lGfNRr5i1QT43g/view) |
-| 50 | মুক্তিযুদ্ধের ইতিহাস বিকৃতিরোধে আইন চাই - মুক্তিযুদ্ধ ই-আর্কাইভ ট্রাস্ট.pdf | মুক্তিযুদ্ধ ই-আর্কাইভ ট্রাস্ট | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 822.8 KB | [Open in Drive](https://drive.google.com/file/d/1RivgEb65mm9iZkfa1qg8bKA3AAx93IKb/view) |
-| 51 | মুক্তিযুদ্ধের কবিতা - গোলাম কিবরিয়া পিনু.pdf | গোলাম কিবরিয়া পিনু | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 2.9 MB | [Open in Drive](https://drive.google.com/file/d/1zMSVeMQmmgGo3ddb7185aN3Bp6D9BAvp/view) |
-| 52 | মুক্তিযুদ্ধের নির্বাচিত প্রবন্ধ - হারুন হাবীব.pdf | হারুন হাবীব | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 4.3 MB | [Open in Drive](https://drive.google.com/file/d/10CsCSS-tsyR0wSyWUjyqw5pGJEZYvM8z/view) |
-| 53 | মুক্তিযুদ্ধের পূর্বাপর.pdf | Various / Compiled (সংকলিত) | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 3.6 MB | [Open in Drive](https://drive.google.com/file/d/1qX_wOWH2lhSyb__9uBrzysiXTCV1M01n/view) |
-| 54 | রাঙা মেঘ সাঁতরে যায় - শাহরিয়ার কবির.docx | শাহরিয়ার কবির | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 377.5 KB | [Open in Drive](https://drive.google.com/file/d/1WsgnW8DE1IjQTCbcOsvlM1or_kXpaLTF/view) |
-| 55 | রাঙা মেঘ সাঁতরে যায় - শাহরিয়ার কবির.pdf | শাহরিয়ার কবির | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 45.8 MB | [Open in Drive](https://drive.google.com/file/d/1-TmcTvrROSWVYyUzzxTf2v5GSb76Smkx/view) |
-| 56 | রেইপ অব বাংলাদেশ - অ্যান্থনি মাসকারেনহাস.pdf | অ্যান্থনি মাসকারেনহাস | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 37.9 MB | [Open in Drive](https://drive.google.com/file/d/1irn-Zp_j_oHNxQGMECbAiGTbwrh9IvXu/view) |
-| 57 | শ্বেতপত্র-বাংলাদেশে সংখ্যালঘু নির্যাতনের ১৫০০ দিন - সম্পাদনা-শাহরিয়ার কবির.pdf | সম্পাদনা-শাহরিয়ার কবির | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 27.6 MB | [Open in Drive](https://drive.google.com/file/d/1toa7155Nj6aXHE7Y8FeYgDtZk9HS0AN8/view) |
-| 58 | সংবাদপত্রে মুক্তিযুদ্ধ - দৈনিক বাংলার বাণী .pdf | দৈনিক বাংলার বাণী | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 26.6 MB | [Open in Drive](https://drive.google.com/file/d/17MAkzdE7IOgWd0urbLUBjBUYvB_YFMSG/view) |
-| 59 | ১৯৭১-ভিতরে বাইরে -এ.কে.খন্দকার.pdf | এ.কে.খন্দকার | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 19.2 MB | [Open in Drive](https://drive.google.com/file/d/1XNc05w77EwHdVxTb3Y6T05QB5HZwX02r/view) |
+| 22 | bangladeher_rajnoitic_ghotonapunjite_1971_2011.pdf | Various / Compiled (সংকলিত) | Shared Islamic & General Books (irfan) | 7.1 MB | [Open in Drive](https://drive.google.com/file/d/1lr-TRoO_ouxLt2fs75J3M6WEPdFykHrD/view) |
+| 23 | chorom-potro-mukul.pdf | Various / Compiled (সংকলিত) | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 10.7 MB | [Open in Drive](https://drive.google.com/file/d/1QDTqTvwPAE8GiJFavCIXxgcG9EAqJoRm/view) |
+| 24 | desktop.ini | Various / Compiled (সংকলিত) | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 142 B | [Open in Drive](https://drive.google.com/file/d/1RWUNkQqPCU2htlWiCqRJhVb0v5mKL3C1/view) |
+| 25 | desktop.ini | জাহানারা ইমাম | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 142 B | [Open in Drive](https://drive.google.com/file/d/1Z3ctKSvVu3TIJxdeONAeiuGF8hZaxSQ0/view) |
+| 26 | ebook-16-december.pdf | december | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 5.2 MB | [Open in Drive](https://drive.google.com/file/d/1EV7C8nkwYNBGSMjMSZ5s1TnIN7eTG7Zy/view) |
+| 27 | muktijudder-itihaash-mahfuzur rahman.pdf | mahfuzur rahman | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 7.6 MB | [Open in Drive](https://drive.google.com/file/d/1XAzi2FuHS1GzW2Yf8YkMHBV0pTTYG7Fc/view) |
+| 28 | neta-o-pita-.pdf | Various / Compiled (সংকলিত) | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 16.4 MB | [Open in Drive](https://drive.google.com/file/d/1ORauqauTs4EcAtptFYlx94VSH4zAwQyM/view) |
+| 29 | war criminal-1971.doc | Various / Compiled (সংকলিত) | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 334.0 KB | [Open in Drive](https://drive.google.com/file/d/1j8hqunUSII30JuaXry2TuXPGTfCDdgSf/view) |
+| 30 | war criminal-1971.pdf | Various / Compiled (সংকলিত) | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 323.3 KB | [Open in Drive](https://drive.google.com/file/d/1V0koLBbqvmhtlH7JJcEEl5vCyZnT2Q_i/view) |
+| 31 | আমি বিজয় দেখেছি - এম আর আখতার মুকুল.pdf | এম আর আখতার মুকুল | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 14.1 MB | [Open in Drive](https://drive.google.com/file/d/1O4Xo-Zz1uYC3iKsdZxlGs_29wGYTSrAm/view) |
+| 32 | আলবদর ১৯৭১ - মুনতাসির মামুন.pdf | মুনতাসির মামুন | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 8.8 MB | [Open in Drive](https://drive.google.com/file/d/1ZBN8wPrV3ThYZfc_iZWkB_mT2WHjOe-J/view) |
+| 33 | আলেম মুক্তিযুদ্ধার খোঁজে.pdf | Various / Compiled (সংকলিত) | ইসলামী ডিজিটাল আর্কাইভ (Islamic e-Book Archive) | 25.8 MB | [Open in Drive](https://drive.google.com/file/d/1C4Wkw9_qVOzxjDbP3EC9adgqgGOjE-va/view) |
+| 34 | একাত্তরের ডায়েরি - সুফিয়া কামাল.pdf | সুফিয়া কামাল | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 2.8 MB | [Open in Drive](https://drive.google.com/file/d/1Hi7ZPCEzEy6g09bGcA_TioJML1X7j1Fo/view) |
+| 35 | একাত্তরের দিনগুলি - জাহানারা ইমাম.pdf | জাহানারা ইমাম | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 7.8 MB | [Open in Drive](https://drive.google.com/file/d/1y1ejMi7A0Fsut6L4MpX3XSt_kodcmODU/view) |
+| 36 | একাত্তরের ৭১ - অজয় দাসগুপ্ত.pdf | অজয় দাসগুপ্ত | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 294.1 KB | [Open in Drive](https://drive.google.com/file/d/1sOCeMAPf2wZJ64AIG_q_FC6ugdMyyx8U/view) |
+| 37 | গেরিলা থেকে সম্মুখ যুদ্ধে ১ম খণ্ড - মাহবুব আলম.pdf | মাহবুব আলম | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 12.0 MB | [Open in Drive](https://drive.google.com/file/d/1HsdvsUlA3MMhPwlZSRTIPiTW8e-77BzO/view) |
+| 38 | গেরিলা থেকে সম্মুখ যুদ্ধে ২য় খণ্ড - মাহবুব আলম.pdf | মাহবুব আলম | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 19.6 MB | [Open in Drive](https://drive.google.com/file/d/15TJj1JwHc-NcJWwwZJhT7e3uGe_T3SIf/view) |
+| 39 | চরমপত্র - এম আর আখতার মুকুল (1).pdf | এম আর আখতার মুকুল | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 10.7 MB | [Open in Drive](https://drive.google.com/file/d/1LSd0Pen6Lzn3W4VOiUFXzS-9AQlpRy9p/view) |
+| 40 | চরমপত্র - এম আর আখতার মুকুল.pdf | এম আর আখতার মুকুল | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 10.7 MB | [Open in Drive](https://drive.google.com/file/d/1pNYO_BUSes9-xYVKlzHlXM4YRQtyoivv/view) |
+| 41 | দালাল আইনে সাজাপ্রাপ্ত যুদ্ধাপরাধী.pdf | Various / Compiled (সংকলিত) | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 9.2 MB | [Open in Drive](https://drive.google.com/file/d/18PSFxRnX75CDu2AafD90PIjJVYw_pFhk/view) |
+| 42 | নেতা ও পিতা - তাজউদ্দীন আহমদ - শারমিন আহমদ.pdf | শারমিন আহমদ | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 16.4 MB | [Open in Drive](https://drive.google.com/file/d/1Z_T6OuqwCIkNMLaClVVZ4Gn5y6Fo2nVK/view) |
+| 43 | বাংলাদেশের গণআন্দোলনঃ স্লোগান প্ল্যাকার্ড ও পোস্টার .pdf | Various / Compiled (সংকলিত) | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 5.1 MB | [Open in Drive](https://drive.google.com/file/d/1o7GgbGuSj0J0RN8pAxGne__G0j9CN9aH/view) |
+| 44 | বাংলাদেশের জন্ম - রাও ফরমান আলী খান অনুবাদ শাহ আহমদ রেজা ভূমিকা মুনতাসীর মামুন.pdf | Various / Compiled (সংকলিত) | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 9.2 MB | [Open in Drive](https://drive.google.com/file/d/1-UsvQ16RcBbNB2hCAG69drxv0T-5lR-V/view) |
+| 45 | বাংলাদেশের স্বাধীনতা যুদ্ধ দলিলপত্র - ১৫ খণ্ড সম্পূর্ণ.pdf | Various / Compiled (সংকলিত) | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 88.4 MB | [Open in Drive](https://drive.google.com/file/d/1wD-tqGZXGVYjQ0ap9HAYMvI970Chk8mN/view) |
+| 46 | বাংলাদেশের স্বাধীনতা যুদ্ধ দলিলপত্র ১৫ খন্ড একত্রে.pdf | Various / Compiled (সংকলিত) | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 88.4 MB | [Open in Drive](https://drive.google.com/file/d/1lZtUwlpvW-WcA33FyEG7yLTCouD6yb01/view) |
+| 47 | বাংলাদেশের স্বাধীনতাযুদ্ধ দলিলপত্র.pdf | Various / Compiled (সংকলিত) | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 59.2 MB | [Open in Drive](https://drive.google.com/file/d/16CPJ1CpJOIeN1QOR19DFr7q0OvnVQX9f/view) |
+| 48 | মুক্তিযুদ্ধ-সমগ্র-মুনতাসীর-মামুন-১ম-খণ্ড.pdf | Various / Compiled (সংকলিত) | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 11.3 MB | [Open in Drive](https://drive.google.com/file/d/19DPcZJZjhpD_Dws9QT2PoNq_r-dicFNC/view) |
+| 49 | মুক্তিযুদ্ধ-সমগ্র-মুনতাসীর-মামুন-২য়-খণ্ড.pdf | Various / Compiled (সংকলিত) | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 10.0 MB | [Open in Drive](https://drive.google.com/file/d/1p_j0jouXrq2b_A-PP3PUaVuKpZu3dOe5/view) |
+| 50 | মুক্তিযুদ্ধের ইতিহাস - মুহম্মদ জাফর ইকবাল.pdf | মুহম্মদ জাফর ইকবাল | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 3.9 MB | [Open in Drive](https://drive.google.com/file/d/1xFIejnsONDhTnNqWM1lGfNRr5i1QT43g/view) |
+| 51 | মুক্তিযুদ্ধের ইতিহাস বিকৃতিরোধে আইন চাই - মুক্তিযুদ্ধ ই-আর্কাইভ ট্রাস্ট.pdf | মুক্তিযুদ্ধ ই-আর্কাইভ ট্রাস্ট | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 822.8 KB | [Open in Drive](https://drive.google.com/file/d/1RivgEb65mm9iZkfa1qg8bKA3AAx93IKb/view) |
+| 52 | মুক্তিযুদ্ধের কবিতা - গোলাম কিবরিয়া পিনু.pdf | গোলাম কিবরিয়া পিনু | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 2.9 MB | [Open in Drive](https://drive.google.com/file/d/1zMSVeMQmmgGo3ddb7185aN3Bp6D9BAvp/view) |
+| 53 | মুক্তিযুদ্ধের নির্বাচিত প্রবন্ধ - হারুন হাবীব.pdf | হারুন হাবীব | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 4.3 MB | [Open in Drive](https://drive.google.com/file/d/10CsCSS-tsyR0wSyWUjyqw5pGJEZYvM8z/view) |
+| 54 | মুক্তিযুদ্ধের পূর্বাপর.pdf | Various / Compiled (সংকলিত) | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 3.6 MB | [Open in Drive](https://drive.google.com/file/d/1qX_wOWH2lhSyb__9uBrzysiXTCV1M01n/view) |
+| 55 | রাঙা মেঘ সাঁতরে যায় - শাহরিয়ার কবির.docx | শাহরিয়ার কবির | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 377.5 KB | [Open in Drive](https://drive.google.com/file/d/1WsgnW8DE1IjQTCbcOsvlM1or_kXpaLTF/view) |
+| 56 | রাঙা মেঘ সাঁতরে যায় - শাহরিয়ার কবির.pdf | শাহরিয়ার কবির | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 45.8 MB | [Open in Drive](https://drive.google.com/file/d/1-TmcTvrROSWVYyUzzxTf2v5GSb76Smkx/view) |
+| 57 | রেইপ অব বাংলাদেশ - অ্যান্থনি মাসকারেনহাস.pdf | অ্যান্থনি মাসকারেনহাস | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 37.9 MB | [Open in Drive](https://drive.google.com/file/d/1irn-Zp_j_oHNxQGMECbAiGTbwrh9IvXu/view) |
+| 58 | শ্বেতপত্র-বাংলাদেশে সংখ্যালঘু নির্যাতনের ১৫০০ দিন - সম্পাদনা-শাহরিয়ার কবির.pdf | সম্পাদনা-শাহরিয়ার কবির | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 27.6 MB | [Open in Drive](https://drive.google.com/file/d/1toa7155Nj6aXHE7Y8FeYgDtZk9HS0AN8/view) |
+| 59 | সংবাদপত্রে মুক্তিযুদ্ধ - দৈনিক বাংলার বাণী .pdf | দৈনিক বাংলার বাণী | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 26.6 MB | [Open in Drive](https://drive.google.com/file/d/17MAkzdE7IOgWd0urbLUBjBUYvB_YFMSG/view) |
+| 60 | ১৯৭১-ভিতরে বাইরে -এ.কে.খন্দকার.pdf | এ.কে.খন্দকার | মৃণালের ই-লাইব্রেরি (Mrinal e-Library Edition) | 19.2 MB | [Open in Drive](https://drive.google.com/file/d/1XNc05w77EwHdVxTb3Y6T05QB5HZwX02r/view) |

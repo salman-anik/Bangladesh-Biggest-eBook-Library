@@ -2,8 +2,34 @@
 
 [⬅️ Back to Home](../../README.md) / [Parent](../README.md) | [📁 Open Folder in Google Drive](https://drive.google.com/drive/folders/1KzTsarkArsZ_HryIv7z7ZV1_Z3C6m-U5)
 
-**Total Books:** 0 | **Total Size:** -
+**Total Books:** 25 | **Total Size:** 760.9 MB
 
-## 📖 Books (0)
+## 📖 Books (25)
 
-_No books placed directly in this section yet — see subfolders above or contribute via PR._
+| # | Book Title | Author | Publication / Series | Size | Google Drive Link |
+|---:|---|---|---|---:|---|
+| 1 | NCTB 2025 - Agriculture Studies (EV) \[২০২৫ মাধ্যমিক অষ্টম শ্রেণির\].pdf | NCTB (জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ড) | NCTB (National Curriculum and Textbook Board) | 15.9 MB | [Open in Drive](https://drive.google.com/file/d/1N1OxK2K0K3D7S-a-C9XumteEsIoOgncN/view) |
+| 2 | NCTB 2025 - Agriculture Studies (EV) \[২০২৫ মাধ্যমিক নবম দশম শ্রেণির\].pdf | NCTB (জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ড) | NCTB (National Curriculum and Textbook Board) | 21.1 MB | [Open in Drive](https://drive.google.com/file/d/1CjeEcImVmW1JEjZrBx5hSY7irEaRjoeS/view) |
+| 3 | NCTB 2025 - Agriculture Studies (EV) \[২০২৫ মাধ্যমিক ষষ্ঠ শ্রেণির\].pdf | NCTB (জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ড) | NCTB (National Curriculum and Textbook Board) | 20.0 MB | [Open in Drive](https://drive.google.com/file/d/1WYdCmDVvxSBzECg5siNdppD1yyECq44V/view) |
+| 4 | NCTB 2025 - Agriculture Studies (EV) \[২০২৫ মাধ্যমিক সপ্তম শ্রেণির\].pdf | NCTB (জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ড) | NCTB (National Curriculum and Textbook Board) | 19.8 MB | [Open in Drive](https://drive.google.com/file/d/1g-9GEinT4TjtQblbtbX0nEdV0KhOv2QC/view) |
+| 5 | NCTB 2025 - কৃষিশিক্ষা (BV) \[২০২৫ দাখিল অষ্টম শ্রেণির\].pdf | NCTB (জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ড) | NCTB (National Curriculum and Textbook Board) | 7.5 MB | [Open in Drive](https://drive.google.com/file/d/1GGxDB78M19yfA33EztEgAaYyp0iQu0Bl/view) |
+| 6 | NCTB 2025 - কৃষিশিক্ষা (BV) \[২০২৫ দাখিল নবম দশম শ্রেণির\].pdf | NCTB (জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ড) | NCTB (National Curriculum and Textbook Board) | 13.9 MB | [Open in Drive](https://drive.google.com/file/d/1042cMbiKjh0PN7bXDfeZDRVmjwhhcKhg/view) |
+| 7 | NCTB 2025 - কৃষিশিক্ষা (BV) \[২০২৫ দাখিল ষষ্ঠ শ্রেণির\].pdf | NCTB (জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ড) | NCTB (National Curriculum and Textbook Board) | 15.8 MB | [Open in Drive](https://drive.google.com/file/d/1yQIUzvd_u3zklU0NW8024kd0FeZDu_yk/view) |
+| 8 | NCTB 2025 - কৃষিশিক্ষা (BV) \[২০২৫ দাখিল সপ্তম শ্রেণির\].pdf | NCTB (জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ড) | NCTB (National Curriculum and Textbook Board) | 15.9 MB | [Open in Drive](https://drive.google.com/file/d/1tev5MFtXqee8FJd5SVLOD26d1-hlKn3c/view) |
+| 9 | NCTB 2025 - কৃষিশিক্ষা (BV) \[২০২৫ মাধ্যমিক অষ্টম শ্রেণির\].pdf | NCTB (জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ড) | NCTB (National Curriculum and Textbook Board) | 16.3 MB | [Open in Drive](https://drive.google.com/file/d/1YRJUWlR86PZBt4_8ld-EQNnvo2WLRGsK/view) |
+| 10 | NCTB 2025 - কৃষিশিক্ষা (BV) \[২০২৫ মাধ্যমিক নবম দশম শ্রেণির\].pdf | NCTB (জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ড) | NCTB (National Curriculum and Textbook Board) | 20.1 MB | [Open in Drive](https://drive.google.com/file/d/1mBloCWGvBgPpaZnm2I-3uyh_meOigxI9/view) |
+| 11 | NCTB 2025 - কৃষিশিক্ষা (BV) \[২০২৫ মাধ্যমিক ষষ্ঠ শ্রেণির\].pdf | NCTB (জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ড) | NCTB (National Curriculum and Textbook Board) | 16.8 MB | [Open in Drive](https://drive.google.com/file/d/1tTuFDLyRHtxXPHabMYny3SHIQQ2uDz4P/view) |
+| 12 | NCTB 2025 - কৃষিশিক্ষা (BV) \[২০২৫ মাধ্যমিক সপ্তম শ্রেণির\].pdf | NCTB (জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ড) | NCTB (National Curriculum and Textbook Board) | 19.5 MB | [Open in Drive](https://drive.google.com/file/d/1xTdCWL-JaCom6AbkkcjUOzO5xhXSTxbw/view) |
+| 13 | NCTB 2026 - Agriculture Studies (EV) \[২০২৬ মাধ্যমিক নবম দশম শ্রেণির\].pdf | NCTB (জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ড) | NCTB (National Curriculum and Textbook Board) | 76.1 MB | [Open in Drive](https://drive.google.com/file/d/1lsqpglnFMnrl5PmU6an6v5hHqqvQ9cG9/view) |
+| 14 | NCTB 2026 - Agriculture Studies (EV) \[২০২৬ মাধ্যমিক ষষ্ঠ শ্রেণির\].pdf | NCTB (জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ড) | NCTB (National Curriculum and Textbook Board) | 31.1 MB | [Open in Drive](https://drive.google.com/file/d/1YMwmgmxidedtKy9VOX5Zfw4RHbehOjVf/view) |
+| 15 | NCTB 2026 - Agriculture Studies (EV) \[২০২৬ মাধ্যমিক সপ্তম শ্রেণির\].pdf | NCTB (জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ড) | NCTB (National Curriculum and Textbook Board) | 57.8 MB | [Open in Drive](https://drive.google.com/file/d/1eHnoomFgkT53DXmjEPXsfro-xvV9x9ct/view) |
+| 16 | NCTB 2026 - Agriculture Studies (EV) \[২০২৬ মাধ্যমিক ৮ম শ্রেণির\].pdf | NCTB (জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ড) | NCTB (National Curriculum and Textbook Board) | 74.0 MB | [Open in Drive](https://drive.google.com/file/d/1i0ARqg4NW7RBna5sOICrIVA3OcJ6gWvm/view) |
+| 17 | NCTB 2026 - কৃষিশিক্ষা (BV) \[২০২৬ দাখিল অষ্টম শ্রেণির\].pdf | NCTB (জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ড) | NCTB (National Curriculum and Textbook Board) | 42.6 MB | [Open in Drive](https://drive.google.com/file/d/1jvvndYdGza4ZzKVN2LUlxKIQHqCbjsNe/view) |
+| 18 | NCTB 2026 - কৃষিশিক্ষা (BV) \[২০২৬ দাখিল নবম দশম শ্রেণির\].pdf | NCTB (জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ড) | NCTB (National Curriculum and Textbook Board) | 53.7 MB | [Open in Drive](https://drive.google.com/file/d/1EYW7ZXmdsedvzzi3DGK5jiPRa5DlMMsm/view) |
+| 19 | NCTB 2026 - কৃষিশিক্ষা (BV) \[২০২৬ দাখিল ষষ্ঠ শ্রেণির\].pdf | NCTB (জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ড) | NCTB (National Curriculum and Textbook Board) | 21.3 MB | [Open in Drive](https://drive.google.com/file/d/1_UIyUe5FR6KTueYq8uREPM89eiyCx0Dz/view) |
+| 20 | NCTB 2026 - কৃষিশিক্ষা (BV) \[২০২৬ দাখিল সপ্তম শ্রেণির\].pdf | NCTB (জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ড) | NCTB (National Curriculum and Textbook Board) | 41.3 MB | [Open in Drive](https://drive.google.com/file/d/1SrtxECURVCEe1VlkruV1y89Ynhbh7wwG/view) |
+| 21 | NCTB 2026 - কৃষিশিক্ষা (BV) \[২০২৬ মাধ্যমিক নবম দশম শ্রেণির\].pdf | NCTB (জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ড) | NCTB (National Curriculum and Textbook Board) | 53.5 MB | [Open in Drive](https://drive.google.com/file/d/1SS7SewsW5VR-4SBIkbTU5L7E9aDzfnt9/view) |
+| 22 | NCTB 2026 - কৃষিশিক্ষা (BV) \[২০২৬ মাধ্যমিক ষষ্ঠ শ্রেণির\].pdf | NCTB (জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ড) | NCTB (National Curriculum and Textbook Board) | 21.1 MB | [Open in Drive](https://drive.google.com/file/d/1CAKcgcJNjdEABCDrG7d_plNV74aeVl5m/view) |
+| 23 | NCTB 2026 - কৃষিশিক্ষা (BV) \[২০২৬ মাধ্যমিক সপ্তম শ্রেণির\].pdf | NCTB (জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ড) | NCTB (National Curriculum and Textbook Board) | 41.4 MB | [Open in Drive](https://drive.google.com/file/d/1toaQSHbJS1aavVG4G7WCwJLrqgaqRsCi/view) |
+| 24 | NCTB 2026 - কৃষিশিক্ষা (BV) \[২০২৬ মাধ্যমিক ৮ম শ্রেণির\].pdf | NCTB (জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ড) | NCTB (National Curriculum and Textbook Board) | 42.5 MB | [Open in Drive](https://drive.google.com/file/d/1_iomthjFnxA0CAZmqMKQJV643RRQkvoT/view) |
+| 25 | কৃষি.pdf | Various / Compiled (সংকলিত) | Shared Islamic Books (israt) | 1.8 MB | [Open in Drive](https://drive.google.com/file/d/1Fkpzd14ghTxj5bu0R5D5bt3ucDAKBhJO/view) |

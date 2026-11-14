@@ -2,8 +2,10 @@
 
 [⬅️ Back to Home](../../README.md) / [Parent](../README.md) | [📁 Open Folder in Google Drive](https://drive.google.com/drive/folders/1LNw9ev-UYQixVmCw44qdm-AobKjUYxXk)
 
-**Total Books:** 0 | **Total Size:** -
+**Total Books:** 1 | **Total Size:** 52.4 MB
 
-## 📖 Books (0)
+## 📖 Books (1)
 
-_No books placed directly in this section yet — see subfolders above or contribute via PR._
+| # | Book Title | Author | Publication / Series | Size | Google Drive Link |
+|---:|---|---|---|---:|---|
+| 1 | NCTB 2026 - কর্মমুখী প্রকৌশল শিক্ষা-২ (BV) \[পাতা\].pdf | NCTB (জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ড) | NCTB (National Curriculum and Textbook Board) | 52.4 MB | [Open in Drive](https://drive.google.com/file/d/17OqEl1FVzXV94NkCGBkTQvKBCz_MlioA/view) |

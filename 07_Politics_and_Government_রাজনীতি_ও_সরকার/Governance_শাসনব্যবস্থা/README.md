@@ -2,8 +2,10 @@
 
 [⬅️ Back to Home](../../README.md) / [Parent](../README.md) | [📁 Open Folder in Google Drive](https://drive.google.com/drive/folders/171CP6426ISmQjAS-DkPdJQd509o8dH8v)
 
-**Total Books:** 0 | **Total Size:** -
+**Total Books:** 1 | **Total Size:** 286.0 KB
 
-## 📖 Books (0)
+## 📖 Books (1)
 
-_No books placed directly in this section yet — see subfolders above or contribute via PR._
+| # | Book Title | Author | Publication / Series | Size | Google Drive Link |
+|---:|---|---|---|---:|---|
+| 1 | International Experience in Implementing Public Control.pdf | Bekhruz Sobirovich Turdiev | Internet Archive Open Library (archive.org) | 286.0 KB | [Open in Drive](https://drive.google.com/file/d/1fCVGPw8N7Tpo3fXHh5uzaHtCQ9AgKy6V/view) |

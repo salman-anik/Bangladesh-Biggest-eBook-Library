@@ -2,8 +2,10 @@
 
 [⬅️ Back to Home](../../README.md) / [Parent](../README.md) | [📁 Open Folder in Google Drive](https://drive.google.com/drive/folders/1PPWCeexxeZtP3WhkhlEU1AIFGqpfb8xV)
 
-**Total Books:** 0 | **Total Size:** -
+**Total Books:** 1 | **Total Size:** 145.2 KB
 
-## 📖 Books (0)
+## 📖 Books (1)
 
-_No books placed directly in this section yet — see subfolders above or contribute via PR._
+| # | Book Title | Author | Publication / Series | Size | Google Drive Link |
+|---:|---|---|---|---:|---|
+| 1 | Chapter 17 An Apartheid by Another Name.pdf | S.S. Bukhari | Internet Archive Open Library (archive.org) | 145.2 KB | [Open in Drive](https://drive.google.com/file/d/1iR8j3cToOCCx5b6-T8Bj277e76duF81W/view) |

@@ -2,8 +2,10 @@
 
 [⬅️ Back to Home](../../README.md) / [Parent](../README.md) | [📁 Open Folder in Google Drive](https://drive.google.com/drive/folders/1g0uo8MKDATd4aW2fKRAcG44c0-o4ckU2)
 
-**Total Books:** 0 | **Total Size:** -
+**Total Books:** 1 | **Total Size:** 179.2 KB
 
-## 📖 Books (0)
+## 📖 Books (1)
 
-_No books placed directly in this section yet — see subfolders above or contribute via PR._
+| # | Book Title | Author | Publication / Series | Size | Google Drive Link |
+|---:|---|---|---|---:|---|
+| 1 | CNET Download.com - Create Software Patches - 2002-01-08.pdf | Kay Savetz | Internet Archive Open Library (archive.org) | 179.2 KB | [Open in Drive](https://drive.google.com/file/d/1Ln8Eujwd5JRIZm52_6EOPbBGIgPhFAFG/view) |

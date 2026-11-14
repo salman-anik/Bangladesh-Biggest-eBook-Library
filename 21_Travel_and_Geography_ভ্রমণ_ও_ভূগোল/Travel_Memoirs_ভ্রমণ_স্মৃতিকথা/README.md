@@ -2,8 +2,10 @@
 
 [⬅️ Back to Home](../../README.md) / [Parent](../README.md) | [📁 Open Folder in Google Drive](https://drive.google.com/drive/folders/1hZZJy7OkYZpgRGABi5QpRtuxJEXhl7Hu)
 
-**Total Books:** 0 | **Total Size:** -
+**Total Books:** 1 | **Total Size:** 201.3 KB
 
-## 📖 Books (0)
+## 📖 Books (1)
 
-_No books placed directly in this section yet — see subfolders above or contribute via PR._
+| # | Book Title | Author | Publication / Series | Size | Google Drive Link |
+|---:|---|---|---|---:|---|
+| 1 | রামনাথ বিশ্বাস - আফগানিস্থান ভ্রমণ (১৯৪২).epub | রামনাথ বিশ্বাস | BongBoi Open Bengali EPUB Archive | 201.3 KB | [Open in Drive](https://drive.google.com/file/d/1xnsoCwelcT_4__Mb9HolnfGi31y4LLoK/view) |

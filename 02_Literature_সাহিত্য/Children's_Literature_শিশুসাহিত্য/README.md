@@ -2,8 +2,10 @@
 
 [⬅️ Back to Home](../../README.md) / [Parent](../README.md) | [📁 Open Folder in Google Drive](https://drive.google.com/drive/folders/1KrUGFLSE6viWH9GMGn6vLJlLrOOsLM5k)
 
-**Total Books:** 0 | **Total Size:** -
+**Total Books:** 1 | **Total Size:** 962.9 KB
 
-## 📖 Books (0)
+## 📖 Books (1)
 
-_No books placed directly in this section yet — see subfolders above or contribute via PR._
+| # | Book Title | Author | Publication / Series | Size | Google Drive Link |
+|---:|---|---|---|---:|---|
+| 1 | යුසිකේ ගේ මිතුරෝ සත් දෙනා Yusike Ge Mithuro Sath Dhena.pdf | Various / Internet Archive | Internet Archive Open Library (archive.org) | 962.9 KB | [Open in Drive](https://drive.google.com/file/d/1mkW2JohLbdEZV8cblMO_Z8KX7FLFkzz9/view) |

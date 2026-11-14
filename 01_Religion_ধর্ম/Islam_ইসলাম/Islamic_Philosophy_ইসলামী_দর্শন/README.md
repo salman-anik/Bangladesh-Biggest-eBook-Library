@@ -2,7 +2,7 @@
 
 [⬅️ Back to Home](../../../README.md) / [Parent](../README.md) | [📁 Open Folder in Google Drive](https://drive.google.com/drive/folders/1dWbjumsV1Evu_XQELRO7RdHfPQEWmTcR)
 
-**Total Books:** 9 | **Total Size:** 59.7 MB
+**Total Books:** 12 | **Total Size:** 60.7 MB
 
 ## 📁 Author / Topic Subfolders
 
@@ -10,7 +10,7 @@
 |---|---:|---|---|
 | **ইমাম গাজ্জালী** | 4 | [Browse](./%E0%A6%87%E0%A6%AE%E0%A6%BE%E0%A6%AE%20%E0%A6%97%E0%A6%BE%E0%A6%9C%E0%A7%8D%E0%A6%9C%E0%A6%BE%E0%A6%B2%E0%A7%80/README.md) | [Open in Drive](https://drive.google.com/drive/folders/1M8rJfnxBxBwssbwcFKv7FRkw83OMx3Xd) |
 
-## 📖 Books (9)
+## 📖 Books (12)
 
 | # | Book Title | Author | Publication / Series | Size | Google Drive Link |
 |---:|---|---|---|---:|---|
@@ -20,6 +20,9 @@
 | 4 | আল্লাহর পরিচয় সৃষ্টির নিদর্শনে.pdf | Various / Compiled (সংকলিত) | ইসলামী ডিজিটাল আর্কাইভ (Islamic e-Book Archive) | 12.1 MB | [Open in Drive](https://drive.google.com/file/d/1q4ISEWRywmwiCSMnSiVqvUfxRma8sx5S/view) |
 | 5 | ইকবাল প্রতিভা-গোলাম রসুল.pdf | গোলাম রসুল | ইসলামী ডিজিটাল আর্কাইভ (Islamic e-Book Archive) | 2.3 MB | [Open in Drive](https://drive.google.com/file/d/1wndwrnSFEeicHB2q6xH_Yniw9T2vW7Gu/view) |
 | 6 | ইমাম গাজ্জালী.pdf | ইমাম গাজ্জালী | ইসলামী ডিজিটাল আর্কাইভ (Islamic e-Book Archive) | 2.6 MB | [Open in Drive](https://drive.google.com/file/d/17gfPvm-fZ1JK5HQFmJnSo-6Y-w-85Fp9/view) |
-| 7 | জবানের ক্ষতি-ইমাম গাজ্জালী (রঃ).pdf | ইমাম গাজ্জালী | ইসলামী ডিজিটাল আর্কাইভ (Islamic e-Book Archive) | 2.4 MB | [Open in Drive](https://drive.google.com/file/d/1sEwI87cABy4nuemDweFnBW2_lLjj2QF_/view) |
-| 8 | নষ্ট দর্শন.pdf | Various / Compiled (সংকলিত) | বই বিতরণ ডিজিটাল সংকলন (Boi Bitoron 2022) | 9.2 MB | [Open in Drive](https://drive.google.com/file/d/1y0l6lbyEi2yN_7F_NqNC9BnVP-oQcO5c/view) |
-| 9 | রূহে তাসাউফ.pdf | Various / Compiled (সংকলিত) | বই বিতরণ ডিজিটাল সংকলন (Boi Bitoron 2022) | 5.1 MB | [Open in Drive](https://drive.google.com/file/d/17XsqY3KOHqvfFrksuaDELVdBIwL1JEYZ/view) |
+| 7 | গুনাহের ক্ষতি ইসলামের আলোকে নৈতিক, সামাজিক ও আধ্যাত্মিক প্রভাব.pdf | Various / Internet Archive | Internet Archive Open Library (archive.org) | 551.5 KB | [Open in Drive](https://drive.google.com/file/d/1CVvpfk54_PVdKYqR-xexDtMU3H_SXHso/view) |
+| 8 | জবানের ক্ষতি-ইমাম গাজ্জালী (রঃ).pdf | ইমাম গাজ্জালী | ইসলামী ডিজিটাল আর্কাইভ (Islamic e-Book Archive) | 2.4 MB | [Open in Drive](https://drive.google.com/file/d/1sEwI87cABy4nuemDweFnBW2_lLjj2QF_/view) |
+| 9 | দিগদর্শন.pdf | Various / Compiled (সংকলিত) | BD Public e-Library (ই-লাইব্রেরি) | 232.6 KB | [Open in Drive](https://drive.google.com/file/d/1SM8a3AT0wtx2XIN4yDmzYfE41LELznsB/view) |
+| 10 | নষ্ট দর্শন.pdf | Various / Compiled (সংকলিত) | বই বিতরণ ডিজিটাল সংকলন (Boi Bitoron 2022) | 9.2 MB | [Open in Drive](https://drive.google.com/file/d/1y0l6lbyEi2yN_7F_NqNC9BnVP-oQcO5c/view) |
+| 11 | প্রিয়দর্শন হালদার - বিদ্যাসাগর জননী ভগবতী দেবী.epub | প্রিয়দর্শন হালদার | BongBoi Open Bengali EPUB Archive | 221.0 KB | [Open in Drive](https://drive.google.com/file/d/16mUfX9_KKR-CKLmuXykqXu64bYlZJ9bc/view) |
+| 12 | রূহে তাসাউফ.pdf | Various / Compiled (সংকলিত) | বই বিতরণ ডিজিটাল সংকলন (Boi Bitoron 2022) | 5.1 MB | [Open in Drive](https://drive.google.com/file/d/17XsqY3KOHqvfFrksuaDELVdBIwL1JEYZ/view) |
