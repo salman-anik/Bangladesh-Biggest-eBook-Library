@@ -7,6 +7,12 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/README.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/AUTHORS.html</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -19,165 +25,321 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/README.html</loc>
-    <lastmod>2026-11-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/books.json</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/01_Religion_%E0%A6%A7%E0%A6%B0%E0%A7%8D%E0%A6%AE/</loc>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/pdf/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/text/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/pdf/Religion/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/02_Literature_%E0%A6%B8%E0%A6%BE%E0%A6%B9%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AF/</loc>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/text/Religion/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/pdf/Literature/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/03_Fiction_%E0%A6%95%E0%A6%B2%E0%A7%8D%E0%A6%AA%E0%A6%95%E0%A6%BE%E0%A6%B9%E0%A6%BF%E0%A6%A8%E0%A7%80/</loc>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/text/Literature/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/pdf/Fiction/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/04_Science_%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A8/</loc>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/text/Fiction/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/pdf/Science/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/05_Computer_and_Technology_%E0%A6%95%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%BF%E0%A6%89%E0%A6%9F%E0%A6%BE%E0%A6%B0_%E0%A6%93_%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AF%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF/</loc>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/text/Science/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/pdf/Computer%20and%20Technology/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/06_History_%E0%A6%87%E0%A6%A4%E0%A6%BF%E0%A6%B9%E0%A6%BE%E0%A6%B8/</loc>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/text/Computer%20and%20Technology/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/pdf/History/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/07_Politics_and_Government_%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A6%BF_%E0%A6%93_%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0/</loc>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/text/History/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/pdf/Politics%20and%20Government/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/08_Social_Science_%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%9C%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A8/</loc>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/text/Politics%20and%20Government/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/pdf/Social%20Science/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/09_Philosophy_%E0%A6%A6%E0%A6%B0%E0%A7%8D%E0%A6%B6%E0%A6%A8/</loc>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/text/Social%20Science/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/pdf/Philosophy/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/10_Psychology_and_Mind_%E0%A6%AE%E0%A6%A8%E0%A7%8B%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A8_%E0%A6%93_%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A6%B8%E0%A6%BF%E0%A6%95%E0%A6%A4%E0%A6%BE/</loc>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/text/Philosophy/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/pdf/Psychology%20and%20Mind/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/11_Business_and_Finance_%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%B8%E0%A6%BE_%E0%A6%93_%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%A8/</loc>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/text/Psychology%20and%20Mind/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/pdf/Business%20and%20Finance/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/12_Law_and_Legal_%E0%A6%86%E0%A6%87%E0%A6%A8_%E0%A6%93_%E0%A6%AC%E0%A6%BF%E0%A6%9A%E0%A6%BE%E0%A6%B0/</loc>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/text/Business%20and%20Finance/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/pdf/Law%20and%20Legal/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/13_Medicine_and_Health_%E0%A6%9A%E0%A6%BF%E0%A6%95%E0%A6%BF%E0%A7%8E%E0%A6%B8%E0%A6%BE_%E0%A6%93_%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A7%8D%E0%A6%AF/</loc>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/text/Law%20and%20Legal/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/pdf/Medicine%20and%20Health/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/14_Engineering_%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%95%E0%A7%8C%E0%A6%B6%E0%A6%B2/</loc>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/text/Medicine%20and%20Health/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/pdf/Engineering/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/15_Education_and_Academics_%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE_%E0%A6%93_%E0%A6%8F%E0%A6%95%E0%A6%BE%E0%A6%A1%E0%A7%87%E0%A6%AE%E0%A6%BF%E0%A6%95/</loc>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/text/Engineering/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/pdf/Education%20and%20Academics/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/16_Language_and_Linguistics_%E0%A6%AD%E0%A6%BE%E0%A6%B7%E0%A6%BE_%E0%A6%93_%E0%A6%AD%E0%A6%BE%E0%A6%B7%E0%A6%BE%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A8/</loc>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/text/Education%20and%20Academics/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/pdf/Language%20and%20Linguistics/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/17_Biography_and_Autobiography_%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8%E0%A7%80_%E0%A6%93_%E0%A6%86%E0%A6%A4%E0%A7%8D%E0%A6%AE%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8%E0%A7%80/</loc>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/text/Language%20and%20Linguistics/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/pdf/Biography%20and%20Autobiography/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/18_Self_Development_%E0%A6%86%E0%A6%A4%E0%A7%8D%E0%A6%AE%E0%A6%89%E0%A6%A8%E0%A7%8D%E0%A6%A8%E0%A6%AF%E0%A6%BC%E0%A6%A8/</loc>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/text/Biography%20and%20Autobiography/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/pdf/Self%20Development/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/19_Arts_and_Culture_%E0%A6%B6%E0%A6%BF%E0%A6%B2%E0%A7%8D%E0%A6%AA_%E0%A6%93_%E0%A6%B8%E0%A6%82%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%83%E0%A6%A4%E0%A6%BF/</loc>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/text/Self%20Development/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/pdf/Arts%20and%20Culture/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/20_Agriculture_and_Nature_%E0%A6%95%E0%A7%83%E0%A6%B7%E0%A6%BF_%E0%A6%93_%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%95%E0%A7%83%E0%A6%A4%E0%A6%BF/</loc>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/text/Arts%20and%20Culture/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/pdf/Agriculture%20and%20Nature/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/21_Travel_and_Geography_%E0%A6%AD%E0%A7%8D%E0%A6%B0%E0%A6%AE%E0%A6%A3_%E0%A6%93_%E0%A6%AD%E0%A7%82%E0%A6%97%E0%A7%8B%E0%A6%B2/</loc>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/text/Agriculture%20and%20Nature/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/pdf/Travel%20and%20Geography/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/22_Children_and_Young_Adult_%E0%A6%B6%E0%A6%BF%E0%A6%B6%E0%A7%81_%E0%A6%93_%E0%A6%95%E0%A6%BF%E0%A6%B6%E0%A7%8B%E0%A6%B0/</loc>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/text/Travel%20and%20Geography/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/pdf/Children%20and%20Young%20Adult/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/23_Reference_Books_%E0%A6%A4%E0%A6%A5%E0%A7%8D%E0%A6%AF%E0%A6%B8%E0%A7%82%E0%A6%A4%E0%A7%8D%E0%A6%B0/</loc>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/text/Children%20and%20Young%20Adult/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/pdf/Reference%20Books/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/24_Magazines_and_Periodicals_%E0%A6%B8%E0%A6%BE%E0%A6%AE%E0%A6%AF%E0%A6%BC%E0%A6%BF%E0%A6%95%E0%A7%80/</loc>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/text/Reference%20Books/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/pdf/Magazines%20and%20Periodicals/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/25_Others_and_Unclassified_%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%AF/</loc>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/text/Magazines%20and%20Periodicals/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/pdf/Others%20and%20Unclassified/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/text/Others%20and%20Unclassified/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

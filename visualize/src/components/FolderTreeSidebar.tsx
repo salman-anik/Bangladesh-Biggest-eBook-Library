@@ -24,9 +24,10 @@ export function FolderTreeSidebar({
   subfoldersByLeaf,
 }: FolderTreeSidebarProps) {
   const [expanded, setExpanded] = useState<Record<string, boolean>>({
-    "01_Religion_ধর্ম": true,
-    "01_Religion_ধর্ম/Islam_ইসলাম": true,
-    "02_Literature_সাহিত্য": true,
+    "Religion": true,
+    "Religion/Islam": true,
+    "Literature": true,
+    "Education and Academics": true,
   });
 
   const toggleExpand = (path: string, e: React.MouseEvent) => {

@@ -256,6 +256,19 @@
       color: var(--muted);
     }
   </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type": "Question", "name": "What is Bangladesh-Biggest-eBook-Library?", "acceptedAnswer": {"@type": "Answer", "text": "An open bilingual digital library organizing thousands of Bengali and English PDF/EPUB books and categorized JSON texts across 25 clean subject folders with Google Drive links and tracked covers."}},
+      {"@type": "Question", "name": "How are pdf/, text/, and covers/ folders structured?", "acceptedAnswer": {"@type": "Answer", "text": "pdf/ contains all PDF, EPUB, and MOBI eBooks by clean English category; text/ contains categorized per-book JSON files from eBanglaLibrary and text archives; covers/ stores collected book cover thumbnails."}},
+      {"@type": "Question", "name": "Where can I find NCTB Class 1 to Class 10 textbooks?", "acceptedAnswer": {"@type": "Answer", "text": "NCTB textbooks are sorted individually under pdf/Education and Academics/ in Pre-Primary and Class 1 through Class 10 folders."}},
+      {"@type": "Question", "name": "Which Bengali book websites are included in the archive?", "acceptedAnswer": {"@type": "Answer", "text": "The catalog integrates Master Google Drive archives, NCTB textbooks, eBanglaLibrary.com (categorized JSONs + covers), KindleBangla.com (EPUB/PDF + covers), and BDeBooks.com (PDF + covers)."}},
+      {"@type": "Question", "name": "Are non-book files and unrelated foreign documents removed?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Non-book files such as desktop.ini, APK installers, and unrelated CIA Reading Room or non-Bengali scans have been removed."}}
+    ]
+  }
+  </script>
 </head>
 <body>
   <header>
@@ -344,22 +357,28 @@
       if (slice.length === 0) {
         grid.innerHTML = `<div class="empty" style="grid-column:1/-1;">No books matched your search.</div>`;
       } else {
-        grid.innerHTML = slice.map(b => `
+        grid.innerHTML = slice.map(b => {
+          const covUrl = b.cover_drive_id ? `https://drive.google.com/file/d/${b.cover_drive_id}/view` : (b.cover_url || "");
+          return `
           <div class="card">
             <div>
               <div class="card-title">${escapeHtml(b.name)}</div>
               <div class="card-meta" style="margin-top:0.45rem;">
-                <span class="badge">${escapeHtml(b.leaf_path || b.top_category)}</span>
+                <span class="badge">${escapeHtml(b.section || "pdf")} / ${escapeHtml(b.leaf_path || b.top_category)}</span>
                 <span>✍️ ${escapeHtml(b.author)}</span>
                 <span>🏢 ${escapeHtml(b.publication)}</span>
               </div>
             </div>
             <div class="card-actions">
               <span class="size">${fmtSize(b.size)}</span>
-              <a class="btn" href="${escapeHtml(b.link)}" target="_blank" rel="noopener">Open in Drive ↗</a>
+              <div style="display:flex;gap:0.4rem;align-items:center;">
+                ${covUrl ? `<a class="btn" style="background:var(--surface-2);color:var(--text);" href="${escapeHtml(covUrl)}" target="_blank" rel="noopener">Cover</a>` : ""}
+                <a class="btn" href="${escapeHtml(b.link)}" target="_blank" rel="noopener">Open in Drive ↗</a>
+              </div>
             </div>
           </div>
-        `).join("");
+        `;
+        }).join("");
       }
 
       document.getElementById("pagination").innerHTML = `
