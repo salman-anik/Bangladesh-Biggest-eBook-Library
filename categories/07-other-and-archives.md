@@ -46,20 +46,20 @@
 | 29 | দ্বীনি মাহফিলে আওয়ামী নেতাদের মাস্তানি.mp4 | ইসলামীক বই ৫০০টি+ | 29.8 MB | [Open in Drive](https://drive.google.com/file/d/1Daey-77nEHrMs1Sj8Dex2qTyTmvo1USB/view) |
 | 30 | মাকতাবায়ে শামেলা ব্যবহার পদ্ধতি.mp4 | ইসলামীক বই ৫০০টি+ | 34.6 MB | [Open in Drive](https://drive.google.com/file/d/1pn_BbNia2GRLaCMlX2dsOULPD20EqUk1/view) |
 | 31 | শিফা ও রোগ মুক্তির আয়াত মালা আলি কুর্দি.mp3 | ইসলামীক বই ৫০০টি+ | 11.6 MB | [Open in Drive](https://drive.google.com/file/d/1tWaRrxgBKjKUVmT8R5HopcdvdcLSv6JS/view) |
-| 32 | Complete Work of Swami Vivekananda 2 .zip | মৃণালের ই-লাইব্রেরি | 450.9 KB | [Open in Drive](https://drive.google.com/file/d/13xHgIbAevMx1c3o6qvIZnTuyca_w0Y82/view) |
-| 33 | Complete Work of Swami Vivekananda 3.zip | মৃণালের ই-লাইব্রেরি | 955.2 KB | [Open in Drive](https://drive.google.com/file/d/1Pur0HRmQC2VZVuTOyWyayaC9Bi_eRQmT/view) |
-| 34 | Complete Work of Swami Vivekananda 4 .zip | মৃণালের ই-লাইব্রেরি | 838.7 KB | [Open in Drive](https://drive.google.com/file/d/1yOF8x4nF4S6LxtgY_NGCyQfdnRfDkozl/view) |
-| 35 | Complete Work of Swami Vivekananda 5 .zip | মৃণালের ই-লাইব্রেরি | 952.1 KB | [Open in Drive](https://drive.google.com/file/d/18nwbtFsl1se7AL_NIqNlm7RCcAAEGKtP/view) |
-| 36 | Complete Work of Swami Vivekananda 6 .zip | মৃণালের ই-লাইব্রেরি | 3.2 MB | [Open in Drive](https://drive.google.com/file/d/18gnUKm157bL0rTPseZ0eZvtU0ntOwHc8/view) |
-| 37 | Complete Work of Swami Vivekananda 7 .zip | মৃণালের ই-লাইব্রেরি | 1.5 MB | [Open in Drive](https://drive.google.com/file/d/1V7rJy3qYz6anU8i-bmR9K3etQCMato2g/view) |
-| 38 | Complete Work of Swami Vivekananda 8.zip | মৃণালের ই-লাইব্রেরি | 947.5 KB | [Open in Drive](https://drive.google.com/file/d/1WgAq25ABc2oVkN5yh2nVnj0NJG-yu7fh/view) |
-| 39 | Complete Work of Swami Vivekananda 9.zip | মৃণালের ই-লাইব্রেরি | 1.2 MB | [Open in Drive](https://drive.google.com/file/d/1fZlnhMd5cUuoWbtWpJa7zcEV9su9OjMa/view) |
-| 40 | Complete Works of Swami Vivekananda 1.zip | মৃণালের ই-লাইব্রেরি | 1.4 MB | [Open in Drive](https://drive.google.com/file/d/1zukMNAVDTuzu_g7mMHQFpJyyJuEotaUr/view) |
+| 32 | Complete Work of Swami Vivekananda 2 .zip | মৃণালের ই-লাইব্রেরি | 450.9 KB | [Open in Drive](https://drive.google.com/file/d/1t62kuf93ufqv1FX3hJC2xxx0jwrQydb4/view) |
+| 33 | Complete Work of Swami Vivekananda 3.zip | মৃণালের ই-লাইব্রেরি | 955.2 KB | [Open in Drive](https://drive.google.com/file/d/1ZewJmNN7wzw5W8pR25vhpA_p6Dnupus3/view) |
+| 34 | Complete Work of Swami Vivekananda 4 .zip | মৃণালের ই-লাইব্রেরি | 838.7 KB | [Open in Drive](https://drive.google.com/file/d/1JxxrnaeWDS6dOagakpm1RvJANE4wAcdz/view) |
+| 35 | Complete Work of Swami Vivekananda 5 .zip | মৃণালের ই-লাইব্রেরি | 952.1 KB | [Open in Drive](https://drive.google.com/file/d/1d30hEtWElNuNbQ6jmUClWpqTBhhUyM8y/view) |
+| 36 | Complete Work of Swami Vivekananda 6 .zip | মৃণালের ই-লাইব্রেরি | 3.2 MB | [Open in Drive](https://drive.google.com/file/d/1hi33okBf0nJAdXmzYzz6mfuYvcn8gfZf/view) |
+| 37 | Complete Work of Swami Vivekananda 7 .zip | মৃণালের ই-লাইব্রেরি | 1.5 MB | [Open in Drive](https://drive.google.com/file/d/1HgfkbNXOLys6PxLgBNWsFVpEbagbHauH/view) |
+| 38 | Complete Work of Swami Vivekananda 8.zip | মৃণালের ই-লাইব্রেরি | 947.5 KB | [Open in Drive](https://drive.google.com/file/d/1FawaiBtQzj2iyAjmy8o1u-Jtd2Boyriy/view) |
+| 39 | Complete Work of Swami Vivekananda 9.zip | মৃণালের ই-লাইব্রেরি | 1.2 MB | [Open in Drive](https://drive.google.com/file/d/1VLf0R-4A0G4scdvUumW7__HkFTRnsv2a/view) |
+| 40 | Complete Works of Swami Vivekananda 1.zip | মৃণালের ই-লাইব্রেরি | 1.4 MB | [Open in Drive](https://drive.google.com/file/d/1hIWBIpBGET9qeuK7NCGGsjzk41Q1Wmbv/view) |
 | 41 | Speech of BangoBandhu on 21 February, 1971.avi | মৃণালের ই-লাইব্রেরি | 25.8 MB | [Open in Drive](https://drive.google.com/file/d/1vxVfMz6iiDYzstzeOjmPsST6jWnMx6cL/view) |
 | 42 | অডিও বই - আলো হাতে চলিয়াছে আঁধারের যাত্রী ।। অভিজিৎ রায়.m4a | মৃণালের ই-লাইব্রেরি | 12.7 MB | [Open in Drive](https://drive.google.com/file/d/1dUUeZqnKY0kQPr8wuG01Q1LZUwWNYSN9/view) |
-| 43 | ঋগ্বেদ সংহিতা.zip | মৃণালের ই-লাইব্রেরি | 18.9 MB | [Open in Drive](https://drive.google.com/file/d/10nxQG4bhqkh4Nt8GMxqW5hzt7QwewPdq/view) |
-| 44 | মহাভাগবত পুরাণ.zip | মৃণালের ই-লাইব্রেরি | 34.0 MB | [Open in Drive](https://drive.google.com/file/d/1rO_mYhJ064mM3IrejSL5tZSis1dnzk5b/view) |
-| 45 | মার্কেন্ডীয় পুরাণ বাংলা.zip | মৃণালের ই-লাইব্রেরি | 37.4 MB | [Open in Drive](https://drive.google.com/file/d/1sOJuMcMuiStcytZ1CJ1CwPv-SVQ5HAjY/view) |
-| 46 | মার্কেন্ডীয় পুরাণ.zip | মৃণালের ই-লাইব্রেরি | 37.5 MB | [Open in Drive](https://drive.google.com/file/d/1-pFUUQ3wDqlyPLiZQU1C07BxsAeDkjGK/view) |
-| 47 | যজুর্ব্বেদ সংহিতা.zip | মৃণালের ই-লাইব্রেরি | 32.0 MB | [Open in Drive](https://drive.google.com/file/d/1Tg4-LvMHyKL6w4t6j1YfoL0M6pg_kLsy/view) |
-| 48 | সামবেদ সংহিতা.zip | মৃণালের ই-লাইব্রেরি | 36.5 MB | [Open in Drive](https://drive.google.com/file/d/1ESQzzm0d3I3xN71y2EtdU9ZXSFbvzIB5/view) |
+| 43 | ঋগ্বেদ সংহিতা.zip | মৃণালের ই-লাইব্রেরি | 18.9 MB | [Open in Drive](https://drive.google.com/file/d/1w9Te18SZYUAET-TmNJ6zBZsKd2agNOsJ/view) |
+| 44 | মহাভাগবত পুরাণ.zip | মৃণালের ই-লাইব্রেরি | 34.0 MB | [Open in Drive](https://drive.google.com/file/d/1KLyH-vYvY2vQyKh-QFu2pttfkdw31VpO/view) |
+| 45 | মার্কেন্ডীয় পুরাণ বাংলা.zip | মৃণালের ই-লাইব্রেরি | 37.4 MB | [Open in Drive](https://drive.google.com/file/d/1eyDoSHaYHs6FM-I4vtkxDnuw26YLZZBu/view) |
+| 46 | মার্কেন্ডীয় পুরাণ.zip | মৃণালের ই-লাইব্রেরি | 37.5 MB | [Open in Drive](https://drive.google.com/file/d/12qYnlAHOyMZJbFK49_6b0is14mHJXf3D/view) |
+| 47 | যজুর্ব্বেদ সংহিতা.zip | মৃণালের ই-লাইব্রেরি | 32.0 MB | [Open in Drive](https://drive.google.com/file/d/1JlvSJ6F3v0uub5bzn18ASnCygDSaBe4q/view) |
+| 48 | সামবেদ সংহিতা.zip | মৃণালের ই-লাইব্রেরি | 36.5 MB | [Open in Drive](https://drive.google.com/file/d/1bcFKC9nY6sunRecKaxRLsUw8SBiSfa7s/view) |
