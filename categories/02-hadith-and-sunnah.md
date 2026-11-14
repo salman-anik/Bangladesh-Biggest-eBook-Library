@@ -129,51 +129,51 @@
 | 82 | সত্যের সৈনিকের পেশকৃত হাদিস.doc | 06 কিয়ামতের আলামত ও শেষ জামানা সম্পর্কে আলোচনা | 43.5 KB | [Open in Drive](https://drive.google.com/file/d/1HR4qXZjWxlSMPmczUdcKTfGGmPnNJciL/view) |
 | 83 | হাদিস.doc | 06 কিয়ামতের আলামত ও শেষ জামানা সম্পর্কে আলোচনা | 114.5 KB | [Open in Drive](https://drive.google.com/file/d/1HCn8lPuYZGiMkMimj6qzIZZLfa1UMM4H/view) |
 | 84 | হাবিবুল্লাহ সাহেব কিরান সম্পর্কে হাদীস।.doc | 06 কিয়ামতের আলামত ও শেষ জামানা সম্পর্কে আলোচনা | 56.5 KB | [Open in Drive](https://drive.google.com/file/d/1HXIFF6yRGUCny9UimUhunZCZ8RFDMaV1/view) |
-| 85 | অমুসলিমদের সাথে যেমন ছিলেন রাসুল (সঃ).pdf | General | 2.4 MB | [Open in Drive](https://drive.google.com/file/d/1W1Ox7X3rqWzvOOmJbydrJnPg22t7OOYZ/view) |
-| 86 | আল ফিয়াতুল হাদিস(নির্বাচিত ১০০০ হাদিস).pdf | General | 14.6 MB | [Open in Drive](https://drive.google.com/file/d/1DR0XbVp67EGdsO156es2G_Yi4Nc-zKO_/view) |
-| 87 | আহলে হাদীস ও হানাফী মাযাহাবে ইখতিলাফ ও তার ন...ব্রাদার রাহুল হোসেন (রুহুল আমিন)\[islamibpoipdf.blogspot.com\].pdf | General | 43.2 MB | [Open in Drive](https://drive.google.com/file/d/14nRf71PlU1QDlXSVUnUgnSJ2AlB0N9M3/view) |
-| 88 | ইসলামের মৌলিক বিষয় এবং গুরুত্বপূর্ণ হাদিস নির্ণয়ের সহজতম উপায়.pdf | General | 2.8 MB | [Open in Drive](https://drive.google.com/file/d/1OzCN6VYgIueX7t_5K0ugGg4O_oaAwvvv/view) |
-| 89 | কল্যাণকর কাজে উদ্বুদ্ধকারী হাদিস.pdf | General | 172.8 KB | [Open in Drive](https://drive.google.com/file/d/1GC9YB_QrwQDpbaANjKv60m1fKoUPFOYY/view) |
-| 90 | জাল ও যয়িফ হাদিস বর্জনের মুলনীতি.pdf | General | 597.0 KB | [Open in Drive](https://drive.google.com/file/d/15zH5NIGJuCG_mhvgE0938UvP_wewY-mc/view) |
-| 91 | জেরুজালেম বিশ্ব মুসলিম সমস্যা_কারযাভি.pdf | General | 4.1 MB | [Open in Drive](https://drive.google.com/file/d/1WmnVjkh32FYhVPC5-pnJnTQ14uW-aLlB/view) |
-| 92 | দারসে হাদিস-1(আঃ মতিন).pdf | General | 3.6 MB | [Open in Drive](https://drive.google.com/file/d/1I52i758926M6Q5HOa4_Hn-yVrP8edn5S/view) |
-| 93 | দারসে হাদিস-2(আঃ মতিন).pdf | General | 3.8 MB | [Open in Drive](https://drive.google.com/file/d/1IEBIEw92_AqeiHugJnZ8WwD7bOiVyupl/view) |
-| 94 | ধর্ম পালনে একজন মুসলিম হিসেবে যা অবশ্যই জানা প্রয়োজনীয়.pdf | General | 3.3 MB | [Open in Drive](https://drive.google.com/file/d/1UWdvJEajxG0CubhXlvil8l69ls2t-E10/view) |
-| 95 | নও মুসলিমদের কাহিনী.pdf | General | 639.3 KB | [Open in Drive](https://drive.google.com/file/d/12526V-XpUtGU5fKHtgaYkrCH38chPqSR/view) |
-| 96 | নবীজীর হাদীস ও ইমামগণের মতভেদ.pdf | General | 3.2 MB | [Open in Drive](https://drive.google.com/file/d/17ogrZOulJB1RJsg14t8nls3dee1Bctha/view) |
-| 97 | নবীজীর﻿ দৈনন্দিন সুন্নাত ও যিকিরসমূহ.pdf | General | 16.0 MB | [Open in Drive](https://drive.google.com/file/d/1VGFQV1LKNFRANkKG9arswtMfY0ecQ-Pl/view) |
-| 98 | নির্ভরযোগ্য হাদিসে মাসনূন দোয়া ও জিকির.pdf | General | 760.1 KB | [Open in Drive](https://drive.google.com/file/d/17yOSzpTywvaRwY2fsSZBsVTBI_ZO8iR5/view) |
-| 99 | প্রচলিত জাল হাদীস – খন্দকার আবুল খায়ের.pdf | General | 1.7 MB | [Open in Drive](https://drive.google.com/file/d/1Jqk5oCmB6qd-vULWz6Q68VYApPBLl9o4/view) |
-| 100 | প্রচলিত জাল হাদীস –মুহাম্মাদ আব্দুল মালেক.pdf | General | 6.5 MB | [Open in Drive](https://drive.google.com/file/d/1sSEO4b2oII3ISzEVOlYi1d0uWx-6eM_1/view) |
-| 101 | প্রিয় নবীর ৪০ হাদিস.pdf | General | 1.6 MB | [Open in Drive](https://drive.google.com/file/d/17VtrQnb742xVWh69_OHf5oZb9F_Qwlv8/view) |
-| 102 | প্রোডাক্টিভ মুসলিম.pdf | General | 25.2 MB | [Open in Drive](https://drive.google.com/file/d/12q2Q2ANg5FbVOfZ5Qz34kqDgC0Bxnm2b/view) |
-| 103 | ভারতে মুসলিম বিজয়ের ইতিহাস.pdf | General | 12.9 MB | [Open in Drive](https://drive.google.com/file/d/1z7OvwKZLw3sx_vIfCFQwcXPqd68x2l35/view) |
-| 104 | ভারতে মুসলিম হত্যা.pdf | General | 4.8 MB | [Open in Drive](https://drive.google.com/file/d/19QdQjNpcZHgmp5wbSUCSXCnp0gs7JYzM/view) |
-| 105 | মুন্তাকাব হাদিস.pdf | General | 24.4 MB | [Open in Drive](https://drive.google.com/file/d/1agmihvGlI6Y84KHYXzzG8ulR7ExdTD0z/view) |
-| 106 | মুসলিম কি মাযহাব মানতে বাধ্য .pdf | General | 6.6 MB | [Open in Drive](https://drive.google.com/file/d/19VnR3SBynXUXnylrwpCj6Gvw7-CYbgPX/view) |
-| 107 | মুসলিম বর-কনে.pdf | General | 8.5 MB | [Open in Drive](https://drive.google.com/file/d/1hc1170VbPdB2aHNC2pJ7tvkVWVfiJQbY/view) |
-| 108 | মুসলিম ভুমির প্রতিরক্ষা.pdf | General | 3.1 MB | [Open in Drive](https://drive.google.com/file/d/1PR1BSWd5cm2D48AfT9QitW-_2eHvLv3t/view) |
-| 109 | মুসলিম মনিষীদের ছেলেবেলা.pdf | General | 1.8 MB | [Open in Drive](https://drive.google.com/file/d/1mx3IH4QDEFS8e0hJYwqjs5eeQBCkSqoz/view) |
-| 110 | মুসলিম মনিষীদের জীবন কথা(১)pdf | General | 3.0 MB | [Open in Drive](https://drive.google.com/file/d/1_MdDKgTca8aM6Jj0mzzBrYjlPl0K_cWL/view) |
-| 111 | মুসলিম রমণী.pdf | General | 3.3 MB | [Open in Drive](https://drive.google.com/file/d/1_jZLqvCyfsBlVKJCHsNSqiiV_Hqo5gNA/view) |
-| 112 | মুসলিমাহ সেক্স ম্যানুয়েল-নাজিম খান.pdf | General | 1.9 MB | [Open in Drive](https://drive.google.com/file/d/1VOIthihUARyRx4YeZ6eEVcSvP8-BbPBn/view) |
-| 113 | যঈফ ও জাল হাদীস সমুহ-২.pdf | General | 2.5 MB | [Open in Drive](https://drive.google.com/file/d/11DZU1h33tsIjzugkYxX51-PpEZxseAVe/view) |
-| 114 | যে গভীর ষড়যন্ত্রের মাধ্যমে মুসলিম জাতি ও বিশ্বমানবতার মূল শিক্ষায় ভুল ডুকানো হয়েছে.pdf | General | 2.0 MB | [Open in Drive](https://drive.google.com/file/d/10_yNM7R6Yxiwz9U5cCiPDTbrhuTWaIFt/view) |
-| 115 | সহি হাদিসে কুদসি জাকারিয়া.pdf | General | 2.0 MB | [Open in Drive](https://drive.google.com/file/d/1kpq7T9yzKqeg_OrKvr8i90IPmoiillwP/view) |
-| 116 | সিলসিলাতুল আহাদীসুস সহীহা ১.pdf | General | 14.7 MB | [Open in Drive](https://drive.google.com/file/d/1VvUA7H9K2PBWy77H54rbeXQ2xlmEXdh4/view) |
-| 117 | সিলসিলাতুল আহাদীসুস সহীহা ২.pdf | General | 14.4 MB | [Open in Drive](https://drive.google.com/file/d/1ekorJ-FYazIrfmCh5vvzMsr02wRg_kzY/view) |
-| 118 | সুন্নাত ও বিদাত.pdf | General | 16.1 MB | [Open in Drive](https://drive.google.com/file/d/1mw8LcesV1dfFo8QAfQi0AeWgAVuAJEl1/view) |
-| 119 | সুন্নাতের উপর আমলের আবশ্যকতা ও অস্বীকারকারী কাফের হওয়ার শর্ত.pdf | General | 799.6 KB | [Open in Drive](https://drive.google.com/file/d/1ABmiye1ZrOV6MeZd-n_s8_t5ZxvwrGRh/view) |
-| 120 | হাদিসের আলোকে আদর্শ স্বামী-.pdf | General | 786.5 KB | [Open in Drive](https://drive.google.com/file/d/1OE2jUQtwWk2jiJAgNXDoLitrBIVzf4Hn/view) |
-| 121 | হাদীস শাস্ত্রের পরিভাষা পরিচিতি.pdf | General | 1.8 MB | [Open in Drive](https://drive.google.com/file/d/1cTaiM3Nfp1geGYnoIa9yGymjUCZKipbl/view) |
-| 122 | হাদীস সংকলনের ইতিহাস.pdf | General | 16.6 MB | [Open in Drive](https://drive.google.com/file/d/1iiA1tY3pPtCT8VNOoLqolMc2DNdv0HfA/view) |
-| 123 | হাদীসে কুদসী সমগ্র আলবানী.pdf | General | 10.1 MB | [Open in Drive](https://drive.google.com/file/d/1Jw606dh_sn1nYSo9RXbYGK8WJhkt3HCe/view) |
-| 124 | হাদীসের প্রামাণিকতা.pdf | General | 2.7 MB | [Open in Drive](https://drive.google.com/file/d/1sY2v_dJ-qKd8Hf9aCTvLf0nBKXtwQPWa/view) |
-| 125 | হাদীসের বিশুদ্ধতার প্দ্ধতি.pdf | General | 1.0 MB | [Open in Drive](https://drive.google.com/file/d/1ngXxRZQ6iOAJRuFvIXDaubMwmarSRYry/view) |
-| 126 | হাদীসের বৈচিত্রে পূর্ণাঙ্গ নামায-ড. আবুল কালাম আজাদ বাশার.pdf | General | 33.7 MB | [Open in Drive](https://drive.google.com/file/d/10kU5CXKXqjLyzmw-x1hHp50LvdpLRYnn/view) |
-| 127 | হে আমার মুসলিম ভাই -শাইখ আলী তানতাবী.pdf | General | 10.1 MB | [Open in Drive](https://drive.google.com/file/d/1EQ01Fir0KpKyDI39vfJRRSYLRONRAnV3/view) |
+| 85 | অমুসলিমদের সাথে যেমন ছিলেন রাসুল (সঃ).pdf | General | 2.4 MB | [Open in Drive](https://drive.google.com/file/d/1EbINKK68F66CZH5F9zjfrCaCCwj4av9S/view) |
+| 86 | আল ফিয়াতুল হাদিস(নির্বাচিত ১০০০ হাদিস).pdf | General | 14.6 MB | [Open in Drive](https://drive.google.com/file/d/1Qo1wLJh8IFZMvoJ-W9p2GQiIi185A684/view) |
+| 87 | আহলে হাদীস ও হানাফী মাযাহাবে ইখতিলাফ ও তার ন...ব্রাদার রাহুল হোসেন (রুহুল আমিন)\[islamibpoipdf.blogspot.com\].pdf | General | 43.2 MB | [Open in Drive](https://drive.google.com/file/d/1NzSCKlJgTAQL2Ec4S8VyeuCygEH9OebK/view) |
+| 88 | ইসলামের মৌলিক বিষয় এবং গুরুত্বপূর্ণ হাদিস নির্ণয়ের সহজতম উপায়.pdf | General | 2.8 MB | [Open in Drive](https://drive.google.com/file/d/1glDecBImFxotmuBoWSiAl68IE0_CRtak/view) |
+| 89 | কল্যাণকর কাজে উদ্বুদ্ধকারী হাদিস.pdf | General | 172.8 KB | [Open in Drive](https://drive.google.com/file/d/1XsVj16WOTLliK4N8NCkoSiG-On_2GJhU/view) |
+| 90 | জাল ও যয়িফ হাদিস বর্জনের মুলনীতি.pdf | General | 597.0 KB | [Open in Drive](https://drive.google.com/file/d/1KBozCqV4mQ021-dE31gUBVfOJjpPDirr/view) |
+| 91 | জেরুজালেম বিশ্ব মুসলিম সমস্যা_কারযাভি.pdf | General | 4.1 MB | [Open in Drive](https://drive.google.com/file/d/1ZuRsq8ZSHbynlYsPryRyhyrJ--Jz3FR-/view) |
+| 92 | দারসে হাদিস-1(আঃ মতিন).pdf | General | 3.6 MB | [Open in Drive](https://drive.google.com/file/d/1SF7utHi27TMpeXU8RUj39epMOgkPHe6h/view) |
+| 93 | দারসে হাদিস-2(আঃ মতিন).pdf | General | 3.8 MB | [Open in Drive](https://drive.google.com/file/d/1jyJgLX85Ihr2CeqxeZmiBpRAKPyxax25/view) |
+| 94 | ধর্ম পালনে একজন মুসলিম হিসেবে যা অবশ্যই জানা প্রয়োজনীয়.pdf | General | 3.3 MB | [Open in Drive](https://drive.google.com/file/d/1Prz7F13dNmgptXHLuskJQKChNF2CR1ZT/view) |
+| 95 | নও মুসলিমদের কাহিনী.pdf | General | 639.3 KB | [Open in Drive](https://drive.google.com/file/d/1k2HNHOa-GD4Azl-RE5Xt069o5Rmx1vmo/view) |
+| 96 | নবীজীর হাদীস ও ইমামগণের মতভেদ.pdf | General | 3.2 MB | [Open in Drive](https://drive.google.com/file/d/1mMo_Lyv6VVRqglZwwq-1XyS3lQpx56LF/view) |
+| 97 | নবীজীর﻿ দৈনন্দিন সুন্নাত ও যিকিরসমূহ.pdf | General | 16.0 MB | [Open in Drive](https://drive.google.com/file/d/1ZzSFcTzXp1TmCcGkIbNsLIm9RmHQN7Pn/view) |
+| 98 | নির্ভরযোগ্য হাদিসে মাসনূন দোয়া ও জিকির.pdf | General | 760.1 KB | [Open in Drive](https://drive.google.com/file/d/1loW2DBGoQkvbc4VcFYMpM3G9aSYHZt0I/view) |
+| 99 | প্রচলিত জাল হাদীস – খন্দকার আবুল খায়ের.pdf | General | 1.7 MB | [Open in Drive](https://drive.google.com/file/d/1A8SdDelAyrcds0-Mr912AaiVzBbOAcWc/view) |
+| 100 | প্রচলিত জাল হাদীস –মুহাম্মাদ আব্দুল মালেক.pdf | General | 6.5 MB | [Open in Drive](https://drive.google.com/file/d/1NE-AI8VY9VjC1eFi694FtFUbe4yHP0ms/view) |
+| 101 | প্রিয় নবীর ৪০ হাদিস.pdf | General | 1.6 MB | [Open in Drive](https://drive.google.com/file/d/1mnf1L0YPAO7AHPBVMCQ1Iol2PzqRm1xv/view) |
+| 102 | প্রোডাক্টিভ মুসলিম.pdf | General | 25.2 MB | [Open in Drive](https://drive.google.com/file/d/19F0f48hF7DaZHpiZBxKxUWYitUIJ6--8/view) |
+| 103 | ভারতে মুসলিম বিজয়ের ইতিহাস.pdf | General | 12.9 MB | [Open in Drive](https://drive.google.com/file/d/1u6Cj9E1tnoUeRJgDnYmm5DO-yQMu5JDZ/view) |
+| 104 | ভারতে মুসলিম হত্যা.pdf | General | 4.8 MB | [Open in Drive](https://drive.google.com/file/d/15Ej5CFNRUasDNUQRK9EOWRwfVm2zXByq/view) |
+| 105 | মুন্তাকাব হাদিস.pdf | General | 24.4 MB | [Open in Drive](https://drive.google.com/file/d/1Omjjabw-Da_MWCvFg8F2jUSj12lA0E8A/view) |
+| 106 | মুসলিম কি মাযহাব মানতে বাধ্য .pdf | General | 6.6 MB | [Open in Drive](https://drive.google.com/file/d/1Ik68pgHAG3-45-cg7dbTlE7Lc8DttJ91/view) |
+| 107 | মুসলিম বর-কনে.pdf | General | 8.5 MB | [Open in Drive](https://drive.google.com/file/d/1VF0EU4I6Vs8p9pMIK18ha-weIEUs7rdN/view) |
+| 108 | মুসলিম ভুমির প্রতিরক্ষা.pdf | General | 3.1 MB | [Open in Drive](https://drive.google.com/file/d/1kM7UAGGh0x0j3gUsauiWveCpa4BkMelu/view) |
+| 109 | মুসলিম মনিষীদের ছেলেবেলা.pdf | General | 1.8 MB | [Open in Drive](https://drive.google.com/file/d/1Twp2uGW1Scdttk0_eUrWT1LtzzUjz2Pd/view) |
+| 110 | মুসলিম মনিষীদের জীবন কথা(১)pdf | General | 3.0 MB | [Open in Drive](https://drive.google.com/file/d/1m3E9vp0EZzXebulEa_zHn357Mjiht_R6/view) |
+| 111 | মুসলিম রমণী.pdf | General | 3.3 MB | [Open in Drive](https://drive.google.com/file/d/1k9nFJgCQZRaW-A8EOD1FSyDVPGjKVIFg/view) |
+| 112 | মুসলিমাহ সেক্স ম্যানুয়েল-নাজিম খান.pdf | General | 1.9 MB | [Open in Drive](https://drive.google.com/file/d/1TLnoVNL6btYCE6jwH60LfMO7mFjIZ2bL/view) |
+| 113 | যঈফ ও জাল হাদীস সমুহ-২.pdf | General | 2.5 MB | [Open in Drive](https://drive.google.com/file/d/1JD8d6pYoy3LSJBMjsILhecvAIHHlunh7/view) |
+| 114 | যে গভীর ষড়যন্ত্রের মাধ্যমে মুসলিম জাতি ও বিশ্বমানবতার মূল শিক্ষায় ভুল ডুকানো হয়েছে.pdf | General | 2.0 MB | [Open in Drive](https://drive.google.com/file/d/1tfZ6jtutE1fFXe4fGpH0pF609sT0k7er/view) |
+| 115 | সহি হাদিসে কুদসি জাকারিয়া.pdf | General | 2.0 MB | [Open in Drive](https://drive.google.com/file/d/17lFiaJ5yzolHg--uUUsR6QK5YdQkm7_W/view) |
+| 116 | সিলসিলাতুল আহাদীসুস সহীহা ১.pdf | General | 14.7 MB | [Open in Drive](https://drive.google.com/file/d/1ZmwMa6o8m2zV8xXYps4qXzPL0NVep-0e/view) |
+| 117 | সিলসিলাতুল আহাদীসুস সহীহা ২.pdf | General | 14.4 MB | [Open in Drive](https://drive.google.com/file/d/1922r5LteBflRelydvgglpo8WcqWrl5dm/view) |
+| 118 | সুন্নাত ও বিদাত.pdf | General | 16.1 MB | [Open in Drive](https://drive.google.com/file/d/1stZuSvMhBQB3Mjjm0sDgO05Xsh636NkF/view) |
+| 119 | সুন্নাতের উপর আমলের আবশ্যকতা ও অস্বীকারকারী কাফের হওয়ার শর্ত.pdf | General | 799.6 KB | [Open in Drive](https://drive.google.com/file/d/1dyfLlWmP4e38s1aX925IP2bns7Leawod/view) |
+| 120 | হাদিসের আলোকে আদর্শ স্বামী-.pdf | General | 786.5 KB | [Open in Drive](https://drive.google.com/file/d/1KmGMIRNYI7J4DOE94NVDSHUJ4ofmU8bm/view) |
+| 121 | হাদীস শাস্ত্রের পরিভাষা পরিচিতি.pdf | General | 1.8 MB | [Open in Drive](https://drive.google.com/file/d/1X6Z40OAW-C6MneuWecgMvn-rIGOv9BCm/view) |
+| 122 | হাদীস সংকলনের ইতিহাস.pdf | General | 16.6 MB | [Open in Drive](https://drive.google.com/file/d/1SqhhUL3gD5MvKzJvikNqKtkkHKlbe0bO/view) |
+| 123 | হাদীসে কুদসী সমগ্র আলবানী.pdf | General | 10.1 MB | [Open in Drive](https://drive.google.com/file/d/1OraiV-nxd5jXUGVwaCXThh4tS0wzq_3A/view) |
+| 124 | হাদীসের প্রামাণিকতা.pdf | General | 2.7 MB | [Open in Drive](https://drive.google.com/file/d/1EhDF5RMGMbBYj1lkV0lcXcvODXbaZfre/view) |
+| 125 | হাদীসের বিশুদ্ধতার প্দ্ধতি.pdf | General | 1.0 MB | [Open in Drive](https://drive.google.com/file/d/14hGFKHfUM4dpaBGKEVGv1CunFPFqGNTZ/view) |
+| 126 | হাদীসের বৈচিত্রে পূর্ণাঙ্গ নামায-ড. আবুল কালাম আজাদ বাশার.pdf | General | 33.7 MB | [Open in Drive](https://drive.google.com/file/d/1JjHOt6ltNU_HG7QxD272i2A6WYPqDxQj/view) |
+| 127 | হে আমার মুসলিম ভাই -শাইখ আলী তানতাবী.pdf | General | 10.1 MB | [Open in Drive](https://drive.google.com/file/d/1TrAELVhGuFCV7Qnheokc0loxsbBgkLh8/view) |
 | 128 | ১০০১_মুসলিম_আবিষ্কার_মুসলিম_সভ্যতার_অনন্যগৌর৩৫৩.pdf | General | 42.9 MB | [Open in Drive](https://drive.google.com/file/d/1RCX70iMP3iTnfkMWCBvBGJDsORSEeiE9/view) |
-| 129 | ৫০০ হাদীস.pdf | General | 2.0 MB | [Open in Drive](https://drive.google.com/file/d/1edaaIBDFnmg6Azh2sEoj3Fip65IFnwya/view) |
+| 129 | ৫০০ হাদীস.pdf | General | 2.0 MB | [Open in Drive](https://drive.google.com/file/d/1S6aWtVNV4ETY2scZLptAGkwJX-QRFu5h/view) |
 | 130 | আন্-নওয়াবীর চল্লিশ হাদিস .pdf | অনেকগুলো ইসলামিক বই এই ফাইলে | 2.5 MB | [Open in Drive](https://drive.google.com/file/d/1BJT1wttavvzFA8JbIyHNDfMHUpQcLZZZ/view) |
 | 131 | আহলে সুন্নাত ওয়াল জামা‘আতের আকীদা.doc | অনেকগুলো ইসলামিক বই এই ফাইলে | 2.8 MB | [Open in Drive](https://drive.google.com/file/d/1BL2X70MYZ5-VZK0MgCJhQnYT27oq1aBS/view) |
 | 132 | ইত্তিবায়ে সুন্নাতের মাসায়েল .pdf | অনেকগুলো ইসলামিক বই এই ফাইলে | 6.8 MB | [Open in Drive](https://drive.google.com/file/d/1CdPYh10jUAAYe0Zt2x7IDbGaQhpj7HNi/view) |
@@ -182,8 +182,8 @@
 | 135 | মুসলিম বোন ও পর্দার হুকুম.pdf | অনেকগুলো ইসলামিক বই এই ফাইলে | 1.5 MB | [Open in Drive](https://drive.google.com/file/d/16kZsXkI-7FQYfF7PrQfQeqDLP9-1_dgJ/view) |
 | 136 | হাদিস সংকলন.pdf | অনেকগুলো ইসলামিক বই এই ফাইলে | 938.6 KB | [Open in Drive](https://drive.google.com/file/d/1BIlKKsIZPpDaUwQXCMJwwIaen-whG8oL/view) |
 | 137 | হিসনুল মুসলিম .pdf | অনেকগুলো ইসলামিক বই এই ফাইলে | 4.7 MB | [Open in Drive](https://drive.google.com/file/d/1FRRJMyMBo7wc5mtyV8rJNE8YdcdBoGBT/view) |
-| 138 | আহলে সুন্নাত ওয়াল জামায়াত এর আকীদা-আবু বকর জাকারিয়া.pdf | আবু বকর জাকারিয়া | 601.6 KB | [Open in Drive](https://drive.google.com/file/d/14kniUfC6RtlS0zMpnQdg2iILtdJbx0OY/view) |
-| 139 | হিসলুন মুসলিম(মুসলমানদের দূর্গ)-আবু বকর জাকারিয়া.pdf | আবু বকর জাকারিয়া | 2.7 MB | [Open in Drive](https://drive.google.com/file/d/1B-IBTU_8MjEYVX7CLYt1TCkau-EXBZqK/view) |
+| 138 | আহলে সুন্নাত ওয়াল জামায়াত এর আকীদা-আবু বকর জাকারিয়া.pdf | আবু বকর জাকারিয়া | 601.6 KB | [Open in Drive](https://drive.google.com/file/d/1r_IhkfuCX6otiCpjSNZ66-LA1gYvpDZ4/view) |
+| 139 | হিসলুন মুসলিম(মুসলমানদের দূর্গ)-আবু বকর জাকারিয়া.pdf | আবু বকর জাকারিয়া | 2.7 MB | [Open in Drive](https://drive.google.com/file/d/1FCC16fqirq-8GQv4ke80N-Eb6h9z5SqJ/view) |
 | 140 | সহীহ হাদীসের আলোকে তারাবীর রাকাআত সংখ্যা ও ঈদের.pdf | ইদ | 2.2 MB | [Open in Drive](https://drive.google.com/file/d/1WMAbr4rxa-46KOiPg0Kz0Ng9eZhv2EM-/view) |
 | 141 | ইমাম আবূ হানীফা ও হাদীসশাস্ত্র.pdf | ইমামদের জীবন ও কর্ম | 2.6 MB | [Open in Drive](https://drive.google.com/file/d/1YfnQWgT5FvZkcpwJYY8t90K-T8ApT7JI/view) |
 | 142 | ইমাম বুখারী.pdf | ইমামদের জীবন ও কর্ম | 1.5 MB | [Open in Drive](https://drive.google.com/file/d/1H1KtTJxBHfvtMtpBB7t3lyQJigwylPu-/view) |

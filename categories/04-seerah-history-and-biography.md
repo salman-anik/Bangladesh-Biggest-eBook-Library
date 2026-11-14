@@ -38,46 +38,46 @@
 
 | # | Book Name | Subcategory / Author | Size | Drive Link |
 |---:|---|---|---:|---|
-| 1 | RAW-A HISTORY OF. INDIA’S COVERT OPERATIONS.pdf | General | 2.1 MB | [Open in Drive](https://drive.google.com/file/d/1UTWPx9aO_OZDoT7OPQ-WKA19qsJGcYvp/view) |
-| 2 | অভিশপ্ত ইহুদী জাতির বেঈমানির ইতিহাস.pdf | General | 11.0 MB | [Open in Drive](https://drive.google.com/file/d/1IcV5I1Ow8a3-47Y6mH74hbpzkS1rFx1T/view) |
-| 3 | আরব জাতির ইতিহাস (হিট্টি)- রেফারেন্স হিসেবে গ্রহণযোগ্য নয়.pdf | General | 69.5 MB | [Open in Drive](https://drive.google.com/file/d/1egy8QPPxUOfqhwi2zax1oGF2ZSO-bSFG/view) |
-| 4 | আসহাবে রাসুলের জীবনধারা.pdf | General | 2.5 MB | [Open in Drive](https://drive.google.com/file/d/1hkQlioL0I_bgOHtMCqdC2xk6QJ77ebLS/view) |
-| 5 | ইতিহাসের জানালা–সালাহউদ্দীন জাহাঙ্গীর.pdf | General | 4.4 MB | [Open in Drive](https://drive.google.com/file/d/1R8eSk4t3PX6C4xaR1V0xHFqBZ-gV7lmn/view) |
-| 6 | ইসলামি খেলাফত ধ্বংসের প্রকৃত ইতিহাস.pdf | General | 1.2 MB | [Open in Drive](https://drive.google.com/file/d/114UZr6cIrSLIiN1UcWi5N3TxjdWE3edt/view) |
-| 7 | খালিদ বিন ওয়ালিদ রাদিয়াল্লাহু তাআলা আনহু ১০০ ঘটনা.pdf | General | 26.0 MB | [Open in Drive](https://drive.google.com/file/d/16BGPTPQB_QRXSsmWsXT5zs1qcNT0x4Ik/view) |
-| 8 | চেপেরাখা ইতিহাস.pdf | General | 16.9 MB | [Open in Drive](https://drive.google.com/file/d/130C-39cYtn_tHBsjAAh_UG8Wy-PDnzrZ/view) |
-| 9 | জেরুজালেমের ইতিহাস.pdf | General | 752.3 KB | [Open in Drive](https://drive.google.com/file/d/1ZqAgvWCJlXwzEBrAYVqRu8wX8p6_dCHS/view) |
-| 10 | জ্বিন জাতির বিস্ময়কর ইতিহাস.pdf | General | 12.5 MB | [Open in Drive](https://drive.google.com/file/d/1a9AABX0OXa5xH1no5bwmpq1yv_Jkfj1K/view) |
-| 11 | তাতারীদের ইতিহাস-ডঃ রাগেব সারজানী.pdf | General | 20.9 MB | [Open in Drive](https://drive.google.com/file/d/11UTGFz7ORtI3uvQiOzqYt7MsAQBrnPVi/view) |
-| 12 | তাযকেরাতুল আউলিয়াঃ শ্রেষ্ঠ আউলিয়াদের জীবনী.pdf | General | 21.0 MB | [Open in Drive](https://drive.google.com/file/d/1_8tf_mxTPVkWTC4NlyjdavtIKYBfOy8M/view) |
-| 13 | নারী সাহাবীদের ঈমানদীপ্ত জীবন.pdf | General | 4.0 MB | [Open in Drive](https://drive.google.com/file/d/1j1XY0GnRT9w-hZT6r5cF8gtDLLEk4N8Y/view) |
-| 14 | ফরায়েজী আন্দোলনের ইতিহাস.pdf | General | 12.8 MB | [Open in Drive](https://drive.google.com/file/d/1oPr9mKGO3BnMPOB8hXsu9_dqXoxUyOkW/view) |
-| 15 | বাংলার মুসলমানদের ইতিহাস(১&২)-আব্বাস আলী খান.pdf | General | 14.1 MB | [Open in Drive](https://drive.google.com/file/d/12mWevxFDhP9iFUjG8SQfHs2252n2LlKw/view) |
-| 16 | বাইতুল মোকাদ্দাসের ইতিহাস.pdf | General | 8.3 MB | [Open in Drive](https://drive.google.com/file/d/13WFMCIZDxjR9cp5hB5y8M5mEKdPHhi3K/view) |
-| 17 | বিশ্বের শ্রেষ্ঠ ১০০ মনীষীর জীবনী.pdf | General | 9.7 MB | [Open in Drive](https://drive.google.com/file/d/13yNisfM0gTUoQ04idktS3WpH_ifeAWtS/view) |
-| 18 | মহিলা সাহাবী হাশেমি .pdf | General | 11.4 MB | [Open in Drive](https://drive.google.com/file/d/19w3coGLj7Rf0NF6FdqTeQlpBgNiALtnH/view) |
-| 19 | মহিলা সাহাবী.pdf | General | 7.4 MB | [Open in Drive](https://drive.google.com/file/d/1o5aEB7DMxFCE4iCdkjcW_RKS01lMjbk9/view) |
-| 20 | সংগ্রামী সাধকদের ইতিহাস৪.pdf | General | 32.4 MB | [Open in Drive](https://drive.google.com/file/d/1YF4gq95xXGFK-7CNVqJPQKba0OG3DyLO/view) |
-| 21 | সাহাবা কেরামের প্রতি আমাদের কর্তব্য.pdf | General | 524.3 KB | [Open in Drive](https://drive.google.com/file/d/1hwPGz0lRZ42x-Uy2lRQ9KFFxIbYOWyAP/view) |
-| 22 | সাহাবা চরিত.pdf | General | 8.7 MB | [Open in Drive](https://drive.google.com/file/d/143aqexVr_42LH733vuuFNyJGcqKSaG01/view) |
-| 23 | সাহাবাদের তালিকা.pdf | General | 1.4 MB | [Open in Drive](https://drive.google.com/file/d/1P0G_EWZhNXiAaGsalHEpQj-qZh9Jm_p1/view) |
-| 24 | সাহাবীদের হক ও ফজিলত.pdf | General | 1.0 MB | [Open in Drive](https://drive.google.com/file/d/1Bm8g5W3UUW1AotE2pE_vCp-LNtXxz70P/view) |
-| 25 | সীরাতুর-রাসুল.pdf | General | 5.6 MB | [Open in Drive](https://drive.google.com/file/d/1ag7_ShsCoGlcBHnnN3q8O89SLKXNFyLD/view) |
-| 26 | সীরাতুল মুস্তফা ﷺ (সকল খন্ড).pdf | General | 46.1 MB | [Open in Drive](https://drive.google.com/file/d/119eVUz9R194WEaIMWzq4DUznBrBWaPEE/view) |
-| 27 | সীরাতে আয়েশা (রাঃ).pdf | General | 11.5 MB | [Open in Drive](https://drive.google.com/file/d/12uMgzZgNYT4kd7e8n3xKHGDMO635NRMY/view) |
-| 28 | সীরাতে ইবনে হিসাম.pdf | General | 12.9 MB | [Open in Drive](https://drive.google.com/file/d/1exZxcP73-IKIzfkziGy8Oy6Fcw3TG_2t/view) |
-| 29 | সীরাতে খাতামুল আম্বিয়া.pdf | General | 6.2 MB | [Open in Drive](https://drive.google.com/file/d/14CV1YzXJbjYOBuMAnOSanrz_SJ5V7YSy/view) |
-| 30 | সীরাতে খাতিমুল আম্বিয়া (ﷺ).pdf | General | 3.8 MB | [Open in Drive](https://drive.google.com/file/d/1EUvbPUEJjhJUd1pGquE-MaacPoh8mJXR/view) |
-| 31 | হানাফী ফিকহের ইতিহাস ও পরিচয় মুফতি মাওলানা  রউফ.pdf | General | 1.4 MB | [Open in Drive](https://drive.google.com/file/d/169DCsPXo7n7kqmiwnXOBvyhWOFmyzDIy/view) |
+| 1 | RAW-A HISTORY OF. INDIA’S COVERT OPERATIONS.pdf | General | 2.1 MB | [Open in Drive](https://drive.google.com/file/d/1-sAucRces-sdYu_nLGLdwLFG9SslJeIY/view) |
+| 2 | অভিশপ্ত ইহুদী জাতির বেঈমানির ইতিহাস.pdf | General | 11.0 MB | [Open in Drive](https://drive.google.com/file/d/1Ew-tpUu8ooAEV6UTJ_tQCi7llr85YWjv/view) |
+| 3 | আরব জাতির ইতিহাস (হিট্টি)- রেফারেন্স হিসেবে গ্রহণযোগ্য নয়.pdf | General | 69.5 MB | [Open in Drive](https://drive.google.com/file/d/1OS92xKPE_uYNKdoxBurpGV2wdGODGl9l/view) |
+| 4 | আসহাবে রাসুলের জীবনধারা.pdf | General | 2.5 MB | [Open in Drive](https://drive.google.com/file/d/1ZcO9WX4KyX4PTpU1_ef4uYotMsDqwOAy/view) |
+| 5 | ইতিহাসের জানালা–সালাহউদ্দীন জাহাঙ্গীর.pdf | General | 4.4 MB | [Open in Drive](https://drive.google.com/file/d/1YvZez_nxlTfQCWHCgda9ELvx7bSX08Q4/view) |
+| 6 | ইসলামি খেলাফত ধ্বংসের প্রকৃত ইতিহাস.pdf | General | 1.2 MB | [Open in Drive](https://drive.google.com/file/d/1QBHa4We65Tp92NoUjftQP_GAAKVMNpQ3/view) |
+| 7 | খালিদ বিন ওয়ালিদ রাদিয়াল্লাহু তাআলা আনহু ১০০ ঘটনা.pdf | General | 26.0 MB | [Open in Drive](https://drive.google.com/file/d/1qwwDXhIfOZcI9y1FpyJN3fgNsW7GUy0-/view) |
+| 8 | চেপেরাখা ইতিহাস.pdf | General | 16.9 MB | [Open in Drive](https://drive.google.com/file/d/1L7qjXt94_h9paLQi1d-FxlrQeyrgIHRU/view) |
+| 9 | জেরুজালেমের ইতিহাস.pdf | General | 752.3 KB | [Open in Drive](https://drive.google.com/file/d/1hc5vJrbmcnYo4j7CoxO8Cvi3pCsiFbAz/view) |
+| 10 | জ্বিন জাতির বিস্ময়কর ইতিহাস.pdf | General | 12.5 MB | [Open in Drive](https://drive.google.com/file/d/1IbyGTn__VEfCyoTExnWkjRLBa5vaZmCD/view) |
+| 11 | তাতারীদের ইতিহাস-ডঃ রাগেব সারজানী.pdf | General | 20.9 MB | [Open in Drive](https://drive.google.com/file/d/1GZthJh-2JkayAtNLW4D7z7tPfVaqoQi7/view) |
+| 12 | তাযকেরাতুল আউলিয়াঃ শ্রেষ্ঠ আউলিয়াদের জীবনী.pdf | General | 21.0 MB | [Open in Drive](https://drive.google.com/file/d/1GXqHdoA6fAwfqhtxfu667-9aVobxMS7y/view) |
+| 13 | নারী সাহাবীদের ঈমানদীপ্ত জীবন.pdf | General | 4.0 MB | [Open in Drive](https://drive.google.com/file/d/1QBwHUNMRmC1rqOJR4l7WnNymHzOt7oDX/view) |
+| 14 | ফরায়েজী আন্দোলনের ইতিহাস.pdf | General | 12.8 MB | [Open in Drive](https://drive.google.com/file/d/1ygiKhjdeQnvwvq4Cradvmz6F3jAMFAtN/view) |
+| 15 | বাংলার মুসলমানদের ইতিহাস(১&২)-আব্বাস আলী খান.pdf | General | 14.1 MB | [Open in Drive](https://drive.google.com/file/d/1eN8xy8iS0_hQ4YT6JCLmeYRWzK5uCFpC/view) |
+| 16 | বাইতুল মোকাদ্দাসের ইতিহাস.pdf | General | 8.3 MB | [Open in Drive](https://drive.google.com/file/d/1yC6tjqa2e-Cz_RNQT-4-Qxh_52oPqtTT/view) |
+| 17 | বিশ্বের শ্রেষ্ঠ ১০০ মনীষীর জীবনী.pdf | General | 9.7 MB | [Open in Drive](https://drive.google.com/file/d/1OgX2X4-B8YyvpLowJJ0LhEEUb1bs6xMe/view) |
+| 18 | মহিলা সাহাবী হাশেমি .pdf | General | 11.4 MB | [Open in Drive](https://drive.google.com/file/d/1Rz46jYPRuSbuAkxSqMYkJy6f1jQItXx8/view) |
+| 19 | মহিলা সাহাবী.pdf | General | 7.4 MB | [Open in Drive](https://drive.google.com/file/d/1cteoU1kMn50gAxfwvVDfi8iwF8E-4EZR/view) |
+| 20 | সংগ্রামী সাধকদের ইতিহাস৪.pdf | General | 32.4 MB | [Open in Drive](https://drive.google.com/file/d/1vUUgVtF9NWUZ9dAcaSr_TFhYwueSxnt2/view) |
+| 21 | সাহাবা কেরামের প্রতি আমাদের কর্তব্য.pdf | General | 524.3 KB | [Open in Drive](https://drive.google.com/file/d/1epjbpkr8WxbHNJPWv-VletLuMPWJi9FQ/view) |
+| 22 | সাহাবা চরিত.pdf | General | 8.7 MB | [Open in Drive](https://drive.google.com/file/d/1HuDTMyxcJAR98Vx4n5qrP_IL8rC_GIPH/view) |
+| 23 | সাহাবাদের তালিকা.pdf | General | 1.4 MB | [Open in Drive](https://drive.google.com/file/d/1syUA7JDmgQvNBLNQMjDze1IqpkYhlo0Y/view) |
+| 24 | সাহাবীদের হক ও ফজিলত.pdf | General | 1.0 MB | [Open in Drive](https://drive.google.com/file/d/16g9b81YqLFUCPD7L8dyeLhAIlIocww88/view) |
+| 25 | সীরাতুর-রাসুল.pdf | General | 5.6 MB | [Open in Drive](https://drive.google.com/file/d/1c4xNmsLlwDssEmT88nDAy53FGULZnkWl/view) |
+| 26 | সীরাতুল মুস্তফা ﷺ (সকল খন্ড).pdf | General | 46.1 MB | [Open in Drive](https://drive.google.com/file/d/1UjGd59eL1fnPhV4n5KtnRdxkPh5zAF0m/view) |
+| 27 | সীরাতে আয়েশা (রাঃ).pdf | General | 11.5 MB | [Open in Drive](https://drive.google.com/file/d/11oA11hrNW0T97HKq9Mm2JmCEFba9bHqp/view) |
+| 28 | সীরাতে ইবনে হিসাম.pdf | General | 12.9 MB | [Open in Drive](https://drive.google.com/file/d/1UFAR-al3dIfg27bS5eTXQqtSa851m2Tv/view) |
+| 29 | সীরাতে খাতামুল আম্বিয়া.pdf | General | 6.2 MB | [Open in Drive](https://drive.google.com/file/d/1gmx69AspMRwR2G9egYHXQ3PfwWHCpGPM/view) |
+| 30 | সীরাতে খাতিমুল আম্বিয়া (ﷺ).pdf | General | 3.8 MB | [Open in Drive](https://drive.google.com/file/d/13lfLg5TaadfNJ3xq8DJMj2Ft2q-_AvKR/view) |
+| 31 | হানাফী ফিকহের ইতিহাস ও পরিচয় মুফতি মাওলানা  রউফ.pdf | General | 1.4 MB | [Open in Drive](https://drive.google.com/file/d/1hobMYYP43coHVB2hc1wx83T5E6fINwR5/view) |
 | 32 | কি ঘটেছিল কারবালায় কারা হুসাইন রাঃকে হতযা করেছে.pdf | অনেকগুলো ইসলামিক বই এই ফাইলে | 250.4 KB | [Open in Drive](https://drive.google.com/file/d/17CUQhH5MXY1yBvO-o4whBnZ89cmHbUXR/view) |
 | 33 | নবী জীবনী.doc | অনেকগুলো ইসলামিক বই এই ফাইলে | 2.3 MB | [Open in Drive](https://drive.google.com/file/d/1Cvm0i8uqO8OWg1uVBIqKwGGHkQzytRcA/view) |
 | 34 | সীরাতুর রাসূল সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম .pdf | অনেকগুলো ইসলামিক বই এই ফাইলে | 6.3 MB | [Open in Drive](https://drive.google.com/file/d/159VzRnvFJ-GWpXHTW0QzXsekl4tdHyBc/view) |
-| 35 | আফগানিস্তানে আমি আল্লাহকে দেখেছি.pdf | আফগানিস্তান | 10.0 MB | [Open in Drive](https://drive.google.com/file/d/1fNPbKeAyjYVjLQ7jvDvwd54Zk57R7XQ2/view) |
-| 36 | আফগানিস্তানের শ্রেষ্ঠ গল্প.pdf | আফগানিস্তান | 4.7 MB | [Open in Drive](https://drive.google.com/file/d/1c9MQXeeSwMA9dgBq3dm2OXB_7C2vSJHR/view) |
-| 37 | ইন দ্যা হ্যান্ড অফ তালেবান-ইভন রিডলি.pdf | আফগানিস্তান | 7.5 MB | [Open in Drive](https://drive.google.com/file/d/1m8y1AWNmWI7gtIMAeBWViHA_J44grafm/view) |
-| 38 | সীরাতে সরওয়ারে আলম ৫ম খণ্ড – সাইয়েদ আবুল আলা মওদুদী.pdf | আবুল আলা মওদুদী | 8.7 MB | [Open in Drive](https://drive.google.com/file/d/16TIlGOV7BScT5NdQgdYpo4NwQp4J7RPT/view) |
-| 39 | সীরাতে রসূল আকরাম (সা.) – সাইয়েদ আবুল হাসান আলী নদভী.pdf | আবুল হাসান নদবী | 11.9 MB | [Open in Drive](https://drive.google.com/file/d/13H1JoRYUUE8gUDDK4WAS4RZ33cxBykmR/view) |
-| 40 | সীরাতে রসূল আকরাম সাঃ–সাইয়েদ আবুল হাসান আলী নদভী.pdf | আবুল হাসান নদবী | 11.9 MB | [Open in Drive](https://drive.google.com/file/d/10itJKZdgRml8sylAg3SElhShb45I926X/view) |
+| 35 | আফগানিস্তানে আমি আল্লাহকে দেখেছি.pdf | আফগানিস্তান | 10.0 MB | [Open in Drive](https://drive.google.com/file/d/1WbkM6zL6pA7QJAXqZSYPtkAMhKzeZQO2/view) |
+| 36 | আফগানিস্তানের শ্রেষ্ঠ গল্প.pdf | আফগানিস্তান | 4.7 MB | [Open in Drive](https://drive.google.com/file/d/1rhdaj3V3phYo5OJtflNkp8QyKjNt1vtG/view) |
+| 37 | ইন দ্যা হ্যান্ড অফ তালেবান-ইভন রিডলি.pdf | আফগানিস্তান | 7.5 MB | [Open in Drive](https://drive.google.com/file/d/1PV1SVPWDUW9HLoEG2KoudYrBQI5d6pAG/view) |
+| 38 | সীরাতে সরওয়ারে আলম ৫ম খণ্ড – সাইয়েদ আবুল আলা মওদুদী.pdf | আবুল আলা মওদুদী | 8.7 MB | [Open in Drive](https://drive.google.com/file/d/1YgcULjz9VIdLkBiGHMvvtrvP3x65qavC/view) |
+| 39 | সীরাতে রসূল আকরাম (সা.) – সাইয়েদ আবুল হাসান আলী নদভী.pdf | আবুল হাসান নদবী | 11.9 MB | [Open in Drive](https://drive.google.com/file/d/1nUaglTpZjcJbFc_wxw9D7mZJR0adHbbm/view) |
+| 40 | সীরাতে রসূল আকরাম সাঃ–সাইয়েদ আবুল হাসান আলী নদভী.pdf | আবুল হাসান নদবী | 11.9 MB | [Open in Drive](https://drive.google.com/file/d/15gOhitDtpwkYIY1-RZtEpI6EwMV_vqxc/view) |
 | 41 | আল-বিদায়া অন নিহায়া (01) নং খণ্ড.pdf | আল বিদায়া অননিহায়য়া ইসলামের আদি-অন্ত ইতিহাস | 24.6 MB | [Open in Drive](https://drive.google.com/file/d/17TIcV1ESdZiVRZQmpOwH89QVSR0ouuLY/view) |
 | 42 | আল-বিদায়া অন নিহায়া (02) নং খণ্ড.pdf | আল বিদায়া অননিহায়য়া ইসলামের আদি-অন্ত ইতিহাস | 22.0 MB | [Open in Drive](https://drive.google.com/file/d/17gceQNKqGOXkUvOTaap7_ztLj8XdQSQb/view) |
 | 43 | আল-বিদায়া অন নিহায়া (03) নং খণ্ড.pdf | আল বিদায়া অননিহায়য়া ইসলামের আদি-অন্ত ইতিহাস | 19.9 MB | [Open in Drive](https://drive.google.com/file/d/17jil_6DqJbiOOt7bMYe1hi4Q2C_7v2uD/view) |

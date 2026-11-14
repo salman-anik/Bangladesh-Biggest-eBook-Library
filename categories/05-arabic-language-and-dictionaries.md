@@ -17,10 +17,10 @@
 
 | # | Book Name | Subcategory / Author | Size | Drive Link |
 |---:|---|---|---:|---|
-| 1 | Arbi to English Dictionary(আরবি-বাংলা অভিধান).pdf | General | 823.5 KB | [Open in Drive](https://drive.google.com/file/d/13c9lBQhfR9AHD01_Cds9oFdhy83_ZRB1/view) |
-| 2 | vocabulary-of-madinah-arabic.pdf | General | 2.9 MB | [Open in Drive](https://drive.google.com/file/d/11RbCRFvAGYVWy8cuewa1CZtW9LTx5eWn/view) |
-| 3 | আধুনিক আরবী-বাংলা অভিধান.pdf | General | 40.3 MB | [Open in Drive](https://drive.google.com/file/d/1gdVwyDRfkQbfs1P0SEX1qs-sWjcJWaWd/view) |
-| 4 | আলকুরানের সংক্ষিপ্ত অভিধান.pdf | General | 349.9 KB | [Open in Drive](https://drive.google.com/file/d/1K8YaIDuF8gxZWjglLkDYQTk9Lt6JUF-F/view) |
+| 1 | Arbi to English Dictionary(আরবি-বাংলা অভিধান).pdf | General | 823.5 KB | [Open in Drive](https://drive.google.com/file/d/1bJPNBATeBsjgkQ1S7-wvaIpoZ56-NVpf/view) |
+| 2 | vocabulary-of-madinah-arabic.pdf | General | 2.9 MB | [Open in Drive](https://drive.google.com/file/d/1wsiA1_P30vI-Xxo5k1lIW9c0xi26jBav/view) |
+| 3 | আধুনিক আরবী-বাংলা অভিধান.pdf | General | 40.3 MB | [Open in Drive](https://drive.google.com/file/d/1qcQvkg8FNWuXVND4bmJ02eetVXGEUEkJ/view) |
+| 4 | আলকুরানের সংক্ষিপ্ত অভিধান.pdf | General | 349.9 KB | [Open in Drive](https://drive.google.com/file/d/1aGM9IfNv-Mx_AzegLDo07c3dmKqcb5Mb/view) |
 | 5 | Bangla Academy Bengali-English Dictionary \[v1\].pdf | অভিধান | 39.7 MB | [Open in Drive](https://drive.google.com/file/d/13OpheEMyLQg5ipYbgDfICw1UWMH3yJkZ/view) |
 | 6 | Bangla Academy English-Bangla Dictionary.pdf | অভিধান | 42.0 MB | [Open in Drive](https://drive.google.com/file/d/1X5dwKaGrvQ7Rbk30AAux3JbgTE42jHwP/view) |
 | 7 | CAREY's A Dictionary Of The Bengali Language.pdf | অভিধান | 170.0 MB | [Open in Drive](https://drive.google.com/file/d/1vw7gvzhaCjVLq1-UX3HbJG6uuY_IQiHo/view) |
@@ -70,7 +70,7 @@
 | 51 | সমার্থ শব্দকোষ - অশোক মুখোপাধ্যায়.pdf | অভিধান | 12.5 MB | [Open in Drive](https://drive.google.com/file/d/1x4RpfJUdusqI4KOh4wcn2vKL8S_8qIfP/view) |
 | 52 | সরকারি কাজে ব্যবহারিক বাংলা.pdf | অভিধান | 738.8 KB | [Open in Drive](https://drive.google.com/file/d/1uk6TWFry2HpfYpNLdJn81BrrbRtciWtP/view) |
 | 53 | সাহিত্যের শব্দার্থকোষ - সুরভি বন্দ্যোপাধ্যায়.pdf | অভিধান | 12.1 MB | [Open in Drive](https://drive.google.com/file/d/1vCuyOqp0FJ3jXkt-drFsvDFbxEoO3RRi/view) |
-| 54 | কুরআন অর্থ বুঝার সহজ অভিধান-আবু বকর জাকারিয়া.pdf | আবু বকর জাকারিয়া | 2.1 MB | [Open in Drive](https://drive.google.com/file/d/15tOeJk47jwMiDd1r8TwPmQgNNKpqHSTj/view) |
+| 54 | কুরআন অর্থ বুঝার সহজ অভিধান-আবু বকর জাকারিয়া.pdf | আবু বকর জাকারিয়া | 2.1 MB | [Open in Drive](https://drive.google.com/file/d/1-wG_fiM6ygH4NZT2qRtO81JcnfT56yZT/view) |
 | 55 | Esho Arbi Shikhi.pdf | আরবী ভাষা শিক্ষা বই | 9.5 MB | [Open in Drive](https://drive.google.com/file/d/1IJt1P89vjzo2pVDQz-6pELzrc_FLbkMr/view) |
 | 56 | আদদুরুসুল আরাবিয়্যা-1.pdf | আরবী ভাষা শিক্ষা বই | 9.1 MB | [Open in Drive](https://drive.google.com/file/d/1Bi6Icj1Opum0JHkdxhxqY9C7k8OE4snL/view) |
 | 57 | আদদুরুসুল আরাবিয়্যা-2.pdf | আরবী ভাষা শিক্ষা বই | 13.4 MB | [Open in Drive](https://drive.google.com/file/d/1BDmEETZXDL8lfDii047Gq3XPXPp1ja05/view) |

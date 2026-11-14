@@ -79,55 +79,55 @@
 | 25 | শূন্যস্থান থেকে স্রষ্টার দূরত্ব.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 97.6 KB | [Open in Drive](https://drive.google.com/file/d/1IKGL0_F7crTMEG5lYo1dQ7dKOGfLZwf0/view) |
 | 26 | সাইন্স ফ্রম আল কোরআন.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 10.1 MB | [Open in Drive](https://drive.google.com/file/d/1JwIBFSd1P72ygU3tzEwvScSJgIMpBG7C/view) |
 | 27 | হাদিস সংকলনের ইতিহাস .pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 15.3 MB | [Open in Drive](https://drive.google.com/file/d/1JUZiv9-KyXyRD9zVM2LxIxSK2_DyQg7B/view) |
-| 28 | Quranic grammar(কুরআনের ব্যাকরণ). PDF | General | 20.5 MB | [Open in Drive](https://drive.google.com/file/d/1BpsdFzTMqhOK3LSJ5B8_WcEbC7XM0_pY/view) |
-| 29 | আপনি কুরআন কিভাবে পড়বেন.pdf | General | 801.4 KB | [Open in Drive](https://drive.google.com/file/d/1l02DYjsZinFVB44XRo7BPF8Wn6wyVOsR/view) |
-| 30 | আমলে কোরআনী রুহানী চিকিৎসা.pdf | General | 5.4 MB | [Open in Drive](https://drive.google.com/file/d/12vOlUGpFcgtuo-wuef2jnIvIe8PqpWEE/view) |
-| 31 | আল কুরআন দ্য চ্যালেঞ্জ মহাকাশ ১ম খণ্ড – কাজী জাহান মিয়া.pdf | General | 8.8 MB | [Open in Drive](https://drive.google.com/file/d/15gEyEK2W6p7Dax9PGSW2sjmaenV6wKkS/view) |
-| 32 | আল কুরআন দ্য চ্যালেঞ্জ মহাকাশ ২য় খণ্ড – কাজী জাহান মিয়া.pdf | General | 9.3 MB | [Open in Drive](https://drive.google.com/file/d/1eonsbqTMLm8llUzmjkO_dIbHYuPCGNtx/view) |
-| 33 | আল কুরআন দ্যা আলটিমেট মিরাক্কেল(অলৌকিক কিতাব).pdf | General | 2.1 MB | [Open in Drive](https://drive.google.com/file/d/1N6CMuf-nwuHLYwMh_ebyGE7Y5uPLlrJ5/view) |
-| 34 | আল কুরআনে বিজ্ঞান.pdf | General | 16.9 MB | [Open in Drive](https://drive.google.com/file/d/1DMvHcOTuWebFDwyfhGxLpTmAD3nEiyzO/view) |
-| 35 | আল কুরআনের উদাহরণ.pdf | General | 4.3 MB | [Open in Drive](https://drive.google.com/file/d/1FhHCJo2lHdea1HLS81w5684cGEwbcwrW/view) |
-| 36 | আল কুরআনের দু'আ.pdf | General | 2.3 MB | [Open in Drive](https://drive.google.com/file/d/1mqfDArYDRSGyNoQdo9-nvMKgQb8VKHWZ/view) |
-| 37 | আল কুরআনের শব্দার্থ–২০.pdf | General | 415.9 KB | [Open in Drive](https://drive.google.com/file/d/14N0hcluB-AOvFwDOE3I8qfJsXwx51aqT/view) |
-| 38 | আল কুরআনের শিল্পিক সৌন্দর্য–সাইয়েদ কুতুব.pdf | General | 8.6 MB | [Open in Drive](https://drive.google.com/file/d/11faBaru2-2D2iFNfsLffVXNVF09nNZZg/view) |
-| 39 | আল-কুরআনে কিয়ামতের দৃশ্য.pdf | General | 11.9 MB | [Open in Drive](https://drive.google.com/file/d/12VhDwPEv4_hMHvctFUqZVDRDjc5etrZ1/view) |
-| 40 | আল-কোরআন এক মহাবিস্ময়.pdf | General | 2.7 MB | [Open in Drive](https://drive.google.com/file/d/13QrG36TNuWl1DlBFMpnFLnsIN_MUFNPQ/view) |
-| 41 | কুরআন অধ্যয়ন সহায়িকা–খুররাম মুরাদ.pdf | General | 3.7 MB | [Open in Drive](https://drive.google.com/file/d/1-jelXKjj8W8oUg3b3ubnnL51rJ9FQYZS/view) |
-| 42 | কুরআন ও আধুনিক বিজ্ঞান.pdf | General | 1.7 MB | [Open in Drive](https://drive.google.com/file/d/1_GrBKGfY-HOMLZUviTmw_s2uliboulF_/view) |
-| 43 | কুরআন ও সুন্নাহর আলোকে রোগীদের জন্য সুসংবাদ.pdf | General | 917.9 KB | [Open in Drive](https://drive.google.com/file/d/1ii7MAhaiYRNExxNTypsJIAMbiKgla0-7/view) |
-| 44 | কুরআন ও সুন্নাহর দৃষ্টিকোণে স্বপ্ন ও তার ব্যাখ্যা.pdf | General | 959.5 KB | [Open in Drive](https://drive.google.com/file/d/1NwQg4XNIS4DGWSMprmzMm03q1zQ6L8ja/view) |
-| 45 | কুরআন ও হাদিসের আলোকে পারিবারিক জীবন.pdf | General | 5.2 MB | [Open in Drive](https://drive.google.com/file/d/1mWn2EPS6Qcpeb0gSfsBxkHwflGaoHr7_/view) |
-| 46 | কুরআন কি আল্লাহর বাণী.pdf | General | 2.4 MB | [Open in Drive](https://drive.google.com/file/d/1DMG7qR4qhykCDqvMkoEoaQO6uRMIBetK/view) |
-| 47 | কুরআন দিয়ে নিজের চিকিৎসা.pdf | General | 32.0 MB | [Open in Drive](https://drive.google.com/file/d/15wafMP5BNRPzqWox0TqIgKIYr0pbU9kc/view) |
-| 48 | কুরআন বুঝার সহায়িকা.pdf | General | 33.7 MB | [Open in Drive](https://drive.google.com/file/d/1-mC57Wze-cqhnaeMwp1eZyZXFYumnApS/view) |
-| 49 | কুরআন বুঝে পড়া উচিত-জাকির নায়েক.pdf | General | 2.2 MB | [Open in Drive](https://drive.google.com/file/d/1OxLwcnT_VBn_OUAF8QcNU_BPnNZqtjj9/view) |
-| 50 | কুরআন ব্যাখ্যার মূলনীতি-মুহাদ্দিস দেহলভী.pdf | General | 4.0 MB | [Open in Drive](https://drive.google.com/file/d/15xmzqvbiJgzA2n6ZGdU2E2SiQIBo3ZrE/view) |
-| 51 | কুরআন মাজীদের কিছু গোপণ রহস্য.pdf | General | 13.7 MB | [Open in Drive](https://drive.google.com/file/d/1ckVyujCua1cTrIjYrPy3QjsjEzLpkx-Y/view) |
-| 52 | কুরআন হাদিস সংকলনের ইতিহাস–এ কে এম এনামুল হক.pdf | General | 4.4 MB | [Open in Drive](https://drive.google.com/file/d/12BDl1z5RUFD9yFf2EyUSR8mtumoPPNeW/view) |
-| 53 | কুরআন হাদীসের আলোকে যাদুটোনা ঝাড়ফুঁক জ্বীনের আছর তাবিজ তুমার.pdf | General | 5.5 MB | [Open in Drive](https://drive.google.com/file/d/1cYDjkXdjRaigUfRn_ARDcQsJTkOlL8gq/view) |
-| 54 | কুরআন হিফজ করবেন যেভাবে-ড. রাগিব সারজানী.pdf | General | 1.8 MB | [Open in Drive](https://drive.google.com/file/d/1ba_g-zC47IT49oxAzH3qev9H8nUrrwS4/view) |
-| 55 | কুরআন হিফজ.pdf | General | 2.3 MB | [Open in Drive](https://drive.google.com/file/d/1be57suO1B7458WSBJ0YZ4XCq0F70ag5m/view) |
-| 56 | কুরআন-হাদীসের ৩৫টি ভবিষ্যদ্বাণী.pdf | General | 28.3 MB | [Open in Drive](https://drive.google.com/file/d/1T4aTBnCngRzFEf0Ft7YvYD8Yl8Vk4e4A/view) |
-| 57 | কুরআনি ভাবনা.pdf | General | 1.1 MB | [Open in Drive](https://drive.google.com/file/d/18NgUcraKTfp4nJBoe7Js_XnzzzU4wnqF/view) |
-| 58 | কুরআনীয় আরবি শিক্ষা.pdf | General | 2.5 MB | [Open in Drive](https://drive.google.com/file/d/12dhw7IJqb3dCv7Tmkp2pgIHPeNMgGxVg/view) |
-| 59 | কুরআনের চিরন্তন মুজেজা.pdf | General | 9.1 MB | [Open in Drive](https://drive.google.com/file/d/12GDLm9I4K5iboQ1gdkN9oFsscXXuAaSb/view) |
-| 60 | কুরআনের মহত্ত্ব ও মর্যাদা.pdf | General | 3.9 MB | [Open in Drive](https://drive.google.com/file/d/13mZnHwRiSIXr9rwWNCjljMZm99z51KMu/view) |
-| 61 | কোরআনের অলৌকিকত্ব.pdf | General | 475.0 KB | [Open in Drive](https://drive.google.com/file/d/13pmJoaMyZ-vgLV1JYtisizHaEkE_mIKB/view) |
-| 62 | কোরআনের আয়নায় বিম্বিত রাসুল(স) - অধ্যাপক মফিজুর রহমান.pdf | General | 4.9 MB | [Open in Drive](https://drive.google.com/file/d/148BVKNd4tUESz3fvO4n_SAvWVe2DqjOT/view) |
-| 63 | কোরআনের ১৬০ মুজিজা.pdf | General | 1.0 MB | [Open in Drive](https://drive.google.com/file/d/1JgJJji7a9IRgWXviOU7wGQYNPq6F1R9T/view) |
-| 64 | খাযায়েনে কুরআন ও হাদিস.pdf | General | 1.5 MB | [Open in Drive](https://drive.google.com/file/d/1LzD2tKVAcDVDJ4flhB9Ucf7IJbsL1WZB/view) |
-| 65 | জামালুল কোরআন.pdf | General | 1.2 MB | [Open in Drive](https://drive.google.com/file/d/1vg3Q-gSfMykM-9rkpeSS-zzmCe7JK7SY/view) |
+| 28 | Quranic grammar(কুরআনের ব্যাকরণ). PDF | General | 20.5 MB | [Open in Drive](https://drive.google.com/file/d/1Na6LmoMjAGCId7HmFIbV8CDJQyMFq1hg/view) |
+| 29 | আপনি কুরআন কিভাবে পড়বেন.pdf | General | 801.4 KB | [Open in Drive](https://drive.google.com/file/d/160OlKuVK7OGMVwpFEHthIbvs7OGPNuXD/view) |
+| 30 | আমলে কোরআনী রুহানী চিকিৎসা.pdf | General | 5.4 MB | [Open in Drive](https://drive.google.com/file/d/1wdiIU-CmXpfJcTJV5hE_pjg2foJr5vp3/view) |
+| 31 | আল কুরআন দ্য চ্যালেঞ্জ মহাকাশ ১ম খণ্ড – কাজী জাহান মিয়া.pdf | General | 8.8 MB | [Open in Drive](https://drive.google.com/file/d/1i-vTc_Knf2my1kofOCBn5vUp-_zWIc63/view) |
+| 32 | আল কুরআন দ্য চ্যালেঞ্জ মহাকাশ ২য় খণ্ড – কাজী জাহান মিয়া.pdf | General | 9.3 MB | [Open in Drive](https://drive.google.com/file/d/1mPsYuqSmOfIeEUESZXFqAoCrxGpHqZKr/view) |
+| 33 | আল কুরআন দ্যা আলটিমেট মিরাক্কেল(অলৌকিক কিতাব).pdf | General | 2.1 MB | [Open in Drive](https://drive.google.com/file/d/1dHQ_QcwADe22AVeJZW1f3_Z561qFKWTy/view) |
+| 34 | আল কুরআনে বিজ্ঞান.pdf | General | 16.9 MB | [Open in Drive](https://drive.google.com/file/d/1cZDWACIN7RVWuZWgbCJbFb3-ENglnsXR/view) |
+| 35 | আল কুরআনের উদাহরণ.pdf | General | 4.3 MB | [Open in Drive](https://drive.google.com/file/d/1q8w59zx8SNrn8zFS8IGN2wWW1O2Oq9DW/view) |
+| 36 | আল কুরআনের দু'আ.pdf | General | 2.3 MB | [Open in Drive](https://drive.google.com/file/d/1c3VaUUyMcFoyZOMHD_rs4g0F4bZNEOwg/view) |
+| 37 | আল কুরআনের শব্দার্থ–২০.pdf | General | 415.9 KB | [Open in Drive](https://drive.google.com/file/d/10Gv1FNSWzfzrucpx1OHXjybtU1CSHzjh/view) |
+| 38 | আল কুরআনের শিল্পিক সৌন্দর্য–সাইয়েদ কুতুব.pdf | General | 8.6 MB | [Open in Drive](https://drive.google.com/file/d/1jAKFwikATjRD2lYnzlN84A2I8jyVXgp9/view) |
+| 39 | আল-কুরআনে কিয়ামতের দৃশ্য.pdf | General | 11.9 MB | [Open in Drive](https://drive.google.com/file/d/1NnCRCGWY1KcrMjSDWaWnadzcoycFfbHj/view) |
+| 40 | আল-কোরআন এক মহাবিস্ময়.pdf | General | 2.7 MB | [Open in Drive](https://drive.google.com/file/d/1Tvblv89U2UIT5ulbBaNz7gHf5mGoX4hH/view) |
+| 41 | কুরআন অধ্যয়ন সহায়িকা–খুররাম মুরাদ.pdf | General | 3.7 MB | [Open in Drive](https://drive.google.com/file/d/1m-i2zf_XW2-YjxlROnmkxDdjsrpu5ydJ/view) |
+| 42 | কুরআন ও আধুনিক বিজ্ঞান.pdf | General | 1.7 MB | [Open in Drive](https://drive.google.com/file/d/1_gfgm8IYu2yucHq4cbx53okMg4R1K6s5/view) |
+| 43 | কুরআন ও সুন্নাহর আলোকে রোগীদের জন্য সুসংবাদ.pdf | General | 917.9 KB | [Open in Drive](https://drive.google.com/file/d/1CkH5KAdUnXP4tvEdfDxStLDTFKxO3dAj/view) |
+| 44 | কুরআন ও সুন্নাহর দৃষ্টিকোণে স্বপ্ন ও তার ব্যাখ্যা.pdf | General | 959.5 KB | [Open in Drive](https://drive.google.com/file/d/1KvmDlfIce2IZ_Npw30vDwELR5FnLVb6J/view) |
+| 45 | কুরআন ও হাদিসের আলোকে পারিবারিক জীবন.pdf | General | 5.2 MB | [Open in Drive](https://drive.google.com/file/d/1aoBuO4Vjl6I15p0_WIrpAMwXl0lO8hYy/view) |
+| 46 | কুরআন কি আল্লাহর বাণী.pdf | General | 2.4 MB | [Open in Drive](https://drive.google.com/file/d/1aBPgMuUZlh6tk0FTuzwMDik43dUHp5oW/view) |
+| 47 | কুরআন দিয়ে নিজের চিকিৎসা.pdf | General | 32.0 MB | [Open in Drive](https://drive.google.com/file/d/1ApNvdMGU48n0qOk1hYfJq7a1jZMptTo3/view) |
+| 48 | কুরআন বুঝার সহায়িকা.pdf | General | 33.7 MB | [Open in Drive](https://drive.google.com/file/d/1h0DleuH9l6FnyeJ9UjfRAzpv_0e69IgB/view) |
+| 49 | কুরআন বুঝে পড়া উচিত-জাকির নায়েক.pdf | General | 2.2 MB | [Open in Drive](https://drive.google.com/file/d/18n8SgQaD6PbDgYMIFavLLdJkIfv222Lv/view) |
+| 50 | কুরআন ব্যাখ্যার মূলনীতি-মুহাদ্দিস দেহলভী.pdf | General | 4.0 MB | [Open in Drive](https://drive.google.com/file/d/1Xh6jpkjcdXwk77eQHUj4736Xfh4EMX9V/view) |
+| 51 | কুরআন মাজীদের কিছু গোপণ রহস্য.pdf | General | 13.7 MB | [Open in Drive](https://drive.google.com/file/d/1jESEDKBRQpsUlm9aUk8VoCJPaHaY1ksx/view) |
+| 52 | কুরআন হাদিস সংকলনের ইতিহাস–এ কে এম এনামুল হক.pdf | General | 4.4 MB | [Open in Drive](https://drive.google.com/file/d/1Oi3lt8yzTh4wMDqkEAvIaZ5FX1deAM8y/view) |
+| 53 | কুরআন হাদীসের আলোকে যাদুটোনা ঝাড়ফুঁক জ্বীনের আছর তাবিজ তুমার.pdf | General | 5.5 MB | [Open in Drive](https://drive.google.com/file/d/1GSQhVTX-3L6O6NVj63SXxBpu6NS1IdgX/view) |
+| 54 | কুরআন হিফজ করবেন যেভাবে-ড. রাগিব সারজানী.pdf | General | 1.8 MB | [Open in Drive](https://drive.google.com/file/d/1hj5QCFmbCiTF_f5MuRbA38YcxpEuRgjw/view) |
+| 55 | কুরআন হিফজ.pdf | General | 2.3 MB | [Open in Drive](https://drive.google.com/file/d/1XHoCD5U7nWpMX5xhLaKeqMWWZscrhoXc/view) |
+| 56 | কুরআন-হাদীসের ৩৫টি ভবিষ্যদ্বাণী.pdf | General | 28.3 MB | [Open in Drive](https://drive.google.com/file/d/1Ti_R_wt3ILCjNXkZH_wXMwibnkGoqSl4/view) |
+| 57 | কুরআনি ভাবনা.pdf | General | 1.1 MB | [Open in Drive](https://drive.google.com/file/d/1lYl2IxZbE6OOhzDAWSKo3dw1CltVT_PY/view) |
+| 58 | কুরআনীয় আরবি শিক্ষা.pdf | General | 2.5 MB | [Open in Drive](https://drive.google.com/file/d/1izT8HFCNmzzDSf1-0HwhBmKcqaHt6p_V/view) |
+| 59 | কুরআনের চিরন্তন মুজেজা.pdf | General | 9.1 MB | [Open in Drive](https://drive.google.com/file/d/1A0wqLAxXjd_fgRk2QTuVNb8Or0UGCRpo/view) |
+| 60 | কুরআনের মহত্ত্ব ও মর্যাদা.pdf | General | 3.9 MB | [Open in Drive](https://drive.google.com/file/d/1Cm03NenNgekIwLTVDQi1N2F7rTo9fKwD/view) |
+| 61 | কোরআনের অলৌকিকত্ব.pdf | General | 475.0 KB | [Open in Drive](https://drive.google.com/file/d/1Z4nnfLcC7s3_r4LGb-wcmV9niMUJbrDT/view) |
+| 62 | কোরআনের আয়নায় বিম্বিত রাসুল(স) - অধ্যাপক মফিজুর রহমান.pdf | General | 4.9 MB | [Open in Drive](https://drive.google.com/file/d/1HVre4wAzb8iAnYPjxNrxIc4A1fARpyAl/view) |
+| 63 | কোরআনের ১৬০ মুজিজা.pdf | General | 1.0 MB | [Open in Drive](https://drive.google.com/file/d/1SUGiXgivb08iniPL1PvZPmaBlX2GQiCY/view) |
+| 64 | খাযায়েনে কুরআন ও হাদিস.pdf | General | 1.5 MB | [Open in Drive](https://drive.google.com/file/d/1CQBhiZIwdMYv2Zq2Vcii7WfTAyjeYCMa/view) |
+| 65 | জামালুল কোরআন.pdf | General | 1.2 MB | [Open in Drive](https://drive.google.com/file/d/1TMqWo3oJhMgnaZ2RzFU7ka6nvqo10B3Z/view) |
 | 66 | তফসীরে_নূরুল_কোরআন_WriTeR_.pdf | General | 2.6 MB | [Open in Drive](https://drive.google.com/file/d/1AeVTVP1QG7tSkdzCsuK9PxkiHcnKPaN9/view) |
-| 67 | তালীমুল কুরআন.pdf | General | 4.9 MB | [Open in Drive](https://drive.google.com/file/d/17MjclHDzt9pGyRPU9ISNgBAVV8cv5SMc/view) |
-| 68 | পবিত্র কোরআনে জেরুজালেম.pdf | General | 2.0 MB | [Open in Drive](https://drive.google.com/file/d/1RjIR_qfp_KdBk5nNhyvpA5vDYfhpy9vT/view) |
-| 69 | বিজ্ঞানময় কুরআন.pdf | General | 15.4 MB | [Open in Drive](https://drive.google.com/file/d/1TKj6KxdYbOdJBNngqEWp3RL5S_Nim36Y/view) |
-| 70 | ভুকেইবুলারি অব দ্যা কুরআন (বাংলা).pdf | General | 6.2 MB | [Open in Drive](https://drive.google.com/file/d/1QRQk8EqJbuKwjuDSMJNmCDardcbpYaKn/view) |
-| 71 | মহাগ্রন্থ আল-কুরআন.pdf | General | 2.3 MB | [Open in Drive](https://drive.google.com/file/d/19E1JNBTxLjbhpA5mbDQdXvsqDG9cbdFf/view) |
-| 72 | শিক্ষক ছাড়া কুরআন শিক্ষার পদ্ধতি.pdf | General | 1.1 MB | [Open in Drive](https://drive.google.com/file/d/1QM850ipgJ4KRf6dH25Nh2PnlzhQeyee_/view) |
-| 73 | সভ্যতার উন্থান পতন ও কোরআন.pdf | General | 4.1 MB | [Open in Drive](https://drive.google.com/file/d/1Fkcs_CnT5smlEuA6oN2LGIGMjsmCVS9S/view) |
-| 74 | সাইন্স ফ্রম আল কোরআন.pdf | General | 10.1 MB | [Open in Drive](https://drive.google.com/file/d/1bb31KOfOHO8XG_vyJi_mio9kSSGwZ1Dh/view) |
-| 75 | হাফেজি কুরআন শরীফ-1.pdf | General | 41.2 MB | [Open in Drive](https://drive.google.com/file/d/1VLJHLjcPQYaI2cj4QfRbJ1AguRtjzWqQ/view) |
-| 76 | ২৭ ঘন্টায় কুরআন শিক্ষা.pdf | General | 2.7 MB | [Open in Drive](https://drive.google.com/file/d/1IhBxvrPru3WMKdmORCwzmV6eQFq8VE2a/view) |
+| 67 | তালীমুল কুরআন.pdf | General | 4.9 MB | [Open in Drive](https://drive.google.com/file/d/1Iv3f_gty1Sh1gNd8e_lqjSowaL248I-c/view) |
+| 68 | পবিত্র কোরআনে জেরুজালেম.pdf | General | 2.0 MB | [Open in Drive](https://drive.google.com/file/d/1qB-TKS5O52jkGeI9F0YVpmUIeCjnYwOy/view) |
+| 69 | বিজ্ঞানময় কুরআন.pdf | General | 15.4 MB | [Open in Drive](https://drive.google.com/file/d/10Q_N1o3P9gk8heHrkgsNViLWOtYY1TvV/view) |
+| 70 | ভুকেইবুলারি অব দ্যা কুরআন (বাংলা).pdf | General | 6.2 MB | [Open in Drive](https://drive.google.com/file/d/1T7U5sMBKR8uRUyI0-Go3LbU8iw4RMTDD/view) |
+| 71 | মহাগ্রন্থ আল-কুরআন.pdf | General | 2.3 MB | [Open in Drive](https://drive.google.com/file/d/1tKaOLAJSltXZIFxy_Ca_QeONa85VF4gQ/view) |
+| 72 | শিক্ষক ছাড়া কুরআন শিক্ষার পদ্ধতি.pdf | General | 1.1 MB | [Open in Drive](https://drive.google.com/file/d/1Naf-3U-pStKRVnNFigJvD8E0v3EpB0TG/view) |
+| 73 | সভ্যতার উন্থান পতন ও কোরআন.pdf | General | 4.1 MB | [Open in Drive](https://drive.google.com/file/d/1_1z8Tmt_LztFY65qwaNvQi6REFdxIjpZ/view) |
+| 74 | সাইন্স ফ্রম আল কোরআন.pdf | General | 10.1 MB | [Open in Drive](https://drive.google.com/file/d/1_02_66SjQ0E7-yt1RLvlvlFi-Gfylvhv/view) |
+| 75 | হাফেজি কুরআন শরীফ-1.pdf | General | 41.2 MB | [Open in Drive](https://drive.google.com/file/d/1wG6vslsOvnXQSYuHP41oRAAjnJY1fjRf/view) |
+| 76 | ২৭ ঘন্টায় কুরআন শিক্ষা.pdf | General | 2.7 MB | [Open in Drive](https://drive.google.com/file/d/1EpQVO5bzrNXsvAGTMHEDOI16__lAzqhi/view) |
 | 77 | আলকোরআনের আলোকে আরবি শিক্ষা .pdf | অনেকগুলো ইসলামিক বই এই ফাইলে | 1.7 MB | [Open in Drive](https://drive.google.com/file/d/15llBmdZJk2oDPWViu5jqyLeEf__VdcCU/view) |
 | 78 | কুরআনুল কারিমের কসম করার বিধান.pdf | অনেকগুলো ইসলামিক বই এই ফাইলে | 79.4 KB | [Open in Drive](https://drive.google.com/file/d/1ACpvX57ksmopHxAhPo0labNKmby6K-rw/view) |
 | 79 | কুরআনে আল্লাহ নিজেকে বোঝাতে আমরা শবদটি বযবহার করেছেন কেন.pdf | অনেকগুলো ইসলামিক বই এই ফাইলে | 52.7 KB | [Open in Drive](https://drive.google.com/file/d/1EhK-wXYNoVgyt1B80UC595myDBSIivfT/view) |
@@ -135,9 +135,9 @@
 | 81 | কোরআন ও সুন্নাহ.pdf | অনেকগুলো ইসলামিক বই এই ফাইলে | 1.3 MB | [Open in Drive](https://drive.google.com/file/d/19YCCmgJGQHthc4R-v5L14UREYnShFEUD/view) |
 | 82 | কোরআন কি হাদীস কি.doc | অনেকগুলো ইসলামিক বই এই ফাইলে | 27.5 KB | [Open in Drive](https://drive.google.com/file/d/1EaMtt0hUOgFMwxUiTB2RzA43iAE6grgu/view) |
 | 83 | কোরআন হাদিসের আলোকে সাফাআত.doc | অনেকগুলো ইসলামিক বই এই ফাইলে | 5.8 MB | [Open in Drive](https://drive.google.com/file/d/19BGIs5WFCQJmjKeVAU9X9gzHxTJcylQq/view) |
-| 84 | আই লাভ কুরআন-শাইখ আতিক উল্লাহ.pdf | আতিক উল্লাহ | 49.1 MB | [Open in Drive](https://drive.google.com/file/d/1SGU-gGk5ffW0GqIIYYlLyRCzbMTH0Ur2/view) |
+| 84 | আই লাভ কুরআন-শাইখ আতিক উল্লাহ.pdf | আতিক উল্লাহ | 49.1 MB | [Open in Drive](https://drive.google.com/file/d/1VuMpIbgzBnxyDsgaG8NETppDNS7hWizW/view) |
 | 85 | কুরআনি ভাবনা-শাইখ আতিক উল্লাহ.pdf | আতিক উল্লাহ | 1.1 MB | [Open in Drive](https://drive.google.com/file/d/1ZTQvZDJjN7dyVrZhH1PTTuGfCuvBLna6/view) |
-| 86 | কুরআনের চারটি মৌলিক পরিভাষা-আবুল আলা মওদুদী.pdf | আবুল আলা মওদুদী | 2.9 MB | [Open in Drive](https://drive.google.com/file/d/1Q2LB997ZEJ05rinBgxc5s6wixzQsxNq_/view) |
+| 86 | কুরআনের চারটি মৌলিক পরিভাষা-আবুল আলা মওদুদী.pdf | আবুল আলা মওদুদী | 2.9 MB | [Open in Drive](https://drive.google.com/file/d/1dJQZcVt3RjEXjmK3VLARICaHdpdYMV-A/view) |
 | 87 | কুরআন থেকে নেওয়া জীবনের পাঠ আরিফ আজাদ.pdf | আরিফ আজাদ | 35.1 MB | [Open in Drive](https://drive.google.com/file/d/176aU8yg6URU5HvkM1SrnntayEeQ7K1ae/view) |
 | 88 | আল কুরআন সহজ বাংলা অনুবাদ – আবদুস শহীদ নাসিম.pdf | আল কুরআন এর সরল অনুবাদ | 17.7 MB | [Open in Drive](https://drive.google.com/file/d/1iZbCIl9GkTX1phncozVCYB-5Ko3fQHMQ/view) |
 | 89 | কুরআন শরীফ সরল অনুবাদ.pdf | আল কুরআন এর সরল অনুবাদ | 28.1 MB | [Open in Drive](https://drive.google.com/file/d/1j-n8Ub3XPLL6-JKRzdG1FSzNbCSpWg5m/view) |
