@@ -1876,27 +1876,27 @@
 | 1638 | বাঙ্গালা বচনাভিধান - শ্রীঅমরেন্দ্রনাথ রায় সঙ্কলিত.pdf | বাংলা প্রবাদ প্রবচন | 4.7 MB | [Open in Drive](https://drive.google.com/file/d/1N7WXeHYcXGefcwsQ6hN9sQNao4i_G9j7/view) |
 | 1639 | ভারতের নানান ভাষার প্রবাদ - অঞ্জনাভ দত্ত.pdf | বাংলা প্রবাদ প্রবচন | 3.5 MB | [Open in Drive](https://drive.google.com/file/d/1SXhWR9J0a3yj9qRRgzog_DI7t7EM6Qw6/view) |
 | 1640 | সংক্ষিপ্ত ভাষা-প্রকাশ বাঙ্গালা ব্যাকরণ - সুনীতি কুমার চট্টোপাধ্যায়.pdf | বাংলা প্রবাদ প্রবচন | 12.9 MB | [Open in Drive](https://drive.google.com/file/d/1s5GUC6lkTWq9rACK1jW9V5c-pEYu566x/view) |
-| 1641 | Ajker Neta Shofol Netritter Shoto Koushol.pdf | বাংলা মোটিভেশনাল বই | 6.3 MB | [Open in Drive](https://drive.google.com/file/d/1itIFliXUGb_-uj41k_NkH8THhsBZl_He/view) |
-| 1642 | Body Language by Allan Pease.pdf | বাংলা মোটিভেশনাল বই | 13.8 MB | [Open in Drive](https://drive.google.com/file/d/1iyAHKc-yKN0QUC1TjrLquhDVhpGshkQd/view) |
-| 1643 | Career Bikoshito Jiboner Dar.pdf | বাংলা মোটিভেশনাল বই | 5.6 MB | [Open in Drive](https://drive.google.com/file/d/1j-9c1vm4LdK4b4rLFFuk4U7XP9rVCf5m/view) |
-| 1644 | Eat That Frog by Brian Tracy.pdf | বাংলা মোটিভেশনাল বই | 10.1 MB | [Open in Drive](https://drive.google.com/file/d/1j2iqp2ikMo_-YAkfx16-SC5BaiL-_W23/view) |
-| 1645 | Peramoy Life-er Paracetamol By Jhankar Mahbub.pdf | বাংলা মোটিভেশনাল বই | 12.7 MB | [Open in Drive](https://drive.google.com/file/d/1j3pqMaau7smw5w8FSP8krJBvsreo5oEK/view) |
-| 1646 | Rich Dad Poor Dad By Robert T. Kiyosaki.pdf | বাংলা মোটিভেশনাল বই | 32.3 MB | [Open in Drive](https://drive.google.com/file/d/1j4Kpt6XsBnOW4ji4pEIU43rrSIxnY6xv/view) |
-| 1647 | The 5 Second Rule by Mel Robbins.pdf | বাংলা মোটিভেশনাল বই | 2.5 MB | [Open in Drive](https://drive.google.com/file/d/1j4qJEfwW3dj20tCYK9qLJ9RTxOlcrGql/view) |
-| 1648 | The 7 Habits of Highly Effective Teens by Sean Covey.pdf | বাংলা মোটিভেশনাল বই | 19.5 MB | [Open in Drive](https://drive.google.com/file/d/1jH9jWvgCA6fp7Ne0fQyAb3Le8R25pktP/view) |
-| 1649 | The Art of Thinking Clearly By Rolf Dobelli.pdf | বাংলা মোটিভেশনাল বই | 32.7 MB | [Open in Drive](https://drive.google.com/file/d/1jJ8kWsnYfrnPS4UoAIiRSxBkv6x0K8gB/view) |
-| 1650 | The Business School by Robert Kiyosaki.pdf | বাংলা মোটিভেশনাল বই | 19.9 MB | [Open in Drive](https://drive.google.com/file/d/1jJI1fxAX3METj3017qq1FZApdggWgTOj/view) |
-| 1651 | The Monk Who Sold His Ferrari by Robin Sharma.pdf | বাংলা মোটিভেশনাল বই | 9.3 MB | [Open in Drive](https://drive.google.com/file/d/1jOoCegsvPSFcWA-jNu3ppmFxf61KlxWi/view) |
-| 1652 | The One Minute Manager by Ken Blanchard and Spencer Johnson.pdf | বাংলা মোটিভেশনাল বই | 9.9 MB | [Open in Drive](https://drive.google.com/file/d/1jRltxBKoacL94d89prtO7tDIkYxGcUwu/view) |
-| 1653 | The Power of Positive Thinking by Norman Vincent Peale.pdf | বাংলা মোটিভেশনাল বই | 12.1 MB | [Open in Drive](https://drive.google.com/file/d/1jSYndMbIlZfZr3yicHoKrU3_Jrt8vxFf/view) |
-| 1654 | The Power of Your Subconscious Mind by Joseph Murphy.pdf | বাংলা মোটিভেশনাল বই | 9.4 MB | [Open in Drive](https://drive.google.com/file/d/1jXZHaAudTjXDYBE6mDtqiorz2Y89oSQ-/view) |
-| 1655 | Warren Buffett_s Management Secrets Proven Tools for Personal and Business Success.pdf | বাংলা মোটিভেশনাল বই | 8.0 MB | [Open in Drive](https://drive.google.com/file/d/1jgFUD3I8J9Zzo6wjaR3O68-1RrediyWL/view) |
-| 1656 | Who Moved My Cheese by Spencer Johnson.pdf | বাংলা মোটিভেশনাল বই | 8.9 MB | [Open in Drive](https://drive.google.com/file/d/1jiuo-Jek9O8GQ23pj9y3NBBOIAN8DGCw/view) |
-| 1657 | You Can Win by Shiv Khera.pdf | বাংলা মোটিভেশনাল বই | 6.7 MB | [Open in Drive](https://drive.google.com/file/d/1jp_OzuzyH1ntl4mFwg8bH2YJ4M0KAVMr/view) |
-| 1658 | Zero to One by Blake Masters and Peter Thiel.pdf | বাংলা মোটিভেশনাল বই | 32.8 MB | [Open in Drive](https://drive.google.com/file/d/1jr-yhR_z__4ttOHtVxLKfUVjqieCu1bw/view) |
-| 1659 | কমিউনিকেশন, Know টেনশন.pdf | বাংলা মোটিভেশনাল বই | 5.6 MB | [Open in Drive](https://drive.google.com/file/d/1jwr8f2CNh-E-fWjvVnw0W9EQLKh2cOti/view) |
-| 1660 | না বলতে শিখুন.pdf | বাংলা মোটিভেশনাল বই | 7.7 MB | [Open in Drive](https://drive.google.com/file/d/1jyvr8DRv_QgZr8h9yO84lzGYtW6DkLs0/view) |
-| 1661 | ভাইরে আপুরে!!! (বই, লেখাপড়া, জীবন) - শাব্বির আহসান.pdf | বাংলা মোটিভেশনাল বই | 33.4 MB | [Open in Drive](https://drive.google.com/file/d/1jz2kprXi9cb7Y4cxKJYhM2H_UV9QQIx_/view) |
+| 1641 | Ajker Neta Shofol Netritter Shoto Koushol.pdf | বাংলা মোটিভেশনাল বই | 6.3 MB | [Open in Drive](https://drive.google.com/file/d/1Gf1QjvSxF1j0cdoSZ9OwW7YxQKmoxjpY/view) |
+| 1642 | Body Language by Allan Pease.pdf | বাংলা মোটিভেশনাল বই | 13.8 MB | [Open in Drive](https://drive.google.com/file/d/1DFcMTdYnzEihMf83VLTuCJAgEbdzNRUp/view) |
+| 1643 | Career Bikoshito Jiboner Dar.pdf | বাংলা মোটিভেশনাল বই | 5.6 MB | [Open in Drive](https://drive.google.com/file/d/1KSyqE91FlSNKwQyYN4PS8KhJQHUczwvh/view) |
+| 1644 | Eat That Frog by Brian Tracy.pdf | বাংলা মোটিভেশনাল বই | 10.1 MB | [Open in Drive](https://drive.google.com/file/d/1WHLQJjJeiCTySoVE4UELt_CTsr29Pn2h/view) |
+| 1645 | Peramoy Life-er Paracetamol By Jhankar Mahbub.pdf | বাংলা মোটিভেশনাল বই | 12.7 MB | [Open in Drive](https://drive.google.com/file/d/10STn75L5XbXVKj5DUDKwOr3IWkQ_Jg5P/view) |
+| 1646 | Rich Dad Poor Dad By Robert T. Kiyosaki.pdf | বাংলা মোটিভেশনাল বই | 32.3 MB | [Open in Drive](https://drive.google.com/file/d/1pKdvf7SgqPxRYPC_1CW_XJ55ikcu5Dxe/view) |
+| 1647 | The 5 Second Rule by Mel Robbins.pdf | বাংলা মোটিভেশনাল বই | 2.5 MB | [Open in Drive](https://drive.google.com/file/d/17kBjS9YZAjPJx2kzi2N6PExQXP-woRGI/view) |
+| 1648 | The 7 Habits of Highly Effective Teens by Sean Covey.pdf | বাংলা মোটিভেশনাল বই | 19.5 MB | [Open in Drive](https://drive.google.com/file/d/19ge9SEUPofCdIluELlEV2UR8gBt6zY3g/view) |
+| 1649 | The Art of Thinking Clearly By Rolf Dobelli.pdf | বাংলা মোটিভেশনাল বই | 32.7 MB | [Open in Drive](https://drive.google.com/file/d/1yNqioLKEsjkKLyT0rFsnj5JLEUjMcCtB/view) |
+| 1650 | The Business School by Robert Kiyosaki.pdf | বাংলা মোটিভেশনাল বই | 19.9 MB | [Open in Drive](https://drive.google.com/file/d/1XgAAyNgjYCnwU3jTcOCZPQ2QqsQi9uwg/view) |
+| 1651 | The Monk Who Sold His Ferrari by Robin Sharma.pdf | বাংলা মোটিভেশনাল বই | 9.3 MB | [Open in Drive](https://drive.google.com/file/d/1yMF_HRRejqV47O_XEYvAQpua3rYk8EBi/view) |
+| 1652 | The One Minute Manager by Ken Blanchard and Spencer Johnson.pdf | বাংলা মোটিভেশনাল বই | 9.9 MB | [Open in Drive](https://drive.google.com/file/d/1ju0Y8BIioYiyDLUu_LjlnjCxj7cyqDGL/view) |
+| 1653 | The Power of Positive Thinking by Norman Vincent Peale.pdf | বাংলা মোটিভেশনাল বই | 12.1 MB | [Open in Drive](https://drive.google.com/file/d/1ScSET99ztEubpd3d4cbxFHiejNu2u4aR/view) |
+| 1654 | The Power of Your Subconscious Mind by Joseph Murphy.pdf | বাংলা মোটিভেশনাল বই | 9.4 MB | [Open in Drive](https://drive.google.com/file/d/1aAxrYf7pJiV1ak1-srN5NPSAR_2t9mxt/view) |
+| 1655 | Warren Buffett_s Management Secrets Proven Tools for Personal and Business Success.pdf | বাংলা মোটিভেশনাল বই | 8.0 MB | [Open in Drive](https://drive.google.com/file/d/1T5_ubNjx8YJjuq7chvQCa2Swje9Ac4yN/view) |
+| 1656 | Who Moved My Cheese by Spencer Johnson.pdf | বাংলা মোটিভেশনাল বই | 8.9 MB | [Open in Drive](https://drive.google.com/file/d/1EL8G2VGigyHEUSBbU_Ga0V4buvtXYG3S/view) |
+| 1657 | You Can Win by Shiv Khera.pdf | বাংলা মোটিভেশনাল বই | 6.7 MB | [Open in Drive](https://drive.google.com/file/d/1t2wpEqs5YqZxLSy-ggWaYe0dhjZdmPQv/view) |
+| 1658 | Zero to One by Blake Masters and Peter Thiel.pdf | বাংলা মোটিভেশনাল বই | 32.8 MB | [Open in Drive](https://drive.google.com/file/d/12-TfDSfWsgEtJWfsm4Njn4L8Ig5IkbI9/view) |
+| 1659 | কমিউনিকেশন, Know টেনশন.pdf | বাংলা মোটিভেশনাল বই | 5.6 MB | [Open in Drive](https://drive.google.com/file/d/1gXc22_yj4BKQ3PNzWq_Ljxe_04iqBCwh/view) |
+| 1660 | না বলতে শিখুন.pdf | বাংলা মোটিভেশনাল বই | 7.7 MB | [Open in Drive](https://drive.google.com/file/d/1bxKmuEGK1HIXreah2yr2WK1KkHGwPkgN/view) |
+| 1661 | ভাইরে আপুরে!!! (বই, লেখাপড়া, জীবন) - শাব্বির আহসান.pdf | বাংলা মোটিভেশনাল বই | 33.4 MB | [Open in Drive](https://drive.google.com/file/d/1os61aLl842vgPWL0H6qep636SFieIToF/view) |
 | 1662 | 001.jpg | বাংলাদেশ | 82.9 KB | [Open in Drive](https://drive.google.com/file/d/1_d69Vxvu8Wo0J8lUfJ7OUmtikwvlS1Kl/view) |
 | 1663 | 002.jpg | বাংলাদেশ | 102.3 KB | [Open in Drive](https://drive.google.com/file/d/1ryAg-72Qj56OxVP6oHAjYjUFNv2Nn046/view) |
 | 1664 | 003.jpg | বাংলাদেশ | 100.1 KB | [Open in Drive](https://drive.google.com/file/d/1Ln2NGZ8N9Sd10uoYVMNsxFIGnRAn1jpb/view) |

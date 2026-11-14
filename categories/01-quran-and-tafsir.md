@@ -52,33 +52,33 @@
 
 | # | Book Name | Subcategory / Author | Size | Drive Link |
 |---:|---|---|---:|---|
-| 1 | গনতন্ত্র ইসলামে হারাম ও কুফরী কোরআন ও হাদীসের আলোকে .pdf | 01 ফিতনাহ্ সম্পর্কে বই ও হাদীস গ্রন্থ | 126.0 KB | [Open in Drive](https://drive.google.com/file/d/1mvNkmLklXQzdDsIcJI8c8hufDZIBzYmf/view) |
-| 2 | পবিত্র কুরআনে জেরুজালেম.pdf | 01 ফিতনাহ্ সম্পর্কে বই ও হাদীস গ্রন্থ | 2.0 MB | [Open in Drive](https://drive.google.com/file/d/15BCfmUtLaf3Mxt1hLEHnQO7gio3Zb92f/view) |
-| 3 | গনতন্ত্র ইসলামে হারাম ও কুফরী কোরআন ও হাদীসের আলোকে .pdf | 03 জিহাদ সম্পর্কে বই | 126.0 KB | [Open in Drive](https://drive.google.com/file/d/15axXjRwnJ27Q9DsaTcMZuRu_Iugc83bo/view) |
-| 4 | পবিত্র কুরআনে জেরুজালেম.pdf | 04 দাজ্জাল সম্পর্কে বই | 2.0 MB | [Open in Drive](https://drive.google.com/file/d/11SXQP0dSdqKawPdLSLXI6JYwuyTFP-q4/view) |
-| 5 | অ্যারিস্টটলের ঈশ্বর.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 113.2 KB | [Open in Drive](https://drive.google.com/file/d/1J3yBAkCoxwcBkDJksW_uFtQEAGOslA-Q/view) |
-| 6 | আল কুরআনের ১৬০ মোজিজা রহস্য .pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 1.0 MB | [Open in Drive](https://drive.google.com/file/d/1Io9b7q69aEj8NX1ukmyofaVCmO1Uj3iZ/view) |
-| 7 | আল কোরআন এক মহাবিস্ময়.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 2.8 MB | [Open in Drive](https://drive.google.com/file/d/1JvH9fwSXwJaHta46bY4a3BbVcK2LmpGU/view) |
-| 8 | ইসলামী বিধান ও আধুনিক বিজ্ঞান.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 755.6 KB | [Open in Drive](https://drive.google.com/file/d/1I_dm_cULhdKe2dbIdc2MTa-MWAifAIwV/view) |
-| 9 | ওহী ও আধুনিক বিজ্ঞান.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 608.0 KB | [Open in Drive](https://drive.google.com/file/d/1IcGga-YABrZiKG742wrI96q_8_R4NYXh/view) |
-| 10 | কালের সংক্ষিপ্ত ইতিহাস স্টিফেন হকিং.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 4.9 MB | [Open in Drive](https://drive.google.com/file/d/1O1dPjewzeZNdP3VRM7J9ujFeYTPdkpps/view) |
-| 11 | কুরআন কিয়ামাত পরকাল 2.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 107.1 MB | [Open in Drive](https://drive.google.com/file/d/1IKzDHgjEDsz4jzqewO3OQrhdZillLRwI/view) |
-| 12 | কুরআন সৃস্টিতত্ত্ব ও বিগ-ব্যাং1.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 102.1 MB | [Open in Drive](https://drive.google.com/file/d/1IxGwpRibvOFnbr970LNkxPOgynXDCdZX/view) |
-| 13 | কুরআন, মহাবিশ্ব মুলতত্ত্ব 3.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 151.4 MB | [Open in Drive](https://drive.google.com/file/d/1JkoHL39_KjLx4N2tFtDlqVvIFIks4Xno/view) |
-| 14 | কোরআনের গনিতিক মোযেজা.docx | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 31.5 KB | [Open in Drive](https://drive.google.com/file/d/1I4gw7xzuYkns6ogY3DlgTVUNycdNlN-Y/view) |
-| 15 | জমজমের পানি সংগরহের নতুন পদধতি অবাক করলো বিশববাসীকে.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 76.7 KB | [Open in Drive](https://drive.google.com/file/d/1J56FHHKyJ0I5WycLd-OL7v1Gw09mA9oh/view) |
-| 16 | পরসঙ্গ  সারা বিশবে একই দিনে ছিয়াম ও ঈদ.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 135.0 KB | [Open in Drive](https://drive.google.com/file/d/1JP0uhbFZpJhXv_B_3LerGJyE5V1L1pJH/view) |
-| 17 | বাইবেল কোরআন ও বিজ্ঞান .pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 7.3 MB | [Open in Drive](https://drive.google.com/file/d/1I8GwLz1AwMrz9-KfeoOBktMlGocWsVH-/view) |
-| 18 | বাইবেল কোরআন ও বিজ্ঞান.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 21.9 MB | [Open in Drive](https://drive.google.com/file/d/1J5pj3VvpOHXizPShctVC9WvTZC1F_Aqs/view) |
-| 19 | বিজ্ঞান ও কোরআনে মানুষের সৃষ্টি প্রক্রিয়ার বিভিন্ন স্তর .pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 306.0 KB | [Open in Drive](https://drive.google.com/file/d/1IHBPnEkz-xPkxSS89-O0DZrX8jQN7O5i/view) |
-| 20 | বিবর্তনবাদ ও তাঁর সমস্যা.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 5.6 MB | [Open in Drive](https://drive.google.com/file/d/1JSmN84HQ83TZLmjIlOV0Fb453ysqvBY7/view) |
-| 21 | বিশ্বব্যাপী একই দিনে ঈদ ভুল.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 3.7 MB | [Open in Drive](https://drive.google.com/file/d/1IwG-v3kiQIfIIOLHKTsPubun4KBQfxS2/view) |
-| 22 | বৈজ্ঞানিক চিন্তার ব্যবহার.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 559.5 KB | [Open in Drive](https://drive.google.com/file/d/1JkzNnb9TpplEMp76VoOdVUsqQ_2fMRob/view) |
-| 23 | মানব সৃষটির ইতিহাস.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 135.1 KB | [Open in Drive](https://drive.google.com/file/d/1JOJs57JOLyIOgFiOo36INmBFOQgfP2Yd/view) |
-| 24 | মি`রাজ ও বিজ্ঞান.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 4.9 MB | [Open in Drive](https://drive.google.com/file/d/1J1S8PudEiDbxqBqKncUsocRz4cSrMq6H/view) |
-| 25 | শূন্যস্থান থেকে স্রষ্টার দূরত্ব.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 97.6 KB | [Open in Drive](https://drive.google.com/file/d/1IKGL0_F7crTMEG5lYo1dQ7dKOGfLZwf0/view) |
-| 26 | সাইন্স ফ্রম আল কোরআন.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 10.1 MB | [Open in Drive](https://drive.google.com/file/d/1JwIBFSd1P72ygU3tzEwvScSJgIMpBG7C/view) |
-| 27 | হাদিস সংকলনের ইতিহাস .pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 15.3 MB | [Open in Drive](https://drive.google.com/file/d/1JUZiv9-KyXyRD9zVM2LxIxSK2_DyQg7B/view) |
+| 1 | গনতন্ত্র ইসলামে হারাম ও কুফরী কোরআন ও হাদীসের আলোকে .pdf | 01 ফিতনাহ্ সম্পর্কে বই ও হাদীস গ্রন্থ | 126.0 KB | [Open in Drive](https://drive.google.com/file/d/1mee6U-VlsiDjbw4CnZYGy09idBwYT_D7/view) |
+| 2 | পবিত্র কুরআনে জেরুজালেম.pdf | 01 ফিতনাহ্ সম্পর্কে বই ও হাদীস গ্রন্থ | 2.0 MB | [Open in Drive](https://drive.google.com/file/d/1WUUgwNyngMBf8Wg0NGwOQFY2ari5X17N/view) |
+| 3 | গনতন্ত্র ইসলামে হারাম ও কুফরী কোরআন ও হাদীসের আলোকে .pdf | 03 জিহাদ সম্পর্কে বই | 126.0 KB | [Open in Drive](https://drive.google.com/file/d/1qHTw6Ifnj0xZBkLDCtaXo9ptSdQdtdZv/view) |
+| 4 | পবিত্র কুরআনে জেরুজালেম.pdf | 04 দাজ্জাল সম্পর্কে বই | 2.0 MB | [Open in Drive](https://drive.google.com/file/d/19i2ko6qLi4xug60mg3rmQWqlsRAWDT1U/view) |
+| 5 | অ্যারিস্টটলের ঈশ্বর.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 113.2 KB | [Open in Drive](https://drive.google.com/file/d/15bSUrTFZBi6SXmvBZyHuDSKvmJM15PEH/view) |
+| 6 | আল কুরআনের ১৬০ মোজিজা রহস্য .pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 1.0 MB | [Open in Drive](https://drive.google.com/file/d/19lAhioFiVW6h8r_2osisBKXAQr8ozhn5/view) |
+| 7 | আল কোরআন এক মহাবিস্ময়.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 2.8 MB | [Open in Drive](https://drive.google.com/file/d/1hf6bxcMggoie-6MOuZcFAOXCqGYr8b9r/view) |
+| 8 | ইসলামী বিধান ও আধুনিক বিজ্ঞান.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 755.6 KB | [Open in Drive](https://drive.google.com/file/d/1Fjx98al_ZdBuS-HmfU4NvH3zuOPoMyuH/view) |
+| 9 | ওহী ও আধুনিক বিজ্ঞান.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 608.0 KB | [Open in Drive](https://drive.google.com/file/d/1exZrvxZEr6Wk2FFxCvKapGLyjXNoFVVH/view) |
+| 10 | কালের সংক্ষিপ্ত ইতিহাস স্টিফেন হকিং.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 4.9 MB | [Open in Drive](https://drive.google.com/file/d/14kgYt00F19JPRZSpEAbEp2-8z-PCrR_i/view) |
+| 11 | কুরআন কিয়ামাত পরকাল 2.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 107.1 MB | [Open in Drive](https://drive.google.com/file/d/1S8VeKAv0-5VSbfmmxSPlIlrdOkf7tVMQ/view) |
+| 12 | কুরআন সৃস্টিতত্ত্ব ও বিগ-ব্যাং1.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 102.1 MB | [Open in Drive](https://drive.google.com/file/d/1Cba_ycORN2L30Eo_hsTe-XjVHz7Bgg3y/view) |
+| 13 | কুরআন, মহাবিশ্ব মুলতত্ত্ব 3.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 151.4 MB | [Open in Drive](https://drive.google.com/file/d/1WiGWZ--lCJvvDdsnr13eU10_6MealydX/view) |
+| 14 | কোরআনের গনিতিক মোযেজা.docx | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 31.5 KB | [Open in Drive](https://drive.google.com/file/d/1H8hqPtJmY5ozBAqUpdfKzJLaqKyeznmC/view) |
+| 15 | জমজমের পানি সংগরহের নতুন পদধতি অবাক করলো বিশববাসীকে.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 76.7 KB | [Open in Drive](https://drive.google.com/file/d/1HqDQVhBzN07xhtae9u27k2M1HKj5PoQ1/view) |
+| 16 | পরসঙ্গ  সারা বিশবে একই দিনে ছিয়াম ও ঈদ.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 135.0 KB | [Open in Drive](https://drive.google.com/file/d/1I4JRWIb0FjrJ0bVtn-dcX0DYsKdH3-sv/view) |
+| 17 | বাইবেল কোরআন ও বিজ্ঞান .pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 7.3 MB | [Open in Drive](https://drive.google.com/file/d/1reyELsJBjDEdSRB1pqblvEb-iO5h1mGk/view) |
+| 18 | বাইবেল কোরআন ও বিজ্ঞান.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 21.9 MB | [Open in Drive](https://drive.google.com/file/d/1alDyTZqXjisiZTkfIwFZazv-BVPDn-1I/view) |
+| 19 | বিজ্ঞান ও কোরআনে মানুষের সৃষ্টি প্রক্রিয়ার বিভিন্ন স্তর .pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 306.0 KB | [Open in Drive](https://drive.google.com/file/d/1azIFZpeLnMIVIC6XuAVfmChCsqm0N0xQ/view) |
+| 20 | বিবর্তনবাদ ও তাঁর সমস্যা.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 5.6 MB | [Open in Drive](https://drive.google.com/file/d/1sr7kYGkz1SImnJPHf5OvnPBvxuGTLxkB/view) |
+| 21 | বিশ্বব্যাপী একই দিনে ঈদ ভুল.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 3.7 MB | [Open in Drive](https://drive.google.com/file/d/1byEcre0oIhcL-KFI05gIvNGz7wermfm5/view) |
+| 22 | বৈজ্ঞানিক চিন্তার ব্যবহার.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 559.5 KB | [Open in Drive](https://drive.google.com/file/d/1PmVKwg1xxES5oDnagstjcesY7SO_BjHo/view) |
+| 23 | মানব সৃষটির ইতিহাস.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 135.1 KB | [Open in Drive](https://drive.google.com/file/d/1REzxGuDFAypP-drq8surQHWWD7D7MRBT/view) |
+| 24 | মি`রাজ ও বিজ্ঞান.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 4.9 MB | [Open in Drive](https://drive.google.com/file/d/1lBcFYI1PX41rrl_UG6EZ5M-07-N08BNd/view) |
+| 25 | শূন্যস্থান থেকে স্রষ্টার দূরত্ব.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 97.6 KB | [Open in Drive](https://drive.google.com/file/d/1d5p-sEHO2ON93O-YLrsqq4lIQgtuBxZC/view) |
+| 26 | সাইন্স ফ্রম আল কোরআন.pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 10.1 MB | [Open in Drive](https://drive.google.com/file/d/10d5HrKCGXaC35JpLcM6FyStgHPS4OAqy/view) |
+| 27 | হাদিস সংকলনের ইতিহাস .pdf | 05 বিজ্ঞান ও কোরআন সম্পর্কে বই | 15.3 MB | [Open in Drive](https://drive.google.com/file/d/1gSSw1PbRcdZJ-w32c-GC6HhR1b15TRBA/view) |
 | 28 | Quranic grammar(কুরআনের ব্যাকরণ). PDF | General | 20.5 MB | [Open in Drive](https://drive.google.com/file/d/1Na6LmoMjAGCId7HmFIbV8CDJQyMFq1hg/view) |
 | 29 | আপনি কুরআন কিভাবে পড়বেন.pdf | General | 801.4 KB | [Open in Drive](https://drive.google.com/file/d/160OlKuVK7OGMVwpFEHthIbvs7OGPNuXD/view) |
 | 30 | আমলে কোরআনী রুহানী চিকিৎসা.pdf | General | 5.4 MB | [Open in Drive](https://drive.google.com/file/d/1wdiIU-CmXpfJcTJV5hE_pjg2foJr5vp3/view) |
@@ -117,7 +117,7 @@
 | 63 | কোরআনের ১৬০ মুজিজা.pdf | General | 1.0 MB | [Open in Drive](https://drive.google.com/file/d/1SUGiXgivb08iniPL1PvZPmaBlX2GQiCY/view) |
 | 64 | খাযায়েনে কুরআন ও হাদিস.pdf | General | 1.5 MB | [Open in Drive](https://drive.google.com/file/d/1CQBhiZIwdMYv2Zq2Vcii7WfTAyjeYCMa/view) |
 | 65 | জামালুল কোরআন.pdf | General | 1.2 MB | [Open in Drive](https://drive.google.com/file/d/1TMqWo3oJhMgnaZ2RzFU7ka6nvqo10B3Z/view) |
-| 66 | তফসীরে_নূরুল_কোরআন_WriTeR_.pdf | General | 2.6 MB | [Open in Drive](https://drive.google.com/file/d/1AeVTVP1QG7tSkdzCsuK9PxkiHcnKPaN9/view) |
+| 66 | তফসীরে_নূরুল_কোরআন_WriTeR_.pdf | General | 2.6 MB | [Open in Drive](https://drive.google.com/file/d/1xQA-qkA4mObkn5thCjUrKpR5zSMNzkXm/view) |
 | 67 | তালীমুল কুরআন.pdf | General | 4.9 MB | [Open in Drive](https://drive.google.com/file/d/1Iv3f_gty1Sh1gNd8e_lqjSowaL248I-c/view) |
 | 68 | পবিত্র কোরআনে জেরুজালেম.pdf | General | 2.0 MB | [Open in Drive](https://drive.google.com/file/d/1qB-TKS5O52jkGeI9F0YVpmUIeCjnYwOy/view) |
 | 69 | বিজ্ঞানময় কুরআন.pdf | General | 15.4 MB | [Open in Drive](https://drive.google.com/file/d/10Q_N1o3P9gk8heHrkgsNViLWOtYY1TvV/view) |
@@ -128,13 +128,13 @@
 | 74 | সাইন্স ফ্রম আল কোরআন.pdf | General | 10.1 MB | [Open in Drive](https://drive.google.com/file/d/1_02_66SjQ0E7-yt1RLvlvlFi-Gfylvhv/view) |
 | 75 | হাফেজি কুরআন শরীফ-1.pdf | General | 41.2 MB | [Open in Drive](https://drive.google.com/file/d/1wG6vslsOvnXQSYuHP41oRAAjnJY1fjRf/view) |
 | 76 | ২৭ ঘন্টায় কুরআন শিক্ষা.pdf | General | 2.7 MB | [Open in Drive](https://drive.google.com/file/d/1EpQVO5bzrNXsvAGTMHEDOI16__lAzqhi/view) |
-| 77 | আলকোরআনের আলোকে আরবি শিক্ষা .pdf | অনেকগুলো ইসলামিক বই এই ফাইলে | 1.7 MB | [Open in Drive](https://drive.google.com/file/d/15llBmdZJk2oDPWViu5jqyLeEf__VdcCU/view) |
-| 78 | কুরআনুল কারিমের কসম করার বিধান.pdf | অনেকগুলো ইসলামিক বই এই ফাইলে | 79.4 KB | [Open in Drive](https://drive.google.com/file/d/1ACpvX57ksmopHxAhPo0labNKmby6K-rw/view) |
-| 79 | কুরআনে আল্লাহ নিজেকে বোঝাতে আমরা শবদটি বযবহার করেছেন কেন.pdf | অনেকগুলো ইসলামিক বই এই ফাইলে | 52.7 KB | [Open in Drive](https://drive.google.com/file/d/1EhK-wXYNoVgyt1B80UC595myDBSIivfT/view) |
-| 80 | কোরআন ও কলেমাখানী.pdf | অনেকগুলো ইসলামিক বই এই ফাইলে | 1.2 MB | [Open in Drive](https://drive.google.com/file/d/1E4eI_a1i2WKSN7u24trsUiiL_Ngmprk4/view) |
-| 81 | কোরআন ও সুন্নাহ.pdf | অনেকগুলো ইসলামিক বই এই ফাইলে | 1.3 MB | [Open in Drive](https://drive.google.com/file/d/19YCCmgJGQHthc4R-v5L14UREYnShFEUD/view) |
-| 82 | কোরআন কি হাদীস কি.doc | অনেকগুলো ইসলামিক বই এই ফাইলে | 27.5 KB | [Open in Drive](https://drive.google.com/file/d/1EaMtt0hUOgFMwxUiTB2RzA43iAE6grgu/view) |
-| 83 | কোরআন হাদিসের আলোকে সাফাআত.doc | অনেকগুলো ইসলামিক বই এই ফাইলে | 5.8 MB | [Open in Drive](https://drive.google.com/file/d/19BGIs5WFCQJmjKeVAU9X9gzHxTJcylQq/view) |
+| 77 | আলকোরআনের আলোকে আরবি শিক্ষা .pdf | অনেকগুলো ইসলামিক বই এই ফাইলে | 1.7 MB | [Open in Drive](https://drive.google.com/file/d/15HEuc683LlVrgLYDB-alZSaTvyP8CfBj/view) |
+| 78 | কুরআনুল কারিমের কসম করার বিধান.pdf | অনেকগুলো ইসলামিক বই এই ফাইলে | 79.4 KB | [Open in Drive](https://drive.google.com/file/d/1DYubZ7l4W0mY7RsifOUkuqyPftzvrtwh/view) |
+| 79 | কুরআনে আল্লাহ নিজেকে বোঝাতে আমরা শবদটি বযবহার করেছেন কেন.pdf | অনেকগুলো ইসলামিক বই এই ফাইলে | 52.7 KB | [Open in Drive](https://drive.google.com/file/d/1Y7gCO8BErdoYiaAPbLkw4-MxJ_nz67aH/view) |
+| 80 | কোরআন ও কলেমাখানী.pdf | অনেকগুলো ইসলামিক বই এই ফাইলে | 1.2 MB | [Open in Drive](https://drive.google.com/file/d/1QXwKmQvtIJbMwT222m4bUaJ3hZv82q9x/view) |
+| 81 | কোরআন ও সুন্নাহ.pdf | অনেকগুলো ইসলামিক বই এই ফাইলে | 1.3 MB | [Open in Drive](https://drive.google.com/file/d/1oyvr8s9PEfqQPd4mHRI1UcJkJjZE01HK/view) |
+| 82 | কোরআন কি হাদীস কি.doc | অনেকগুলো ইসলামিক বই এই ফাইলে | 27.5 KB | [Open in Drive](https://drive.google.com/file/d/1sP4kj11jBNtEjpwIO9S1VufQYy_bXnpn/view) |
+| 83 | কোরআন হাদিসের আলোকে সাফাআত.doc | অনেকগুলো ইসলামিক বই এই ফাইলে | 5.8 MB | [Open in Drive](https://drive.google.com/file/d/1BD4lTVvbkbd3JvSZ3M_C5vazNLv23J5R/view) |
 | 84 | আই লাভ কুরআন-শাইখ আতিক উল্লাহ.pdf | আতিক উল্লাহ | 49.1 MB | [Open in Drive](https://drive.google.com/file/d/1VuMpIbgzBnxyDsgaG8NETppDNS7hWizW/view) |
 | 85 | কুরআনি ভাবনা-শাইখ আতিক উল্লাহ.pdf | আতিক উল্লাহ | 1.1 MB | [Open in Drive](https://drive.google.com/file/d/1h-P_00_HqrdA3I5V9UED281LglvH7H0d/view) |
 | 86 | কুরআনের চারটি মৌলিক পরিভাষা-আবুল আলা মওদুদী.pdf | আবুল আলা মওদুদী | 2.9 MB | [Open in Drive](https://drive.google.com/file/d/1dJQZcVt3RjEXjmK3VLARICaHdpdYMV-A/view) |
@@ -239,15 +239,15 @@
 | 185 | শব্দার্থে আল কুরআনুল মজীদ - ৭ম খন্ড.pdf | আল কুরআন মাজিদ | 8.5 MB | [Open in Drive](https://drive.google.com/file/d/1tBdzOh2RtThBdP3nxXmHVbjOaDT5WX2n/view) |
 | 186 | শব্দার্থে আল কুরআনুল মজীদ - ৮ম খন্ড.pdf | আল কুরআন মাজিদ | 7.9 MB | [Open in Drive](https://drive.google.com/file/d/1tDP_3weX29uDT2xmqSoCnU9tvZanxm1-/view) |
 | 187 | শব্দার্থে আল কুরআনুল মজীদ - ৯ম খন্ড.pdf | আল কুরআন মাজিদ | 7.0 MB | [Open in Drive](https://drive.google.com/file/d/1tZbNz91bvhTTcSEjFB64q1attRg3IzQG/view) |
-| 188 | 01আল কুরআনুল কারীম .pdf | আল-কোরআন সম্পর্কে বই | 54.4 MB | [Open in Drive](https://drive.google.com/file/d/1AeUUXRrSc3fSNZSbdig9HBBuGDJKwc75/view) |
-| 189 | 02তাফসীরুল উশরিল আখীর.pdf | আল-কোরআন সম্পর্কে বই | 15.5 MB | [Open in Drive](https://drive.google.com/file/d/1Aoxel2aCqDPoulaC85ApP2Nuc8W-Zc1c/view) |
-| 190 | 04 quran kivabe porbo o bujhbo@Islamke Janun call-01811909111 -01927807760 -.pdf | আল-কোরআন সম্পর্কে বই | 2.4 MB | [Open in Drive](https://drive.google.com/file/d/1B4n6XYVJuQl4xbv--ku9mswxxY-7_BDP/view) |
-| 191 | 05 quran_er_haque@Islamke Janun call-01811909111 -01927807760 -01818519600.pdf | আল-কোরআন সম্পর্কে বই | 251.7 KB | [Open in Drive](https://drive.google.com/file/d/1AgW1Fbdq0nub3JfO3cjwZLPbl6fzDqDa/view) |
-| 192 | 06 quran_e_bornito_allah_r_sristi_nidorshon@Islamke Janun call-01811909111 -.pdf | আল-কোরআন সম্পর্কে বই | 200.7 KB | [Open in Drive](https://drive.google.com/file/d/1Aj9quo1AWn1n6p2Mpck-tFF-h42x0xHJ/view) |
-| 193 | 07 kivabe_amra_quran_bjhbo@Islamke Janun call-01811909111 -01927807760 -0181.pdf | আল-কোরআন সম্পর্কে বই | 465.8 KB | [Open in Drive](https://drive.google.com/file/d/1AfnakX6NDie-DlW2AICzpxeGG5pU1-KP/view) |
-| 194 | 08 quran_shikkha-bidhan_poddhoti_fojilat@Islamke Janun call-01811909111 -019.pdf | আল-কোরআন সম্পর্কে বই | 305.5 KB | [Open in Drive](https://drive.google.com/file/d/1Azw0fgoMHsf5wehnxQCKpjAeSHrR_N8n/view) |
-| 195 | 09 tilawah@Islamke Janun call-01811909111 -01927807760 -01818519600.pdf | আল-কোরআন সম্পর্কে বই | 312.3 KB | [Open in Drive](https://drive.google.com/file/d/1AqF4FqDFtW31ZIvsekUc3JE9BBjcSwGm/view) |
-| 196 | আল কুরআনুল মানুষের সরুপ বিশ্লেষণ .pdf | আল-কোরআন সম্পর্কে বই | 4.9 MB | [Open in Drive](https://drive.google.com/file/d/1AbdjNjrHkLgVfAkuGAzXzkdhHHIo2V0b/view) |
+| 188 | 01আল কুরআনুল কারীম .pdf | আল-কোরআন সম্পর্কে বই | 54.4 MB | [Open in Drive](https://drive.google.com/file/d/1WrUIf9EVxLSdWlUhxOvKnFDywjGHAnvN/view) |
+| 189 | 02তাফসীরুল উশরিল আখীর.pdf | আল-কোরআন সম্পর্কে বই | 15.5 MB | [Open in Drive](https://drive.google.com/file/d/1PWH_rCyVrYWtDYQe11QTeOFrwKKbKRld/view) |
+| 190 | 04 quran kivabe porbo o bujhbo@Islamke Janun call-01811909111 -01927807760 -.pdf | আল-কোরআন সম্পর্কে বই | 2.4 MB | [Open in Drive](https://drive.google.com/file/d/1VkuK5ejt6TDDL9WDl_xybObgfgmZ5s_5/view) |
+| 191 | 05 quran_er_haque@Islamke Janun call-01811909111 -01927807760 -01818519600.pdf | আল-কোরআন সম্পর্কে বই | 251.7 KB | [Open in Drive](https://drive.google.com/file/d/1wG9GuywD-inRr4tQ8gSztMOs_yubTe_-/view) |
+| 192 | 06 quran_e_bornito_allah_r_sristi_nidorshon@Islamke Janun call-01811909111 -.pdf | আল-কোরআন সম্পর্কে বই | 200.7 KB | [Open in Drive](https://drive.google.com/file/d/1AmzPVq_PBpgyCKuoEm2N-iW5YQBSVODr/view) |
+| 193 | 07 kivabe_amra_quran_bjhbo@Islamke Janun call-01811909111 -01927807760 -0181.pdf | আল-কোরআন সম্পর্কে বই | 465.8 KB | [Open in Drive](https://drive.google.com/file/d/1bB_bqBoSWBLNozBOtoJwX8aWWsUU43oE/view) |
+| 194 | 08 quran_shikkha-bidhan_poddhoti_fojilat@Islamke Janun call-01811909111 -019.pdf | আল-কোরআন সম্পর্কে বই | 305.5 KB | [Open in Drive](https://drive.google.com/file/d/1YBWTx0bUPJ8K2iu-ASkObK_x2uEvDFrm/view) |
+| 195 | 09 tilawah@Islamke Janun call-01811909111 -01927807760 -01818519600.pdf | আল-কোরআন সম্পর্কে বই | 312.3 KB | [Open in Drive](https://drive.google.com/file/d/1SyYD1Plm69aBsZUnBNuCTK8VMUu9y64m/view) |
+| 196 | আল কুরআনুল মানুষের সরুপ বিশ্লেষণ .pdf | আল-কোরআন সম্পর্কে বই | 4.9 MB | [Open in Drive](https://drive.google.com/file/d/1TjTzHAyxEYlUBqVk9FHV_KzJ-PoFmaT8/view) |
 | 197 | আহকামুল-কুরআন-১ম-খণ্ড.pdf | আহকামুল কুরআন | 17.3 MB | [Open in Drive](https://drive.google.com/file/d/1Gf16AsL8LOs5gshFjiRoYmVyoS1nprMw/view) |
 | 198 | আহকামুল-কুরআন-২য়-খণ্ড.pdf | আহকামুল কুরআন | 19.1 MB | [Open in Drive](https://drive.google.com/file/d/16Gmd9kIt6TO8aqeVmJZ0_fo94m1656Ah/view) |
 | 199 | আহকামুল-কুরআন-৩য়-খণ্ড.pdf | আহকামুল কুরআন | 16.3 MB | [Open in Drive](https://drive.google.com/file/d/1xiDvFi-aYRidlxqpnzy31TxxZRR4mgMo/view) |
@@ -288,19 +288,19 @@
 | 234 | কাসাসুল কুরআন-08.pdf | কাসাসুল কুরআন | 12.7 MB | [Open in Drive](https://drive.google.com/file/d/1MklY6RJhfziOWrD9N7xMxqvg2S9AltUl/view) |
 | 235 | কাসাসুল কুরআন-09.pdf | কাসাসুল কুরআন | 6.9 MB | [Open in Drive](https://drive.google.com/file/d/1cIsoo8JIcUHn0qvpe5sAohTIH8u0uihK/view) |
 | 236 | কাসাসুল কুরআন-10.pdf | কাসাসুল কুরআন | 6.1 MB | [Open in Drive](https://drive.google.com/file/d/1X88e1jCpPoOVmuKy4MFQja4lfyC_5zmi/view) |
-| 237 | 02তাফসীরুল উশরিল আখীর.pdf | কিছু তাফসিরের বই | 15.5 MB | [Open in Drive](https://drive.google.com/file/d/15KvvNxIau4x4S8GD9I6i2IUmLx0zHhq8/view) |
-| 238 | quranul-karim-01-dr-zakaria.pdf | কিছু তাফসিরের বই | 53.7 MB | [Open in Drive](https://drive.google.com/file/d/1qX2PfXxsmYYAQEYEggms6RdaTSQRvJnK/view) |
-| 239 | quranul-karim-02-dr-zakaria.pdf | কিছু তাফসিরের বই | 50.1 MB | [Open in Drive](https://drive.google.com/file/d/1CWTCQ1LNTY1Pr9yeYhyXkUshLlTrv8MX/view) |
-| 240 | তাফসীর আহসানুল বায়ান.pdf | কিছু তাফসিরের বই | 20.1 MB | [Open in Drive](https://drive.google.com/file/d/1Hv9MFc9vCp1HkdHGxEnZ--lenOjQPDPu/view) |
-| 241 | তাফসীর আহসানুল বায়ান.pdf | কিছু তাফসিরের বই | 20.1 MB | [Open in Drive](https://drive.google.com/file/d/14YcGcVe26HtMtzogJ0AbVoVzRF5DNpw1/view) |
-| 242 | তাফসীরে মারেফুল কোরআন.pdf | কিছু তাফসিরের বই | 188.7 MB | [Open in Drive](https://drive.google.com/file/d/1ioPuf_jo6xokpqjLJYOFM_6V7p0MTvlx/view) |
-| 243 | তাফসীরে মারেফুল কোরআন.pdf | কিছু তাফসিরের বই | 188.7 MB | [Open in Drive](https://drive.google.com/file/d/14YuJlMaTmGVyXkKmEnvrHXCsm64NIM6X/view) |
-| 244 | তাহকীক তাফসীর ইবনে কাসির আম্মা পারা.pdf | কিছু তাফসিরের বই | 21.9 MB | [Open in Drive](https://drive.google.com/file/d/1oX_cfXK0w1_60Lw9AChvfZfRtw_Xc13_/view) |
-| 245 | তাহকীক তাফসীর ইবনে কাসির আম্মা পারা.pdf | কিছু তাফসিরের বই | 21.9 MB | [Open in Drive](https://drive.google.com/file/d/14oW5L2XvQ_dDhwxmYeeWV3bwg0o2r4G8/view) |
-| 246 | তাহকীক তাফসীর ইবনে কাসির ১.pdf | কিছু তাফসিরের বই | 42.4 MB | [Open in Drive](https://drive.google.com/file/d/11Br7Lxo5OVbNrBztIK8kBjxuhYnswRCb/view) |
-| 247 | তাহকীক তাফসীর ইবনে কাসির ১.pdf | কিছু তাফসিরের বই | 42.4 MB | [Open in Drive](https://drive.google.com/file/d/14aQ5ktCAD6rIEJLI2hyBU8aSqm2ywWzL/view) |
-| 248 | সুরাহ ফাতেহার তাফসীর .pdf | কিছু তাফসিরের বই | 1.8 MB | [Open in Drive](https://drive.google.com/file/d/1u0bBo5kvWTxuhoybo4M1Vl7GCgfCH-L9/view) |
-| 249 | সুরাহ ফাতেহার তাফসীর .pdf | কিছু তাফসিরের বই | 1.8 MB | [Open in Drive](https://drive.google.com/file/d/14X6PLDRBg9hgHAHOrEh9DYDeZRh2P-sZ/view) |
+| 237 | 02তাফসীরুল উশরিল আখীর.pdf | কিছু তাফসিরের বই | 15.5 MB | [Open in Drive](https://drive.google.com/file/d/1e68ooLUyNqxH6cqmSgs-E8rBzRlWuXU6/view) |
+| 238 | quranul-karim-01-dr-zakaria.pdf | কিছু তাফসিরের বই | 53.7 MB | [Open in Drive](https://drive.google.com/file/d/1iF7ebGHxw28VdBpdogblzvuzgIR2mYbR/view) |
+| 239 | quranul-karim-02-dr-zakaria.pdf | কিছু তাফসিরের বই | 50.1 MB | [Open in Drive](https://drive.google.com/file/d/1zwky0c1n6U9qYZxxjIJPjNUgSzpm8gty/view) |
+| 240 | তাফসীর আহসানুল বায়ান.pdf | কিছু তাফসিরের বই | 20.1 MB | [Open in Drive](https://drive.google.com/file/d/1QzK4s5vdI-hqf16OPQ-SbG8sgA31A7Q7/view) |
+| 241 | তাফসীর আহসানুল বায়ান.pdf | কিছু তাফসিরের বই | 20.1 MB | [Open in Drive](https://drive.google.com/file/d/1LDpx-P-HqWoHztMO4YhEXKlbuJnYJhgV/view) |
+| 242 | তাফসীরে মারেফুল কোরআন.pdf | কিছু তাফসিরের বই | 188.7 MB | [Open in Drive](https://drive.google.com/file/d/1vzMTxjbRoN58zB7--vm_bWfZgYpYSKMr/view) |
+| 243 | তাফসীরে মারেফুল কোরআন.pdf | কিছু তাফসিরের বই | 188.7 MB | [Open in Drive](https://drive.google.com/file/d/1VutStHiFZtwWuxIkkPKRqT-Nf6T2sQvi/view) |
+| 244 | তাহকীক তাফসীর ইবনে কাসির আম্মা পারা.pdf | কিছু তাফসিরের বই | 21.9 MB | [Open in Drive](https://drive.google.com/file/d/1Zuk1L4VP5T5W6Cq2FMsMJEr3m3Cw8zwP/view) |
+| 245 | তাহকীক তাফসীর ইবনে কাসির আম্মা পারা.pdf | কিছু তাফসিরের বই | 21.9 MB | [Open in Drive](https://drive.google.com/file/d/1c_p03c5KGZtcVW_8uYgoM-7lUjcgoLNI/view) |
+| 246 | তাহকীক তাফসীর ইবনে কাসির ১.pdf | কিছু তাফসিরের বই | 42.4 MB | [Open in Drive](https://drive.google.com/file/d/1pGrGm_NvSrBewizneB7gy0iNiqlFgnTX/view) |
+| 247 | তাহকীক তাফসীর ইবনে কাসির ১.pdf | কিছু তাফসিরের বই | 42.4 MB | [Open in Drive](https://drive.google.com/file/d/1_6f6n7KoEKPBMjnPfjy2DTWqCaaZ2zEc/view) |
+| 248 | সুরাহ ফাতেহার তাফসীর .pdf | কিছু তাফসিরের বই | 1.8 MB | [Open in Drive](https://drive.google.com/file/d/10Lr79ra_tlsGuo77fnbtbZ8je_dAbs4y/view) |
+| 249 | সুরাহ ফাতেহার তাফসীর .pdf | কিছু তাফসিরের বই | 1.8 MB | [Open in Drive](https://drive.google.com/file/d/1tQNqUh8iMEsVp9-4T5PRfpursxdySMCD/view) |
 | 250 | _PART 1+2+3.pdf | কুরআন | 24.8 MB | [Open in Drive](https://drive.google.com/file/d/1XMEpvEkkx7dCe4kQUkmP3O1OjToqXpmL/view) |
 | 251 | _PART 12.pdf | কুরআন | 10.6 MB | [Open in Drive](https://drive.google.com/file/d/1kWayrhj-UXCXgI-7uw-PEPcywEo0CICs/view) |
 | 252 | _PART 13.pdf | কুরআন | 11.5 MB | [Open in Drive](https://drive.google.com/file/d/10d0HEJLxtVjrGdLyJamMJvkXOWUlRSPG/view) |
@@ -374,47 +374,47 @@
 | 320 | কুরআন বুঝে পড়া উচিত-জাকির নায়েক.pdf | জাকির নায়েক | 2.2 MB | [Open in Drive](https://drive.google.com/file/d/1egr-czPI_n1a2LHjspPs5balNKsLv4OD/view) |
 | 321 | জান্নাত জাহান্নামের বর্ণনা(কুরআন সুন্নাহর আলোকে)-ইকবাল কিলানী.pdf | জান্নাত জাহান্নাম | 13.5 MB | [Open in Drive](https://drive.google.com/file/d/1gjQT6ZhA95MnJUSyz8Udt8AeFcxQlEwE/view) |
 | 322 | রামাযানের শেষ দশক লাইলাতুল কদর ও ইতিকাফ কুরআন সুন্নাহ আমার জান্নাতের.pdf | জান্নাত জাহান্নাম | 236.4 KB | [Open in Drive](https://drive.google.com/file/d/1E_brSKG80hfjLku9xP-t3zePXb8dfIwP/view) |
-| 323 | ০১ তাফসির ইবনে কাসির-1-2-3.pdf | তাফসির ইবনে কাসির নতুন সংস্করণ ঝকঝকে পৃন্ট | 4.9 MB | [Open in Drive](https://drive.google.com/file/d/1FcDJ15d8ZXN1QVLzLvHrZKlA7pgjox9E/view) |
-| 324 | ০২ তাফসির ইবনে কাসির-4-5-6-7.pdf | তাফসির ইবনে কাসির নতুন সংস্করণ ঝকঝকে পৃন্ট | 4.3 MB | [Open in Drive](https://drive.google.com/file/d/1FudzTP6n5l_fH-YyhmBz8JIu8ziwP4w_/view) |
-| 325 | ০৩ তাফসির ইবনে কাসির-8-9-10-11.pdf | তাফসির ইবনে কাসির নতুন সংস্করণ ঝকঝকে পৃন্ট | 5.9 MB | [Open in Drive](https://drive.google.com/file/d/1G3cODy7KnW2vM1-xpj9QaiZ1_C6U59j0/view) |
-| 326 | ০৪ তাফসির ইবনে কাসির-12-13.pdf | তাফসির ইবনে কাসির নতুন সংস্করণ ঝকঝকে পৃন্ট | 5.0 MB | [Open in Drive](https://drive.google.com/file/d/1Fk52zONjqYqlA06h-sMmWrvAVC2GJZlX/view) |
-| 327 | ০৫ তাফসির ইবনে কাসির-14.pdf | তাফসির ইবনে কাসির নতুন সংস্করণ ঝকঝকে পৃন্ট | 3.9 MB | [Open in Drive](https://drive.google.com/file/d/1FsWrijBsPCqmm-5otXP-ScCKGEBF08eo/view) |
-| 328 | ০৬ তাফসির ইবনে কাসির-15.pdf | তাফসির ইবনে কাসির নতুন সংস্করণ ঝকঝকে পৃন্ট | 5.6 MB | [Open in Drive](https://drive.google.com/file/d/1FeXUSSRkwEcpuAvANGCMiCjX1WFxrfir/view) |
-| 329 | ০৭ তাফসির ইবনে কাসির-16.pdf | তাফসির ইবনে কাসির নতুন সংস্করণ ঝকঝকে পৃন্ট | 5.5 MB | [Open in Drive](https://drive.google.com/file/d/1FzXGNY6JGAasqqMJ9KGXJ28A9usw_8_m/view) |
-| 330 | ০৮ তাফসির ইবনে কাসির-17.pdf | তাফসির ইবনে কাসির নতুন সংস্করণ ঝকঝকে পৃন্ট | 5.0 MB | [Open in Drive](https://drive.google.com/file/d/1Fy6-FRtP31GkYfng15gvRt_AzkV91XGP/view) |
-| 331 | ০৯ তাফসির ইবনে কাসির-18.pdf | তাফসির ইবনে কাসির নতুন সংস্করণ ঝকঝকে পৃন্ট | 2.9 MB | [Open in Drive](https://drive.google.com/file/d/1Fb83-zU24T4G-FuWm5MNh5kAVZaP5r-k/view) |
-| 332 | ০১তাফসীর ইবনে কাসির(1st 2nd and 3rd Part).pdf | তাফসির ইবনে কাসির পুরাতন | 24.8 MB | [Open in Drive](https://drive.google.com/file/d/14GoC-tKSIxWDRzTF127JiBwZBZ0E34a9/view) |
-| 333 | ০২তাফসীর ইবনে কাসির(4th 5th 6th and 7th Part).pdf | তাফসির ইবনে কাসির পুরাতন | 25.2 MB | [Open in Drive](https://drive.google.com/file/d/14ZVcD_mc0HfwxjjCjZ9nTmnca11TSeDM/view) |
-| 334 | ০৩তাফসীর ইবনে কাসির(8th, 9th, 10th, and 11th Part).pdf | তাফসির ইবনে কাসির পুরাতন | 25.7 MB | [Open in Drive](https://drive.google.com/file/d/14hGO9Y97qvlvcsoYq4U-PjWgKHoA_Ygs/view) |
-| 335 | ০৪তাফসীর ইবনে কাসির(12th Part).pdf | তাফসির ইবনে কাসির পুরাতন | 10.6 MB | [Open in Drive](https://drive.google.com/file/d/14S8dMQAscj5YvHHa8w5PxmYyfSHfZUE6/view) |
-| 336 | ০৫তাফসীর ইবনে কাসির(13th Part).pdf | তাফসির ইবনে কাসির পুরাতন | 11.5 MB | [Open in Drive](https://drive.google.com/file/d/14Tgc_7Z6m1YrH19g2qHuX8Qz35ZMnUYA/view) |
-| 337 | ০৬তাফসীর ইবনে কাসির(14th Part).pdf | তাফসির ইবনে কাসির পুরাতন | 14.5 MB | [Open in Drive](https://drive.google.com/file/d/14QQjCQFDZ5PmmfgQ1ToC0gnxSfs39mI-/view) |
-| 338 | ০৭তাফসীর ইবনে কাসির(15th Part).pdf | তাফসির ইবনে কাসির পুরাতন | 23.6 MB | [Open in Drive](https://drive.google.com/file/d/14ezB2kYNB0a54NLCvf4XD7cLLWhZW2uG/view) |
-| 339 | ০৮তাফসীর ইবনে কাসির(16th Part).pdf | তাফসির ইবনে কাসির পুরাতন | 21.4 MB | [Open in Drive](https://drive.google.com/file/d/14cPNWjJIR3dJvRAZxiNaeFDqu9JW1i3U/view) |
-| 340 | ০৯তাফসীর ইবনে কাসির(17th Part).pdf | তাফসির ইবনে কাসির পুরাতন | 21.2 MB | [Open in Drive](https://drive.google.com/file/d/14FKt4J2mDzI71F9Gry-5zavcrxUWl9HR/view) |
-| 341 | ১০তাফসীর ইবনে কাসির(18 the part).pdf | তাফসির ইবনে কাসির পুরাতন | 2.9 MB | [Open in Drive](https://drive.google.com/file/d/14L70K0eOqLAYh5vu8YImqiGf95dtVHWX/view) |
-| 342 | তাফসীর ফী যিলালিল কোরআন০১খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 16.6 MB | [Open in Drive](https://drive.google.com/file/d/1GmcDjMMmhshEaWXWDiEuIOrXizw-q4r3/view) |
-| 343 | তাফসীর ফী যিলালিল কোরআন০২খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 33.3 MB | [Open in Drive](https://drive.google.com/file/d/1HwybPA71mQ79qGTcvTATJOSPRDpY-7RU/view) |
-| 344 | তাফসীর ফী যিলালিল কোরআন০৩খন্ড .pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 22.1 MB | [Open in Drive](https://drive.google.com/file/d/1Gk5USlKQtIWYv0XLaILuMIdDzYNu9Wav/view) |
-| 345 | তাফসীর ফী যিলালিল কোরআন০৪খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 29.4 MB | [Open in Drive](https://drive.google.com/file/d/1Gl_KyO99nTEHY1QW5DfbMXYxiaKcnFyv/view) |
-| 346 | তাফসীর ফী যিলালিল কোরআন০৫খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 22.2 MB | [Open in Drive](https://drive.google.com/file/d/1GdNFH0imbDAhpVJT8PQ-uSiVnrO3PYbm/view) |
-| 347 | তাফসীর ফী যিলালিল কোরআন০৬খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 27.9 MB | [Open in Drive](https://drive.google.com/file/d/1H6YJryGPWWOA0sKJjsyaXnn4i-0iCsNK/view) |
-| 348 | তাফসীর ফী যিলালিল কোরআন০৭খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 23.3 MB | [Open in Drive](https://drive.google.com/file/d/1HkX_ddknlE5ZqiR7WLbfMtZtDWAyO3wa/view) |
-| 349 | তাফসীর ফী যিলালিল কোরআন০৮খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 18.2 MB | [Open in Drive](https://drive.google.com/file/d/1G9xcqqUF3DLohV5nCbcQapXL1VOmaF69/view) |
-| 350 | তাফসীর ফী যিলালিল কোরআন০৯খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 20.0 MB | [Open in Drive](https://drive.google.com/file/d/1HMWSsn-VF4QYb6WbTqLpWeqmaazjVbfP/view) |
-| 351 | তাফসীর ফী যিলালিল কোরআন১০খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 47.7 MB | [Open in Drive](https://drive.google.com/file/d/1HZpsaYonOU6CyITpdFebREIrN5KPHIGt/view) |
-| 352 | তাফসীর ফী যিলালিল কোরআন১১খন্ড .pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 30.9 MB | [Open in Drive](https://drive.google.com/file/d/1GFTvWPT9azdgs_vokaIx4j52PGF8o5Tr/view) |
-| 353 | তাফসীর ফী যিলালিল কোরআন১২খন্ড .pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 40.2 MB | [Open in Drive](https://drive.google.com/file/d/1HPJ9WQuFKv-l5Q2_SuOXhcj5IF3y4gmV/view) |
-| 354 | তাফসীর ফী যিলালিল কোরআন১৩খন্ড .pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 29.4 MB | [Open in Drive](https://drive.google.com/file/d/1GKje6K0umNZ2m9RnLOyFlJdPSMnXWZCO/view) |
-| 355 | তাফসীর ফী যিলালিল কোরআন১৪খন্ড .pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 26.4 MB | [Open in Drive](https://drive.google.com/file/d/1HgaQE74Xi-pU9_6VE9tjVctsdaN5GPP0/view) |
-| 356 | তাফসীর ফী যিলালিল কোরআন১৫খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 39.4 MB | [Open in Drive](https://drive.google.com/file/d/1Gph4wfM6yUIdP6VouxIkYK3Igzt6VGL3/view) |
-| 357 | তাফসীর ফী যিলালিল কোরআন১৬খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 23.9 MB | [Open in Drive](https://drive.google.com/file/d/1HmIU35H-YW-kj83hLIXdIyeZe6IM25MH/view) |
-| 358 | তাফসীর ফী যিলালিল কোরআন১৭খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 25.6 MB | [Open in Drive](https://drive.google.com/file/d/1HScjFZ6aSvZfa3Z_8umwfFl0AfdR7HVc/view) |
-| 359 | তাফসীর ফী যিলালিল কোরআন১৮খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 20.0 MB | [Open in Drive](https://drive.google.com/file/d/1H9XKfVxcBv4jF-e7of-CbjPA5fM53g8Y/view) |
-| 360 | তাফসীর ফী যিলালিল কোরআন১‌৯খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 34.9 MB | [Open in Drive](https://drive.google.com/file/d/1HG2clwEDyzqYF6T57IlIX5P6kbTHJAL7/view) |
-| 361 | তাফসীর ফী যিলালিল কোরআন২০খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 45.3 MB | [Open in Drive](https://drive.google.com/file/d/1GThNV8imH9wQFVRDaTZeyRBcg_Sjxlag/view) |
-| 362 | তাফসীর ফী যিলালিল কোরআন২১খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 35.0 MB | [Open in Drive](https://drive.google.com/file/d/1HzdVO19TZKLjJDImLhU1SnkKCcZRFXm4/view) |
-| 363 | তাফসীর ফী যিলালিল কোরআন২২খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 30.9 MB | [Open in Drive](https://drive.google.com/file/d/1Hh4mC87PgvbvPf4CG2yEzFODSzGGv2od/view) |
+| 323 | ০১ তাফসির ইবনে কাসির-1-2-3.pdf | তাফসির ইবনে কাসির নতুন সংস্করণ ঝকঝকে পৃন্ট | 4.9 MB | [Open in Drive](https://drive.google.com/file/d/1OIUSjuGATl2m3mN7CpwtccqB6CdjJcq1/view) |
+| 324 | ০২ তাফসির ইবনে কাসির-4-5-6-7.pdf | তাফসির ইবনে কাসির নতুন সংস্করণ ঝকঝকে পৃন্ট | 4.3 MB | [Open in Drive](https://drive.google.com/file/d/1FD4rzYoQrPPyym6RyfkhOYKL0pl1JBCa/view) |
+| 325 | ০৩ তাফসির ইবনে কাসির-8-9-10-11.pdf | তাফসির ইবনে কাসির নতুন সংস্করণ ঝকঝকে পৃন্ট | 5.9 MB | [Open in Drive](https://drive.google.com/file/d/1tBQlCciB_MmB8uicv4zmY_fdmSC0GDSM/view) |
+| 326 | ০৪ তাফসির ইবনে কাসির-12-13.pdf | তাফসির ইবনে কাসির নতুন সংস্করণ ঝকঝকে পৃন্ট | 5.0 MB | [Open in Drive](https://drive.google.com/file/d/1GnogI6nAyQgfFQrIa3-sUqsQjKEhYiYg/view) |
+| 327 | ০৫ তাফসির ইবনে কাসির-14.pdf | তাফসির ইবনে কাসির নতুন সংস্করণ ঝকঝকে পৃন্ট | 3.9 MB | [Open in Drive](https://drive.google.com/file/d/16vFgm2BuWuSUi7OWYqUX7RxOwoqMeMS9/view) |
+| 328 | ০৬ তাফসির ইবনে কাসির-15.pdf | তাফসির ইবনে কাসির নতুন সংস্করণ ঝকঝকে পৃন্ট | 5.6 MB | [Open in Drive](https://drive.google.com/file/d/1NtNiZtI9E6IzMWS_rRlF4vbwavQJiVDA/view) |
+| 329 | ০৭ তাফসির ইবনে কাসির-16.pdf | তাফসির ইবনে কাসির নতুন সংস্করণ ঝকঝকে পৃন্ট | 5.5 MB | [Open in Drive](https://drive.google.com/file/d/1KR1IlU4GZHgfWEjxOfTF6RONufH0VdEM/view) |
+| 330 | ০৮ তাফসির ইবনে কাসির-17.pdf | তাফসির ইবনে কাসির নতুন সংস্করণ ঝকঝকে পৃন্ট | 5.0 MB | [Open in Drive](https://drive.google.com/file/d/1bod3HADMHLRL4jOFOTkMDZJc4pN9Kfp4/view) |
+| 331 | ০৯ তাফসির ইবনে কাসির-18.pdf | তাফসির ইবনে কাসির নতুন সংস্করণ ঝকঝকে পৃন্ট | 2.9 MB | [Open in Drive](https://drive.google.com/file/d/1bsISk5_DW-hVlS-221n7SpMFvgEucVKz/view) |
+| 332 | ০১তাফসীর ইবনে কাসির(1st 2nd and 3rd Part).pdf | তাফসির ইবনে কাসির পুরাতন | 24.8 MB | [Open in Drive](https://drive.google.com/file/d/1ZwM-G6mZpPjHrTZiEaQ3Njv0_KocV30J/view) |
+| 333 | ০২তাফসীর ইবনে কাসির(4th 5th 6th and 7th Part).pdf | তাফসির ইবনে কাসির পুরাতন | 25.2 MB | [Open in Drive](https://drive.google.com/file/d/17Obu7PbsPApaKpgcv5cUMo4A8GZR1MVK/view) |
+| 334 | ০৩তাফসীর ইবনে কাসির(8th, 9th, 10th, and 11th Part).pdf | তাফসির ইবনে কাসির পুরাতন | 25.7 MB | [Open in Drive](https://drive.google.com/file/d/1TDyDS1YQZBkePpwZRQDRohDWxARaDSRZ/view) |
+| 335 | ০৪তাফসীর ইবনে কাসির(12th Part).pdf | তাফসির ইবনে কাসির পুরাতন | 10.6 MB | [Open in Drive](https://drive.google.com/file/d/1N-Pvp9t1Fks-LVMgnDlS8PGN9ie8dzhV/view) |
+| 336 | ০৫তাফসীর ইবনে কাসির(13th Part).pdf | তাফসির ইবনে কাসির পুরাতন | 11.5 MB | [Open in Drive](https://drive.google.com/file/d/1EpTEFcvajq14OMtIzA-snV2lVaa3sENN/view) |
+| 337 | ০৬তাফসীর ইবনে কাসির(14th Part).pdf | তাফসির ইবনে কাসির পুরাতন | 14.5 MB | [Open in Drive](https://drive.google.com/file/d/1VOyzmqOe3p9L1Goh7jT-pndJ-9ABUp_o/view) |
+| 338 | ০৭তাফসীর ইবনে কাসির(15th Part).pdf | তাফসির ইবনে কাসির পুরাতন | 23.6 MB | [Open in Drive](https://drive.google.com/file/d/1TIULFtcWS4y9QkrzRUonSwummz30tMAi/view) |
+| 339 | ০৮তাফসীর ইবনে কাসির(16th Part).pdf | তাফসির ইবনে কাসির পুরাতন | 21.4 MB | [Open in Drive](https://drive.google.com/file/d/13Ga-23FQaWO66WSuvqmrOIQ_90mhlBi7/view) |
+| 340 | ০৯তাফসীর ইবনে কাসির(17th Part).pdf | তাফসির ইবনে কাসির পুরাতন | 21.2 MB | [Open in Drive](https://drive.google.com/file/d/1yKyOc8VUSdqIeCJ9jlvWGYb2dneXnaT0/view) |
+| 341 | ১০তাফসীর ইবনে কাসির(18 the part).pdf | তাফসির ইবনে কাসির পুরাতন | 2.9 MB | [Open in Drive](https://drive.google.com/file/d/18a45fo_ZdVBK0ir_i094XVPC2q1O6uDV/view) |
+| 342 | তাফসীর ফী যিলালিল কোরআন০১খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 16.6 MB | [Open in Drive](https://drive.google.com/file/d/1PvQ0KD1742C_wiRizlazByLde6UdlJxG/view) |
+| 343 | তাফসীর ফী যিলালিল কোরআন০২খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 33.3 MB | [Open in Drive](https://drive.google.com/file/d/1UaEvbf1IDQAWa3I-qdWO3pXOIdEHZxXD/view) |
+| 344 | তাফসীর ফী যিলালিল কোরআন০৩খন্ড .pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 22.1 MB | [Open in Drive](https://drive.google.com/file/d/1gO2hMoQQIRqLwD4Ao_l2iH_vRGB5C7Ef/view) |
+| 345 | তাফসীর ফী যিলালিল কোরআন০৪খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 29.4 MB | [Open in Drive](https://drive.google.com/file/d/1HbX6ERwWawVEFT0Edn--kxG5TohRTeCk/view) |
+| 346 | তাফসীর ফী যিলালিল কোরআন০৫খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 22.2 MB | [Open in Drive](https://drive.google.com/file/d/1C7LsCdDlhXqu2o5ISRBLgxjrryM3DOtI/view) |
+| 347 | তাফসীর ফী যিলালিল কোরআন০৬খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 27.9 MB | [Open in Drive](https://drive.google.com/file/d/1AXVD7mS9vbg-ORxAE-ldJtm9srCAb3Gm/view) |
+| 348 | তাফসীর ফী যিলালিল কোরআন০৭খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 23.3 MB | [Open in Drive](https://drive.google.com/file/d/12UIFwXXVhIOgPH_d5R_8luhjtF9ELbAA/view) |
+| 349 | তাফসীর ফী যিলালিল কোরআন০৮খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 18.2 MB | [Open in Drive](https://drive.google.com/file/d/1TZpwW6gWDEhn1lBcazADCkgSFxed9cTO/view) |
+| 350 | তাফসীর ফী যিলালিল কোরআন০৯খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 20.0 MB | [Open in Drive](https://drive.google.com/file/d/1GGT8y01_0cFsY-ORNxqBJK9J2C5kOghf/view) |
+| 351 | তাফসীর ফী যিলালিল কোরআন১০খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 47.7 MB | [Open in Drive](https://drive.google.com/file/d/1bMDbSz7r7D86VPOwppqWqG1o0ckw4xrB/view) |
+| 352 | তাফসীর ফী যিলালিল কোরআন১১খন্ড .pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 30.9 MB | [Open in Drive](https://drive.google.com/file/d/16wy92745pP6e2HS5NvXMVQzK0EWW1wCv/view) |
+| 353 | তাফসীর ফী যিলালিল কোরআন১২খন্ড .pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 40.2 MB | [Open in Drive](https://drive.google.com/file/d/18SyHZt3-VKaNyLuorRNYq1MBwdTcGqlC/view) |
+| 354 | তাফসীর ফী যিলালিল কোরআন১৩খন্ড .pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 29.4 MB | [Open in Drive](https://drive.google.com/file/d/1d1LJxqnTnVshQc-7xkxkxrSI-Ssk44FV/view) |
+| 355 | তাফসীর ফী যিলালিল কোরআন১৪খন্ড .pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 26.4 MB | [Open in Drive](https://drive.google.com/file/d/1I1AjvbR0WMhwstyCXGhkxFppe-biWgBt/view) |
+| 356 | তাফসীর ফী যিলালিল কোরআন১৫খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 39.4 MB | [Open in Drive](https://drive.google.com/file/d/1TFOQ9Z-IGD6BcFy7_T2vJO68RcyGVh_R/view) |
+| 357 | তাফসীর ফী যিলালিল কোরআন১৬খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 23.9 MB | [Open in Drive](https://drive.google.com/file/d/1669EEoRHNkQtIJarzHX9rvzHsjyESOGk/view) |
+| 358 | তাফসীর ফী যিলালিল কোরআন১৭খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 25.6 MB | [Open in Drive](https://drive.google.com/file/d/10Xnsp3CKwuVLqHtoyS1NzssFMBsKQ-HU/view) |
+| 359 | তাফসীর ফী যিলালিল কোরআন১৮খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 20.0 MB | [Open in Drive](https://drive.google.com/file/d/1q2TulMu7ZX_AR5a6f3858zBEtr1GE_gA/view) |
+| 360 | তাফসীর ফী যিলালিল কোরআন১‌৯খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 34.9 MB | [Open in Drive](https://drive.google.com/file/d/1pL4tN9hecH9rqcSqV_uCJsJ39AK_0e3A/view) |
+| 361 | তাফসীর ফী যিলালিল কোরআন২০খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 45.3 MB | [Open in Drive](https://drive.google.com/file/d/1wZ3rBbkJNPNdcEm0IanYA4GmvFEgqU29/view) |
+| 362 | তাফসীর ফী যিলালিল কোরআন২১খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 35.0 MB | [Open in Drive](https://drive.google.com/file/d/1i55Mzz7drE9wbrh3JZpO5YKI-9WcHs7g/view) |
+| 363 | তাফসীর ফী যিলালিল কোরআন২২খন্ড.pdf | তাফসিরে জিলালিল কোরআন ২২ খন্ড | 30.9 MB | [Open in Drive](https://drive.google.com/file/d/1W-M3PrXgZ1PK_xS6ueS-33Vh4cgWYBbJ/view) |
 | 364 | পথ ও পাথেয়ঃ নির্বাচিত কুরআন হাদীস – এস. এম. রুহুল আমীন.pdf | দাওয়াত | 5.7 MB | [Open in Drive](https://drive.google.com/file/d/1ZUdBwaTdlzRbpBqJfrYlvGiC4Nt-Hv1d/view) |
 | 365 | সহজ আকীদা(কুরআন হাদিসের আলোকে).pdf | দাওয়াত | 2.3 MB | [Open in Drive](https://drive.google.com/file/d/1i4wocSg7yxgsiHtwm4IoK2P8X_xhEdiP/view) |
 | 366 | দারসে কুরান ১ম খণ্ড – অধ্যাপক আবদুল মতিন.pdf | দারসে কুরআন | 4.2 MB | [Open in Drive](https://drive.google.com/file/d/16fo2Fr6SHeyDdVQ79oODJ8M51LUO0MeN/view) |
@@ -432,11 +432,11 @@
 | 378 | সহজ জামালুল কুরআন.pdf | নতুন | 1.4 MB | [Open in Drive](https://drive.google.com/file/d/1aJ_D9Nmb_P0nnyJ8_8k6A7CF0k5B7hMz/view) |
 | 379 | আল কুরআনে নারী-01.pdf | নারী | 4.5 MB | [Open in Drive](https://drive.google.com/file/d/12wdwOwrJAZs-LAq7-pqd0Os6SksdnOUO/view) |
 | 380 | আল কুরআনে নারী-02.pdf | নারী | 7.0 MB | [Open in Drive](https://drive.google.com/file/d/1ZzxVydsLGfHCIq6jN9aOhFSaw8Vzju71/view) |
-| 381 | কুরআন হাদীস ও চ.txt | প্রায় ৮০ টি ইসলামিক ও প্রয়োজনীয় text ফাইল | 26.8 KB | [Open in Drive](https://drive.google.com/file/d/1GvuT4vJdLOPSNTGp6HUm9F04NRrkZJpR/view) |
-| 382 | কোরআনের আলোকে নাস্তিকদের জবাব.txt | প্রায় ৮০ টি ইসলামিক ও প্রয়োজনীয় text ফাইল | 73.8 KB | [Open in Drive](https://drive.google.com/file/d/1G89CyE7Q3kzrnSCGeglkQJipHJYa2aUS/view) |
+| 381 | কুরআন হাদীস ও চ.txt | প্রায় ৮০ টি ইসলামিক ও প্রয়োজনীয় text ফাইল | 26.8 KB | [Open in Drive](https://drive.google.com/file/d/1oRIL3x5Z1i8qaOK-kGJtk7Up8Wsjc4_A/view) |
+| 382 | কোরআনের আলোকে নাস্তিকদের জবাব.txt | প্রায় ৮০ টি ইসলামিক ও প্রয়োজনীয় text ফাইল | 73.8 KB | [Open in Drive](https://drive.google.com/file/d/1sXd3QAVds_myxAxau1XZICUJzGcXMbk8/view) |
 | 383 | কুরআনের বিষয়ভিত্তিক আয়াত.pdf | বিষয়ভিত্তিক আয়াত হাদিস | 35.9 MB | [Open in Drive](https://drive.google.com/file/d/1Oin4GeOV9pgnbzaK_osESLb2B2QHP1Sw/view) |
 | 384 | কুরআন ও সহীহ হাদিসের আলোকে বিয়ে.pdf | বিয়ে ও দাম্পত্য | 7.4 MB | [Open in Drive](https://drive.google.com/file/d/14-zf1YNfJYsYTNQENFWmI3Hujpd-kISY/view) |
-| 385 | তাফসীর কি মিথ্যা হতে পারে .pdf | মাজহাব এবং ইমাম আবু হানিফা সম্পর্কে বই | 875.1 KB | [Open in Drive](https://drive.google.com/file/d/18lMo1o-_X-97AUEKmgfd-wc-NLuNehS5/view) |
+| 385 | তাফসীর কি মিথ্যা হতে পারে .pdf | মাজহাব এবং ইমাম আবু হানিফা সম্পর্কে বই | 875.1 KB | [Open in Drive](https://drive.google.com/file/d/1oU5uaMSQy5p7kRvSIeNRVs40rqHdG08H/view) |
 | 386 | আর রাহীকুল মাখতূম(আল কুরআন একাডেমি প্রকাশনী).pdf | রাহীকুল মাখতুম | 18.2 MB | [Open in Drive](https://drive.google.com/file/d/1vAjfE0Me9mfGHkng79IRLmzBn1CGcnvZ/view) |
 | 387 | কুরআন মজীদ ও সহীহ হাদীসের আলোকে রমাযানুল মুবারক-আলকাউসার.pdf | রোজা,কদর ও ইতিকাফ | 199.4 KB | [Open in Drive](https://drive.google.com/file/d/1UfvN4Gcq7Gyhk_msfGYlKvrvK7jxhT9L/view) |
 | 388 | রামাদ্বান পরিকল্পনাঃ একাডেমী অব কুরআন স্টাডিজ.pdf | রোজা,কদর ও ইতিকাফ | 13.4 MB | [Open in Drive](https://drive.google.com/file/d/1dL1LtPkkJGtmuXj3yiqF_WzOaIDyTz_x/view) |

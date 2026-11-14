@@ -71,32 +71,32 @@
 | 52 | সরকারি কাজে ব্যবহারিক বাংলা.pdf | অভিধান | 738.8 KB | [Open in Drive](https://drive.google.com/file/d/1uk6TWFry2HpfYpNLdJn81BrrbRtciWtP/view) |
 | 53 | সাহিত্যের শব্দার্থকোষ - সুরভি বন্দ্যোপাধ্যায়.pdf | অভিধান | 12.1 MB | [Open in Drive](https://drive.google.com/file/d/1vCuyOqp0FJ3jXkt-drFsvDFbxEoO3RRi/view) |
 | 54 | কুরআন অর্থ বুঝার সহজ অভিধান-আবু বকর জাকারিয়া.pdf | আবু বকর জাকারিয়া | 2.1 MB | [Open in Drive](https://drive.google.com/file/d/1-wG_fiM6ygH4NZT2qRtO81JcnfT56yZT/view) |
-| 55 | Esho Arbi Shikhi.pdf | আরবী ভাষা শিক্ষা বই | 9.5 MB | [Open in Drive](https://drive.google.com/file/d/1IJt1P89vjzo2pVDQz-6pELzrc_FLbkMr/view) |
-| 56 | আদদুরুসুল আরাবিয়্যা-1.pdf | আরবী ভাষা শিক্ষা বই | 9.1 MB | [Open in Drive](https://drive.google.com/file/d/1Bi6Icj1Opum0JHkdxhxqY9C7k8OE4snL/view) |
-| 57 | আদদুরুসুল আরাবিয়্যা-2.pdf | আরবী ভাষা শিক্ষা বই | 13.4 MB | [Open in Drive](https://drive.google.com/file/d/1BDmEETZXDL8lfDii047Gq3XPXPp1ja05/view) |
-| 58 | আদদুরুসুল আরাবিয়্যা-4.pdf | আরবী ভাষা শিক্ষা বই | 5.9 MB | [Open in Drive](https://drive.google.com/file/d/1BIizpzfnGMTAZ0t3mlGHXG9GP_fVAXr-/view) |
-| 59 | আদদুরুসুল আরাবিয়্যা-5.pdf | আরবী ভাষা শিক্ষা বই | 20.9 MB | [Open in Drive](https://drive.google.com/file/d/1BBDogH9BYTaIqOdWgJcFIg5CzAWqgDFY/view) |
-| 60 | আল তামরীন আল কিতাবী.pdf | আরবী ভাষা শিক্ষা বই | 8.3 MB | [Open in Drive](https://drive.google.com/file/d/1BM5a0RKkaT8fED8vq0hkCPL80RmfQjPP/view) |
-| 61 | আল লুগাতুল আরাবিয়াতুল ইত্তেছালিয়া-1.pdf | আরবী ভাষা শিক্ষা বই | 4.1 MB | [Open in Drive](https://drive.google.com/file/d/1BdybqsgjkrrNRl9nuiglkDiRHLiMxlIh/view) |
-| 62 | আল লুগাতুল আরাবিয়াতুল ইত্তেছালিয়া-2.pdf | আরবী ভাষা শিক্ষা বই | 6.8 MB | [Open in Drive](https://drive.google.com/file/d/1AvsRtsTbqII9FnEPyaQmrP8HQab7acUE/view) |
-| 63 | আল লুগাতুল আরাবিয়াতুল ইত্তেছালিয়া-3.pdf | আরবী ভাষা শিক্ষা বই | 13.7 MB | [Open in Drive](https://drive.google.com/file/d/1BTtZebC5RCeFdD_pvDxQJ0V8g5J2Toer/view) |
-| 64 | আল লুগাতুল আরাবিয়াতুল ইত্তেছালিয়া-4.pdf | আরবী ভাষা শিক্ষা বই | 6.1 MB | [Open in Drive](https://drive.google.com/file/d/1Bc0cv_vkw2rbeIlgF6ErnHQ8TkHA9ztA/view) |
-| 65 | আল লুগাতুল আরাবিয়াতুল ইত্তেছালিয়া-5.pdf | আরবী ভাষা শিক্ষা বই | 6.2 MB | [Open in Drive](https://drive.google.com/file/d/1B3JiXvNttR1bnm7_m2X3FbbVHa7j0krD/view) |
-| 66 | এসো আরবি শিখি – আবু তাহের মেসবাহ.pdf | আরবী ভাষা শিক্ষা বই | 9.5 MB | [Open in Drive](https://drive.google.com/file/d/1IayATWrJekm0nwHIsYGY2d2ZkQp2O7TA/view) |
-| 67 | এসো কুরআন শিখি ১ম খন্ড – আবু তাহের মিসবাহ.pdf | আরবী ভাষা শিক্ষা বই | 7.3 MB | [Open in Drive](https://drive.google.com/file/d/1IklXs0lA7L4PWX0rVzCcaOMsZagcAsNw/view) |
-| 68 | এসো কুরআন শিখি ২য় খন্ড – আবু তাহের মিসবাহ.pdf | আরবী ভাষা শিক্ষা বই | 13.0 MB | [Open in Drive](https://drive.google.com/file/d/1ISsAfyjYFcoTMEazTdRNAuNn_HDZQCFZ/view) |
-| 69 | এসো কুরআন শিখি ৩য় খন্ড – আবু তাহের মিসবাহ.pdf | আরবী ভাষা শিক্ষা বই | 20.0 MB | [Open in Drive](https://drive.google.com/file/d/1IaYidebF7NI5uZ6EPXkPthLZzYB47jZx/view) |
-| 70 | এসো কুরআন শিখি ৪র্থ খন্ড – আবু তাহের মিসবাহ.pdf | আরবী ভাষা শিক্ষা বই | 18.4 MB | [Open in Drive](https://drive.google.com/file/d/1IQvJBZr6XPxuq8UY_3mwSukK54owc8Ab/view) |
-| 71 | এসো ছারফ শিখি – আবু তাহের মিসবাহ.pdf | আরবী ভাষা শিক্ষা বই | 3.1 MB | [Open in Drive](https://drive.google.com/file/d/1Ikf_D9zH_uXABINzGAMuDfAMay7Tq3-V/view) |
-| 72 | এসো নাহু শিখি – আবু তাহের মিসবাহ.pdf | আরবী ভাষা শিক্ষা বই | 5.5 MB | [Open in Drive](https://drive.google.com/file/d/1IbVzbUuP88ZJzjRgFyA8Q17TLRzDJpS5/view) |
-| 73 | এসো ফিকাহ শিখি – আবু তাহের মিসবাহ .pdf | আরবী ভাষা শিক্ষা বই | 3.9 MB | [Open in Drive](https://drive.google.com/file/d/1IACDkzDe2fFbHmFrVQWvgPOwFLIhWHea/view) |
-| 74 | এসো বালাগাত শিখি – আবু তাহের মিসবাহ.pdf | আরবী ভাষা শিক্ষা বই | 10.3 MB | [Open in Drive](https://drive.google.com/file/d/1IQ-Ns97n2J7AMcSmIqRVGyearC6y3NQ_/view) |
-| 75 | কিভাবে আরবী শিখবো-আবু নোমান আল মাদানী.pdf | আরবী ভাষা শিক্ষা বই | 31.8 MB | [Open in Drive](https://drive.google.com/file/d/1B3W0Z-eBthto365Oe7tlTACBjOZt9Ja4/view) |
-| 76 | কুরআনীয় আরবি শিক্ষা-1.pdf | আরবী ভাষা শিক্ষা বই | 2.5 MB | [Open in Drive](https://drive.google.com/file/d/1BNL8pO3mH_UJ1SEF3Qd2v-JjU8RSwpkx/view) |
-| 77 | কুরআনীয় আরবি শিক্ষা.pdf | আরবী ভাষা শিক্ষা বই | 2.5 MB | [Open in Drive](https://drive.google.com/file/d/1BZxankBpQn6gFaooBis-f358JXNqvYXT/view) |
-| 78 | ব্যাবহারিক আরবি-1-Calp Program-উন্মুক্ত বিশ্ববিদ্যালয়.pdf | আরবী ভাষা শিক্ষা বই | 2.6 MB | [Open in Drive](https://drive.google.com/file/d/1BXI1ByVm6inRMIwevvy471BuBqeA2gaZ/view) |
-| 79 | ব্যাবহারিক আরবি-2-Calp Program-উন্মুক্ত বিশ্ববিদ্যালয়.pdf | আরবী ভাষা শিক্ষা বই | 2.8 MB | [Open in Drive](https://drive.google.com/file/d/1BQ_7AiZsCzF0zhCrVrerd2Jm32ael0RB/view) |
-| 80 | ২৫ দিনে সহজ উপায়ে সৌদি ভাষা শিক্ষা.pdf | আরবী ভাষা শিক্ষা বই | 10.3 MB | [Open in Drive](https://drive.google.com/file/d/1BPtH99LovvytyovCtGQsK5oOgtMyVbg-/view) |
+| 55 | Esho Arbi Shikhi.pdf | আরবী ভাষা শিক্ষা বই | 9.5 MB | [Open in Drive](https://drive.google.com/file/d/1WXo-58cCtd1w4VNyyREhC0_7970Q54u_/view) |
+| 56 | আদদুরুসুল আরাবিয়্যা-1.pdf | আরবী ভাষা শিক্ষা বই | 9.1 MB | [Open in Drive](https://drive.google.com/file/d/1VDpsSv3zFhCTg2u0lFgUsmAj4WVbS4qo/view) |
+| 57 | আদদুরুসুল আরাবিয়্যা-2.pdf | আরবী ভাষা শিক্ষা বই | 13.4 MB | [Open in Drive](https://drive.google.com/file/d/1FDvYzWfhHNCV3VvQtsEOQTnJCguGBy5_/view) |
+| 58 | আদদুরুসুল আরাবিয়্যা-4.pdf | আরবী ভাষা শিক্ষা বই | 5.9 MB | [Open in Drive](https://drive.google.com/file/d/193EgBzYGBjJ00t4qyQdrZzAt6LFbYlQU/view) |
+| 59 | আদদুরুসুল আরাবিয়্যা-5.pdf | আরবী ভাষা শিক্ষা বই | 20.9 MB | [Open in Drive](https://drive.google.com/file/d/1gSQ1UGYGmQ1jX8trFVTs9x-Ay2sUR95B/view) |
+| 60 | আল তামরীন আল কিতাবী.pdf | আরবী ভাষা শিক্ষা বই | 8.3 MB | [Open in Drive](https://drive.google.com/file/d/17LMjBGZRafUoHcn3OZ4R3MR2samSxxRI/view) |
+| 61 | আল লুগাতুল আরাবিয়াতুল ইত্তেছালিয়া-1.pdf | আরবী ভাষা শিক্ষা বই | 4.1 MB | [Open in Drive](https://drive.google.com/file/d/1IzVv_ltuggS3CqDXHdChPRewNZn-kYkE/view) |
+| 62 | আল লুগাতুল আরাবিয়াতুল ইত্তেছালিয়া-2.pdf | আরবী ভাষা শিক্ষা বই | 6.8 MB | [Open in Drive](https://drive.google.com/file/d/1ln7NV-Z0m4MkZfOx6y9_b9sMIR_NLRKd/view) |
+| 63 | আল লুগাতুল আরাবিয়াতুল ইত্তেছালিয়া-3.pdf | আরবী ভাষা শিক্ষা বই | 13.7 MB | [Open in Drive](https://drive.google.com/file/d/1XdpCnsWD5SkpyxyHhBNZJ4J38m0yMABP/view) |
+| 64 | আল লুগাতুল আরাবিয়াতুল ইত্তেছালিয়া-4.pdf | আরবী ভাষা শিক্ষা বই | 6.1 MB | [Open in Drive](https://drive.google.com/file/d/1ZZEo0Q9Wex8oN-dWb87rNLBu-b3UfxUP/view) |
+| 65 | আল লুগাতুল আরাবিয়াতুল ইত্তেছালিয়া-5.pdf | আরবী ভাষা শিক্ষা বই | 6.2 MB | [Open in Drive](https://drive.google.com/file/d/15TdrO0KmAD_HLDyY-fEcb02iwM9w451s/view) |
+| 66 | এসো আরবি শিখি – আবু তাহের মেসবাহ.pdf | আরবী ভাষা শিক্ষা বই | 9.5 MB | [Open in Drive](https://drive.google.com/file/d/1OLwSryEQ_dYg7XI82g4oII8gjW7YsAmC/view) |
+| 67 | এসো কুরআন শিখি ১ম খন্ড – আবু তাহের মিসবাহ.pdf | আরবী ভাষা শিক্ষা বই | 7.3 MB | [Open in Drive](https://drive.google.com/file/d/1s5N3NFr0pOprU00k2cEiaAMI3A0urNqP/view) |
+| 68 | এসো কুরআন শিখি ২য় খন্ড – আবু তাহের মিসবাহ.pdf | আরবী ভাষা শিক্ষা বই | 13.0 MB | [Open in Drive](https://drive.google.com/file/d/1SOXPEg5DZayjtZRd1MOGVj2vQOeJiym7/view) |
+| 69 | এসো কুরআন শিখি ৩য় খন্ড – আবু তাহের মিসবাহ.pdf | আরবী ভাষা শিক্ষা বই | 20.0 MB | [Open in Drive](https://drive.google.com/file/d/14D9PcG8XEKN1G1Q5v_hOd6qvBBUMmTUa/view) |
+| 70 | এসো কুরআন শিখি ৪র্থ খন্ড – আবু তাহের মিসবাহ.pdf | আরবী ভাষা শিক্ষা বই | 18.4 MB | [Open in Drive](https://drive.google.com/file/d/1VLvq3TllqZXB40cLHPpCV3VOAZVkWCna/view) |
+| 71 | এসো ছারফ শিখি – আবু তাহের মিসবাহ.pdf | আরবী ভাষা শিক্ষা বই | 3.1 MB | [Open in Drive](https://drive.google.com/file/d/1C1Hmg1h9Oam4mjXEW2--xU_jF69xOUUv/view) |
+| 72 | এসো নাহু শিখি – আবু তাহের মিসবাহ.pdf | আরবী ভাষা শিক্ষা বই | 5.5 MB | [Open in Drive](https://drive.google.com/file/d/1ZL0nP-bUvjIxs29tKizzEMjc1zmm5ij1/view) |
+| 73 | এসো ফিকাহ শিখি – আবু তাহের মিসবাহ .pdf | আরবী ভাষা শিক্ষা বই | 3.9 MB | [Open in Drive](https://drive.google.com/file/d/1n2lFuevHtE-AAlkhcMUgrNmPfTVwNcS4/view) |
+| 74 | এসো বালাগাত শিখি – আবু তাহের মিসবাহ.pdf | আরবী ভাষা শিক্ষা বই | 10.3 MB | [Open in Drive](https://drive.google.com/file/d/1hJmw4G0gdlKJKTjAqGfys-gGx-IoiVBi/view) |
+| 75 | কিভাবে আরবী শিখবো-আবু নোমান আল মাদানী.pdf | আরবী ভাষা শিক্ষা বই | 31.8 MB | [Open in Drive](https://drive.google.com/file/d/1dGmE1kIW3mM0eb0Hnvi8ziaQ5ryC-_sL/view) |
+| 76 | কুরআনীয় আরবি শিক্ষা-1.pdf | আরবী ভাষা শিক্ষা বই | 2.5 MB | [Open in Drive](https://drive.google.com/file/d/1MVcIubEc9PPWclHk69G9h5mWV2kGEm1R/view) |
+| 77 | কুরআনীয় আরবি শিক্ষা.pdf | আরবী ভাষা শিক্ষা বই | 2.5 MB | [Open in Drive](https://drive.google.com/file/d/1pVDeACwudTAeoShDS2_8OZg_ZX5KzCOR/view) |
+| 78 | ব্যাবহারিক আরবি-1-Calp Program-উন্মুক্ত বিশ্ববিদ্যালয়.pdf | আরবী ভাষা শিক্ষা বই | 2.6 MB | [Open in Drive](https://drive.google.com/file/d/16WZhDpyEFmo9DlW7XDW8QHeeNNcNb_e2/view) |
+| 79 | ব্যাবহারিক আরবি-2-Calp Program-উন্মুক্ত বিশ্ববিদ্যালয়.pdf | আরবী ভাষা শিক্ষা বই | 2.8 MB | [Open in Drive](https://drive.google.com/file/d/1darzRxfXxIaQ9KGh6iGAJivi4ZwLSgTh/view) |
+| 80 | ২৫ দিনে সহজ উপায়ে সৌদি ভাষা শিক্ষা.pdf | আরবী ভাষা শিক্ষা বই | 10.3 MB | [Open in Drive](https://drive.google.com/file/d/1m-296WLg8t0l4bp-aT7AjlHJdVTHF3TD/view) |
 | 81 | কোরআনের অভিধান.pdf | আল কুরআন মাজিদ | 5.5 MB | [Open in Drive](https://drive.google.com/file/d/1kQMwLUx_VIzpq4w3_Q1WFtA-Gg5hzBQZ/view) |
 | 82 | Fathul Bari Sharah Sahih Al-Bukhari (Arabic) 01.pdf | হাদীস শরীফ | 21.3 MB | [Open in Drive](https://drive.google.com/file/d/1c5MjNx4fOJh9BS-SUC6yQ0Krd7MVWOPs/view) |
 | 83 | Fathul Bari Sharah Sahih Al-Bukhari (Arabic) 02.pdf | হাদীস শরীফ | 20.6 MB | [Open in Drive](https://drive.google.com/file/d/1cKQXREnKg2TLvVVUTeZTrSUkIN0H_r_T/view) |
