@@ -20,6 +20,7 @@
 | **Author** | এম. এ. খান |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Islam/Islamic Lifestyle |
+| **Subfolder** | অ-ঔ |
 | **Formats** | TEXT, json |
 | **Total Size** | 540.7 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | বিভূতিভূষণ মিত্র |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Hinduism |
+| **Subfolder** | য-হ |
 | **Formats** | TEXT, json |
 | **Total Size** | 534.8 KB |
 

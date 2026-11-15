@@ -17,6 +17,7 @@
 | **Author** | প্রমথ চৌধুরী |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Literature/Poetry |
+| **Subfolder** | প-ব |
 | **Formats** | EPUB |
 | **Total Size** | 126.8 KB |
 

@@ -17,6 +17,7 @@
 | **Author** | জাতিসংঘ সাধারণ পরিষদ |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | জাতিসংঘ সাধারণ পরিষদ |
 | **Formats** | EPUB |
 | **Total Size** | 86.6 KB |
 

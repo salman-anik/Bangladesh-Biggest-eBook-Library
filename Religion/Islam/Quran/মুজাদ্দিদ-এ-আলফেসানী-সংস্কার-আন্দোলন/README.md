@@ -17,6 +17,7 @@
 | **Author** | আন্দোলন |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | ভ-ম |
 | **Formats** | PDF |
 | **Total Size** | 13.5 MB |
 

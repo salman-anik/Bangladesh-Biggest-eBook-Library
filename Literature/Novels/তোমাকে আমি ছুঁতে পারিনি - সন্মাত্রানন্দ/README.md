@@ -20,6 +20,7 @@
 | **Author** | সন্মাত্রানন্দ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 625.3 KB |
 

@@ -17,6 +17,7 @@
 | **Author** | সুভাষচন্দ্র বসু |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | য-হ |
 | **Formats** | EPUB |
 | **Total Size** | 65.7 KB |
 

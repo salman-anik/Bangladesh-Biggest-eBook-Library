@@ -16,5 +16,6 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Magazines and Periodicals/Religious Magazines |
+| **Subfolder** | — |
 | **Formats** | — |
 | **Total Size** | — |

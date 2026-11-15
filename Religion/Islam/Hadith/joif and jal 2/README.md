@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | ইসলামী বই |
 | **Category** | Religion/Islam/Hadith |
+| **Subfolder** | English (G-M) |
 | **Formats** | PDF |
 | **Total Size** | 19.2 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | হিমাদ্রিকিশোর দাশগুপ্ত |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Horror |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 542.4 KB |
 

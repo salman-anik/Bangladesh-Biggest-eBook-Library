@@ -20,6 +20,7 @@
 | **Author** | আরিফ আজাদ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Islam/Islamic Lifestyle |
+| **Subfolder** | প-ব |
 | **Formats** | TEXT, json |
 | **Total Size** | 818.2 KB |
 

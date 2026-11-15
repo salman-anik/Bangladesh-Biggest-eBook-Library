@@ -20,6 +20,7 @@
 | **Author** | সৌমিত্র বিশ্বাস |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 35.0 KB |
 

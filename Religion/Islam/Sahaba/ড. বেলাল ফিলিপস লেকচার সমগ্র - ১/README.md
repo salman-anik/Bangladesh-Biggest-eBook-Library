@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | বই বিতরন (১৭/০৮/২০২২) |
 | **Category** | Religion/Islam/Sahaba |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 11.0 MB |
 

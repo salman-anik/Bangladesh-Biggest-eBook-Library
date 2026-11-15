@@ -20,6 +20,7 @@
 | **Author** | অভীক সরকার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ভ-ম |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 601.0 KB |
 

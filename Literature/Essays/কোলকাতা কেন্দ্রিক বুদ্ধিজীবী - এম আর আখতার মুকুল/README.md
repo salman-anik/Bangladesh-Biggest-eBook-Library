@@ -20,6 +20,7 @@
 | **Author** | এম আর আখতার মুকুল |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 2.0 MB |
 

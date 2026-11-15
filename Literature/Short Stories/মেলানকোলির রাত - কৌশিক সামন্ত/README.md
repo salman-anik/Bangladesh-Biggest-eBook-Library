@@ -20,6 +20,7 @@
 | **Author** | কৌশিক সামন্ত |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | ভ-ম |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 438.8 KB |
 

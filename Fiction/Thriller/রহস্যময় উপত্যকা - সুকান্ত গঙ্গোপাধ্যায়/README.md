@@ -20,6 +20,7 @@
 | **Author** | সুকান্ত গঙ্গোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 355.9 KB |
 

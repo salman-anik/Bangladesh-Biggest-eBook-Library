@@ -20,6 +20,7 @@
 | **Author** | প্রীতিলতা রায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 2.8 MB |
 

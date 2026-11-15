@@ -17,6 +17,7 @@
 | **Author** | এম. জি. মুলকর |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | অ-ঔ |
 | **Formats** | EPUB |
 | **Total Size** | 243.5 KB |
 

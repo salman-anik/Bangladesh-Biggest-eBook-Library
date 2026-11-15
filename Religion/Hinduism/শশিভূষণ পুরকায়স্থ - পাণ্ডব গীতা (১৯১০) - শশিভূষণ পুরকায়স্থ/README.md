@@ -17,6 +17,7 @@
 | **Author** | শশিভূষণ পুরকায়স্থ |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Hinduism |
+| **Subfolder** | য-হ |
 | **Formats** | EPUB |
 | **Total Size** | 147.3 KB |
 

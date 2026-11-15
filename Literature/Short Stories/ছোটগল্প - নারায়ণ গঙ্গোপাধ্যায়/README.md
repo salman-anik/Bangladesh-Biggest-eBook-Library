@@ -20,6 +20,7 @@
 | **Author** | নারায়ণ গঙ্গোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | চ-ঞ |
 | **Formats** | TEXT, json |
 | **Total Size** | 2.3 MB |
 

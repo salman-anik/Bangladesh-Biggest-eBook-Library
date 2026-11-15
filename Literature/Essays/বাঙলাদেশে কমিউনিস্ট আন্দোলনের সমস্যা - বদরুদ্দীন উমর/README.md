@@ -20,6 +20,7 @@
 | **Author** | বদরুদ্দীন উমর |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | বদরুদ্দীন উমর |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 652.2 KB |
 

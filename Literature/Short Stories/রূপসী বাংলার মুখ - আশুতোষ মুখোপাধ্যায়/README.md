@@ -20,6 +20,7 @@
 | **Author** | আশুতোষ মুখোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | আশুতোষ মুখোপাধ্যায় |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 57.1 KB |
 

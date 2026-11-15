@@ -17,6 +17,7 @@
 | **Author** | কুপ্রভাব |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Business and Finance/Finance |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 342.1 KB |
 

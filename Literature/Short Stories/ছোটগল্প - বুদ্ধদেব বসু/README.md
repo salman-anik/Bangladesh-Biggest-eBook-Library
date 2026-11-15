@@ -20,6 +20,7 @@
 | **Author** | বুদ্ধদেব বসু |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | চ-ঞ |
 | **Formats** | TEXT, json |
 | **Total Size** | 111.9 KB |
 

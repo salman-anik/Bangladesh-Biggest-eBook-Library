@@ -20,6 +20,7 @@
 | **Author** | সতীশচন্দ্র মিত্র |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | History/Bangladesh History |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 2.2 MB |
 

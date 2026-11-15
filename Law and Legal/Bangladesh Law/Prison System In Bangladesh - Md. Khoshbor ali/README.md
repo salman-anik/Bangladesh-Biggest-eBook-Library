@@ -17,6 +17,7 @@
 | **Author** | Md. Khoshbor ali |
 | **Publication / Source** | Internet Archive Open Library (archive.org) |
 | **Category** | Law and Legal/Bangladesh Law |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 1.8 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | অড্রি ট্রুসকে |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 533.5 KB |
 

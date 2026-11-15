@@ -20,6 +20,7 @@
 | **Author** | রকিব হাসান, শামসুদ্দীন নওয়াব |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.3 MB |
 

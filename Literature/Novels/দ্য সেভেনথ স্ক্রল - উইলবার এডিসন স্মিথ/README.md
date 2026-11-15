@@ -20,6 +20,7 @@
 | **Author** | উইলবার এডিসন স্মিথ |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | উইলবার এডিসন স্মিথ |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 751.9 KB |
 

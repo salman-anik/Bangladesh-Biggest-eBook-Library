@@ -20,6 +20,7 @@
 | **Author** | বিজনবিহারী গোস্বামী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Hinduism |
+| **Subfolder** | য-হ |
 | **Formats** | TEXT, json |
 | **Total Size** | 9.8 KB |
 

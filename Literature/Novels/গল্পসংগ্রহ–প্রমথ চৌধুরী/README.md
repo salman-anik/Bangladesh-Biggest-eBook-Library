@@ -20,6 +20,7 @@
 | **Author** | প্রমথ চৌধুরী |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 1.1 MB |
 

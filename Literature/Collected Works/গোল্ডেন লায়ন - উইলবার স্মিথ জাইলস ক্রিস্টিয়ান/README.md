@@ -20,6 +20,7 @@
 | **Author** | উইলবার স্মিথ, জাইলস ক্রিস্টিয়ান, লুৎফুন নাহার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.5 MB |
 

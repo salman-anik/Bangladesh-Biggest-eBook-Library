@@ -21,6 +21,7 @@
 | **Author** | স্যার আর্থার কোনান ডয়েল |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, EPUB, TEXT |
 | **Total Size** | 1.4 MB |
 

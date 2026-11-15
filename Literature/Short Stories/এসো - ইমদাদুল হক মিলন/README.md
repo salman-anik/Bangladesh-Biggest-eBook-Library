@@ -20,6 +20,7 @@
 | **Author** | ইমদাদুল হক মিলন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 360.9 KB |
 

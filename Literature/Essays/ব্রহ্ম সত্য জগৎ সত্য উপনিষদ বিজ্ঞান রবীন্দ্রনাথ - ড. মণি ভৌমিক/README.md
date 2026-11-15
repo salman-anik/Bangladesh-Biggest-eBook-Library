@@ -20,6 +20,7 @@
 | **Author** | মণি ভৌমিক |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 465.1 KB |
 

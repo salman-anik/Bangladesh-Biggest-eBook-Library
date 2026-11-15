@@ -17,6 +17,7 @@
 | **Author** | পঞ্চানন ভট্টাচার্য |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | প-ব |
 | **Formats** | EPUB |
 | **Total Size** | 84.2 KB |
 

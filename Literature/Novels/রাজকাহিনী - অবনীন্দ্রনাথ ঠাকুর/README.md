@@ -20,6 +20,7 @@
 | **Author** | অবনীন্দ্রনাথ ঠাকুর |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | অবনীন্দ্রনাথ ঠাকুর |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 576.5 KB |
 

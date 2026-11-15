@@ -20,6 +20,7 @@
 | **Author** | শওকত ওসমান |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 89.0 KB |
 

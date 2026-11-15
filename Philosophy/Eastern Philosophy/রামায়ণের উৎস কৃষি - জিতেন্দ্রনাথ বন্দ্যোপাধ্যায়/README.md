@@ -20,6 +20,7 @@
 | **Author** | জিতেন্দ্রনাথ বন্দ্যোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Philosophy/Eastern Philosophy |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 829.0 KB |
 

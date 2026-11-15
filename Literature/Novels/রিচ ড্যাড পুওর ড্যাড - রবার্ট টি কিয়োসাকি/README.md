@@ -20,6 +20,7 @@
 | **Author** | রবার্ট টি কিয়োসাকি |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 607.8 KB |
 

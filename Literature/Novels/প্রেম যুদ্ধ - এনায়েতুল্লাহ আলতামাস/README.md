@@ -20,6 +20,7 @@
 | **Author** | এনায়েতুল্লাহ আলতামাস |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | প-ব |
 | **Formats** | TEXT, json |
 | **Total Size** | 615.5 KB |
 

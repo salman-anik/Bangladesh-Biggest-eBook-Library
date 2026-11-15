@@ -20,6 +20,7 @@
 | **Author** | দক্ষিণারঞ্জন মিত্র মজুমদার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Children's Literature |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 472.4 KB |
 

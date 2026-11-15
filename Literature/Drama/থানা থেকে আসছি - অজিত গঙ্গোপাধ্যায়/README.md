@@ -20,6 +20,7 @@
 | **Author** | অজিত গঙ্গোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Drama |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 346.8 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | সৈয়দ আবুল মকসুদ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 608.4 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | দাউদ হায়দার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Poetry |
+| **Subfolder** | ত-ন |
 | **Formats** | TEXT, json |
 | **Total Size** | 39.2 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | আলবেয়ার কাম্যু |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 555.5 KB |
 

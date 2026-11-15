@@ -20,6 +20,7 @@
 | **Author** | প্রবীর ঘোষ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.5 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | নারায়ণ সান্যাল |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Detective |
+| **Subfolder** | নারায়ণ সান্যাল |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 37.0 KB |
 

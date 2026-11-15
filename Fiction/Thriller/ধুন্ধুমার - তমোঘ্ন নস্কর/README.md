@@ -20,6 +20,7 @@
 | **Author** | তমোঘ্ন নস্কর |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.0 MB |
 

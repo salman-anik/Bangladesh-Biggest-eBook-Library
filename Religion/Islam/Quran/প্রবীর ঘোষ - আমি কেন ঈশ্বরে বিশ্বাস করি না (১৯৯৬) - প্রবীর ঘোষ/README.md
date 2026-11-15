@@ -17,6 +17,7 @@
 | **Author** | প্রবীর ঘোষ |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | প-ব |
 | **Formats** | EPUB |
 | **Total Size** | 1006.5 KB |
 

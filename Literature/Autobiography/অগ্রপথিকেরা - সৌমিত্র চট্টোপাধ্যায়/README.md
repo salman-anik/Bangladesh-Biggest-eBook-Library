@@ -21,6 +21,7 @@
 | **Author** | সৌমিত্র চট্টোপাধ্যায় |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 4.8 MB |
 

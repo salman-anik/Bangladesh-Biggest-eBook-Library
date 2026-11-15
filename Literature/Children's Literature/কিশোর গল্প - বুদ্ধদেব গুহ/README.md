@@ -20,6 +20,7 @@
 | **Author** | বুদ্ধদেব গুহ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Children's Literature |
+| **Subfolder** | — |
 | **Formats** | TEXT, json |
 | **Total Size** | 983.5 KB |
 

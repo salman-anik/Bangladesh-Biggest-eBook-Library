@@ -20,6 +20,7 @@
 | **Author** | মোশতাক আহমেদ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Science Fiction |
+| **Subfolder** | — |
 | **Formats** | TEXT |
 | **Total Size** | 548.1 KB |
 

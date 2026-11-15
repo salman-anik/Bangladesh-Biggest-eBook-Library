@@ -20,6 +20,7 @@
 | **Author** | কিশোর পাশা ইমন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.6 MB |
 

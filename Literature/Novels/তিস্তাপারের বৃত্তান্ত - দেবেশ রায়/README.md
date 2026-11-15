@@ -20,6 +20,7 @@
 | **Author** | দেবেশ রায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 3.6 MB |
 

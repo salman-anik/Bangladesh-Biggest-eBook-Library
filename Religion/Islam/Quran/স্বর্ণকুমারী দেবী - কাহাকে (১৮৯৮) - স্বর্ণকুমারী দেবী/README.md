@@ -17,6 +17,7 @@
 | **Author** | স্বর্ণকুমারী দেবী |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | য-হ |
 | **Formats** | EPUB |
 | **Total Size** | 187.5 KB |
 

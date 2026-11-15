@@ -20,6 +20,7 @@
 | **Author** | অনিল ভৌমিক |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | অনিল ভৌমিক |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 346.3 KB |
 

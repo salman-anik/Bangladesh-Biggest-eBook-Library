@@ -20,6 +20,7 @@
 | **Author** | নির্মল সেন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 3.0 MB |
 

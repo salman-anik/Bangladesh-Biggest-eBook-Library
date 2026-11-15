@@ -17,6 +17,7 @@
 | **Author** | জ্ঞানদানন্দিনী দেবী |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Biography and Autobiography/Autobiographies |
+| **Subfolder** | — |
 | **Formats** | EPUB |
 | **Total Size** | 195.2 KB |
 

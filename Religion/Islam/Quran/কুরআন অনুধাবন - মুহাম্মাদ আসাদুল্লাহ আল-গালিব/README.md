@@ -17,6 +17,7 @@
 | **Author** | মুহাম্মাদ আসাদুল্লাহ আল-গালিব |
 | **Publication / Source** | Internet Archive Open Library (archive.org) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | ক-ঙ |
 | **Formats** | PDF |
 | **Total Size** | 2.7 MB |
 

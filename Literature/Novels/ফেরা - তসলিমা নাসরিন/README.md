@@ -21,6 +21,7 @@
 | **Author** | তসলিমা নাসরিন |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | তসলিমা নাসরিন |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 824.5 KB |
 

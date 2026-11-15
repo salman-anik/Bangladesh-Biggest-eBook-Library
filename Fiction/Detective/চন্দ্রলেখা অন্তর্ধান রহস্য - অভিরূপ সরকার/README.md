@@ -20,6 +20,7 @@
 | **Author** | অভিরূপ সরকার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Detective |
+| **Subfolder** | অভিরূপ সরকার |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.1 MB |
 

@@ -21,6 +21,7 @@
 | **Author** | তারাদাস বন্দ্যোপাধ্যায় |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Fiction/Horror |
+| **Subfolder** | — |
 | **Formats** | COVER, PDF, TEXT, json |
 | **Total Size** | 3.3 MB |
 

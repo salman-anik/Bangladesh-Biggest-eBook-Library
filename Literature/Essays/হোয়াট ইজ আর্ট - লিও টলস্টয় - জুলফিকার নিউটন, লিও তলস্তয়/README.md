@@ -20,6 +20,7 @@
 | **Author** | জুলফিকার নিউটন, লিও তলস্তয় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.4 MB |
 

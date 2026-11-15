@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | University Physics - Fundamentals of Physics |
 | **Category** | Science/Physics |
+| **Subfolder** | English (A-F) |
 | **Formats** | PDF |
 | **Total Size** | 410.8 KB |
 

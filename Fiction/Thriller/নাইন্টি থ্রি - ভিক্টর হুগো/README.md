@@ -21,6 +21,7 @@
 | **Author** | ভিক্টর হুগো |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, EPUB, TEXT |
 | **Total Size** | 1.2 MB |
 

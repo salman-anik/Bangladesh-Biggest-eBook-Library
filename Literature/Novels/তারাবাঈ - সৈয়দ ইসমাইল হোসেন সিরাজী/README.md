@@ -20,6 +20,7 @@
 | **Author** | সৈয়দ ইসমাইল হোসেন সিরাজী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ত-ন |
 | **Formats** | TEXT, json |
 | **Total Size** | 272.5 KB |
 

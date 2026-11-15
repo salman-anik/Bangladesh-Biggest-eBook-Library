@@ -20,6 +20,7 @@
 | **Author** | স্বামী বিবেকানন্দ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | স্বামী বিবেকানন্দ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 3.3 MB |
 

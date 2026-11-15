@@ -20,6 +20,7 @@
 | **Author** | জিম করবেট, মহাশ্বেতা দেবী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | চ-ঞ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 8.1 MB |
 

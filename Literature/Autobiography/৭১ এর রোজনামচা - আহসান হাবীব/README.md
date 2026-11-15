@@ -20,6 +20,7 @@
 | **Author** | আহসান হাবীব (কার্টুনিস্ট) |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 158.5 KB |
 

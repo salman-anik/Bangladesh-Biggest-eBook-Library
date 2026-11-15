@@ -16,6 +16,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | — |
 | **Category** | Children and Young Adult/Comics |
+| **Subfolder** | — |
 | **Formats** | MOBI |
 | **Total Size** | 74.0 MB |
 

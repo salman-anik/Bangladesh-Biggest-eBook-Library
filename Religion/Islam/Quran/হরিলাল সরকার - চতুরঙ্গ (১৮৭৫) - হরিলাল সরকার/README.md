@@ -17,6 +17,7 @@
 | **Author** | হরিলাল সরকার |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | য-হ |
 | **Formats** | EPUB |
 | **Total Size** | 120.8 KB |
 

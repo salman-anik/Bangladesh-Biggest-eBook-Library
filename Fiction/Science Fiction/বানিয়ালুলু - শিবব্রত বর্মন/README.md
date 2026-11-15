@@ -20,6 +20,7 @@
 | **Author** | শিবব্রত বর্মন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Science Fiction |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 424.7 KB |
 

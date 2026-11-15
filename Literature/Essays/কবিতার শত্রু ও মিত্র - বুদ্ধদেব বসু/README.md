@@ -21,6 +21,7 @@
 | **Author** | বুদ্ধদেব বসু |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 701.3 KB |
 

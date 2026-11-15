@@ -17,6 +17,7 @@
 | **Author** | ghalib |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | English (G-M) |
 | **Formats** | PDF |
 | **Total Size** | 595.4 KB |
 

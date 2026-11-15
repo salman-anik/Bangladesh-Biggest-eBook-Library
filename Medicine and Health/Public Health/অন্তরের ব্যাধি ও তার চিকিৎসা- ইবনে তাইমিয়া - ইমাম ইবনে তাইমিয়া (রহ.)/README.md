@@ -17,6 +17,7 @@
 | **Author** | ইমাম ইবনে তাইমিয়া (রহ.) |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Medicine and Health/Public Health |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 1.5 MB |
 

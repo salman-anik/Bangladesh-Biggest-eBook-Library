@@ -20,6 +20,7 @@
 | **Author** | দিব্যেন্দু পালিত |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Poetry |
+| **Subfolder** | য-হ |
 | **Formats** | TEXT, json |
 | **Total Size** | 6.2 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | মার্সেল প্রুস্ত |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | English (A-F) |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.3 MB |
 

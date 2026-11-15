@@ -20,6 +20,7 @@
 | **Author** | পার্থ সারথী দাস, হোমার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | অ-ঔ |
 | **Formats** | TEXT, json |
 | **Total Size** | 1.6 MB |
 

@@ -17,6 +17,7 @@
 | **Author** | islamqa |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Fiqh |
+| **Subfolder** | ত-ন |
 | **Formats** | PDF |
 | **Total Size** | 7.6 MB |
 

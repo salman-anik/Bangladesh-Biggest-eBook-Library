@@ -20,6 +20,7 @@
 | **Author** | সত্যজিৎ রায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Children's Literature |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 260.3 KB |
 

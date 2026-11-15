@@ -17,6 +17,7 @@
 | **Author** | আব্দুল্লাহিল হাদী |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Biography and Autobiography/Autobiographies |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 298.1 KB |
 

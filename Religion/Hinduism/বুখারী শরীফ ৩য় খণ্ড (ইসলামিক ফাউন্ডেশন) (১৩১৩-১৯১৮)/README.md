@@ -20,6 +20,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Hinduism |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 676.7 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | বঙ্কিমচন্দ্র চট্টোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | বঙ্কিমচন্দ্র চট্টোপাধ্যায় |
 | **Formats** | TEXT, json |
 | **Total Size** | 727.1 KB |
 

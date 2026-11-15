@@ -21,6 +21,7 @@
 | **Author** | অমলেন্দু দে |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | History/Bangladesh History |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 468.3 KB |
 

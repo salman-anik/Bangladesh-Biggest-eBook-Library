@@ -20,6 +20,7 @@
 | **Author** | ফররুখ আহমদ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Poetry |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 153.9 KB |
 

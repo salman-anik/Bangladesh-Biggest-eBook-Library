@@ -20,6 +20,7 @@
 | **Author** | ভাস্কর চক্রবর্তী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 183.1 KB |
 

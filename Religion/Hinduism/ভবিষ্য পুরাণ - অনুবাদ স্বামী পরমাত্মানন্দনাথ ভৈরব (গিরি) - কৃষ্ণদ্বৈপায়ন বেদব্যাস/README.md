@@ -20,6 +20,7 @@
 | **Author** | কৃষ্ণদ্বৈপায়ন বেদব্যাস |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Hinduism |
+| **Subfolder** | ভ-ম |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.2 MB |
 

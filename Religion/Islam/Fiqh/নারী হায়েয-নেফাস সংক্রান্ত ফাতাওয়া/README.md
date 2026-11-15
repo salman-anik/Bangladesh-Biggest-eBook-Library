@@ -17,6 +17,7 @@
 | **Author** | নেফাস সংক্রান্ত ফাতাওয়া |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Fiqh |
+| **Subfolder** | ত-ন |
 | **Formats** | PDF |
 | **Total Size** | 500.8 KB |
 

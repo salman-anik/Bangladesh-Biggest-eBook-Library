@@ -20,6 +20,7 @@
 | **Author** | আহমদ ছফা |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | য-হ |
 | **Formats** | TEXT, json |
 | **Total Size** | 1023.6 KB |
 

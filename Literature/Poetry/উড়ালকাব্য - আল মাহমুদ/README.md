@@ -20,6 +20,7 @@
 | **Author** | আল মাহমুদ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Poetry |
+| **Subfolder** | অ-ঔ |
 | **Formats** | TEXT, json |
 | **Total Size** | 80.0 KB |
 

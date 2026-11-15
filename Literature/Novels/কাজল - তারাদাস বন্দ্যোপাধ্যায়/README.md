@@ -21,6 +21,7 @@
 | **Author** | তারাদাস বন্দ্যোপাধ্যায় |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 953.0 KB |
 

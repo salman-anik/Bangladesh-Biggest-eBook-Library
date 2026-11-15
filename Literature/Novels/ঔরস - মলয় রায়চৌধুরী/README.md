@@ -20,6 +20,7 @@
 | **Author** | মলয় রায়চৌধুরী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | মলয় রায়চৌধুরী |
 | **Formats** | TEXT, json |
 | **Total Size** | 527.6 KB |
 

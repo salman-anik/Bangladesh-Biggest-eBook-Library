@@ -20,6 +20,7 @@
 | **Author** | আহমদ ছফা |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | আহমদ ছফা |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 508.6 KB |
 

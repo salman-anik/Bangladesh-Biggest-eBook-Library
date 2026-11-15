@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Religion/Islam/Islamic History |
+| **Subfolder** | য-হ |
 | **Formats** | PDF |
 | **Total Size** | 23.2 MB |
 

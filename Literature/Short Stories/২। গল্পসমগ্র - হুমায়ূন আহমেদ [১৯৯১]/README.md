@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | 0-9 & Other |
 | **Formats** | PDF |
 | **Total Size** | 25.4 MB |
 

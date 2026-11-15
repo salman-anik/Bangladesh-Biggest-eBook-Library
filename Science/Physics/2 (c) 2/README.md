@@ -16,5 +16,6 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | University Physics - Classical Electrodynamics II |
 | **Category** | Science/Physics |
+| **Subfolder** | 0-9 & Other |
 | **Formats** | — |
 | **Total Size** | — |

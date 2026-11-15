@@ -21,6 +21,7 @@
 | **Author** | অতীন বন্দ্যোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | অতীন বন্দ্যোপাধ্যায় |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 5.3 MB |
 

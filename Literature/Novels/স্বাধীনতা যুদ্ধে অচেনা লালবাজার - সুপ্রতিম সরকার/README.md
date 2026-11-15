@@ -20,6 +20,7 @@
 | **Author** | সুপ্রতিম সরকার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 528.2 KB |
 

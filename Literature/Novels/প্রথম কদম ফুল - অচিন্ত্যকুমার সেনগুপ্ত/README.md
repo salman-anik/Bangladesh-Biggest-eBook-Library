@@ -20,6 +20,7 @@
 | **Author** | অচিন্ত্যকুমার সেনগুপ্ত |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 46.7 KB |
 

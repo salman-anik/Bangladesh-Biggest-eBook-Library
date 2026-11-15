@@ -20,6 +20,7 @@
 | **Author** | চিত্রদীপ চক্রবর্তী, হিমাদ্রি সরকার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Detective |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 642.8 KB |
 

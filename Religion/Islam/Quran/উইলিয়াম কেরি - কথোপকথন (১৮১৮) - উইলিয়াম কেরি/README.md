@@ -17,6 +17,7 @@
 | **Author** | উইলিয়াম কেরি |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | অ-ঔ |
 | **Formats** | EPUB |
 | **Total Size** | 178.6 KB |
 

@@ -17,6 +17,7 @@
 | **Author** | the History of Arabic Science 3 |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Science/General Science |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 32.8 MB |
 

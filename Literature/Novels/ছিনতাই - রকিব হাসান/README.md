@@ -20,6 +20,7 @@
 | **Author** | রকিব হাসান |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | চ-ঞ |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 312.4 KB |
 

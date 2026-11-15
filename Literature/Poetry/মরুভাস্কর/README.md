@@ -20,6 +20,7 @@
 | **Author** | কাজী নজরুল ইসলাম |
 | **Publication / Source** | ইসলামী বই |
 | **Category** | Literature/Poetry |
+| **Subfolder** | কাজী নজরুল ইসলাম |
 | **Formats** | COVER, json |
 | **Total Size** | 5.7 MB |
 

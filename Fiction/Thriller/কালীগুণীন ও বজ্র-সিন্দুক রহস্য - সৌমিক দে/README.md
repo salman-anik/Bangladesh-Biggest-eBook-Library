@@ -20,6 +20,7 @@
 | **Author** | সৌমিক দে |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | সৌমিক দে |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.1 MB |
 

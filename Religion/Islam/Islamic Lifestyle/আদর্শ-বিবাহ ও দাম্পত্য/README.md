@@ -21,6 +21,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | ইসলামী বই |
 | **Category** | Religion/Islam/Islamic Lifestyle |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, PDF, TEXT, json |
 | **Total Size** | 1.5 MB |
 

@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | University Physics - Classical Electrodynamics II |
 | **Category** | Science/Physics |
+| **Subfolder** | English (G-M) |
 | **Formats** | PDF |
 | **Total Size** | 22.0 MB |
 

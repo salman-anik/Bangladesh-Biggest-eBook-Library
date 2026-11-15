@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Science/Mathematics |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 30.6 MB |
 

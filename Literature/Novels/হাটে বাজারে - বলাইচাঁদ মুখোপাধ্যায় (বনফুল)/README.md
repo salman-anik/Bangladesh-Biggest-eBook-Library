@@ -20,6 +20,7 @@
 | **Author** | বলাইচাঁদ মুখোপাধ্যায় (বনফুল) |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 542.7 KB |
 

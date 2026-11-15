@@ -20,6 +20,7 @@
 | **Author** | অ্যাডগার অ্যালান পো, জাকির শামীম |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | অ-ঔ |
 | **Formats** | TEXT, json |
 | **Total Size** | 4.7 MB |
 

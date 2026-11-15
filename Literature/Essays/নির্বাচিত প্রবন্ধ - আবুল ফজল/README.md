@@ -21,6 +21,7 @@
 | **Author** | আবুল ফজল |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Essays |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, PDF, TEXT, json |
 | **Total Size** | 22.2 MB |
 

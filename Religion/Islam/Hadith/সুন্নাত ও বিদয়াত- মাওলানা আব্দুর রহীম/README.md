@@ -17,6 +17,7 @@
 | **Author** | মাওলানা আব্দুর রহীম |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Hadith |
+| **Subfolder** | য-হ |
 | **Formats** | PDF |
 | **Total Size** | 6.7 MB |
 

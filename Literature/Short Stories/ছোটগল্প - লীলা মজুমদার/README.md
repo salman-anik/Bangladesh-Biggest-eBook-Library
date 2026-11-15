@@ -20,6 +20,7 @@
 | **Author** | লীলা মজুমদার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | লীলা মজুমদার |
 | **Formats** | TEXT, json |
 | **Total Size** | 94.8 KB |
 

@@ -21,6 +21,7 @@
 | **Author** | রবীন্দ্রনাথ ঠাকুর |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 1.0 MB |
 

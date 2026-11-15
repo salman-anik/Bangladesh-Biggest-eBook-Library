@@ -20,6 +20,7 @@
 | **Author** | সিমোন দ্য বোভোয়ার, হুমায়ুন আজাদ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 2.5 MB |
 

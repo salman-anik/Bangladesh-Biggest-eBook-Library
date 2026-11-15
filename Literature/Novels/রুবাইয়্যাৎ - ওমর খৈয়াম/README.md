@@ -20,6 +20,7 @@
 | **Author** | ওমর খৈয়াম |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | য-হ |
 | **Formats** | TEXT, json |
 | **Total Size** | 27.3 KB |
 

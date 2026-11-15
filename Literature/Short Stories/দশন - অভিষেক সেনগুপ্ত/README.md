@@ -20,6 +20,7 @@
 | **Author** | অভিষেক সেনগুপ্ত |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 573.9 KB |
 

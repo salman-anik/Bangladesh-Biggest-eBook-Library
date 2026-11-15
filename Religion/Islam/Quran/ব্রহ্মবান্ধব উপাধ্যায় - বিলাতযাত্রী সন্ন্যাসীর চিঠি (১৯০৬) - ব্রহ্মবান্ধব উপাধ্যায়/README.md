@@ -17,6 +17,7 @@
 | **Author** | ব্রহ্মবান্ধব উপাধ্যায় |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | প-ব |
 | **Formats** | EPUB |
 | **Total Size** | 150.9 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | দিব্যেন্দু পালিত |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | চ-ঞ |
 | **Formats** | TEXT, json |
 | **Total Size** | 22.3 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | দেবাঞ্জন মুখোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1004.5 KB |
 

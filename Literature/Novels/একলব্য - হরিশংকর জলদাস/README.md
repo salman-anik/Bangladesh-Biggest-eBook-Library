@@ -21,6 +21,7 @@
 | **Author** | হরিশংকর জলদাস |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Novels |
+| **Subfolder** | হরিশংকর জলদাস |
 | **Formats** | COVER, PDF, TEXT, json |
 | **Total Size** | 9.4 MB |
 

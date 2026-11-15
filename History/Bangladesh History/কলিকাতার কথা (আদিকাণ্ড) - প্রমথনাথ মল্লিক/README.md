@@ -20,6 +20,7 @@
 | **Author** | প্রমথনাথ মল্লিক |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | History/Bangladesh History |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.9 MB |
 

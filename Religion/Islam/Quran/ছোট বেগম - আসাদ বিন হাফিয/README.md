@@ -17,6 +17,7 @@
 | **Author** | আসাদ বিন হাফিয |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | চ-ঞ |
 | **Formats** | PDF |
 | **Total Size** | 3.0 MB |
 

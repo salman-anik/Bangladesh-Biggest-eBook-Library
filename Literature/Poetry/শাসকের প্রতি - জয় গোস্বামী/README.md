@@ -20,6 +20,7 @@
 | **Author** | জয় গোস্বামী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Poetry |
+| **Subfolder** | জয় গোস্বামী |
 | **Formats** | TEXT, json |
 | **Total Size** | 7.3 KB |
 

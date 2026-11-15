@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | ইসলামী বই |
 | **Category** | Religion/Islam/Islamic History |
+| **Subfolder** | ত-ন |
 | **Formats** | PDF |
 | **Total Size** | 17.6 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | রেবন্ত গোস্বামী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Science Fiction |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.2 MB |
 

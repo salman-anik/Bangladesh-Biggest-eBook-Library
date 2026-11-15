@@ -20,6 +20,7 @@
 | **Author** | শীর্ষেন্দু মুখোপাধ্যায় |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Fiction/Horror |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 1.1 MB |
 

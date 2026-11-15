@@ -20,6 +20,7 @@
 | **Author** | শুভঙ্কর মুখোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | য-হ |
 | **Formats** | TEXT, json |
 | **Total Size** | 96.9 KB |
 

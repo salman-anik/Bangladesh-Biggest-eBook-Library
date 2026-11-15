@@ -20,6 +20,7 @@
 | **Author** | মোহাম্মদ শাহজামান শুভ |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ভ-ম |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 22.3 MB |
 

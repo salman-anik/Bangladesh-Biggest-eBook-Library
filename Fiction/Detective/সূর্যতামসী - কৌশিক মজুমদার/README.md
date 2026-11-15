@@ -20,6 +20,7 @@
 | **Author** | কৌশিক মজুমদার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Detective |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 933.8 KB |
 

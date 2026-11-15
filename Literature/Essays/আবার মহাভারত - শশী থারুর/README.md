@@ -20,6 +20,7 @@
 | **Author** | ঝিমলি মুখার্জি পাণ্ডে, শশী থারুর |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 223.0 KB |
 

@@ -16,6 +16,7 @@
 | **Author** | c r |
 | **Publication / Source** | University Physics - Geophysics & 4th Year |
 | **Category** | Science/Physics |
+| **Subfolder** | English (N-S) |
 | **Formats** | DOCX |
 | **Total Size** | 19.6 KB |
 

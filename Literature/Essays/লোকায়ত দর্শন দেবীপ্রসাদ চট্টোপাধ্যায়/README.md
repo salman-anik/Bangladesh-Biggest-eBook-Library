@@ -20,6 +20,7 @@
 | **Author** | দেবীপ্রসাদ চট্টোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.0 MB |
 

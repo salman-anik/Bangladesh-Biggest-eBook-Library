@@ -17,6 +17,7 @@
 | **Author** | ইমাম ইবনে তাইমিয়া (রহ.) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Islamic History |
+| **Subfolder** | য-হ |
 | **Formats** | PDF |
 | **Total Size** | 32.1 MB |
 

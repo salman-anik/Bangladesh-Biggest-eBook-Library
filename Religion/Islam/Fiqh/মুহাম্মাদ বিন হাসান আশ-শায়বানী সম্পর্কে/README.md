@@ -17,6 +17,7 @@
 | **Author** | শায়বানী সম্পর্কে |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Fiqh |
+| **Subfolder** | ভ-ম |
 | **Formats** | PDF |
 | **Total Size** | 321.5 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | শওকত ওসমান |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | চ-ঞ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 963.5 KB |
 

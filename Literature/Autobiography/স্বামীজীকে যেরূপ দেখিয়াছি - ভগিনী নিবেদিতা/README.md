@@ -20,6 +20,7 @@
 | **Author** | ভগিনী নিবেদিতা, স্বামী মাধবানন্দ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.3 MB |
 

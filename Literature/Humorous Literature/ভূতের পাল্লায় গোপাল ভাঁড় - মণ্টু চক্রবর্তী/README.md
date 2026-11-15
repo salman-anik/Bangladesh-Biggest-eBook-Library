@@ -20,6 +20,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Humorous Literature |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 136.0 KB |
 

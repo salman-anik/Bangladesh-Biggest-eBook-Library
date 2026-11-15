@@ -17,6 +17,7 @@
 | **Author** | মাওলানা মাহমুদুল হাসান |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Religion/Islam/Fiqh |
+| **Subfolder** | অ-ঔ |
 | **Formats** | PDF |
 | **Total Size** | 13.7 MB |
 

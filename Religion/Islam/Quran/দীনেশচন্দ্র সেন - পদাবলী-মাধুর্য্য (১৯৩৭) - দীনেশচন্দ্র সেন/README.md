@@ -17,6 +17,7 @@
 | **Author** | দীনেশচন্দ্র সেন |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | ত-ন |
 | **Formats** | EPUB |
 | **Total Size** | 216.1 KB |
 

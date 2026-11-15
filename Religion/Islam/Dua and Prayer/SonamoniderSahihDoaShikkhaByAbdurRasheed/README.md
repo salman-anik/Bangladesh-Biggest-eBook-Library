@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Dua and Prayer |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 906.9 KB |
 

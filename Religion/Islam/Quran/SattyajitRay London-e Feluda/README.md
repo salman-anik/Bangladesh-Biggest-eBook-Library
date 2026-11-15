@@ -17,6 +17,7 @@
 | **Author** | e Feluda |
 | **Publication / Source** | SM-Collection Bangla eBook Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | English (N-S) |
 | **Formats** | PDF |
 | **Total Size** | 2.4 MB |
 

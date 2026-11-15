@@ -20,6 +20,7 @@
 | **Author** | আবুল বাসার, মিচিও কাকু |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 2.1 MB |
 

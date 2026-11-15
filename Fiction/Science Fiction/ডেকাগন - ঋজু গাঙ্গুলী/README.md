@@ -20,6 +20,7 @@
 | **Author** | ঋজু গাঙ্গুলী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Science Fiction |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 564.5 KB |
 

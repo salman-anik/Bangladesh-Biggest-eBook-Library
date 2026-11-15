@@ -20,6 +20,7 @@
 | **Author** | আফিফা পারভীন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 42.8 KB |
 

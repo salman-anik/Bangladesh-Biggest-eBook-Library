@@ -20,6 +20,7 @@
 | **Author** | এ পি জে আবদুল কালাম, প্রমিত হোসেন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 828.0 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | অবনীন্দ্রনাথ ঠাকুর |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | অবনীন্দ্রনাথ ঠাকুর |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 601.7 KB |
 

@@ -21,6 +21,7 @@
 | **Author** | রমেশচন্দ্র মজুমদার |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | History/Bangladesh History |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 3.8 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | পাঁচকড়ি দে |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Detective |
+| **Subfolder** | পাঁচকড়ি দে |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 3.0 MB |
 

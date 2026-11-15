@@ -20,6 +20,7 @@
 | **Author** | প্রবীর ঘোষ |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 623.8 KB |
 

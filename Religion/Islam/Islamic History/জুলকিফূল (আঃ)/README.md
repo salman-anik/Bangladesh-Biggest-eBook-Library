@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | বই বিতরন (১৭/০৮/২০২২) |
 | **Category** | Religion/Islam/Islamic History |
+| **Subfolder** | চ-ঞ |
 | **Formats** | PDF |
 | **Total Size** | 795.7 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | প্রবোধকুমার সান্যাল |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Travel Writing |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 758.0 KB |
 

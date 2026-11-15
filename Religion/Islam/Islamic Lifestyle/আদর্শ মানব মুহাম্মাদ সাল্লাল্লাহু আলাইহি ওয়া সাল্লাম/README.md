@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | ইসলামীক বই ৫০০টি+ |
 | **Category** | Religion/Islam/Islamic Lifestyle |
+| **Subfolder** | অ-ঔ |
 | **Formats** | PDF |
 | **Total Size** | 3.0 MB |
 

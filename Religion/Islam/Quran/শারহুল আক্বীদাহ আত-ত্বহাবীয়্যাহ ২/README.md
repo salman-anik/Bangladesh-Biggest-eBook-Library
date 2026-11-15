@@ -17,6 +17,7 @@
 | **Author** | ত্বহাবীয়্যাহ ২ |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | য-হ |
 | **Formats** | PDF |
 | **Total Size** | 17.1 MB |
 

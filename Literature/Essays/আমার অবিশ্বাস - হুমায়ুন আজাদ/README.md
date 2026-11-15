@@ -21,6 +21,7 @@
 | **Author** | হুমায়ুন আজাদ |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | হুমায়ুন আজাদ |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 1.0 MB |
 

@@ -21,6 +21,7 @@
 | **Author** | আহমদ ছফা |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | History/Bangladesh History |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 1.9 MB |
 

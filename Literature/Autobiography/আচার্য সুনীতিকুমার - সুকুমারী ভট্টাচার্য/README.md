@@ -20,6 +20,7 @@
 | **Author** | সুকুমারী ভট্টাচার্য |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 311.0 KB |
 

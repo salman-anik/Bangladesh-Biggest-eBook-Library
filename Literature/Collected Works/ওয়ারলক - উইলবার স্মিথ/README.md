@@ -20,6 +20,7 @@
 | **Author** | উইলবার স্মিথ, পপি আখতার, শাহজাহান মানিক |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 2.7 MB |
 

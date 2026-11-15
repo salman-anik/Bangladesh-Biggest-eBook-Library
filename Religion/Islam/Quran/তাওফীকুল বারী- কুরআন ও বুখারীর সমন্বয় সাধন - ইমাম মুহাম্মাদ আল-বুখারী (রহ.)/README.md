@@ -17,6 +17,7 @@
 | **Author** | ইমাম মুহাম্মাদ আল-বুখারী (রহ.) |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | ত-ন |
 | **Formats** | PDF |
 | **Total Size** | 610.8 KB |
 

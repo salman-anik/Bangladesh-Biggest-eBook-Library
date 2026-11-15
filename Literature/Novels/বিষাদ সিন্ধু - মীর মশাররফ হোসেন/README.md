@@ -1,6 +1,6 @@
 # 📖 বিষাদ সিন্ধু - মীর মশাররফ হোসেন
 
-[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Religion](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/README.md) / [Islamic Lifestyle](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/Islam/Islamic%20Lifestyle/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/13etB0eEGlPODccGt1XZx1zbeDSCkNpvX)
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/README.md) / [Novels](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Novels/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/13etB0eEGlPODccGt1XZx1zbeDSCkNpvX)
 
 ![বিষাদ সিন্ধু - মীর মশাররফ হোসেন](https://drive.google.com/thumbnail?id=1jyJQl35bNyBXL1sztpxKtBpxohcTv6Eb&sz=w600)
 
@@ -20,7 +20,8 @@
 | **Title** | বিষাদ সিন্ধু - মীর মশাররফ হোসেন |
 | **Author** | মীর মশাররফ হোসেন |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
-| **Category** | Religion/Islam/Islamic Lifestyle |
+| **Category** | Literature/Novels |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 2.1 MB |
 

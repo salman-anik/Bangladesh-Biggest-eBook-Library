@@ -20,6 +20,7 @@
 | **Author** | দেবশ্রী চক্রবর্তী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | 0-9 & Other |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 341.7 KB |
 

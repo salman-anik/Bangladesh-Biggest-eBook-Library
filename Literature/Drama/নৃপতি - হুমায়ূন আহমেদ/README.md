@@ -21,6 +21,7 @@
 | **Author** | হুমায়ূন আহমেদ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Drama |
+| **Subfolder** | — |
 | **Formats** | EPUB, TEXT, json |
 | **Total Size** | 343.9 KB |
 

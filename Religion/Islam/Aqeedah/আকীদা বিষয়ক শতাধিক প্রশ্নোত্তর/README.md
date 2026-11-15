@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Aqeedah |
+| **Subfolder** | অ-ঔ |
 | **Formats** | PDF |
 | **Total Size** | 850.0 KB |
 

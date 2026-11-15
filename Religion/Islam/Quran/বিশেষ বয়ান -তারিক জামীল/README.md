@@ -17,6 +17,7 @@
 | **Author** | তারিক জামীল |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | প-ব |
 | **Formats** | PDF |
 | **Total Size** | 2.8 MB |
 

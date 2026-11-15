@@ -17,6 +17,7 @@
 | **Author** | সখারাম গণেশ দেউস্কর |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | য-হ |
 | **Formats** | EPUB |
 | **Total Size** | 134.8 KB |
 

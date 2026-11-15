@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Religion/Islam/Islamic Children Books |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 12.0 MB |
 

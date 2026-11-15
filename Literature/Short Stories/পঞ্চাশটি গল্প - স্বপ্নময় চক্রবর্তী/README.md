@@ -20,6 +20,7 @@
 | **Author** | স্বপ্নময় চক্রবর্তী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 2.5 MB |
 

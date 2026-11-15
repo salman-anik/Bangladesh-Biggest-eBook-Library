@@ -20,6 +20,7 @@
 | **Author** | এ. পি. জে. আবদুল কালাম |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ট-ণ |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 324.1 KB |
 

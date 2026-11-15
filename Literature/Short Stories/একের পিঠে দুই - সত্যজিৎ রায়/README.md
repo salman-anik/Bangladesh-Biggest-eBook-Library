@@ -20,6 +20,7 @@
 | **Author** | সত্যজিৎ রায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | সত্যজিৎ রায় |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 657.6 KB |
 

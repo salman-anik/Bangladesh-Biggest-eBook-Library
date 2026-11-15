@@ -20,6 +20,7 @@
 | **Author** | মৌরি মরিয়ম |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | মৌরি মরিয়ম |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 378.0 KB |
 

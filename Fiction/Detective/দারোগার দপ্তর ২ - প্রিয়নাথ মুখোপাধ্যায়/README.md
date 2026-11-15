@@ -20,6 +20,7 @@
 | **Author** | প্রিয়নাথ মুখোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Detective |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 6.0 MB |
 

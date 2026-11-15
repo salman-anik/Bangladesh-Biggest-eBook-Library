@@ -21,6 +21,7 @@
 | **Author** | রোমেনা আফাজ |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | রোমেনা আফাজ |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 5.4 MB |
 

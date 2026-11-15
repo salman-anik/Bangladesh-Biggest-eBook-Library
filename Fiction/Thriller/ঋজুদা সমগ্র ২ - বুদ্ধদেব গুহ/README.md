@@ -21,6 +21,7 @@
 | **Author** | বুদ্ধদেব গুহ |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | বুদ্ধদেব গুহ |
 | **Formats** | COVER, PDF, TEXT, json |
 | **Total Size** | 26.2 MB |
 

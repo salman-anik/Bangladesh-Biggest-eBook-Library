@@ -21,6 +21,7 @@
 | **Author** | চার্লস ডিকেন্স |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 566.1 KB |
 

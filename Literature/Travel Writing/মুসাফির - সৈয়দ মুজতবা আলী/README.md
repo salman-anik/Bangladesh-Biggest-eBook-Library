@@ -21,6 +21,7 @@
 | **Author** | সৈয়দ মুজতবা আলী |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Travel Writing |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 1.1 MB |
 

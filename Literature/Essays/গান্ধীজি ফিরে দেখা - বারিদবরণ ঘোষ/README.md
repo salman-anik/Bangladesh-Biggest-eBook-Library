@@ -20,6 +20,7 @@
 | **Author** | বারিদবরণ ঘোষ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 2.1 MB |
 

@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Biography and Autobiography/Autobiographies |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 24.2 MB |
 

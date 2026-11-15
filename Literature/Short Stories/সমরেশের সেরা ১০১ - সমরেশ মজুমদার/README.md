@@ -20,6 +20,7 @@
 | **Author** | সমরেশ মজুমদার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 87.2 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | স্যার আর্থার কোনান ডয়েল |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | স্যার আর্থার কোনান ডয়েল |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 456.9 KB |
 

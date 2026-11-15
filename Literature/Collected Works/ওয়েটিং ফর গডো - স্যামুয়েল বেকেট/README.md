@@ -20,6 +20,7 @@
 | **Author** | কবীর চৌধুরী, স্যামুয়েল বেকেট |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 376.5 KB |
 

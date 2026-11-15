@@ -20,6 +20,7 @@
 | **Author** | জুল ভার্ন, মানবেন্দ্র বন্দ্যোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | জুল ভার্ন, মানবেন্দ্র বন্দ্যোপাধ্যায় |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.9 MB |
 

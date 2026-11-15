@@ -21,6 +21,7 @@
 | **Author** | স্টিফেন হকিং |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 1.2 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | ভরতমুনি |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Hinduism |
+| **Subfolder** | ত-ন |
 | **Formats** | TEXT, json |
 | **Total Size** | 1.2 MB |
 

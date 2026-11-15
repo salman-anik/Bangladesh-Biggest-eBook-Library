@@ -20,6 +20,7 @@
 | **Author** | ইমদাদুল হক মিলন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ইমদাদুল হক মিলন |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 203.6 KB |
 

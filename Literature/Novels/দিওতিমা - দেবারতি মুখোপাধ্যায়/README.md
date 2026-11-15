@@ -20,6 +20,7 @@
 | **Author** | দেবারতি মুখোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | দেবারতি মুখোপাধ্যায় |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 705.8 KB |
 

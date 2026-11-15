@@ -21,6 +21,7 @@
 | **Author** | অনীশ দাস অপু |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | অনীশ দাস অপু |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 924.2 KB |
 

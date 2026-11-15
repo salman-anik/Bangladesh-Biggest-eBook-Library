@@ -20,6 +20,7 @@
 | **Author** | অনন্যা পাল |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Detective |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 621.0 KB |
 

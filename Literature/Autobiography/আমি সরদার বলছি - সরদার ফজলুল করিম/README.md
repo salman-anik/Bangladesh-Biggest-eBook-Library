@@ -21,6 +21,7 @@
 | **Author** | সরদার ফজলুল করিম |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 2.0 MB |
 

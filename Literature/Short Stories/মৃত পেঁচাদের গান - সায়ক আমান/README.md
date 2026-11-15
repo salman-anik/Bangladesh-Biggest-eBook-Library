@@ -20,6 +20,7 @@
 | **Author** | সায়ক আমান |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | ভ-ম |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 860.9 KB |
 

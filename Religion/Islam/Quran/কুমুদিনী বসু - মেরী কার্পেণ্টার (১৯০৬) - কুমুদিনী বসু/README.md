@@ -17,6 +17,7 @@
 | **Author** | কুমুদিনী বসু |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | ক-ঙ |
 | **Formats** | EPUB |
 | **Total Size** | 277.7 KB |
 

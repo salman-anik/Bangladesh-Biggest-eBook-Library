@@ -20,6 +20,7 @@
 | **Author** | আলী ইমাম |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Children's Literature |
+| **Subfolder** | — |
 | **Formats** | TEXT, json |
 | **Total Size** | 755.2 KB |
 

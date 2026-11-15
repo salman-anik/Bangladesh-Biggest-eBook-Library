@@ -16,5 +16,6 @@
 | **Author** | ok.xyz) |
 | **Publication / Source** | University Physics - Reactor Physics |
 | **Category** | Science/Physics |
+| **Subfolder** | English (N-S) |
 | **Formats** | — |
 | **Total Size** | — |

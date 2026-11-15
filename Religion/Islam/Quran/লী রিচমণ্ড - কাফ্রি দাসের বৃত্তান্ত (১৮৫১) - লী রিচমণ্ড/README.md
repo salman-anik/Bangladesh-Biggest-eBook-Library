@@ -17,6 +17,7 @@
 | **Author** | লী রিচমণ্ড |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | য-হ |
 | **Formats** | EPUB |
 | **Total Size** | 92.2 KB |
 

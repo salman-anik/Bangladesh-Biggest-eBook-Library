@@ -20,6 +20,7 @@
 | **Author** | আশাপূর্ণা দেবী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | আশাপূর্ণা দেবী |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 6.4 MB |
 

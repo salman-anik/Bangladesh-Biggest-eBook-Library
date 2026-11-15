@@ -5,10 +5,13 @@ import {
   BookOpen,
   Building2,
   ExternalLink,
+  FileText,
   Filter,
   FolderTree,
   Github,
+  GraduationCap,
   HardDrive,
+  Layers,
   Menu,
   RotateCcw,
   Search,
@@ -30,6 +33,37 @@ import { PreviewModal } from "./PreviewModal";
 const PAGE_SIZE = 60;
 
 type SortMode = "title" | "size_desc" | "size_asc" | "category";
+type ViewMode = "folder" | "author" | "series" | "format" | "nctb";
+type FormatFilter = "" | "pdf" | "epub" | "json" | "cover" | "complete";
+
+const SERIES_PRESETS: { label: string; keywords: string[] }[] = [
+  { label: "তিন গোয়েন্দা (Tin Goyenda)", keywords: ["তিন গোয়েন্দা", "tin goyenda"] },
+  { label: "মাসুদ রানা (Masud Rana)", keywords: ["মাসুদ রানা", "masud rana"] },
+  { label: "হিমু (Himu)", keywords: ["হিমু", "himu"] },
+  { label: "মিসির আলি (Misir Ali)", keywords: ["মিসির আলি", "misir ali"] },
+  { label: "ফেলুদা (Feluda)", keywords: ["ফেলুদা", "feluda"] },
+  { label: "কাকাবাবু (Kakababu)", keywords: ["কাকাবাবু", "kakababu"] },
+  { label: "প্রফেসর শঙ্কু (Shonku)", keywords: ["শঙ্কু", "shonku"] },
+  { label: "রবীন্দ্র রচনাবলী", keywords: ["রবীন্দ্র রচনাবলী", "গীতবিতান"] },
+  { label: "কুরআন ও তাফসীর", keywords: ["তাফসীর", "তাফসির", "কুরআন", "tafsir", "quran"] },
+  { label: "হাদীস ও সুন্নাহ", keywords: ["সহীহ", "বুখারী", "মুসলিম", "হাদীস", "হাদিস", "hadith"] },
+];
+
+const NCTB_ORDER = [
+  "Pre-Primary",
+  "Primary Education",
+  "Class 1",
+  "Class 2",
+  "Class 3",
+  "Class 4",
+  "Class 5",
+  "Class 6",
+  "Class 7",
+  "Class 8",
+  "Class 9",
+  "Class 10",
+  "Higher Secondary",
+];
 
 export function LibraryExplorer() {
   const [books, setBooks] = useState<BookRecord[]>([]);
@@ -43,6 +77,9 @@ export function LibraryExplorer() {
   const [selectedLeafPath, setSelectedLeafPath] = useState<string>("");
   const [selectedAuthor, setSelectedAuthor] = useState<string>("");
   const [selectedPublication, setSelectedPublication] = useState<string>("");
+  const [viewMode, setViewMode] = useState<ViewMode>("folder");
+  const [selectedFormat, setSelectedFormat] = useState<FormatFilter>("");
+  const [selectedSeries, setSelectedSeries] = useState<string>("");
   const [sortMode, setSortMode] = useState<SortMode>("title");
   const [page, setPage] = useState<number>(1);
   const [previewBook, setPreviewBook] = useState<BookRecord | null>(null);
@@ -152,7 +189,9 @@ export function LibraryExplorer() {
         .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
     }
 
-    const tCats = taxonomy ? Object.keys(taxonomy.tree) : Object.keys(pCounts).filter((k) => !k.includes("/")).sort();
+    const tCats = taxonomy?.tree
+      ? Object.keys(taxonomy.tree)
+      : Object.keys(pCounts).filter((k) => !k.includes("/")).sort();
     const lOpts = Object.values(leafMap).sort((a, b) => a.leaf_path.localeCompare(b.leaf_path));
     const aOpts = Object.entries(authors)
       .map(([name, count]) => ({ name, count }))
@@ -178,6 +217,47 @@ export function LibraryExplorer() {
     return leafOptions.filter((l) => l.leaf_path.startsWith(`${selectedTopCategory}/`));
   }, [leafOptions, selectedTopCategory]);
 
+  const formatCounts = useMemo(() => {
+    let pdf = 0;
+    let epub = 0;
+    let json = 0;
+    let cover = 0;
+    let complete = 0;
+    for (const b of books) {
+      const hasPdf = !!b.pdf_file_id;
+      const hasEpub = !!b.epub_file_id;
+      const hasJson = !!b.text_file_id;
+      const hasCov = !!(b.cover_file_id || b.cover_url);
+      if (hasPdf) pdf += 1;
+      if (hasEpub) epub += 1;
+      if (hasJson) json += 1;
+      if (hasCov) cover += 1;
+      if ((hasPdf || hasEpub) && hasJson && hasCov) complete += 1;
+    }
+    return { pdf, epub, json, cover, complete };
+  }, [books]);
+
+  const seriesCounts = useMemo(() => {
+    return SERIES_PRESETS.map((s) => {
+      const count = books.filter((b) => {
+        const hay = `${b.name} ${b.author}`.toLowerCase();
+        return s.keywords.some((kw) => hay.includes(kw));
+      }).length;
+      return { ...s, count };
+    });
+  }, [books]);
+
+  const nctbCards = useMemo(() => {
+    return NCTB_ORDER.map((cls) => {
+      const lp = `Education and Academics/${cls}`;
+      return {
+        label: cls,
+        leafPath: lp,
+        count: pathCounts[lp] || 0,
+      };
+    }).filter((c) => c.count > 0);
+  }, [pathCounts]);
+
   // Reset page when filters change
   useEffect(() => {
     setPage(1);
@@ -188,11 +268,14 @@ export function LibraryExplorer() {
     selectedLeafPath,
     selectedAuthor,
     selectedPublication,
+    selectedFormat,
+    selectedSeries,
     sortMode,
   ]);
 
   const filteredBooks = useMemo(() => {
     const q = searchQuery.trim().toLowerCase();
+    const seriesObj = selectedSeries ? SERIES_PRESETS.find((s) => s.label === selectedSeries) : undefined;
     const result = books.filter((b) => {
       if (activePath) {
         const bookFullPath = b.subfolder ? `${b.leaf_path}/${b.subfolder}` : b.leaf_path;
@@ -207,6 +290,21 @@ export function LibraryExplorer() {
       if (selectedLeafPath && b.leaf_path !== selectedLeafPath) return false;
       if (selectedAuthor && b.author !== selectedAuthor) return false;
       if (selectedPublication && b.publication !== selectedPublication) return false;
+      if (selectedFormat) {
+        const hasPdf = !!b.pdf_file_id;
+        const hasEpub = !!b.epub_file_id;
+        const hasJson = !!b.text_file_id;
+        const hasCov = !!(b.cover_file_id || b.cover_url);
+        if (selectedFormat === "pdf" && !hasPdf) return false;
+        if (selectedFormat === "epub" && !hasEpub) return false;
+        if (selectedFormat === "json" && !hasJson) return false;
+        if (selectedFormat === "cover" && !hasCov) return false;
+        if (selectedFormat === "complete" && !((hasPdf || hasEpub) && hasJson && hasCov)) return false;
+      }
+      if (seriesObj) {
+        const hay = `${b.name} ${b.author}`.toLowerCase();
+        if (!seriesObj.keywords.some((kw) => hay.includes(kw))) return false;
+      }
 
       if (q) {
         const hay = `${b.name} ${b.author} ${b.publication} ${b.leaf_path} ${b.subfolder || ""}`.toLowerCase();
@@ -233,6 +331,8 @@ export function LibraryExplorer() {
     selectedLeafPath,
     selectedAuthor,
     selectedPublication,
+    selectedFormat,
+    selectedSeries,
     sortMode,
   ]);
 
@@ -247,6 +347,8 @@ export function LibraryExplorer() {
     setSelectedLeafPath("");
     setSelectedAuthor("");
     setSelectedPublication("");
+    setSelectedFormat("");
+    setSelectedSeries("");
     setSortMode("title");
     setPage(1);
   };
@@ -257,7 +359,9 @@ export function LibraryExplorer() {
     !!selectedTopCategory ||
     !!selectedLeafPath ||
     !!selectedAuthor ||
-    !!selectedPublication;
+    !!selectedPublication ||
+    !!selectedFormat ||
+    !!selectedSeries;
 
   if (loading) {
     return (
@@ -405,19 +509,203 @@ export function LibraryExplorer() {
 
         {/* Right Main Browser & Results */}
         <main className="flex-1 min-w-0 space-y-4">
-          {/* Interactive Folder Grid & Breadcrumbs */}
-          <FolderBrowserGrid
-            taxonomy={taxonomy}
-            activePath={activePath}
-            onSelectPath={(p) => {
-              setActivePath(p);
-              setSelectedTopCategory("");
-              setSelectedLeafPath("");
-            }}
-            pathCounts={pathCounts}
-            pathSizes={pathSizes}
-            subfoldersByLeaf={subfoldersByLeaf}
-          />
+          {/* Multi-Dimensional View Switcher */}
+          <div className="flex flex-wrap items-center gap-2 bg-slate-900/80 border border-slate-800 rounded-xl p-2">
+            {(
+              [
+                { id: "folder", label: "By Folder", icon: FolderTree },
+                { id: "author", label: "By Author", icon: Users },
+                { id: "series", label: "By Series", icon: Layers },
+                { id: "format", label: "By Format", icon: FileText },
+                { id: "nctb", label: "NCTB Classes", icon: GraduationCap },
+              ] as const
+            ).map((tab) => {
+              const Icon = tab.icon;
+              const active = viewMode === tab.id;
+              return (
+                <button
+                  key={tab.id}
+                  type="button"
+                  onClick={() => setViewMode(tab.id)}
+                  className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition cursor-pointer ${
+                    active
+                      ? "bg-emerald-600 text-white shadow"
+                      : "text-slate-300 hover:bg-slate-800"
+                  }`}
+                >
+                  <Icon className="w-3.5 h-3.5" />
+                  {tab.label}
+                </button>
+              );
+            })}
+          </div>
+
+          {viewMode === "folder" && (
+            <FolderBrowserGrid
+              taxonomy={taxonomy}
+              activePath={activePath}
+              onSelectPath={(p) => {
+                setActivePath(p);
+                setSelectedTopCategory("");
+                setSelectedLeafPath("");
+              }}
+              pathCounts={pathCounts}
+              pathSizes={pathSizes}
+              subfoldersByLeaf={subfoldersByLeaf}
+            />
+          )}
+
+          {viewMode === "author" && (
+            <section className="bg-slate-900/80 border border-slate-800 rounded-xl p-4 space-y-3">
+              <div className="flex items-center justify-between">
+                <h2 className="text-sm font-bold text-white flex items-center gap-2">
+                  <Users className="w-4 h-4 text-rose-400" />
+                  Top Authors (লেখক অনুযায়ী)
+                </h2>
+                {selectedAuthor && (
+                  <button
+                    type="button"
+                    onClick={() => setSelectedAuthor("")}
+                    className="text-xs text-amber-300 hover:underline cursor-pointer"
+                  >
+                    Clear Author
+                  </button>
+                )}
+              </div>
+              <div className="flex flex-wrap gap-2 max-h-56 overflow-y-auto pr-1">
+                {authorOptions
+                  .filter((a) => !a.name.startsWith("Various") && a.count >= 5)
+                  .slice(0, 60)
+                  .map((a) => (
+                    <button
+                      key={a.name}
+                      type="button"
+                      onClick={() => setSelectedAuthor(selectedAuthor === a.name ? "" : a.name)}
+                      className={`px-2.5 py-1.5 rounded-lg text-xs font-medium border transition cursor-pointer ${
+                        selectedAuthor === a.name
+                          ? "bg-emerald-500/20 border-emerald-500 text-emerald-200"
+                          : "bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-600"
+                      }`}
+                    >
+                      {a.name}{" "}
+                      <span className="text-[10px] text-slate-400 ml-1">({a.count})</span>
+                    </button>
+                  ))}
+              </div>
+            </section>
+          )}
+
+          {viewMode === "series" && (
+            <section className="bg-slate-900/80 border border-slate-800 rounded-xl p-4 space-y-3">
+              <div className="flex items-center justify-between">
+                <h2 className="text-sm font-bold text-white flex items-center gap-2">
+                  <Layers className="w-4 h-4 text-amber-400" />
+                  Popular Series &amp; Collections
+                </h2>
+                {selectedSeries && (
+                  <button
+                    type="button"
+                    onClick={() => setSelectedSeries("")}
+                    className="text-xs text-amber-300 hover:underline cursor-pointer"
+                  >
+                    Clear Series
+                  </button>
+                )}
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
+                {seriesCounts.map((s) => (
+                  <button
+                    key={s.label}
+                    type="button"
+                    onClick={() => setSelectedSeries(selectedSeries === s.label ? "" : s.label)}
+                    className={`flex items-center justify-between px-3 py-2 rounded-lg text-xs font-semibold border transition cursor-pointer ${
+                      selectedSeries === s.label
+                        ? "bg-emerald-500/20 border-emerald-500 text-emerald-200"
+                        : "bg-slate-950 border-slate-800 text-slate-200 hover:border-slate-600"
+                    }`}
+                  >
+                    <span className="truncate">{s.label}</span>
+                    <span className="text-[11px] px-1.5 py-0.5 rounded bg-slate-800 text-slate-300">
+                      {s.count.toLocaleString()}
+                    </span>
+                  </button>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {viewMode === "format" && (
+            <section className="bg-slate-900/80 border border-slate-800 rounded-xl p-4 space-y-3">
+              <h2 className="text-sm font-bold text-white flex items-center gap-2">
+                <FileText className="w-4 h-4 text-sky-400" />
+                Browse by File Format &amp; Completeness
+              </h2>
+              <div className="grid grid-cols-2 sm:grid-cols-5 gap-2.5">
+                {(
+                  [
+                    { id: "pdf", label: "PDF Books", count: formatCounts.pdf },
+                    { id: "epub", label: "EPUB Books", count: formatCounts.epub },
+                    { id: "json", label: "Full-Text JSON", count: formatCounts.json },
+                    { id: "cover", label: "Has Cover", count: formatCounts.cover },
+                    { id: "complete", label: "Complete Bundle", count: formatCounts.complete },
+                  ] as const
+                ).map((fmt) => (
+                  <button
+                    key={fmt.id}
+                    type="button"
+                    onClick={() => setSelectedFormat(selectedFormat === fmt.id ? "" : fmt.id)}
+                    className={`p-3 rounded-xl border text-left transition cursor-pointer ${
+                      selectedFormat === fmt.id
+                        ? "bg-emerald-500/20 border-emerald-500 text-emerald-200"
+                        : "bg-slate-950 border-slate-800 text-slate-200 hover:border-slate-600"
+                    }`}
+                  >
+                    <div className="text-base font-bold">{fmt.count.toLocaleString()}</div>
+                    <div className="text-[11px] text-slate-400 mt-0.5">{fmt.label}</div>
+                  </button>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {viewMode === "nctb" && (
+            <section className="bg-slate-900/80 border border-slate-800 rounded-xl p-4 space-y-3">
+              <div className="flex items-center justify-between">
+                <h2 className="text-sm font-bold text-white flex items-center gap-2">
+                  <GraduationCap className="w-4 h-4 text-emerald-400" />
+                  NCTB Textbooks &amp; Academic Classes (Pre-Primary to Class 12)
+                </h2>
+                {selectedLeafPath.startsWith("Education and Academics/") && (
+                  <button
+                    type="button"
+                    onClick={() => setSelectedLeafPath("")}
+                    className="text-xs text-amber-300 hover:underline cursor-pointer"
+                  >
+                    All Classes
+                  </button>
+                )}
+              </div>
+              <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-2">
+                {nctbCards.map((c) => (
+                  <button
+                    key={c.leafPath}
+                    type="button"
+                    onClick={() =>
+                      setSelectedLeafPath(selectedLeafPath === c.leafPath ? "" : c.leafPath)
+                    }
+                    className={`p-2.5 rounded-xl border text-left transition cursor-pointer ${
+                      selectedLeafPath === c.leafPath
+                        ? "bg-emerald-500/20 border-emerald-500 text-emerald-200"
+                        : "bg-slate-950 border-slate-800 text-slate-200 hover:border-slate-600"
+                    }`}
+                  >
+                    <div className="text-xs font-bold truncate">{c.label}</div>
+                    <div className="text-[11px] text-slate-400">{c.count.toLocaleString()} books</div>
+                  </button>
+                ))}
+              </div>
+            </section>
+          )}
 
           {/* Search & Multi-Faceted Filter Bar */}
           <section className="bg-slate-900/80 border border-slate-800 rounded-xl p-4 space-y-3">
@@ -549,6 +837,24 @@ export function LibraryExplorer() {
                   className="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-purple-500/15 text-purple-300 border border-purple-500/30"
                 >
                   Publication: {selectedPublication} <X className="w-3 h-3" />
+                </button>
+              )}
+              {selectedSeries && (
+                <button
+                  type="button"
+                  onClick={() => setSelectedSeries("")}
+                  className="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-emerald-500/15 text-emerald-300 border border-emerald-500/30"
+                >
+                  Series: {selectedSeries} <X className="w-3 h-3" />
+                </button>
+              )}
+              {selectedFormat && (
+                <button
+                  type="button"
+                  onClick={() => setSelectedFormat("")}
+                  className="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-sky-500/15 text-sky-300 border border-sky-500/30"
+                >
+                  Format: {selectedFormat.toUpperCase()} <X className="w-3 h-3" />
                 </button>
               )}
             </div>

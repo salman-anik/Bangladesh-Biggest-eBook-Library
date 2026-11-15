@@ -20,6 +20,7 @@
 | **Author** | শৈবাল মিত্ৰ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 4.2 MB |
 

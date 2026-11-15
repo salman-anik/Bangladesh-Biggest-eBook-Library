@@ -17,6 +17,7 @@
 | **Author** | ইমাম যাহাবী |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | ক-ঙ |
 | **Formats** | PDF |
 | **Total Size** | 1.3 MB |
 

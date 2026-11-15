@@ -20,6 +20,7 @@
 | **Author** | সুপ্রিয়া ঘোষ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 300.4 KB |
 

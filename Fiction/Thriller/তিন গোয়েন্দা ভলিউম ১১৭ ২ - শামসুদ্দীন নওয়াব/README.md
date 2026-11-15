@@ -20,6 +20,7 @@
 | **Author** | শামসুদ্দীন নওয়াব |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | শামসুদ্দীন নওয়াব |
 | **Formats** | TEXT, json |
 | **Total Size** | 557.5 KB |
 

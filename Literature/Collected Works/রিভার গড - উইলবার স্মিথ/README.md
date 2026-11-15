@@ -20,6 +20,7 @@
 | **Author** | উইলবার স্মিথ, মখদুম আহমেদ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 2.3 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | পল্লবী সেনগুপ্ত |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 545.1 KB |
 

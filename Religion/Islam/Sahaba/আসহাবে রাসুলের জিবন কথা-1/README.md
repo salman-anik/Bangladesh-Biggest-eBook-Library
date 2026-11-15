@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | ইসলামী বই |
 | **Category** | Religion/Islam/Sahaba |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 8.8 MB |
 

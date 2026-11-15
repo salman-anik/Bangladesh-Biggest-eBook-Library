@@ -20,6 +20,7 @@
 | **Author** | আহমেদ রিয়াজ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 432.4 KB |
 

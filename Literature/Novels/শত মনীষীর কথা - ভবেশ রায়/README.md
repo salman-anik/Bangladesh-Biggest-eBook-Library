@@ -20,6 +20,7 @@
 | **Author** | ভবেশ রায় |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 692.1 KB |
 

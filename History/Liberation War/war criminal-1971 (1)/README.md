@@ -16,6 +16,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | History/Liberation War |
+| **Subfolder** | — |
 | **Formats** | DOC |
 | **Total Size** | 334.0 KB |
 

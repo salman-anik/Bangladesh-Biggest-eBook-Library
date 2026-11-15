@@ -20,6 +20,7 @@
 | **Author** | গোপালকৃষ্ণ রায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | চ-ঞ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 802.1 KB |
 

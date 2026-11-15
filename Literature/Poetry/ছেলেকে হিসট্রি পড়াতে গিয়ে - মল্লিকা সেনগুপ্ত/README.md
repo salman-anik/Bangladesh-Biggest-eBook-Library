@@ -20,6 +20,7 @@
 | **Author** | মল্লিকা সেনগুপ্ত |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Poetry |
+| **Subfolder** | চ-ঞ |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 137.0 KB |
 

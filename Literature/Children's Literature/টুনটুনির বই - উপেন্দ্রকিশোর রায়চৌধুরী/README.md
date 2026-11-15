@@ -21,6 +21,7 @@
 | **Author** | উপেন্দ্রকিশোর রায়চৌধুরী |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Children's Literature |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 5.0 MB |
 

@@ -17,6 +17,7 @@
 | **Author** | মুহাম্মদ বিন আব্দুল ওয়াহহাব |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Aqeedah |
+| **Subfolder** | ত-ন |
 | **Formats** | PDF |
 | **Total Size** | 476.3 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | মোহাম্মদ আবদুল হাই |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Philosophy/Eastern Philosophy |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 3.2 MB |
 

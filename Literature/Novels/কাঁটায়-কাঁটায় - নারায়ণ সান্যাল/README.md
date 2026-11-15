@@ -20,6 +20,7 @@
 | **Author** | নারায়ণ সান্যাল |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | নারায়ণ সান্যাল |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 958.2 KB |
 

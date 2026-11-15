@@ -20,6 +20,7 @@
 | **Author** | নিক পিরোগ, সালমান হক |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | নিক পিরোগ, সালমান হক |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 417.2 KB |
 

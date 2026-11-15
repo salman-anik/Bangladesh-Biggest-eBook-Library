@@ -20,6 +20,7 @@
 | **Author** | জিম করবেট |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | জিম করবেট |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 490.1 KB |
 

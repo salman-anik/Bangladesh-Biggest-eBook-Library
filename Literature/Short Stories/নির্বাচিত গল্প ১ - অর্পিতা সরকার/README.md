@@ -20,6 +20,7 @@
 | **Author** | অর্পিতা সরকার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | অর্পিতা সরকার |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.4 MB |
 

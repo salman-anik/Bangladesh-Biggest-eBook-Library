@@ -20,6 +20,7 @@
 | **Author** | শীর্ষেন্দু মুখোপাধ্যায় |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Fiction/Detective |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 3.8 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | প্রমথ চৌধুরী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 2.5 MB |
 

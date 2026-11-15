@@ -16,6 +16,7 @@
 | **Author** | 1. Ray theory transmission |
 | **Publication / Source** | University Physics - Lasers and Fiber Optics |
 | **Category** | Science/Physics |
+| **Subfolder** | 0-9 & Other |
 | **Formats** | DOCX |
 | **Total Size** | 313.5 KB |
 

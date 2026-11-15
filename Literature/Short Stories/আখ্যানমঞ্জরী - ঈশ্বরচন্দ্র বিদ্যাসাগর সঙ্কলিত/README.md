@@ -20,6 +20,7 @@
 | **Author** | ঈশ্বরচন্দ্র বিদ্যাসাগর |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | অ-ঔ |
 | **Formats** | TEXT, json |
 | **Total Size** | 196.4 KB |
 

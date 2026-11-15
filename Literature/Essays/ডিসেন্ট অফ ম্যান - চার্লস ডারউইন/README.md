@@ -20,6 +20,7 @@
 | **Author** | চার্লস ডারউইন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | ট-ণ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 685.5 KB |
 

@@ -17,6 +17,7 @@
 | **Author** | সাজ্জাদ সালাদীন২০১৭ |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Business and Finance/Finance |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 11.0 MB |
 

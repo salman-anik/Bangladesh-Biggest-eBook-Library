@@ -20,6 +20,7 @@
 | **Author** | দুর্গাদাস লাহিড়ী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Hinduism |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 5.5 MB |
 

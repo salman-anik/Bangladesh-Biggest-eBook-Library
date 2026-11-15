@@ -20,6 +20,7 @@
 | **Author** | ড্যানিয়েল ডিফো |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.2 MB |
 

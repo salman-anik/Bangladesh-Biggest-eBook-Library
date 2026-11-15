@@ -17,6 +17,7 @@
 | **Author** | উমাকান্ত হাজারী |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Islamic History |
+| **Subfolder** | অ-ঔ |
 | **Formats** | EPUB |
 | **Total Size** | 340.8 KB |
 

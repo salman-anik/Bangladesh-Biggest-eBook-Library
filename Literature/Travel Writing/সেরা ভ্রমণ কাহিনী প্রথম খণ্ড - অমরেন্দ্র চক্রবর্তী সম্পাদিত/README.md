@@ -20,6 +20,7 @@
 | **Author** | অমরেন্দ্র চক্রবর্তী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Travel Writing |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 2.5 MB |
 

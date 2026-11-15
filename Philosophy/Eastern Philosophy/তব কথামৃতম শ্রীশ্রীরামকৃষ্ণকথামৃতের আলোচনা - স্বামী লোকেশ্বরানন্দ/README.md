@@ -20,6 +20,7 @@
 | **Author** | স্বামী লোকেশ্বরানন্দ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Philosophy/Eastern Philosophy |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 2.3 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | অদ্রীশ বর্ধন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Detective |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 561.9 KB |
 

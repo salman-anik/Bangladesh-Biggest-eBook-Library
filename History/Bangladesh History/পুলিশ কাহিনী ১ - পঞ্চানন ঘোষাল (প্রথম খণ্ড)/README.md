@@ -20,6 +20,7 @@
 | **Author** | পঞ্চানন ঘোষাল |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | History/Bangladesh History |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 894.8 KB |
 

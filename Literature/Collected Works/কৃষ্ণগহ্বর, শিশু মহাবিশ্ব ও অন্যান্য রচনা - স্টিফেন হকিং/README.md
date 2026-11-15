@@ -20,6 +20,7 @@
 | **Author** | স্টিফেন হকিং |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 749.5 KB |
 

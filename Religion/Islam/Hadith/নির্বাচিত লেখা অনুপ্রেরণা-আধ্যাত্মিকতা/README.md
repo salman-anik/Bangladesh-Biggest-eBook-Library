@@ -17,6 +17,7 @@
 | **Author** | আধ্যাত্মিকতা |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Hadith |
+| **Subfolder** | ত-ন |
 | **Formats** | PDF |
 | **Total Size** | 39.4 MB |
 

@@ -17,6 +17,7 @@
 | **Author** | ঈশ্বরচন্দ্র বিদ্যাসাগর |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Literature/Novels |
+| **Subfolder** | ঈশ্বরচন্দ্র বিদ্যাসাগর |
 | **Formats** | EPUB |
 | **Total Size** | 188.0 KB |
 

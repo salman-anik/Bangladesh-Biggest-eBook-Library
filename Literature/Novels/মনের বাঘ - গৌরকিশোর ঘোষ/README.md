@@ -20,6 +20,7 @@
 | **Author** | গৌরকিশোর ঘোষ (রূপদর্শী) |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | গৌরকিশোর ঘোষ (রূপদর্শী) |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 628.0 KB |
 

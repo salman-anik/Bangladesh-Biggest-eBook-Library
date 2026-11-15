@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | Internet Archive Open Library (archive.org) |
 | **Category** | Politics and Government/Democracy |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 1.7 MB |
 

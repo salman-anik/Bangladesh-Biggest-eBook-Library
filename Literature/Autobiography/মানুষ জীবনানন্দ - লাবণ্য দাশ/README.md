@@ -20,6 +20,7 @@
 | **Author** | লাবণ্য দাশ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 242.7 KB |
 

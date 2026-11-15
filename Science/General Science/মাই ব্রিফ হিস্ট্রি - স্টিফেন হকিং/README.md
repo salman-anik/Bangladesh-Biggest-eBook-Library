@@ -20,6 +20,7 @@
 | **Author** | স্টিফেন হকিং |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Science/General Science |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 337.2 KB |
 

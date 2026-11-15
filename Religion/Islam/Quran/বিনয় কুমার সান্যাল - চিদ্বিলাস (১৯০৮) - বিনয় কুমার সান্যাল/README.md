@@ -17,6 +17,7 @@
 | **Author** | বিনয় কুমার সান্যাল |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | প-ব |
 | **Formats** | EPUB |
 | **Total Size** | 134.9 KB |
 

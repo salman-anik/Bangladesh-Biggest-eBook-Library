@@ -17,6 +17,7 @@
 | **Author** | চাণক্য |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | চ-ঞ |
 | **Formats** | EPUB |
 | **Total Size** | 82.5 KB |
 

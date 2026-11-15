@@ -20,6 +20,7 @@
 | **Author** | অমরেন্দ্র চক্রবর্তী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 730.4 KB |
 

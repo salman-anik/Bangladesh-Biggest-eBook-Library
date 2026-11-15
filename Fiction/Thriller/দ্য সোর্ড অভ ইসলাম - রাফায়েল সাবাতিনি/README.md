@@ -20,6 +20,7 @@
 | **Author** | রাফায়েল সাবাতিনি, সাইফুল আরেফিন অপু |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.5 MB |
 

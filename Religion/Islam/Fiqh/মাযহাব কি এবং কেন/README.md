@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | ইসলামী বই |
 | **Category** | Religion/Islam/Fiqh |
+| **Subfolder** | ভ-ম |
 | **Formats** | PDF |
 | **Total Size** | 8.8 MB |
 

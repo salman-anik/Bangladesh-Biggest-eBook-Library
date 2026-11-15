@@ -20,6 +20,7 @@
 | **Author** | নবনীতা দেবসেন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | নবনীতা দেবসেন |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 347.8 KB |
 

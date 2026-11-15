@@ -20,6 +20,7 @@
 | **Author** | সাগরময় ঘোষ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 3.3 MB |
 

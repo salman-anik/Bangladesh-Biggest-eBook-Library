@@ -17,6 +17,7 @@
 | **Author** | রসকেলী |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | অ-ঔ |
 | **Formats** | EPUB |
 | **Total Size** | 106.1 KB |
 

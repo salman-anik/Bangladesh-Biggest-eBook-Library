@@ -20,6 +20,7 @@
 | **Author** | কবীর চৌধুরী, ফ্রানজ কাফকা |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 323.8 KB |
 

@@ -17,6 +17,7 @@
 | **Author** | guide) |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | English (A-F) |
 | **Formats** | PDF |
 | **Total Size** | 6.8 MB |
 

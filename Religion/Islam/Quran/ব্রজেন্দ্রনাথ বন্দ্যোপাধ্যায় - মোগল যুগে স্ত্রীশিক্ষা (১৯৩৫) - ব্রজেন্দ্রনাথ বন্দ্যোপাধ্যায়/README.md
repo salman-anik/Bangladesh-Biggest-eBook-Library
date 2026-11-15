@@ -17,6 +17,7 @@
 | **Author** | ব্রজেন্দ্রনাথ বন্দ্যোপাধ্যায় |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | প-ব |
 | **Formats** | EPUB |
 | **Total Size** | 94.9 KB |
 

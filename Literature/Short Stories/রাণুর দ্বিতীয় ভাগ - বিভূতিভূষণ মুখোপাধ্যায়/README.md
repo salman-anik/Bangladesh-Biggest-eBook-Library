@@ -20,6 +20,7 @@
 | **Author** | বিভূতিভূষণ মুখোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | বিভূতিভূষণ মুখোপাধ্যায় |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 735.5 KB |
 

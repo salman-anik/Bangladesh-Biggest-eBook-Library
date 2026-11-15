@@ -20,6 +20,7 @@
 | **Author** | মাসুদ আনোয়ার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | চ-ঞ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 707.1 KB |
 

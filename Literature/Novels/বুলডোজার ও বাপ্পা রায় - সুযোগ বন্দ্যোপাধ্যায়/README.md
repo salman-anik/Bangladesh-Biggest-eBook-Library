@@ -16,6 +16,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | — |
 | **Category** | Literature/Novels |
+| **Subfolder** | প-ব |
 | **Formats** | MOBI |
 | **Total Size** | 24.2 MB |
 

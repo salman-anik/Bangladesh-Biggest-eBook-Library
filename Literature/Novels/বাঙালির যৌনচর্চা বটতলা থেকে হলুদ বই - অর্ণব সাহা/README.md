@@ -20,6 +20,7 @@
 | **Author** | অর্ণব সাহা |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.6 MB |
 

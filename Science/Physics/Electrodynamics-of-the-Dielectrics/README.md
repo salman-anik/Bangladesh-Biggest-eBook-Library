@@ -16,5 +16,6 @@
 | **Author** | Dielectrics |
 | **Publication / Source** | University Physics - Classical Electrodynamics I |
 | **Category** | Science/Physics |
+| **Subfolder** | English (A-F) |
 | **Formats** | — |
 | **Total Size** | — |

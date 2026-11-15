@@ -20,6 +20,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | য-হ |
 | **Formats** | TEXT, json |
 | **Total Size** | 288.0 KB |
 

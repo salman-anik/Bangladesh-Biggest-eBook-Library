@@ -20,6 +20,7 @@
 | **Author** | আয়মান সাদিক, সাদমান সাদিক |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Self Development/Motivation |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 496.1 KB |
 

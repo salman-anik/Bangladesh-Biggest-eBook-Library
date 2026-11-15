@@ -20,6 +20,7 @@
 | **Author** | প্রচেত গুপ্ত |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | প্রচেত গুপ্ত |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 637.7 KB |
 

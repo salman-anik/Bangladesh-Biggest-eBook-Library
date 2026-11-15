@@ -20,6 +20,7 @@
 | **Author** | কার্ল হাইনরিশ মার্ক্স |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 1.2 MB |
 

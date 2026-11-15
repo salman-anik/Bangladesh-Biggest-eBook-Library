@@ -20,6 +20,7 @@
 | **Author** | কালিদাস, রঙ্গলাল বন্দ্যোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Hinduism |
+| **Subfolder** | ভ-ম |
 | **Formats** | TEXT, json |
 | **Total Size** | 84.8 KB |
 

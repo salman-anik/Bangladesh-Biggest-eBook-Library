@@ -20,6 +20,7 @@
 | **Author** | মারিও পুজো, মোঃ বুলবুল আহমেদ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ত-ন |
 | **Formats** | TEXT, json |
 | **Total Size** | 1.9 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | শামসুর রাহমান |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Poetry |
+| **Subfolder** | শামসুর রাহমান |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 3.9 MB |
 

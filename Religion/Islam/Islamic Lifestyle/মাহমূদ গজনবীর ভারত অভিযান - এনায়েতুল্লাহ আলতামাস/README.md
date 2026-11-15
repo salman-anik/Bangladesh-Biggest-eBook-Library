@@ -20,6 +20,7 @@
 | **Author** | এনায়েতুল্লাহ আলতামাস |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Islam/Islamic Lifestyle |
+| **Subfolder** | ভ-ম |
 | **Formats** | TEXT, json |
 | **Total Size** | 5.2 MB |
 

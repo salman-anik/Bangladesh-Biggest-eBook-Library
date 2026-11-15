@@ -20,6 +20,7 @@
 | **Author** | এডগার অ্যালান পো, চিত্তরঞ্জন মাইতি |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | য-হ |
 | **Formats** | TEXT, json |
 | **Total Size** | 394.6 KB |
 

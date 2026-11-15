@@ -20,6 +20,7 @@
 | **Author** | ত্রৈলোক্যনাথ মুখোপাধ্যায় |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ট-ণ |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 676.4 KB |
 

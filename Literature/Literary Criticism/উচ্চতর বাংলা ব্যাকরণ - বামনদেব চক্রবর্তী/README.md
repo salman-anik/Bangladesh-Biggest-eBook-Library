@@ -20,6 +20,7 @@
 | **Author** | বামনদেব চক্রবর্তী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Literary Criticism |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 3.4 MB |
 

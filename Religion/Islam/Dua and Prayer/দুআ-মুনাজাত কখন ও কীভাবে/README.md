@@ -17,6 +17,7 @@
 | **Author** | মুনাজাত কখন ও কীভাবে |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Dua and Prayer |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 3.7 MB |
 

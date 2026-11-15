@@ -20,6 +20,7 @@
 | **Author** | সুপর্ণা বসু মিশ্র |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Literary Criticism |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.7 MB |
 

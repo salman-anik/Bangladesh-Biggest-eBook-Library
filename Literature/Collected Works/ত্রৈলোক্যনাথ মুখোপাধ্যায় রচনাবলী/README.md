@@ -20,6 +20,7 @@
 | **Author** | ত্রৈলোক্যনাথ মুখোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ত-ন |
 | **Formats** | TEXT, json |
 | **Total Size** | 3.6 MB |
 

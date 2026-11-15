@@ -20,6 +20,7 @@
 | **Author** | সৈয়দ মুস্তাফা সিরাজ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | সৈয়দ মুস্তাফা সিরাজ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.1 MB |
 

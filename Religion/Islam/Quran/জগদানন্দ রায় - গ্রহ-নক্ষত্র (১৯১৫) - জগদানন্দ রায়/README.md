@@ -17,6 +17,7 @@
 | **Author** | জগদানন্দ রায় |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | চ-ঞ |
 | **Formats** | EPUB |
 | **Total Size** | 2.0 MB |
 

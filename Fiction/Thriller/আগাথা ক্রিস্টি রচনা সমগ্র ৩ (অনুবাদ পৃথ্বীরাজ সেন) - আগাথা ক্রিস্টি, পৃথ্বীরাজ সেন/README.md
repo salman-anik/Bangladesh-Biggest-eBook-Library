@@ -20,6 +20,7 @@
 | **Author** | আগাথা ক্রিস্টি, পৃথ্বীরাজ সেন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 15.1 MB |
 

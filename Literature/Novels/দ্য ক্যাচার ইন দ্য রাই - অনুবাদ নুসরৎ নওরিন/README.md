@@ -20,6 +20,7 @@
 | **Author** | নুসরৎ নওরিন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 65.3 KB |
 

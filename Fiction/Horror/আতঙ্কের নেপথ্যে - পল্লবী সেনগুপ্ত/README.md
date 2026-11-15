@@ -20,6 +20,7 @@
 | **Author** | পল্লবী সেনগুপ্ত |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Horror |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 573.5 KB |
 

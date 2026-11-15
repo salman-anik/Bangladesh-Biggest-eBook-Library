@@ -21,6 +21,7 @@
 | **Author** | আইজাক আসিমভ |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 1.2 MB |
 

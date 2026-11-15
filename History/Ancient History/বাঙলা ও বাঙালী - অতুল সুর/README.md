@@ -20,6 +20,7 @@
 | **Author** | অতুল সুর |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | History/Ancient History |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 491.5 KB |
 

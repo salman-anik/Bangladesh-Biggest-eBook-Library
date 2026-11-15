@@ -20,6 +20,7 @@
 | **Author** | অময় দেব রায়, দীপঙ্কর ভট্টাচার্য |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 502.8 KB |
 

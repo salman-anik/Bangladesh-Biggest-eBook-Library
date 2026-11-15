@@ -20,6 +20,7 @@
 | **Author** | কারেন আর্মস্ট্রং |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Religion/Islam/Islamic Lifestyle |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 473.6 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | সুধাংশু শেখর বিশ্বাস |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | History/Bangladesh History |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 700.0 KB |
 

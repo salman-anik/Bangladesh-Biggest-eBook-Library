@@ -20,6 +20,7 @@
 | **Author** | হেমেন্দ্রকুমার রায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Children's Literature |
+| **Subfolder** | — |
 | **Formats** | TEXT, json |
 | **Total Size** | 602.6 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | অ্যালেক্স রাদারফোর্ড |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | অ্যালেক্স রাদারফোর্ড |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 2.5 MB |
 

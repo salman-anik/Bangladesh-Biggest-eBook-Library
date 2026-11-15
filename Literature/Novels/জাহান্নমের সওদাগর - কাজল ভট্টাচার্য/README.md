@@ -20,6 +20,7 @@
 | **Author** | কাজল ভট্টাচার্য |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | চ-ঞ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 956.2 KB |
 

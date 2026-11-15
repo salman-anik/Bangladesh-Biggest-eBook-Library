@@ -20,6 +20,7 @@
 | **Author** | কাজী শাহনূর হোসেন, রবার্ট লুই স্টিভেনসন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 129.0 KB |
 

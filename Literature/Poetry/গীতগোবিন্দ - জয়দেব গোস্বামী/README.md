@@ -20,6 +20,7 @@
 | **Author** | জয়দেব গোস্বামী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Poetry |
+| **Subfolder** | ক-ঙ |
 | **Formats** | TEXT, json |
 | **Total Size** | 202.1 KB |
 

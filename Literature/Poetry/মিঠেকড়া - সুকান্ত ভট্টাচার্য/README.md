@@ -20,6 +20,7 @@
 | **Author** | সুকান্ত ভট্টাচার্য |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Poetry |
+| **Subfolder** | ভ-ম |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 80.6 KB |
 

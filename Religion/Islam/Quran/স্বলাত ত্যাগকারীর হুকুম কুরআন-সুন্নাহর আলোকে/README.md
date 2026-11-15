@@ -17,6 +17,7 @@
 | **Author** | সুন্নাহর আলোকে |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | য-হ |
 | **Formats** | PDF |
 | **Total Size** | 455.8 KB |
 

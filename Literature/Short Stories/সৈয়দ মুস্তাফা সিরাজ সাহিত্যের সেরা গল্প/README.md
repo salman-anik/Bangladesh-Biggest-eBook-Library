@@ -20,6 +20,7 @@
 | **Author** | সৈয়দ মুস্তাফা সিরাজ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 716.0 KB |
 

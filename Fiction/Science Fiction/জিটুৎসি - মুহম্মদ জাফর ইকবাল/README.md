@@ -20,6 +20,7 @@
 | **Author** | মুহম্মদ জাফর ইকবাল |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Science Fiction |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 360.6 KB |
 

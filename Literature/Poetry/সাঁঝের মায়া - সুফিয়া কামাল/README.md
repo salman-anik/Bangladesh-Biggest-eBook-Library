@@ -20,6 +20,7 @@
 | **Author** | সুফিয়া কামাল |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Poetry |
+| **Subfolder** | য-হ |
 | **Formats** | TEXT, json |
 | **Total Size** | 8.8 KB |
 

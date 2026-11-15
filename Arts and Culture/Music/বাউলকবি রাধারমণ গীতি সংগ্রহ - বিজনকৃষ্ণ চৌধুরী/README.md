@@ -20,6 +20,7 @@
 | **Author** | বিজনকৃষ্ণ চৌধুরী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Arts and Culture/Music |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.2 MB |
 

@@ -21,6 +21,7 @@
 | **Author** | বিমল কর |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, EPUB, TEXT |
 | **Total Size** | 2.3 MB |
 

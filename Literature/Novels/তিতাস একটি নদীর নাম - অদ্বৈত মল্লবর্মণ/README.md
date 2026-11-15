@@ -21,6 +21,7 @@
 | **Author** | অদ্বৈত মল্লবর্মণ |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 1.5 MB |
 

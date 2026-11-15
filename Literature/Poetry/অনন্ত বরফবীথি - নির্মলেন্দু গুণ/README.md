@@ -20,6 +20,7 @@
 | **Author** | নির্মলেন্দু গুণ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Poetry |
+| **Subfolder** | নির্মলেন্দু গুণ |
 | **Formats** | TEXT |
 | **Total Size** | 6.6 KB |
 

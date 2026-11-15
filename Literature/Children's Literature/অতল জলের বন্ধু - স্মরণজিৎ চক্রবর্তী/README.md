@@ -20,6 +20,7 @@
 | **Author** | স্মরণজিৎ চক্রবর্তী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Children's Literature |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 303.8 KB |
 

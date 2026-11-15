@@ -21,6 +21,7 @@
 | **Author** | এনায়েতুল্লাহ আলতামাশ, শহীদুল ইসলাম |
 | **Publication / Source** | বই বিতরন (১৭/০৮/২০২২) |
 | **Category** | Religion/Islam/Islamic Lifestyle |
+| **Subfolder** | অ-ঔ |
 | **Formats** | PDF, TEXT, json |
 | **Total Size** | 12.5 MB |
 

@@ -17,6 +17,7 @@
 | **Author** | অধরলাল সেন |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | অ-ঔ |
 | **Formats** | EPUB |
 | **Total Size** | 102.3 KB |
 

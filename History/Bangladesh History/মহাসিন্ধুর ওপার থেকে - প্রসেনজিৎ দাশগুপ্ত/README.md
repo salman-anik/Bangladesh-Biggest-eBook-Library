@@ -20,6 +20,7 @@
 | **Author** | প্রসেনজিৎ দাশগুপ্ত |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | History/Bangladesh History |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 457.4 KB |
 

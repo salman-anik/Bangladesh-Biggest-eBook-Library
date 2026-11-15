@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | ইসলামী বই |
 | **Category** | Religion/Islam/Aqeedah |
+| **Subfolder** | ক-ঙ |
 | **Formats** | PDF |
 | **Total Size** | 1.5 MB |
 

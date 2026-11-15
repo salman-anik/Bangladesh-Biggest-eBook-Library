@@ -20,6 +20,7 @@
 | **Author** | শীর্ষেন্দু মুখােপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Children's Literature |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 612.0 KB |
 

@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | ইসলামী বই |
 | **Category** | Religion/Islam/Islamic Literature |
+| **Subfolder** | ট-ণ |
 | **Formats** | PDF |
 | **Total Size** | 44.0 MB |
 

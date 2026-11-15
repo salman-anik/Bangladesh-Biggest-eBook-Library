@@ -20,6 +20,7 @@
 | **Author** | এ পি জে আবদুল কালাম |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 490.1 KB |
 

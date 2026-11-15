@@ -20,6 +20,7 @@
 | **Author** | হুমায়ুন আজাদ |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | হুমায়ুন আজাদ |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 1.4 MB |
 

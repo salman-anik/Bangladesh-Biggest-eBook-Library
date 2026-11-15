@@ -17,6 +17,7 @@
 | **Author** | ড. জাকির নায়েক |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | চ-ঞ |
 | **Formats** | PDF |
 | **Total Size** | 3.7 MB |
 

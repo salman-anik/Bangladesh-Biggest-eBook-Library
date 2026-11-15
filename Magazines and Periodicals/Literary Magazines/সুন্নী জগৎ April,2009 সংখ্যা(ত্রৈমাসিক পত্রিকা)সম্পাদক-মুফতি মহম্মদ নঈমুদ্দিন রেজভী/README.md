@@ -17,6 +17,7 @@
 | **Author** | মুফতি মহম্মদ নঈমুদ্দিন রেজভী |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Magazines and Periodicals/Literary Magazines |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 17.8 MB |
 

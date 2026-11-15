@@ -20,6 +20,7 @@
 | **Author** | আর্থার সি. ক্লার্ক |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Science Fiction |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 761.0 KB |
 

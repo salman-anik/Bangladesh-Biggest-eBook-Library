@@ -20,6 +20,7 @@
 | **Author** | তসলিমা নাসরিন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | তসলিমা নাসরিন |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 955.3 KB |
 

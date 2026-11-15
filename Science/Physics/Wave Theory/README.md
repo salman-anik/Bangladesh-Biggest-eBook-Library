@@ -16,6 +16,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | University Physics - Waves Oscillations & Optics |
 | **Category** | Science/Physics |
+| **Subfolder** | English (T-Z) |
 | **Formats** | DOCX |
 | **Total Size** | 13.6 KB |
 

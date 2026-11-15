@@ -17,6 +17,7 @@
 | **Author** | i Nur Collection |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | English (N-S) |
 | **Formats** | PDF |
 | **Total Size** | 4.3 MB |
 

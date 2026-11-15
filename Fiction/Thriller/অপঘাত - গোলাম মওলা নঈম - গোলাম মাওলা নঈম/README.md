@@ -20,6 +20,7 @@
 | **Author** | গোলাম মাওলা নঈম |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | গোলাম মাওলা নঈম |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 630.0 KB |
 

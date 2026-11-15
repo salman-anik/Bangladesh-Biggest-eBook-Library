@@ -17,6 +17,7 @@
 | **Author** | ইলিয়াস |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Fiqh |
+| **Subfolder** | য-হ |
 | **Formats** | PDF |
 | **Total Size** | 6.8 MB |
 

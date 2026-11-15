@@ -21,6 +21,7 @@
 | **Author** | বদরুদ্দীন উমর |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | বদরুদ্দীন উমর |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 689.3 KB |
 

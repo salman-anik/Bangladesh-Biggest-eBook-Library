@@ -20,6 +20,7 @@
 | **Author** | সুনীল গঙ্গোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | সুনীল গঙ্গোপাধ্যায় |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 4.4 MB |
 

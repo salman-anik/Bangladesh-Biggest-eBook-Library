@@ -20,6 +20,7 @@
 | **Author** | মাওলানা আজিজুল হক, হযরত মাওলানা শামছুল হক |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Islam/Islamic Lifestyle |
+| **Subfolder** | ভ-ম |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 4.0 MB |
 

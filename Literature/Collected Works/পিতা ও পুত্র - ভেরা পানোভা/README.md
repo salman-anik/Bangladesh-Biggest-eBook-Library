@@ -20,6 +20,7 @@
 | **Author** | ভেরা পানোভা, শিউলি মজুমদার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 538.6 KB |
 

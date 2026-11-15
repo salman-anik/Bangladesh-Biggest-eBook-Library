@@ -21,6 +21,7 @@
 | **Author** | সেলিনা হোসেন |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | সেলিনা হোসেন |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 826.7 KB |
 

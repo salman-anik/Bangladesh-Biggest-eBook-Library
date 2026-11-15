@@ -20,6 +20,7 @@
 | **Author** | সত্যজিৎ রায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | সত্যজিৎ রায় |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 29.8 KB |
 

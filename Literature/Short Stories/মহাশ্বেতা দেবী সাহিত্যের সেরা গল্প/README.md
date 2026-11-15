@@ -20,6 +20,7 @@
 | **Author** | মহাশ্বেতা দেবী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | ভ-ম |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1018.2 KB |
 

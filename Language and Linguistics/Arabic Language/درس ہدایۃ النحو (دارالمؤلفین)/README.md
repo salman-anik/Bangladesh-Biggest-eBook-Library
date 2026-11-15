@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | বই বিতরন (১৭/০৮/২০২২) |
 | **Category** | Language and Linguistics/Arabic Language |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 7.5 MB |
 

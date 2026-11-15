@@ -21,6 +21,7 @@
 | **Author** | ভবানীপ্রসাদ সাহু |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Essays |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, PDF, TEXT, json |
 | **Total Size** | 8.2 MB |
 

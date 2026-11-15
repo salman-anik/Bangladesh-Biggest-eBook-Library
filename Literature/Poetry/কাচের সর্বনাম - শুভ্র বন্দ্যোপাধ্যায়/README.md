@@ -20,6 +20,7 @@
 | **Author** | শুভ্র বন্দ্যোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Poetry |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 135.1 KB |
 

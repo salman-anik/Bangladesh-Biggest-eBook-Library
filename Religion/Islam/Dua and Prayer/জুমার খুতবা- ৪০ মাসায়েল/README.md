@@ -17,6 +17,7 @@
 | **Author** | ৪০ মাসায়েল |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Dua and Prayer |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 702.5 KB |
 

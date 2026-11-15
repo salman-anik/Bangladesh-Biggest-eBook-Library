@@ -20,6 +20,7 @@
 | **Author** | আর্থার কোনান ডয়েল |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 3.5 MB |
 

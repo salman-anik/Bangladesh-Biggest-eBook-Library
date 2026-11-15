@@ -20,6 +20,7 @@
 | **Author** | কাজী আনোয়ার হোসেন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | কাজী আনোয়ার হোসেন |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 501.8 KB |
 

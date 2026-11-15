@@ -20,6 +20,7 @@
 | **Author** | নীহাররঞ্জন গুপ্ত |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Detective |
+| **Subfolder** | নীহাররঞ্জন গুপ্ত |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 111.2 KB |
 

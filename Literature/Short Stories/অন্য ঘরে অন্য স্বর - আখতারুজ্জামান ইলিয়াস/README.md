@@ -20,6 +20,7 @@
 | **Author** | আখতারুজ্জামান ইলিয়াস |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | আখতারুজ্জামান ইলিয়াস |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 438.5 KB |
 

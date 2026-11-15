@@ -20,6 +20,7 @@
 | **Author** | বিপুল কুমার রায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | History/Bangladesh History |
+| **Subfolder** | — |
 | **Formats** | TEXT, json |
 | **Total Size** | 127.7 KB |
 

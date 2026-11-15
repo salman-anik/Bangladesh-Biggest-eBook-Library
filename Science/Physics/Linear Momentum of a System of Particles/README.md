@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | University Physics - Mechanics |
 | **Category** | Science/Physics |
+| **Subfolder** | English (G-M) |
 | **Formats** | PDF |
 | **Total Size** | 34.1 KB |
 

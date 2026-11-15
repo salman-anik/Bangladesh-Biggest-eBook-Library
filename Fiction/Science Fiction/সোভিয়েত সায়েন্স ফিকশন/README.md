@@ -20,6 +20,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Fiction/Science Fiction |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 671.3 KB |
 

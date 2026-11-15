@@ -20,6 +20,7 @@
 | **Author** | আইজাক আসিমভ, নাজমুছ ছাকিব |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Science Fiction |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 980.3 KB |
 

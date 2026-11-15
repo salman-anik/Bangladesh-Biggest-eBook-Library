@@ -20,6 +20,7 @@
 | **Author** | তসলিমা নাসরিন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | TEXT |
 | **Total Size** | 3.1 KB |
 

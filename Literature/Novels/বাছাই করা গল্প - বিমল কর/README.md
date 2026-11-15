@@ -20,6 +20,7 @@
 | **Author** | বিমল কর |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | বিমল কর |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 306.5 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | অ্যান্টনি হরোউইটয, সায়েম সোলায়মান |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.3 MB |
 

@@ -17,6 +17,7 @@
 | **Author** | Legacy of Muslim Civilization |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Science/General Science |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 122.7 MB |
 

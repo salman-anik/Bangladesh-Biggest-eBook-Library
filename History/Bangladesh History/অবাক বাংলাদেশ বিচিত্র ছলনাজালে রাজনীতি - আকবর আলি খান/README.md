@@ -21,6 +21,7 @@
 | **Author** | আকবর আলি খান |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | History/Bangladesh History |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB, json |
 | **Total Size** | 2.3 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | অনীশ দাস অপু, ব্রাম স্টোকার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Horror |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 825.1 KB |
 

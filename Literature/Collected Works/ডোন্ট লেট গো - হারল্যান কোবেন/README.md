@@ -20,6 +20,7 @@
 | **Author** | সায়েম সোলায়মান, হারল্যান কোবেন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ট-ণ |
 | **Formats** | TEXT, json |
 | **Total Size** | 1.1 MB |
 

@@ -17,6 +17,7 @@
 | **Author** | যদুনাথ সরকার |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | History/Bangladesh History |
+| **Subfolder** | — |
 | **Formats** | EPUB |
 | **Total Size** | 291.0 KB |
 

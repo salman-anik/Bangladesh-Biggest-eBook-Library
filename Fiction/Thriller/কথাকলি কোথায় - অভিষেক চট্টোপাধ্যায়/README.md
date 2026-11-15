@@ -21,6 +21,7 @@
 | **Author** | অভিষেক চট্টোপাধ্যায় |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | অভিষেক চট্টোপাধ্যায় |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 1.6 MB |
 

@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Science/General Science |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 14.3 MB |
 

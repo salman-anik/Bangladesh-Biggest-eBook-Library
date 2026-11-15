@@ -20,6 +20,7 @@
 | **Author** | সুবোধ সরকার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Poetry |
+| **Subfolder** | ক-ঙ |
 | **Formats** | TEXT, json |
 | **Total Size** | 413.0 KB |
 

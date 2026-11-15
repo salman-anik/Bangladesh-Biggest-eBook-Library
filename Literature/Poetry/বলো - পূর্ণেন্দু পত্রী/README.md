@@ -20,6 +20,7 @@
 | **Author** | পূর্ণেন্দু পত্রী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Poetry |
+| **Subfolder** | পূর্ণেন্দু পত্রী |
 | **Formats** | TEXT |
 | **Total Size** | 4.8 KB |
 

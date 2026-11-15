@@ -21,6 +21,7 @@
 | **Author** | তারাপদ রায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Humorous Literature |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 9.0 MB |
 

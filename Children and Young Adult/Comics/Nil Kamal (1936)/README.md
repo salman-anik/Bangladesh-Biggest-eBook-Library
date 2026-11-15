@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Children and Young Adult/Comics |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 10.8 MB |
 

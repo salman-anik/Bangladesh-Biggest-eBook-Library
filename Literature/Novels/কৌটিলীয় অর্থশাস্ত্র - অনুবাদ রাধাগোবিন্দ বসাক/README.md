@@ -20,6 +20,7 @@
 | **Author** | রাধাগোবিন্দ বসাক |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ক-ঙ |
 | **Formats** | TEXT, json |
 | **Total Size** | 1.6 MB |
 

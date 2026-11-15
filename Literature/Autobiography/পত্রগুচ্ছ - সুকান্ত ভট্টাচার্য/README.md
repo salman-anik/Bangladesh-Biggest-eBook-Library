@@ -20,6 +20,7 @@
 | **Author** | সুকান্ত ভট্টাচার্য |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | TEXT |
 | **Total Size** | 217.9 KB |
 

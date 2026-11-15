@@ -20,6 +20,7 @@
 | **Author** | আলেকজান্ডার দ্যুমা |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | আলেকজান্ডার দ্যুমা |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 423.5 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | মোহাম্মদ শাহজামান শুভ |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Computer and Technology/Computer Science |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 245.4 KB |
 

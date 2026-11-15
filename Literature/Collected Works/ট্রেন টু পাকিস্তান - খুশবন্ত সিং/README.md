@@ -20,6 +20,7 @@
 | **Author** | খুশবন্ত সিং |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ট-ণ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 921.2 KB |
 

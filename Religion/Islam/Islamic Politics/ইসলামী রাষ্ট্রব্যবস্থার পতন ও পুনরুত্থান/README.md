@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | বই বিতরন (১৭/০৮/২০২২) |
 | **Category** | Religion/Islam/Islamic Politics |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 5.3 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | সৈয়দ ইসমাইল হোসেন সিরাজী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Islam/Islamic Lifestyle |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 178.0 KB |
 

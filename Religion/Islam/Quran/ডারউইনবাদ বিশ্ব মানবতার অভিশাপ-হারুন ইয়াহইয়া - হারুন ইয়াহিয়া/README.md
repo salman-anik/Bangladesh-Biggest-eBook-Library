@@ -17,6 +17,7 @@
 | **Author** | হারুন ইয়াহিয়া |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | ট-ণ |
 | **Formats** | PDF |
 | **Total Size** | 907.9 KB |
 

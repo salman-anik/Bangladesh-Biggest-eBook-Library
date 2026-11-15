@@ -20,6 +20,7 @@
 | **Author** | বিনোদ ঘোষাল |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 561.6 KB |
 

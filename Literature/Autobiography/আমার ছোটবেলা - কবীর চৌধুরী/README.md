@@ -20,6 +20,7 @@
 | **Author** | কবীর চৌধুরী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 255.5 KB |
 

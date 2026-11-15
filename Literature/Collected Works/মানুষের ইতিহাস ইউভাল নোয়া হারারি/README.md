@@ -20,6 +20,7 @@
 | **Author** | ইউভাল নোয়া হারারি |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ভ-ম |
 | **Formats** | TEXT, json |
 | **Total Size** | 2.3 MB |
 

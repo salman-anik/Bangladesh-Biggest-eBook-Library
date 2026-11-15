@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | বই বিতরন (১৭/০৮/২০২২) |
 | **Category** | Religion/Islam/Islamic Economics |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 9.0 MB |
 

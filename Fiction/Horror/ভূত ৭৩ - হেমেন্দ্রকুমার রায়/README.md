@@ -20,6 +20,7 @@
 | **Author** | হেমেন্দ্রকুমার রায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Horror |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.2 MB |
 

@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | ইসলামী বই |
 | **Category** | Religion/Islam/Islamic Literature |
+| **Subfolder** | অ-ঔ |
 | **Formats** | PDF |
 | **Total Size** | 1.1 MB |
 

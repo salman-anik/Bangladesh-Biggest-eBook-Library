@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Hadith |
+| **Subfolder** | চ-ঞ |
 | **Formats** | PDF |
 | **Total Size** | 2.9 MB |
 

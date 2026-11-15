@@ -20,6 +20,7 @@
 | **Author** | মোস্তাক আহমাদ দীন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 553.7 KB |
 

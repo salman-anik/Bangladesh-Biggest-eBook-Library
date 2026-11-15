@@ -17,6 +17,7 @@
 | **Author** | সুলাইমান |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Prophets |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 1.8 MB |
 

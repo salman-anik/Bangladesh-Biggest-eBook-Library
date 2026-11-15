@@ -20,6 +20,7 @@
 | **Author** | জুল ভার্ন |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Fiction/Science Fiction |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 378.6 KB |
 

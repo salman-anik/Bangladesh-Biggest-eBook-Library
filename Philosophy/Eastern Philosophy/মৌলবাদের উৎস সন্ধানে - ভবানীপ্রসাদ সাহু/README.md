@@ -20,6 +20,7 @@
 | **Author** | ভবানীপ্রসাদ সাহু |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Philosophy/Eastern Philosophy |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 886.9 KB |
 

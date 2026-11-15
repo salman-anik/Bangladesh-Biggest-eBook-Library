@@ -21,6 +21,7 @@
 | **Author** | প্রফুল্ল রায় |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | প্রফুল্ল রায় |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 4.1 MB |
 

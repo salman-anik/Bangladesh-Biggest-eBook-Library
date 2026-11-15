@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | — |
 | **Category** | Literature/Novels |
+| **Subfolder** | অ-ঔ |
 | **Formats** | EPUB |
 | **Total Size** | 94.5 MB |
 

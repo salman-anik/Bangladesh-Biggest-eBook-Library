@@ -20,6 +20,7 @@
 | **Author** | কাজী আবদুল ওদুদ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 246.2 KB |
 

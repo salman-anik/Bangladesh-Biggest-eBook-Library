@@ -20,6 +20,7 @@
 | **Author** | শঙ্কর চ্যাটার্জী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 549.6 KB |
 

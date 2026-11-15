@@ -17,6 +17,7 @@
 | **Author** | bendhe |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | English (N-S) |
 | **Formats** | PDF |
 | **Total Size** | 788.1 KB |
 

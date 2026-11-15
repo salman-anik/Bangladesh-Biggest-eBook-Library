@@ -17,6 +17,7 @@
 | **Author** | কৃষ্ণদাস আচার্য্য চৌধুরী |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | ক-ঙ |
 | **Formats** | EPUB |
 | **Total Size** | 118.1 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | স্যার আর্থার কোনান ডয়েল |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Fiction/Detective |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 1.2 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | ত্রিদিবকুমার চট্টোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | অ-ঔ |
 | **Formats** | TEXT, json |
 | **Total Size** | 2.0 KB |
 

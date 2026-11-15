@@ -20,6 +20,7 @@
 | **Author** | কারেন আর্মস্ট্রং |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Religion/Buddhism |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 406.1 KB |
 

@@ -17,6 +17,7 @@
 | **Author** | অক্ষয়চন্দ্র সরকার |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | অ-ঔ |
 | **Formats** | EPUB |
 | **Total Size** | 81.6 KB |
 

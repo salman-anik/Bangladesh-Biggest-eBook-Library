@@ -20,6 +20,7 @@
 | **Author** | সুধীন্দ্রনাথ রাহা |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Horror |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.3 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | রুণু গুহ নিয়োগী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.5 MB |
 

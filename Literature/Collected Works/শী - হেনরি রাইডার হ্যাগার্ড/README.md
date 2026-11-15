@@ -20,6 +20,7 @@
 | **Author** | নিয়াজ মোরশেদ, হেনরি রাইডার হ্যাগার্ড |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | য-হ |
 | **Formats** | TEXT, json |
 | **Total Size** | 708.4 KB |
 

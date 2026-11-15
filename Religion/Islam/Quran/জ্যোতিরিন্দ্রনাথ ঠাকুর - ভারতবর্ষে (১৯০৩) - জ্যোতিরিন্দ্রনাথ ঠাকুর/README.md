@@ -17,6 +17,7 @@
 | **Author** | জ্যোতিরিন্দ্রনাথ ঠাকুর |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | চ-ঞ |
 | **Formats** | EPUB |
 | **Total Size** | 127.3 KB |
 

@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Religion/Islam/Aqeedah |
+| **Subfolder** | চ-ঞ |
 | **Formats** | PDF |
 | **Total Size** | 19.8 MB |
 

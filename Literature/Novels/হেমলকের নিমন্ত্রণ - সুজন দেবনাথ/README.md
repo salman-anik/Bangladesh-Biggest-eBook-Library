@@ -20,6 +20,7 @@
 | **Author** | সুজন দেবনাথ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 2.0 MB |
 

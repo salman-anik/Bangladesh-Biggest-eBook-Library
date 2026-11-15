@@ -20,6 +20,7 @@
 | **Author** | শক্তি চট্টোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Poetry |
+| **Subfolder** | শক্তি চট্টোপাধ্যায় |
 | **Formats** | TEXT |
 | **Total Size** | 6.7 KB |
 

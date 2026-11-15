@@ -20,6 +20,7 @@
 | **Author** | অদ্রীশ বর্ধন, আর্থার কোনান ডয়েল |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Detective |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 5.1 MB |
 

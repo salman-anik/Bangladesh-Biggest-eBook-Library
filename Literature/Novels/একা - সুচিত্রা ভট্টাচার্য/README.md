@@ -20,6 +20,7 @@
 | **Author** | সুচিত্রা ভট্টাচার্য |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | সুচিত্রা ভট্টাচার্য |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 460.9 KB |
 

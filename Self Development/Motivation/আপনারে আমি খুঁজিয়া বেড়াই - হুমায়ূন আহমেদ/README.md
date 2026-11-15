@@ -20,6 +20,7 @@
 | **Author** | হুমায়ূন আহমেদ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Self Development/Motivation |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 11.4 KB |
 

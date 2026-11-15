@@ -20,6 +20,7 @@
 | **Author** | কাজী মাহবুব হোসেন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | কাজী মাহবুব হোসেন |
 | **Formats** | TEXT |
 | **Total Size** | 568.9 KB |
 

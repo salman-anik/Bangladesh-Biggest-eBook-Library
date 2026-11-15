@@ -20,6 +20,7 @@
 | **Author** | নৃসিংহপ্রসাদ ভাদুড়ী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | নৃসিংহপ্রসাদ ভাদুড়ী |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.2 MB |
 

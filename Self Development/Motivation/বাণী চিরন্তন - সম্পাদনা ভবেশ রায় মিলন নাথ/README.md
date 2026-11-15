@@ -20,6 +20,7 @@
 | **Author** | ভবেশ রায়, মিলন নাথ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Self Development/Motivation |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.7 MB |
 

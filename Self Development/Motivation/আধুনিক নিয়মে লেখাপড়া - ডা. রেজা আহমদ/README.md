@@ -20,6 +20,7 @@
 | **Author** | রেজা আহমদ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Self Development/Motivation |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 411.9 KB |
 

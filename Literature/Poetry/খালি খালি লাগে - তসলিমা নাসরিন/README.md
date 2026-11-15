@@ -21,6 +21,7 @@
 | **Author** | তসলিমা নাসরিন |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Poetry |
+| **Subfolder** | তসলিমা নাসরিন |
 | **Formats** | PDF, TEXT, json |
 | **Total Size** | 477.3 KB |
 

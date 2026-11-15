@@ -20,6 +20,7 @@
 | **Author** | এ পি জে আবদুল কালাম |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Self Development/Motivation |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 589.8 KB |
 

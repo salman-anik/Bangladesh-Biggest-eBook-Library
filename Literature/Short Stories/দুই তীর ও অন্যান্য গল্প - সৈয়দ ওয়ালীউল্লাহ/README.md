@@ -20,6 +20,7 @@
 | **Author** | সৈয়দ ওয়ালীউল্লাহ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 519.8 KB |
 

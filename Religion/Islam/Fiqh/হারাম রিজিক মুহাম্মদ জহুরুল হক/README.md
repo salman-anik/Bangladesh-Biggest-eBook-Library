@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | বই বিতরন (১৭/০৮/২০২২) |
 | **Category** | Religion/Islam/Fiqh |
+| **Subfolder** | য-হ |
 | **Formats** | PDF |
 | **Total Size** | 1010.9 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | রঞ্জন বন্দ্যোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ট-ণ |
 | **Formats** | TEXT, json |
 | **Total Size** | 403.8 KB |
 

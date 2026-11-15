@@ -17,6 +17,7 @@
 | **Author** | ইবনে উসাইমীন |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | ইবনে উসাইমীন |
 | **Formats** | PDF |
 | **Total Size** | 671.2 KB |
 

@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | Shared Engineering BOOKS |
 | **Category** | Engineering/Electrical Engineering |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 10.2 MB |
 

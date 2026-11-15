@@ -17,6 +17,7 @@
 | **Author** | ড. খোন্দকার আব্দুল্লাহ জাহাঙ্গীর |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Islamic Politics |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 6.4 MB |
 

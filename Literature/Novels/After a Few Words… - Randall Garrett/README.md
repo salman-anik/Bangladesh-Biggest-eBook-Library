@@ -20,6 +20,7 @@
 | **Author** | র‍্যান্ডাল গ্যারেট |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | English (A-F) |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 69.3 KB |
 

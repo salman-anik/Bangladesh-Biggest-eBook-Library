@@ -21,6 +21,7 @@
 | **Author** | জহির রায়হান |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Novels |
+| **Subfolder** | জহির রায়হান |
 | **Formats** | COVER, PDF, TEXT, json |
 | **Total Size** | 6.2 MB |
 

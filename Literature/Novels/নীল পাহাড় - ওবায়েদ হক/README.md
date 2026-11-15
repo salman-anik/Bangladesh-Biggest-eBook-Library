@@ -20,6 +20,7 @@
 | **Author** | ওবায়েদ হক |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 518.5 KB |
 

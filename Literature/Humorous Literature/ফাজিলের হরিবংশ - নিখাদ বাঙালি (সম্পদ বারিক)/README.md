@@ -20,6 +20,7 @@
 | **Author** | নিখাদ বাঙালি (সম্পদ বারিক) |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Humorous Literature |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.6 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | শক্তিপদ রাজগুরু |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 779.8 KB |
 

@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Language and Linguistics/Bengali Language |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 2.0 MB |
 

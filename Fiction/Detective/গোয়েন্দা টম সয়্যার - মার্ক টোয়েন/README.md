@@ -20,6 +20,7 @@
 | **Author** | মার্ক টোয়েন |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Fiction/Detective |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 486.3 KB |
 

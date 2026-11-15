@@ -20,6 +20,7 @@
 | **Author** | সমৃদ্ধ দত্ত |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 971.0 KB |
 

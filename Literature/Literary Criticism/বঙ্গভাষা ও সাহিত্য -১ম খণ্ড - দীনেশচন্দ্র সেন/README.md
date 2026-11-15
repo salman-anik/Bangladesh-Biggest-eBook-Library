@@ -20,6 +20,7 @@
 | **Author** | দীনেশচন্দ্র সেন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Literary Criticism |
+| **Subfolder** | — |
 | **Formats** | TEXT, json |
 | **Total Size** | 6.8 KB |
 

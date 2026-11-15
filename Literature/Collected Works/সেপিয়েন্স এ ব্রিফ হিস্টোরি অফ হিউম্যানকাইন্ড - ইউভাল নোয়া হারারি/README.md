@@ -20,6 +20,7 @@
 | **Author** | আশফাক আহমেদ, ইউভাল নোয়া হারারি |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | য-হ |
 | **Formats** | TEXT, json |
 | **Total Size** | 655.0 KB |
 

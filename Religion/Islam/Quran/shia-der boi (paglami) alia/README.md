@@ -17,6 +17,7 @@
 | **Author** | der boi (paglami) alia |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | English (N-S) |
 | **Formats** | PDF |
 | **Total Size** | 7.4 MB |
 

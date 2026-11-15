@@ -20,6 +20,7 @@
 | **Author** | অনীশ দেব |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Detective |
+| **Subfolder** | অনীশ দেব |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.6 MB |
 

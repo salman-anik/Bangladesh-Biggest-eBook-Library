@@ -21,6 +21,7 @@
 | **Author** | অনিল বিশ্বাস |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, EPUB, TEXT |
 | **Total Size** | 663.8 KB |
 

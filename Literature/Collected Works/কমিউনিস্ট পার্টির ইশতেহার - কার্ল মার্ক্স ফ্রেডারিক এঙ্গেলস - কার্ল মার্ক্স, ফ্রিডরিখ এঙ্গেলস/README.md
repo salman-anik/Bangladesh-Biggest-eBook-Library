@@ -20,6 +20,7 @@
 | **Author** | কার্ল মার্ক্স, ফ্রিডরিখ এঙ্গেলস |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 278.7 KB |
 

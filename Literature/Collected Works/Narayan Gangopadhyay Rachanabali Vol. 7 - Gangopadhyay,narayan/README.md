@@ -17,6 +17,7 @@
 | **Author** | Gangopadhyay,narayan |
 | **Publication / Source** | Internet Archive Open Library (archive.org) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | English (N-S) |
 | **Formats** | PDF |
 | **Total Size** | 26.3 MB |
 

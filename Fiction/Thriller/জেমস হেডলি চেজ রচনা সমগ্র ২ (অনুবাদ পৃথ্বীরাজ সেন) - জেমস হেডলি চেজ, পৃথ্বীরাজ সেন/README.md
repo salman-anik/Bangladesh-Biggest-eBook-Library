@@ -20,6 +20,7 @@
 | **Author** | জেমস হেডলি চেজ, পৃথ্বীরাজ সেন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | চ-ঞ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 16.2 MB |
 

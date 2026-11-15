@@ -17,6 +17,7 @@
 | **Author** | সৌদামিনী সিংহ |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | য-হ |
 | **Formats** | EPUB |
 | **Total Size** | 144.5 KB |
 

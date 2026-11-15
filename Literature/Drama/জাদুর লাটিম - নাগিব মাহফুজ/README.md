@@ -20,6 +20,7 @@
 | **Author** | নাগিব মাহফুজ, রাফিক হারিরি |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Drama |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 170.4 KB |
 

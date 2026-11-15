@@ -17,6 +17,7 @@
 | **Author** | ইমাম বারবাহারী |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | য-হ |
 | **Formats** | PDF |
 | **Total Size** | 1.4 MB |
 

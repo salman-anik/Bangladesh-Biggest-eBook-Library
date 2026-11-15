@@ -20,6 +20,7 @@
 | **Author** | উইলিয়াম শেকসপিয়র |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 333.1 KB |
 

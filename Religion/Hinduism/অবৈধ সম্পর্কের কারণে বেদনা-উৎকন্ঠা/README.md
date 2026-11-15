@@ -17,6 +17,7 @@
 | **Author** | উৎকন্ঠা |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Hinduism |
+| **Subfolder** | অ-ঔ |
 | **Formats** | PDF |
 | **Total Size** | 128.6 KB |
 

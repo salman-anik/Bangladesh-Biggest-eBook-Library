@@ -21,6 +21,7 @@
 | **Author** | অবনীন্দ্রনাথ ঠাকুর |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | History/Bangladesh History |
+| **Subfolder** | — |
 | **Formats** | COVER, PDF, TEXT, json |
 | **Total Size** | 3.1 MB |
 

@@ -17,6 +17,7 @@
 | **Author** | জগদীশচন্দ্র বসু |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | চ-ঞ |
 | **Formats** | EPUB |
 | **Total Size** | 320.6 KB |
 

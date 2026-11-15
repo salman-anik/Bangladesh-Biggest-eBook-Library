@@ -20,6 +20,7 @@
 | **Author** | রমাপদ চৌধুরী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | প-ব |
 | **Formats** | TEXT, json |
 | **Total Size** | 403.0 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | নীরেন্দ্রনাথ চক্রবর্তী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Literary Criticism |
+| **Subfolder** | — |
 | **Formats** | TEXT, json |
 | **Total Size** | 31.8 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | অতুলচন্দ্র গুপ্ত |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Travel Writing |
+| **Subfolder** | — |
 | **Formats** | TEXT, json |
 | **Total Size** | 111.5 KB |
 

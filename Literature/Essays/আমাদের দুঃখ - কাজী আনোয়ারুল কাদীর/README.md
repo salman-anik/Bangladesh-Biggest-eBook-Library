@@ -20,6 +20,7 @@
 | **Author** | কাজী আনোয়ারুল কাদীর |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 374.7 KB |
 

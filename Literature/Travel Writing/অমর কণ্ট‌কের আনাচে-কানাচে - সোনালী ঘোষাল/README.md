@@ -20,6 +20,7 @@
 | **Author** | সোনালী ঘোষাল |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Travel Writing |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 134.2 KB |
 

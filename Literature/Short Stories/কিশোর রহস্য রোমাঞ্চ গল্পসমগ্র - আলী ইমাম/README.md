@@ -20,6 +20,7 @@
 | **Author** | আলী ইমাম |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 389.4 KB |
 

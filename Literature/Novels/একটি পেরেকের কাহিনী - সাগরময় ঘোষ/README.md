@@ -20,6 +20,7 @@
 | **Author** | সাগরময় ঘোষ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 310.3 KB |
 

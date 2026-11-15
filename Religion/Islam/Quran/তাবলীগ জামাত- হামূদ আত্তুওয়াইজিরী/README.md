@@ -17,6 +17,7 @@
 | **Author** | হামূদ আত্তুওয়াইজিরী |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | ত-ন |
 | **Formats** | PDF |
 | **Total Size** | 3.1 MB |
 

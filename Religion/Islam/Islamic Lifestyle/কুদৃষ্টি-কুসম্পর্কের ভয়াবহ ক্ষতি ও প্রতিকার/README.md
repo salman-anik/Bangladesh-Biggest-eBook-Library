@@ -20,6 +20,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Islam/Islamic Lifestyle |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 142.3 KB |
 

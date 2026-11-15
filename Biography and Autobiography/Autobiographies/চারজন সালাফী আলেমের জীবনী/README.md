@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Biography and Autobiography/Autobiographies |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 6.9 MB |
 

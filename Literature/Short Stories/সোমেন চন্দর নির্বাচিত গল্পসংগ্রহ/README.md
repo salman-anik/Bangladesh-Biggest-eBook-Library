@@ -20,6 +20,7 @@
 | **Author** | সোমেন চন্দ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | য-হ |
 | **Formats** | TEXT, json |
 | **Total Size** | 968.1 KB |
 

@@ -21,6 +21,7 @@
 | **Author** | আশুতোষ মুখোপাধ্যায় |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | আশুতোষ মুখোপাধ্যায় |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 997.6 KB |
 

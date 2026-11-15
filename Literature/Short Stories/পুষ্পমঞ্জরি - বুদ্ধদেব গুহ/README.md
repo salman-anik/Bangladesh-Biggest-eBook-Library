@@ -20,6 +20,7 @@
 | **Author** | বুদ্ধদেব গুহ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | বুদ্ধদেব গুহ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 2.0 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | ইকবাল কবীর মোহ |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 291.2 KB |
 

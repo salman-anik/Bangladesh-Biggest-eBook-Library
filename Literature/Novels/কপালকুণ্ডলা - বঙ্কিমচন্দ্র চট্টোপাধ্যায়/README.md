@@ -21,6 +21,7 @@
 | **Author** | বঙ্কিমচন্দ্র চট্টোপাধ্যায় |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | বঙ্কিমচন্দ্র চট্টোপাধ্যায় |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 751.4 KB |
 

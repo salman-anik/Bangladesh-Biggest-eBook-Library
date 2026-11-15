@@ -17,6 +17,7 @@
 | **Author** | মাহরাম বিষয়ক ফাতাওয়া |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Fiqh |
+| **Subfolder** | ত-ন |
 | **Formats** | PDF |
 | **Total Size** | 1.5 MB |
 

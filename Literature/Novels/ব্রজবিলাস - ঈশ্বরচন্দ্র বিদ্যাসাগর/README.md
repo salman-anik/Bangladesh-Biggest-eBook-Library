@@ -20,6 +20,7 @@
 | **Author** | ঈশ্বরচন্দ্র বিদ্যাসাগর |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ঈশ্বরচন্দ্র বিদ্যাসাগর |
 | **Formats** | TEXT, json |
 | **Total Size** | 204.2 KB |
 

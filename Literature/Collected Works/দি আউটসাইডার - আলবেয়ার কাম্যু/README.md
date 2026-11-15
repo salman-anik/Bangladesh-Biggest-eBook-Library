@@ -20,6 +20,7 @@
 | **Author** | আলবেয়ার কাম্যু, মুনতাসীর মামুন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 450.5 KB |
 

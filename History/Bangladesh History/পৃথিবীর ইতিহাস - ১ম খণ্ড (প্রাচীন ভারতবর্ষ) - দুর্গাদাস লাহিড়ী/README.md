@@ -20,6 +20,7 @@
 | **Author** | দুর্গাদাস লাহিড়ী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | History/Bangladesh History |
+| **Subfolder** | — |
 | **Formats** | TEXT |
 | **Total Size** | 6.2 KB |
 

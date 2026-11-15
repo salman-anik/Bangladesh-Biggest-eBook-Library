@@ -20,6 +20,7 @@
 | **Author** | আগাথা ক্রিস্টি, শুভদেব চক্রবর্তী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ত-ন |
 | **Formats** | TEXT |
 | **Total Size** | 137.0 KB |
 

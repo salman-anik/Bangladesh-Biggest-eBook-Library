@@ -20,6 +20,7 @@
 | **Author** | কেইগো হিগাশিনো, সালমান হক |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.0 MB |
 

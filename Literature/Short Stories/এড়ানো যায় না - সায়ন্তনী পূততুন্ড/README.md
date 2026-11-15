@@ -20,6 +20,7 @@
 | **Author** | সায়ন্তনী পূততুন্ড |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 739.0 KB |
 

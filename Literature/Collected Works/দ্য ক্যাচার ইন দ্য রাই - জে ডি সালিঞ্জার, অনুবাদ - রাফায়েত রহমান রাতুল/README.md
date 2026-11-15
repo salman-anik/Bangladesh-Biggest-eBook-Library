@@ -20,6 +20,7 @@
 | **Author** | জে ডি সালিঞ্জার, রাফায়েত রহমান রাতুল |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.0 MB |
 

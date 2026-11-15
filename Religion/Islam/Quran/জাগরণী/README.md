@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | — |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | চ-ঞ |
 | **Formats** | PDF |
 | **Total Size** | 369.2 KB |
 

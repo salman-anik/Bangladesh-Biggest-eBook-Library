@@ -20,6 +20,7 @@
 | **Author** | নারায়ণ সান্যাল |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | নারায়ণ সান্যাল |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.1 MB |
 

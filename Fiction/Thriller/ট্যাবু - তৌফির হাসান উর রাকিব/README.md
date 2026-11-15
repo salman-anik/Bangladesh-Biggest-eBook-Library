@@ -20,6 +20,7 @@
 | **Author** | তৌফির হাসান উর রাকিব |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | ট-ণ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 779.7 KB |
 

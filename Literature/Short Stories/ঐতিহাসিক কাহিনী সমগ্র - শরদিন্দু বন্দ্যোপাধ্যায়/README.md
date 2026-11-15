@@ -21,6 +21,7 @@
 | **Author** | শরদিন্দু বন্দ্যোপাধ্যায় |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 10.3 MB |
 

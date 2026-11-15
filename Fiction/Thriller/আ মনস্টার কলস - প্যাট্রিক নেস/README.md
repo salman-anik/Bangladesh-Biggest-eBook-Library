@@ -20,6 +20,7 @@
 | **Author** | প্যাট্রিক নেস |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 358.9 KB |
 

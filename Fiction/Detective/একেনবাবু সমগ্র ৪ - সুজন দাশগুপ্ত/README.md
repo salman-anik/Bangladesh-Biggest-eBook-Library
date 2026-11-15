@@ -20,6 +20,7 @@
 | **Author** | সুজন দাশগুপ্ত |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Detective |
+| **Subfolder** | সুজন দাশগুপ্ত |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 2.0 MB |
 

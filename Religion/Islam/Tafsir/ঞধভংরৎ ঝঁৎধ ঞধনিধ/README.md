@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Tafsir |
+| **Subfolder** | চ-ঞ |
 | **Formats** | PDF |
 | **Total Size** | 26.7 MB |
 

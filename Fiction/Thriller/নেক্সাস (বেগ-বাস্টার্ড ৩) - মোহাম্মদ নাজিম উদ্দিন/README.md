@@ -20,6 +20,7 @@
 | **Author** | মোহাম্মদ নাজিম উদ্দিন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | মোহাম্মদ নাজিম উদ্দিন |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.4 MB |
 

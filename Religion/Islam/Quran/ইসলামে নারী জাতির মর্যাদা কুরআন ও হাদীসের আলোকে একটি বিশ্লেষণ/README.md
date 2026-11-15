@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | Internet Archive Open Library (archive.org) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | অ-ঔ |
 | **Formats** | PDF |
 | **Total Size** | 368.4 KB |
 

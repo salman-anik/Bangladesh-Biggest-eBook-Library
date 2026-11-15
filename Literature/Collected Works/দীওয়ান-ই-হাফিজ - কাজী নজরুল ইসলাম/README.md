@@ -20,6 +20,7 @@
 | **Author** | কাজী নজরুল ইসলাম |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ত-ন |
 | **Formats** | TEXT, json |
 | **Total Size** | 7.4 KB |
 

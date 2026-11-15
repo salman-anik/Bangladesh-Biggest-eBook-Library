@@ -2,7 +2,7 @@
 
 [⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) | [📁 Open Category in Google Drive](https://drive.google.com/drive/folders/1yQBvd5KZlOShBcqLumfDqmuW003HkOGm)
 
-**Subcategories:** 16 | **Total Books:** 4,989 | **Total Size:** 41.8 GB
+**Subcategories:** 16 | **Total Books:** 4,988 | **Total Size:** 41.8 GB
 
 | Subcategory | Books | Total Size | Drive Folder |
 |---|---:|---:|---|
@@ -13,7 +13,7 @@
 | [Islamic Children Books](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/Islam/Islamic%20Children%20Books/README.md) | 12 | 47.1 MB | [Open Folder](https://drive.google.com/drive/folders/1fOErLv4pAfZg9BYCqmervqNJpz72CjfB) |
 | [Islamic Economics](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/Islam/Islamic%20Economics/README.md) | 35 | 165.0 MB | [Open Folder](https://drive.google.com/drive/folders/1UTW0erRwqlTcv0PWFvexeg86aeQ2a95X) |
 | [Islamic History](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/Islam/Islamic%20History/README.md) | 352 | 3.5 GB | [Open Folder](https://drive.google.com/drive/folders/1IvhIVFqiWoNgBbBhE1j4O1NPrAttL0vg) |
-| [Islamic Lifestyle](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/Islam/Islamic%20Lifestyle/README.md) | 845 | 8.5 GB | [Open Folder](https://drive.google.com/drive/folders/1keuzew_HtRGk2X9wuHgsNHptxMVuCJgz) |
+| [Islamic Lifestyle](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/Islam/Islamic%20Lifestyle/README.md) | 844 | 8.5 GB | [Open Folder](https://drive.google.com/drive/folders/1keuzew_HtRGk2X9wuHgsNHptxMVuCJgz) |
 | [Islamic Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/Islam/Islamic%20Literature/README.md) | 318 | 2.2 GB | [Open Folder](https://drive.google.com/drive/folders/13h_5tK-BGmRTyUdL7--WxOCTc-73oBfi) |
 | [Islamic Philosophy](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/Islam/Islamic%20Philosophy/README.md) | 14 | 71.1 MB | [Open Folder](https://drive.google.com/drive/folders/1dWbjumsV1Evu_XQELRO7RdHfPQEWmTcR) |
 | [Islamic Politics](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/Islam/Islamic%20Politics/README.md) | 83 | 540.7 MB | [Open Folder](https://drive.google.com/drive/folders/1b6puMGTjIlHX4uZYHbPzPa6wROiMikfG) |

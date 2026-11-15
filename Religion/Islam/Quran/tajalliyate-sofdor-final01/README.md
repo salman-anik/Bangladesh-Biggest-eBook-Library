@@ -17,6 +17,7 @@
 | **Author** | final01 |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | English (T-Z) |
 | **Formats** | PDF |
 | **Total Size** | 778.5 KB |
 

@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | ইসলামী বই |
 | **Category** | Literature/Humorous Literature |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 1.3 MB |
 

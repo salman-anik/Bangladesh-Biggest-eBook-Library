@@ -20,6 +20,7 @@
 | **Author** | জয়গোপাল দে |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Philosophy/Eastern Philosophy |
+| **Subfolder** | — |
 | **Formats** | TEXT, json |
 | **Total Size** | 214.2 KB |
 

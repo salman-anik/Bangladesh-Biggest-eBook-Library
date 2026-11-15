@@ -17,6 +17,7 @@
 | **Author** | প্রিয়নাথ মুখোপাধ্যায় |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | প্রিয়নাথ মুখোপাধ্যায় |
 | **Formats** | EPUB |
 | **Total Size** | 106.1 KB |
 

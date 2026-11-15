@@ -20,6 +20,7 @@
 | **Author** | পঞ্চানন তর্করত্ন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Hinduism |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 367.3 KB |
 

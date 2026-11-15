@@ -20,6 +20,7 @@
 | **Author** | ধনপতি বাগ, সিগমুন্ড ফ্রয়েড |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ট-ণ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 124.3 KB |
 

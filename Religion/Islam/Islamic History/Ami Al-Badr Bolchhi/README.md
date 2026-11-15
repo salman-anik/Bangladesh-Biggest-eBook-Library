@@ -17,6 +17,7 @@
 | **Author** | Badr Bolchhi |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Islamic History |
+| **Subfolder** | English (A-F) |
 | **Formats** | PDF |
 | **Total Size** | 1.1 MB |
 

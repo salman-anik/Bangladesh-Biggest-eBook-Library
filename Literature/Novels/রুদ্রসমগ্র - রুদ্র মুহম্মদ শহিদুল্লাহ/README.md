@@ -20,6 +20,7 @@
 | **Author** | রুদ্র মুহম্মদ শহিদুল্লাহ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 974.9 KB |
 

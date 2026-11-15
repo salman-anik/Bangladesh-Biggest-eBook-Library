@@ -20,6 +20,7 @@
 | **Author** | বিশাখদত্ত |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Drama |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 719.4 KB |
 

@@ -21,6 +21,7 @@
 | **Author** | ঈশ্বরচন্দ্র বিদ্যাসাগর |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Essays |
+| **Subfolder** | প-ব |
 | **Formats** | PDF, TEXT, json |
 | **Total Size** | 2.7 MB |
 

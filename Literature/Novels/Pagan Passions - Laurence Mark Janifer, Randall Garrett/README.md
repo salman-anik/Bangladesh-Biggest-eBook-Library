@@ -20,6 +20,7 @@
 | **Author** | র‍্যান্ডাল গ্যারেট, লরেন্স মার্ক জেনিফার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | English (N-S) |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 305.5 KB |
 

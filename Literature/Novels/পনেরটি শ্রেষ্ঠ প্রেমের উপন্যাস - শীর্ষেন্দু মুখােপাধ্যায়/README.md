@@ -20,6 +20,7 @@
 | **Author** | শীর্ষেন্দু মুখােপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | শীর্ষেন্দু মুখােপাধ্যায় |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 47.2 KB |
 

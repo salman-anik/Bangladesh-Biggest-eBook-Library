@@ -20,6 +20,7 @@
 | **Author** | নিমাই ভট্টাচার্য |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | নিমাই ভট্টাচার্য |
 | **Formats** | TEXT, json |
 | **Total Size** | 287.6 KB |
 

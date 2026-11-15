@@ -20,6 +20,7 @@
 | **Author** | হুমায়ূন আহমেদ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | হুমায়ূন আহমেদ |
 | **Formats** | TEXT, json |
 | **Total Size** | 428.4 KB |
 

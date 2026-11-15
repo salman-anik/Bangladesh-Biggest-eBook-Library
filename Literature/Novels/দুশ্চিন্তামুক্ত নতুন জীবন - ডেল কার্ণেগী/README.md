@@ -20,6 +20,7 @@
 | **Author** | ডেল কার্ণেগী |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 481.2 KB |
 

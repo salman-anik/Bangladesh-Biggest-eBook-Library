@@ -17,6 +17,7 @@
 | **Author** | Sultan Muhammad Razzak |
 | **Publication / Source** | Internet Archive Open Library (archive.org) |
 | **Category** | Literature/Poetry |
+| **Subfolder** | 0-9 & Other |
 | **Formats** | PDF |
 | **Total Size** | 3.0 MB |
 

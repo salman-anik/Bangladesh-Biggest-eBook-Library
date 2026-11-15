@@ -17,6 +17,7 @@
 | **Author** | কালীপ্রসন্ন বিদ্যারত্ন |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Hinduism |
+| **Subfolder** | ক-ঙ |
 | **Formats** | EPUB |
 | **Total Size** | 219.3 KB |
 

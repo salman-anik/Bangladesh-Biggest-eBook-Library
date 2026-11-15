@@ -20,6 +20,7 @@
 | **Author** | তিলোত্তমা মজুমদার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | তিলোত্তমা মজুমদার |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 2.7 MB |
 

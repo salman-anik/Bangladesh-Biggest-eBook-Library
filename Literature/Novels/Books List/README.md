@@ -16,6 +16,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Novels |
+| **Subfolder** | English (A-F) |
 | **Formats** | TXT |
 | **Total Size** | 8.3 KB |
 

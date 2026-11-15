@@ -20,6 +20,7 @@
 | **Author** | কাজী শাহনূর হোসেন, জর্জ ইলিয়ট |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 157.2 KB |
 

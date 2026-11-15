@@ -20,6 +20,7 @@
 | **Author** | শেখ আব্দুল হাকিম |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 418.8 KB |
 

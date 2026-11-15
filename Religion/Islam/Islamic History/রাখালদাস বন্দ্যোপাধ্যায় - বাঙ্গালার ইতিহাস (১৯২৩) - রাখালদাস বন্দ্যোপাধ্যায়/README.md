@@ -17,6 +17,7 @@
 | **Author** | রাখালদাস বন্দ্যোপাধ্যায় |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Islamic History |
+| **Subfolder** | য-হ |
 | **Formats** | EPUB |
 | **Total Size** | 184.1 KB |
 

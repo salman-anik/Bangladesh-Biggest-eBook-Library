@@ -20,6 +20,7 @@
 | **Author** | আখতারুজ্জামান ইলিয়াস |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 45.6 KB |
 

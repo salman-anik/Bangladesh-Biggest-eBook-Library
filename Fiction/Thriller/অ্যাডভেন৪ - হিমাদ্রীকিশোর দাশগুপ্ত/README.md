@@ -21,6 +21,7 @@
 | **Author** | হিমাদ্রীকিশোর দাশগুপ্ত |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 914.3 KB |
 

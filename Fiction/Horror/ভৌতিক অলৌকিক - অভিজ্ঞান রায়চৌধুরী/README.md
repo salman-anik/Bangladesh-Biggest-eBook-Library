@@ -20,6 +20,7 @@
 | **Author** | অভিজ্ঞান রায়চৌধুরী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Horror |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 620.5 KB |
 

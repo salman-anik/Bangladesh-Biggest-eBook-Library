@@ -17,6 +17,7 @@
 | **Author** | ভক্তিসিদ্ধান্ত সরস্বতী |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | ভ-ম |
 | **Formats** | EPUB |
 | **Total Size** | 68.3 KB |
 

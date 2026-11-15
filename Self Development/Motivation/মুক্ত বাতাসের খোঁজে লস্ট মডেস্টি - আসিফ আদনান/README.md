@@ -20,6 +20,7 @@
 | **Author** | আসিফ আদনান |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Self Development/Motivation |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 931.8 KB |
 

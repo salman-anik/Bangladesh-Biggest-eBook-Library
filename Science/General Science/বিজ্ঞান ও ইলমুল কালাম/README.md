@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Science/General Science |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 3.3 MB |
 

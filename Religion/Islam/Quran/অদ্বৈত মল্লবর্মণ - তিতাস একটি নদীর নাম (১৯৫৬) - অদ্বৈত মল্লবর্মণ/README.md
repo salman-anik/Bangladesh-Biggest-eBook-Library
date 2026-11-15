@@ -17,6 +17,7 @@
 | **Author** | অদ্বৈত মল্লবর্মণ |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | অ-ঔ |
 | **Formats** | EPUB |
 | **Total Size** | 982.4 KB |
 

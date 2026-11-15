@@ -17,6 +17,7 @@
 | **Author** | মাওলানা আবুল হাসান আলী নদবী (রহ.) |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Language and Linguistics/Arabic Language |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 8.0 MB |
 

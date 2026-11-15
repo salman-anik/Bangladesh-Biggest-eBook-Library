@@ -20,6 +20,7 @@
 | **Author** | ইশরাক অর্ণব, কোজি সুজুকি |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.0 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | সত্যজিৎ রায় |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | সত্যজিৎ রায় |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 808.2 KB |
 

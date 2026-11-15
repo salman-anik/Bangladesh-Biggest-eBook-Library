@@ -20,6 +20,7 @@
 | **Author** | হারবার্ট জর্জ ওয়েলস |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ট-ণ |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 392.3 KB |
 

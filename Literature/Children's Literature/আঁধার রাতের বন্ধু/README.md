@@ -21,6 +21,7 @@
 | **Author** | হিমাদ্রিকিশোর দাশগুপ্ত |
 | **Publication / Source** | ইসলামী বই |
 | **Category** | Literature/Children's Literature |
+| **Subfolder** | — |
 | **Formats** | COVER, PDF, TEXT, json |
 | **Total Size** | 2.5 MB |
 

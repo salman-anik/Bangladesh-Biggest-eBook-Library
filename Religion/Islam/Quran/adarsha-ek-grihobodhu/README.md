@@ -17,6 +17,7 @@
 | **Author** | grihobodhu |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | English (A-F) |
 | **Formats** | PDF |
 | **Total Size** | 10.8 MB |
 

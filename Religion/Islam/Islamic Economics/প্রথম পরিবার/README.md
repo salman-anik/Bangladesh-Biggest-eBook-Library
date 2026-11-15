@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Religion/Islam/Islamic Economics |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 663.4 KB |
 

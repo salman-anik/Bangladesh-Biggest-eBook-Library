@@ -20,6 +20,7 @@
 | **Author** | বাণী বসু |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | বাণী বসু |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 744.8 KB |
 

@@ -17,6 +17,7 @@
 | **Author** | দুর্গাদাস লাহিড়ী |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | ত-ন |
 | **Formats** | EPUB |
 | **Total Size** | 105.9 KB |
 

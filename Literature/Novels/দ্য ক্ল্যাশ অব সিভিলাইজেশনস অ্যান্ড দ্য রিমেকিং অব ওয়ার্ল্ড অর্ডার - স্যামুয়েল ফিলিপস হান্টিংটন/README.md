@@ -20,6 +20,7 @@
 | **Author** | স্যামুয়েল ফিলিপস হান্টিংটন |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 792.0 KB |
 

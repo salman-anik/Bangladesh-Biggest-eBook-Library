@@ -17,6 +17,7 @@
 | **Author** | ইমাম ইবনে তাইমিয়া (রহ.) |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | য-হ |
 | **Formats** | PDF |
 | **Total Size** | 6.2 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | সতীনাথ ভাদুড়ী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ট-ণ |
 | **Formats** | TEXT, json |
 | **Total Size** | 1.8 MB |
 

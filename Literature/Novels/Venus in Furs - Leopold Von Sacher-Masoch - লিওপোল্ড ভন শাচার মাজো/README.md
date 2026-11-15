@@ -20,6 +20,7 @@
 | **Author** | লিওপোল্ড ভন শাচার মাজো |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | English (T-Z) |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 269.4 KB |
 

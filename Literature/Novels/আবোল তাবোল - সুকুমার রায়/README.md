@@ -20,6 +20,7 @@
 | **Author** | সুকুমার রায় |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 1.9 MB |
 

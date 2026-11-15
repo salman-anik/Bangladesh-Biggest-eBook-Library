@@ -20,6 +20,7 @@
 | **Author** | কাসেম বিন আবুবাকার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | কাসেম বিন আবুবাকার |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 405.0 KB |
 

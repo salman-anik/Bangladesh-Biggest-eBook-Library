@@ -20,6 +20,7 @@
 | **Author** | এ পি জে আবদুল কালাম, মনোজিৎ কুমার দাস |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Self Development/Motivation |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 458.3 KB |
 

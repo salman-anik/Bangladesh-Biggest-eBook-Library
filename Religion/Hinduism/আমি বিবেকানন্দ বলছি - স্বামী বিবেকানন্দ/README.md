@@ -19,6 +19,7 @@
 | **Author** | স্বামী বিবেকানন্দ |
 | **Publication / Source** | Scanned Book Edition |
 | **Category** | Religion/Hinduism |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER |
 | **Total Size** | 10.4 MB |
 

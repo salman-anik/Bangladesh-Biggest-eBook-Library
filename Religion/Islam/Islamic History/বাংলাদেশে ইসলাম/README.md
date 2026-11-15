@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Islamic History |
+| **Subfolder** | প-ব |
 | **Formats** | PDF |
 | **Total Size** | 8.5 MB |
 

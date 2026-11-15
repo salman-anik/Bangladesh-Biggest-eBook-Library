@@ -20,6 +20,7 @@
 | **Author** | নীহাররঞ্জন গুপ্ত |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Fiction/Detective |
+| **Subfolder** | নীহাররঞ্জন গুপ্ত |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 4.0 MB |
 

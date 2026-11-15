@@ -20,6 +20,7 @@
 | **Author** | অনির্বাণ বন্দ্যোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ভ-ম |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 23.1 KB |
 

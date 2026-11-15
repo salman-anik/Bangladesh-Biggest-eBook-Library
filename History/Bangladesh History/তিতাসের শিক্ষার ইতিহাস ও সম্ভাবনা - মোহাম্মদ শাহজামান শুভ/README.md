@@ -20,6 +20,7 @@
 | **Author** | মোহাম্মদ শাহজামান শুভ |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | History/Bangladesh History |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 12.8 MB |
 

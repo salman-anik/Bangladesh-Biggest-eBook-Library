@@ -21,6 +21,7 @@
 | **Author** | বিমল কর |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 6.0 MB |
 

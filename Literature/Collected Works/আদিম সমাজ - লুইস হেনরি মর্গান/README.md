@@ -20,6 +20,7 @@
 | **Author** | বুলবন ওসমান, লুইস হেনরি মর্গান |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | অ-ঔ |
 | **Formats** | TEXT, json |
 | **Total Size** | 909.6 KB |
 

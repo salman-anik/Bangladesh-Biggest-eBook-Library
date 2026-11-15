@@ -20,6 +20,7 @@
 | **Author** | জসীম উদ্দীন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | ভ-ম |
 | **Formats** | TEXT, json |
 | **Total Size** | 61.7 KB |
 

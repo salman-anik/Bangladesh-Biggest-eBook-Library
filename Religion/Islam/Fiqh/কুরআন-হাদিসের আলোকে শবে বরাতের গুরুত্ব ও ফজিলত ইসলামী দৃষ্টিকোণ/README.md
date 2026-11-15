@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | Internet Archive Open Library (archive.org) |
 | **Category** | Religion/Islam/Fiqh |
+| **Subfolder** | ক-ঙ |
 | **Formats** | PDF |
 | **Total Size** | 904.8 KB |
 

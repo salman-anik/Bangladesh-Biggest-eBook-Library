@@ -21,6 +21,7 @@
 | **Author** | জাফর বিপি |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Self Development/Motivation |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 1.0 MB |
 

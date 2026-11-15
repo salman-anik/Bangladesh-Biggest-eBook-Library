@@ -20,6 +20,7 @@
 | **Author** | গোলাম মোস্তফা |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | প-ব |
 | **Formats** | TEXT, json |
 | **Total Size** | 475.7 KB |
 

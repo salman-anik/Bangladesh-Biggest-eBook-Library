@@ -17,6 +17,7 @@
 | **Author** | আলফেসানী |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | ত-ন |
 | **Formats** | PDF |
 | **Total Size** | 7.3 MB |
 

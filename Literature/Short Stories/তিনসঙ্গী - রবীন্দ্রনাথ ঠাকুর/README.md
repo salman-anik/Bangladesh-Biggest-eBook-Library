@@ -20,6 +20,7 @@
 | **Author** | রবীন্দ্রনাথ ঠাকুর |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | ত-ন |
 | **Formats** | TEXT, json |
 | **Total Size** | 512.7 KB |
 

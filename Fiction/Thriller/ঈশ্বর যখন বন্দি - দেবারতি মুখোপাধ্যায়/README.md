@@ -21,6 +21,7 @@
 | **Author** | দেবারতি মুখোপাধ্যায় |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | দেবারতি মুখোপাধ্যায় |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 1.2 MB |
 

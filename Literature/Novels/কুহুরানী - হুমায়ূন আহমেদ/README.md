@@ -21,6 +21,7 @@
 | **Author** | হুমায়ূন আহমেদ |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Novels |
+| **Subfolder** | হুমায়ূন আহমেদ |
 | **Formats** | COVER, PDF, TEXT, json |
 | **Total Size** | 7.9 MB |
 

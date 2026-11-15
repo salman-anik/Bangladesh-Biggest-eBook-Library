@@ -17,6 +17,7 @@
 | **Author** | বিন ফাওযান |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | অ-ঔ |
 | **Formats** | PDF |
 | **Total Size** | 1.5 MB |
 

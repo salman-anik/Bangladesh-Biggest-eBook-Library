@@ -20,6 +20,7 @@
 | **Author** | জুনায়েদ ইভান |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 281.7 KB |
 

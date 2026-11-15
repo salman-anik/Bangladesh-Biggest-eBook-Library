@@ -20,6 +20,7 @@
 | **Author** | হারম্যান মেলভিল |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | ভ-ম |
 | **Formats** | TEXT |
 | **Total Size** | 669.8 KB |
 

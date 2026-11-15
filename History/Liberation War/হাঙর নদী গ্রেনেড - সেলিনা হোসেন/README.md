@@ -21,6 +21,7 @@
 | **Author** | সেলিনা হোসেন |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | History/Liberation War |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 902.8 KB |
 

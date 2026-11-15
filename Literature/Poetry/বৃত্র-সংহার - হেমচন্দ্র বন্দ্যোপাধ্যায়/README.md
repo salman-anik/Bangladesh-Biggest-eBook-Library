@@ -20,6 +20,7 @@
 | **Author** | হেমচন্দ্র বন্দ্যোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Poetry |
+| **Subfolder** | প-ব |
 | **Formats** | TEXT, json |
 | **Total Size** | 56.7 KB |
 

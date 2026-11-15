@@ -17,6 +17,7 @@
 | **Author** | ছাত্রীদের নির্বাচিত ফাতাওয়া |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | চ-ঞ |
 | **Formats** | PDF |
 | **Total Size** | 1.5 MB |
 

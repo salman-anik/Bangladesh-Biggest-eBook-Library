@@ -20,6 +20,7 @@
 | **Author** | মুহম্মদ জাফর ইকবাল |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Children's Literature |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 405.7 KB |
 

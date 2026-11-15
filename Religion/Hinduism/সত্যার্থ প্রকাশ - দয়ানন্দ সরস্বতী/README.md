@@ -20,6 +20,7 @@
 | **Author** | দয়ানন্দ সরস্বতী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Hinduism |
+| **Subfolder** | য-হ |
 | **Formats** | TEXT, json |
 | **Total Size** | 3.1 MB |
 

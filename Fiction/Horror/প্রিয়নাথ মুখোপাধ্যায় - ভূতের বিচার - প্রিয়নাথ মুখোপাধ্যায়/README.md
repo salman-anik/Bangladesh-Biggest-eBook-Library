@@ -17,6 +17,7 @@
 | **Author** | প্রিয়নাথ মুখোপাধ্যায় |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Fiction/Horror |
+| **Subfolder** | — |
 | **Formats** | EPUB |
 | **Total Size** | 109.2 KB |
 

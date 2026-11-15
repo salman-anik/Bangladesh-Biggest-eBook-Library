@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Politics and Government/Democracy |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 501.2 KB |
 

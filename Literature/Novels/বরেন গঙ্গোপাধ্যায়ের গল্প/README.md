@@ -20,6 +20,7 @@
 | **Author** | বরেন গঙ্গোপাধ্যায় |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 254.1 KB |
 

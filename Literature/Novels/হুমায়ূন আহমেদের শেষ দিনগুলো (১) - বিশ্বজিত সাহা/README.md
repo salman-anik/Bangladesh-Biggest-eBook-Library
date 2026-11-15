@@ -20,6 +20,7 @@
 | **Author** | বিশ্বজিত সাহা |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 316.9 KB |
 

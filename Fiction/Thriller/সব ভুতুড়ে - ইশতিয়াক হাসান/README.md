@@ -20,6 +20,7 @@
 | **Author** | ইশতিয়াক হাসান |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 639.2 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | অগাস্ট স্ট্রিনডবার্গ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 543.2 KB |
 

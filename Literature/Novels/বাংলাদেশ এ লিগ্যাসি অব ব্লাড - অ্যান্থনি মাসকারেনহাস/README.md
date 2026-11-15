@@ -20,6 +20,7 @@
 | **Author** | অ্যান্থনি মাসকারেনহাস |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 462.8 KB |
 

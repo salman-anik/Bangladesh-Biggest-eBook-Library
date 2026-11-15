@@ -21,6 +21,7 @@
 | **Author** | আয়মান সাদিক |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Self Development/Motivation |
+| **Subfolder** | — |
 | **Formats** | COVER, PDF, TEXT, json |
 | **Total Size** | 29.6 MB |
 

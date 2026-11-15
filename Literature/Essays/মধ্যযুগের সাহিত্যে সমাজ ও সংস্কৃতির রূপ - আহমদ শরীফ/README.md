@@ -21,6 +21,7 @@
 | **Author** | আহমদ শরীফ |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Essays |
+| **Subfolder** | আহমদ শরীফ |
 | **Formats** | PDF, TEXT, json |
 | **Total Size** | 19.8 MB |
 

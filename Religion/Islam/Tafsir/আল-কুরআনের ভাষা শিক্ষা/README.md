@@ -17,6 +17,7 @@
 | **Author** | কুরআনের ভাষা শিক্ষা |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Tafsir |
+| **Subfolder** | অ-ঔ |
 | **Formats** | PDF |
 | **Total Size** | 41.8 MB |
 

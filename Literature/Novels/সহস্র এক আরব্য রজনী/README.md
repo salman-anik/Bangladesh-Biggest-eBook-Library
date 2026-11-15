@@ -19,6 +19,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | য-হ |
 | **Formats** | COVER |
 | **Total Size** | 72.8 KB |
 

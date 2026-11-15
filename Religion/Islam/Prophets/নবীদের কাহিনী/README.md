@@ -20,6 +20,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Islam/Prophets |
+| **Subfolder** | — |
 | **Formats** | TEXT, json |
 | **Total Size** | 1.9 MB |
 

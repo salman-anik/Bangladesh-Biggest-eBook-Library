@@ -20,6 +20,7 @@
 | **Author** | প্রফেসর ড. নাজিমুদ্দীন এরবাকান |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Science/General Science |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 340.1 KB |
 

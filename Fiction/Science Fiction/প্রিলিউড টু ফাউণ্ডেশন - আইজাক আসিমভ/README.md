@@ -20,6 +20,7 @@
 | **Author** | আইজাক আসিমভ |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Fiction/Science Fiction |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 353.3 KB |
 

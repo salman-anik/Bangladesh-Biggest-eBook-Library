@@ -20,6 +20,7 @@
 | **Author** | পাওলো কোয়েলহো, রাফিক হারিরি |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | প-ব |
 | **Formats** | TEXT, json |
 | **Total Size** | 499.6 KB |
 

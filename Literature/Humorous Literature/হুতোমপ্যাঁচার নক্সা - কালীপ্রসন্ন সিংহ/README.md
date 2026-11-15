@@ -21,6 +21,7 @@
 | **Author** | কালীপ্রসন্ন সিংহ |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Humorous Literature |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 1.4 MB |
 

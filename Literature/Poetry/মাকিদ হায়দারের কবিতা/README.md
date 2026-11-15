@@ -20,6 +20,7 @@
 | **Author** | মাকিদ হায়দার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Poetry |
+| **Subfolder** | ভ-ম |
 | **Formats** | TEXT, json |
 | **Total Size** | 31.2 KB |
 

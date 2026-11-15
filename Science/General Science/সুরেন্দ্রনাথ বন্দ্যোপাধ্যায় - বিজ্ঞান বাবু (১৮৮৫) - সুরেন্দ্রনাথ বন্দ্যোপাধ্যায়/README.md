@@ -17,6 +17,7 @@
 | **Author** | সুরেন্দ্রনাথ বন্দ্যোপাধ্যায় |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Science/General Science |
+| **Subfolder** | — |
 | **Formats** | EPUB |
 | **Total Size** | 95.3 KB |
 

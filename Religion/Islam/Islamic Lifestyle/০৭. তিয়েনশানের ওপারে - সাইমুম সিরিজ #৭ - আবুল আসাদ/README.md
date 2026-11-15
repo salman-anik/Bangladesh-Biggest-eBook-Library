@@ -20,6 +20,7 @@
 | **Author** | আবুল আসাদ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Islam/Islamic Lifestyle |
+| **Subfolder** | আবুল আসাদ |
 | **Formats** | TEXT |
 | **Total Size** | 551.1 KB |
 

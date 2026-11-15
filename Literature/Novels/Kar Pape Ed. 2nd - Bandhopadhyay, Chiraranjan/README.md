@@ -17,6 +17,7 @@
 | **Author** | Bandhopadhyay, Chiraranjan |
 | **Publication / Source** | Internet Archive Open Library (archive.org) |
 | **Category** | Literature/Novels |
+| **Subfolder** | English (G-M) |
 | **Formats** | PDF |
 | **Total Size** | 5.8 MB |
 

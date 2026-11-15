@@ -17,6 +17,7 @@
 | **Author** | শান্তির স্বপক্ষে |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | History/Language Movement |
+| **Subfolder** | — |
 | **Formats** | EPUB |
 | **Total Size** | 107.1 KB |
 

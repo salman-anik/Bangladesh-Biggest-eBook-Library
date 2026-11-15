@@ -17,6 +17,7 @@
 | **Author** | Ibn Al Qayyim |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Medicine and Health/Public Health |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 7.3 MB |
 

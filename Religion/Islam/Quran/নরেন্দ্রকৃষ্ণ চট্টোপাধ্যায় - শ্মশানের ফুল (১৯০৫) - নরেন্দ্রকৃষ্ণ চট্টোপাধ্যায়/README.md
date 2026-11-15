@@ -17,6 +17,7 @@
 | **Author** | নরেন্দ্রকৃষ্ণ চট্টোপাধ্যায় |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | ত-ন |
 | **Formats** | EPUB |
 | **Total Size** | 105.6 KB |
 

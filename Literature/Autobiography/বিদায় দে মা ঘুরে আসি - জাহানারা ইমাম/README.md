@@ -21,6 +21,7 @@
 | **Author** | জাহানারা ইমাম |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 407.1 KB |
 

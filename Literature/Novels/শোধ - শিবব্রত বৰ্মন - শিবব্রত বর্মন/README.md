@@ -20,6 +20,7 @@
 | **Author** | শিবব্রত বর্মন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 331.2 KB |
 

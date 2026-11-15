@@ -20,6 +20,7 @@
 | **Author** | অনীশ দাস অপু |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Fiction/Horror |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 339.7 KB |
 

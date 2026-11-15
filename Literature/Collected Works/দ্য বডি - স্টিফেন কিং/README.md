@@ -21,6 +21,7 @@
 | **Author** | স্টিফেন কিং |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | স্টিফেন কিং |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 1.3 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | ঈশ্বরচন্দ্র বিদ্যাসাগর |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Hinduism |
+| **Subfolder** | ভ-ম |
 | **Formats** | TEXT, json |
 | **Total Size** | 197.2 KB |
 

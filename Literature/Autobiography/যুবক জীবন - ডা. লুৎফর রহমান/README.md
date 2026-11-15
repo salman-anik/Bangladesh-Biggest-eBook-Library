@@ -20,6 +20,7 @@
 | **Author** | লুৎফর রহমান |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | TEXT, json |
 | **Total Size** | 220.5 KB |
 

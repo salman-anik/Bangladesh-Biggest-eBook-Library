@@ -20,6 +20,7 @@
 | **Author** | প্রেমেন্দ্র মিত্র |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Humorous Literature |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 334.5 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | সঞ্জীবচন্দ্র চট্টোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Travel Writing |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 219.0 KB |
 

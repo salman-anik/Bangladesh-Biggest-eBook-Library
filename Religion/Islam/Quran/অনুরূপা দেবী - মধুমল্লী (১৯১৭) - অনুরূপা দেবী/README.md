@@ -17,6 +17,7 @@
 | **Author** | অনুরূপা দেবী |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | অ-ঔ |
 | **Formats** | EPUB |
 | **Total Size** | 154.6 KB |
 

@@ -21,6 +21,7 @@
 | **Author** | কেইগো হিগাশিনো |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | কেইগো হিগাশিনো |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 1.1 MB |
 

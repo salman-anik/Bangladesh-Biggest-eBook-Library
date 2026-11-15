@@ -20,6 +20,7 @@
 | **Author** | মুহম্মদ জাফর ইকবাল |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | য-হ |
 | **Formats** | TEXT, json |
 | **Total Size** | 1.1 MB |
 

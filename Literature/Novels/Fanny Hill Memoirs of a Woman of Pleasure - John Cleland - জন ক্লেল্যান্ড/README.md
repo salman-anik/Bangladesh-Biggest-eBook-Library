@@ -20,6 +20,7 @@
 | **Author** | জন ক্লেল্যান্ড |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | English (A-F) |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 495.0 KB |
 

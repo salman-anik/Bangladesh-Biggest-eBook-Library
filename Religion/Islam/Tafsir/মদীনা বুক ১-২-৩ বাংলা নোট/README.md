@@ -17,6 +17,7 @@
 | **Author** | ৩ বাংলা নোট |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Tafsir |
+| **Subfolder** | ভ-ম |
 | **Formats** | PDF |
 | **Total Size** | 6.3 MB |
 

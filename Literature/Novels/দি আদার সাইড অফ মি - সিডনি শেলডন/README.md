@@ -20,6 +20,7 @@
 | **Author** | সিডনি শেলডন |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | সিডনি শেলডন |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 385.0 KB |
 

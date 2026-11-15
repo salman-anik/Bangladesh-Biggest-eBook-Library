@@ -20,6 +20,7 @@
 | **Author** | উইলবার স্মিথ, কাজী আখতারউদ্দিন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ট-ণ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.7 MB |
 

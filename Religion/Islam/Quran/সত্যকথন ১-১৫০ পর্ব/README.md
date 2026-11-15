@@ -17,6 +17,7 @@
 | **Author** | ১৫০ পর্ব |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | য-হ |
 | **Formats** | PDF |
 | **Total Size** | 6.5 MB |
 

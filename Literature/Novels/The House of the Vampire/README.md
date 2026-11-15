@@ -20,6 +20,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | English (T-Z) |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 203.0 KB |
 

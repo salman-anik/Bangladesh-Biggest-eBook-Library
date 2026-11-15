@@ -17,6 +17,7 @@
 | **Author** | প্যারীচাঁদ মিত্র |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | প-ব |
 | **Formats** | EPUB |
 | **Total Size** | 263.8 KB |
 

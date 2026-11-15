@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | History/Liberation War |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 7.1 MB |
 

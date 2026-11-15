@@ -20,6 +20,7 @@
 | **Author** | সঞ্জীব চট্টোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 367.4 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | লোকেশ্বর বসু |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | History/Bangladesh History |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 458.1 KB |
 

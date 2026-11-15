@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Islam/Hadith |
+| **Subfolder** | English (A-F) |
 | **Formats** | TEXT |
 | **Total Size** | 9.3 KB |
 

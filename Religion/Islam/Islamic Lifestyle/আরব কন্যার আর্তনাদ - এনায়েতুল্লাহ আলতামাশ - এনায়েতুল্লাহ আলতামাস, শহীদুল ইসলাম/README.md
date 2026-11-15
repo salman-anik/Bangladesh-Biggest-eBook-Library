@@ -20,6 +20,7 @@
 | **Author** | এনায়েতুল্লাহ আলতামাস, শহীদুল ইসলাম |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Islam/Islamic Lifestyle |
+| **Subfolder** | অ-ঔ |
 | **Formats** | TEXT, json |
 | **Total Size** | 2.2 MB |
 

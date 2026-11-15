@@ -20,6 +20,7 @@
 | **Author** | ইয়স্তেন গার্ডার, দ্বিজেন্দ্রনাথ বর্মন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 242.8 KB |
 

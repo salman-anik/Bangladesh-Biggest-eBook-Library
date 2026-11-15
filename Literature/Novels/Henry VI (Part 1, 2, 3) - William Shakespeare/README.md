@@ -20,6 +20,7 @@
 | **Author** | উইলিয়াম শেক্সপিয়ার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | উইলিয়াম শেক্সপিয়ার |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 463.4 KB |
 

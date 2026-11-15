@@ -20,6 +20,7 @@
 | **Author** | আর্নেস্ট হেমিংওয়ে |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 380.1 KB |
 

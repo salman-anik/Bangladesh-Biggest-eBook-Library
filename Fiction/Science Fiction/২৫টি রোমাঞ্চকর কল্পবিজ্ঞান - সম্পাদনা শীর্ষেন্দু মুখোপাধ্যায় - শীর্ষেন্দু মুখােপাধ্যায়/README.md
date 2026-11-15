@@ -20,6 +20,7 @@
 | **Author** | শীর্ষেন্দু মুখােপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Science Fiction |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1005.1 KB |
 

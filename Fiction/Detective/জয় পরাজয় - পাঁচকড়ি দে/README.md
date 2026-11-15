@@ -21,6 +21,7 @@
 | **Author** | পাঁচকড়ি দে |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Fiction/Detective |
+| **Subfolder** | পাঁচকড়ি দে |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 821.7 KB |
 

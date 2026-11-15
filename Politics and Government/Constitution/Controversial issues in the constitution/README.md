@@ -16,6 +16,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | University Physics - 1st Year |
 | **Category** | Politics and Government/Constitution |
+| **Subfolder** | — |
 | **Formats** | DOCX |
 | **Total Size** | 13.5 KB |
 

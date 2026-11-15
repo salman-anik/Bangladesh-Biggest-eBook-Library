@@ -20,6 +20,7 @@
 | **Author** | দীনেশচন্দ্র সেন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | প-ব |
 | **Formats** | TEXT, json |
 | **Total Size** | 28.4 KB |
 

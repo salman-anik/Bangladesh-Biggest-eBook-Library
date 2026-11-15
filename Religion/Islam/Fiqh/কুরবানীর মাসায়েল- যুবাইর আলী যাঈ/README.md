@@ -17,6 +17,7 @@
 | **Author** | যুবাইর আলী যাঈ |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Fiqh |
+| **Subfolder** | ক-ঙ |
 | **Formats** | PDF |
 | **Total Size** | 253.8 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | সৈয়দ মুজতবা আলী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | সৈয়দ মুজতবা আলী |
 | **Formats** | TEXT, json |
 | **Total Size** | 177.2 KB |
 

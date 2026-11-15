@@ -17,6 +17,7 @@
 | **Author** | নারায়ণচন্দ্র বিদ্যারত্ন |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | ত-ন |
 | **Formats** | EPUB |
 | **Total Size** | 137.8 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | স্বামী সারদানন্দ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Hinduism |
+| **Subfolder** | স্বামী সারদানন্দ |
 | **Formats** | TEXT, json |
 | **Total Size** | 1.4 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | আবদুল্লাহ আবু সায়ীদ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 606.9 KB |
 

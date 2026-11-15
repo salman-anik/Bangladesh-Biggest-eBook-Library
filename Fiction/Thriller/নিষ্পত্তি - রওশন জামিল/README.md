@@ -20,6 +20,7 @@
 | **Author** | রওশন জামিল |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | ত-ন |
 | **Formats** | TEXT |
 | **Total Size** | 518.0 KB |
 

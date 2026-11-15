@@ -20,6 +20,7 @@
 | **Author** | দেবীপ্রসাদ চট্টোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | History/Bangladesh History |
+| **Subfolder** | — |
 | **Formats** | TEXT, json |
 | **Total Size** | 13.7 KB |
 

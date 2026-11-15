@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | ইসলামীক বই ৫০০টি+ |
 | **Category** | Religion/Islam/Islamic History |
+| **Subfolder** | অ-ঔ |
 | **Formats** | PDF |
 | **Total Size** | 22.0 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | কাজী শাহনূর হোসেন, রাফায়েল সাবাতিনি |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | অ-ঔ |
 | **Formats** | TEXT, json |
 | **Total Size** | 258.5 KB |
 

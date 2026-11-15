@@ -20,6 +20,7 @@
 | **Author** | রবার্ট ব্লচ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | য-হ |
 | **Formats** | TEXT, json |
 | **Total Size** | 472.8 KB |
 

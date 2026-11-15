@@ -20,6 +20,7 @@
 | **Author** | কাজী আখতারউদ্দিন, জ্যাক হিগিনস |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | য-হ |
 | **Formats** | TEXT, json |
 | **Total Size** | 793.1 KB |
 

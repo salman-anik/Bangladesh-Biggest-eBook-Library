@@ -20,6 +20,7 @@
 | **Author** | রকিব হাসান |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | রকিব হাসান |
 | **Formats** | TEXT, json |
 | **Total Size** | 826.7 KB |
 

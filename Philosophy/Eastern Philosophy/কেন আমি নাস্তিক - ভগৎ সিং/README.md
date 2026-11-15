@@ -21,6 +21,7 @@
 | **Author** | ভগৎ সিং |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Philosophy/Eastern Philosophy |
+| **Subfolder** | — |
 | **Formats** | COVER, PDF, TEXT, json |
 | **Total Size** | 30.3 MB |
 

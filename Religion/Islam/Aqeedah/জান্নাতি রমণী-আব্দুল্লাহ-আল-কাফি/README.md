@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | ইসলামী বই |
 | **Category** | Religion/Islam/Aqeedah |
+| **Subfolder** | চ-ঞ |
 | **Formats** | PDF |
 | **Total Size** | 912.3 KB |
 

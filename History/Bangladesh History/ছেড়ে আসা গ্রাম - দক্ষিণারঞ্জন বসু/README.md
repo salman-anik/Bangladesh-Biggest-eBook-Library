@@ -20,6 +20,7 @@
 | **Author** | দক্ষিণারঞ্জন বসু |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | History/Bangladesh History |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.6 MB |
 

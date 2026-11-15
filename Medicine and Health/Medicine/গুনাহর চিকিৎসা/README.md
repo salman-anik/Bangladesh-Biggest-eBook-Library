@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | ইসলামী বই |
 | **Category** | Medicine and Health/Medicine |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 738.8 KB |
 

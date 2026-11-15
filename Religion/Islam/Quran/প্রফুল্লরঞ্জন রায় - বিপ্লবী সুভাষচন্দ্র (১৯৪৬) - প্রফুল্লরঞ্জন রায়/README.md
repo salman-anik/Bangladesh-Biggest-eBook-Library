@@ -17,6 +17,7 @@
 | **Author** | প্রফুল্লরঞ্জন রায় |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | প-ব |
 | **Formats** | EPUB |
 | **Total Size** | 1.5 MB |
 

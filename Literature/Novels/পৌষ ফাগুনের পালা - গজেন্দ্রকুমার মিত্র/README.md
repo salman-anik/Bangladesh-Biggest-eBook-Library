@@ -20,6 +20,7 @@
 | **Author** | গজেন্দ্রকুমার মিত্র |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 3.1 MB |
 

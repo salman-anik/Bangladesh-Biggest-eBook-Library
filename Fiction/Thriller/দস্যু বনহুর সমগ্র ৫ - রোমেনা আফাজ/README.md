@@ -20,6 +20,7 @@
 | **Author** | রোমেনা আফাজ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | রোমেনা আফাজ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 4.1 MB |
 

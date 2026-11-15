@@ -20,6 +20,7 @@
 | **Author** | রঞ্জিত চট্টোপাধ্যায়, সিদ্ধার্থ ঘোষ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Detective |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 3.3 MB |
 

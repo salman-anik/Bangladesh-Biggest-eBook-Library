@@ -17,6 +17,7 @@
 | **Author** | ভূদেব মুখোপাধ্যায় |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Islamic History |
+| **Subfolder** | ভ-ম |
 | **Formats** | EPUB |
 | **Total Size** | 163.8 KB |
 

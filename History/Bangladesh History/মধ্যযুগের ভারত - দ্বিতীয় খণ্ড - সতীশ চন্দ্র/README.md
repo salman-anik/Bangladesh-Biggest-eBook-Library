@@ -20,6 +20,7 @@
 | **Author** | রথীন বন্দ্যোপাধ্যায়, সতীশ চন্দ্র, সায়ন দে |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | History/Bangladesh History |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 3.3 MB |
 

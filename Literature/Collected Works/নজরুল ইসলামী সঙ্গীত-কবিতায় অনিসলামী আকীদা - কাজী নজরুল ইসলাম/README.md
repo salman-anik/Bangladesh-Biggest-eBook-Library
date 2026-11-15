@@ -17,6 +17,7 @@
 | **Author** | কাজী নজরুল ইসলাম |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ত-ন |
 | **Formats** | PDF |
 | **Total Size** | 643.4 KB |
 

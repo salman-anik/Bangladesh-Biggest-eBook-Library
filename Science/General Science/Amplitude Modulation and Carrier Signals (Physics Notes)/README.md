@@ -16,6 +16,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | University Physics - Geophysics & 4th Year |
 | **Category** | Science/General Science |
+| **Subfolder** | — |
 | **Formats** | DOCX |
 | **Total Size** | 905.3 KB |
 

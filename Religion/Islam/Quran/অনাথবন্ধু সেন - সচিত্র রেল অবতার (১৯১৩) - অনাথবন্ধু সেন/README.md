@@ -17,6 +17,7 @@
 | **Author** | অনাথবন্ধু সেন |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | অ-ঔ |
 | **Formats** | EPUB |
 | **Total Size** | 9.6 MB |
 

@@ -17,6 +17,7 @@
 | **Author** | Bani Basu |
 | **Publication / Source** | SM-Collection Bangla eBook Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | English (A-F) |
 | **Formats** | PDF |
 | **Total Size** | 6.2 MB |
 

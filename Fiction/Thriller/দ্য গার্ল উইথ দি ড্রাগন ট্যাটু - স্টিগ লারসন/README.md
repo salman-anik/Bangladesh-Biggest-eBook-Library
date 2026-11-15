@@ -20,6 +20,7 @@
 | **Author** | মোহাম্মদ নাজিম উদ্দিন, স্টিগ লারসন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 2.2 MB |
 

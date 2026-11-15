@@ -21,6 +21,7 @@
 | **Author** | অতুল সুর |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 921.6 KB |
 

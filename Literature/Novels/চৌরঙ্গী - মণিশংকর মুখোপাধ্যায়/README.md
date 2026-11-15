@@ -21,6 +21,7 @@
 | **Author** | মণিশংকর মুখোপাধ্যায় |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | চ-ঞ |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 2.6 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | চিন্ময় নাথ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 461.6 KB |
 

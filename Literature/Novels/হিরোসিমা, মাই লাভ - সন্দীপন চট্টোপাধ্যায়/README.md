@@ -20,6 +20,7 @@
 | **Author** | সন্দীপন চট্টোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | য-হ |
 | **Formats** | TEXT, json |
 | **Total Size** | 352.4 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | সুপর্ণা নাথ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | চ-ঞ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 444.7 KB |
 

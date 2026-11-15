@@ -21,6 +21,7 @@
 | **Author** | লীলা মজুমদার |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Children's Literature |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB, TEXT |
 | **Total Size** | 1.8 MB |
 

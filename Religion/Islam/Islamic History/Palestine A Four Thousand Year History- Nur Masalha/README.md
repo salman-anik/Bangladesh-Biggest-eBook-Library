@@ -17,6 +17,7 @@
 | **Author** | Nur Masalha |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Islamic History |
+| **Subfolder** | English (N-S) |
 | **Formats** | PDF |
 | **Total Size** | 3.3 MB |
 

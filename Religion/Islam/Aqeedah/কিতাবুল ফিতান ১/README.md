@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Aqeedah |
+| **Subfolder** | ক-ঙ |
 | **Formats** | PDF |
 | **Total Size** | 491.8 KB |
 

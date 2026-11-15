@@ -21,6 +21,7 @@
 | **Author** | অতুল সুর |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Philosophy/Eastern Philosophy |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 1.1 MB |
 

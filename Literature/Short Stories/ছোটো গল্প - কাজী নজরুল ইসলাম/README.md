@@ -20,6 +20,7 @@
 | **Author** | কাজী নজরুল ইসলাম |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | কাজী নজরুল ইসলাম |
 | **Formats** | TEXT, json |
 | **Total Size** | 54.3 KB |
 

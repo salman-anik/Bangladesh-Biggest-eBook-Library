@@ -20,6 +20,7 @@
 | **Author** | সমরেশ মজুমদার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | সমরেশ মজুমদার |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 253.0 KB |
 

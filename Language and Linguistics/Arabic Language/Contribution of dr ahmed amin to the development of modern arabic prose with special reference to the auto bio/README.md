@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Language and Linguistics/Arabic Language |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 4.5 MB |
 

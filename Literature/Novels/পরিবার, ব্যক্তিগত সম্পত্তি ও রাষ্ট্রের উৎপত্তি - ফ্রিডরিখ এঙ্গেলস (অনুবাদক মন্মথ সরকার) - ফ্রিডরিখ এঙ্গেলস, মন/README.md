@@ -20,6 +20,7 @@
 | **Author** | ফ্রিডরিখ এঙ্গেলস, মন্মথ সরকার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | প-ব |
 | **Formats** | TEXT, json |
 | **Total Size** | 37.4 KB |
 

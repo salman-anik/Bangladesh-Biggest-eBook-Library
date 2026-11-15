@@ -16,6 +16,7 @@
 | **Author** | section |
 | **Publication / Source** | University Physics - Reactor Physics |
 | **Category** | Science/Physics |
+| **Subfolder** | English (N-S) |
 | **Formats** | DOCX |
 | **Total Size** | 46.1 KB |
 

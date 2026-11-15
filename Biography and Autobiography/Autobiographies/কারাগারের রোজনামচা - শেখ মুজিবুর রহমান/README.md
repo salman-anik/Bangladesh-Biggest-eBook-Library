@@ -20,6 +20,7 @@
 | **Author** | শেখ মুজিবুর রহমান |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Biography and Autobiography/Autobiographies |
+| **Subfolder** | — |
 | **Formats** | TEXT, json |
 | **Total Size** | 1.1 MB |
 

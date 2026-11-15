@@ -17,6 +17,7 @@
 | **Author** | Saifuddin Chowdhury |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | English (A-F) |
 | **Formats** | PDF |
 | **Total Size** | 3.9 MB |
 

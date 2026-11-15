@@ -17,6 +17,7 @@
 | **Author** | দীননাথ দাস চন্দ |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | ত-ন |
 | **Formats** | EPUB |
 | **Total Size** | 91.2 KB |
 

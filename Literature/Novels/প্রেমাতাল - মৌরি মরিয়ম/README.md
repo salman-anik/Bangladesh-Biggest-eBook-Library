@@ -20,6 +20,7 @@
 | **Author** | মৌরি মরিয়ম |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | মৌরি মরিয়ম |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 928.3 KB |
 

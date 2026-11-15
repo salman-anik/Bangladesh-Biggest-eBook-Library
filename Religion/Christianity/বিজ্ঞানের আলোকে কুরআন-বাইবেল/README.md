@@ -17,6 +17,7 @@
 | **Author** | বাইবেল |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Christianity |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 2.0 MB |
 

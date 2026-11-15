@@ -20,6 +20,7 @@
 | **Author** | অচিন্ত্যরূপ রায়, অমিতাভ ঘোষ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ভ-ম |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.9 MB |
 

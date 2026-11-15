@@ -20,6 +20,7 @@
 | **Author** | কাজী আনোয়ার হোসেন |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | কাজী আনোয়ার হোসেন |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 496.2 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | জাকির নায়েক |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Islam/Islamic Lifestyle |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 450.5 KB |
 

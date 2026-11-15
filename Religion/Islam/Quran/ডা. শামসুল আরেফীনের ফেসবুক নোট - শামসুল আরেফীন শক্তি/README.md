@@ -17,6 +17,7 @@
 | **Author** | শামসুল আরেফীন শক্তি |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | ট-ণ |
 | **Formats** | PDF |
 | **Total Size** | 4.8 MB |
 

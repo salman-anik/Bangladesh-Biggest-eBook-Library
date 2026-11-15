@@ -20,6 +20,7 @@
 | **Author** | কাজী শাহনূর হোসেন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | প-ব |
 | **Formats** | TEXT |
 | **Total Size** | 327.5 KB |
 

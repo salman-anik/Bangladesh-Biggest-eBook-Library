@@ -17,6 +17,7 @@
 | **Author** | ইবনু উসাইমীন |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Fiqh |
+| **Subfolder** | অ-ঔ |
 | **Formats** | PDF |
 | **Total Size** | 3.2 MB |
 

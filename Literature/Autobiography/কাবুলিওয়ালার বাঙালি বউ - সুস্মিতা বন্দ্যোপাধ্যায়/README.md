@@ -20,6 +20,7 @@
 | **Author** | সুস্মিতা বন্দ্যোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | TEXT |
 | **Total Size** | 746.3 KB |
 

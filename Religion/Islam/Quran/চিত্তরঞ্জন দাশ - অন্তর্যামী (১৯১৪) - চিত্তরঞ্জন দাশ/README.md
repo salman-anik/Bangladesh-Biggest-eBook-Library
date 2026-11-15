@@ -17,6 +17,7 @@
 | **Author** | চিত্তরঞ্জন দাশ |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | চ-ঞ |
 | **Formats** | EPUB |
 | **Total Size** | 108.3 KB |
 

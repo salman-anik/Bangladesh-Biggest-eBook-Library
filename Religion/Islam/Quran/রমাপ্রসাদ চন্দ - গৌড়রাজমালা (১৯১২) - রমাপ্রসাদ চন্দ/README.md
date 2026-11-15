@@ -17,6 +17,7 @@
 | **Author** | রমাপ্রসাদ চন্দ |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | য-হ |
 | **Formats** | EPUB |
 | **Total Size** | 399.3 KB |
 

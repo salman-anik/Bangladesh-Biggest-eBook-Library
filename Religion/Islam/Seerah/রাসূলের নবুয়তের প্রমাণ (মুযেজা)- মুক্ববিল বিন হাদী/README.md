@@ -17,6 +17,7 @@
 | **Author** | মুক্ববিল বিন হাদী |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Seerah |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 5.8 MB |
 

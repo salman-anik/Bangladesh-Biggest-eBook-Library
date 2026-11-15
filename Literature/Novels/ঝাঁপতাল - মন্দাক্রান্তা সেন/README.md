@@ -20,6 +20,7 @@
 | **Author** | মন্দাক্রান্তা সেন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | চ-ঞ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.0 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | অ্যালেক্স রাদারফোর্ড |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | অ্যালেক্স রাদারফোর্ড |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 705.4 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | মরিয়ম জামিলা |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Religion/Islam/Islamic Lifestyle |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 361.9 KB |
 

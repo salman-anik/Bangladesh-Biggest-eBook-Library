@@ -21,6 +21,7 @@
 | **Author** | তারাশঙ্কর বন্দ্যোপাধ্যায় |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | তারাশঙ্কর বন্দ্যোপাধ্যায় |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 709.9 KB |
 

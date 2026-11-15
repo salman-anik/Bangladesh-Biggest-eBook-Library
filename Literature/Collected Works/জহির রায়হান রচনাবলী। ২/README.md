@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | চ-ঞ |
 | **Formats** | PDF |
 | **Total Size** | 8.8 MB |
 

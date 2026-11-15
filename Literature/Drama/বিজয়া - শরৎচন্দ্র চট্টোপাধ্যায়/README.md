@@ -20,6 +20,7 @@
 | **Author** | শরৎচন্দ্র চট্টোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Drama |
+| **Subfolder** | — |
 | **Formats** | TEXT, json |
 | **Total Size** | 435.1 KB |
 

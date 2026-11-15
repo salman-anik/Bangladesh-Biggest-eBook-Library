@@ -20,6 +20,7 @@
 | **Author** | উৎপলকুমার বসু |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ক-ঙ |
 | **Formats** | TEXT, json |
 | **Total Size** | 71.6 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | ময়ূখ চৌধুরী (প্রসাদ রায়) |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ভ-ম |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 4.4 MB |
 

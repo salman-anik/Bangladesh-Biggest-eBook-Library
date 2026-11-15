@@ -20,6 +20,7 @@
 | **Author** | অদিতি ফাল্গুনী, ভীমরাও রামজি আম্বেদকর |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 195.0 KB |
 

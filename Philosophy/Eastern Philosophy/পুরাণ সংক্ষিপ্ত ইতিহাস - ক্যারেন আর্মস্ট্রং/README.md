@@ -20,6 +20,7 @@
 | **Author** | ক্যারেন আর্মস্ট্রং, সাদেকুল আহসান |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Philosophy/Eastern Philosophy |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 461.2 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | বিভূতিভূষণ বন্দ্যোপাধ্যায় |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 1.5 MB |
 

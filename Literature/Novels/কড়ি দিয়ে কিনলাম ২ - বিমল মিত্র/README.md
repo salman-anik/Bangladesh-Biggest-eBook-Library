@@ -21,6 +21,7 @@
 | **Author** | বিমল মিত্র |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | বিমল মিত্র |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 2.0 MB |
 

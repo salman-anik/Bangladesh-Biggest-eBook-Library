@@ -16,6 +16,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | ইসলামীক বই ৫০০টি+ |
 | **Category** | Religion/Islam/Aqeedah |
+| **Subfolder** | ক-ঙ |
 | **Formats** | DOCX |
 | **Total Size** | 17.8 KB |
 

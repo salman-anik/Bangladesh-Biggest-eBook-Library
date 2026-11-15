@@ -20,6 +20,7 @@
 | **Author** | মোহাম্মদ শাহজামান শুভ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 224.9 KB |
 

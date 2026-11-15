@@ -20,6 +20,7 @@
 | **Author** | মনোজ মিত্র |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Drama |
+| **Subfolder** | — |
 | **Formats** | TEXT, json |
 | **Total Size** | 1.5 MB |
 

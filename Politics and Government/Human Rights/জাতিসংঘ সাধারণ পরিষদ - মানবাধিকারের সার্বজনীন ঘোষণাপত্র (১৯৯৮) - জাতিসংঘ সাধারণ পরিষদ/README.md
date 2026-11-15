@@ -17,6 +17,7 @@
 | **Author** | জাতিসংঘ সাধারণ পরিষদ |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Politics and Government/Human Rights |
+| **Subfolder** | — |
 | **Formats** | EPUB |
 | **Total Size** | 69.6 KB |
 

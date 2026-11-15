@@ -17,6 +17,7 @@
 | **Author** | Atmadeep |
 | **Publication / Source** | Internet Archive Open Library (archive.org) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ক-ঙ |
 | **Formats** | PDF |
 | **Total Size** | 446.9 KB |
 

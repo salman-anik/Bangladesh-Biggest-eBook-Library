@@ -21,6 +21,7 @@
 | **Author** | মৈত্রেয়ী দেবী |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 1.4 MB |
 

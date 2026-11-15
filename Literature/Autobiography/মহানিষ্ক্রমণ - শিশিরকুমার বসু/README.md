@@ -20,6 +20,7 @@
 | **Author** | শিশিরকুমার বসু |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 327.1 KB |
 

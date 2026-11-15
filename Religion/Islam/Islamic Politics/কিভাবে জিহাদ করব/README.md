@@ -16,6 +16,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | ইসলামীক বই ৫০০টি+ |
 | **Category** | Religion/Islam/Islamic Politics |
+| **Subfolder** | — |
 | **Formats** | TXT |
 | **Total Size** | 17.4 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | বিদ্যুৎ মিত্র |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Self Development/Motivation |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 597.5 KB |
 

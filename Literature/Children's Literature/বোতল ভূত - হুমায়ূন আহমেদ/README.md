@@ -21,6 +21,7 @@
 | **Author** | হুমায়ূন আহমেদ |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Children's Literature |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 476.2 KB |
 

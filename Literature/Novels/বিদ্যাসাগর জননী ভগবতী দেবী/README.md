@@ -17,6 +17,7 @@
 | **Author** | বিদ্যাসাগর জননী ভগবতী দেবী.epub |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Literature/Novels |
+| **Subfolder** | প-ব |
 | **Formats** | EPUB |
 | **Total Size** | 221.0 KB |
 

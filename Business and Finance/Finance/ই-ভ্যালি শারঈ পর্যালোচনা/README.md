@@ -17,6 +17,7 @@
 | **Author** | ভ্যালি: শারঈ পর্যালোচনা |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Business and Finance/Finance |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 356.3 KB |
 

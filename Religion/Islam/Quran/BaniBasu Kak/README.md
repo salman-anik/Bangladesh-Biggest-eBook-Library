@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | SM-Collection Bangla eBook Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | English (A-F) |
 | **Formats** | PDF |
 | **Total Size** | 2.4 MB |
 

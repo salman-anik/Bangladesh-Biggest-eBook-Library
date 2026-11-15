@@ -20,6 +20,7 @@
 | **Author** | নসিব পঞ্চম জিহাদী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Islam/Islamic Politics |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 478.6 KB |
 

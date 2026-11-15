@@ -21,6 +21,7 @@
 | **Author** | ঋজু গাঙ্গুলী |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ভ-ম |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 1.2 MB |
 

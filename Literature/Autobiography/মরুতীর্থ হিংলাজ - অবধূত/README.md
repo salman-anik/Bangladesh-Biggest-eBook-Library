@@ -20,6 +20,7 @@
 | **Author** | অবধূত (দুলালচন্দ্র মুখোপাধ্যায়) |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.1 MB |
 

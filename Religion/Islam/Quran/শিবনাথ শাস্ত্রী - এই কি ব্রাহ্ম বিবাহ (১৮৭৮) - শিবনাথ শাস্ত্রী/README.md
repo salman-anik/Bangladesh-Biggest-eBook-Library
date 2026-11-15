@@ -17,6 +17,7 @@
 | **Author** | শিবনাথ শাস্ত্রী |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | য-হ |
 | **Formats** | EPUB |
 | **Total Size** | 83.9 KB |
 

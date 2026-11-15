@@ -20,6 +20,7 @@
 | **Author** | সুকুমার সেন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Literary Criticism |
+| **Subfolder** | — |
 | **Formats** | TEXT, json |
 | **Total Size** | 24.5 KB |
 

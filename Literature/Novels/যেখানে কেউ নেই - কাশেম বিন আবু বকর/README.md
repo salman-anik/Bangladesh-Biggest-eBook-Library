@@ -20,6 +20,7 @@
 | **Author** | কাশেম বিন আবু বকর |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | কাশেম বিন আবু বকর |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 485.2 KB |
 

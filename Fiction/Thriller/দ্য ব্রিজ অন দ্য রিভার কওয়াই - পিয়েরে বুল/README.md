@@ -20,6 +20,7 @@
 | **Author** | পিয়েরে বুল |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | ত-ন |
 | **Formats** | TEXT |
 | **Total Size** | 435.0 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | রাজশেখর বসু (পরশুরাম) |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 2.7 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | সমরেশ মজুমদার |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | সমরেশ মজুমদার |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 2.4 MB |
 

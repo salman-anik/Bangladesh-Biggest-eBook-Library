@@ -20,6 +20,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Islam/Seerah |
+| **Subfolder** | — |
 | **Formats** | TEXT, json |
 | **Total Size** | 505.8 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | জসীম উদ্দীন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Poetry |
+| **Subfolder** | জসীম উদ্দীন |
 | **Formats** | TEXT, json |
 | **Total Size** | 44.7 KB |
 

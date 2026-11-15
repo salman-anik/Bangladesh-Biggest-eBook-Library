@@ -20,6 +20,7 @@
 | **Author** | ভাস, মুরারিমোহন সেন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Drama |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 467.7 KB |
 

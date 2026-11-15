@@ -20,6 +20,7 @@
 | **Author** | মোহাম্মদ আবদুর রশীদ, স্যামুয়েল পি. হান্টিংটন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 2.2 MB |
 

@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | ইসলামী বই |
 | **Category** | Religion/Islam/Islamic Economics |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 933.1 KB |
 

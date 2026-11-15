@@ -20,6 +20,7 @@
 | **Author** | দেবীপ্রসাদ চট্টোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Philosophy/Eastern Philosophy |
+| **Subfolder** | — |
 | **Formats** | TEXT |
 | **Total Size** | 35.7 KB |
 

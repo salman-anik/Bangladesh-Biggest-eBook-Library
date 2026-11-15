@@ -20,6 +20,7 @@
 | **Author** | যোগীন্দ্রনাথ সরকার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Children's Literature |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 957.3 KB |
 

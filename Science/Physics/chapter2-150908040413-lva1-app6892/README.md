@@ -17,6 +17,7 @@
 | **Author** | app6892 |
 | **Publication / Source** | University Physics - Geophysics & 4th Year |
 | **Category** | Science/Physics |
+| **Subfolder** | English (A-F) |
 | **Formats** | PDF |
 | **Total Size** | 5.0 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | মণ্টু চক্রবর্তী |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Fiction/Horror |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 389.5 KB |
 

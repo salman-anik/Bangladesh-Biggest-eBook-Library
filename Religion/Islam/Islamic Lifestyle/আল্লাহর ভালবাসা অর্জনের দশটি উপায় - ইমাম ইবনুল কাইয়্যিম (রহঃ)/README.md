@@ -17,6 +17,7 @@
 | **Author** | ইমাম ইবনুল কাইয়্যিম (রহঃ) |
 | **Publication / Source** | Internet Archive Open Library (archive.org) |
 | **Category** | Religion/Islam/Islamic Lifestyle |
+| **Subfolder** | অ-ঔ |
 | **Formats** | PDF |
 | **Total Size** | 156.5 KB |
 

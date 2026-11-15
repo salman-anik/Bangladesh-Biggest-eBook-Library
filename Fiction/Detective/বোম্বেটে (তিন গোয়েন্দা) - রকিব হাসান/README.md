@@ -20,6 +20,7 @@
 | **Author** | রকিব হাসান |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Fiction/Detective |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 348.8 KB |
 

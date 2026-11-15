@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Tafsir |
+| **Subfolder** | অ-ঔ |
 | **Formats** | PDF |
 | **Total Size** | 1.0 MB |
 

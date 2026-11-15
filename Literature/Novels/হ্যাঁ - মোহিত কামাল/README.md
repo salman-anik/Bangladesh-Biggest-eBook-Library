@@ -20,6 +20,7 @@
 | **Author** | মোহিত কামাল |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | য-হ |
 | **Formats** | TEXT, json |
 | **Total Size** | 497.0 KB |
 

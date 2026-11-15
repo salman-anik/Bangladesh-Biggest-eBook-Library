@@ -20,6 +20,7 @@
 | **Author** | অন্নদাশঙ্কর রায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | প-ব |
 | **Formats** | TEXT, json |
 | **Total Size** | 477.3 KB |
 

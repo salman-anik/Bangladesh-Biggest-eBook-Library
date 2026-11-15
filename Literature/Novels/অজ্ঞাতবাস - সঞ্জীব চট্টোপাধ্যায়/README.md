@@ -20,6 +20,7 @@
 | **Author** | সঞ্জীব চট্টোপাধ্যায় |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | সঞ্জীব চট্টোপাধ্যায় |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 530.7 KB |
 

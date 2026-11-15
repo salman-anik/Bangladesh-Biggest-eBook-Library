@@ -20,6 +20,7 @@
 | **Author** | রমেশচন্দ্র সেন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | চ-ঞ |
 | **Formats** | TEXT, json |
 | **Total Size** | 21.7 KB |
 

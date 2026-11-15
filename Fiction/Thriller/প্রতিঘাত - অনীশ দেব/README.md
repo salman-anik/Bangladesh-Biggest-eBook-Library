@@ -21,6 +21,7 @@
 | **Author** | অনীশ দেব |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 1.5 MB |
 

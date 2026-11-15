@@ -21,6 +21,7 @@
 | **Author** | প্রচেত গুপ্ত |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | প্রচেত গুপ্ত |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 1.1 MB |
 

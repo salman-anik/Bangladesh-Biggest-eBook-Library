@@ -20,6 +20,7 @@
 | **Author** | মানবেন্দ্র পাল |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Horror |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 769.5 KB |
 

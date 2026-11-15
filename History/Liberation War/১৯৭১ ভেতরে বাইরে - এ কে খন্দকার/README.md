@@ -21,6 +21,7 @@
 | **Author** | এ কে খন্দকার |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | History/Liberation War |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 1.7 MB |
 

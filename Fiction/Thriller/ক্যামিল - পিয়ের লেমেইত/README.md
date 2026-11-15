@@ -20,6 +20,7 @@
 | **Author** | আফনান নিবিড়, পিয়ের লেমেইত |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.1 MB |
 

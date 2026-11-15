@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | বই বিতরন (১৭/০৮/২০২২) |
 | **Category** | Religion/Islam/Dua and Prayer |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 2.9 MB |
 

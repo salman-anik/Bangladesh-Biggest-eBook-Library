@@ -20,6 +20,7 @@
 | **Author** | জে. কে. রাওলিং |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | জে. কে. রাওলিং |
 | **Formats** | TEXT, json |
 | **Total Size** | 3.0 MB |
 

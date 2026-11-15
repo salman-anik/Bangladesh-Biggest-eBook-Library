@@ -17,6 +17,7 @@
 | **Author** | শরৎচন্দ্র চট্টোপাধ্যায় |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | History/Language Movement |
+| **Subfolder** | — |
 | **Formats** | EPUB |
 | **Total Size** | 131.0 KB |
 

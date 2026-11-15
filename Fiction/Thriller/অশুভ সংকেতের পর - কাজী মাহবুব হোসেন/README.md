@@ -20,6 +20,7 @@
 | **Author** | কাজী মাহবুব হোসেন, জোসেফ হাওয়ার্ড |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 522.5 KB |
 

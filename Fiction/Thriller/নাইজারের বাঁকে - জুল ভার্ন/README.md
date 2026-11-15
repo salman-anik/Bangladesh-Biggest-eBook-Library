@@ -21,6 +21,7 @@
 | **Author** | জুল ভার্ন |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | জুল ভার্ন |
 | **Formats** | COVER, EPUB, TEXT |
 | **Total Size** | 802.3 KB |
 

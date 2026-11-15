@@ -17,6 +17,7 @@
 | **Author** | মির্জা গালিব |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Islamic History |
+| **Subfolder** | ত-ন |
 | **Formats** | PDF |
 | **Total Size** | 9.8 MB |
 

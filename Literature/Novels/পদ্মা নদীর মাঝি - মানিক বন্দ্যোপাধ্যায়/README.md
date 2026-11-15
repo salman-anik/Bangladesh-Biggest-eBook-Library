@@ -20,6 +20,7 @@
 | **Author** | মানিক বন্দ্যোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | মানিক বন্দ্যোপাধ্যায় |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 584.0 KB |
 

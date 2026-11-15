@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Aqeedah |
+| **Subfolder** | অ-ঔ |
 | **Formats** | PDF |
 | **Total Size** | 152.7 KB |
 

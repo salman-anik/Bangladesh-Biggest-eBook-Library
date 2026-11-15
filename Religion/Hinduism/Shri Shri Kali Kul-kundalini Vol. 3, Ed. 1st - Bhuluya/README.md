@@ -17,6 +17,7 @@
 | **Author** | Bhuluya |
 | **Publication / Source** | Internet Archive Open Library (archive.org) |
 | **Category** | Religion/Hinduism |
+| **Subfolder** | English (N-S) |
 | **Formats** | PDF |
 | **Total Size** | 10.6 MB |
 

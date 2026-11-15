@@ -20,6 +20,7 @@
 | **Author** | ওয়াসিকা নুযহাত |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ওয়াসিকা নুযহাত |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 80.1 KB |
 

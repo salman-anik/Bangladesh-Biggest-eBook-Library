@@ -17,6 +17,7 @@
 | **Author** | সৈয়দ ইসমাইল হোসেন সিরাজী |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Islamic History |
+| **Subfolder** | য-হ |
 | **Formats** | EPUB |
 | **Total Size** | 140.7 KB |
 

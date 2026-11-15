@@ -17,6 +17,7 @@
 | **Author** | স্বামী বিবেকানন্দ |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Hinduism |
+| **Subfolder** | য-হ |
 | **Formats** | EPUB |
 | **Total Size** | 145.7 KB |
 

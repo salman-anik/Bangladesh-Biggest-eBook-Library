@@ -21,6 +21,7 @@
 | **Author** | শহীদুল্লা কায়সার |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 2.5 MB |
 

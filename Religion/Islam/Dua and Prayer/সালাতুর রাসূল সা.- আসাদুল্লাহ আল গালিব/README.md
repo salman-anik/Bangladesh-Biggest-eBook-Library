@@ -17,6 +17,7 @@
 | **Author** | আসাদুল্লাহ আল গালিব |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Dua and Prayer |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 2.8 MB |
 

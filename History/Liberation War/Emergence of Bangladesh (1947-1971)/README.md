@@ -16,6 +16,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | University Physics - 1st Year |
 | **Category** | History/Liberation War |
+| **Subfolder** | — |
 | **Formats** | DOCX |
 | **Total Size** | 158.3 KB |
 

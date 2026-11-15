@@ -20,6 +20,7 @@
 | **Author** | অন্নদাশঙ্কর রায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 37.6 KB |
 

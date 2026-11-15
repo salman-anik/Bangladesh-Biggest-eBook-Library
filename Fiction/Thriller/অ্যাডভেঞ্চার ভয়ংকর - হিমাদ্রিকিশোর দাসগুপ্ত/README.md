@@ -20,6 +20,7 @@
 | **Author** | হিমাদ্রিকিশোর দাসগুপ্ত |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 376.9 KB |
 

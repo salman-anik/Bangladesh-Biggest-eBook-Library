@@ -20,6 +20,7 @@
 | **Author** | স্মরণজিৎ চক্রবর্তী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | স্মরণজিৎ চক্রবর্তী |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 438.8 KB |
 

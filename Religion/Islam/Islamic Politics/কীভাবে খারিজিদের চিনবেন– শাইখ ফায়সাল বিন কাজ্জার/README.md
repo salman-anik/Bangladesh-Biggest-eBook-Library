@@ -17,6 +17,7 @@
 | **Author** | শাইখ ফায়সাল বিন কাজ্জার |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Islamic Politics |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 369.3 KB |
 

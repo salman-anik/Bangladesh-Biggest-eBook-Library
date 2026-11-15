@@ -21,6 +21,7 @@
 | **Author** | আহমদ ছফা |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Novels |
+| **Subfolder** | আহমদ ছফা |
 | **Formats** | COVER, PDF, TEXT, json |
 | **Total Size** | 5.4 MB |
 

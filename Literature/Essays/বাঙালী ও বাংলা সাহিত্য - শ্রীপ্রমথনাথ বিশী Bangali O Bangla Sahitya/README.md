@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Essays |
+| **Subfolder** | প-ব |
 | **Formats** | PDF |
 | **Total Size** | 2.7 MB |
 

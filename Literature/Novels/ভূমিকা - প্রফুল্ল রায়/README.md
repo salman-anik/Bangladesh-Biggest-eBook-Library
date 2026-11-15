@@ -20,6 +20,7 @@
 | **Author** | প্রফুল্ল রায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | প্রফুল্ল রায় |
 | **Formats** | TEXT, json |
 | **Total Size** | 416.2 KB |
 

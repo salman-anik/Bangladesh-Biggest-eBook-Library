@@ -17,6 +17,7 @@
 | **Author** | সৈয়দ আবুল আ'লা মওদুদী |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | English (G-M) |
 | **Formats** | PDF |
 | **Total Size** | 2.9 MB |
 

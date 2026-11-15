@@ -21,6 +21,7 @@
 | **Author** | হুমায়ূন আহমেদ |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Children's Literature |
+| **Subfolder** | — |
 | **Formats** | PDF, TEXT, json |
 | **Total Size** | 12.3 MB |
 

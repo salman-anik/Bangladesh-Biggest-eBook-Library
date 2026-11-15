@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | ইসলামী বই |
 | **Category** | Fiction/Detective |
+| **Subfolder** | অ-ঔ |
 | **Formats** | PDF |
 | **Total Size** | 3.0 MB |
 

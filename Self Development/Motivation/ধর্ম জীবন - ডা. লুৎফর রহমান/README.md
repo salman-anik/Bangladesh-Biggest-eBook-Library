@@ -20,6 +20,7 @@
 | **Author** | লুৎফর রহমান |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Self Development/Motivation |
+| **Subfolder** | — |
 | **Formats** | TEXT, json |
 | **Total Size** | 173.5 KB |
 

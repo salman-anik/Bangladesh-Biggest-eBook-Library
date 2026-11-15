@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | বই বিতরন (১৭/০৮/২০২২) |
 | **Category** | Religion/Islam/Hadith |
+| **Subfolder** | English (A-F) |
 | **Formats** | PDF |
 | **Total Size** | 25.6 MB |
 

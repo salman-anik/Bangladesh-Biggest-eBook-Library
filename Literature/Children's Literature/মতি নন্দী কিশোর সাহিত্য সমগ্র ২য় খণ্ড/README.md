@@ -20,6 +20,7 @@
 | **Author** | মতি নন্দী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Children's Literature |
+| **Subfolder** | — |
 | **Formats** | TEXT, json |
 | **Total Size** | 4.9 MB |
 

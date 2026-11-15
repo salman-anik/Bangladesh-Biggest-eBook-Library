@@ -20,6 +20,7 @@
 | **Author** | শিবরাম চক্রবর্তী |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 694.1 KB |
 

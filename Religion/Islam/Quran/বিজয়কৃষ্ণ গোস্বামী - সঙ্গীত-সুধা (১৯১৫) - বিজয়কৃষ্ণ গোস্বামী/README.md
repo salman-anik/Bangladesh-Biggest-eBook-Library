@@ -17,6 +17,7 @@
 | **Author** | বিজয়কৃষ্ণ গোস্বামী |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | প-ব |
 | **Formats** | EPUB |
 | **Total Size** | 191.1 KB |
 

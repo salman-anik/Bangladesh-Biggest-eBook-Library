@@ -21,6 +21,7 @@
 | **Author** | নৃসিংহপ্রসাদ ভাদুড়ী |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | নৃসিংহপ্রসাদ ভাদুড়ী |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 1.4 MB |
 

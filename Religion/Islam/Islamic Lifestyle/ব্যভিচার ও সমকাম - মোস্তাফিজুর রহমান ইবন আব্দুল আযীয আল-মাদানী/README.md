@@ -17,6 +17,7 @@
 | **Author** | মোস্তাফিজুর রহমান ইবন আব্দুল আযীয আল-মাদানী |
 | **Publication / Source** | Internet Archive Open Library (archive.org) |
 | **Category** | Religion/Islam/Islamic Lifestyle |
+| **Subfolder** | প-ব |
 | **Formats** | PDF |
 | **Total Size** | 653.0 KB |
 

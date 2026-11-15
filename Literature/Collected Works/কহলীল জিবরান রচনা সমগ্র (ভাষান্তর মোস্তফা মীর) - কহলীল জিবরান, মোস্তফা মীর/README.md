@@ -20,6 +20,7 @@
 | **Author** | কহলীল জিবরান, মোস্তফা মীর |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 3.4 MB |
 

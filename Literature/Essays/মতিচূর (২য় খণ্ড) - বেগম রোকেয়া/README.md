@@ -20,6 +20,7 @@
 | **Author** | বেগম রোকেয়া সাখাওয়াত হোসেন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | ভ-ম |
 | **Formats** | TEXT, json |
 | **Total Size** | 319.8 KB |
 

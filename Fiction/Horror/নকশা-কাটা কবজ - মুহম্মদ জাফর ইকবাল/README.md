@@ -20,6 +20,7 @@
 | **Author** | মুহম্মদ জাফর ইকবাল |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Horror |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 465.5 KB |
 

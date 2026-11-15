@@ -21,6 +21,7 @@
 | **Author** | সরদার ফজলুল করিম |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 2.3 MB |
 

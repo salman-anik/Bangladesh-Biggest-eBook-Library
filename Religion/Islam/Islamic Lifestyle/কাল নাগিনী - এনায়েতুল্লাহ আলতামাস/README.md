@@ -20,6 +20,7 @@
 | **Author** | এনায়েতুল্লাহ আলতামাস, মুজাহিদ হুসাইন ইয়াসীন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Islam/Islamic Lifestyle |
+| **Subfolder** | ক-ঙ |
 | **Formats** | TEXT, json |
 | **Total Size** | 1.3 MB |
 

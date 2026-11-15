@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | ইসলামীক বই ৫০০টি+ |
 | **Category** | Religion/Islam/Islamic Economics |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 123.5 KB |
 

@@ -21,6 +21,7 @@
 | **Author** | মুনীর চৌধুরী |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Drama |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 507.2 KB |
 

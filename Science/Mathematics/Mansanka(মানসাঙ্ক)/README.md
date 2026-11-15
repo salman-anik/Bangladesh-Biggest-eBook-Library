@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | ইসলামী বই |
 | **Category** | Science/Mathematics |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 34.5 MB |
 

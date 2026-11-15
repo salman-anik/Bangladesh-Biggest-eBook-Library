@@ -20,6 +20,7 @@
 | **Author** | সুমনকুমার দাশ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Arts and Culture/Music |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 151.2 KB |
 

@@ -21,6 +21,7 @@
 | **Author** | মোহাম্মদ নাজিম উদ্দিন |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | মোহাম্মদ নাজিম উদ্দিন |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 2.0 MB |
 

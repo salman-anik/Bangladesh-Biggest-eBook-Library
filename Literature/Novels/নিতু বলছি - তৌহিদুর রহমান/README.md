@@ -20,6 +20,7 @@
 | **Author** | তৌহিদুর রহমান |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 304.7 KB |
 

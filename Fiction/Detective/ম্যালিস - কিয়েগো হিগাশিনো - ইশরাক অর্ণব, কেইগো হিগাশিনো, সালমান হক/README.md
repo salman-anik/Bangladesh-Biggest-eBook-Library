@@ -20,6 +20,7 @@
 | **Author** | ইশরাক অর্ণব, কেইগো হিগাশিনো, সালমান হক |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Detective |
+| **Subfolder** | ভ-ম |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 909.9 KB |
 

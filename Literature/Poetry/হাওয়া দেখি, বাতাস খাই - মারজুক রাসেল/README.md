@@ -20,6 +20,7 @@
 | **Author** | মারজুক রাসেল |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Poetry |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 80.0 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | হরিশংকর জলদাস |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 757.8 KB |
 

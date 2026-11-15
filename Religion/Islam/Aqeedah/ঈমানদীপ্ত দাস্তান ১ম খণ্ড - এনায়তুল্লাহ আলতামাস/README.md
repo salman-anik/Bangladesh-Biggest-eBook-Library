@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | বই বিতরন (১৭/০৮/২০২২) |
 | **Category** | Religion/Islam/Aqeedah |
+| **Subfolder** | অ-ঔ |
 | **Formats** | PDF |
 | **Total Size** | 14.2 MB |
 

@@ -17,6 +17,7 @@
 | **Author** | Energy Theorem |
 | **Publication / Source** | University Physics - Mechanics |
 | **Category** | Science/Physics |
+| **Subfolder** | English (T-Z) |
 | **Formats** | PDF |
 | **Total Size** | 107.4 KB |
 

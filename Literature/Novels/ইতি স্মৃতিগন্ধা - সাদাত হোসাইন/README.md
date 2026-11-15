@@ -20,6 +20,7 @@
 | **Author** | সাদাত হোসাইন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | সাদাত হোসাইন |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.6 MB |
 

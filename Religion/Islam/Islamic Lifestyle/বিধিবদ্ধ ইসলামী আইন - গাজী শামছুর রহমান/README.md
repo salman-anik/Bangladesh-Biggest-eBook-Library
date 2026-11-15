@@ -20,6 +20,7 @@
 | **Author** | গাজী শামছুর রহমান |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Islam/Islamic Lifestyle |
+| **Subfolder** | প-ব |
 | **Formats** | TEXT, json |
 | **Total Size** | 5.2 MB |
 

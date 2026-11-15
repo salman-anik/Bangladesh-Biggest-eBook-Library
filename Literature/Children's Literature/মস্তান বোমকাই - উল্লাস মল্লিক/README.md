@@ -21,6 +21,7 @@
 | **Author** | উল্লাস মল্লিক |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Children's Literature |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 700.4 KB |
 

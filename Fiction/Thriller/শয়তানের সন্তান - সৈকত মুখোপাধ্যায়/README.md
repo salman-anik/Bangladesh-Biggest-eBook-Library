@@ -20,6 +20,7 @@
 | **Author** | সৈকত মুখোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | সৈকত মুখোপাধ্যায় |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.5 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | হিমাদ্রিকিশোর দাশগুপ্ত |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | হিমাদ্রিকিশোর দাশগুপ্ত |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 983.6 KB |
 

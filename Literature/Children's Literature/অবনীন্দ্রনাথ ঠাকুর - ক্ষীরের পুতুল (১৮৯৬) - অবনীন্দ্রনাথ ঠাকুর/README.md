@@ -17,6 +17,7 @@
 | **Author** | অবনীন্দ্রনাথ ঠাকুর |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Literature/Children's Literature |
+| **Subfolder** | — |
 | **Formats** | EPUB |
 | **Total Size** | 310.8 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | হরিশংকর জলদাস |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | হরিশংকর জলদাস |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.5 MB |
 

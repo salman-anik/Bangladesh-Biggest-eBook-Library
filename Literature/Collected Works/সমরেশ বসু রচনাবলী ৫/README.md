@@ -20,6 +20,7 @@
 | **Author** | সমরেশ বসু |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 62.5 KB |
 

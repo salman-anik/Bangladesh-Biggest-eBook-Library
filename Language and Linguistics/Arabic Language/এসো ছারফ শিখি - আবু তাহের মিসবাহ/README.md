@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | ইসলামীক বই ৫০০টি+ |
 | **Category** | Language and Linguistics/Arabic Language |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 3.1 MB |
 

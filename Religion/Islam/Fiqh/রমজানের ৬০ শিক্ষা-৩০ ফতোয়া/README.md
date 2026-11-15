@@ -17,6 +17,7 @@
 | **Author** | ৩০ ফতোয়া |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Fiqh |
+| **Subfolder** | য-হ |
 | **Formats** | PDF |
 | **Total Size** | 8.3 MB |
 

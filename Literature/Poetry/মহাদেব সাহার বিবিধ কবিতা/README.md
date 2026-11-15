@@ -20,6 +20,7 @@
 | **Author** | মহাদেব সাহা |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Poetry |
+| **Subfolder** | ভ-ম |
 | **Formats** | TEXT, json |
 | **Total Size** | 15.0 KB |
 

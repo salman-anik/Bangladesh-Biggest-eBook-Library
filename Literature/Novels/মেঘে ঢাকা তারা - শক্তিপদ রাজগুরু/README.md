@@ -20,6 +20,7 @@
 | **Author** | শক্তিপদ রাজগুরু |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | শক্তিপদ রাজগুরু |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 674.5 KB |
 

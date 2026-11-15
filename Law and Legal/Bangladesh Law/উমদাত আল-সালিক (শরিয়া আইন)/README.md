@@ -20,6 +20,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Law and Legal/Bangladesh Law |
+| **Subfolder** | — |
 | **Formats** | TEXT, json |
 | **Total Size** | 34.4 KB |
 

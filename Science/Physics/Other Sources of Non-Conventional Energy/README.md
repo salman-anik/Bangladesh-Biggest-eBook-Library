@@ -16,5 +16,6 @@
 | **Author** | Conventional Energy |
 | **Publication / Source** | University Physics - Geophysics & 4th Year |
 | **Category** | Science/Physics |
+| **Subfolder** | English (N-S) |
 | **Formats** | — |
 | **Total Size** | — |

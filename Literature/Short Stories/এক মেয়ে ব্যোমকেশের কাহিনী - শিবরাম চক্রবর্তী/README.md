@@ -20,6 +20,7 @@
 | **Author** | শিবরাম চক্রবর্তী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | শিবরাম চক্রবর্তী |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 582.3 KB |
 

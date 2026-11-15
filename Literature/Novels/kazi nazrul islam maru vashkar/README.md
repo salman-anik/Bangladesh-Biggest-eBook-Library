@@ -17,6 +17,7 @@
 | **Author** | কাজী নজরুল ইসলাম |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Literature/Novels |
+| **Subfolder** | কাজী নজরুল ইসলাম |
 | **Formats** | PDF |
 | **Total Size** | 2.0 MB |
 

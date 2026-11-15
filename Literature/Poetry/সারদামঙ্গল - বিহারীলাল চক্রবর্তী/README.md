@@ -20,6 +20,7 @@
 | **Author** | বিহারীলাল চক্রবর্তী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Poetry |
+| **Subfolder** | য-হ |
 | **Formats** | TEXT, json |
 | **Total Size** | 74.3 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | সুভাষচন্দ্র বসু |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | চ-ঞ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.4 MB |
 

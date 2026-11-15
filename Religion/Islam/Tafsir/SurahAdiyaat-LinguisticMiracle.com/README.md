@@ -17,6 +17,7 @@
 | **Author** | LinguisticMiracle.com |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Tafsir |
+| **Subfolder** | LinguisticMiracle.com |
 | **Formats** | PDF |
 | **Total Size** | 136.1 KB |
 

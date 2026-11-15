@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | University Physics - 1st Year |
 | **Category** | Science/Physics |
+| **Subfolder** | English (N-S) |
 | **Formats** | PDF |
 | **Total Size** | 1.3 MB |
 

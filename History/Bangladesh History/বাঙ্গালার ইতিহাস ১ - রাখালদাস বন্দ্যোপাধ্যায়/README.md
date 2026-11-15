@@ -20,6 +20,7 @@
 | **Author** | রাখালদাস বন্দ্যোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | History/Bangladesh History |
+| **Subfolder** | — |
 | **Formats** | TEXT, json |
 | **Total Size** | 82.1 KB |
 

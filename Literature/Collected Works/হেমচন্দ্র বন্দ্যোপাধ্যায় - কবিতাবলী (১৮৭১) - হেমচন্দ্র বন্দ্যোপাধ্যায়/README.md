@@ -17,6 +17,7 @@
 | **Author** | হেমচন্দ্র বন্দ্যোপাধ্যায় |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | য-হ |
 | **Formats** | EPUB |
 | **Total Size** | 144.2 KB |
 

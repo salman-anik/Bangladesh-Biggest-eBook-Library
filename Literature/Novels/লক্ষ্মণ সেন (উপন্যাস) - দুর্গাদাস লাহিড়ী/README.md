@@ -20,6 +20,7 @@
 | **Author** | দুর্গাদাস লাহিড়ী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | য-হ |
 | **Formats** | TEXT |
 | **Total Size** | 6.3 KB |
 

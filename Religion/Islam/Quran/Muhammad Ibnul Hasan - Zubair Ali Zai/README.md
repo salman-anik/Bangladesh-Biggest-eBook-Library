@@ -17,6 +17,7 @@
 | **Author** | Zubair Ali Zai |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | English (G-M) |
 | **Formats** | PDF |
 | **Total Size** | 321.5 KB |
 

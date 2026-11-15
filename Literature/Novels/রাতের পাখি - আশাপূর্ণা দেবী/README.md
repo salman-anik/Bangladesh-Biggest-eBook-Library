@@ -21,6 +21,7 @@
 | **Author** | আশাপূর্ণা দেবী |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | আশাপূর্ণা দেবী |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 840.6 KB |
 

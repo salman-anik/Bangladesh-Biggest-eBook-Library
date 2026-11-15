@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Law and Legal/Bangladesh Law |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 194.6 KB |
 

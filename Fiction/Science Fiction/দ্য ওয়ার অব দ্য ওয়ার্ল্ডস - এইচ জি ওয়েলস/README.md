@@ -20,6 +20,7 @@
 | **Author** | অদ্রীশ বর্ধন, এইচ জি ওয়েলস |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Science Fiction |
+| **Subfolder** | — |
 | **Formats** | TEXT, json |
 | **Total Size** | 144.8 KB |
 

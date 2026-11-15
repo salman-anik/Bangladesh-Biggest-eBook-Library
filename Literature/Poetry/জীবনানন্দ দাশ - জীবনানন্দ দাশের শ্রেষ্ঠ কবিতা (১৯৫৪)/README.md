@@ -17,6 +17,7 @@
 | **Author** | জীবনানন্দ দাশ |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Literature/Poetry |
+| **Subfolder** | জীবনানন্দ দাশ |
 | **Formats** | EPUB |
 | **Total Size** | 229.9 KB |
 

@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | Internet Archive Open Library (archive.org) |
 | **Category** | History/Ancient History |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 2.0 MB |
 

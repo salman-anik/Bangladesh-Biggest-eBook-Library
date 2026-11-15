@@ -20,6 +20,7 @@
 | **Author** | মিগেল দে সের্ভান্তেস |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ট-ণ |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 181.9 KB |
 

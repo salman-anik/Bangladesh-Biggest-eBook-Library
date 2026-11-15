@@ -20,6 +20,7 @@
 | **Author** | জাহানারা ইমাম |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Children's Literature |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 214.8 KB |
 

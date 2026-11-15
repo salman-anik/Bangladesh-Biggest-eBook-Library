@@ -20,6 +20,7 @@
 | **Author** | মোতাহের হোসেন চৌধুরী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | ভ-ম |
 | **Formats** | TEXT, json |
 | **Total Size** | 506.8 KB |
 

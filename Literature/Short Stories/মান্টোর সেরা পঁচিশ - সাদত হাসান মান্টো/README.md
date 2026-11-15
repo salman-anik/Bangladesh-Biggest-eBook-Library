@@ -20,6 +20,7 @@
 | **Author** | সঞ্চারী মুখোপাধ্যায়, সাদত হাসান মান্টো |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | ভ-ম |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 283.0 KB |
 

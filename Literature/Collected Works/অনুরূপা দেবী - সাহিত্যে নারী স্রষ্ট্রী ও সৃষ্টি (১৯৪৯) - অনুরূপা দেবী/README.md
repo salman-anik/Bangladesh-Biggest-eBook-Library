@@ -17,6 +17,7 @@
 | **Author** | অনুরূপা দেবী |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | অ-ঔ |
 | **Formats** | EPUB |
 | **Total Size** | 414.6 KB |
 

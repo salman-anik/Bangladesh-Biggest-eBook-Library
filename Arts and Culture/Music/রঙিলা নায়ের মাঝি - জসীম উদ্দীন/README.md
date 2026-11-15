@@ -20,6 +20,7 @@
 | **Author** | জসীম উদ্দীন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Arts and Culture/Music |
+| **Subfolder** | — |
 | **Formats** | TEXT, json |
 | **Total Size** | 20.1 KB |
 

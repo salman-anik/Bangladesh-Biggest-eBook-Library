@@ -16,6 +16,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | University Physics - Reactor Physics |
 | **Category** | Science/Physics |
+| **Subfolder** | English (G-M) |
 | **Formats** | DOCX |
 | **Total Size** | 21.9 KB |
 

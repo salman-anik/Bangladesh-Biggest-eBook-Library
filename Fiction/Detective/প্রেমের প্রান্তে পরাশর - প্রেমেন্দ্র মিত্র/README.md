@@ -20,6 +20,7 @@
 | **Author** | প্রেমেন্দ্র মিত্র |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Detective |
+| **Subfolder** | প-ব |
 | **Formats** | TEXT, json |
 | **Total Size** | 204.2 KB |
 

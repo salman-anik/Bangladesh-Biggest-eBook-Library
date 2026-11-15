@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | University Physics - Geophysics & 4th Year |
 | **Category** | Science/Physics |
+| **Subfolder** | English (G-M) |
 | **Formats** | PDF |
 | **Total Size** | 1.9 MB |
 

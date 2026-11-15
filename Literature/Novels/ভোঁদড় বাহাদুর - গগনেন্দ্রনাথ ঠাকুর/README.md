@@ -20,6 +20,7 @@
 | **Author** | গগনেন্দ্রনাথ ঠাকুর |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ভ-ম |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 258.8 KB |
 

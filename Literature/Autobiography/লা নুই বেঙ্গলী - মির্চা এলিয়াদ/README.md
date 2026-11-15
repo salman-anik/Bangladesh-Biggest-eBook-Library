@@ -20,6 +20,7 @@
 | **Author** | মির্চা এলিয়াদ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 788.8 KB |
 

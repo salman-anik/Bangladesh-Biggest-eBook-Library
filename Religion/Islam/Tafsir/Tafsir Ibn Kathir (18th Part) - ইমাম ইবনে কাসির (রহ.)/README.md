@@ -17,6 +17,7 @@
 | **Author** | ইমাম ইবনে কাসির (রহ.) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Tafsir |
+| **Subfolder** | ইমাম ইবনে কাসির (রহ.) |
 | **Formats** | PDF |
 | **Total Size** | 11.2 MB |
 

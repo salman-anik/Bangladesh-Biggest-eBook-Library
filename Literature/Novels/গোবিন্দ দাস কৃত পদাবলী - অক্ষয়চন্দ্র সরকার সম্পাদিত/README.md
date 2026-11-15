@@ -20,6 +20,7 @@
 | **Author** | অক্ষয়চন্দ্র সরকার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 54.9 KB |
 

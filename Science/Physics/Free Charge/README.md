@@ -16,6 +16,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | University Physics - Classical Electrodynamics I |
 | **Category** | Science/Physics |
+| **Subfolder** | English (A-F) |
 | **Formats** | DOCX |
 | **Total Size** | 14.6 KB |
 

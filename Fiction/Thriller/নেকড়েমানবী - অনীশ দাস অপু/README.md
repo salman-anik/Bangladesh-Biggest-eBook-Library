@@ -20,6 +20,7 @@
 | **Author** | অনীশ দাস অপু |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | অনীশ দাস অপু |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 705.6 KB |
 

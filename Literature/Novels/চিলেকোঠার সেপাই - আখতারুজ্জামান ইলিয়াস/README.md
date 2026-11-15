@@ -21,6 +21,7 @@
 | **Author** | আখতারুজ্জামান ইলিয়াস |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Novels |
+| **Subfolder** | চ-ঞ |
 | **Formats** | COVER, PDF, TEXT, json |
 | **Total Size** | 18.0 MB |
 

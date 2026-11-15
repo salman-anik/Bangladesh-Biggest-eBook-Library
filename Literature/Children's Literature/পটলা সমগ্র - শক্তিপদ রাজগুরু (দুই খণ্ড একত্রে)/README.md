@@ -20,6 +20,7 @@
 | **Author** | শক্তিপদ রাজগুরু |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Children's Literature |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 2.5 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | ইশতিয়াক খান, সুসান ওয়াইজ বাউয়ার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | History/Bangladesh History |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.1 MB |
 

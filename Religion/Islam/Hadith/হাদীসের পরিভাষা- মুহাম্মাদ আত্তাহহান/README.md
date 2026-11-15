@@ -17,6 +17,7 @@
 | **Author** | মুহাম্মাদ আত্তাহহান |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Hadith |
+| **Subfolder** | য-হ |
 | **Formats** | PDF |
 | **Total Size** | 7.1 MB |
 

@@ -21,6 +21,7 @@
 | **Author** | বার্ট্রান্ড রাসেল |
 | **Publication / Source** | ইসলামী বই |
 | **Category** | Literature/Essays |
+| **Subfolder** | বার্ট্রান্ড রাসেল |
 | **Formats** | PDF, TEXT, json |
 | **Total Size** | 2.1 MB |
 

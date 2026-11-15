@@ -21,6 +21,7 @@
 | **Author** | মুহম্মদ জাফর ইকবাল |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Fiction/Science Fiction |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 661.2 KB |
 

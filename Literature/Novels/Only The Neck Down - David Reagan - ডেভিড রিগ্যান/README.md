@@ -20,6 +20,7 @@
 | **Author** | ডেভিড রিগ্যান |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | English (N-S) |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 29.2 KB |
 

@@ -18,6 +18,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Poetry |
+| **Subfolder** | অ-ঔ |
 | **Formats** | EPUB, TEXT, json |
 | **Total Size** | 210.7 KB |
 

@@ -17,6 +17,7 @@
 | **Author** | নটীর পূজা |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | অ-ঔ |
 | **Formats** | EPUB |
 | **Total Size** | 1.3 MB |
 

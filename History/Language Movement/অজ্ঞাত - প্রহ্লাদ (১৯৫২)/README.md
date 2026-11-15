@@ -17,6 +17,7 @@
 | **Author** | প্রহ্লাদ |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | History/Language Movement |
+| **Subfolder** | — |
 | **Formats** | EPUB |
 | **Total Size** | 68.1 KB |
 

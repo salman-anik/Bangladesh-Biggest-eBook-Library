@@ -17,6 +17,7 @@
 | **Author** | পি এ নাজির |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Islamic History |
+| **Subfolder** | য-হ |
 | **Formats** | PDF |
 | **Total Size** | 7.9 MB |
 

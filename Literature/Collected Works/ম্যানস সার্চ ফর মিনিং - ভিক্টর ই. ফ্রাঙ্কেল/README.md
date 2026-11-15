@@ -20,6 +20,7 @@
 | **Author** | ভিক্টর ই. ফ্রাঙ্কেল, রাকিবুল রকি |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ভ-ম |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 664.3 KB |
 

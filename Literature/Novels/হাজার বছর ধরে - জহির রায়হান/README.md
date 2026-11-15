@@ -21,6 +21,7 @@
 | **Author** | জহির রায়হান |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | জহির রায়হান |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 664.1 KB |
 

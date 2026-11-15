@@ -20,6 +20,7 @@
 | **Author** | লিও টলস্টয় |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 1.1 MB |
 

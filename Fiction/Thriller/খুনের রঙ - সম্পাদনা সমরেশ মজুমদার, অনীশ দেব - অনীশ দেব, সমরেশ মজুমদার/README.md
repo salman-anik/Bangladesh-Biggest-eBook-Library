@@ -20,6 +20,7 @@
 | **Author** | অনীশ দেব, সমরেশ মজুমদার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 958.3 KB |
 

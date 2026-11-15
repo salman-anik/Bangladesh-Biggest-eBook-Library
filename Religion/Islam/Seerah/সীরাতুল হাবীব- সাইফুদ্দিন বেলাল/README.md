@@ -17,6 +17,7 @@
 | **Author** | সাইফুদ্দিন বেলাল |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Seerah |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 915.5 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | বদরুদ্দীন উমর |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | History/Language Movement |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 586.1 KB |
 

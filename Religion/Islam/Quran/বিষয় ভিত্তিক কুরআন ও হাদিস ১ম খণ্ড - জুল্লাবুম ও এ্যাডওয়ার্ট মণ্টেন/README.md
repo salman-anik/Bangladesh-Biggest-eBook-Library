@@ -17,6 +17,7 @@
 | **Author** | জুল্লাবুম ও এ্যাডওয়ার্ট মণ্টেন |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | প-ব |
 | **Formats** | PDF |
 | **Total Size** | 29.0 MB |
 

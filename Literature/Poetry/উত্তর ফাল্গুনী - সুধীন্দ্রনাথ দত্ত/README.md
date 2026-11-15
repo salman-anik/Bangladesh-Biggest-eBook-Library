@@ -20,6 +20,7 @@
 | **Author** | সুধীন্দ্রনাথ দত্ত |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Poetry |
+| **Subfolder** | সুধীন্দ্রনাথ দত্ত |
 | **Formats** | TEXT, json |
 | **Total Size** | 11.3 KB |
 

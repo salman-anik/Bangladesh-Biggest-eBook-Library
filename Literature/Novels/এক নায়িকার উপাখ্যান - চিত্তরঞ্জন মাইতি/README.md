@@ -20,6 +20,7 @@
 | **Author** | চিত্তরঞ্জন মাইতি |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | অ-ঔ |
 | **Formats** | TEXT, json |
 | **Total Size** | 617.1 KB |
 

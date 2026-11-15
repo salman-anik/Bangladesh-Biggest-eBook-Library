@@ -21,6 +21,7 @@
 | **Author** | অনির্বাণ বন্দ্যোপাধ্যায় |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Essays |
+| **Subfolder** | অনির্বাণ বন্দ্যোপাধ্যায় |
 | **Formats** | COVER, PDF, TEXT, json |
 | **Total Size** | 28.9 MB |
 

@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Fiction/Horror |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 4.0 MB |
 

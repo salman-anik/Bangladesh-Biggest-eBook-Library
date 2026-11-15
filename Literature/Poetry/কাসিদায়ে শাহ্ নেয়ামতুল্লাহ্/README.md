@@ -19,6 +19,7 @@
 | **Author** | শাহ্ নেয়ামতুল্লাহ্ |
 | **Publication / Source** | Scanned Book Edition |
 | **Category** | Literature/Poetry |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER |
 | **Total Size** | 22.1 MB |
 

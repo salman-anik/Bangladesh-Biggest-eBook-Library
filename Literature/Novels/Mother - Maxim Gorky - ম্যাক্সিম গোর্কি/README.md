@@ -20,6 +20,7 @@
 | **Author** | ম্যাক্সিম গোর্কি |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | English (G-M) |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 775.1 KB |
 

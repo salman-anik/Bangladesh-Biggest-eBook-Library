@@ -20,6 +20,7 @@
 | **Author** | শামসুদ্দীন আবুল কালাম |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 876.6 KB |
 

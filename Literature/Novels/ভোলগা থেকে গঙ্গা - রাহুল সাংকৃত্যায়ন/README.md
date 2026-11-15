@@ -20,6 +20,7 @@
 | **Author** | রাহুল সাংকৃত্যায়ন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ভ-ম |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.4 MB |
 

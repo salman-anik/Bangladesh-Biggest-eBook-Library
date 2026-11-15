@@ -20,6 +20,7 @@
 | **Author** | অভিজিৎ রায়, রায়হান আবীর |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Philosophy/Eastern Philosophy |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.6 MB |
 

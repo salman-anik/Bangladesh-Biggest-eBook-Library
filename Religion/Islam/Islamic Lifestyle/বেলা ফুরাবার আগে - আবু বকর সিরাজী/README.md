@@ -20,6 +20,7 @@
 | **Author** | আবু বকর সিরাজী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Islam/Islamic Lifestyle |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 597.0 KB |
 

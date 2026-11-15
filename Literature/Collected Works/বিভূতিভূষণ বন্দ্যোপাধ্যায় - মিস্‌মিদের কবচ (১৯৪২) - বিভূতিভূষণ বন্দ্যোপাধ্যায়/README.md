@@ -17,6 +17,7 @@
 | **Author** | বিভূতিভূষণ বন্দ্যোপাধ্যায় |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | প-ব |
 | **Formats** | EPUB |
 | **Total Size** | 262.9 KB |
 

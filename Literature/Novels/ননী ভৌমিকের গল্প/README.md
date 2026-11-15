@@ -20,6 +20,7 @@
 | **Author** | ননী ভৌমিক |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 202.6 KB |
 

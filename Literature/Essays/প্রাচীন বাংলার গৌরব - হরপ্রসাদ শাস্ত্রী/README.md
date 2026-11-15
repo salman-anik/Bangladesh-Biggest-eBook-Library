@@ -20,6 +20,7 @@
 | **Author** | হরপ্রসাদ শাস্ত্রী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | প-ব |
 | **Formats** | TEXT, json |
 | **Total Size** | 149.1 KB |
 

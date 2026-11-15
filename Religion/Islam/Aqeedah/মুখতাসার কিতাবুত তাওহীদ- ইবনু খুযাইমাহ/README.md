@@ -17,6 +17,7 @@
 | **Author** | ইবনু খুযাইমাহ |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Aqeedah |
+| **Subfolder** | ভ-ম |
 | **Formats** | PDF |
 | **Total Size** | 5.9 MB |
 

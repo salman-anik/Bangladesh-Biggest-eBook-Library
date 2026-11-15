@@ -20,6 +20,7 @@
 | **Author** | সত্যজিৎ রায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Detective |
+| **Subfolder** | সত্যজিৎ রায় |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 711.7 KB |
 

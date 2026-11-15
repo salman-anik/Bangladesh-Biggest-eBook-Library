@@ -21,6 +21,7 @@
 | **Author** | বুদ্ধদেব গুহ |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | বুদ্ধদেব গুহ |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 801.1 KB |
 

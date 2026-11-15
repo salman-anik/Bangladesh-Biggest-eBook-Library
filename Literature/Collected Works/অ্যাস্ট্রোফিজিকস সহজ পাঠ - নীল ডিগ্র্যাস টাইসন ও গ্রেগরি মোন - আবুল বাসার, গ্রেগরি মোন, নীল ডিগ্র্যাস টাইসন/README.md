@@ -20,6 +20,7 @@
 | **Author** | আবুল বাসার, গ্রেগরি মোন, নীল ডিগ্র্যাস টাইসন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 542.0 KB |
 

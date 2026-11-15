@@ -17,6 +17,7 @@
 | **Author** | ড. যাকারীয়া |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Tafsir |
+| **Subfolder** | 0-9 & Other |
 | **Formats** | PDF |
 | **Total Size** | 53.7 MB |
 

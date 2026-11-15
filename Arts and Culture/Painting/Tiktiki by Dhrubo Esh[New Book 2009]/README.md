@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Arts and Culture/Painting |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 3.3 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | নির্মলেন্দু গুণ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | History/Liberation War |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 394.9 KB |
 

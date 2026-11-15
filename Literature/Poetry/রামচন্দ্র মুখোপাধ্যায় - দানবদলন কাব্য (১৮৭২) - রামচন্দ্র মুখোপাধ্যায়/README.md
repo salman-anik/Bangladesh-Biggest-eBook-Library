@@ -17,6 +17,7 @@
 | **Author** | রামচন্দ্র মুখোপাধ্যায় |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Literature/Poetry |
+| **Subfolder** | য-হ |
 | **Formats** | EPUB |
 | **Total Size** | 142.4 KB |
 

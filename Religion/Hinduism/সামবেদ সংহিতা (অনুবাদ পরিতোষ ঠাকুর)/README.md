@@ -20,6 +20,7 @@
 | **Author** | পরিতোষ ঠাকুর |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Hinduism |
+| **Subfolder** | য-হ |
 | **Formats** | TEXT, json |
 | **Total Size** | 428.5 KB |
 

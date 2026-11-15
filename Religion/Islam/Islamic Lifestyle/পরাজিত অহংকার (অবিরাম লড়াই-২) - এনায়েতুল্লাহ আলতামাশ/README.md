@@ -20,6 +20,7 @@
 | **Author** | এনায়েতুল্লাহ আলতামাশ, নাসীম আরাফাত |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Islam/Islamic Lifestyle |
+| **Subfolder** | প-ব |
 | **Formats** | TEXT, json |
 | **Total Size** | 756.9 KB |
 

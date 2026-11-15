@@ -21,6 +21,7 @@
 | **Author** | আশাপূর্ণা দেবী |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Novels |
+| **Subfolder** | আশাপূর্ণা দেবী |
 | **Formats** | PDF, TEXT, json |
 | **Total Size** | 5.6 MB |
 

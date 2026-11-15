@@ -21,6 +21,7 @@
 | **Author** | চার্লস ডিকেন্স |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 552.7 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | আশুতোষ মুখোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | আশুতোষ মুখোপাধ্যায় |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 680.0 KB |
 

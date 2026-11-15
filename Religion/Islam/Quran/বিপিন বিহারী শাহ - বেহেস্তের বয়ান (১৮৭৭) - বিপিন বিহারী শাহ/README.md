@@ -17,6 +17,7 @@
 | **Author** | বিপিন বিহারী শাহ |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | প-ব |
 | **Formats** | EPUB |
 | **Total Size** | 106.7 KB |
 

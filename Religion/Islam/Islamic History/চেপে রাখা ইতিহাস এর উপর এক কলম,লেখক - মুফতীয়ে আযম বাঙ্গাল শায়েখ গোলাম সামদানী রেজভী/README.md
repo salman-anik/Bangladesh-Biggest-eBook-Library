@@ -17,6 +17,7 @@
 | **Author** | মুফতীয়ে আযম বাঙ্গাল শায়েখ গোলাম সামদানী রেজভী |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Religion/Islam/Islamic History |
+| **Subfolder** | চ-ঞ |
 | **Formats** | PDF |
 | **Total Size** | 8.9 MB |
 

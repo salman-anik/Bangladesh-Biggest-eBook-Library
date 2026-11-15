@@ -20,6 +20,7 @@
 | **Author** | ক্রিস্টোফার সি ডয়েল, মাসুম আহমেদ আদি |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ত-ন |
 | **Formats** | TEXT, json |
 | **Total Size** | 1.2 MB |
 

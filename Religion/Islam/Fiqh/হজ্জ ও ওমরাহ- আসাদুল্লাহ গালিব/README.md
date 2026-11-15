@@ -17,6 +17,7 @@
 | **Author** | আসাদুল্লাহ গালিব |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Fiqh |
+| **Subfolder** | য-হ |
 | **Formats** | PDF |
 | **Total Size** | 853.0 KB |
 

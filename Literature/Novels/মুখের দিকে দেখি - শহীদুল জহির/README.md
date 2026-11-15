@@ -20,6 +20,7 @@
 | **Author** | শহীদুল জহির |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ভ-ম |
 | **Formats** | TEXT, json |
 | **Total Size** | 694.9 KB |
 

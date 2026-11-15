@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | ইসলামী বই |
 | **Category** | Religion/Islam/Islamic History |
+| **Subfolder** | ক-ঙ |
 | **Formats** | PDF |
 | **Total Size** | 807.7 KB |
 

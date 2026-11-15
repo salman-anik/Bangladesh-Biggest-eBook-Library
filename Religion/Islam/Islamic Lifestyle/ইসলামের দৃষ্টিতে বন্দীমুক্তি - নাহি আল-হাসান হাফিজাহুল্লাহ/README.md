@@ -17,6 +17,7 @@
 | **Author** | নাহি আল-হাসান হাফিজাহুল্লাহ |
 | **Publication / Source** | Internet Archive Open Library (archive.org) |
 | **Category** | Religion/Islam/Islamic Lifestyle |
+| **Subfolder** | অ-ঔ |
 | **Formats** | PDF |
 | **Total Size** | 1.1 MB |
 

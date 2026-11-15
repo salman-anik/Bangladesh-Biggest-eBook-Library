@@ -20,6 +20,7 @@
 | **Author** | লস্টমডেস্টি |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ভ-ম |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 457.8 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | বিনোদ ঘোষাল |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 767.4 KB |
 

@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Medicine and Health/Public Health |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 49.0 MB |
 

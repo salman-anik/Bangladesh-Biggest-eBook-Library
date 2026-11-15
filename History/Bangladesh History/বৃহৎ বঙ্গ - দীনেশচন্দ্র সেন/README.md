@@ -20,6 +20,7 @@
 | **Author** | দীনেশচন্দ্র সেন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | History/Bangladesh History |
+| **Subfolder** | — |
 | **Formats** | TEXT, json |
 | **Total Size** | 88.7 KB |
 

@@ -17,6 +17,7 @@
 | **Author** | সঞ্জীবচন্দ্র চট্টোপাধ্যায় |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | য-হ |
 | **Formats** | EPUB |
 | **Total Size** | 116.5 KB |
 

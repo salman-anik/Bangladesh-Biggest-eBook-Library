@@ -21,6 +21,7 @@
 | **Author** | সৈয়দ ওয়ালীউল্লাহ |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | চ-ঞ |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 863.2 KB |
 

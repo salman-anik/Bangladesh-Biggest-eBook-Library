@@ -17,6 +17,7 @@
 | **Author** | বর্জনীয় |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Aqeedah |
+| **Subfolder** | ভ-ম |
 | **Formats** | PDF |
 | **Total Size** | 1.7 MB |
 

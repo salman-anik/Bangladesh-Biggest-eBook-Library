@@ -20,6 +20,7 @@
 | **Author** | শীর্ষেন্দু মুখােপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 827.4 KB |
 

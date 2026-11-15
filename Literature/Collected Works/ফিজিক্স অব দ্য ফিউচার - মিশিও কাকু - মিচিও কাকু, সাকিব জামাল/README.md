@@ -20,6 +20,7 @@
 | **Author** | মিচিও কাকু, সাকিব জামাল |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 631.6 KB |
 

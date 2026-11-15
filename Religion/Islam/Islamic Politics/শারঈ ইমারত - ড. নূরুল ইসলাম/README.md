@@ -17,6 +17,7 @@
 | **Author** | ড. নূরুল ইসলাম |
 | **Publication / Source** | Internet Archive Open Library (archive.org) |
 | **Category** | Religion/Islam/Islamic Politics |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 535.9 KB |
 

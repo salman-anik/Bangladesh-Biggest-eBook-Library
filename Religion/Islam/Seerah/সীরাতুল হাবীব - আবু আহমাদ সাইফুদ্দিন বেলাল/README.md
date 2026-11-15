@@ -17,6 +17,7 @@
 | **Author** | আবু আহমাদ সাইফুদ্দিন বেলাল |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Seerah |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 915.3 KB |
 

@@ -16,6 +16,7 @@
 | **Author** | 1. Modes of a step |
 | **Publication / Source** | University Physics - Lasers and Fiber Optics |
 | **Category** | Science/Physics |
+| **Subfolder** | 0-9 & Other |
 | **Formats** | DOCX |
 | **Total Size** | 401.7 KB |
 

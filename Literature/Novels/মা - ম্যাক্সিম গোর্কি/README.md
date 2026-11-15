@@ -20,6 +20,7 @@
 | **Author** | ম্যাক্সিম গোর্কি |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ভ-ম |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 427.3 KB |
 

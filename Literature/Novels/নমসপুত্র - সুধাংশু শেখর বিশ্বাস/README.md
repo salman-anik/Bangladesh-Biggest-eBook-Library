@@ -20,6 +20,7 @@
 | **Author** | সুধাংশু শেখর বিশ্বাস |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 841.9 KB |
 

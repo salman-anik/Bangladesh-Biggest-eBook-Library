@@ -20,6 +20,7 @@
 | **Author** | সুভাষ মুখোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Poetry |
+| **Subfolder** | প-ব |
 | **Formats** | TEXT |
 | **Total Size** | 3.0 KB |
 

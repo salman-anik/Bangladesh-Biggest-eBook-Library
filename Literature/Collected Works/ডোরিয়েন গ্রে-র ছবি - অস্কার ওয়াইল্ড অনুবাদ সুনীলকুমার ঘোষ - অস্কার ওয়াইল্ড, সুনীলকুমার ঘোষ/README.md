@@ -20,6 +20,7 @@
 | **Author** | অস্কার ওয়াইল্ড, সুনীলকুমার ঘোষ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ট-ণ |
 | **Formats** | TEXT, json |
 | **Total Size** | 1.1 MB |
 

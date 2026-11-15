@@ -20,6 +20,7 @@
 | **Author** | বুদ্ধদেব বসু |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | প-ব |
 | **Formats** | TEXT, json |
 | **Total Size** | 37.7 KB |
 

@@ -17,6 +17,7 @@
 | **Author** | er_tafsir_Qurtubi |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Tafsir |
+| **Subfolder** | English (A-F) |
 | **Formats** | PDF |
 | **Total Size** | 1.0 MB |
 

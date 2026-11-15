@@ -17,6 +17,7 @@
 | **Author** | ভূপেন্দ্রচন্দ্র চক্রবর্তী |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | ভ-ম |
 | **Formats** | EPUB |
 | **Total Size** | 2.0 MB |
 

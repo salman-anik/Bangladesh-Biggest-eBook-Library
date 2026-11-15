@@ -17,6 +17,7 @@
 | **Author** | conservative Force |
 | **Publication / Source** | University Physics - Mechanics |
 | **Category** | Science/Physics |
+| **Subfolder** | English (A-F) |
 | **Formats** | PDF |
 | **Total Size** | 50.0 KB |
 

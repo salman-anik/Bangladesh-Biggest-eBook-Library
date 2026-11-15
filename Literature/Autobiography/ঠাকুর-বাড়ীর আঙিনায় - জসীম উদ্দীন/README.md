@@ -21,6 +21,7 @@
 | **Author** | জসীম উদ্দীন |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | PDF, TEXT, json |
 | **Total Size** | 6.8 MB |
 

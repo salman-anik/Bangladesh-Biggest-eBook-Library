@@ -17,6 +17,7 @@
 | **Author** | আল মুনাজ্জিদ |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Fiqh |
+| **Subfolder** | য-হ |
 | **Formats** | PDF |
 | **Total Size** | 2.0 MB |
 

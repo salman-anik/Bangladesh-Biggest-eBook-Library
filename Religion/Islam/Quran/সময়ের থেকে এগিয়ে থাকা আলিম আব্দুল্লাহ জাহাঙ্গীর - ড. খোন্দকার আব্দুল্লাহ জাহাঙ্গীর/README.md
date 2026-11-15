@@ -17,6 +17,7 @@
 | **Author** | ড. খোন্দকার আব্দুল্লাহ জাহাঙ্গীর |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | য-হ |
 | **Formats** | PDF |
 | **Total Size** | 897.7 KB |
 

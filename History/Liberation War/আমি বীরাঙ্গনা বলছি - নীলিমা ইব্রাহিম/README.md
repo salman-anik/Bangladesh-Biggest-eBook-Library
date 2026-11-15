@@ -20,6 +20,7 @@
 | **Author** | নীলিমা ইব্রাহিম |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | History/Liberation War |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 835.8 KB |
 

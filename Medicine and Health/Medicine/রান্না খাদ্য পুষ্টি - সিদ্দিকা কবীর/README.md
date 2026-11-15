@@ -20,6 +20,7 @@
 | **Author** | সিদ্দিকা কবীর |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Medicine and Health/Medicine |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 202.9 KB |
 

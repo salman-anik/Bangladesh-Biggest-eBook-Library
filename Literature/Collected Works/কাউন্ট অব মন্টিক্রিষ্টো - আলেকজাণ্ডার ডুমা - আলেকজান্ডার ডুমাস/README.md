@@ -20,6 +20,7 @@
 | **Author** | আলেকজান্ডার ডুমাস |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ক-ঙ |
 | **Formats** | TEXT, json |
 | **Total Size** | 399.0 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | খন্দকার স্বনন শাহরিয়ার |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ভ-ম |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 458.8 KB |
 

@@ -17,6 +17,7 @@
 | **Author** | গিরিশচন্দ্র ঘোষ |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | ক-ঙ |
 | **Formats** | EPUB |
 | **Total Size** | 131.6 KB |
 

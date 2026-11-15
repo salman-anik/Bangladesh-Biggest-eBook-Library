@@ -20,6 +20,7 @@
 | **Author** | ইসমাইল আরমান |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | য-হ |
 | **Formats** | TEXT, json |
 | **Total Size** | 506.1 KB |
 

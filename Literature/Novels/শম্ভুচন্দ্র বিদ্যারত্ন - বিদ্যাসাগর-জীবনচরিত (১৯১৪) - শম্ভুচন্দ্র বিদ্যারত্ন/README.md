@@ -17,6 +17,7 @@
 | **Author** | শম্ভুচন্দ্র বিদ্যারত্ন |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Literature/Novels |
+| **Subfolder** | য-হ |
 | **Formats** | EPUB |
 | **Total Size** | 287.0 KB |
 

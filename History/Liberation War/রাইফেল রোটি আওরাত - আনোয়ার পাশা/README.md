@@ -21,6 +21,7 @@
 | **Author** | আনোয়ার পাশা |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | History/Liberation War |
+| **Subfolder** | — |
 | **Formats** | COVER, PDF, TEXT, json |
 | **Total Size** | 17.8 MB |
 

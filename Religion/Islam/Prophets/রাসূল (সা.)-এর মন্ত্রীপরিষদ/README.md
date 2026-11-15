@@ -17,6 +17,7 @@
 | **Author** | এর মন্ত্রীপরিষদ |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Prophets |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 4.6 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | অদ্রীশ বর্ধন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 505.1 KB |
 

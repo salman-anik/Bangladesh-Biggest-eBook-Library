@@ -21,6 +21,7 @@
 | **Author** | অনীশ দেব |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Fiction/Detective |
+| **Subfolder** | অনীশ দেব |
 | **Formats** | COVER, PDF, TEXT, json |
 | **Total Size** | 2.4 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | সুকুমারী ভট্টাচার্য |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | সুকুমারী ভট্টাচার্য |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 249.1 KB |
 

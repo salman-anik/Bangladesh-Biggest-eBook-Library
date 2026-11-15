@@ -21,6 +21,7 @@
 | **Author** | হুমায়ূন আহমেদ |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Fiction/Horror |
+| **Subfolder** | — |
 | **Formats** | PDF, TEXT |
 | **Total Size** | 9.2 MB |
 

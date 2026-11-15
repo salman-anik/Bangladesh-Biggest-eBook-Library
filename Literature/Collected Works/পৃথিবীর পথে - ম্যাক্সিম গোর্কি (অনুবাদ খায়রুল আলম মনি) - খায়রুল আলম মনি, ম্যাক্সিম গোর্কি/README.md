@@ -20,6 +20,7 @@
 | **Author** | খায়রুল আলম মনি, ম্যাক্সিম গোর্কি |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | প-ব |
 | **Formats** | TEXT, json |
 | **Total Size** | 93.6 KB |
 

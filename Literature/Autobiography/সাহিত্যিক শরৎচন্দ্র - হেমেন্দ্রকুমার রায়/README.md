@@ -20,6 +20,7 @@
 | **Author** | হেমেন্দ্রকুমার রায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 318.0 KB |
 

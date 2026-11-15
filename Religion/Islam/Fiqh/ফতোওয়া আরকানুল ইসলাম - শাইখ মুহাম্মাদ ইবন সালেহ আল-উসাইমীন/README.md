@@ -17,6 +17,7 @@
 | **Author** | শাইখ মুহাম্মাদ ইবন সালেহ আল-উসাইমীন |
 | **Publication / Source** | Internet Archive Open Library (archive.org) |
 | **Category** | Religion/Islam/Fiqh |
+| **Subfolder** | প-ব |
 | **Formats** | PDF |
 | **Total Size** | 4.1 MB |
 

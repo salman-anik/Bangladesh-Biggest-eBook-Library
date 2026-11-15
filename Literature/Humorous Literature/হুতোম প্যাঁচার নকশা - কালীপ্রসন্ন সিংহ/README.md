@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Humorous Literature |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 6.1 MB |
 

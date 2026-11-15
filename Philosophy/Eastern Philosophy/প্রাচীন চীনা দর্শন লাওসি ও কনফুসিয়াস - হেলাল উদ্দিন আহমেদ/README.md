@@ -20,6 +20,7 @@
 | **Author** | কনফুসিয়াস, হেলাল উদ্দিন আহমেদ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Philosophy/Eastern Philosophy |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 317.5 KB |
 

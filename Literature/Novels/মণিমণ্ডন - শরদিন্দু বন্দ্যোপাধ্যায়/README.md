@@ -20,6 +20,7 @@
 | **Author** | শরদিন্দু বন্দ্যোপাধ্যায় |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | শরদিন্দু বন্দ্যোপাধ্যায় |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 236.0 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | শ্রীপারাবত (প্রবীর কুমার গোস্বামী) |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | শ্রীপারাবত (প্রবীর কুমার গোস্বামী) |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 813.1 KB |
 

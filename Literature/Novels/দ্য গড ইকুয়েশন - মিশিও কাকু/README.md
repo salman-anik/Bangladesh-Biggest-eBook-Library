@@ -20,6 +20,7 @@
 | **Author** | মিশিও কাকু |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 364.2 KB |
 

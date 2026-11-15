@@ -17,6 +17,7 @@
 | **Author** | আহসান হাবীব (Ahsan Habib) |
 | **Publication / Source** | SM-Collection Bangla eBook Archive |
 | **Category** | Literature/Poetry |
+| **Subfolder** | English (A-F) |
 | **Formats** | PDF |
 | **Total Size** | 83.7 KB |
 

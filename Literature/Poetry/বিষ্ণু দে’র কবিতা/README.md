@@ -20,6 +20,7 @@
 | **Author** | বিষ্ণু দে |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Poetry |
+| **Subfolder** | প-ব |
 | **Formats** | TEXT, json |
 | **Total Size** | 24.1 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | জেমস রোলিন্স, সাঈম শামস |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | প-ব |
 | **Formats** | TEXT, json |
 | **Total Size** | 1.9 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | জ্যোতিরিন্দ্র নন্দী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 2.0 MB |
 

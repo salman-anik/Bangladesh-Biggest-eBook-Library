@@ -17,6 +17,7 @@
 | **Author** | মণীন্দ্রনাথ সিংহ |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | ভ-ম |
 | **Formats** | EPUB |
 | **Total Size** | 104.4 KB |
 

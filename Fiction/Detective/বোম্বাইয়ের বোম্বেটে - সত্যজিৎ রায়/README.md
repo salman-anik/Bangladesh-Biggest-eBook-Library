@@ -21,6 +21,7 @@
 | **Author** | সত্যজিৎ রায় |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Fiction/Detective |
+| **Subfolder** | সত্যজিৎ রায় |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 1.8 MB |
 

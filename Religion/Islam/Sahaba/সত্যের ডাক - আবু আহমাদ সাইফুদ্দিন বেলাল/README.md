@@ -17,6 +17,7 @@
 | **Author** | আবু আহমাদ সাইফুদ্দিন বেলাল |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Religion/Islam/Sahaba |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 280.1 KB |
 

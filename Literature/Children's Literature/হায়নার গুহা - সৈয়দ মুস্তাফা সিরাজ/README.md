@@ -20,6 +20,7 @@
 | **Author** | সৈয়দ মুস্তাফা সিরাজ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Children's Literature |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 256.5 KB |
 

@@ -17,6 +17,7 @@
 | **Author** | রমেশচন্দ্র দত্ত |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | য-হ |
 | **Formats** | EPUB |
 | **Total Size** | 1.0 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | জর্জ অরওয়েল |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | 0-9 & Other |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 563.5 KB |
 

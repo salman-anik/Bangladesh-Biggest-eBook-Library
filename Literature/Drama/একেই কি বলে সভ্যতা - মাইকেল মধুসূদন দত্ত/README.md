@@ -20,6 +20,7 @@
 | **Author** | মাইকেল মধুসূদন দত্ত |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Drama |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 94.2 KB |
 

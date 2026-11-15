@@ -20,6 +20,7 @@
 | **Author** | পৃথ্বীরাজ সেন, সিডনি সেলডন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 13.0 MB |
 

@@ -21,6 +21,7 @@
 | **Author** | সরদার ফজলুল করিম |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Philosophy/Eastern Philosophy |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 3.0 MB |
 

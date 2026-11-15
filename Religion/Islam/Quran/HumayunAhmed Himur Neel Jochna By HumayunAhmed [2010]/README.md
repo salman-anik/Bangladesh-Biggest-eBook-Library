@@ -17,6 +17,7 @@
 | **Author** | HumayunAhmed |
 | **Publication / Source** | SM-Collection Bangla eBook Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | English (G-M) |
 | **Formats** | PDF |
 | **Total Size** | 4.6 MB |
 

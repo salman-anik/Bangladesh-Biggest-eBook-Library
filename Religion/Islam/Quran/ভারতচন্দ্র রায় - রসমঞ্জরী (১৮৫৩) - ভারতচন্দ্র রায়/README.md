@@ -17,6 +17,7 @@
 | **Author** | ভারতচন্দ্র রায় |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | ভ-ম |
 | **Formats** | EPUB |
 | **Total Size** | 86.5 KB |
 

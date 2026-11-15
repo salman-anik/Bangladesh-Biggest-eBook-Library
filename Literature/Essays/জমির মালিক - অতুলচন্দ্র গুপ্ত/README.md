@@ -20,6 +20,7 @@
 | **Author** | অতুলচন্দ্র গুপ্ত |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | চ-ঞ |
 | **Formats** | TEXT, json |
 | **Total Size** | 79.2 KB |
 

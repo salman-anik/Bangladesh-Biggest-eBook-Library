@@ -17,6 +17,7 @@
 | **Author** | translation |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Language and Linguistics/Bengali Language |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 352.8 KB |
 

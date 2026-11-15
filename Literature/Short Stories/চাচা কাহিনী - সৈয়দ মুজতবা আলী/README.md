@@ -20,6 +20,7 @@
 | **Author** | সৈয়দ মুজতবা আলী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | চ-ঞ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 564.8 KB |
 

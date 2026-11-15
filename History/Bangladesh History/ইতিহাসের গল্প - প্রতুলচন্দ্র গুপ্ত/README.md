@@ -20,6 +20,7 @@
 | **Author** | প্রতুলচন্দ্র গুপ্ত |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | History/Bangladesh History |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 395.4 KB |
 

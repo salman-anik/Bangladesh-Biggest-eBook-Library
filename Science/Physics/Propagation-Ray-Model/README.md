@@ -16,6 +16,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | University Physics - Lasers and Fiber Optics |
 | **Category** | Science/Physics |
+| **Subfolder** | English (N-S) |
 | **Formats** | DOC |
 | **Total Size** | 357.0 KB |
 

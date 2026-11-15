@@ -20,6 +20,7 @@
 | **Author** | শরৎচন্দ্র চট্টোপাধ্যায় |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | শরৎচন্দ্র চট্টোপাধ্যায় |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 794.0 KB |
 

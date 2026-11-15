@@ -21,6 +21,7 @@
 | **Author** | বিমল মুখার্জি |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Travel Writing |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 2.6 MB |
 

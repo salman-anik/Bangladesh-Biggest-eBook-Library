@@ -20,6 +20,7 @@
 | **Author** | জেমস হ্যাডলি চেজ |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | জেমস হ্যাডলি চেজ |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 379.6 KB |
 

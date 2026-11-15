@@ -17,6 +17,7 @@
 | **Author** | মুহাম্মদ বিন জামীল যাইনু |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | য-হ |
 | **Formats** | PDF |
 | **Total Size** | 3.6 MB |
 

@@ -17,6 +17,7 @@
 | **Author** | the History of Arabic Science 2 |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Science/General Science |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 5.7 MB |
 

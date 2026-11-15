@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Religion/Hinduism |
+| **Subfolder** | English (N-S) |
 | **Formats** | PDF |
 | **Total Size** | 95.6 KB |
 

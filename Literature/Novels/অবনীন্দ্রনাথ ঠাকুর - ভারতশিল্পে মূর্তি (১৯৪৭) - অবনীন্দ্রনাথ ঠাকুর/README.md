@@ -17,6 +17,7 @@
 | **Author** | অবনীন্দ্রনাথ ঠাকুর |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Literature/Novels |
+| **Subfolder** | অবনীন্দ্রনাথ ঠাকুর |
 | **Formats** | EPUB |
 | **Total Size** | 982.5 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | কাসেম বিন আবুবাকার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 489.3 KB |
 

@@ -21,6 +21,7 @@
 | **Author** | হেমেন্দ্রকুমার রায় |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Fiction/Detective |
+| **Subfolder** | চ-ঞ |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 740.5 KB |
 

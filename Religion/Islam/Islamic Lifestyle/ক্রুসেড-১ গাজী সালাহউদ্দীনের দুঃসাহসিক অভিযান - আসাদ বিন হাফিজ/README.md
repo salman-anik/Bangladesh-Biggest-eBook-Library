@@ -20,6 +20,7 @@
 | **Author** | আসাদ বিন হাফিজ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Islam/Islamic Lifestyle |
+| **Subfolder** | আসাদ বিন হাফিজ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 532.7 KB |
 

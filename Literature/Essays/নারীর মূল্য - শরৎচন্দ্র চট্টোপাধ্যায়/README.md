@@ -20,6 +20,7 @@
 | **Author** | শরৎচন্দ্র চট্টোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | শরৎচন্দ্র চট্টোপাধ্যায় |
 | **Formats** | TEXT |
 | **Total Size** | 241.2 KB |
 

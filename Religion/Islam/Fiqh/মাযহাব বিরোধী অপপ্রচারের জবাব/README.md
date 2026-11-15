@@ -16,5 +16,6 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | ইসলামী বই |
 | **Category** | Religion/Islam/Fiqh |
+| **Subfolder** | ভ-ম |
 | **Formats** | — |
 | **Total Size** | — |

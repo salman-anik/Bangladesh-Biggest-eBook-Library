@@ -20,6 +20,7 @@
 | **Author** | দিলওয়ার হাসান, হারুকি মুরাকামি |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | য-হ |
 | **Formats** | TEXT, json |
 | **Total Size** | 743.1 KB |
 

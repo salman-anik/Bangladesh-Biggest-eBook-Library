@@ -20,6 +20,7 @@
 | **Author** | বিমল কর |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | বিমল কর |
 | **Formats** | TEXT, json |
 | **Total Size** | 306.0 KB |
 

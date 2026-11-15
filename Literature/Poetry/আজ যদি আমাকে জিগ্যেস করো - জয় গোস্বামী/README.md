@@ -21,6 +21,7 @@
 | **Author** | জয় গোস্বামী |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Poetry |
+| **Subfolder** | জয় গোস্বামী |
 | **Formats** | COVER, PDF, TEXT, json |
 | **Total Size** | 1.7 MB |
 

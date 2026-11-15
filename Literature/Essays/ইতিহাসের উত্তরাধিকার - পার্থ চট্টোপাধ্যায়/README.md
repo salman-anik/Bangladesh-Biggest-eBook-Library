@@ -20,6 +20,7 @@
 | **Author** | পার্থ চট্টোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 104.7 KB |
 

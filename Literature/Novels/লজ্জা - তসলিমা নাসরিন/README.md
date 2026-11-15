@@ -21,6 +21,7 @@
 | **Author** | তসলিমা নাসরিন |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Novels |
+| **Subfolder** | তসলিমা নাসরিন |
 | **Formats** | COVER, PDF, TEXT, json |
 | **Total Size** | 7.8 MB |
 

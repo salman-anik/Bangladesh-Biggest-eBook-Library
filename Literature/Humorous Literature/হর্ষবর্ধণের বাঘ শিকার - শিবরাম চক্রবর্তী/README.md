@@ -16,6 +16,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | — |
 | **Category** | Literature/Humorous Literature |
+| **Subfolder** | — |
 | **Formats** | MOBI |
 | **Total Size** | 11.0 MB |
 

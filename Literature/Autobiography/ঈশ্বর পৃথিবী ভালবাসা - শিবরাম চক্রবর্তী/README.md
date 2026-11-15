@@ -21,6 +21,7 @@
 | **Author** | শিবরাম চক্রবর্তী |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 3.5 MB |
 

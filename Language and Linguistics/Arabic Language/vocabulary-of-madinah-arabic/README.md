@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | ইসলামী বই |
 | **Category** | Language and Linguistics/Arabic Language |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 2.9 MB |
 

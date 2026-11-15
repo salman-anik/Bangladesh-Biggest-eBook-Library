@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | History/Bangladesh History |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 22.4 MB |
 

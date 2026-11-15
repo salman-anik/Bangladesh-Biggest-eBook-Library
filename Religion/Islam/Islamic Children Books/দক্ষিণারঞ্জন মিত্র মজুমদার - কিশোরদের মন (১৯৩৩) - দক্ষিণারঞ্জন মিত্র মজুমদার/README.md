@@ -17,6 +17,7 @@
 | **Author** | দক্ষিণারঞ্জন মিত্র মজুমদার |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Islamic Children Books |
+| **Subfolder** | — |
 | **Formats** | EPUB |
 | **Total Size** | 155.9 KB |
 

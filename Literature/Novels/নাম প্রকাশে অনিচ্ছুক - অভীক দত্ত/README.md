@@ -20,6 +20,7 @@
 | **Author** | অভীক দত্ত |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | অভীক দত্ত |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 584.2 KB |
 

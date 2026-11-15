@@ -21,6 +21,7 @@
 | **Author** | সৈয়দ মুজতবা আলী |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 401.9 KB |
 

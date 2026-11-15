@@ -20,6 +20,7 @@
 | **Author** | কাজী নজরুল ইসলাম |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Drama |
+| **Subfolder** | — |
 | **Formats** | TEXT, json |
 | **Total Size** | 490.0 KB |
 

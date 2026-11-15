@@ -17,6 +17,7 @@
 | **Author** | বঙ্কিমচন্দ্র চট্টোপাধ্যায় |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | বঙ্কিমচন্দ্র চট্টোপাধ্যায় |
 | **Formats** | EPUB |
 | **Total Size** | 256.4 KB |
 

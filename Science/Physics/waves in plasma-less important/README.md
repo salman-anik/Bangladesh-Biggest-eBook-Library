@@ -17,6 +17,7 @@
 | **Author** | less important |
 | **Publication / Source** | University Physics - Classical Electrodynamics II |
 | **Category** | Science/Physics |
+| **Subfolder** | English (T-Z) |
 | **Formats** | PDF |
 | **Total Size** | 339.7 KB |
 

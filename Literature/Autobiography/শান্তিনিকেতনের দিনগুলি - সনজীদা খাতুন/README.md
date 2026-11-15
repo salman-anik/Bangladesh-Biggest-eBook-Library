@@ -20,6 +20,7 @@
 | **Author** | সনজীদা খাতুন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 329.2 KB |
 

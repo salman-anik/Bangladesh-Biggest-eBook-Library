@@ -17,6 +17,7 @@
 | **Author** | bangla |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Islamic History |
+| **Subfolder** | English (A-F) |
 | **Formats** | PDF |
 | **Total Size** | 9.5 MB |
 

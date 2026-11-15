@@ -17,6 +17,7 @@
 | **Author** | হানা ক্যাথেরিন মুলেন্স |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | য-হ |
 | **Formats** | EPUB |
 | **Total Size** | 2.4 MB |
 

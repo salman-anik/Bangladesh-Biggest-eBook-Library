@@ -20,6 +20,7 @@
 | **Author** | প্রভাবতী দেবী সরস্বতী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Detective |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 2.0 MB |
 

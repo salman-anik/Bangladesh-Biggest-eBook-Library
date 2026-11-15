@@ -17,6 +17,7 @@
 | **Author** | MansoorHallajShaykhZafarAhmadUsmanir.a |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Islamic History |
+| **Subfolder** | English (N-S) |
 | **Formats** | PDF |
 | **Total Size** | 5.8 MB |
 

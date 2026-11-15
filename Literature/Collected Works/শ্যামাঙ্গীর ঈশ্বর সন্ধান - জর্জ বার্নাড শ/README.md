@@ -21,6 +21,7 @@
 | **Author** | জর্জ বার্নাড শ |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 693.7 KB |
 

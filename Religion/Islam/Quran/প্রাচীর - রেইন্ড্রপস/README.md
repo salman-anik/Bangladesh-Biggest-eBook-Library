@@ -17,6 +17,7 @@
 | **Author** | রেইন্ড্রপস |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | প-ব |
 | **Formats** | PDF |
 | **Total Size** | 31.2 MB |
 

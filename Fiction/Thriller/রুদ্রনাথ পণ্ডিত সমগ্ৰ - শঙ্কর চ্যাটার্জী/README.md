@@ -20,6 +20,7 @@
 | **Author** | শঙ্কর চ্যাটার্জী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 750.6 KB |
 

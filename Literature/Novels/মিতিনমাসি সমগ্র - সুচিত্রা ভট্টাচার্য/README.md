@@ -20,6 +20,7 @@
 | **Author** | সুচিত্রা ভট্টাচার্য |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | সুচিত্রা ভট্টাচার্য |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 1.2 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | কাজী আনোয়ার হোসেন, রাফায়েল সাবাতিনি |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 759.3 KB |
 

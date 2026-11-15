@@ -21,6 +21,7 @@
 | **Author** | কমলকুমার মজুমদার |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, PDF, TEXT, json |
 | **Total Size** | 11.0 MB |
 

@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Business and Finance/Banking |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 7.2 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | এডগার রাইস বারুজ, মণীন্দ্র দত্ত, সুধাংশুরঞ্জন ঘোষ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Children's Literature |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 3.9 MB |
 

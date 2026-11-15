@@ -20,6 +20,7 @@
 | **Author** | সৈয়দ শামসুল হক |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | সৈয়দ শামসুল হক |
 | **Formats** | TEXT, json |
 | **Total Size** | 264.5 KB |
 

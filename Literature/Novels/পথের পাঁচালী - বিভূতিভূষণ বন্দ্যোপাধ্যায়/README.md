@@ -22,6 +22,7 @@
 | **Author** | বিভূতিভূষণ বন্দ্যোপাধ্যায় |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | বিভূতিভূষণ বন্দ্যোপাধ্যায় |
 | **Formats** | COVER, EPUB, PDF, TEXT, json |
 | **Total Size** | 10.3 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | জ্যোতিভূষণ চাকী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Drama |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 740.2 KB |
 

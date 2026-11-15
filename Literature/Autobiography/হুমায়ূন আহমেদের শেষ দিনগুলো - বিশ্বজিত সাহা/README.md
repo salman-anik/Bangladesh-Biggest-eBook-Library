@@ -20,6 +20,7 @@
 | **Author** | বিশ্বজিত সাহা |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 997.6 KB |
 

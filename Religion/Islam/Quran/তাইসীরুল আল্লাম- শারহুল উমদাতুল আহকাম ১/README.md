@@ -17,6 +17,7 @@
 | **Author** | শারহুল উমদাতুল আহকাম ১ |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | ত-ন |
 | **Formats** | PDF |
 | **Total Size** | 10.6 MB |
 

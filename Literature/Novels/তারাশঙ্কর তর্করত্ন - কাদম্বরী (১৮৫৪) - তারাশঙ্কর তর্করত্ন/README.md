@@ -17,6 +17,7 @@
 | **Author** | তারাশঙ্কর তর্করত্ন |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Literature/Novels |
+| **Subfolder** | ত-ন |
 | **Formats** | EPUB |
 | **Total Size** | 233.9 KB |
 

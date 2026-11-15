@@ -21,6 +21,7 @@
 | **Author** | বিনয় মজুমদার |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Poetry |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, PDF, TEXT |
 | **Total Size** | 2.4 MB |
 

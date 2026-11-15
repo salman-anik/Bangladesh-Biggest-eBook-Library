@@ -21,6 +21,7 @@
 | **Author** | ব্লেইক ক্রাউচ |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 1.4 MB |
 

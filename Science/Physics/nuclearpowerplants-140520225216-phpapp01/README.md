@@ -17,6 +17,7 @@
 | **Author** | phpapp01 |
 | **Publication / Source** | University Physics - Geophysics & 4th Year |
 | **Category** | Science/Physics |
+| **Subfolder** | English (N-S) |
 | **Formats** | PDF |
 | **Total Size** | 973.3 KB |
 

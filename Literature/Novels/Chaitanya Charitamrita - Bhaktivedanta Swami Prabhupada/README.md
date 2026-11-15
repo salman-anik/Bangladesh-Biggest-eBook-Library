@@ -20,6 +20,7 @@
 | **Author** | স্বামী প্রভুপাদ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | English (A-F) |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 8.2 MB |
 

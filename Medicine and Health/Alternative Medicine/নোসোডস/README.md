@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | Internet Archive Open Library (archive.org) |
 | **Category** | Medicine and Health/Alternative Medicine |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 22.0 MB |
 

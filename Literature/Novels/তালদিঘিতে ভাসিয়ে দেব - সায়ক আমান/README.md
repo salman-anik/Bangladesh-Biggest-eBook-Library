@@ -20,6 +20,7 @@
 | **Author** | সায়ক আমান |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | সায়ক আমান |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.1 MB |
 

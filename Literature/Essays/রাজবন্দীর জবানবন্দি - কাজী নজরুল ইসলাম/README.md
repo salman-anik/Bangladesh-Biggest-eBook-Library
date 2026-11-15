@@ -20,6 +20,7 @@
 | **Author** | কাজী নজরুল ইসলাম |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | কাজী নজরুল ইসলাম |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 208.9 KB |
 

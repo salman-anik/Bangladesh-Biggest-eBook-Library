@@ -20,6 +20,7 @@
 | **Author** | কারেন আর্মস্ট্রং |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | History/Bangladesh History |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 323.9 KB |
 

@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Social Science/Economics |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 97.5 MB |
 

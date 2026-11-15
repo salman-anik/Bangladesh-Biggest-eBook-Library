@@ -20,6 +20,7 @@
 | **Author** | অনিল ভৌমিক |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | অনিল ভৌমিক |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 353.2 KB |
 

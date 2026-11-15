@@ -20,6 +20,7 @@
 | **Author** | ইমদাদুল হক মিলন |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ইমদাদুল হক মিলন |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 416.8 KB |
 

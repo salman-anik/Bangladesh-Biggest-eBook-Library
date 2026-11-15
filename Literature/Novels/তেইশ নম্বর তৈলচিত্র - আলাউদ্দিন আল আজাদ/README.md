@@ -20,6 +20,7 @@
 | **Author** | আলাউদ্দিন আল আজাদ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 385.6 KB |
 

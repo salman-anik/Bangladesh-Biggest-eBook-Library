@@ -20,6 +20,7 @@
 | **Author** | ইন্দ্রনীল সান্যাল |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | ইন্দ্রনীল সান্যাল |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 661.7 KB |
 

@@ -21,6 +21,7 @@
 | **Author** | গোলাম মুরশিদ |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Essays |
+| **Subfolder** | ত-ন |
 | **Formats** | PDF, TEXT, json |
 | **Total Size** | 13.1 MB |
 

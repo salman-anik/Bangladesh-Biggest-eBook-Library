@@ -20,6 +20,7 @@
 | **Author** | কাজী মাহবুব হোসেন, গর্ডন ম্যাকগিল |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 520.2 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | ভারতচন্দ্র রায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Poetry |
+| **Subfolder** | য-হ |
 | **Formats** | TEXT, json |
 | **Total Size** | 83.6 KB |
 

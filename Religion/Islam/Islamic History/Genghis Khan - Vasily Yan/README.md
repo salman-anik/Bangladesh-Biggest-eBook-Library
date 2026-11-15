@@ -17,6 +17,7 @@
 | **Author** | Vasily Yan |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Islamic History |
+| **Subfolder** | English (G-M) |
 | **Formats** | PDF |
 | **Total Size** | 23.3 MB |
 

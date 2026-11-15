@@ -17,6 +17,7 @@
 | **Author** | মাতৃ-স্নেহ ও ঈশ-স্তুতি |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | অ-ঔ |
 | **Formats** | EPUB |
 | **Total Size** | 95.5 KB |
 

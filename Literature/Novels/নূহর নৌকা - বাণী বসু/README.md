@@ -21,6 +21,7 @@
 | **Author** | বাণী বসু |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Novels |
+| **Subfolder** | বাণী বসু |
 | **Formats** | COVER, PDF, TEXT, json |
 | **Total Size** | 6.4 MB |
 

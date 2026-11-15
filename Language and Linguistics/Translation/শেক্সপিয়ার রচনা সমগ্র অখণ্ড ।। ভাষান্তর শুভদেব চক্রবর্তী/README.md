@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Language and Linguistics/Translation |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 67.1 MB |
 

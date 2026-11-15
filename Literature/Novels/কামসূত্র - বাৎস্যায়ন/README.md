@@ -21,6 +21,7 @@
 | **Author** | বাৎস্যায়ন |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Novels |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, PDF, TEXT, json |
 | **Total Size** | 17.8 MB |
 

@@ -21,6 +21,7 @@
 | **Author** | ফিলিপ কে হিট্টি |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Islamic History |
+| **Subfolder** | অ-ঔ |
 | **Formats** | PDF, TEXT, json |
 | **Total Size** | 138.2 MB |
 

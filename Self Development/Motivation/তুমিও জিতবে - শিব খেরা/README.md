@@ -21,6 +21,7 @@
 | **Author** | শিব খেরা |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Self Development/Motivation |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 2.0 MB |
 

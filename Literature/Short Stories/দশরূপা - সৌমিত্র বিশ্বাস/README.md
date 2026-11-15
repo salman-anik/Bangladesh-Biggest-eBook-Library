@@ -20,6 +20,7 @@
 | **Author** | সৌমিত্র বিশ্বাস |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 822.0 KB |
 

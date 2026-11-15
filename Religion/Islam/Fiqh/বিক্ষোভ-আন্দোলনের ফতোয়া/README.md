@@ -17,6 +17,7 @@
 | **Author** | আন্দোলনের ফতোয়া |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Fiqh |
+| **Subfolder** | প-ব |
 | **Formats** | PDF |
 | **Total Size** | 585.8 KB |
 

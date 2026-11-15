@@ -17,6 +17,7 @@
 | **Author** | মুহাম্মদ আব্দুল্লাহেল কাফী আল-কোরায়শী |
 | **Publication / Source** | Internet Archive Open Library (archive.org) |
 | **Category** | Religion/Islam/Aqeedah |
+| **Subfolder** | ক-ঙ |
 | **Formats** | PDF |
 | **Total Size** | 2.1 MB |
 

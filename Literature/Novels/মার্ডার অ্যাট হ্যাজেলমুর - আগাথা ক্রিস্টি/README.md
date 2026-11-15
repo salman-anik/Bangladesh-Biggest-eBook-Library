@@ -20,6 +20,7 @@
 | **Author** | আগাথা ক্রিস্টি |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | আগাথা ক্রিস্টি |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 368.3 KB |
 

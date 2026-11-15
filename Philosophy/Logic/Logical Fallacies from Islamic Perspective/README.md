@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Philosophy/Logic |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 702.8 KB |
 

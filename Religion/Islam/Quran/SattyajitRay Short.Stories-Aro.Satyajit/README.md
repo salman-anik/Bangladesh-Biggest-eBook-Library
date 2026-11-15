@@ -17,6 +17,7 @@
 | **Author** | Aro.Satyajit |
 | **Publication / Source** | SM-Collection Bangla eBook Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | English (N-S) |
 | **Formats** | PDF |
 | **Total Size** | 23.6 MB |
 

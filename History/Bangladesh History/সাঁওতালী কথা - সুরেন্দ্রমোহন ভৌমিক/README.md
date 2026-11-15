@@ -20,6 +20,7 @@
 | **Author** | সুরেন্দ্রমোহন ভৌমিক |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | History/Bangladesh History |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 572.5 KB |
 

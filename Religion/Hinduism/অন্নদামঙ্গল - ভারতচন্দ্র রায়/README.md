@@ -20,6 +20,7 @@
 | **Author** | ভারতচন্দ্র রায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Hinduism |
+| **Subfolder** | অ-ঔ |
 | **Formats** | TEXT, json |
 | **Total Size** | 73.6 KB |
 

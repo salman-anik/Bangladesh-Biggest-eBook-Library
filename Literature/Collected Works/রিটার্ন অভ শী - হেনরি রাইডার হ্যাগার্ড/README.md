@@ -20,6 +20,7 @@
 | **Author** | হেনরি রাইডার হ্যাগার্ড |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | য-হ |
 | **Formats** | TEXT, json |
 | **Total Size** | 880.8 KB |
 

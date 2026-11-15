@@ -17,6 +17,7 @@
 | **Author** | gate02 |
 | **Publication / Source** | University Physics - Geophysics & 4th Year |
 | **Category** | Science/Physics |
+| **Subfolder** | English (T-Z) |
 | **Formats** | PDF |
 | **Total Size** | 1.2 MB |
 

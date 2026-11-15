@@ -20,6 +20,7 @@
 | **Author** | এনায়েতুল্লাহ আলতামাশ, মাওলানা মুজিবুর রহমান |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Islam/Islamic Lifestyle |
+| **Subfolder** | ত-ন |
 | **Formats** | TEXT, json |
 | **Total Size** | 2.6 MB |
 

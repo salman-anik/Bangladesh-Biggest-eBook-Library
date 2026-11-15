@@ -20,6 +20,7 @@
 | **Author** | কার্ল মার্ক্স, জাভেদ হুসেন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 433.9 KB |
 

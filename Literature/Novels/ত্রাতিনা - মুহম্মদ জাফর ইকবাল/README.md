@@ -20,6 +20,7 @@
 | **Author** | মুহম্মদ জাফর ইকবাল |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | মুহম্মদ জাফর ইকবাল |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 311.7 KB |
 

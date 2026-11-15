@@ -20,6 +20,7 @@
 | **Author** | কাজী মাহবুব হাসান, রিচার্ড হলোওয়ে |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.4 MB |
 

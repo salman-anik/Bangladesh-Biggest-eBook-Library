@@ -21,6 +21,7 @@
 | **Author** | এ . এন. এম. সিরাজুল ইসলাম |
 | **Publication / Source** | ইসলামী বই |
 | **Category** | Religion/Islam/Islamic Lifestyle |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, PDF, TEXT, json |
 | **Total Size** | 3.3 MB |
 

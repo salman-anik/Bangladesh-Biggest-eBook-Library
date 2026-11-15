@@ -21,6 +21,7 @@
 | **Author** | হরিশংকর জলদাস |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | হরিশংকর জলদাস |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 1.7 MB |
 

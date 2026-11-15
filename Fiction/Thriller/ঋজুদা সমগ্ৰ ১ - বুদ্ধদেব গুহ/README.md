@@ -20,6 +20,7 @@
 | **Author** | বুদ্ধদেব গুহ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | বুদ্ধদেব গুহ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.9 MB |
 

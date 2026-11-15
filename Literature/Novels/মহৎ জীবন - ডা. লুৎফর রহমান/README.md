@@ -20,6 +20,7 @@
 | **Author** | লুৎফর রহমান |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | লুৎফর রহমান |
 | **Formats** | TEXT, json |
 | **Total Size** | 257.4 KB |
 

@@ -2,7 +2,7 @@
 
 [⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) | [📁 Open Category in Google Drive](https://drive.google.com/drive/folders/1NEDvL1Ta_M4mleG7usufJiPpXawmxJu_)
 
-**Subcategories:** 17 | **Total Books:** 4,799 | **Total Size:** 25.1 GB
+**Subcategories:** 17 | **Total Books:** 4,800 | **Total Size:** 25.1 GB
 
 | Subcategory | Books | Total Size | Drive Folder |
 |---|---:|---:|---|
@@ -16,7 +16,7 @@
 | [Letters](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Letters/README.md) | 0 | — | [Open Folder](https://drive.google.com/drive/folders/1A2HyWUIaS59x_Li87R91hR_sOsvt0i9n) |
 | [Literary Criticism](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Literary%20Criticism/README.md) | 59 | 733.1 MB | [Open Folder](https://drive.google.com/drive/folders/1QB5dE-N9G1dqRW78trNQqsOzw012aZit) |
 | [Memoirs](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Memoirs/README.md) | 0 | — | [Open Folder](https://drive.google.com/drive/folders/1gDSsXbaAaqiq5JSEbzWydEkMvhPj9E4p) |
-| [Novels](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Novels/README.md) | 2,608 | 11.3 GB | [Open Folder](https://drive.google.com/drive/folders/1Ge-7PDIF5ydUcCrK5cO2CYkeRCqGXMFP) |
+| [Novels](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Novels/README.md) | 2,609 | 11.3 GB | [Open Folder](https://drive.google.com/drive/folders/1Ge-7PDIF5ydUcCrK5cO2CYkeRCqGXMFP) |
 | [Plays](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Plays/README.md) | 1 | 15.0 MB | [Open Folder](https://drive.google.com/drive/folders/1GrdtU4HgbwJz48JVP7PFI9ytcqpFjARd) |
 | [Poetry](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Poetry/README.md) | 473 | 1.9 GB | [Open Folder](https://drive.google.com/drive/folders/1Pq4MOKz49-eaTS-pcrS1oYDVjZRlZJwu) |
 | [Prose](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Prose/README.md) | 0 | — | [Open Folder](https://drive.google.com/drive/folders/1087GlNScT-dG03Puvg_MwzMXfWDbESmD) |

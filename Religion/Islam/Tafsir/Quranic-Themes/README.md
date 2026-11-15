@@ -17,6 +17,7 @@
 | **Author** | Themes |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Tafsir |
+| **Subfolder** | English (N-S) |
 | **Formats** | PDF |
 | **Total Size** | 685.4 KB |
 

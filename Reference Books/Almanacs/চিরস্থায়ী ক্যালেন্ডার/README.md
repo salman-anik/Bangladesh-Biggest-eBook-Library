@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Reference Books/Almanacs |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 1.3 MB |
 

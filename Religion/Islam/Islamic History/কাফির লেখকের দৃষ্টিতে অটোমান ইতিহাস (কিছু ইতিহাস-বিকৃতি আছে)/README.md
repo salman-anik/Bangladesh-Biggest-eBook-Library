@@ -17,6 +17,7 @@
 | **Author** | বিকৃতি আছে) |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Religion/Islam/Islamic History |
+| **Subfolder** | ক-ঙ |
 | **Formats** | PDF |
 | **Total Size** | 12.5 MB |
 

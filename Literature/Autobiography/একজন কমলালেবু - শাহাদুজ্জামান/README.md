@@ -21,6 +21,7 @@
 | **Author** | শাহাদুজ্জামান |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 1.7 MB |
 

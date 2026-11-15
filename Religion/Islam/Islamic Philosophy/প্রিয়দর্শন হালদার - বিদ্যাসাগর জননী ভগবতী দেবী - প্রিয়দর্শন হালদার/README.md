@@ -17,6 +17,7 @@
 | **Author** | প্রিয়দর্শন হালদার |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Islamic Philosophy |
+| **Subfolder** | — |
 | **Formats** | EPUB |
 | **Total Size** | 221.0 KB |
 

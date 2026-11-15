@@ -20,6 +20,7 @@
 | **Author** | সেলিনা হোসেন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | সেলিনা হোসেন |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 114.4 KB |
 

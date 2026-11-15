@@ -20,6 +20,7 @@
 | **Author** | পৃথ্বীরাজ সেন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 689.8 KB |
 

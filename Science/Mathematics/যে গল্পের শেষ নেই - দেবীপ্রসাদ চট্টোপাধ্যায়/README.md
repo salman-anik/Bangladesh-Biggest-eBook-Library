@@ -21,6 +21,7 @@
 | **Author** | দেবীপ্রসাদ চট্টোপাধ্যায় |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Science/Mathematics |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 982.9 KB |
 

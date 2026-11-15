@@ -20,6 +20,7 @@
 | **Author** | ক্লাইভ কাসলার, রবিন বারসেল, রাফায়েত রহমান রাতুল |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.4 MB |
 

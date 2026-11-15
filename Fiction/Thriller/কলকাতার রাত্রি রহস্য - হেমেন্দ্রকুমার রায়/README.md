@@ -20,6 +20,7 @@
 | **Author** | হেমেন্দ্রকুমার রায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 768.6 KB |
 

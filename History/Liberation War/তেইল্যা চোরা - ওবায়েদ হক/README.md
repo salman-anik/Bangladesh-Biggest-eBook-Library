@@ -21,6 +21,7 @@
 | **Author** | ওবায়েদ হক |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | History/Liberation War |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 899.5 KB |
 

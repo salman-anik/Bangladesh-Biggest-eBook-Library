@@ -17,6 +17,7 @@
 | **Author** | ড. আবু বকর মুহাম্মাদ যাকারিয়া |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | English (N-S) |
 | **Formats** | PDF |
 | **Total Size** | 50.1 MB |
 

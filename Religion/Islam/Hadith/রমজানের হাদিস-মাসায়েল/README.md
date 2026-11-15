@@ -17,6 +17,7 @@
 | **Author** | মাসায়েল |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Hadith |
+| **Subfolder** | য-হ |
 | **Formats** | PDF |
 | **Total Size** | 1.5 MB |
 

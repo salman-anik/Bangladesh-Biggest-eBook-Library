@@ -17,6 +17,7 @@
 | **Author** | মেশকাত শরীফ। সোলেমানিয়া বুক হাউস কর্তৃক প্রকাশিত |
 | **Publication / Source** | Internet Archive Open Library (archive.org) |
 | **Category** | Religion/Islam/Hadith |
+| **Subfolder** | ভ-ম |
 | **Formats** | PDF |
 | **Total Size** | 203.4 KB |
 

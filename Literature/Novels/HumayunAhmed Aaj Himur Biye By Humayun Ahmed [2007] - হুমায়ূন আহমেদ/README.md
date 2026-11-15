@@ -17,6 +17,7 @@
 | **Author** | হুমায়ূন আহমেদ |
 | **Publication / Source** | SM-Collection Bangla eBook Archive |
 | **Category** | Literature/Novels |
+| **Subfolder** | হুমায়ূন আহমেদ |
 | **Formats** | PDF |
 | **Total Size** | 8.7 MB |
 

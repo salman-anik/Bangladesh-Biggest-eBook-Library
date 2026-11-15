@@ -20,6 +20,7 @@
 | **Author** | নবনীতা দেবসেন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | ত-ন |
 | **Formats** | TEXT, json |
 | **Total Size** | 203.4 KB |
 

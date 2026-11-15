@@ -21,6 +21,7 @@
 | **Author** | রকিব হাসান |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | রকিব হাসান |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 742.8 KB |
 

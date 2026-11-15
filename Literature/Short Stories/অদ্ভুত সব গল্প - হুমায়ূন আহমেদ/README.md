@@ -21,6 +21,7 @@
 | **Author** | হুমায়ূন আহমেদ |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | হুমায়ূন আহমেদ |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 763.6 KB |
 

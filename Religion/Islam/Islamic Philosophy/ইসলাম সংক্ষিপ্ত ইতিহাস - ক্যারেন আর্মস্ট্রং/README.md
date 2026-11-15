@@ -20,6 +20,7 @@
 | **Author** | ক্যারেন আর্মস্ট্রং, শওকত হোসেন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Islam/Islamic Philosophy |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.0 MB |
 

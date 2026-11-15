@@ -21,6 +21,7 @@
 | **Author** | জীবনানন্দ দাশ |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Poetry |
+| **Subfolder** | জীবনানন্দ দাশ |
 | **Formats** | COVER, PDF, TEXT, json |
 | **Total Size** | 949.3 KB |
 

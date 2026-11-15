@@ -17,6 +17,7 @@
 | **Author** | রজনীকান্ত গুপ্ত |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | য-হ |
 | **Formats** | EPUB |
 | **Total Size** | 88.8 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | রবীন্দ্রনাথ ঠাকুর |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | রবীন্দ্রনাথ ঠাকুর |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 30.2 KB |
 

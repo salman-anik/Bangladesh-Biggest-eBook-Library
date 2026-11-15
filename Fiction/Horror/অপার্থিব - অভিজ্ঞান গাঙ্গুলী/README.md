@@ -21,6 +21,7 @@
 | **Author** | অভিজ্ঞান গাঙ্গুলী |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Fiction/Horror |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 1.4 MB |
 

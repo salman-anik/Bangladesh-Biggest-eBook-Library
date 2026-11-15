@@ -20,6 +20,7 @@
 | **Author** | সুসান ওয়াইজ বাউয়ার |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | History/Bangladesh History |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 525.3 KB |
 

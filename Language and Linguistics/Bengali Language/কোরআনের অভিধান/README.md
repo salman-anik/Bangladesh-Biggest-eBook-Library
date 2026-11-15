@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | বই বিতরন (১৭/০৮/২০২২) |
 | **Category** | Language and Linguistics/Bengali Language |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 5.5 MB |
 

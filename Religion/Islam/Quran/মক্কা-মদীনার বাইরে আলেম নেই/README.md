@@ -17,6 +17,7 @@
 | **Author** | মদীনার বাইরে আলেম নেই? |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | ভ-ম |
 | **Formats** | PDF |
 | **Total Size** | 427.5 KB |
 

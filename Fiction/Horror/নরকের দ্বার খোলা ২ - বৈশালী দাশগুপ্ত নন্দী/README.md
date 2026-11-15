@@ -20,6 +20,7 @@
 | **Author** | বৈশালী দাশগুপ্ত নন্দী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Horror |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 862.1 KB |
 

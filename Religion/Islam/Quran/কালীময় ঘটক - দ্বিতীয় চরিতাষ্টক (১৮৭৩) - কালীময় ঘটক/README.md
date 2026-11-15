@@ -17,6 +17,7 @@
 | **Author** | কালীময় ঘটক |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | ক-ঙ |
 | **Formats** | EPUB |
 | **Total Size** | 202.5 KB |
 

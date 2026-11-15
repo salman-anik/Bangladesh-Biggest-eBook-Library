@@ -20,6 +20,7 @@
 | **Author** | আব্দুল্লাহ ইবনে মাহমুদ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | History/Bangladesh History |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 934.8 KB |
 

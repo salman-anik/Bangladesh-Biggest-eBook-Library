@@ -20,6 +20,7 @@
 | **Author** | অম্লান দত্ত, আরতি সেন, গৌরকিশোর ঘোষ (রূপদর্শী) |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 2.4 MB |
 

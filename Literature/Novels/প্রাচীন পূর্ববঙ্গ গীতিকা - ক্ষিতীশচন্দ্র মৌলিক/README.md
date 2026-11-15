@@ -20,6 +20,7 @@
 | **Author** | ক্ষিতীশচন্দ্র মৌলিক |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | প-ব |
 | **Formats** | TEXT, json |
 | **Total Size** | 28.2 KB |
 

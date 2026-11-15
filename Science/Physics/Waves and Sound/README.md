@@ -16,5 +16,6 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | University Physics - Waves and Sound |
 | **Category** | Science/Physics |
+| **Subfolder** | English (T-Z) |
 | **Formats** | — |
 | **Total Size** | — |

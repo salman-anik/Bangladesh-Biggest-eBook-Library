@@ -20,6 +20,7 @@
 | **Author** | সুধীন্দ্রনাথ রাহা |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Science Fiction |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.7 MB |
 

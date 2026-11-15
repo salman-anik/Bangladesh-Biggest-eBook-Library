@@ -17,6 +17,7 @@
 | **Author** | সরলাবালা সরকার |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Hinduism |
+| **Subfolder** | য-হ |
 | **Formats** | EPUB |
 | **Total Size** | 160.3 KB |
 

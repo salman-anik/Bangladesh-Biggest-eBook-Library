@@ -20,6 +20,7 @@
 | **Author** | মাইক জান |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | য-হ |
 | **Formats** | TEXT |
 | **Total Size** | 429.6 KB |
 

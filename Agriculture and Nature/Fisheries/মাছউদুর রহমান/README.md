@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Agriculture and Nature/Fisheries |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 1.8 MB |
 

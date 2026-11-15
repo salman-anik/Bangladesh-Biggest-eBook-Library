@@ -20,6 +20,7 @@
 | **Author** | ফ্রানজ কাফকা |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | English (T-Z) |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 143.3 KB |
 

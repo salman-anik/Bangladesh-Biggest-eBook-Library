@@ -20,6 +20,7 @@
 | **Author** | শীর্ষেন্দু মুখোপাধ্যায় |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | শীর্ষেন্দু মুখোপাধ্যায় |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 417.4 KB |
 

@@ -21,6 +21,7 @@
 | **Author** | ড্যান ব্রাউন |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ড্যান ব্রাউন |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 2.2 MB |
 

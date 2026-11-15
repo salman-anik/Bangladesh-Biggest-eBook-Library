@@ -20,6 +20,7 @@
 | **Author** | কাজী মাহবুব হোসেন, ডেভিড সেলজার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 708.2 KB |
 

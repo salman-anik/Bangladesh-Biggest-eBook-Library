@@ -20,6 +20,7 @@
 | **Author** | রতনতনু ঘাটী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Horror |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 551.4 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | 0-9 & Other |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1016.1 KB |
 

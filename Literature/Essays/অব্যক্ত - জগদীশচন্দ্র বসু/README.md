@@ -20,6 +20,7 @@
 | **Author** | জগদীশচন্দ্র বসু |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | অ-ঔ |
 | **Formats** | TEXT, json |
 | **Total Size** | 393.4 KB |
 

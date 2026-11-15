@@ -20,6 +20,7 @@
 | **Author** | রাজর্ষি দাশ ভৌমিক |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Detective |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.4 MB |
 

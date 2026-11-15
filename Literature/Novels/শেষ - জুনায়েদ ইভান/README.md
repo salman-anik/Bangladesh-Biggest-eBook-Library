@@ -20,6 +20,7 @@
 | **Author** | জুনায়েদ ইভান |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 340.0 KB |
 

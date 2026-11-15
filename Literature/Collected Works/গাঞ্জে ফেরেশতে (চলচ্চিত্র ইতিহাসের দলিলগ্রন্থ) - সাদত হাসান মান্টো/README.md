@@ -20,6 +20,7 @@
 | **Author** | মোস্তফা হারুন, সাদত হাসান মান্টো |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 906.5 KB |
 

@@ -125,6 +125,7 @@ def write_book_readme(book: dict[str, Any]) -> None:
         f"| **Author** | {escape_md(book.get('author') or 'Various / Unknown')} |",
         f"| **Publication / Source** | {escape_md(book.get('publication') or '—')} |",
         f"| **Category** | {escape_md(leaf)} |",
+        f"| **Subfolder** | {escape_md(book.get('subfolder') or '—')} |",
         f"| **Formats** | {escape_md(', '.join(book.get('formats') or []) or '—')} |",
         f"| **Total Size** | {fmt_size(int(book.get('size') or 0))} |",
         "",
@@ -274,7 +275,7 @@ def main() -> None:
             "top_category": b["top_category"],
             "leaf_path": b["leaf_path"],
             "leaf_category": b["leaf_category"],
-            "subfolder": None,
+            "subfolder": b.get("subfolder") or None,
             "author": b["author"],
             "publication": b["publication"],
             "link": b["folder_link"],
@@ -294,12 +295,23 @@ def main() -> None:
     vis_pub = ROOT / "visualize" / "public"
     vis_pub.mkdir(parents=True, exist_ok=True)
     (vis_pub / "books.json").write_text(books_json_str, encoding="utf-8")
+    tax_tree: dict[str, Any] = {}
+    for cat in CANONICAL_TOP_CATS:
+        lfs = sorted(leaves_by_top.get(cat, []))
+        if cat == "Religion":
+            islam_lfs = [lf.split("/")[-1] for lf in lfs if lf.startswith("Religion/Islam/")]
+            other_lfs = [lf.split("/")[-1] for lf in lfs if not lf.startswith("Religion/Islam/")]
+            tax_tree[cat] = {"Islam": islam_lfs, **{o: [] for o in other_lfs}} if islam_lfs else other_lfs
+        else:
+            tax_tree[cat] = [lf.split("/", 1)[1] for lf in lfs]
+
     (vis_pub / "taxonomy.json").write_text(
         json.dumps(
             {
                 "root_drive_id": ROOT_DRIVE_ID,
                 "root_drive_name": "Bangladesh-Biggest-eBook-Library",
                 "folders": clean_folders,
+                "tree": tax_tree,
             },
             ensure_ascii=False,
             indent=2,

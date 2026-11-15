@@ -20,6 +20,7 @@
 | **Author** | শীর্ষেন্দু মুখােপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 5.9 MB |
 

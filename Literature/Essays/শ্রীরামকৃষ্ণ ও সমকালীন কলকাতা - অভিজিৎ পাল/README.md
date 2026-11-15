@@ -20,6 +20,7 @@
 | **Author** | অভিজিৎ পাল |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 504.8 KB |
 

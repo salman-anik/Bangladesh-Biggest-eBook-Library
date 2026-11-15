@@ -20,6 +20,7 @@
 | **Author** | ত্রিদিব দস্তিদার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Poetry |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 64.1 KB |
 

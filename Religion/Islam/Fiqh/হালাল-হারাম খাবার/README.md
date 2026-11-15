@@ -17,6 +17,7 @@
 | **Author** | হারাম খাবার |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Fiqh |
+| **Subfolder** | য-হ |
 | **Formats** | PDF |
 | **Total Size** | 200.9 KB |
 

@@ -19,6 +19,7 @@
 | **Author** | অ্যার্জে |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | অ্যার্জে |
 | **Formats** | COVER, MOBI |
 | **Total Size** | 86.1 MB |
 

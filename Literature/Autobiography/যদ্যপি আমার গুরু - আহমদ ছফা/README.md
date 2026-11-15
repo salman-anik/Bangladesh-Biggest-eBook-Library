@@ -21,6 +21,7 @@
 | **Author** | আহমদ ছফা |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | COVER, PDF, TEXT, json |
 | **Total Size** | 4.2 MB |
 

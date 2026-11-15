@@ -20,6 +20,7 @@
 | **Author** | বার্ট্রান্ড রাসেল |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | বার্ট্রান্ড রাসেল |
 | **Formats** | TEXT, json |
 | **Total Size** | 1.7 MB |
 

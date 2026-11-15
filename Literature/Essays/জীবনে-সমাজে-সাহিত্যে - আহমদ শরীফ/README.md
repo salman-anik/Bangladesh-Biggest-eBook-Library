@@ -20,6 +20,7 @@
 | **Author** | আহমদ শরীফ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | আহমদ শরীফ |
 | **Formats** | TEXT, json |
 | **Total Size** | 864.0 KB |
 

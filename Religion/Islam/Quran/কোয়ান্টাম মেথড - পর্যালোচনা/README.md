@@ -17,6 +17,7 @@
 | **Author** | পর্যালোচনা |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | ক-ঙ |
 | **Formats** | PDF |
 | **Total Size** | 1.7 MB |
 

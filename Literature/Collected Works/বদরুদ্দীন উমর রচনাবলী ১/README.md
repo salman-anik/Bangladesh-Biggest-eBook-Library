@@ -20,6 +20,7 @@
 | **Author** | বদরুদ্দীন উমর |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 32.6 KB |
 

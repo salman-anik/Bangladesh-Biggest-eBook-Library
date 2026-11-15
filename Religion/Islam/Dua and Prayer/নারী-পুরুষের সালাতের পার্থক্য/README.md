@@ -17,6 +17,7 @@
 | **Author** | পুরুষের সালাতের পার্থক্য |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Dua and Prayer |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 469.9 KB |
 

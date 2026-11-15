@@ -20,6 +20,7 @@
 | **Author** | কাজী ইমদাদুল হক |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | অ-ঔ |
 | **Formats** | TEXT, json |
 | **Total Size** | 961.6 KB |
 

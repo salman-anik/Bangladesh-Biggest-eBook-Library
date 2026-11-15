@@ -20,6 +20,7 @@
 | **Author** | খায়রুল আলম সবুজ, হেনরিক ইবসেন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Drama |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 410.9 KB |
 

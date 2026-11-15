@@ -21,6 +21,7 @@
 | **Author** | অতুলচন্দ্র গুপ্ত |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Literary Criticism |
+| **Subfolder** | — |
 | **Formats** | PDF, TEXT, json |
 | **Total Size** | 24.5 MB |
 

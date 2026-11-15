@@ -20,6 +20,7 @@
 | **Author** | কার্ল মার্ক্স, পীযুষ দাসগুপ্ত |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ক-ঙ |
 | **Formats** | TEXT, json |
 | **Total Size** | 4.5 MB |
 

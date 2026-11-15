@@ -20,6 +20,7 @@
 | **Author** | মোশতাক আহমেদ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Horror |
+| **Subfolder** | — |
 | **Formats** | TEXT |
 | **Total Size** | 750.1 KB |
 

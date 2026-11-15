@@ -20,6 +20,7 @@
 | **Author** | হুমায়ুন আজাদ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Poetry |
+| **Subfolder** | হুমায়ুন আজাদ |
 | **Formats** | TEXT, json |
 | **Total Size** | 11.6 KB |
 

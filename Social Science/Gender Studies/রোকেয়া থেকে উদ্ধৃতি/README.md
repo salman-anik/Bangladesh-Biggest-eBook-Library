@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Social Science/Gender Studies |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 944.3 KB |
 

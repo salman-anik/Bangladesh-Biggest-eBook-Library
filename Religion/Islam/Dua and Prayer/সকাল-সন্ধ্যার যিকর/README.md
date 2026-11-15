@@ -17,6 +17,7 @@
 | **Author** | সন্ধ্যার যিকর |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Dua and Prayer |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 11.6 MB |
 

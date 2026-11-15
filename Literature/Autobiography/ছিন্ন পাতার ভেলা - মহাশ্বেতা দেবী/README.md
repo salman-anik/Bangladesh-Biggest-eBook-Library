@@ -20,6 +20,7 @@
 | **Author** | মহাশ্বেতা দেবী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | TEXT, json |
 | **Total Size** | 262.4 KB |
 

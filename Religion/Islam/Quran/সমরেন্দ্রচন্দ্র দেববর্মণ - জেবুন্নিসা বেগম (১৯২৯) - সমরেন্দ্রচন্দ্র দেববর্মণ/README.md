@@ -17,6 +17,7 @@
 | **Author** | সমরেন্দ্রচন্দ্র দেববর্মণ |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | য-হ |
 | **Formats** | EPUB |
 | **Total Size** | 118.4 KB |
 

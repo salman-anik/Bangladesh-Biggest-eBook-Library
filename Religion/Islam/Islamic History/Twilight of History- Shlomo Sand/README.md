@@ -17,6 +17,7 @@
 | **Author** | Shlomo Sand |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Islamic History |
+| **Subfolder** | English (T-Z) |
 | **Formats** | PDF |
 | **Total Size** | 1.6 MB |
 

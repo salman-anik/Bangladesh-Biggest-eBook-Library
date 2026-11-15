@@ -20,6 +20,7 @@
 | **Author** | তসলিমা নাসরিন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Social Science/Gender Studies |
+| **Subfolder** | — |
 | **Formats** | TEXT, json |
 | **Total Size** | 1.2 MB |
 

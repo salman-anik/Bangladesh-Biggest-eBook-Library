@@ -17,6 +17,7 @@
 | **Author** | রাসূলগণের দাওয়াতের পদ্ধতি |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Prophets |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 1.6 MB |
 

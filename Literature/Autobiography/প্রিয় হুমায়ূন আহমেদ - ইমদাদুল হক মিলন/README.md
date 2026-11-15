@@ -20,6 +20,7 @@
 | **Author** | ইমদাদুল হক মিলন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | TEXT, json |
 | **Total Size** | 334.4 KB |
 

@@ -17,6 +17,7 @@
 | **Author** | আসাদুল্লাহ গালিব |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Islamic Politics |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 13.5 MB |
 

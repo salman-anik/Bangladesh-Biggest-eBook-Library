@@ -21,6 +21,7 @@
 | **Author** | জসীম উদ্দীন |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Poetry |
+| **Subfolder** | জসীম উদ্দীন |
 | **Formats** | PDF, TEXT, json |
 | **Total Size** | 1.3 MB |
 

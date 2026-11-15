@@ -20,6 +20,7 @@
 | **Author** | নীরেন্দ্রনাথ চক্রবর্তী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Poetry |
+| **Subfolder** | ক-ঙ |
 | **Formats** | TEXT, json |
 | **Total Size** | 137.0 KB |
 

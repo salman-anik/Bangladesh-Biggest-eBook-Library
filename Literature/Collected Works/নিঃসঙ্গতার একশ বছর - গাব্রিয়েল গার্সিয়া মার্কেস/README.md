@@ -20,6 +20,7 @@
 | **Author** | আনিসুজ জামান, গাব্রিয়েল গার্সিয়া মার্কেস |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.9 MB |
 

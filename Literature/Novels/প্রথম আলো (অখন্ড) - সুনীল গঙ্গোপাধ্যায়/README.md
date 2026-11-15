@@ -20,6 +20,7 @@
 | **Author** | সুনীল গঙ্গোপাধ্যায় |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | সুনীল গঙ্গোপাধ্যায় |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 6.1 MB |
 

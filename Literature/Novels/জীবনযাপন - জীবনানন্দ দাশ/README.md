@@ -20,6 +20,7 @@
 | **Author** | জীবনানন্দ দাশ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | জীবনানন্দ দাশ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 158.9 KB |
 

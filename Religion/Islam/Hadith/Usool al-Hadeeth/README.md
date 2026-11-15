@@ -17,6 +17,7 @@
 | **Author** | Hadeeth |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Hadith |
+| **Subfolder** | English (T-Z) |
 | **Formats** | PDF |
 | **Total Size** | 4.7 MB |
 

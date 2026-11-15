@@ -20,6 +20,7 @@
 | **Author** | চার্লস নর্ডহফ, জেমস নরম্যান হল |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | প-ব |
 | **Formats** | TEXT |
 | **Total Size** | 768.6 KB |
 

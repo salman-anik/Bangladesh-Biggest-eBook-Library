@@ -17,6 +17,7 @@
 | **Author** | der boi imam_hossainer_hottai_yazider_vumika |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | English (N-S) |
 | **Formats** | PDF |
 | **Total Size** | 173.3 KB |
 

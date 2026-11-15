@@ -20,6 +20,7 @@
 | **Author** | সেলিম আল দীন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Drama |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 217.7 KB |
 

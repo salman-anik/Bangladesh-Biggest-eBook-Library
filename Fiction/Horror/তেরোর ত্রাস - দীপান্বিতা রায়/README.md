@@ -20,6 +20,7 @@
 | **Author** | দীপান্বিতা রায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Horror |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 553.0 KB |
 

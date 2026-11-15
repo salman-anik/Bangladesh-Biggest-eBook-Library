@@ -21,6 +21,7 @@
 | **Author** | বুদ্ধদেব গুহ |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Children's Literature |
+| **Subfolder** | — |
 | **Formats** | COVER, PDF, TEXT, json |
 | **Total Size** | 2.0 MB |
 

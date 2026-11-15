@@ -20,6 +20,7 @@
 | **Author** | কৃষণ চন্দর, মোস্তফা হারুন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ভ-ম |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 303.1 KB |
 

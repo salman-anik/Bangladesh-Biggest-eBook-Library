@@ -17,6 +17,7 @@
 | **Author** | Syed Ismail Hossain Siraji |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | English (T-Z) |
 | **Formats** | PDF |
 | **Total Size** | 7.9 MB |
 

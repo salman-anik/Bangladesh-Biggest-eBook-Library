@@ -20,6 +20,7 @@
 | **Author** | ফরহাদ মজহার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Poetry |
+| **Subfolder** | প-ব |
 | **Formats** | TEXT |
 | **Total Size** | 3.9 KB |
 

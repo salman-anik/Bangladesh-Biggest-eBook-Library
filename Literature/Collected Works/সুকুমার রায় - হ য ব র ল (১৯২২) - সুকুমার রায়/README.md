@@ -17,6 +17,7 @@
 | **Author** | সুকুমার রায় |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | য-হ |
 | **Formats** | EPUB |
 | **Total Size** | 283.6 KB |
 

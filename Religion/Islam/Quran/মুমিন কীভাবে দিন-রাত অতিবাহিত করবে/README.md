@@ -17,6 +17,7 @@
 | **Author** | রাত অতিবাহিত করবে |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | ভ-ম |
 | **Formats** | PDF |
 | **Total Size** | 3.3 MB |
 

@@ -17,6 +17,7 @@
 | **Author** | মোহিতলাল মজুমদার |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | ভ-ম |
 | **Formats** | EPUB |
 | **Total Size** | 299.1 KB |
 

@@ -17,6 +17,7 @@
 | **Author** | সাইয়্যেদ সাবেক |
 | **Publication / Source** | Internet Archive Open Library (archive.org) |
 | **Category** | Religion/Islam/Fiqh |
+| **Subfolder** | প-ব |
 | **Formats** | PDF |
 | **Total Size** | 24.5 MB |
 

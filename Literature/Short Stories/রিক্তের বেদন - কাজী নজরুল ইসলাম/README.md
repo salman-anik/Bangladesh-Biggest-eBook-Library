@@ -21,6 +21,7 @@
 | **Author** | কাজী নজরুল ইসলাম |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | কাজী নজরুল ইসলাম |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 753.8 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | বশীর বারহান, স্টেফানি মাইয়ার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ট-ণ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.8 MB |
 

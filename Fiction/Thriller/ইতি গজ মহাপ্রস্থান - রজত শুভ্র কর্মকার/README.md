@@ -20,6 +20,7 @@
 | **Author** | রজত শুভ্র কর্মকার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 507.4 KB |
 

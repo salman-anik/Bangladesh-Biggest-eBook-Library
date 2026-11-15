@@ -20,6 +20,7 @@
 | **Author** | জীবনানন্দ দাশ |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | জীবনানন্দ দাশ |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 176.9 KB |
 

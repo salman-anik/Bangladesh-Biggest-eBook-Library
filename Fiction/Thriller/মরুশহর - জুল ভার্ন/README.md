@@ -20,6 +20,7 @@
 | **Author** | জুল ভার্ন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | জুল ভার্ন |
 | **Formats** | TEXT |
 | **Total Size** | 478.1 KB |
 

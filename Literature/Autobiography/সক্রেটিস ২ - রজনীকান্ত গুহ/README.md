@@ -20,6 +20,7 @@
 | **Author** | রজনীকান্ত গুহ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | TEXT, json |
 | **Total Size** | 20.8 KB |
 

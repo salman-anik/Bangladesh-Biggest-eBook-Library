@@ -20,6 +20,7 @@
 | **Author** | হুমায়ুন আজাদ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Language and Linguistics/Bengali Language |
+| **Subfolder** | — |
 | **Formats** | TEXT, json |
 | **Total Size** | 16.9 KB |
 

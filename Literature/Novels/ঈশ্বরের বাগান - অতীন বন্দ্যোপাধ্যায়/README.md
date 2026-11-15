@@ -21,6 +21,7 @@
 | **Author** | অতীন বন্দ্যোপাধ্যায় |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Novels |
+| **Subfolder** | অতীন বন্দ্যোপাধ্যায় |
 | **Formats** | COVER, PDF, TEXT, json |
 | **Total Size** | 26.5 MB |
 

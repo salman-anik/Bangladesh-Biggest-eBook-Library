@@ -20,6 +20,7 @@
 | **Author** | জগদানন্দ রায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Science/Mathematics |
+| **Subfolder** | — |
 | **Formats** | TEXT, json |
 | **Total Size** | 832.6 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | এডিথ নেসবিট |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | English (T-Z) |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 454.5 KB |
 

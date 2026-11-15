@@ -20,6 +20,7 @@
 | **Author** | রামকিঙ্কর বেইজ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 368.5 KB |
 

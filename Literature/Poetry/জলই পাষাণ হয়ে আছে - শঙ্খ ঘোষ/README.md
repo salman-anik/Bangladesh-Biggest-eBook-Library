@@ -20,6 +20,7 @@
 | **Author** | শঙ্খ ঘোষ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Poetry |
+| **Subfolder** | শঙ্খ ঘোষ |
 | **Formats** | TEXT |
 | **Total Size** | 22.2 KB |
 

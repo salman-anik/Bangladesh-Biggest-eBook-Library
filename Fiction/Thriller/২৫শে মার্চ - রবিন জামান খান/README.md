@@ -20,6 +20,7 @@
 | **Author** | রবিন জামান খান |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | রবিন জামান খান |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.2 MB |
 

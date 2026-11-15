@@ -21,6 +21,7 @@
 | **Author** | সত্যজিৎ রায় |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | সত্যজিৎ রায় |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 398.5 KB |
 

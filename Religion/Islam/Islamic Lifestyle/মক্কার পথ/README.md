@@ -21,6 +21,7 @@
 | **Author** | মুহাম্মদ আসাদ |
 | **Publication / Source** | ইসলামী বই |
 | **Category** | Religion/Islam/Islamic Lifestyle |
+| **Subfolder** | ভ-ম |
 | **Formats** | COVER, PDF, TEXT, json |
 | **Total Size** | 16.2 MB |
 

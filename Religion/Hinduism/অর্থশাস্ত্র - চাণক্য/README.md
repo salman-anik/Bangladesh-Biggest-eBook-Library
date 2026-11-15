@@ -20,6 +20,7 @@
 | **Author** | কৌটিল্য / চাণক্য / বিষ্ণুগুপ্ত |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Hinduism |
+| **Subfolder** | অ-ঔ |
 | **Formats** | TEXT, json |
 | **Total Size** | 1.0 MB |
 

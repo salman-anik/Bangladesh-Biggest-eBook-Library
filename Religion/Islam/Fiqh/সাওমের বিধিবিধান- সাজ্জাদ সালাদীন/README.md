@@ -17,6 +17,7 @@
 | **Author** | সাজ্জাদ সালাদীন |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Fiqh |
+| **Subfolder** | য-হ |
 | **Formats** | PDF |
 | **Total Size** | 4.6 MB |
 

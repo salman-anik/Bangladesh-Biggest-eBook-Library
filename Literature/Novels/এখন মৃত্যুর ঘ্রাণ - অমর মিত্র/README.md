@@ -20,6 +20,7 @@
 | **Author** | অমর মিত্র |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | অমর মিত্র |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 516.4 KB |
 

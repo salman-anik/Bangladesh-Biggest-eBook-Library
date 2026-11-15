@@ -21,6 +21,7 @@
 | **Author** | সুকুমারী ভট্টাচার্য |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | সুকুমারী ভট্টাচার্য |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 676.5 KB |
 

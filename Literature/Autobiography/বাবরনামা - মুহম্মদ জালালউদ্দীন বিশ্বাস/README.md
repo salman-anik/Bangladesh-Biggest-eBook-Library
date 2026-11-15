@@ -20,6 +20,7 @@
 | **Author** | মুহম্মদ জালালউদ্দীন বিশ্বাস |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.2 MB |
 

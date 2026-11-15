@@ -20,6 +20,7 @@
 | **Author** | আবুল হাসান |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Poetry |
+| **Subfolder** | য-হ |
 | **Formats** | TEXT |
 | **Total Size** | 93.6 KB |
 

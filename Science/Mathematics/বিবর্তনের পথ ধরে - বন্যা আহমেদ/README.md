@@ -21,6 +21,7 @@
 | **Author** | বন্যা আহমেদ |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Science/Mathematics |
+| **Subfolder** | — |
 | **Formats** | COVER, PDF, TEXT, json |
 | **Total Size** | 26.1 MB |
 

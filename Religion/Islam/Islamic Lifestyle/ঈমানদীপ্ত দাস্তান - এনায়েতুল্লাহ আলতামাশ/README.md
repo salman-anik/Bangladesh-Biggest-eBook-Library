@@ -20,6 +20,7 @@
 | **Author** | এনায়েতুল্লাহ আলতামাশ, মুহাম্মদ মুহিউদ্দীন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Islam/Islamic Lifestyle |
+| **Subfolder** | অ-ঔ |
 | **Formats** | TEXT, json |
 | **Total Size** | 9.1 MB |
 

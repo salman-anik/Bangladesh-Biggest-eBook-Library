@@ -17,6 +17,7 @@
 | **Author** | ড. আবদুর রহমান রাফাত পাশা (রহঃ) |
 | **Publication / Source** | Internet Archive Open Library (archive.org) |
 | **Category** | Religion/Islam/Islamic Literature |
+| **Subfolder** | অ-ঔ |
 | **Formats** | PDF |
 | **Total Size** | 96.0 KB |
 

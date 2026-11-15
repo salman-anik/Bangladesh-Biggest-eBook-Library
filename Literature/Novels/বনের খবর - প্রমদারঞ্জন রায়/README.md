@@ -20,6 +20,7 @@
 | **Author** | প্রমদারঞ্জন রায় |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 423.3 KB |
 

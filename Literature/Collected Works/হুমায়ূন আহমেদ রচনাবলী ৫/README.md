@@ -20,6 +20,7 @@
 | **Author** | হুমায়ূন আহমেদ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | হুমায়ূন আহমেদ |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 14.8 KB |
 

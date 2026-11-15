@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Islamic Lifestyle |
+| **Subfolder** | English (G-M) |
 | **Formats** | PDF |
 | **Total Size** | 245.2 KB |
 

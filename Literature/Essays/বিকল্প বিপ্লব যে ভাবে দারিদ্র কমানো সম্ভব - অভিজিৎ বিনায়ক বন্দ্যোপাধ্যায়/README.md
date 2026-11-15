@@ -20,6 +20,7 @@
 | **Author** | অভিজিৎ বিনায়ক বন্দ্যোপাধ্যায়, স্বাতী ভট্টাচার্য |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 594.8 KB |
 

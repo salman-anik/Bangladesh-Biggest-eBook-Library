@@ -21,6 +21,7 @@
 | **Author** | আহমদ ছফা |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Social Science/Culture |
+| **Subfolder** | — |
 | **Formats** | COVER, PDF, TEXT, json |
 | **Total Size** | 9.8 MB |
 

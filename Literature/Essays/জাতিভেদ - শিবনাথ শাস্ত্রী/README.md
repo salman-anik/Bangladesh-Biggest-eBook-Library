@@ -20,6 +20,7 @@
 | **Author** | শিবনাথ শাস্ত্রী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | চ-ঞ |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 191.6 KB |
 

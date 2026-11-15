@@ -17,6 +17,7 @@
 | **Author** | মোঃ এনামুল হক |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Islamic Literature |
+| **Subfolder** | অ-ঔ |
 | **Formats** | PDF |
 | **Total Size** | 5.6 MB |
 

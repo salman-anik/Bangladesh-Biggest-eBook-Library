@@ -20,6 +20,7 @@
 | **Author** | প্রেমাঙ্কুর আতর্থী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ভ-ম |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 4.2 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | সুগারু মিয |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 441.3 KB |
 

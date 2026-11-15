@@ -17,6 +17,7 @@
 | **Author** | দেবেন্দ্রনাথ ঠাকুর |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | ত-ন |
 | **Formats** | EPUB |
 | **Total Size** | 150.9 KB |
 

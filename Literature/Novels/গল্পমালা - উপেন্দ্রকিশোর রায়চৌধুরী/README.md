@@ -20,6 +20,7 @@
 | **Author** | উপেন্দ্রকিশোর রায়চৌধুরী |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 422.6 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | ইসমাইল আরমান, কাজী আনোয়ার হোসেন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | ভ-ম |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.2 MB |
 

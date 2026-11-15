@@ -20,6 +20,7 @@
 | **Author** | জে অ্যানসন, লুৎফুল কায়সার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Horror |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.1 MB |
 

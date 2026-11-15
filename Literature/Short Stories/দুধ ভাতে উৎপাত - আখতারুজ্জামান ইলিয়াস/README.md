@@ -21,6 +21,7 @@
 | **Author** | আখতারুজ্জামান ইলিয়াস |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | আখতারুজ্জামান ইলিয়াস |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 740.9 KB |
 

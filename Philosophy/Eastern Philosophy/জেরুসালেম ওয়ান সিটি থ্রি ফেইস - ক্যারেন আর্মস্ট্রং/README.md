@@ -20,6 +20,7 @@
 | **Author** | ক্যারেন আর্মস্ট্রং, মোহাম্মদ হাসান শরীফ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Philosophy/Eastern Philosophy |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 2.6 MB |
 

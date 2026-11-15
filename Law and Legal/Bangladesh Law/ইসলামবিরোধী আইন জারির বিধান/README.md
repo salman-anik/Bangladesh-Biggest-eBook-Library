@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Law and Legal/Bangladesh Law |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 7.4 MB |
 

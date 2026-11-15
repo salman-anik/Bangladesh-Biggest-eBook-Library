@@ -21,6 +21,7 @@
 | **Author** | বঙ্কিমচন্দ্র চট্টোপাধ্যায় |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Essays |
+| **Subfolder** | বঙ্কিমচন্দ্র চট্টোপাধ্যায় |
 | **Formats** | PDF, TEXT, json |
 | **Total Size** | 12.4 MB |
 

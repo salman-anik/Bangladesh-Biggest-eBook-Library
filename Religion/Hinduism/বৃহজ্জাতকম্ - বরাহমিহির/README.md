@@ -20,6 +20,7 @@
 | **Author** | বরাহমিহির |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Hinduism |
+| **Subfolder** | প-ব |
 | **Formats** | TEXT, json |
 | **Total Size** | 168.4 KB |
 

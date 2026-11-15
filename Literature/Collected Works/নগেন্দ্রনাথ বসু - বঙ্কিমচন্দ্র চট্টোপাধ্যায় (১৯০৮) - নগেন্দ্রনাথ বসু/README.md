@@ -17,6 +17,7 @@
 | **Author** | নগেন্দ্রনাথ বসু |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ত-ন |
 | **Formats** | EPUB |
 | **Total Size** | 85.9 KB |
 

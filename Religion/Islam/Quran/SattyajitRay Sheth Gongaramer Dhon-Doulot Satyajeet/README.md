@@ -17,6 +17,7 @@
 | **Author** | Doulot_Satyajeet |
 | **Publication / Source** | SM-Collection Bangla eBook Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | English (N-S) |
 | **Formats** | PDF |
 | **Total Size** | 1.5 MB |
 

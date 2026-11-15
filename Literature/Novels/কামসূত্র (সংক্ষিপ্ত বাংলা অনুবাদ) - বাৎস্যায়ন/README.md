@@ -20,6 +20,7 @@
 | **Author** | বাৎস্যায়ন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ক-ঙ |
 | **Formats** | TEXT, json |
 | **Total Size** | 13.6 KB |
 

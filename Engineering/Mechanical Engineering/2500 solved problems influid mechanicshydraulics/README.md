@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | University Physics - 1st Year |
 | **Category** | Engineering/Mechanical Engineering |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 55.4 MB |
 

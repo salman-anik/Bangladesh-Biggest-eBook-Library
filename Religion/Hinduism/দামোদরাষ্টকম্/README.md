@@ -17,6 +17,7 @@
 | **Author** | দামোদরাষ্টকম্ |
 | **Publication / Source** | Internet Archive Open Library (archive.org) |
 | **Category** | Religion/Hinduism |
+| **Subfolder** | ত-ন |
 | **Formats** | PDF |
 | **Total Size** | 13.4 MB |
 

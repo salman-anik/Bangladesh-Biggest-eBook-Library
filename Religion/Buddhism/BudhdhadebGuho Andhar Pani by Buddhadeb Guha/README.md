@@ -17,6 +17,7 @@
 | **Author** | Buddhadeb Guha |
 | **Publication / Source** | SM-Collection Bangla eBook Archive |
 | **Category** | Religion/Buddhism |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 3.8 MB |
 

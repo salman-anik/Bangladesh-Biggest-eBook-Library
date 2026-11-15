@@ -20,6 +20,7 @@
 | **Author** | ম্যাথিউ রীলি, হাসান খুরশীদ রুমী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ট-ণ |
 | **Formats** | TEXT, json |
 | **Total Size** | 1.8 MB |
 

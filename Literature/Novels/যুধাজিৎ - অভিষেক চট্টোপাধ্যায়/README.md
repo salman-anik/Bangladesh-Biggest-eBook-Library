@@ -20,6 +20,7 @@
 | **Author** | অভিষেক চট্টোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 172.2 KB |
 

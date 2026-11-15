@@ -20,6 +20,7 @@
 | **Author** | হেমন্ত কুমার গঙ্গোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | য-হ |
 | **Formats** | TEXT, json |
 | **Total Size** | 730.8 KB |
 

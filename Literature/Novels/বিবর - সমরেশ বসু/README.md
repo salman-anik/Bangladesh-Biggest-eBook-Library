@@ -20,6 +20,7 @@
 | **Author** | সমরেশ বসু |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | সমরেশ বসু |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 697.8 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | শওকত হোসেন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | ত-ন |
 | **Formats** | TEXT |
 | **Total Size** | 615.5 KB |
 

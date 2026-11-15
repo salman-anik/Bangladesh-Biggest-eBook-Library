@@ -17,6 +17,7 @@
 | **Author** | 4.losses in optical fiber |
 | **Publication / Source** | University Physics - Lasers and Fiber Optics |
 | **Category** | Science/Physics |
+| **Subfolder** | English (N-S) |
 | **Formats** | PDF |
 | **Total Size** | 1.9 MB |
 

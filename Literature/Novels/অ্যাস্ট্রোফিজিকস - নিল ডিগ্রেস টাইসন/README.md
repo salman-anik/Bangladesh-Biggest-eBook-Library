@@ -20,6 +20,7 @@
 | **Author** | নিল ডিগ্রেস টাইসন |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 9.6 MB |
 

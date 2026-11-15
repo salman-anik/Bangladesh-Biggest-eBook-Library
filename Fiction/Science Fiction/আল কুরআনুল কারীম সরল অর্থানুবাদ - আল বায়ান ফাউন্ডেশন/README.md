@@ -17,6 +17,7 @@
 | **Author** | আল বায়ান ফাউন্ডেশন |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Fiction/Science Fiction |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 11.1 MB |
 

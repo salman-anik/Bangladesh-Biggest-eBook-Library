@@ -20,6 +20,7 @@
 | **Author** | রাজশেখর বসু (পরশুরাম) |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Hinduism |
+| **Subfolder** | ভ-ম |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 3.3 MB |
 

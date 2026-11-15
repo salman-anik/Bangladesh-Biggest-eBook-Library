@@ -17,6 +17,7 @@
 | **Author** | Ahmadullah |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | English (G-M) |
 | **Formats** | PDF |
 | **Total Size** | 571.9 KB |
 

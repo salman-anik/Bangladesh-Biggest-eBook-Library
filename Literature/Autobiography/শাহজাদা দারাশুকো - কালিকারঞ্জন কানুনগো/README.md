@@ -20,6 +20,7 @@
 | **Author** | কালিকারঞ্জন কানুনগো |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.3 MB |
 

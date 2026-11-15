@@ -17,6 +17,7 @@
 | **Author** | তপোধীর ভট্টাচার্য |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | ত-ন |
 | **Formats** | EPUB |
 | **Total Size** | 184.3 KB |
 

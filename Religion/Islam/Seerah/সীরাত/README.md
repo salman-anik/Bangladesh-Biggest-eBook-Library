@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Religion/Islam/Seerah |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 2.7 MB |
 

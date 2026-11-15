@@ -21,6 +21,7 @@
 | **Author** | ধীরেশচন্দ্র ভট্টাচার্য |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Essays |
+| **Subfolder** | ভ-ম |
 | **Formats** | COVER, PDF, TEXT, json |
 | **Total Size** | 50.8 MB |
 

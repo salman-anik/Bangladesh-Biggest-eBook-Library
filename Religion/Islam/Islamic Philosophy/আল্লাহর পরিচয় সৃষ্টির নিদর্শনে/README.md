@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | ইসলামী বই |
 | **Category** | Religion/Islam/Islamic Philosophy |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 12.1 MB |
 

@@ -21,6 +21,7 @@
 | **Author** | সৈয়দ শামসুল হক |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | সৈয়দ শামসুল হক |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 543.7 KB |
 

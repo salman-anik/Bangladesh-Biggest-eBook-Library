@@ -17,6 +17,7 @@
 | **Author** | মাইকেল মধুসূদন দত্ত |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ভ-ম |
 | **Formats** | EPUB |
 | **Total Size** | 70.2 KB |
 

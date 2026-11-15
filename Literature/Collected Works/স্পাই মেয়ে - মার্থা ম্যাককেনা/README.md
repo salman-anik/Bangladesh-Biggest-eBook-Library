@@ -20,6 +20,7 @@
 | **Author** | ইন্দুভূষণ দাস, মার্থা ম্যাককেনা |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 439.0 KB |
 

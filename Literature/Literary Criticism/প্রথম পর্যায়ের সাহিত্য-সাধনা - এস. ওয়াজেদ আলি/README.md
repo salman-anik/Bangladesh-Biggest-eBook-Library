@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Literature/Literary Criticism |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 119.7 KB |
 

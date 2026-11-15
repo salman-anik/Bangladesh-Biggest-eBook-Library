@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Business and Finance/Banking |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 9.7 MB |
 

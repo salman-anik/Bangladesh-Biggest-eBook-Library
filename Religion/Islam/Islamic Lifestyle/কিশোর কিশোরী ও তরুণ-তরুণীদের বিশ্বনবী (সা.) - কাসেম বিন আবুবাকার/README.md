@@ -20,6 +20,7 @@
 | **Author** | কাসেম বিন আবুবাকার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Islam/Islamic Lifestyle |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 410.4 KB |
 

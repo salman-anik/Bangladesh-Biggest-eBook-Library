@@ -17,6 +17,7 @@
 | **Author** | সহীহ আক্বীদার দিশারী |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Hadith |
+| **Subfolder** | অ-ঔ |
 | **Formats** | PDF |
 | **Total Size** | 15.2 MB |
 

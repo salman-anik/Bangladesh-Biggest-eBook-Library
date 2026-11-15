@@ -22,6 +22,7 @@
 | **Author** | আশুতোষ মুখোপাধ্যায় |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | আশুতোষ মুখোপাধ্যায় |
 | **Formats** | COVER, EPUB, PDF, TEXT, json |
 | **Total Size** | 15.8 MB |
 

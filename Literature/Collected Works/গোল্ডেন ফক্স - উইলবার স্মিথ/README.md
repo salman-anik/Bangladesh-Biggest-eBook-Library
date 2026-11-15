@@ -20,6 +20,7 @@
 | **Author** | উইলবার স্মিথ, জেসি মেরী কুইয়া |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.8 MB |
 

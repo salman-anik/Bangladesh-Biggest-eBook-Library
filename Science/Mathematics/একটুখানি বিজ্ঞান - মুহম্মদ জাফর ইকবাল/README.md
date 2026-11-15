@@ -21,6 +21,7 @@
 | **Author** | মুহম্মদ জাফর ইকবাল |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Science/Mathematics |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 1.0 MB |
 

@@ -21,6 +21,7 @@
 | **Author** | কাজী নজরুল ইসলাম |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Poetry |
+| **Subfolder** | কাজী নজরুল ইসলাম |
 | **Formats** | PDF, TEXT, json |
 | **Total Size** | 2.2 MB |
 

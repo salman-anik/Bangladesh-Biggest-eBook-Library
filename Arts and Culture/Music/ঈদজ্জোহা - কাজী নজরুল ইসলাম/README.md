@@ -20,6 +20,7 @@
 | **Author** | কাজী নজরুল ইসলাম |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Arts and Culture/Music |
+| **Subfolder** | — |
 | **Formats** | TEXT, json |
 | **Total Size** | 20.3 KB |
 

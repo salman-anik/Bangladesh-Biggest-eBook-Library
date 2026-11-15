@@ -20,6 +20,7 @@
 | **Author** | চিত্তরঞ্জন দেব |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | প-ব |
 | **Formats** | TEXT, json |
 | **Total Size** | 41.9 KB |
 

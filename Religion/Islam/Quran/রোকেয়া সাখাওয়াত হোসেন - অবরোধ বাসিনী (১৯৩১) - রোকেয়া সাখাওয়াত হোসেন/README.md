@@ -17,6 +17,7 @@
 | **Author** | রোকেয়া সাখাওয়াত হোসেন |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | য-হ |
 | **Formats** | EPUB |
 | **Total Size** | 266.0 KB |
 

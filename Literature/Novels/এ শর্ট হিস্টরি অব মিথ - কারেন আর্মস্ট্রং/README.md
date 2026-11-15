@@ -20,6 +20,7 @@
 | **Author** | কারেন আর্মস্ট্রং |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 329.4 KB |
 

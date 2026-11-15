@@ -21,6 +21,7 @@
 | **Author** | নিমাই ভট্টাচার্য |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | নিমাই ভট্টাচার্য |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 568.8 KB |
 

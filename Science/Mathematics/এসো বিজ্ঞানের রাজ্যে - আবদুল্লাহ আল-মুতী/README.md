@@ -20,6 +20,7 @@
 | **Author** | আবদুল্লাহ আল-মুতী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Science/Mathematics |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 285.0 KB |
 

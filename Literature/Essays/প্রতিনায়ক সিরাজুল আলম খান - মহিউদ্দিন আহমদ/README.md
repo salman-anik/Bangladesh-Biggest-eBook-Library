@@ -20,6 +20,7 @@
 | **Author** | মহিউদ্দিন আহমদ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.8 MB |
 

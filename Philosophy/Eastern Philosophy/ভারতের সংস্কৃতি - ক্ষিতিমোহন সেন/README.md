@@ -20,6 +20,7 @@
 | **Author** | ক্ষিতিমোহন সেন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Philosophy/Eastern Philosophy |
+| **Subfolder** | — |
 | **Formats** | TEXT, json |
 | **Total Size** | 19.5 KB |
 

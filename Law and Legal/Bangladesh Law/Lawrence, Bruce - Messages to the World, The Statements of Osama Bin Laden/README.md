@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Law and Legal/Bangladesh Law |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 2.6 MB |
 

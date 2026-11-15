@@ -17,6 +17,7 @@
 | **Author** | সতীশচন্দ্র মিত্র |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Buddhism |
+| **Subfolder** | — |
 | **Formats** | EPUB |
 | **Total Size** | 276.3 KB |
 

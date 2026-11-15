@@ -20,6 +20,7 @@
 | **Author** | বুদ্ধেশ্বর টুডু |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | History/Bangladesh History |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 458.1 KB |
 

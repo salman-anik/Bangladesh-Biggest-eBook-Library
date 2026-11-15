@@ -20,6 +20,7 @@
 | **Author** | সত্যজিৎ রায়, সুদীপ দেব |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Science Fiction |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 44.3 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | ফিওডর দস্তয়েভস্কি, সৈয়দ হালিম |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 321.6 KB |
 

@@ -17,6 +17,7 @@
 | **Author** | 1946 Edition |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Language and Linguistics/Bengali Language |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 88.3 MB |
 

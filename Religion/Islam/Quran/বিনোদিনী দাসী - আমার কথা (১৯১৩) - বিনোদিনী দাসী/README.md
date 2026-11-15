@@ -17,6 +17,7 @@
 | **Author** | বিনোদিনী দাসী |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | প-ব |
 | **Formats** | EPUB |
 | **Total Size** | 9.7 MB |
 

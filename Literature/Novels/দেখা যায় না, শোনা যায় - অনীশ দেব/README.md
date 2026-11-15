@@ -20,6 +20,7 @@
 | **Author** | অনীশ দেব |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | অনীশ দেব |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 252.9 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | কালীপ্রসন্ন সিংহ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Hinduism |
+| **Subfolder** | ভ-ম |
 | **Formats** | TEXT, json |
 | **Total Size** | 836.7 KB |
 

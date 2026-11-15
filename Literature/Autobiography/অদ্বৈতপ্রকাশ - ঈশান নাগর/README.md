@@ -20,6 +20,7 @@
 | **Author** | ঈশান নাগর, দেবেশ ঠাকুর, সতীশচন্দ্র মিত্র |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 492.3 KB |
 

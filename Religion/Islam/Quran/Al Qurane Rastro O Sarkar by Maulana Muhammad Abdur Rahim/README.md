@@ -17,6 +17,7 @@
 | **Author** | Maulana Muhammad Abdur Rahim |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | English (A-F) |
 | **Formats** | PDF |
 | **Total Size** | 10.4 MB |
 

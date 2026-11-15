@@ -20,6 +20,7 @@
 | **Author** | অ্যাডগার অ্যালান পো |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 1.2 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | আইজাক আসিমভ, জি. এইচ. হাবীব |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Science Fiction |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.0 MB |
 

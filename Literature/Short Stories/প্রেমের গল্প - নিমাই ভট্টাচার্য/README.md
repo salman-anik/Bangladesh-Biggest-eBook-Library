@@ -20,6 +20,7 @@
 | **Author** | নিমাই ভট্টাচার্য |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | প-ব |
 | **Formats** | TEXT, json |
 | **Total Size** | 929.1 KB |
 

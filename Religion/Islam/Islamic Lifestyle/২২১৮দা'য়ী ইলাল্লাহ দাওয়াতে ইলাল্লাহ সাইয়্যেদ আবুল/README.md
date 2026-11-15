@@ -16,5 +16,6 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | বই বিতরন (১৭/০৮/২০২২) |
 | **Category** | Religion/Islam/Islamic Lifestyle |
+| **Subfolder** | 0-9 & Other |
 | **Formats** | — |
 | **Total Size** | — |

@@ -17,6 +17,7 @@
 | **Author** | সাইয়েদ আবুল হাসান আলী নাদভী |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | ভ-ম |
 | **Formats** | PDF |
 | **Total Size** | 7.9 MB |
 

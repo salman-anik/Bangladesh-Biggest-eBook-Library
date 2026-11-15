@@ -20,6 +20,7 @@
 | **Author** | অভিষেক চট্টোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | অভিষেক চট্টোপাধ্যায় |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.4 MB |
 

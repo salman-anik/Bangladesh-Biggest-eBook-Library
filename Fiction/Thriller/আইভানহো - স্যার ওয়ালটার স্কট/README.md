@@ -20,6 +20,7 @@
 | **Author** | ওয়ালটার স্কট |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | অ-ঔ |
 | **Formats** | TEXT |
 | **Total Size** | 683.6 KB |
 

@@ -17,6 +17,7 @@
 | **Author** | a brief study |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Religion/Islam/Hadith |
+| **Subfolder** | English (G-M) |
 | **Formats** | PDF |
 | **Total Size** | 2.2 MB |
 

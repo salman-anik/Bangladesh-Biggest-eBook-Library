@@ -20,6 +20,7 @@
 | **Author** | ব্রাম স্টোকার, রকিব হাসান |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | ট-ণ |
 | **Formats** | TEXT, json |
 | **Total Size** | 920.3 KB |
 

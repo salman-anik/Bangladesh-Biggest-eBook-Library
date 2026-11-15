@@ -20,6 +20,7 @@
 | **Author** | আনিসুজ্জামান |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 682.5 KB |
 

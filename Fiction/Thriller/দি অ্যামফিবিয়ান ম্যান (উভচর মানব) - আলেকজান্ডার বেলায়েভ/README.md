@@ -20,6 +20,7 @@
 | **Author** | আলেকজান্ডার বেলায়েভ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | ত-ন |
 | **Formats** | TEXT |
 | **Total Size** | 683.2 KB |
 

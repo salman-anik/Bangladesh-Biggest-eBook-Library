@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Magazines and Periodicals/Literary Magazines |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 14.2 MB |
 

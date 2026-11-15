@@ -19,6 +19,7 @@
 | **Author** | অ্যার্জে |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Children and Young Adult/Comics |
+| **Subfolder** | — |
 | **Formats** | COVER, MOBI |
 | **Total Size** | 78.6 MB |
 

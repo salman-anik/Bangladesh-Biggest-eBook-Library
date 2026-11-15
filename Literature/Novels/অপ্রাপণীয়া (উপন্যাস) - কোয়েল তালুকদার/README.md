@@ -20,6 +20,7 @@
 | **Author** | কোয়েল তালুকদার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | অ-ঔ |
 | **Formats** | TEXT |
 | **Total Size** | 312.4 KB |
 

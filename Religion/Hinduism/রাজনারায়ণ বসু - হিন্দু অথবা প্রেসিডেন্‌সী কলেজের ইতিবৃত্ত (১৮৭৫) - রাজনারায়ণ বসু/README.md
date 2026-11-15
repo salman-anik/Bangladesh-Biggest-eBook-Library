@@ -17,6 +17,7 @@
 | **Author** | রাজনারায়ণ বসু |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Hinduism |
+| **Subfolder** | য-হ |
 | **Formats** | EPUB |
 | **Total Size** | 93.4 KB |
 

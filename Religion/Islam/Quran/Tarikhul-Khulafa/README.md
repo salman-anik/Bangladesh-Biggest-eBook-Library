@@ -17,6 +17,7 @@
 | **Author** | Khulafa |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | English (T-Z) |
 | **Formats** | PDF |
 | **Total Size** | 19.3 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | অৎসুইশি, কৌশিক জামান |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.1 MB |
 

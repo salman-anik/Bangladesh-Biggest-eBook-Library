@@ -20,6 +20,7 @@
 | **Author** | আর্থার কোনান ডয়েল, শিশির চক্রবর্তী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | ত-ন |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 449.0 KB |
 

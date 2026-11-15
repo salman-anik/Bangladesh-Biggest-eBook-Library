@@ -17,6 +17,7 @@
 | **Author** | Muhammad Jalaluddin Biswas |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Islamic History |
+| **Subfolder** | English (G-M) |
 | **Formats** | PDF |
 | **Total Size** | 19.3 MB |
 

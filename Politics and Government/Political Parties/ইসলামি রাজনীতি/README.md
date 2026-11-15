@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Politics and Government/Political Parties |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 5.1 MB |
 

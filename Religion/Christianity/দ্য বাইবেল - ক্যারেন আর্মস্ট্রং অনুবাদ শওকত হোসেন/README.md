@@ -17,6 +17,7 @@
 | **Author** | ক্যারেন আর্মস্ট্রং অনুবাদ শওকত হোসেন |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Christianity |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 5.9 MB |
 

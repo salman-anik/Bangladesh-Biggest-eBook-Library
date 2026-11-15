@@ -20,6 +20,7 @@
 | **Author** | অভিজ্ঞান গাঙ্গুলী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Detective |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 2.4 MB |
 

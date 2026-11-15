@@ -20,6 +20,7 @@
 | **Author** | কৃষ্ণদাস কবিরাজ গোস্বামী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Hinduism |
+| **Subfolder** | য-হ |
 | **Formats** | TEXT, json |
 | **Total Size** | 531.5 KB |
 

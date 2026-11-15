@@ -20,6 +20,7 @@
 | **Author** | হেলাল হাফিজ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Poetry |
+| **Subfolder** | অ-ঔ |
 | **Formats** | TEXT, json |
 | **Total Size** | 7.1 KB |
 

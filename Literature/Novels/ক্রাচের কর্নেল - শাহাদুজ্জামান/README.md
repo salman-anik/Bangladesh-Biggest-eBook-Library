@@ -21,6 +21,7 @@
 | **Author** | শাহাদুজ্জামান |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 2.3 MB |
 

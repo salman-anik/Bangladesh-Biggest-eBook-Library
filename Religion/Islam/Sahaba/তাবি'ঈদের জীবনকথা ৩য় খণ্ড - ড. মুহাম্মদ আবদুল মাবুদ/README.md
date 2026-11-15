@@ -17,6 +17,7 @@
 | **Author** | ড. মুহাম্মদ আবদুল মাবুদ |
 | **Publication / Source** | Internet Archive Open Library (archive.org) |
 | **Category** | Religion/Islam/Sahaba |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 8.6 MB |
 

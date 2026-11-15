@@ -21,6 +21,7 @@
 | **Author** | সত্যেন সেন |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | History/Bangladesh History |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 690.2 KB |
 

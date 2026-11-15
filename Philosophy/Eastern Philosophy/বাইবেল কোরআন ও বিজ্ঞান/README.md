@@ -21,6 +21,7 @@
 | **Author** | খন্দকার মাশহুদ-উল-হাছান, মরিস বুকাইলি |
 | **Publication / Source** | ইসলামীক বই ৫০০টি+ |
 | **Category** | Philosophy/Eastern Philosophy |
+| **Subfolder** | — |
 | **Formats** | PDF, TEXT, json |
 | **Total Size** | 23.0 MB |
 

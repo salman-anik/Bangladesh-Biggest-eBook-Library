@@ -20,6 +20,7 @@
 | **Author** | স্বামী লোকেশ্বরানন্দ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Religion/Hinduism |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 3.1 MB |
 

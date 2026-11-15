@@ -20,6 +20,7 @@
 | **Author** | উইলিয়াম শেক্সপিয়র |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | অ-ঔ |
 | **Formats** | TEXT, json |
 | **Total Size** | 1.8 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | অ্যাডাম রাকুনাস |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | English (T-Z) |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 95.1 KB |
 

@@ -21,6 +21,7 @@
 | **Author** | চিত্রা দেব |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | History/Bangladesh History |
+| **Subfolder** | — |
 | **Formats** | COVER, PDF, TEXT, json |
 | **Total Size** | 13.9 MB |
 

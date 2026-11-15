@@ -17,6 +17,7 @@
 | **Author** | মাওলানা মুহাম্মাদ রিয়াজুদ্দীন |
 | **Publication / Source** | Internet Archive Open Library (archive.org) |
 | **Category** | Language and Linguistics/Arabic Language |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 494.4 KB |
 

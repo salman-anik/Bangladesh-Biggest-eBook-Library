@@ -16,5 +16,6 @@
 | **Author** | lib.org) |
 | **Publication / Source** | University Physics - 1st Year |
 | **Category** | Science/Physics |
+| **Subfolder** | English (A-F) |
 | **Formats** | — |
 | **Total Size** | — |

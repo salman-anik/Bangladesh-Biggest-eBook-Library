@@ -20,6 +20,7 @@
 | **Author** | ফ্রানজ কাফকা, মাসরুর আরেফিন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | প-ব |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.9 MB |
 

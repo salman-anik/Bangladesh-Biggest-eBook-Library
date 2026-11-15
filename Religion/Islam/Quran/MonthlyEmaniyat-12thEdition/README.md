@@ -17,6 +17,7 @@
 | **Author** | 12thEdition |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | English (G-M) |
 | **Formats** | PDF |
 | **Total Size** | 6.5 MB |
 

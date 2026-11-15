@@ -17,6 +17,7 @@
 | **Author** | রামনাথ বিশ্বাস |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Travel and Geography/Travel Memoirs |
+| **Subfolder** | — |
 | **Formats** | EPUB |
 | **Total Size** | 201.3 KB |
 

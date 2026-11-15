@@ -20,6 +20,7 @@
 | **Author** | ডেল কার্নেগি |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ডেল কার্নেগি |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 476.3 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | এডগার অ্যালান পো |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | English (T-Z) |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 56.5 KB |
 

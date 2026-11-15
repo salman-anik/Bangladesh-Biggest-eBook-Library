@@ -20,6 +20,7 @@
 | **Author** | মোশতাক আহমেদ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | TEXT |
 | **Total Size** | 314.4 KB |
 

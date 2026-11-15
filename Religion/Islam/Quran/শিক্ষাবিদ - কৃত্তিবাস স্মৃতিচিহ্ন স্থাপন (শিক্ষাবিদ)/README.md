@@ -17,6 +17,7 @@
 | **Author** | শিক্ষাবিদ |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | য-হ |
 | **Formats** | EPUB |
 | **Total Size** | 88.0 KB |
 

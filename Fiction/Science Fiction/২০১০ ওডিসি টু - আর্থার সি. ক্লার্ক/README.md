@@ -20,6 +20,7 @@
 | **Author** | আর্থার সি. ক্লার্ক, মাকসুদুজ্জামান খান |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Science Fiction |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.2 MB |
 

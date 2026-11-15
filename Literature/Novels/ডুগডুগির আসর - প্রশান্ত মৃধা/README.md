@@ -20,6 +20,7 @@
 | **Author** | প্রশান্ত মৃধা |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ট-ণ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 721.2 KB |
 

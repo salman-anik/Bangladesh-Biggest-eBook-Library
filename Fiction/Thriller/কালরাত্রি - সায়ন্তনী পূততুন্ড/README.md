@@ -20,6 +20,7 @@
 | **Author** | সায়ন্তনী পূততুন্ড |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 3.7 MB |
 

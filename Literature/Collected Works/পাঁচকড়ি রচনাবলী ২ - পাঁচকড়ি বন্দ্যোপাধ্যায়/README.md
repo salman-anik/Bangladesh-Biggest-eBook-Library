@@ -20,6 +20,7 @@
 | **Author** | পাঁচকড়ি বন্দ্যোপাধ্যায় |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | প-ব |
 | **Formats** | TEXT, json |
 | **Total Size** | 82.2 KB |
 

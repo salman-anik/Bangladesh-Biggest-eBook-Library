@@ -21,6 +21,7 @@
 | **Author** | ইন্দ্রনীল সান্যাল |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | ইন্দ্রনীল সান্যাল |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 549.7 KB |
 

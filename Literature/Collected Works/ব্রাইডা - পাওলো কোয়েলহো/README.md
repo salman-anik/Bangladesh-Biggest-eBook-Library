@@ -20,6 +20,7 @@
 | **Author** | পাওলো কোয়েলহো, প্রিন্স আশরাফ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | প-ব |
 | **Formats** | TEXT, json |
 | **Total Size** | 715.7 KB |
 

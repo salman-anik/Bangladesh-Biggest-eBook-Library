@@ -17,6 +17,7 @@
 | **Author** | হেমলতা দেবী |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | য-হ |
 | **Formats** | EPUB |
 | **Total Size** | 125.4 KB |
 

@@ -17,6 +17,7 @@
 | **Author** | বিলেশ্বর গড়াই |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | History/Language Movement |
+| **Subfolder** | — |
 | **Formats** | EPUB |
 | **Total Size** | 138.9 KB |
 

@@ -20,6 +20,7 @@
 | **Author** | আনোয়ার হোসেন, কাজী মায়মুর হোসেন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | ভ-ম |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.1 MB |
 

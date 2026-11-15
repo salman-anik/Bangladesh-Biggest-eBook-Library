@@ -21,6 +21,7 @@
 | **Author** | দাউদ হায়দার |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Poetry |
+| **Subfolder** | চ-ঞ |
 | **Formats** | COVER, PDF, TEXT, json |
 | **Total Size** | 4.2 MB |
 

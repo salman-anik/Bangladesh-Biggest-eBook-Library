@@ -20,6 +20,7 @@
 | **Author** | নারায়ণ গঙ্গোপাধ্যায় |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Humorous Literature |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 1.3 MB |
 

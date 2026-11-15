@@ -20,6 +20,7 @@
 | **Author** | হেমেন্দ্রকুমার রায় |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | হেমেন্দ্রকুমার রায় |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 401.2 KB |
 

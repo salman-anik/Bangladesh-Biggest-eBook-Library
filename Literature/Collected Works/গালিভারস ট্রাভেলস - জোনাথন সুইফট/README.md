@@ -20,6 +20,7 @@
 | **Author** | জোনাথন সুইফট |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ক-ঙ |
 | **Formats** | TEXT, json |
 | **Total Size** | 664.8 KB |
 

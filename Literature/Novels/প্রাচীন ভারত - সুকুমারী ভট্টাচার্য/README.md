@@ -19,6 +19,7 @@
 | **Author** | সুকুমারী ভট্টাচার্য |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | প-ব |
 | **Formats** | COVER |
 | **Total Size** | 49.6 KB |
 

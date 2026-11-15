@@ -17,6 +17,7 @@
 | **Author** | কৃষ্ণকমল ভট্টাচার্য |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | ক-ঙ |
 | **Formats** | EPUB |
 | **Total Size** | 145.2 KB |
 

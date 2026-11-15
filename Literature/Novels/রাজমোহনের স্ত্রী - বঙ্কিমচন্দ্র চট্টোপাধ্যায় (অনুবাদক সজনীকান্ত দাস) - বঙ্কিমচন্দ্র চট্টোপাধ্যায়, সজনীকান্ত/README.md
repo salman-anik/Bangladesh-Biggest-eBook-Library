@@ -20,6 +20,7 @@
 | **Author** | বঙ্কিমচন্দ্র চট্টোপাধ্যায়, সজনীকান্ত দাস |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 519.1 KB |
 

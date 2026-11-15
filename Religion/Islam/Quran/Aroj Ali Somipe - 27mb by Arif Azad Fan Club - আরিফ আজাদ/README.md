@@ -17,6 +17,7 @@
 | **Author** | আরিফ আজাদ |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | English (A-F) |
 | **Formats** | PDF |
 | **Total Size** | 27.2 MB |
 

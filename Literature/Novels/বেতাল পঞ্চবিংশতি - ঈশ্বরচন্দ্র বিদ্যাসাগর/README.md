@@ -21,6 +21,7 @@
 | **Author** | ঈশ্বরচন্দ্র বিদ্যাসাগর |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Novels |
+| **Subfolder** | ঈশ্বরচন্দ্র বিদ্যাসাগর |
 | **Formats** | COVER, PDF, TEXT, json |
 | **Total Size** | 7.9 MB |
 

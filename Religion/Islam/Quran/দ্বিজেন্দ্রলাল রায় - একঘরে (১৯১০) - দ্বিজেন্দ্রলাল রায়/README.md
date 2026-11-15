@@ -17,6 +17,7 @@
 | **Author** | দ্বিজেন্দ্রলাল রায় |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | ত-ন |
 | **Formats** | EPUB |
 | **Total Size** | 87.4 KB |
 

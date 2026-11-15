@@ -20,6 +20,7 @@
 | **Author** | ক্লাইভ কাসলার, মখদুম আহমেদ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | ট-ণ |
 | **Formats** | TEXT, json |
 | **Total Size** | 1.5 MB |
 

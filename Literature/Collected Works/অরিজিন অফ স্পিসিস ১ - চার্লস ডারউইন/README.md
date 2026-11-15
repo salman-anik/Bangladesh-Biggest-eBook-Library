@@ -20,6 +20,7 @@
 | **Author** | চার্লস ডারউইন, শান্তিরঞ্জন ঘোষ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 1.5 MB |
 

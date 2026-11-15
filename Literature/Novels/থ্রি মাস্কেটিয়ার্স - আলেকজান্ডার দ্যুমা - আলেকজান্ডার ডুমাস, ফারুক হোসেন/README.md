@@ -20,6 +20,7 @@
 | **Author** | আলেকজান্ডার ডুমাস, ফারুক হোসেন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ত-ন |
 | **Formats** | TEXT, json |
 | **Total Size** | 195.1 KB |
 

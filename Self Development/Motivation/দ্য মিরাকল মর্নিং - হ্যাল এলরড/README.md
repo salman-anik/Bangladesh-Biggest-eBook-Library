@@ -21,6 +21,7 @@
 | **Author** | হ্যাল এলরড |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Self Development/Motivation |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 985.1 KB |
 

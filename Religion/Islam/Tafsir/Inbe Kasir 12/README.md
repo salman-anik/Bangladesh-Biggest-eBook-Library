@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | বই বিতরন (১৭/০৮/২০২২) |
 | **Category** | Religion/Islam/Tafsir |
+| **Subfolder** | English (G-M) |
 | **Formats** | PDF |
 | **Total Size** | 10.1 MB |
 

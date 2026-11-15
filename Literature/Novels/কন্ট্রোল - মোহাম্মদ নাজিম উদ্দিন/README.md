@@ -20,6 +20,7 @@
 | **Author** | মোহাম্মদ নাজিম উদ্দিন |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 442.9 KB |
 

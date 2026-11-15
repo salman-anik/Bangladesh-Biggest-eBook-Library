@@ -20,6 +20,7 @@
 | **Author** | আবদুল্লাহ আবু সায়ীদ, শহিদুল আলম |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Short Stories |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 2.1 MB |
 

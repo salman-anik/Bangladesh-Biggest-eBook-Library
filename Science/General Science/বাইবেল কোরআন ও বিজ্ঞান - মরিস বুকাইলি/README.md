@@ -20,6 +20,7 @@
 | **Author** | মরিস বুকাইলি |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Science/General Science |
+| **Subfolder** | — |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 480.1 KB |
 

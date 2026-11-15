@@ -17,6 +17,7 @@
 | **Author** | শাহ ওয়ালিউল্লাহ মুহাদ্দিসে দেহলভী (রহঃ) |
 | **Publication / Source** | Internet Archive Open Library (archive.org) |
 | **Category** | Religion/Islam/Islamic Philosophy |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 9.4 MB |
 

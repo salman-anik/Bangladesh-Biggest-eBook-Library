@@ -20,6 +20,7 @@
 | **Author** | লেইল লোনডেস |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | য-হ |
 | **Formats** | COVER, EPUB |
 | **Total Size** | 628.4 KB |
 

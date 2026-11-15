@@ -20,6 +20,7 @@
 | **Author** | মোঃ ফুয়াদ আল ফিদাহ, রবার্ট ব্লচ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | য-হ |
 | **Formats** | TEXT, json |
 | **Total Size** | 755.0 KB |
 

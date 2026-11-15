@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Literature/Novels |
+| **Subfolder** | প-ব |
 | **Formats** | PDF |
 | **Total Size** | 8.3 MB |
 

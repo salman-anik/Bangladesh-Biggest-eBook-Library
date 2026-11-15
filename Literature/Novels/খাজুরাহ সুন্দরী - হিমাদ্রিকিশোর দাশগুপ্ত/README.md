@@ -21,6 +21,7 @@
 | **Author** | হিমাদ্রিকিশোর দাশগুপ্ত |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | হিমাদ্রিকিশোর দাশগুপ্ত |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 384.9 KB |
 

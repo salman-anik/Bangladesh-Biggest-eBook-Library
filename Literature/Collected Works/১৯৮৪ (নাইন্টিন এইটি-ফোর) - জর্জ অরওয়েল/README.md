@@ -20,6 +20,7 @@
 | **Author** | জর্জ অরওয়েল, মাহমুদ মেনন |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | 0-9 & Other |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 2.8 MB |
 

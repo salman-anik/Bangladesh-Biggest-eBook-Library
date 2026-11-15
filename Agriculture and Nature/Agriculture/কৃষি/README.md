@@ -17,6 +17,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Agriculture and Nature/Agriculture |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 1.8 MB |
 

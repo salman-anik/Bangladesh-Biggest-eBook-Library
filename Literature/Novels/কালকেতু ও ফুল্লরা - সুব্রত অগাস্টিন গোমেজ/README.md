@@ -20,6 +20,7 @@
 | **Author** | সুব্রত অগাস্টিন গোমেজ |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 517.5 KB |
 

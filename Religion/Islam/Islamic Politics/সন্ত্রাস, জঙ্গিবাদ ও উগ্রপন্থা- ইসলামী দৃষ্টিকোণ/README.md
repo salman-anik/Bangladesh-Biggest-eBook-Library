@@ -17,6 +17,7 @@
 | **Author** | ইসলামী দৃষ্টিকোণ |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Islamic Politics |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 19.1 MB |
 

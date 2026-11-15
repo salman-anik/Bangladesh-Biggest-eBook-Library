@@ -19,6 +19,7 @@
 | **Author** | নীহাররঞ্জন রায় |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | History/Bangladesh History |
+| **Subfolder** | — |
 | **Formats** | COVER |
 | **Total Size** | 71.1 KB |
 

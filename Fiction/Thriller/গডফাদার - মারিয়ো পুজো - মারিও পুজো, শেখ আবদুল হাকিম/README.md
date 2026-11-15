@@ -20,6 +20,7 @@
 | **Author** | মারিও পুজো, শেখ আবদুল হাকিম |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | ক-ঙ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 2.8 MB |
 

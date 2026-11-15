@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | English (A-F) |
 | **Formats** | PDF |
 | **Total Size** | 5.2 MB |
 

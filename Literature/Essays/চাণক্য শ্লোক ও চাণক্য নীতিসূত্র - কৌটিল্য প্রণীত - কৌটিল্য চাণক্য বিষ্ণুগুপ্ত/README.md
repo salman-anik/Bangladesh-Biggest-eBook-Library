@@ -20,6 +20,7 @@
 | **Author** | কৌটিল্য / চাণক্য / বিষ্ণুগুপ্ত |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Essays |
+| **Subfolder** | চ-ঞ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 858.2 KB |
 

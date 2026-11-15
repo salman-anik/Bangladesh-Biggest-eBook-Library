@@ -17,6 +17,7 @@
 | **Author** | Various / Unknown |
 | **Publication / Source** | বই বিতরন (১৭/০৮/২০২২) |
 | **Category** | Medicine and Health/Medicine |
+| **Subfolder** | — |
 | **Formats** | PDF |
 | **Total Size** | 8.2 MB |
 

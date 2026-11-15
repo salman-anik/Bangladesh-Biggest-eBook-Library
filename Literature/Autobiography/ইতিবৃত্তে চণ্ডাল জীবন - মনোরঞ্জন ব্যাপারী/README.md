@@ -20,6 +20,7 @@
 | **Author** | মনোরঞ্জন ব্যাপারী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Autobiography |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 4.2 MB |
 

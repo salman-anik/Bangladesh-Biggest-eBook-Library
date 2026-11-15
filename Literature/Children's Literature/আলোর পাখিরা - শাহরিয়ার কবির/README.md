@@ -20,6 +20,7 @@
 | **Author** | শাহরিয়ার কবির |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Children's Literature |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 371.9 KB |
 

@@ -17,6 +17,7 @@
 | **Author** | সরোজনাথ মুখোপাধ্যায় |
 | **Publication / Source** | BongBoi Open Bengali EPUB Archive |
 | **Category** | Religion/Islam/Quran |
+| **Subfolder** | য-হ |
 | **Formats** | EPUB |
 | **Total Size** | 102.2 KB |
 

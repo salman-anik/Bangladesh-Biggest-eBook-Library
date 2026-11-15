@@ -16,6 +16,7 @@
 | **Author** | Various / Compiled (সংকলিত) |
 | **Publication / Source** | University Physics - 1st Year |
 | **Category** | Science/Physics |
+| **Subfolder** | English (A-F) |
 | **Formats** | DOCX |
 | **Total Size** | 18.9 KB |
 

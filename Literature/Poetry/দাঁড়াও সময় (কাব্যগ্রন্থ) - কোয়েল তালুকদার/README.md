@@ -20,6 +20,7 @@
 | **Author** | কোয়েল তালুকদার |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Poetry |
+| **Subfolder** | কোয়েল তালুকদার |
 | **Formats** | COVER, TEXT |
 | **Total Size** | 110.3 KB |
 

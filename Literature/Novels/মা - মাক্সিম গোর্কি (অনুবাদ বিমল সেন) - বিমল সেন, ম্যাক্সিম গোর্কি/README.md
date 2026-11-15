@@ -20,6 +20,7 @@
 | **Author** | বিমল সেন, ম্যাক্সিম গোর্কি |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | ভ-ম |
 | **Formats** | TEXT, json |
 | **Total Size** | 527.4 KB |
 

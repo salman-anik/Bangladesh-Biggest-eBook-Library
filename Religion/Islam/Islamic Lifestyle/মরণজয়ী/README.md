@@ -21,6 +21,7 @@
 | **Author** | নসীম হিজাযী, সৈয়দ আবদুল মান্নান |
 | **Publication / Source** | ইসলামী বই |
 | **Category** | Religion/Islam/Islamic Lifestyle |
+| **Subfolder** | ভ-ম |
 | **Formats** | COVER, PDF, TEXT, json |
 | **Total Size** | 6.5 MB |
 

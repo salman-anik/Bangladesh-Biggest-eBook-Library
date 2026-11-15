@@ -20,6 +20,7 @@
 | **Author** | উপেন্দ্রকিশোর রায়চৌধুরী |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Children's Literature |
+| **Subfolder** | — |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 488.1 KB |
 

@@ -21,6 +21,7 @@
 | **Author** | ইয়ান ফ্লেমিং |
 | **Publication / Source** | Kindle Bangla (kindlebangla.com) |
 | **Category** | Fiction/Thriller |
+| **Subfolder** | চ-ঞ |
 | **Formats** | COVER, EPUB, TEXT, json |
 | **Total Size** | 8.9 MB |
 

@@ -20,6 +20,7 @@
 | **Author** | প্রিন্সিপাল ইবরাহীম খাঁ, ফিলিপ কে. হিট্টি |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Collected Works |
+| **Subfolder** | অ-ঔ |
 | **Formats** | COVER, TEXT, json |
 | **Total Size** | 909.5 KB |
 

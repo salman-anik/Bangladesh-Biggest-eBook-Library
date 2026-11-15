@@ -20,6 +20,7 @@
 | **Author** | জহির রায়হান |
 | **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
 | **Category** | Literature/Novels |
+| **Subfolder** | জহির রায়হান |
 | **Formats** | TEXT, json |
 | **Total Size** | 105.7 KB |
 
