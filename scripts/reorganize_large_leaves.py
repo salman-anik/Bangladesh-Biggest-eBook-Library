@@ -219,6 +219,7 @@ def run_batch_moves(ops: list[dict], workers: int = 2) -> tuple[int, int]:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--plan-only", action="store_true")
+    parser.add_argument("--force", action="store_true", help="Re-run moves even if recorded in state")
     parser.add_argument("--workers", type=int, default=2)
     args = parser.parse_args()
 
@@ -328,22 +329,22 @@ def main() -> None:
         sub = info["subfolder"]
         key = f"{lp}/{sub}"
         target_parent = clean_folders[key]
-        if state["moved"].get(fid) == target_parent:
+        if not args.force and state["moved"].get(fid) == target_parent:
             continue
-        ops.append({"op": "move", "fileId": fid, "toParent": target_parent})
+        ops.append({"op": "move", "fileId": fid, "dest": target_parent})
 
     # Also ensure any fixed books NOT in large leaves (if any) move to their new leaf
     for fid, old_lp, new_lp, _ in fixes:
         if fid not in assignments:
             target_parent = clean_folders[new_lp]
-            if state["moved"].get(fid) != target_parent:
-                ops.append({"op": "move", "fileId": fid, "toParent": target_parent})
+            if not args.force and state["moved"].get(fid) != target_parent:
+                ops.append({"op": "move", "fileId": fid, "dest": target_parent})
 
     log(f"\nExecuting {len(ops)} book-folder move ops on Drive (workers={args.workers})...")
     done, failed = run_batch_moves(ops, workers=args.workers)
     if failed == 0:
         for op in ops:
-            state["moved"][op["fileId"]] = op["toParent"]
+            state["moved"][op["fileId"]] = op["dest"]
         STATE_FILE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
 
     # Step 3: Update merged_books.json with subfolder field

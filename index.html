@@ -262,8 +262,8 @@
     "@type": "FAQPage",
     "mainEntity": [
       {"@type": "Question", "name": "What is Bangladesh-Biggest-eBook-Library?", "acceptedAnswer": {"@type": "Answer", "text": "An open bilingual digital library organizing thousands of Bengali and English PDF/EPUB books and categorized JSON texts across 25 clean subject folders with Google Drive links and tracked covers."}},
-      {"@type": "Question", "name": "How are pdf/, text/, and covers/ folders structured?", "acceptedAnswer": {"@type": "Answer", "text": "pdf/ contains all PDF, EPUB, and MOBI eBooks by clean English category; text/ contains categorized per-book JSON files from eBanglaLibrary and text archives; covers/ stores collected book cover thumbnails."}},
-      {"@type": "Question", "name": "Where can I find NCTB Class 1 to Class 10 textbooks?", "acceptedAnswer": {"@type": "Answer", "text": "NCTB textbooks are sorted individually under pdf/Education and Academics/ in Pre-Primary and Class 1 through Class 10 folders."}},
+      {"@type": "Question", "name": "How are books organized in folders?", "acceptedAnswer": {"@type": "Answer", "text": "Every book has its own unified folder under <Category>/<Subcategory>/ (with Author & Alphabetical subfolders for large collections) containing its PDF/EPUB, structured text JSON, and cover image together."}},
+      {"@type": "Question", "name": "Where can I find NCTB Class 1 to Class 10 textbooks?", "acceptedAnswer": {"@type": "Answer", "text": "NCTB textbooks are sorted individually under Education and Academics/ in Pre-Primary and Class 1 through Class 10 folders."}},
       {"@type": "Question", "name": "Which Bengali book websites are included in the archive?", "acceptedAnswer": {"@type": "Answer", "text": "The catalog integrates Master Google Drive archives, NCTB textbooks, eBanglaLibrary.com (categorized JSONs + covers), KindleBangla.com (EPUB/PDF + covers), and BDeBooks.com (PDF + covers)."}},
       {"@type": "Question", "name": "Are non-book files and unrelated foreign documents removed?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Non-book files such as desktop.ini, APK installers, and unrelated CIA Reading Room or non-Bengali scans have been removed."}}
     ]
@@ -284,6 +284,14 @@
       <input type="search" id="search" placeholder="Search title, author, publication, or category..." />
       <select id="authorFilter"><option value="ALL">All Authors</option></select>
       <select id="pubFilter"><option value="ALL">All Publications</option></select>
+      <select id="formatFilter">
+        <option value="ALL">All Formats</option>
+        <option value="pdf">PDF Only</option>
+        <option value="epub">EPUB Only</option>
+        <option value="json">Full-Text JSON</option>
+        <option value="cover">Has Cover</option>
+        <option value="complete">Complete Bundle</option>
+      </select>
       <select id="sort">
         <option value="name">Sort: A → Z</option>
         <option value="size_desc">Sort: Largest First</option>
@@ -320,12 +328,24 @@
       const q = document.getElementById("search").value.trim().toLowerCase();
       const author = document.getElementById("authorFilter").value;
       const pub = document.getElementById("pubFilter").value;
+      const fmt = document.getElementById("formatFilter").value;
       const sort = document.getElementById("sort").value;
 
       filtered = allBooks.filter(b => {
         if (activeCategory !== "ALL" && b.top_category !== activeCategory) return false;
         if (author !== "ALL" && b.author !== author) return false;
         if (pub !== "ALL" && b.publication !== pub) return false;
+        if (fmt !== "ALL") {
+          const hasPdf = !!b.pdf_file_id;
+          const hasEpub = !!b.epub_file_id;
+          const hasJson = !!b.text_file_id;
+          const hasCov = !!(b.cover_file_id || b.cover_drive_id || b.cover_url);
+          if (fmt === "pdf" && !hasPdf) return false;
+          if (fmt === "epub" && !hasEpub) return false;
+          if (fmt === "json" && !hasJson) return false;
+          if (fmt === "cover" && !hasCov) return false;
+          if (fmt === "complete" && !((hasPdf || hasEpub) && hasJson && hasCov)) return false;
+        }
         if (!q) return true;
         return (
           b.name.toLowerCase().includes(q) ||
@@ -366,7 +386,7 @@
             <div>
               <div class="card-title">${escapeHtml(b.name)}</div>
               <div class="card-meta" style="margin-top:0.45rem;">
-                <span class="badge">${escapeHtml(b.leaf_path || b.top_category)}</span>
+                <span class="badge">${escapeHtml(b.subfolder ? `${b.leaf_path}/${b.subfolder}` : (b.leaf_path || b.top_category))}</span>
                 <span>✍️ ${escapeHtml(b.author)}</span>
                 <span>🏢 ${escapeHtml(b.publication)}</span>
               </div>
@@ -457,6 +477,7 @@
       document.getElementById("search").addEventListener("input", applyFilters);
       document.getElementById("authorFilter").addEventListener("change", applyFilters);
       document.getElementById("pubFilter").addEventListener("change", applyFilters);
+      document.getElementById("formatFilter").addEventListener("change", applyFilters);
       document.getElementById("sort").addEventListener("change", applyFilters);
       applyFilters();
     }
