@@ -6,13 +6,13 @@
 
 | Subcategory | Books | Total Size | Drive Folder |
 |---|---:|---:|---|
-| [Anthropology](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Social%20Science/Anthropology/README.md) | 0 | — | [Open Folder](https://drive.google.com/drive/folders/1josWMYKlJGfQogNj-D1yDKHIS6TqOuWc) |
+| [Anthropology](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Social%20Science/Anthropology/README.md) | 0 | — | [Open Folder](https://drive.google.com/drive/folders/1fMsplDtUnpUhnNBJGKvYQ1sdZx0QVJWq) |
 | [Culture](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Social%20Science/Culture/README.md) | 49 | 1008.5 MB | [Open Folder](https://drive.google.com/drive/folders/1x8v2evYG-X6ft1TpDFmCoNyZ6Xpb8I5W) |
-| [Development Studies](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Social%20Science/Development%20Studies/README.md) | 0 | — | [Open Folder](https://drive.google.com/drive/folders/1ztUZuV0QYP_M0LKD_QvS_Kbf_mPi8z3m) |
+| [Development Studies](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Social%20Science/Development%20Studies/README.md) | 0 | — | [Open Folder](https://drive.google.com/drive/folders/1fMsplDtUnpUhnNBJGKvYQ1sdZx0QVJWq) |
 | [Economics](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Social%20Science/Economics/README.md) | 4 | 145.1 MB | [Open Folder](https://drive.google.com/drive/folders/1YMj8u-0xhqYKLwVSfkcZxQlbYiO_cFkE) |
-| [Education](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Social%20Science/Education/README.md) | 0 | — | [Open Folder](https://drive.google.com/drive/folders/1aBDRjIKX8sbXnhnz1EEIOmjhYGEuk29X) |
+| [Education](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Social%20Science/Education/README.md) | 0 | — | [Open Folder](https://drive.google.com/drive/folders/1fMsplDtUnpUhnNBJGKvYQ1sdZx0QVJWq) |
 | [Gender Studies](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Social%20Science/Gender%20Studies/README.md) | 23 | 137.3 MB | [Open Folder](https://drive.google.com/drive/folders/1pI2cOgYbDrrKAUiiBSUYZZuCgMQqxrQx) |
 | [Population Studies](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Social%20Science/Population%20Studies/README.md) | 1 | 8.4 MB | [Open Folder](https://drive.google.com/drive/folders/1wIndM-rWq_giI55xLwmBEzGaD79CkorU) |
-| [Psychology](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Social%20Science/Psychology/README.md) | 0 | — | [Open Folder](https://drive.google.com/drive/folders/1W7aNqLorTUhp7sj6Yjwvg6Qi_K9Zn2c7) |
-| [Social Work](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Social%20Science/Social%20Work/README.md) | 0 | — | [Open Folder](https://drive.google.com/drive/folders/1NVnfYnI1_6z2DH4nSPQLXeWuGx7s0vm4) |
-| [Sociology](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Social%20Science/Sociology/README.md) | 0 | — | [Open Folder](https://drive.google.com/drive/folders/1LY3ihjPFJ4TSmuUVyRDy399Ov68zOWFD) |
+| [Psychology](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Social%20Science/Psychology/README.md) | 0 | — | [Open Folder](https://drive.google.com/drive/folders/1fMsplDtUnpUhnNBJGKvYQ1sdZx0QVJWq) |
+| [Social Work](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Social%20Science/Social%20Work/README.md) | 0 | — | [Open Folder](https://drive.google.com/drive/folders/1fMsplDtUnpUhnNBJGKvYQ1sdZx0QVJWq) |
+| [Sociology](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Social%20Science/Sociology/README.md) | 0 | — | [Open Folder](https://drive.google.com/drive/folders/1fMsplDtUnpUhnNBJGKvYQ1sdZx0QVJWq) |

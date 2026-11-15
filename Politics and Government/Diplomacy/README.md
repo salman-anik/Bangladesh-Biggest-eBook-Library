@@ -1,6 +1,6 @@
 # 📂 Politics and Government/Diplomacy
 
-[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Politics and Government](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Politics%20and%20Government/README.md) | [📁 Open Folder in Google Drive](https://drive.google.com/drive/folders/1jc-QRwVEj8EwzYi29p2ITiYRn0leCqQ3)
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Politics and Government](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Politics%20and%20Government/README.md) | [📁 Open Folder in Google Drive](https://drive.google.com/drive/folders/1fMsplDtUnpUhnNBJGKvYQ1sdZx0QVJWq)
 
 **Total Books:** 0 | **Total Size:** —
 

@@ -1,6 +1,6 @@
 # 📂 Social Science/Psychology
 
-[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Social Science](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Social%20Science/README.md) | [📁 Open Folder in Google Drive](https://drive.google.com/drive/folders/1W7aNqLorTUhp7sj6Yjwvg6Qi_K9Zn2c7)
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Social Science](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Social%20Science/README.md) | [📁 Open Folder in Google Drive](https://drive.google.com/drive/folders/1fMsplDtUnpUhnNBJGKvYQ1sdZx0QVJWq)
 
 **Total Books:** 0 | **Total Size:** —
 

@@ -297,7 +297,9 @@ def main() -> None:
     (vis_pub / "books.json").write_text(books_json_str, encoding="utf-8")
     tax_tree: dict[str, Any] = {}
     for cat in CANONICAL_TOP_CATS:
-        lfs = sorted(leaves_by_top.get(cat, []))
+        if not by_top.get(cat):
+            continue
+        lfs = sorted(lf for lf in leaves_by_top.get(cat, []) if by_leaf.get(lf))
         if cat == "Religion":
             islam_lfs = [lf.split("/")[-1] for lf in lfs if lf.startswith("Religion/Islam/")]
             other_lfs = [lf.split("/")[-1] for lf in lfs if not lf.startswith("Religion/Islam/")]

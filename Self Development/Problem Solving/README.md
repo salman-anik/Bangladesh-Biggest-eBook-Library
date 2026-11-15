@@ -1,6 +1,6 @@
 # 📂 Self Development/Problem Solving
 
-[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Self Development](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Self%20Development/README.md) | [📁 Open Folder in Google Drive](https://drive.google.com/drive/folders/17MJ8dFGvyJ-3yHfZJdWMrQqFtiCTlT1e)
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Self Development](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Self%20Development/README.md) | [📁 Open Folder in Google Drive](https://drive.google.com/drive/folders/1fMsplDtUnpUhnNBJGKvYQ1sdZx0QVJWq)
 
 **Total Books:** 0 | **Total Size:** —
 
