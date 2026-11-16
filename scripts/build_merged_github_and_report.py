@@ -227,12 +227,11 @@ def main() -> None:
             print(f"Removing stale directory {lp}...", flush=True)
             shutil.rmtree(lp)
 
-    # Clear & rebuild canonical category directories cleanly
+    # Clear & index by leaf/top before creating any directories
     for cat in CANONICAL_TOP_CATS:
         cp = ROOT / cat
         if cp.exists():
             shutil.rmtree(cp)
-        cp.mkdir(parents=True, exist_ok=True)
 
     # Index by leaf
     by_leaf: dict[str, list[dict]] = defaultdict(list)
@@ -243,22 +242,28 @@ def main() -> None:
 
     leaves_by_top: dict[str, list[str]] = defaultdict(list)
     for lf in sorted(cc.CANONICAL_LEAVES):
-        leaves_by_top[lf.split("/")[0]].append(lf)
+        if by_leaf.get(lf):
+            leaves_by_top[lf.split("/")[0]].append(lf)
 
-    # 2. Write per-book folder READMEs, leaf READMEs, and category READMEs
-    print(f"Writing {len(merged):,} per-book folder READMEs across {len(cc.CANONICAL_LEAVES)} leaves...", flush=True)
+    non_empty_tops = [cat for cat in CANONICAL_TOP_CATS if by_top.get(cat)]
+    for cat in non_empty_tops:
+        (ROOT / cat).mkdir(parents=True, exist_ok=True)
+
+    # 2. Write per-book folder READMEs, leaf READMEs, and category READMEs (skipping empty folders)
+    print(f"Writing {len(merged):,} per-book folder READMEs across {sum(len(v) for v in leaves_by_top.values())} non-empty leaves...", flush=True)
     for b in merged:
         write_book_readme(b)
     for lf in sorted(cc.CANONICAL_LEAVES):
-        write_leaf_readme(lf, by_leaf.get(lf, []), clean_folders)
-    for cat in CANONICAL_TOP_CATS:
+        if by_leaf.get(lf):
+            write_leaf_readme(lf, by_leaf[lf], clean_folders)
+    for cat in non_empty_tops:
         write_category_readme(cat, leaves_by_top[cat], by_leaf, clean_folders)
 
     # Also Religion/Islam intermediate README
-    islam_dir = ROOT / "Religion" / "Islam"
-    islam_dir.mkdir(parents=True, exist_ok=True)
-    islam_leaves = [lf for lf in leaves_by_top["Religion"] if lf.startswith("Religion/Islam/")]
-    write_category_readme("Religion/Islam", islam_leaves, by_leaf, clean_folders)
+    islam_leaves = [lf for lf in leaves_by_top.get("Religion", []) if lf.startswith("Religion/Islam/")]
+    if islam_leaves:
+        (ROOT / "Religion" / "Islam").mkdir(parents=True, exist_ok=True)
+        write_category_readme("Religion/Islam", islam_leaves, by_leaf, clean_folders)
 
     # 3. Export clean books.json, visualize/public/books.json, visualize/public/taxonomy.json
     total_size = sum(int(b.get("size") or 0) for b in merged)
@@ -367,7 +372,7 @@ def main() -> None:
         "| # | Category | Books | Total Size | Drive Folder |",
         "|---:|---|---:|---:|---|",
     ]
-    for idx, cat in enumerate(CANONICAL_TOP_CATS, 1):
+    for idx, cat in enumerate(non_empty_tops, 1):
         cbooks = by_top.get(cat, [])
         sz = sum(int(b.get("size") or 0) for b in cbooks)
         fid = clean_folders.get(cat, ROOT_DRIVE_ID)
@@ -381,10 +386,11 @@ def main() -> None:
     # sitemap.xml
     today = date.today().isoformat()
     sm_urls = [f"{GITHUB_PAGES}/", f"{GITHUB_REPO}/blob/main/README.md"]
-    for cat in CANONICAL_TOP_CATS:
+    for cat in non_empty_tops:
         sm_urls.append(gh_blob_url(f"{cat}/README.md"))
     for lf in sorted(cc.CANONICAL_LEAVES):
-        sm_urls.append(gh_blob_url(f"{lf}/README.md"))
+        if by_leaf.get(lf):
+            sm_urls.append(gh_blob_url(f"{lf}/README.md"))
     sm_lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for u in sm_urls:
         sm_lines.append(f"  <url><loc>{u}</loc><lastmod>{today}</lastmod></url>")

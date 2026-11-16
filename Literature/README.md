@@ -2,7 +2,7 @@
 
 [⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) | [📁 Open Category in Google Drive](https://drive.google.com/drive/folders/1NEDvL1Ta_M4mleG7usufJiPpXawmxJu_)
 
-**Subcategories:** 17 | **Total Books:** 4,800 | **Total Size:** 25.1 GB
+**Subcategories:** 13 | **Total Books:** 4,800 | **Total Size:** 25.1 GB
 
 | Subcategory | Books | Total Size | Drive Folder |
 |---|---:|---:|---|
@@ -13,13 +13,9 @@
 | [Essays](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Essays/README.md) | 365 | 1.1 GB | [Open Folder](https://drive.google.com/drive/folders/1KvJMVH4inZlVKwojJu68hK6LKw_gC-EF) |
 | [Folk Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Folk%20Literature/README.md) | 59 | 4.2 GB | [Open Folder](https://drive.google.com/drive/folders/13FIltmLnIxinGMbWtalGYlM9vJOJRmhy) |
 | [Humorous Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Humorous%20Literature/README.md) | 23 | 187.1 MB | [Open Folder](https://drive.google.com/drive/folders/1GtP3l64wCPVDllQxqcWM-HeIYLWqq2yc) |
-| [Letters](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Letters/README.md) | 0 | — | [Open Folder](https://drive.google.com/drive/folders/1fMsplDtUnpUhnNBJGKvYQ1sdZx0QVJWq) |
 | [Literary Criticism](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Literary%20Criticism/README.md) | 59 | 733.1 MB | [Open Folder](https://drive.google.com/drive/folders/1QB5dE-N9G1dqRW78trNQqsOzw012aZit) |
-| [Memoirs](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Memoirs/README.md) | 0 | — | [Open Folder](https://drive.google.com/drive/folders/1fMsplDtUnpUhnNBJGKvYQ1sdZx0QVJWq) |
 | [Novels](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Novels/README.md) | 2,609 | 11.3 GB | [Open Folder](https://drive.google.com/drive/folders/1Ge-7PDIF5ydUcCrK5cO2CYkeRCqGXMFP) |
 | [Plays](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Plays/README.md) | 1 | 15.0 MB | [Open Folder](https://drive.google.com/drive/folders/1GrdtU4HgbwJz48JVP7PFI9ytcqpFjARd) |
 | [Poetry](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Poetry/README.md) | 473 | 1.9 GB | [Open Folder](https://drive.google.com/drive/folders/1Pq4MOKz49-eaTS-pcrS1oYDVjZRlZJwu) |
-| [Prose](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Prose/README.md) | 0 | — | [Open Folder](https://drive.google.com/drive/folders/1fMsplDtUnpUhnNBJGKvYQ1sdZx0QVJWq) |
-| [Rhymes](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Rhymes/README.md) | 0 | — | [Open Folder](https://drive.google.com/drive/folders/1fMsplDtUnpUhnNBJGKvYQ1sdZx0QVJWq) |
 | [Short Stories](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Short%20Stories/README.md) | 343 | 2.0 GB | [Open Folder](https://drive.google.com/drive/folders/1Tj0UwZCis4jljQVQb6B2SrKG70xMUYYA) |
 | [Travel Writing](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Travel%20Writing/README.md) | 37 | 143.9 MB | [Open Folder](https://drive.google.com/drive/folders/1grkZBmhxIt7JUUJEbTif-ZN4l3c-8qkE) |
