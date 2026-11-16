@@ -1,0 +1,32 @@
+# 📖 Bhalobasar Onek Nam_Shiboram Chokroborti
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/README.md) / [Short Stories](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Short%20Stories/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1nFYy5c9bYWV7eR_a8eKuOPG6i5cN1zRd)
+
+![Bhalobasar Onek Nam](https://drive.google.com/thumbnail?id=19_aBnf0aE120TC5ZWIVefdof_0Fh9Wj-&sz=w600)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1nFYy5c9bYWV7eR_a8eKuOPG6i5cN1zRd) |
+| 📱 **EPUB eBook** | [Open EPUB in Drive](https://drive.google.com/file/d/1_hsmoratXn6OnxG1GiBDwXTtrSJBm_gV/view) |
+| 📄 **Structured Text (JSON)** | [Open Text JSON in Drive](https://drive.google.com/file/d/1SYawDPFj3daK8EcGxmasWynQsD2tYPzq/view) |
+| 🖼️ **Cover Image** | [View Cover in Drive](https://drive.google.com/file/d/19_aBnf0aE120TC5ZWIVefdof_0Fh9Wj-/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | Bhalobasar Onek Nam |
+| **Author** | Shiboram Chokroborti |
+| **Publication / Source** | Kindle Bangla (kindlebangla.com) |
+| **Category** | Literature/Short Stories |
+| **Subfolder** | শিবরাম চক্রবর্তী |
+| **Formats** | COVER, EPUB, TEXT, json |
+| **Total Size** | 864.3 KB |
+
+### 📂 Files Inside Folder
+
+- [Bhalobasar Onek Nam_Shiboram Chokroborti.epub](https://drive.google.com/file/d/1_hsmoratXn6OnxG1GiBDwXTtrSJBm_gV/view) (337.4 KB)
+- [Bhalobasar Onek Nam_Shiboram Chokroborti.jpg](https://drive.google.com/file/d/19_aBnf0aE120TC5ZWIVefdof_0Fh9Wj-/view) (61.1 KB)
+- [Bhalobasar Onek Nam_Shiboram Chokroborti.json](https://drive.google.com/file/d/1SYawDPFj3daK8EcGxmasWynQsD2tYPzq/view) (465.7 KB)

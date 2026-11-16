@@ -13,7 +13,7 @@
 | Field | Value |
 |---|---|
 | **Title** | sonamoni protiva 12 jul aug 2015 |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Magazines and Periodicals/Literary Magazines |
 | **Subfolder** | — |

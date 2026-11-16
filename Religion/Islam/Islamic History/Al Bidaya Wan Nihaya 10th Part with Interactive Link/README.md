@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Al Bidaya Wan Nihaya 10th Part with Interactive Link |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Islamic History |
 | **Subfolder** | English (A-F) |

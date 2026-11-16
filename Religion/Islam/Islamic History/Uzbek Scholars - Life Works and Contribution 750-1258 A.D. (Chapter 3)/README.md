@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Uzbek Scholars - Life Works and Contribution 750-1258 A.D. (Chapter 3) |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Islamic History |
 | **Subfolder** | English (T-Z) |

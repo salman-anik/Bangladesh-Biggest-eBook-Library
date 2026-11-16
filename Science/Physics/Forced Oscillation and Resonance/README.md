@@ -13,7 +13,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Forced Oscillation and Resonance |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | University Physics - Fundamentals of Physics |
 | **Category** | Science/Physics |
 | **Subfolder** | English (A-F) |

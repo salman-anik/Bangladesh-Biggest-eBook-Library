@@ -1,0 +1,30 @@
+# 📖 Prithibir Itihas 2 - Susan Ojaij Baujar_Ishotijak Khan, Susan Ojaij Baujar
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/README.md) / [Collected Works](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Collected%20Works/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1DYCyVhnUEA_k8eYxjK7sCZ7JRnPKvWwO)
+
+![Prithibir Itihas 2 - Susan Ojaij Baujar](https://drive.google.com/thumbnail?id=1Pa5Hujitv92v0iRvX_aEgcpf0Z1l79ZV&sz=w600)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1DYCyVhnUEA_k8eYxjK7sCZ7JRnPKvWwO) |
+| 📄 **Structured Text (JSON)** | [Open Text JSON in Drive](https://drive.google.com/file/d/1OnKx-HzHXuhY7Hg697UVpEOjLfiYb5HV/view) |
+| 🖼️ **Cover Image** | [View Cover in Drive](https://drive.google.com/file/d/1Pa5Hujitv92v0iRvX_aEgcpf0Z1l79ZV/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | Prithibir Itihas 2 - Susan Ojaij Baujar |
+| **Author** | Ishotijak Khan, Susan Ojaij Baujar |
+| **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
+| **Category** | Literature/Collected Works |
+| **Subfolder** | প-ব |
+| **Formats** | COVER, TEXT, json |
+| **Total Size** | 2.1 MB |
+
+### 📂 Files Inside Folder
+
+- [Prithibir Itihas 2 - Susan Ojaij Baujar_Ishotijak Khan, Susan Ojaij Baujar.jpg](https://drive.google.com/file/d/1Pa5Hujitv92v0iRvX_aEgcpf0Z1l79ZV/view) (18.2 KB)
+- [Prithibir Itihas 2 - Susan Ojaij Baujar_Ishotijak Khan, Susan Ojaij Baujar.json](https://drive.google.com/file/d/1OnKx-HzHXuhY7Hg697UVpEOjLfiYb5HV/view) (2.0 MB)

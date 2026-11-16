@@ -1,0 +1,30 @@
+# 📖 Bukhari Shoriph 4rth Khondo (Islamic Phaundeshon) (1919-2510)
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Religion](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/README.md) / [Hinduism](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/Hinduism/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1JKh98-3SyB0c-cpcS_Bk70iF4hZadXfd)
+
+![Bukhari Shoriph 4rth Khondo (Islamic Phaundeshon) (1919-2510)](https://drive.google.com/thumbnail?id=1xFXndZmFTDaE1LdmQbDVYVb4h1wc57Vc&sz=w600)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1JKh98-3SyB0c-cpcS_Bk70iF4hZadXfd) |
+| 📄 **Structured Text (JSON)** | [Open Text JSON in Drive](https://drive.google.com/file/d/1Dm9ke2OIQ9WPXBifm6U6kEK_wF87PD29/view) |
+| 🖼️ **Cover Image** | [View Cover in Drive](https://drive.google.com/file/d/1xFXndZmFTDaE1LdmQbDVYVb4h1wc57Vc/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | Bukhari Shoriph 4rth Khondo (Islamic Phaundeshon) (1919-2510) |
+| **Author** | Various / Unknown |
+| **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
+| **Category** | Religion/Hinduism |
+| **Subfolder** | প-ব |
+| **Formats** | COVER, TEXT, json |
+| **Total Size** | 1.6 MB |
+
+### 📂 Files Inside Folder
+
+- [Bukhari Shoriph 4rth Khondo (Islamic Phaundeshon) (1919-2510).jpg](https://drive.google.com/file/d/1xFXndZmFTDaE1LdmQbDVYVb4h1wc57Vc/view) (18.3 KB)
+- [Bukhari Shoriph 4rth Khondo (Islamic Phaundeshon) (1919-2510).json](https://drive.google.com/file/d/1Dm9ke2OIQ9WPXBifm6U6kEK_wF87PD29/view) (1.6 MB)

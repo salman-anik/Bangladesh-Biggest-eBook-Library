@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | siratunnobi sm songkha 2012 |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Seerah |
 | **Subfolder** | — |

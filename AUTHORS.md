@@ -1,469 +1,1072 @@
 # ✍️ Authors Index
 
-Total distinct authors: **1,287** across **14,496** merged book folders.
+Total distinct authors: **2,565** across **14,496** merged book folders.
 
 | Author | Books |
 |---|---:|
-| Various / Unknown | 6,215 |
-| Various / Compiled (সংকলিত) | 1,989 |
-| NCTB (জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ড) | 1,253 |
-| হুমায়ূন আহমেদ | 261 |
-| রবীন্দ্রনাথ ঠাকুর | 170 |
-| কাজী আনোয়ার হোসেন | 150 |
-| সুনীল গঙ্গোপাধ্যায় | 87 |
-| সত্যজিৎ রায় | 83 |
-| মুহম্মদ জাফর ইকবাল | 75 |
-| আবুল আসাদ | 65 |
-| বুদ্ধদেব গুহ | 60 |
-| কাজী নজরুল ইসলাম | 54 |
-| সমরেশ বসু | 52 |
-| সমরেশ মজুমদার | 51 |
-| শীর্ষেন্দু মুখােপাধ্যায় | 49 |
-| আশাপূর্ণা দেবী | 45 |
-| অনিল ভৌমিক | 44 |
-| শরদিন্দু বন্দ্যোপাধ্যায় | 44 |
+| Various / Unknown | 3,926 |
+| Various / Compiled (Songkolit) | 1,947 |
+| NCTB | 1,253 |
+| Humayun Ahmed | 344 |
+| Rabindranath Tagore | 178 |
+| Kazi Anojar Hossain | 150 |
+| Buddhodeb Guh | 142 |
+| Ashapurna Devi | 87 |
+| Sunil Gangopadhyay | 87 |
+| Satyajit Ray | 83 |
+| Muhammed Zafar Iqbal | 76 |
+| Kazi Nazrul Islam | 75 |
+| Buddhodeb Basu | 70 |
+| Abul Asad | 65 |
+| Somoresh Basu | 53 |
+| Bibhutibhushan Bandyopadhyay | 52 |
+| Somoresh Mojumodar | 51 |
+| Hemendrokumar Ray | 50 |
+| Shirshendu Mukhaepadhdhaj | 49 |
+| Tosolima Nasorin | 46 |
+| Onil Bhoumik | 44 |
+| Shorodindu Bandyopadhyay | 44 |
 | LinguisticMiracle.com | 42 |
-| সৈয়দ মুজতবা আলী | 42 |
-| tanbircox | 40 |
-| কাসেম বিন আবুবাকার | 40 |
-| কোয়েল তালুকদার | 38 |
-| শরৎচন্দ্র চট্টোপাধ্যায় | 37 |
-| উইলিয়াম শেক্সপিয়ার | 36 |
-| হিমাদ্রিকিশোর দাশগুপ্ত | 35 |
-| বঙ্কিমচন্দ্র চট্টোপাধ্যায় | 34 |
-| রকিব হাসান | 33 |
-| শক্তি চট্টোপাধ্যায় | 33 |
-| আসাদ বিন হাফিজ | 31 |
-| বিভূতিভূষণ বন্দ্যোপাধ্যায় | 30 |
-| শীর্ষেন্দু মুখোপাধ্যায় | 30 |
-| তসলিমা নাসরিন | 29 |
-| বাণী বসু | 28 |
-| সঞ্জীব চট্টোপাধ্যায় | 27 |
-| সৈয়দ মুস্তাফা সিরাজ | 27 |
-| সুচিত্রা ভট্টাচার্য | 26 |
-| হুমায়ুন আজাদ | 25 |
-| অভীক দত্ত | 25 |
-| মলয় রায়চৌধুরী | 25 |
-| আর্থার কোনান ডয়েল | 24 |
-| নবনীতা দেবসেন | 24 |
-| বিমল কর | 23 |
-| হেমেন্দ্রকুমার রায় | 23 |
-| নারায়ণ সান্যাল | 22 |
-| অনীশ দেব | 20 |
-| দেবারতি মুখোপাধ্যায় | 20 |
-| সুকুমারী ভট্টাচার্য | 20 |
-| জুল ভার্ন | 20 |
-| অ্যার্জে | 20 |
-| আশুতোষ মুখোপাধ্যায় | 19 |
-| নীহাররঞ্জন গুপ্ত | 19 |
-| নির্মলেন্দু গুণ | 19 |
-| শঙ্খ ঘোষ | 19 |
-| পাঁচকড়ি দে | 18 |
-| শামসুদ্দীন নওয়াব | 18 |
-| ঈশ্বরচন্দ্র বিদ্যাসাগর | 17 |
-| জসীম উদ্দীন | 17 |
-| প্রফুল্ল রায় | 17 |
-| লীলা মজুমদার | 17 |
-| জীবনানন্দ দাশ | 16 |
-| তারাশঙ্কর বন্দ্যোপাধ্যায় | 16 |
-| নিমাই ভট্টাচার্য | 16 |
-| আগাথা ক্রিস্টি | 16 |
-| বার্ট্রান্ড রাসেল | 15 |
-| আহমদ ছফা | 15 |
-| অবনীন্দ্রনাথ ঠাকুর | 15 |
-| প্রচেত গুপ্ত | 15 |
-| মোহাম্মদ নাজিম উদ্দিন | 15 |
-| অভীক সরকার | 15 |
-| স্মরণজিৎ চক্রবর্তী | 15 |
-| সৈকত মুখোপাধ্যায় | 15 |
-| বুদ্ধদেব বসু | 14 |
-| মহাশ্বেতা দেবী | 14 |
-| সৈয়দ শামসুল হক | 13 |
-| জেমস হ্যাডলি চেজ | 13 |
-| অনীশ দাস অপু | 13 |
-| অর্পিতা সরকার | 13 |
-| নৃসিংহপ্রসাদ ভাদুড়ী | 12 |
-| বদরুদ্দীন উমর | 12 |
-| মানিক বন্দ্যোপাধ্যায় | 12 |
-| উইলবার এডিসন স্মিথ | 12 |
-| স্বামী বিবেকানন্দ | 12 |
-| সুমনকুমার দাশ | 12 |
-| সেলিনা হোসেন | 11 |
-| শিবরাম চক্রবর্তী | 11 |
-| অ্যালেক্স রাদারফোর্ড | 11 |
-| দীনেশচন্দ্র সেন | 11 |
-| পূর্ণেন্দু পত্রী | 11 |
-| গোলাম মাওলা নঈম | 11 |
-| সুজন দাশগুপ্ত | 11 |
-| সায়ক আমান | 11 |
-| লুৎফর রহমান | 11 |
-| বিভূতিভূষণ মুখোপাধ্যায় | 11 |
-| বিনয় ঘোষ | 11 |
-| স্যার আর্থার কোনান ডয়েল | 10 |
-| ইন্দ্রনীল সান্যাল | 10 |
-| মোহাম্মদ শাহজামান শুভ | 10 |
-| অতুল সুর | 10 |
-| সিডনি শেলডন | 10 |
-| প্রিয়নাথ মুখোপাধ্যায় | 10 |
-| সাদাত হোসাইন | 10 |
-| কারেন আর্মস্ট্রং | 9 |
-| কাশেম বিন আবু বকর | 9 |
-| জহির রায়হান | 9 |
-| ইমদাদুল হক মিলন | 9 |
-| আখতারুজ্জামান ইলিয়াস | 9 |
-| ইমাম ইবনে কাসির (রহ.) | 9 |
-| ইমাম মুহাম্মাদ আল-বুখারী (রহ.) | 9 |
-| সুকান্ত ভট্টাচার্য | 9 |
-| কাজী মাহবুব হোসেন | 9 |
-| ওয়াসিকা নুযহাত | 9 |
-| গৌরকিশোর ঘোষ (রূপদর্শী) | 9 |
-| শাহরিয়ার কবির | 9 |
-| সায়ন্তনী পূততুন্ড | 9 |
-| ইবনে উসাইমীন | 8 |
-| অদ্রীশ বর্ধন | 8 |
-| কেইগো হিগাশিনো | 8 |
-| রোমেনা আফাজ | 8 |
-| মাইকেল মধুসূদন দত্ত | 8 |
-| ডেল কার্নেগি | 8 |
-| মোশতাক আহমেদ | 8 |
-| মতি নন্দী | 8 |
-| কাজী আনোয়ার হোসেন, কাজী মায়মুর হোসেন | 8 |
-| শক্তিপদ রাজগুরু | 8 |
-| অতুলচন্দ্র গুপ্ত | 7 |
-| জাহানারা ইমাম | 7 |
-| অনির্বাণ বন্দ্যোপাধ্যায় | 7 |
-| মৌরি মরিয়ম | 7 |
-| সুকুমার রায় | 7 |
-| অমরেন্দ্র চক্রবর্তী | 7 |
-| ড্যান ব্রাউন | 7 |
-| সৈয়দ ওয়ালীউল্লাহ | 7 |
-| অতীন বন্দ্যোপাধ্যায় | 7 |
-| প্রমথ চৌধুরী | 7 |
-| আহমদ শরীফ | 7 |
-| সুধীন্দ্রনাথ দত্ত | 7 |
-| তিলোত্তমা মজুমদার | 7 |
-| রবিন জামান খান | 7 |
-| জে. কে. রাওলিং | 7 |
-| নীরেন্দ্রনাথ চক্রবর্তী | 7 |
-| কৌশিক মজুমদার | 7 |
-| হরিশংকর জলদাস | 6 |
-| আরিফ আজাদ | 6 |
-| অভিষেক চট্টোপাধ্যায় | 6 |
-| ওবায়েদ হক | 6 |
-| প্রবীর ঘোষ | 6 |
-| জিম করবেট | 6 |
-| স্টিফেন হকিং | 6 |
-| প্রেমেন্দ্র মিত্র | 6 |
-| এ. পি. জে. আবদুল কালাম | 6 |
-| দুর্গাদাস লাহিড়ী | 6 |
-| জাতিসংঘ সাধারণ পরিষদ | 6 |
-| জয় গোস্বামী | 6 |
-| ইমাম ইবনে তাইমিয়া (রহ.) | 6 |
-| মনোজ সেন | 6 |
-| স্বপ্নময় চক্রবর্তী | 6 |
-| অমর মিত্র | 6 |
-| অচিন্ত্যকুমার সেনগুপ্ত | 6 |
-| কাজী মায়মুর হোসেন | 6 |
-| অন্নদাশঙ্কর রায় | 6 |
-| সৌমিক দে | 6 |
-| অভিরূপ সরকার | 6 |
-| ক্যারেন আর্মস্ট্রং, শওকত হোসেন | 6 |
-| শ্রীপারাবত (প্রবীর কুমার গোস্বামী) | 6 |
-| কমলকুমার মজুমদার | 5 |
-| তারিক জামীল | 5 |
-| ড. খোন্দকার আব্দুল্লাহ জাহাঙ্গীর | 5 |
-| স্টিফেন কিং | 5 |
-| সরদার ফজলুল করিম | 5 |
-| উল্লাস মল্লিক | 5 |
-| অভিজ্ঞান গাঙ্গুলী | 5 |
-| দেবীপ্রসাদ চট্টোপাধ্যায় | 5 |
-| চার্লস ডিকেন্স | 5 |
-| বিমল মিত্র | 5 |
-| আলেকজান্ডার দ্যুমা | 5 |
-| যদুনাথ সরকার | 5 |
-| রাখালদাস বন্দ্যোপাধ্যায় | 5 |
-| সৈয়দ ইসমাইল হোসেন সিরাজী | 5 |
-| হেমচন্দ্র বন্দ্যোপাধ্যায় | 5 |
-| সুভাষ মুখোপাধ্যায় | 5 |
-| আনিসুল হক | 5 |
-| শওকত ওসমান | 5 |
-| স্বামী সারদানন্দ | 5 |
-| কালিদাস | 5 |
-| এনায়েতুল্লাহ আলতামাস | 5 |
-| আইজাক আসিমভ, নাজমুছ ছাকিব | 5 |
-| জুল ভার্ন, মানবেন্দ্র বন্দ্যোপাধ্যায় | 5 |
-| পৃথ্বীরাজ সেন | 5 |
-| শামসুর রাহমান | 5 |
-| শহীদুল জহির | 5 |
-| রূপক সাহা | 5 |
-| রঞ্জন বন্দ্যোপাধ্যায় | 5 |
-| অজেয় রায় | 5 |
-| নিক পিরোগ, সালমান হক | 5 |
-| সুকান্ত গঙ্গোপাধ্যায় | 5 |
-| হেলাল হাফিজ | 4 |
-| bangla | 4 |
-| আলবানী | 4 |
-| ইবনু উসাইমীন | 4 |
+| Soijd Mujotoba Ali | 42 |
+| Kasem Bin Abubakar | 40 |
+| Bankim Chandra Chattopadhyay | 39 |
+| Himadrikishor Dashogupt | 38 |
+| Kojel Talukodar | 38 |
+| Sarat Chandra Chattopadhyay | 37 |
+| tanbircox | 37 |
+| Uilijam Sheksopijar | 36 |
+| Tarashankar Bandyopadhyay | 35 |
+| Anisul Hok | 34 |
+| Bani Basu | 34 |
+| Rokib Hasan | 33 |
+| Shokti Chattopadhyay | 33 |
+| Asad Bin Haphij | 32 |
+| Shirshendu Mukhopadhyay | 31 |
+| Ahmad Chhopha | 28 |
+| Ashutosh Mukhopadhyay | 28 |
+| Sonjib Chattopadhyay | 27 |
+| Soijd Mustapha Siraj | 27 |
+| Bimol Kor | 26 |
+| Humajun Ajad | 26 |
+| Suchitra Bhattacharya | 26 |
+| Obhik Dutta | 25 |
+| Moloj Rajchoudhuri | 25 |
+| Jibanananda Das | 24 |
+| Arthar Konan Dojel | 24 |
+| Nobonita Debosen | 24 |
+| Ishorochondr Biddasagor | 23 |
+| Ojarje | 23 |
+| Narajn Sannal | 22 |
+| Onish Deb | 21 |
+| Joj Gosami | 20 |
+| Debaroti Mukhopadhyay | 20 |
+| Sukumari Bhattacharya | 20 |
+| Jul Bharn | 20 |
+| Obonindronath Tagore | 19 |
+| Niharoronjon Gupta | 19 |
+| Agatha Kristi | 19 |
+| Nirmolendu Gun | 19 |
+| Shongkh Ghosh | 19 |
+| Shamosuddin Nojab | 19 |
+| Otin Bandyopadhyay | 18 |
+| Pachokodi De | 18 |
+| Humayun Ahmed [2009] | 18 |
+| Josim Uddin | 17 |
+| Prophull Ray | 17 |
+| Lila Mojumodar | 17 |
+| Ochinttokumar Senogupt | 16 |
+| Imodadul Hok Milon | 16 |
+| Nimai Bhattacharya | 16 |
+| Bartrand Rasel | 15 |
+| Horishongkor Jolodas | 15 |
+| Prochet Gupta | 15 |
+| Mohammad Najim Uddin | 15 |
+| Obhik Sarkar | 15 |
+| Smoronojit Chokroborti | 15 |
+| Soikot Mukhopadhyay | 15 |
+| Swami Bibekanond | 14 |
+| Mohasheta Devi | 14 |
+| Selina Hossain | 13 |
+| Ahmad Shoriph | 13 |
+| Soijd Shamosul Hok | 13 |
+| Debiprosad Chattopadhyay | 13 |
+| Otul Sur | 13 |
+| Shiboram Chokroborti | 13 |
+| Jemos Hyadoli Chej | 13 |
+| Onish Das Opu | 13 |
+| Humayun Ahmed [1993] | 13 |
+| Orpita Sarkar | 13 |
+| 1m Khond | 12 |
+| Nrisinghoprosad Bhadudi | 12 |
+| Bodoruddin Umor | 12 |
+| Manik Bandyopadhyay | 12 |
+| Uilobar Edison Smith | 12 |
+| Humayun Ahmed [1992] | 12 |
+| Sumonokumar Das | 12 |
+| Ojaleks Radarophord | 11 |
+| Del Karnegi | 11 |
+| Dineshochondr Sen | 11 |
+| 2j Khond | 11 |
+| Purnendu Potri | 11 |
+| Golam Maola Nim | 11 |
+| Sujon Dashogupt | 11 |
+| Sajk Aman | 11 |
+| Lutphor Rahman | 11 |
+| Bibhutibhushan Mukhopadhyay | 11 |
+| Binoj Ghosh | 11 |
+| 1 | 10 |
+| Syar Arthar Konan Dojel | 10 |
+| Indronil Sannal | 10 |
+| Mohammad Shahojaman Shubh | 10 |
+| Johir Rajhan | 10 |
+| Sidoni Shelodon | 10 |
+| Prijnath Mukhopadhyay | 10 |
+| Onnodashongkor Ray | 10 |
+| Shahorijar Kobir | 10 |
+| Humayun Ahmed [2011] | 10 |
+| Humayun Ahmed [2002] | 10 |
+| Sadat Hosain | 10 |
+| Ibone Usaimin | 9 |
+| Karen Armostrong | 9 |
+| Kashem Bin Abu Bokor | 9 |
+| Akhotarujjaman Ilijas | 9 |
+| Ashutosh Bhattacharya | 9 |
+| Humayun Ahmed [1994] | 9 |
+| Imam Ibone Kasir (Roh.) | 9 |
+| Imam Muhammad Al-Bukhari (Roh.) | 9 |
+| Humayun Ahmed [1989] | 9 |
+| Humayun Ahmed [1990] | 9 |
+| Humayun Ahmed [2003] | 9 |
+| Enajtullah Alotamas | 9 |
+| Sukanta Bhattacharya | 9 |
+| Kazi Mahobub Hossain | 9 |
+| Ojasika Nujohat | 9 |
+| Gourokishor Ghosh (Rupodorshi) | 9 |
+| Sajntoni Putotund | 9 |
+| Tilottoma Mojumodar | 8 |
+| Odrish Bordhon | 8 |
+| Omorendr Chokroborti | 8 |
+| Keigo Higashino | 8 |
+| Romena Aphaj | 8 |
+| Abu Taher Misobah | 8 |
+| Maikel Modhusudon Dutta | 8 |
+| Bankim Chandra Chattopadhyay (v1) | 8 |
+| Humayun Ahmed [1991] | 8 |
+| Moshotak Ahmed | 8 |
+| Moti Nondi | 8 |
+| Kazi Anojar Hossain, Kazi Majmur Hossain | 8 |
+| Shoktipod Rajoguru | 8 |
+| 2 | 7 |
+| Otulochondr Gupta | 7 |
+| Jahanara Imam | 7 |
+| Oniran Bandyopadhyay | 7 |
+| bangla | 7 |
+| D. Khondokar Abdullah Jahanggir | 7 |
+| Mouri Morijm | 7 |
+| Sukumar Ray | 7 |
+| Dyan Braun | 7 |
+| Soijd Ojaliullah | 7 |
+| Promoth Chowdhury | 7 |
+| Humayun Ahmed [2005] | 7 |
+| Humayun Ahmed [1995] | 7 |
+| Sudhindronath Dutta | 7 |
+| Robin Jaman Khan | 7 |
+| Je. Ke. Raoling | 7 |
+| Nirendronath Chokroborti | 7 |
+| Koushik Mojumodar | 7 |
+| Abul Bashar | 6 |
+| Komolokumar Mojumodar | 6 |
+| Kaliprosonn Singh | 6 |
+| Narajn Gangopadhyay | 6 |
+| Ariph Ajad | 6 |
+| Obhishek Chattopadhyay | 6 |
+| Obajed Hok | 6 |
+| Probir Ghosh | 6 |
+| Jim Korobet | 6 |
+| Stiphen Hoking | 6 |
+| Premendr Mitra | 6 |
+| E. Pi. Je. Abodul Kalam | 6 |
+| Lio Tolostoj | 6 |
+| Omij Chokroborti | 6 |
+| Ponchanon Torkorotn | 6 |
+| Humayun Ahmed [2010] | 6 |
+| Durgadas Lahidi | 6 |
+| Jatisonggh Sadharon Porishod | 6 |
+| Hemochondr Bandyopadhyay | 6 |
+| Humayun Ahmed [2012] | 6 |
+| Humayun Ahmed [1996] | 6 |
+| Humayun Ahmed [1997] | 6 |
+| Humayun Ahmed [2001] | 6 |
+| Humayun Ahmed [2008] | 6 |
+| Imam Ibone Taimija (Roh.) | 6 |
+| Monoj Sen | 6 |
+| Swopnomoj Chokroborti | 6 |
+| Omor Mitra | 6 |
+| Kazi Majmur Hossain | 6 |
+| Soumik De | 6 |
+| Obhirup Sarkar | 6 |
+| Kyaren Armostrong, Shokot Hossain | 6 |
+| Shriparabot (Probir Kumar Gosami) | 6 |
+| Abul Monosur Ahmad | 5 |
+| Aroj Ali Matubr | 5 |
+| Gojendrokumar Mitra | 5 |
+| Girishochondr Ghosh | 5 |
+| Gopal Halodar | 5 |
+| Helal Haphij | 5 |
+| Humayun Ahmed [2006] | 5 |
+| Tarik Jamil | 5 |
+| Stiphen King | 5 |
+| Sorodar Phojolul Korim | 5 |
+| Ullas Mollik | 5 |
+| Obhijnan Gangguli | 5 |
+| Charlos Dikens | 5 |
+| Bimol Mitra | 5 |
+| Alekojandar Dyuma | 5 |
+| Jodunath Sarkar | 5 |
+| Upendrokishor Rajchoudhuri | 5 |
+| Taradas Bandyopadhyay | 5 |
+| Saijed Abul Ala Modudi | 5 |
+| Dwitij Khondo | 5 |
+| Tritij Khondo | 5 |
+| Odhdhapok Abodul Motin | 5 |
+| Humayun Ahmed [2007] | 5 |
+| Rakhalodas Bandyopadhyay | 5 |
+| Soijd Isomail Hossain Siraji | 5 |
+| Humajun Ajad [1992] | 5 |
+| Humayun Ahmed [1988] | 5 |
+| Humayun Ahmed [1998] | 5 |
+| Humayun Ahmed [2000] | 5 |
+| Humayun Ahmed [1986] | 5 |
+| Subhash Mukhopadhyay | 5 |
+| Shokot Osoman | 5 |
+| Swami Sarodanond | 5 |
+| Kalidas | 5 |
+| Enajetullah Alotamas | 5 |
+| Aijak Asimobh, Najomuchh Chhakib | 5 |
+| Jul Bharn, Manobendr Bandyopadhyay | 5 |
+| Prithiraj Sen | 5 |
+| Shamosur Rahoman | 5 |
+| Shohidul Johir | 5 |
+| Rupok Saha | 5 |
+| Ronjon Bandyopadhyay | 5 |
+| Ojej Ray | 5 |
+| Nik Pirog, Saloman Hok | 5 |
+| Sukanta Gangopadhyay | 5 |
+| 4rth Khond | 4 |
+| 5m Khond | 4 |
+| 6shth Khond | 4 |
+| 3 | 4 |
+| 4 | 4 |
+| Oshok Mitra | 4 |
+| Em Ar Akhotar Mukul | 4 |
+| Golam Muroshid | 4 |
+| Ahomad Mostopha Kamal | 4 |
+| Krishon Chondor | 4 |
+| Alobani | 4 |
+| Ibonu Usaimin | 4 |
 | Shlomo Sand | 4 |
-| সুভাষচন্দ্র বসু | 4 |
-| কালীপ্রসন্ন সিংহ | 4 |
-| বিশ্বরূপ মজুমদার | 4 |
-| আইজাক আসিমভ | 4 |
-| আকবর আলি খান | 4 |
-| নিল গেইম্যান | 4 |
-| শওকত আলী | 4 |
-| নীহাররঞ্জন রায় | 4 |
-| নারায়ণ গঙ্গোপাধ্যায় | 4 |
-| ভিক্টর হুগো | 4 |
-| উপেন্দ্রকিশোর রায়চৌধুরী | 4 |
-| মিশিও কাকু | 4 |
-| ত্রৈলোক্যনাথ মুখোপাধ্যায় | 4 |
-| তারাদাস বন্দ্যোপাধ্যায় | 4 |
-| মার্ক টোয়েন | 4 |
-| রমেশচন্দ্র মজুমদার | 4 |
-| ড. আবু বকর মুহাম্মাদ যাকারিয়া | 4 |
-| জ্যোতিরিন্দ্রনাথ ঠাকুর | 4 |
-| শওকত হোসেন | 4 |
-| ক্ষিতিমোহন সেন | 4 |
-| আবুল হাসান | 4 |
-| কৌটিল্য / চাণক্য / বিষ্ণুগুপ্ত | 4 |
-| সুপ্রতিম সরকার | 4 |
-| বিনোদ ঘোষাল | 4 |
-| মঞ্জিল সেন | 4 |
-| নবারুণ ভট্টাচার্য | 4 |
-| তৌফির হাসান উর রাকিব | 4 |
-| লিও তলস্তয় | 4 |
-| সন্মাত্রানন্দ | 4 |
-| গজেন্দ্রকুমার মিত্র | 4 |
-| সরোজকুমার রায়চৌধুরী | 4 |
-| আল মাহমুদ | 4 |
-| মাহমুদুল হক | 4 |
-| ষষ্ঠীপদ চট্টোপাধ্যায় | 4 |
-| সৌভিক চক্রবর্তী | 4 |
-| পিয়া সরকার | 4 |
-| পৌলোমী সেনগুপ্ত | 4 |
-| দীপান্বিতা রায় | 4 |
-| সৌরভ চক্রবর্তী | 4 |
-| শাক্যজিৎ ভট্টাচার্য | 4 |
-| আর্থার সি. ক্লার্ক, মাকসুদুজ্জামান খান | 4 |
-| অদ্রীশ বর্ধন, এইচ জি ওয়েলস | 4 |
-| শংকর (মণিশংকর মুখোপাধ্যায়) | 4 |
-| আবুল ফজল | 3 |
+| Subhashochondr Basu | 4 |
+| Bishorup Mojumodar | 4 |
+| Aijak Asimobh | 4 |
+| Akobor Ali Khan | 4 |
+| Nil Geimman | 4 |
+| Shokot Ali | 4 |
+| Niharoronjon Ray | 4 |
+| Bhiktor Hugo | 4 |
+| Mishio Kaku | 4 |
+| Troilokkonath Mukhopadhyay | 4 |
+| Mark Tojen | 4 |
+| Myaksim Gorki | 4 |
+| Romeshochondr Mojumodar | 4 |
+| Abu Ahomad Saiphuddin Belal | 4 |
+| Prothom Khondo | 4 |
+| Choturth Khondo | 4 |
+| Shridineshochondr Sen | 4 |
+| Muhammad Asadullah Al Galib | 4 |
+| Horoprosad Shastri | 4 |
+| D. Abu Bokor Muhammad Jakarija | 4 |
+| Dwijendrolal Ray | 4 |
+| Jyotirindronath Tagore | 4 |
+| D. Jakir Najek | 4 |
+| 3j Khond | 4 |
+| Abdullah Abu Sajid | 4 |
+| Upendrokishor Ray | 4 |
+| Humayun Ahmed [1999] | 4 |
+| Enajetullah Alotamash | 4 |
+| Shokot Hossain | 4 |
+| Kshitimohon Sen | 4 |
+| Abul Hasan | 4 |
+| Koutillo Chanokko Bishnugupt | 4 |
+| Suprotim Sarkar | 4 |
+| Binod Ghoshal | 4 |
+| Monjil Sen | 4 |
+| Nobarun Bhattacharya | 4 |
+| Touphir Hasan Ur Rakib | 4 |
+| Sonmatranond | 4 |
+| Sorojokumar Rajchoudhuri | 4 |
+| Al Mahomud | 4 |
+| Mahomudul Hok | 4 |
+| Shoshthipod Chattopadhyay | 4 |
+| Soubhik Chokroborti | 4 |
+| Pija Sarkar | 4 |
+| Poulomi Senogupt | 4 |
+| Dipanita Ray | 4 |
+| Sourobh Chokroborti | 4 |
+| Shakkojit Bhattacharya | 4 |
+| Arthar Si. Klark, Makosudujjaman Khan | 4 |
+| Odrish Bordhon, Eich Ji Ojelos | 4 |
+| Shongkor (Monishongkor Mukhopadhyay) | 4 |
+| Ibone Taimijjah (Roh.) | 3 |
+| Abodush Shakur | 3 |
+| Abul Phojol | 3 |
+| Anisujjaman | 3 |
+| Kolim Khan | 3 |
+| Ahosan Habib | 3 |
+| Kingkor Ah‌san | 3 |
+| Topon Bagochi | 3 |
+| Tridib Dostidar | 3 |
+| Gopal Halodar Sompadit | 3 |
+| Hasan Ajijul Hok | 3 |
 | Ahmadullah | 3 |
 | Zubair Ali Zai | 3 |
-| আসাদুল্লাহ গালিব | 3 |
+| Asadullah Galib | 3 |
 | Nur Masalha | 3 |
-| সত্যেন সেন | 3 |
-| ঋজু গাঙ্গুলী | 3 |
-| মণিশংকর মুখোপাধ্যায় | 3 |
-| হিমাদ্রীকিশোর দাশগুপ্ত | 3 |
-| আবুল মনসুর আহমদ | 3 |
-| অমলেন্দু দে | 3 |
-| আলী ইমাম | 3 |
-| ডেল কার্ণেগী | 3 |
-| বিশ্বজিত সাহা | 3 |
-| প্যারীচাঁদ মিত্র | 3 |
+| Sotten Sen | 3 |
+| Riju Gangguli | 3 |
+| Monishongkor Mukhopadhyay | 3 |
+| Omolendu De | 3 |
+| Ali Imam | 3 |
+| Tarapod Ray | 3 |
+| Bishojit Saha | 3 |
+| Pyarichad Mitra | 3 |
 | Anisul Haque | 3 |
-| জগদানন্দ রায় | 3 |
-| ভারতচন্দ্র রায় | 3 |
-| শিবনাথ শাস্ত্রী | 3 |
-| সতীশচন্দ্র মিত্র | 3 |
-| আবু ইসহাক | 3 |
-| দাউদ হায়দার | 3 |
-| মুফতীয়ে আযম বাঙ্গাল শায়েখ গোলাম সামদানী রেজভী | 3 |
-| রমণীমোহন মল্লিক | 3 |
-| শেখ মুজিবুর রহমান | 3 |
-| কাজী শাহনূর হোসেন | 3 |
-| রওশন জামিল | 3 |
-| সৈয়দ আবুল মকসুদ | 3 |
-| সুবোধ ঘোষ | 3 |
-| হেনরি রাইডার হ্যাগার্ড | 3 |
-| আরজ আলী মাতুব্বর | 3 |
-| কৌশিক দাশ | 3 |
-| মাসরুর আরেফিন | 3 |
-| ডিউক জন | 3 |
-| অভীক চট্টোপাধ্যায় | 3 |
-| সুকুমার সেন | 3 |
-| অশোক দাশগুপ্ত | 3 |
-| মিহির সেনগুপ্ত | 3 |
-| রশীদ করীম | 3 |
-| ভাস্কর চক্রবর্তী | 3 |
-| আলেকজান্ডার ডুমাস, ফারুক হোসেন | 3 |
-| আগাথা ক্রিস্টি, পৃথ্বীরাজ সেন | 3 |
-| মানবেন্দ্র পাল | 3 |
-| তপন বন্দ্যোপাধ্যায় | 3 |
-| শৈলেন ঘোষ | 3 |
-| সুমিত বর্ধন | 3 |
-| রতনতনু ঘাটী | 3 |
-| অভীক মুখোপাধ্যায় | 3 |
-| খাদিজা মিম | 3 |
-| কৌশিক সামন্ত | 3 |
-| প্রীতম বসু | 3 |
-| পার্থ চট্টোপাধ্যায় | 3 |
-| বেগম রোকেয়া সাখাওয়াত হোসেন | 3 |
-| কাজী মাহবুব হাসান, রিচার্ড ডকিন্স | 3 |
-| শ্যামল গঙ্গোপাধ্যায় | 3 |
-| ময়ূখ চৌধুরী (প্রসাদ রায়) | 3 |
-| সাগরময় ঘোষ | 3 |
-| আবুল বাসার, মিচিও কাকু | 3 |
-| আফনান নিবিড়, পিয়ের লেমেইত | 3 |
-| উইলবার স্মিথ, মখদুম আহমেদ | 3 |
-| অমিয়ভূষণ মজুমদার | 3 |
-| সন্দীপন চট্টোপাধ্যায় | 3 |
-| মরিস বুকাইলি | 2 |
-| ধীরেশচন্দ্র ভট্টাচার্য | 2 |
-| গোলাম মুরশিদ | 2 |
-| ভবানীপ্রসাদ সাহু | 2 |
-| মুফতি মহম্মদ নঈমুদ্দিন রেজভী | 2 |
+| Otuloprosad Sen | 3 |
+| Ponchom Khondo | 3 |
+| Shoshth Khondo | 3 |
+| Soptom Khondo | 3 |
+| Oshtom Khondo | 3 |
+| Nobom Khondo | 3 |
+| Doshom Khondo | 3 |
+| Ekadosh Khondo | 3 |
+| Masuda Sulotana Rumi | 3 |
+| Abodus Shohid Nasim | 3 |
+| Jogodanond Ray | 3 |
+| Bharotochondr Ray | 3 |
+| Shibonath Shastri | 3 |
+| Sotishochondr Mitra | 3 |
+| Abu Isohak | 3 |
+| Obhijit Ray | 3 |
+| Daud Hajdar | 3 |
+| Debesh Ray | 3 |
+| Begom Rokeja | 3 |
+| Binoj Mojumodar | 3 |
+| Humajun Ajad [1997] | 3 |
+| Krittibas Ojha | 3 |
+| Harun Ijahija | 3 |
+| Muphotije Ajom Banggal Shajekh Golam Samodani Rejobhi | 3 |
+| Romonimohon Mollik | 3 |
+| Shekh Mujibur Rahman | 3 |
+| Kazi Shahonur Hossain | 3 |
+| Roshon Jamil | 3 |
+| Soijd Abul Mokosud | 3 |
+| Subodh Ghosh | 3 |
+| Kazi Abodul Odud | 3 |
+| Henori Raidar Hyagard | 3 |
+| Koushik Das | 3 |
+| Masorur Arephin | 3 |
+| Diuk Jon | 3 |
+| Obhik Chattopadhyay | 3 |
+| Sukumar Sen | 3 |
+| Oshok Dashogupt | 3 |
+| Mihir Senogupt | 3 |
+| Roshid Korim | 3 |
+| Bhaskor Chokroborti | 3 |
+| Alekojandar Dumas, Pharuk Hossain | 3 |
+| Agatha Kristi, Prithiraj Sen | 3 |
+| Manobendr Pal | 3 |
+| Topon Bandyopadhyay | 3 |
+| Shoilen Ghosh | 3 |
+| Sumit Bordhon | 3 |
+| Rotonotonu Ghati | 3 |
+| Obhik Mukhopadhyay | 3 |
+| Khadija Mim | 3 |
+| Koushik Samont | 3 |
+| Pritom Basu | 3 |
+| Parth Chattopadhyay | 3 |
+| Begom Rokeja Sakhaojat Hossain | 3 |
+| Kazi Mahobub Hasan, Richard Dokins | 3 |
+| Shyamol Gangopadhyay | 3 |
+| Mojukh Chowdhury (Prosad Ray) | 3 |
+| Sagoromoj Ghosh | 3 |
+| Abul Basar, Michio Kaku | 3 |
+| Aphonan Nibid, Pijer Lemeit | 3 |
+| Uilobar Smith, Mokhodum Ahmed | 3 |
+| Omijbhushon Mojumodar | 3 |
+| Sondipon Chattopadhyay | 3 |
+| Muhammad Abdul Malek | 2 |
+| Shaikh Ali Tanotabi | 2 |
+| Moris Bukaili | 2 |
+| D. Abdullah Jahanggir | 2 |
+| Abdullah Jahanggir | 2 |
+| 01927807760 -01818519600 | 2 |
+| 10m Khond | 2 |
+| 7m Khond | 2 |
+| Ar Rahikul Makhotum | 2 |
+| Ojanthoni Masokarenohas | 2 |
+| Bangla Ekademi | 2 |
+| Alauddin Al Ajad | 2 |
+| Omol Dasogupt | 2 |
+| D. Otul Sur | 2 |
+| Orun Mitra | 2 |
+| Mahobub Alom | 2 |
+| Ashutosh Deb Songkolit) | 2 |
+| Shrimohendronath Bhattacharya Bangla Shitya-Sangraha | 2 |
+| Kangal Horinath Mojumodar | 2 |
+| Arundhati Roy | 2 |
+| Uikipidija | 2 |
+| Korkoter Bish | 2 |
+| Chittoronjon Maiti | 2 |
+| Jogodish Gupta | 2 |
+| Debobrot Mukhopadhyay | 2 |
+| Dwijen Shorma | 2 |
+| Jamal Nazrul Islam | 2 |
+| Dhireshochondr Bhattacharya | 2 |
+| Bodore Munir | 2 |
+| Chomok Hasan | 2 |
+| Golam Mostopha | 2 |
+| Copy | 2 |
+| Bonophul | 2 |
+| Hashem Khan | 2 |
+| Bhobaniprosad Sahu | 2 |
+| Rajoshekhor Basu | 2 |
+| Muphoti Mohommod Nimuddin Rejobhi | 2 |
+| Bangla Onubad | 2 |
 | ghalib | 2 |
-| ইতিহাস | 2 |
+| Itihas | 2 |
 | MaulanaAbulHasanAliNadviRA | 2 |
-| বিন ফাওযান | 2 |
-| আব্দুল হামীদ ফাইযী | 2 |
-| আসাদুল্লাহ আল গালিব | 2 |
+| Bin Phaojan | 2 |
+| Abdul Hamid Phaiji | 2 |
+| Asadullah Al Galib | 2 |
+| Sajjad Saladin | 2 |
 | spiral Spring | 2 |
-| শান্তনু বসু | 2 |
-| ইমানুল হক | 2 |
-| জর্জ অরওয়েল | 2 |
-| ভবেশ রায় | 2 |
-| সুসান ওয়াইজ বাউয়ার | 2 |
-| শহীদুল্লা কায়সার | 2 |
-| মুনীর চৌধুরী | 2 |
-| কার্ল হাইনরিশ মার্ক্স | 2 |
-| হারবার্ট জর্জ ওয়েলস | 2 |
-| উইলিয়াম শেকসপিয়র | 2 |
-| অ্যাডগার অ্যালান পো | 2 |
-| শাহাদুজ্জামান | 2 |
-| তারাপদ রায় | 2 |
-| অদ্বৈত মল্লবর্মণ | 2 |
-| পরশুরাম | 2 |
-| লিও টলস্টয় | 2 |
-| ম্যাক্সিম গোর্কি | 2 |
-| সুশীল চৌধুরী | 2 |
+| Sottobhushon Bandyopadhyay | 2 |
+| Montu Chokroborti | 2 |
+| Shantonu Basu | 2 |
+| Promodaronjon Ray | 2 |
+| Imanul Hok | 2 |
+| Leil Lonodes | 2 |
+| Jorj Orojel | 2 |
+| Bhobesh Ray | 2 |
+| Susan Ojaij Baujar | 2 |
+| Robart Ti Kijosaki | 2 |
+| Shohidulla Kajsar | 2 |
+| Munir Chowdhury | 2 |
+| Karl Hainorish Marks | 2 |
+| Harobart Jorj Ojelos | 2 |
+| Uilijam Shekosopijr | 2 |
+| Ojadogar Ojalan Po | 2 |
+| Shahadujjaman | 2 |
+| Uttomokumar Chattopadhyay | 2 |
+| Odoit Mollobormon | 2 |
+| Poroshuram | 2 |
+| Sushil Chowdhury | 2 |
 | ImamGhazzaliRA | 2 |
-| WHO tanbircox | 2 |
+| WHO | 2 |
 | ok.xyz) | 2 |
-| Bani Basu | 2 |
 | Satyajit Roy | 2 |
-| অনুরূপা দেবী | 2 |
-| আবু আহমাদ সাইফুদ্দিন বেলাল | 2 |
-| শামসুল আরেফীন শক্তি | 2 |
-| জগদীশচন্দ্র বসু | 2 |
-| কাশীরাম দাস | 2 |
-| জ্ঞানদানন্দিনী দেবী | 2 |
-| বিপিন বিহারী শাহ | 2 |
-| অক্ষয়চন্দ্র সরকার | 2 |
-| তপোধীর ভট্টাচার্য | 2 |
-| ব্রজেন্দ্রনাথ বন্দ্যোপাধ্যায় | 2 |
-| দক্ষিণারঞ্জন মিত্র মজুমদার | 2 |
-| রমেশচন্দ্র দত্ত | 2 |
-| মোহিতলাল মজুমদার | 2 |
-| হেমলতা দেবী | 2 |
-| ড. আবদুর রহমান রাফাত পাশা (রহঃ) | 2 |
-| সঞ্জীবচন্দ্র চট্টোপাধ্যায় | 2 |
-| বাৎস্যায়ন | 2 |
-| মাওলানা মাহমুদুল হাসান | 2 |
-| হারুন ইয়াহিয়া | 2 |
-| বিন বায | 2 |
-| ড. যাকারীয়া | 2 |
-| ড. জাকির নায়েক | 2 |
-| বিহারীলাল চক্রবর্তী | 2 |
-| ফরহাদ মজহার | 2 |
-| বিদ্যুৎ মিত্র | 2 |
-| ধীরাজ ভট্টাচার্য | 2 |
-| সুধীর চক্রবর্তী | 2 |
-| আনিসুজ্জামান | 2 |
-| পৃথ্বীরাজ সেন, সিডনি সেলডন | 2 |
-| সুবোধ সরকার | 2 |
-| রাজশেখর বসু (পরশুরাম) | 2 |
-| সুধাংশু শেখর বিশ্বাস | 2 |
-| কাজী আবদুল ওদুদ | 2 |
-| প্রসেনজিৎ দাশগুপ্ত | 2 |
-| মোহিত কামাল | 2 |
-| এডিথ নেসবিট | 2 |
-| রণেন ঘোষ | 2 |
-| পাঁচকড়ি বন্দ্যোপাধ্যায় | 2 |
-| আফজাল হোসেন | 2 |
-| ইশতিয়াক হাসান | 2 |
-| জুনায়েদ ইভান | 2 |
-| অলক চট্টোপাধ্যায় | 2 |
-| সঙ্গীতা বন্দ্যোপাধ্যায় | 2 |
-| অনির্বাণ ঘোষ | 2 |
-| আবুল বাশার | 2 |
-| এ পি জে আবদুল কালাম | 2 |
-| সুগারু মিয়াকি | 2 |
-| কবীর চৌধুরী | 2 |
-| কেইগো হিগাশিনো, সালমান হক | 2 |
-| ত্রিদিব দস্তিদার | 2 |
-| অদ্রীশ বর্ধন, আর্থার কোনান ডয়েল | 2 |
-| জেমস হেডলি চেজ, পৃথ্বীরাজ সেন | 2 |
-| অভিজিৎ রায় | 2 |
-| জুবায়ের আলম | 2 |
-| পঞ্চানন তর্করত্ন | 2 |
-| আব্দুল্লাহ ইবনে মাহমুদ | 2 |
-| বলাইচাঁদ মুখোপাধ্যায় (বনফুল) | 2 |
-| তপন বাগচী | 2 |
-| স্বামী লোকেশ্বরানন্দ | 2 |
-| শ্রীপান্থ (নিখিল সরকার) | 2 |
-| মল্লিকা সেনগুপ্ত | 2 |
-| বিনায়ক বন্দ্যোপাধ্যায় | 2 |
-| দেবেশ রায় | 2 |
-| সিদ্ধার্থ ঘোষ | 2 |
-| সোমব্রত সরকার | 2 |
-| সোনালী ঘোষাল | 2 |
-| সুধীন্দ্রনাথ রাহা | 2 |
-| দিব্যেন্দু পালিত | 2 |
-| বিষ্ণু দে | 2 |
-| ইলমা বেহরোজ | 2 |
-| সুব্রত অগাস্টিন গোমেজ | 2 |
-| রঞ্জিত চট্টোপাধ্যায় | 2 |
-| শিশিরকুমার বসু | 2 |
-| অনন্যা পাল | 2 |
-| মণি ভৌমিক | 2 |
-| স্বামী বেদানন্দ | 2 |
-| দেবজ্যোতি ভট্টাচার্য | 2 |
-| বরাহমিহির | 2 |
-| পঞ্চানন ঘোষাল | 2 |
-| দিব্যজ্যোতি মজুমদার | 2 |
-| শিবব্রত বর্মন | 2 |
-| শঙ্কর চ্যাটার্জী | 2 |
-| সোমজা দাস | 2 |
-| আর্থার কোনান ডয়েল, শিশির চক্রবর্তী | 2 |
-| সৌমিত্র বিশ্বাস | 2 |
-| রণদীপ নন্দী | 2 |
-| রমাপদ চৌধুরী | 2 |
-| সমৃদ্ধ দত্ত | 2 |
-| পল্লবী সেনগুপ্ত | 2 |
-| দেবাঞ্জন মুখোপাধ্যায় | 2 |
-| হেমন্ত মুখোপাধ্যায় | 2 |
-| প্রভাবতী দেবী সরস্বতী | 2 |
-| অৎসুইশি, কৌশিক জামান | 2 |
-| সুস্মিতা বন্দ্যোপাধ্যায় | 2 |
-| স্বামী প্রভুপাদ | 2 |
-| মাসুদ আনোয়ার | 2 |
-| হরিনারায়ণ চট্টোপাধ্যায় | 2 |
-| চার্লস ডারউইন, শান্তিরঞ্জন ঘোষ | 2 |
-| অস্কার ওয়াইল্ড, সুনীলকুমার ঘোষ | 2 |
-| ইশতিয়াক খান, সুসান ওয়াইজ বাউয়ার | 2 |
-| পার্থ সারথী দাস, হোমার | 2 |
-| পাওলো কোয়েলহো, প্রিন্স আশরাফ | 2 |
-| ক্লাইভ কাসলার, মখদুম আহমেদ | 2 |
-| উইলবার স্মিথ, জেসি মেরী কুইয়া | 2 |
-| কাজী শাহনূর হোসেন, রাফায়েল সাবাতিনি | 2 |
-| কাজী আনোয়ার হোসেন, রাফায়েল সাবাতিনি | 2 |
-| অমিয় চক্রবর্তী | 2 |
-| অভিজ্ঞান রায়চৌধুরী | 2 |
-| ফাল্গুনী মুখোপাধ্যায় | 2 |
-| শুভ্র বন্দ্যোপাধ্যায় | 2 |
-| এ . এন. এম. সিরাজুল ইসলাম | 1 |
-| মাইকেল এইচ. হার্ট | 1 |
-| মুহাম্মদ আসাদ | 1 |
-| খন্দকার মাশহুদ-উল-হাছান, মরিস বুকাইলি | 1 |
-| এইচ. এ. আর. গিব, মোহাম্মদ নাসির আলী | 1 |
-| এনায়েতুল্লাহ আলতামাশ, শহীদুল ইসলাম | 1 |
-| অশোক মিত্র | 1 |
-| বন্যা আহমেদ | 1 |
-| ভগৎ সিং | 1 |
+| Onurupa Devi | 2 |
+| Khondokar Swonon Shahorijar | 2 |
+| Maolana Saijed Abul Ala Modudi | 2 |
+| Dwadosh Khondo | 2 |
+| Humajun Ajad [1993] | 2 |
+| Chapter 1 1 - 85p | 2 |
+| Chapter 1 1 - 36p | 2 |
+| Muhammad Bin Saleh Al Usaimin | 2 |
+| Moh Masum Billah Bin Reja | 2 |
+| Saijjed Abul Ala Modudi | 2 |
+| Muhammad Abdur Rahman Khondokar | 2 |
+| Buddhodeb Basu Sompadit | 2 |
+| Appendix | 2 |
+| Index | 2 |
+| Shamosul Arephin Shokti | 2 |
+| Jogodishochondr Basu | 2 |
+| Kashiram Das | 2 |
+| Jnanodanondini Devi | 2 |
+| Bipin Bihari Shah | 2 |
+| Okshojchondr Sarkar | 2 |
+| Topodhir Bhattacharya | 2 |
+| Brojendronath Bandyopadhyay | 2 |
+| Dokshinaronjon Mitra Mojumodar | 2 |
+| Romeshochondr Dutta | 2 |
+| Mohitolal Mojumodar | 2 |
+| Shombhuchondr Biddarotn | 2 |
+| Hemolota Devi | 2 |
+| D. Abodur Rahman Raphat Pasha (Rohoh) | 2 |
+| Sonjibochondr Chattopadhyay | 2 |
+| Binodini Dasi | 2 |
+| Kazi Jahan Mija | 2 |
+| Abul Hossain Bhattacharya | 2 |
+| Allama Delaojar Hosain Saidi | 2 |
+| Ibonul Jaoji (Rohoh) | 2 |
+| Sunitikumar Chattopadhyay | 2 |
+| Surobhi Bandyopadhyay | 2 |
+| Suphija Kamal | 2 |
+| Shrihorichoron Bandyopadhyay | 2 |
+| Abdul Mannan Soijd | 2 |
+| Ajman Sadik O Sadoman Sadik | 2 |
+| Khushobont Sing | 2 |
+| Dwoipajn | 2 |
+| 2j Khondo | 2 |
+| Batssajn | 2 |
+| 2j Bhag | 2 |
+| Humajun Ajad [1995] | 2 |
+| Humajun Ajad [1998] | 2 |
+| Humajun Ahmed [1991] | 2 |
+| Humajun Ajad [1999] | 2 |
+| Humajun Ajad [2004] | 2 |
+| Humajun Ajad [2001] | 2 |
+| Humajun Kobir | 2 |
+| Humajun Ajad [2003] | 2 |
+| Humayun Ahmed [2013] | 2 |
+| Humayun Ahmed [2014] | 2 |
+| Horoprosad Mukhopadhyay | 2 |
+| Humayun Ahmed [1973] | 2 |
+| Humayun Ahmed [2004] | 2 |
+| Humayun Ahmed [1985] | 2 |
+| Maolana Mahomudul Hasan | 2 |
+| Muphoti Ajom Banggal Shajekh Golam Samodani Rejobhi | 2 |
+| Bin Baj | 2 |
+| D. Jakarija | 2 |
+| Abdur Rajojok Bin Iusuph | 2 |
+| Abodullah Abu Sajid | 2 |
+| Biharilal Chokroborti | 2 |
+| Phorohad Mojohar | 2 |
+| Biddut Mitra | 2 |
+| Dhiraj Bhattacharya | 2 |
+| Sudhir Chokroborti | 2 |
+| Prithiraj Sen, Sidoni Selodon | 2 |
+| Subodh Sarkar | 2 |
+| Rajoshekhor Basu (Poroshuram) | 2 |
+| Sudhangshu Shekhor Bishas | 2 |
+| Prosenojit Dashogupt | 2 |
+| Mohit Kamal | 2 |
+| Shajkh D. Ali Tanotabi Roh | 2 |
+| Edith Nesobit | 2 |
+| Ronen Ghosh | 2 |
+| D. Ali Tanotabi | 2 |
+| Pachokodi Bandyopadhyay | 2 |
+| Aphojal Hossain | 2 |
+| Ishotijak Hasan | 2 |
+| Junajed Ibhan | 2 |
+| Olok Chattopadhyay | 2 |
+| Songgita Bandyopadhyay | 2 |
+| Oniran Ghosh | 2 |
+| E Pi Je Abodul Kalam | 2 |
+| Sugaru Mijaki | 2 |
+| Kobir Chowdhury | 2 |
+| Keigo Higashino, Saloman Hok | 2 |
+| Odrish Bordhon, Arthar Konan Dojel | 2 |
+| Jemos Hedoli Chej, Prithiraj Sen | 2 |
+| Jubajer Alom | 2 |
+| Abdullah Ibone Mahomud | 2 |
+| Bolaichad Mukhopadhyay (Bonophul) | 2 |
+| Swami Lokeshoranond | 2 |
+| Shripanth (Nikhil Sarkar) | 2 |
+| Mollika Senogupt | 2 |
+| Binajk Bandyopadhyay | 2 |
+| Siddharth Ghosh | 2 |
+| Somobrot Sarkar | 2 |
+| Sonali Ghoshal | 2 |
+| Sudhindronath Raha | 2 |
+| Dibbendu Palit | 2 |
+| Bishnu De | 2 |
+| Iloma Behoroj | 2 |
+| Subrot Ogastin Gomej | 2 |
+| Ronjit Chattopadhyay | 2 |
+| Shishirokumar Basu | 2 |
+| Sompadona Surro Nondi | 2 |
+| Ononna Pal | 2 |
+| Moni Bhoumik | 2 |
+| Swami Bedanond | 2 |
+| Debojjoti Bhattacharya | 2 |
+| Borahomihir | 2 |
+| Ponchanon Ghoshal | 2 |
+| Somudr Pal | 2 |
+| Dibbojjoti Mojumodar | 2 |
+| Shibobrot Bormon | 2 |
+| Shongkor Chyatarji | 2 |
+| Somoja Das | 2 |
+| Arthar Konan Dojel, Shishir Chokroborti | 2 |
+| Soumitr Bishas | 2 |
+| Ronodip Nondi | 2 |
+| Romapod Chowdhury | 2 |
+| Somriddh Dutta | 2 |
+| Pollobi Senogupt | 2 |
+| Debanjon Mukhopadhyay | 2 |
+| Hemont Mukhopadhyay | 2 |
+| Probhaboti Devi Sorosoti | 2 |
+| Otsuishi, Koushik Jaman | 2 |
+| Susmita Bandyopadhyay | 2 |
+| Premomoj Dashogupt | 2 |
+| Swami Probhupad | 2 |
+| Masud Anojar | 2 |
+| Horinarajn Chattopadhyay | 2 |
+| Charlos Daruin, Shantironjon Ghosh | 2 |
+| Oskar Ojaild, Sunilokumar Ghosh | 2 |
+| Ishotijak Khan, Susan Ojaij Baujar | 2 |
+| Parth Sarothi Das, Homar | 2 |
+| Paolo Kojeloho, Prins Ashoraph | 2 |
+| Klaibh Kasolar, Mokhodum Ahmed | 2 |
+| Uilobar Smith, Jesi Meri Kuija | 2 |
+| Kazi Shahonur Hossain, Raphajel Sabatini | 2 |
+| Kazi Anojar Hossain, Raphajel Sabatini | 2 |
+| Obhijnan Rajchoudhuri | 2 |
+| Phalguni Mukhopadhyay | 2 |
+| Shubhr Bandyopadhyay | 2 |
+| Shaikh D. Abdullah Ajojam | 1 |
+| Mujibur Rahman | 1 |
+| Islamic Phaundeshon | 1 |
+| Purusher Soundorro | 1 |
+| Jojnob Al-Gajali | 1 |
+| E . En. Em. Sirajul Islam | 1 |
+| Shaikh Saleh Al-Munajjid | 1 |
+| Maolana Julophikar Ahmad Nokoshobondi | 1 |
+| Muhammad Saleh Al Munajjid | 1 |
+| Maikel Eich. Hart | 1 |
+| Muhammad Asad | 1 |
+| Imam Abu Bokor Ibone Abiddunija | 1 |
+| Mohammad Tojaha Akobor | 1 |
+| Allama Muphoti Dilaojar Hosain | 1 |
+| Shajkh Ahomad Musa Jiboril (Haphi.) | 1 |
+| Ibon Rojob Al-Hamoli (Rohoh) | 1 |
+| Sompadona Porishod- Islamic Phaundeshon | 1 |
+| Khondokar Mashohud-Ul-Hachhan, Moris Bukaili | 1 |
+| Eich. E. Ar. Gib, Mohammad Nasir Ali | 1 |
+| Usomani Khilaphater Itikotha | 1 |
+| روح الامين | 1 |
+| Rehonuma Binot Anis | 1 |
+| Al Quran Ekademi London | 1 |
+| Khilaphote Rasheda | 1 |
+| tawhid prokashoni | 1 |
+| 8m Khond | 1 |
+| 9m Khond | 1 |
+| Asraful Alam Sakif 2 | 1 |
+| Asiph Adonan (Full Pdf) | 1 |
+| Enajetullah Alotamash, Shohidul Islam | 1 |
+| Islam O Pashchatto Sobhbhotar Dwond | 1 |
+| Songgotipurn Na Songgotihin | 1 |
+| Islam O Bigyan | 1 |
+| Ohabi Andolon | 1 |
+| Islami Rashtre Omusolimoder Odhikar | 1 |
+| Alobani(Rah) | 1 |
+| Sunane At0tiromiji 2 | 1 |
+| 6 | 1 |
+| 8 | 1 |
+| 9 | 1 |
+| Otindr Mojumodar | 1 |
+| Ongshuman Chokroborti | 1 |
+| E.Ke.Khondokar | 1 |
+| Obhr Basu | 1 |
+| Al Biruni Promith | 1 |
+| Mahfuzur Rahman [Suvos Collection] | 1 |
+| Al Mamun | 1 |
+| Ashiph Entaj Robi | 1 |
+| Kazi Abodul Odud Songkolit Byabaharik Shabdakosh | 1 |
+| Asadujjaman Nur | 1 |
+| Banglabajar Potrika | 1 |
+| Asiph Mehedi | 1 |
+| Shriotulokrishn Mitra | 1 |
+| Anond Bagochi | 1 |
+| Shoilendr Bishas Songkolit | 1 |
+| jafar iqbal | 1 |
+| Munotasir Mamun | 1 |
+| Abubokor Siddik | 1 |
+| Ahmad Chhopha Mohaphejokhana 1 | 1 |
+| Orunokumar Sarkar | 1 |
+| Ashutosh Dev | 1 |
+| Dipongkor Chokroborti | 1 |
+| 1m Songskoron ।। Bhoktiprosad Mollik | 1 |
+| Doh Mohammad Kolimuddin | 1 |
+| Shriochinttokumar Senogupt | 1 |
+| Tajuddin Ahmad - Sharomin Ahmad | 1 |
+| 15 Khondo Sompurn | 1 |
+| Abdul Korim Sahityabisharod | 1 |
+| Muktijuddh I-Arkaibh Trast | 1 |
+| Harun Habib | 1 |
+| Durgom Durgo | 1 |
+| Target Nine | 1 |
+| Shotru Bhayongkar | 1 |
+| Rochonasomogro-1 | 1 |
+| Bish Nishash 1,2 | 1 |
+| Sagor Sangam 1,2 | 1 |
+| Rochonasomogro-2 | 1 |
+| Kalokut | 1 |
+| Rana Shabdhan! | 1 |
+| Rochonasomogro-3 | 1 |
+| Bondi Gogol | 1 |
+| Bisshoron | 1 |
+| Ahmed Modud | 1 |
+| Jimmi | 1 |
+| Ratnodwip | 1 |
+| Aroj Ali Matubr (Skkan Kopi) | 1 |
+| Tushar Jatra 1,2 | 1 |
+| Showrno Songkot [Part i-ii] | 1 |
+| Cairo (Kajro) | 1 |
+| Sonnashini | 1 |
+| MrityuProhor (Gold Series) | 1 |
+| Pasher Kamra | 1 |
+| Guptachakra | 1 |
+| Nirapod Karagar - Qazi Anowar Hussain | 1 |
+| Ratri Ondhokar, Jal | 1 |
+| Uddhar [Part i-ii] | 1 |
+| Atal Shinghashan, Mrittyur Thikana | 1 |
+| Hamla 1,2 | 1 |
+| Khepa Nortok, Shoitaner Dut | 1 |
+| Jatra Oshuvo [Part-i-ii] | 1 |
+| Ekhono Sharajontro, Proman Koi | 1 |
+| Major Rahat [Part i-ii] | 1 |
+| Juari | 1 |
+| Bipodjonok Part I & II | 1 |
+| Leningrad 1,2 | 1 |
+| Rokter Rong 1,2 | 1 |
+| Ambush | 1 |
+| Odrisso Shatru | 1 |
+| Pishach Dwip | 1 |
+| Benami Bondor [Part i-ii] | 1 |
+| Bideshi Guptochar [Part 1] | 1 |
+| Bideshi Guptochar [Part 2] | 1 |
+| Black Spider 1,2 | 1 |
+| Reporter - Qazi Anowar Husain | 1 |
+| Guptahatya | 1 |
+| Jatrira Hushiar, Operation Cheta | 1 |
+| Teen Shatru | 1 |
+| Bondhu | 1 |
+| Okosshat Shimanto [Part i-ii] | 1 |
+| Ashanto Sagar [Part i-ii] | 1 |
+| Spordha 1 | 1 |
+| Shapod Shongkul [Part i-ii-iii] | 1 |
+| Neel Chobi 1,2 | 1 |
+| Probesh Nished [Part i-ii] | 1 |
+| Challange | 1 |
+| Pagol Boigganik | 1 |
+| Ritikokumar Ghotok | 1 |
+| Espionaaz | 1 |
+| Lal Pahar | 1 |
+| Hritkampon | 1 |
+| Protihingsha 1,2 | 1 |
+| Ujjl Chokroborti | 1 |
+| Moron Kamor [Part i-ii] | 1 |
+| Ami Sohana | 1 |
+| kuu | 1 |
+| Biday Rana 1,2,3 | 1 |
+| Protidondi 1,2 | 1 |
+| Abar Sei Dussonpo [Part i-ii]) | 1 |
+| Akromon | 1 |
+| Grash 1 | 1 |
+| Noropisach [Part i-ii-iii] | 1 |
+| Grash 2 | 1 |
+| Shotru Bivishon [Part i-ii] | 1 |
+| Shwarnotori 1,2 | 1 |
+| Andho Shikari 1 | 1 |
+| Shet Shontrash 1,2 | 1 |
+| Gipsy | 1 |
+| Komolendu Sarkar | 1 |
+| Culprit [Part i-ii] | 1 |
+| Dui Number 1,2 | 1 |
+| Amie Rana 1,2 | 1 |
+| Kazi Motahar Hossain | 1 |
+| Kasib Munna | 1 |
+| krishnopokkho 1,2 | 1 |
+| Sei U Sen 1,2 | 1 |
+| Kalo Chaya 1 | 1 |
+| Hello Sohana 1,2 | 1 |
+| Kalo Chaya 2 | 1 |
+| Haijack [Part i-ii] | 1 |
+| Sagar Kannya 1,2 | 1 |
+| Boro Khudha 1 | 1 |
+| Palabe Kothay 1,2 | 1 |
+| Boro Khudha 2 | 1 |
+| Kuchokro | 1 |
+| Swarnodwip [Part-I & II] | 1 |
+| Raktopipasha [All 3 Part] | 1 |
+| Opocchaya | 1 |
+| Bertho Mission 1,2 | 1 |
+| Neel Dongshon 1,2 | 1 |
+| Saudia 103 | 1 |
+| Kalpurush [Part 1] | 1 |
+| Kalpurush [Part 2] | 1 |
+| Kalpurush [Part 3] | 1 |
+| Nil Bojro [part i-ii] | 1 |
+| Dhongsho Pahar, Varot Nattom, ShornoMrigo | 1 |
+| Dussahosik, Mrittur Sathe Panja | 1 |
+| Mrityur Protinidhi [Part 1 & 2] | 1 |
+| Terrorist | 1 |
+| Harano Atlantis [Part i-ii] | 1 |
+| Killer Cobra | 1 |
+| Mrityubaan | 1 |
+| Kalokut [Part i-ii-iii] | 1 |
+| Mrityu Pother Jatri | 1 |
+| Shrirobindrokumar Basu Onudit Italir Sera Galpa | 1 |
+| Shorbonasher Doot 1 | 1 |
+| Omanisha [Part 1] | 1 |
+| Commando Mission | 1 |
+| Palao Ran | 1 |
+| Bholotejar Candide Or, The Optimist | 1 |
+| Shorbonasher Doot 2 | 1 |
+| W. Hunter | 1 |
+| Omanisha [Part 2] | 1 |
+| Shesh Hashi 1,2 | 1 |
+| Deshprem | 1 |
+| Shuvro Pinjar 1 | 1 |
+| Shobai Chole Gechhe (Part-1) | 1 |
+| Smuggler | 1 |
+| Raktolalosha | 1 |
+| Shuvro Pinjar [Part 2] | 1 |
+| Bondi Rana | 1 |
+| Shobai Chole Gechhe (Part-2) | 1 |
+| Bagher Khacha | 1 |
+| Jackie Collins translated - ARB Release | 1 |
+| Shurja shainik 1 | 1 |
+| Ononto Jatra [Part i-ii] | 1 |
+| Secret Agent | 1 |
+| Nater Guru | 1 |
+| Shurja shainik 2 | 1 |
+| Roktochosha | 1 |
+| Virus X-99 | 1 |
+| Ashcche Cyclone | 1 |
+| Muktipon | 1 |
+| Kalo File [All 3 Part] | 1 |
+| Shahozoddha | 1 |
+| Chine Songkot | 1 |
+| Gupto Shongket 1, 2 | 1 |
+| Mafia | 1 |
+| Hirok Somrat 1,2 | 1 |
+| Limelight [Part i-ii] | 1 |
+| Gopan Shotru | 1 |
+| Criminal | 1 |
+| Death Trap | 1 |
+| Mossad Chokranto | 1 |
+| Beduin Konya | 1 |
+| Kshirodokumar Dutta Kortrik Onudit Farasi Galpaguchchha | 1 |
+| Shat Rajar Dhon | 1 |
+| Corosdweep | 1 |
+| Killer Virus [Part i-ii] | 1 |
+| Arokkhito Joloshima | 1 |
+| Shesh Chal 1 | 1 |
+| Time Bomb | 1 |
+| Bipodshima | 1 |
+| Duranto Eagle [Part.1] | 1 |
+| Shesh Chal 2 | 1 |
+| Duranto Eagle [Part.2] | 1 |
+| Adim Atonko | 1 |
+| Mrityubeez | 1 |
+| Shesh Chal 3 | 1 |
+| Sukanta Senogupt) Bishwer Shreshtha Adi-Raser Galpo | 1 |
+| Jaat Gokhkhur | 1 |
+| Persian Treasure 1 | 1 |
+| Big Bang | 1 |
+| Shorpolota | 1 |
+| Persian Treasure 2 | 1 |
+| Abar Shorojontro | 1 |
+| Operation Bosnia | 1 |
+| Shubhendu Ghosh Bhindeshi | 1 |
+| Amanush | 1 |
+| Bounty Hunters [Part i-ii] | 1 |
+| Target Bangladesh | 1 |
+| Ondho Akrosh | 1 |
+| Akhondo Abosor | 1 |
+| Mrityudip | 1 |
+| Mohaproloy, Juddhobaj | 1 |
+| Oshubho Prohor | 1 |
+| Sniper 1 | 1 |
+| Japani Tycoon [Part i-ii] | 1 |
+| Konoktori | 1 |
+| Princess Hiya 1,2 | 1 |
+| Sniper 2 | 1 |
+| Shorno khoni [Part-I] | 1 |
+| Mrityufad - Simalonghon | 1 |
+| Casino Andaman | 1 |
+| Noroker Kit [Part i-ii] | 1 |
+| Shoitaner Ghati | 1 |
+| Shorno khoni [Part-II] | 1 |
+| Jal Rakkhash | 1 |
+| Sharap Shooter | 1 |
+| Kuheli Raat, Dhonsher Naksha | 1 |
+| Operation Israel | 1 |
+| Mrrtyushitol Sporsho [Part i-ii] | 1 |
+| Pashobik [Part i-ii] | 1 |
+| Mayan Treasure | 1 |
+| Swapner Bhalobasha | 1 |
+| Shoitaer Upashok | 1 |
+| Bishnaginia | 1 |
+| Jhorer Purbabhash | 1 |
+| Hacker [Part 1] | 1 |
+| Harano Mig | 1 |
+| Neel Rokto | 1 |
+| Akranto Dutabash | 1 |
+| Hacker [Part 2] | 1 |
+| Blind Mission | 1 |
+| Duronto Koishor | 1 |
+| Mobasher Ali | 1 |
+| Jonmovumi | 1 |
+| Khune Mafia | 1 |
+| Mrityu Ghanta | 1 |
+| Ajoharuddin Khan | 1 |
+| Durgomgiri | 1 |
+| Nikhoj | 1 |
+| Top Secret [Part i-ii] | 1 |
+| Isatabur Ovhishap | 1 |
+| Moron Jatra | 1 |
+| Pitar Kastars | 1 |
+| Bush Pilot | 1 |
+| Mohabipod Shangket | 1 |
+| Mastermind | 1 |
+| Madokchokro | 1 |
+| Ochena Bondor 1,2 | 1 |
+| Shobuj Shangket | 1 |
+| Maya Mondir | 1 |
+| 11m Khond | 1 |
+| Shokuner Chaya [Part i-ii] | 1 |
+| Blackmailer | 1 |
+| Dyan Braun (Bangla Onubad) | 1 |
+| Operation Kanchonjangha | 1 |
+| 12m Khond | 1 |
+| Shokuner Chaya 2 | 1 |
+| Ontorrdhan [Part i-ii] | 1 |
+| Dharmaguru | 1 |
+| Gohin Aronno | 1 |
+| Turuper Tash | 1 |
+| Drug Lord | 1 |
+| Project X-15 | 1 |
+| Naroposhu | 1 |
+| Kholil Jib‌ran | 1 |
+| Kalshap | 1 |
+| Dwipantor | 1 |
+| Ondhokarer Bondhu | 1 |
+| Duratma | 1 |
+| Goodbye, Rana | 1 |
+| Gupto Atotaye 1 | 1 |
+| Abar Sohana | 1 |
+| Top Terror | 1 |
+| Shima Longhon | 1 |
+| Gupto Atotaye 2 | 1 |
+| Arek Godfather | 1 |
+| Guptobidya | 1 |
+| Rudhra Jharr | 1 |
+| Bipode Sohana | 1 |
+| Andhoprem | 1 |
+| Kantar Moru | 1 |
+| Chai Oishwarjo [Part i-ii] | 1 |
+| Pabolo Neruda | 1 |
+| Sharno Biporjoy 1 | 1 |
+| Crime Boss | 1 |
+| Boston Jolcche | 1 |
+| Sharno Biporjoy 2 | 1 |
+| Shumerur Dak [Part i-ii] | 1 |
+| Shoytaner Doshor | 1 |
+| Kill Mastar | 1 |
+| Iskaponer Tekka | 1 |
+| Naroker Thikana | 1 |
+| Mrittur Ticket | 1 |
+| Kalo Naksha | 1 |
+| Agniban | 1 |
+| Kurukhetra 1 | 1 |
+| Kalo Noksha v1 | 1 |
+| Kuheli Raat | 1 |
+| Kurukhetra 2 | 1 |
+| Kalnagini | 1 |
+| Bishakto Thaba | 1 |
+| Climber | 1 |
+| Beiman | 1 |
+| Jonmoshotru | 1 |
+| Agun Niye Khela 1 | 1 |
+| Durge Antorin | 1 |
+| Agun Niye Khela 2 | 1 |
+| Mrittyur Hatchani & Bishakto Thaba | 1 |
+| Morukonya | 1 |
+| Morusworgo | 1 |
+| Sei Pagol Boigganik | 1 |
+| 1901 Theke 1907 | 1 |
+| Red Dragon | 1 |
+| Shei Kuasha [Part i-ii] | 1 |
+| Serbia Chokranto | 1 |
+| Bishchakra | 1 |
+| Shei Kuasha 1 | 1 |
+| 1928 Theke March 1929 | 1 |
+| Shoitaner Dweep | 1 |
+| Onubadok Omol Dashogupt Adhunik China Galpa | 1 |
+| Goutom Bhodr | 1 |
+| 1907 Theke 1913 | 1 |
+| Mafia Don | 1 |
+| Epril 1929 Theke Jun 1930 | 1 |
+| Ochinttokumar Senogupt Adhunik Soviet Galpo | 1 |
+| 1917 Er March Theke Oktobor | 1 |
+| Part I [249 Pages, 5 MB] | 1 |
+| 1934 Theke 1937 | 1 |
+| Nobhemr 1917 Theke Disemr 1920 | 1 |
+| Part II [304 Pages, 10 MB] | 1 |
+| 1921 Theke 1923 | 1 |
+| 1924 | 1 |
+| 1925 | 1 |
+| Disemr 1926 Theke Julai 1927 | 1 |
+| D. Dineshchondr Sen | 1 |
+| Jorasondh | 1 |
+| Debobrot Bishas | 1 |
+| Khondokar Ali Ashoraph | 1 |
+| Shrijolodhor Sen | 1 |
+| Joler Gan | 1 |
+| Tahmima Anam | 1 |
+| Ekattorer Din Guli | 1 |
+| Rongg O Rupok - Troilokkonath Mukhopadhyay) | 1 |
+| Shri Dokshinaronjon Mitra Mojumodar | 1 |
+| Dinendrokumar Sarkar | 1 |
+| Dilip Debonath | 1 |
+| Debendr Bhora | 1 |
+| Bankim Chandra | 1 |
+| Dinobondhu Mitra | 1 |
+| Onjonabh Dutta | 1 |
+| Doktor Ojitokumar Ghosh | 1 |
+| Shriotulochondr Ghotok (Bhumika - Shridineshochondr Sen) | 1 |
+| Sisimopur | 1 |
+| Purnodas Baul | 1 |
+| Shridineshochondr Sen Ashutosh-Smritikatha | 1 |
+| Gopalochondr Bhattacharya | 1 |
+| Dhiman Dasogupt | 1 |
+| Shridineshochondr Sen Brihat Banga Vol. 1 | 1 |
+| Shridineshochondr Sen Brihat Banga Vol. 2 | 1 |
+| Shrihoroprosad Mitra Tarashankar | 1 |
+| Bonna Ahmed | 1 |
+| Anwar Pasha | 1 |
+| Jogeshochondr Bagol Sompadit | 1 |
+| Vhoyaboho Oviggota | 1 |
+| Rushoti Sen Bibhutibhushan Bandyopadhyay | 1 |
+| Major M. Rafiqul Islam, B.U | 1 |
+| Neta o Pita uploaded by bdidol | 1 |
+| by- Motiur-Rahman Rentu | 1 |
+| Podaboli | 1 |
+| Bibhas Dasogupt | 1 |
+| Sahitya Okademi | 1 |
+| Ja Boleche Ja Koreche | 1 |
+| Jamayate Islamir Otit O Bortoman | 1 |
+| Haniph Songket | 1 |
+| Horsh Dutta | 1 |
+| Mouli Ajad | 1 |
+| Hitesh Ronjon Sannal | 1 |
+| Hemangg Bishas | 1 |
+| Humayun ahmed | 1 |
+| Humajun Ajad [HQ] [1976] | 1 |
+| Bhogoban Shri Rojonish | 1 |
+| D. Bhobaniprosad Sahu | 1 |
+| Bhogot Sing | 1 |
+| Shrihoroprosad Mitra | 1 |
+| Horoprosad Mitra | 1 |
+| humayun ahmed | 1 |
+| Khogendronath Shastri | 1 |
+| Moheshochondr Pal Kortrik Songkolit O Prokashit | 1 |
+| Jotharth Gita | 1 |
+| Swami Shantorupanond | 1 |
+| 1m Khondo | 1 |
+| Brohmokhondom‌ | 1 |
 | guide) | 1 |
 | Maulana Muhammad Abdur Rahim | 1 |
 | Shaheed | 1 |
@@ -473,15 +1076,16 @@ Total distinct authors: **1,287** across **14,496** merged book folders.
 | 12thEdition | 1 |
 | Ram1434 | 1 |
 | police | 1 |
+| 2015 | 1 |
 | bibaho | 1 |
 | shikkha | 1 |
 | siddeeq | 1 |
 | Khulafa | 1 |
 | albani | 1 |
 | allah) | 1 |
-| বিকৃতি আছে) | 1 |
-| রেইন্ড্রপস | 1 |
-| ১৫০ পর্ব | 1 |
+| Bikriti Achhe) | 1 |
+| Reindropos | 1 |
+| 150 Porbo | 1 |
 | Reclaiming Muslim Civilisation from the Past | 1 |
 | shahid | 1 |
 | der boi (paglami) alia | 1 |
@@ -492,7 +1096,7 @@ Total distinct authors: **1,287** across **14,496** merged book folders.
 | Irshadul Haque Asari | 1 |
 | filips | 1 |
 | Linguisticmiracle.com | 1 |
-| বাংলা অনুবাদ | 1 |
+| ifa | 1 |
 | ShaikhMuhammadAliAssabuniRA | 1 |
 | Badr Bolchhi | 1 |
 | Kamal Chaudhuri | 1 |
@@ -500,14 +1104,15 @@ Total distinct authors: **1,287** across **14,496** merged book folders.
 | Abdus Samad Choudhury | 1 |
 | hallaj | 1 |
 | MansoorHallajShaykhZafarAhmadUsmanir.a | 1 |
-| ফিলিপ কে হিট্টি | 1 |
+| Philip Ke Hitti | 1 |
 | report | 1 |
 | Eltantawi | 1 |
-| সুলাইমান | 1 |
-| ক্যারেন আর্মস্ট্রং অনুবাদ শওকত হোসেন | 1 |
-| মির্জা গালিব | 1 |
+| Sulaiman | 1 |
+| Kyaren Armostrong Onubad Shokot Hossain | 1 |
+| Mirja Galib | 1 |
 | 16thEdition | 1 |
 | January2005Edition | 1 |
+| 1-80 | 1 |
 | 11thEdition | 1 |
 | Tahriz | 1 |
 | 1 100 Res | 1 |
@@ -521,10 +1126,11 @@ Total distinct authors: **1,287** across **14,496** merged book folders.
 | Ajangachi | 1 |
 | i Nur Collection | 1 |
 | final01 | 1 |
-| পর্দ্দা | 1 |
+| Pordda | 1 |
 | Muslimah | 1 |
-| আলফেসানী | 1 |
-| আন্দোলন | 1 |
+| Ipha | 1 |
+| Alophesani | 1 |
+| Andolon | 1 |
 | Premamoy Dasgupta | 1 |
 | Tofsir | 1 |
 | Raihan | 1 |
@@ -535,8 +1141,8 @@ Total distinct authors: **1,287** across **14,496** merged book folders.
 | mubarak | 1 |
 | mountain | 1 |
 | autocrat | 1 |
-| উৎকন্ঠা | 1 |
-| ঝর্ণাধারা | 1 |
+| Utkontha | 1 |
+| Jhornadhara | 1 |
 | Translation | 1 |
 | MaulanaGufranRashidiKiranvi | 1 |
 | Saifuddin Chowdhury | 1 |
@@ -549,46 +1155,46 @@ Total distinct authors: **1,287** across **14,496** merged book folders.
 | shorone | 1 |
 | Rasulullah | 1 |
 | taymiah | 1 |
-| সহীহ আক্বীদার দিশারী | 1 |
-| আবু হানীফাহ | 1 |
-| আহমাদ ইবনে হাম্বল | 1 |
-| ইবনু কুদামাহ | 1 |
-| ইমাম বারবাহারী | 1 |
-| মুনাজাত কখন ও কীভাবে | 1 |
-| সন্ধ্যার যিকর | 1 |
-| ছাত্রীদের নির্বাচিত ফাতাওয়া | 1 |
-| শারহুল উমদাতুল আহকাম ১ | 1 |
-| ইমাম যাহাবী | 1 |
-| রাত অতিবাহিত করবে | 1 |
+| Sohih Akidar Dishari | 1 |
+| Abu Haniphah | 1 |
+| Ahomad Ibone Haml | 1 |
+| Ibonu Kudamah | 1 |
+| Imam Barobahari | 1 |
+| Munajat Kokhon O Kibhabe | 1 |
+| Sondhdhar Jikor | 1 |
+| Chhatrider Nirachit Phataoja | 1 |
+| Sharohul Umodatul Ahokam 1 | 1 |
+| Imam Jahabi | 1 |
+| Rat Otibahit Korobe | 1 |
 | Ibn Al Qayyim | 1 |
-| হারাম খাবার | 1 |
-| মুহাম্মদ বিন জামীল যাইনু | 1 |
-| ইসলামী দৃষ্টিকোণ | 1 |
-| ইমাম শাওকানী | 1 |
-| জীবন ও কর্ম | 1 |
-| সাইফুদ্দিন বেলাল | 1 |
-| এর মন্ত্রীপরিষদ | 1 |
+| Haram Khabar | 1 |
+| Muhammad Bin Jamil Jainu | 1 |
+| Islami Drishtikon | 1 |
+| Imam Shaokani | 1 |
+| Jibon O Korm | 1 |
+| Saiphuddin Belal | 1 |
+| Er Montriporishod | 1 |
 | Themes | 1 |
-| কুরআনের ভাষা শিক্ষা | 1 |
-| ৩ বাংলা নোট | 1 |
+| Kuraner Bhasha Shiksha | 1 |
+| 3 Bangla Not | 1 |
 | Bilal Philips | 1 |
 | the History of Arabic Science 2 | 1 |
 | the History of Arabic Science 3 | 1 |
 | the History of Arabic Science 1 | 1 |
 | A History | 1 |
 | Legacy of Muslim Civilization | 1 |
-| নাস্তিকদের জবাব | 1 |
-| তোয়াহা আকবর | 1 |
-| বাইবেল | 1 |
+| Nastikoder Jobab | 1 |
+| Tojaha Akobor | 1 |
+| Baibel | 1 |
 | Albani | 1 |
-| পুরুষের সালাতের পার্থক্য | 1 |
-| সুন্নাহর আলোকে | 1 |
-| সাজ্জাদ সালাদীন২০১৭ | 1 |
-| সাজ্জাদ সালাদীন | 1 |
-| আল মুনাজ্জিদ | 1 |
+| Purusher Salater Parthokko | 1 |
+| Sunnahor Aloke | 1 |
+| Sajjad Saladin2017 | 1 |
+| Al Munajjid | 1 |
 | Hadeeth | 1 |
-| মুহাম্মাদ আত্তাহহান | 1 |
-| দ্বীনদারি | 1 |
+| Muhammad Attahohan | 1 |
+| Ikholas | 1 |
+| Dwinodari | 1 |
 | ray production | 1 |
 | 1. PDD | 1 |
 | 1. Ray theory transmission | 1 |
@@ -605,66 +1211,66 @@ Total distinct authors: **1,287** across **14,496** merged book folders.
 | phpapp01 | 1 |
 | Geophysics | 1 |
 | gate02 | 1 |
-| Copy | 1 |
 | Newtonian Fluids | 1 |
 | section | 1 |
-| ইস্তাহার | 1 |
-| প্রহ্লাদ | 1 |
-| রসকেলী | 1 |
-| মাতৃ-স্নেহ ও ঈশ-স্তুতি | 1 |
-| শান্তির স্বপক্ষে | 1 |
-| চাণক্য | 1 |
-| বিদ্যাসাগর জননী ভগবতী দেবী.epub | 1 |
-| শিক্ষাবিদ | 1 |
-| সত্যভূষণ বন্দ্যোপাধ্যায় | 1 |
-| মণ্টু চক্রবর্তী | 1 |
-| ব্লেইক ক্রাউচ | 1 |
-| হেনরি ফোর্ড | 1 |
-| সুব্রত গুহ | 1 |
-| রবার্ট লুডলাম | 1 |
-| প্রমদারঞ্জন রায় | 1 |
-| সুগারু মিয | 1 |
-| লেইল লোনডেস | 1 |
-| জেমস রোলিন্স | 1 |
-| অনিল বিশ্বাস | 1 |
-| বিমল মুখার্জি | 1 |
-| জর্জ বার্নাড শ | 1 |
-| কৃষণ চন্দর | 1 |
-| হ্যারিয়েট বিচার স্টো | 1 |
-| কাজী মাহবুব হাসান | 1 |
-| তোশিকাযু কাওয়াগুচি | 1 |
-| হ্যাল এলরড | 1 |
-| রবার্ট টি কিয়োসাকি | 1 |
-| মেল রবিন্স | 1 |
-| জাফর বিপি | 1 |
-| ইকবাল কবীর মোহ | 1 |
-| প্রফেসর ড. নাজিমুদ্দীন এরবাকান | 1 |
-| মরিয়ম জামিলা | 1 |
-| হিমাদ্রিকিশোর দাসগুপ্ত | 1 |
-| স্যামুয়েল ফিলিপস হান্টিংটন | 1 |
-| হ্যারল্ড ল্যাম্ব | 1 |
-| ইয়ান ফ্লেমিং | 1 |
-| লস্টমডেস্টি | 1 |
-| উত্তমকুমার চট্টোপাধ্যায় | 1 |
-| গগনেন্দ্রনাথ ঠাকুর | 1 |
-| সৌমিত্র চট্টোপাধ্যায় | 1 |
-| অ্যাডলফ হিটলার | 1 |
-| বরেন গঙ্গোপাধ্যায় | 1 |
-| ননী ভৌমিক | 1 |
-| মীর মশাররফ হোসেন | 1 |
-| মৈত্রেয়ী দেবী | 1 |
-| আনা ফ্রাঙ্ক | 1 |
-| নিল ডিগ্রেস টাইসন | 1 |
+| Istahar | 1 |
+| Prohlad | 1 |
+| Rosokeli | 1 |
+| Matri-Sneh O Ish-Stuti | 1 |
+| Shantir Swopokshe | 1 |
+| Chanokko | 1 |
+| Biddasagor Jononi Bhogoboti Devi.epub | 1 |
+| Shikshabid | 1 |
+| 1m Ongsh (Suchi) | 1 |
+| Shrijojneshr Chattopadhyay | 1 |
+| Shril Bhoktirokshok Shridhor Moharaj | 1 |
+| Bleik Krauch | 1 |
+| Henori Phord | 1 |
+| Subrot Guh | 1 |
+| Robart Ludolam | 1 |
+| Sugaru Mij | 1 |
+| Jemos Rolins | 1 |
+| Onil Bishas | 1 |
+| Bimol Mukharji | 1 |
+| Jorj Barnad Sh | 1 |
+| Hyarijet Bichar Sto | 1 |
+| Kazi Mahobub Hasan | 1 |
+| Toshikaju Kaojaguchi | 1 |
+| Hyal Elorod | 1 |
+| Mel Robins | 1 |
+| Zafar Bipi | 1 |
+| Iqbal Kobir Moh | 1 |
+| Prophesor D. Najimuddin Erobakan | 1 |
+| Morijm Jamila | 1 |
+| Himadrikishor Dasogupt | 1 |
+| Syamujel Philipos Hantington | 1 |
+| Hyarold Lyam | 1 |
+| Ijan Phleming | 1 |
+| Lostomodesti | 1 |
+| Sujog Bandyopadhyay | 1 |
+| Gogonendronath Tagore | 1 |
+| Soumitr Chattopadhyay | 1 |
+| Ojadoloph Hitolar | 1 |
+| Boren Gangopadhyay | 1 |
+| Noni Bhoumik | 1 |
+| Mir Mosharoroph Hossain | 1 |
+| Moitreji Devi | 1 |
+| Ana Phrangk | 1 |
+| Nil Digres Taison | 1 |
 | grihobodhu | 1 |
-| salafi_ | 1 |
+| salafi | 1 |
 | april_2017 | 1 |
 | guided | 1 |
 | onushondhan_awliyalink | 1 |
 | der boi imam_hossainer_hottai_yazider_vumika | 1 |
+| utpotti kromobikash (page 1-61) | 1 |
+| utpotti kromobikash (page 62-171) | 1 |
+| utpotti kromobikash (page 284-last) | 1 |
+| utpotti kromobikash (page 172-283) | 1 |
 | hakami | 1 |
 | er_tafsir_Qurtubi | 1 |
 | Islam_text | 1 |
-| সাইমন সেবাগ মন্টেফিওরি | 1 |
+| Saimon Sebag Montephiori | 1 |
 | Tahreek_October_1997 | 1 |
 | tahreek_September_1997 | 1 |
 | Tahreek_November_1997 | 1 |
@@ -692,25 +1298,26 @@ Total distinct authors: **1,287** across **14,496** merged book folders.
 | Tahreek_December_1999 | 1 |
 | Tahreek_October_1999 | 1 |
 | Tahreek_August_1999 | 1 |
+| jawwad - 2 | 1 |
 | 3taa_English | 1 |
 | mujib_zia | 1 |
 | abul hasan lai nodvi | 1 |
 | AKBAR_1 | 1 |
-| Mind_0_ | 1 |
+| The-Male-Slave-Revolt-in-Bahia-Brazil-1 | 1 |
+| Mind_0 | 1 |
 | Quran English | 1 |
 | Girish Chandra Sen | 1 |
 | Syed Ismail Hossain Siraji | 1 |
 | Muhammad | 1 |
 | Motobad | 1 |
-| ইবনু খুযাইমাহ | 1 |
-| ইবনে উসাইমিন | 1 |
-| ইবনুল জাওযী | 1 |
-| আধ্যাত্মিকতা | 1 |
-| হাদীস ও বিজ্ঞানের দৃষ্টিতে | 1 |
-| মদীনার বাইরে আলেম নেই? | 1 |
-| ভ্যালি: শারঈ পর্যালোচনা | 1 |
-| কুপ্রভাব | 1 |
-| 19 PREVENTION & TRATMENT tanbircox | 1 |
+| Ibonu Khujaimah | 1 |
+| Ibonul Jaoji | 1 |
+| Adhdhatmikota | 1 |
+| Hadith O Bigyaner Drishtite | 1 |
+| Modinar Baire Alem Nei | 1 |
+| Bhyali Shari Porralochona | 1 |
+| Kuprobhab | 1 |
+| 19 PREVENTION & TRATMENT | 1 |
 | ray tube | 1 |
 | 60_Teletherapy | 1 |
 | not necessary | 1 |
@@ -724,570 +1331,1241 @@ Total distinct authors: **1,287** across **14,496** merged book folders.
 | e Feluda | 1 |
 | Doulot_Satyajeet | 1 |
 | babur Shondeho_Satyajeet | 1 |
-| নটীর পূজা | 1 |
+| Notir Puja | 1 |
 | Aro.Satyajit | 1 |
-| খন্দকার স্বনন শাহরিয়ার | 1 |
-| এ কে খন্দকার | 1 |
-| অ্যান্থনি মাসকারেনহাস | 1 |
-| সৈয়দ আবুল আ'লা মওদুদী | 1 |
+| E Ke Khondokar | 1 |
+| 01927807760 -0181 | 1 |
+| 019 | 1 |
+| Lekhokoh Muphoti Muhammad | 1 |
+| Shaikh-Abdur-Rahman-Ibon-Nasir | 1 |
+| Amir Jaman O | 1 |
+| 1 (Chapter 2) | 1 |
+| Abodul Goni Tarik | 1 |
+| D Abu Aminah Belal Philipos | 1 |
+| Abdul Motin Jalalabadi | 1 |
+| 1m Khond A Motin | 1 |
+| 1m Khond Hahparobhin | 1 |
+| Manosi Mukhopadhyay | 1 |
+| Shriotuloprosad Sen | 1 |
+| Shrisuresh Chokroborti Sompadit | 1 |
+| Shrisunilomoj Ghosh | 1 |
+| Obhijit Raj​ Ebong Rajhan Abir [2011] | 1 |
+| Ochinttokumar Senogupt Dheuer Par Dheu | 1 |
+| Ochinttokumar Senogupt Nepathya | 1 |
+| Ochinttokumar Senogupt Nabanita | 1 |
+| Ochinttokumar Senogupt Pratham Kadam Phool | 1 |
+| Shironam, Bhumika Ebong O - Ou | 1 |
+| K - T | 1 |
+| Th - B | 1 |
+| Bh - H | 1 |
+| Choritaboli, Bibidh O Porishisht | 1 |
+| Rao Forman Ali Khan | 1 |
+| Doinik Banglar Bani | 1 |
+| Tosol M N Sor N | 1 |
+| Doktor Buddhodeb Bhattacharya Bangasahitye Bijnan | 1 |
+| Shrimohitolal Mojumodar Bangla Kabitar Chhanda | 1 |
+| Shrisureshochondr Moitr Bangla Kabitar Nabajanma | 1 |
+| Shrijohorolal Basu Bangla Gadya Sahityer Itihas | 1 |
+| Shrimonomohon Ghosh Bangla Gadyer Char Jug | 1 |
+| Shrisudhibhushon Bhattacharya Bangla Chhanda | 1 |
+| Shriojit Dutta Bangla Sahitye Hasyaras | 1 |
+| Shripromothonath Bishi Bangla Sahityer Naranari | 1 |
+| Shribijonobihari Bhattacharya Bagartha | 1 |
+| Shrisukumar Sen Bangla Sahitye Gadya | 1 |
+| Shrisukumar Sen Bangla Sahityer Itihas | 1 |
+| Shrisukumar Sen Bangla Sahityer Katha | 1 |
+| Shripromothonath Bishi Bangali O Bangla Sahitya | 1 |
+| Sunilokumar Nag Bingsha Shatabdir Sahitya-Sangam | 1 |
+| Shrikhogendronath Mitra Baishnab Ras-Sahitya | 1 |
+| Shrisukumar Sen Bhashar Itibritta | 1 |
+| Shanti Kumar Dashogupt Sahitya O Alochana | 1 |
+| Shripurnochondr Basu Sahitya-Chinta | 1 |
+| Horoprosad Mitra Sahityer Nanakatha | 1 |
+| Shrijahnobikumar Chokroborti Sahitya-Dipika | 1 |
+| Mullo Ek Koti Taka Matro | 1 |
+| Shatarka Shaytan, Pagol Boigyanic | 1 |
+| Hongkong Shamrat 1,2 | 1 |
+| Poppy, Boomerang | 1 |
+| Pretatma 1,2 | 1 |
+| Shorgorajjo 1,2 | 1 |
+| Protishod 1,2 | 1 |
+| Arek Bermuda 1,2 | 1 |
+| Morujatra | 1 |
+| Songket [All 3 Part] | 1 |
+| Spordha 2 | 1 |
+| Shotrupokkho | 1 |
+| Charidike Shotru | 1 |
+| Agnipurush | 1 |
+| Andhakarey Chita 1 | 1 |
+| Andhakarey Chita 2 | 1 |
+| Moronkhela [Part.1] | 1 |
+| Moronkhela [Part.2] | 1 |
+| Apaharan 1,2 | 1 |
+| Biparjoy 1,2 | 1 |
+| hantodoot 1 | 1 |
+| Shantodoot 2 | 1 |
+| Chodmobeshi | 1 |
+| Mrityu Alingon - Qazi Anowar Hussain | 1 |
+| Somoysima modhya Raat & Mafia | 1 |
+| Abar U Sen | 1 |
+| Bumerang | 1 |
+| Ke keno kivabe, Kuchokro | 1 |
+| Mukto Bihango 1,2 | 1 |
+| Chai Samrajya 1 | 1 |
+| Chai Samrajya 2 | 1 |
+| Onuprobesh 1 | 1 |
+| Onuprobesh 2 | 1 |
+| Kalo Taka 1,2 | 1 |
+| Cocaine Samrat 1 | 1 |
+| Cocaine Samrat 2 | 1 |
+| Bish Konnya 1,2 | 1 |
+| Satyababa [Part.1] | 1 |
+| Satyababa [Part.2] | 1 |
+| Akromon 89 [Part-I & II] | 1 |
+| Dongshon 1 | 1 |
+| Dongshon 2 | 1 |
+| Proloy Songket 1,2 | 1 |
+| Black Magic | 1 |
+| Tikto Obokash 1 | 1 |
+| Tikto Obokash 2 | 1 |
+| Double Agent [Part-I & II] | 1 |
+| Agnishapath | 1 |
+| Japani Fanatic [All 3 Part] | 1 |
+| Shakkhat Shoytan | 1 |
+| Guptoghatok 1 | 1 |
+| Guptoghatok 2 | 1 |
+| Andho Shikari 2 | 1 |
+| Nokol Biggani 1,2 | 1 |
+| Treasure Hunter Part 1 | 1 |
+| Treasure Hunter Part 2 | 1 |
+| Patokinee | 1 |
+| Kalo Kuasha | 1 |
+| Gabriel Garcia Marquez | 1 |
+| Sudhangshuronjon Ghosh] Maupassant Rachanabali Vol. 1 | 1 |
+| Shekhor Senogupt] Maupassant Rachanabali Vol. 2 | 1 |
+| Shrinonimadhob Chowdhury] Maupassant’s Stories | 1 |
+| Romma Rola Jean-Christophe, Vol. 1 | 1 |
+| Romma Rola Jean-Christophe, Vol. 2 | 1 |
+| Romma Rola Jean-Christophe, Vol. 3 | 1 |
+| Romma Rola Jean-Christophe, Vol. 4 | 1 |
+| Onubadok Durgamohon Mukhopadhyay Tolstoy-er Galpa | 1 |
+| 1927 Er Agost Theke Disemr | 1 |
+| Shridineshochondr Sen Oparer Alo | 1 |
+| Shridineshochondr Sen Gaye Halud | 1 |
+| Shridineshochondr Sen Grihashree | 1 |
+| Shridineshochondr Sen Nilmanik | 1 |
+| Shridineshochondr Sen Padabali-Madhurjya | 1 |
+| Shridineshochondr Sen Puratani | 1 |
+| Shridineshochondr Sen Bangabhasha O Sahitya | 1 |
+| Shridineshochondr Sen Banglar Puronari | 1 |
+| Shridineshochondr Sen Mukta Churi | 1 |
+| Shridineshochondr Sen Songkolit | 1 |
+| Shridineshochondr Sen Rakhaler Rajgi | 1 |
+| Shridineshochondr Sen Ramayani Katha | 1 |
+| Shridineshochondr Sen Rekha | 1 |
+| Shridineshochondr Sen Shyamal O Kajjal | 1 |
+| Shridineshochondr Sen Sukatha | 1 |
+| Shridineshochondr Sen Saral Bangla Sahitya | 1 |
+| Prothom Khondo Dhurjatiprasad Rachanabali, Vol. 1 | 1 |
+| Dwitij Khondo Dhurjatiprasad Rachanabali, Vol. 2 | 1 |
+| Tritij Khondo Dhurjatiprasad Rachanabali, Vol. 3 | 1 |
+| Choturdosh Khondo | 1 |
+| Ponchodosh Khondo | 1 |
+| Soptodosh Khondo | 1 |
+| Oshtadosh Khondo | 1 |
+| Unobingsh Khondo | 1 |
+| Bingsh Khondo | 1 |
+| Ekobingsh Khondo | 1 |
+| Dwabingsh Khondo | 1 |
+| Tarashankar Bandyopadhyay Chakmaki | 1 |
+| Tarashankar Bandyopadhyay Pather Dak | 1 |
+| Tarashankar Bandyopadhyay Chhayapath | 1 |
+| Sirajul Islam | 1 |
+| Ponchanon Torkorotn-BishnuKhanda | 1 |
+| Ponchanon Torkorotn-BrahmaKhanda | 1 |
+| Ponchanon Torkorotn-KashiKhanda | 1 |
+| Ponchanon Torkorotn-AbantaKhanda | 1 |
+| Ponchanon Torkorotn-NagarKhanda | 1 |
+| Bangla | 1 |
+| Chapter 1 1 - 151p | 1 |
+| Chapter 1 1 - 178p | 1 |
+| Chapter 2 177 - 239p | 1 |
+| Chapter 3 240 - 400p | 1 |
+| Chapter 4 401 - 523p | 1 |
+| Chapter 5 524 - 678p | 1 |
+| Chapter 6 679 - 814p | 1 |
+| Chapter 1 1 -132p | 1 |
+| Chapter 2 133 - 240p | 1 |
+| Chapter 1 1 - 113p | 1 |
+| Chapter 2 113 - 211p | 1 |
+| Chapter 3 211 - 380p | 1 |
+| Chapter 1 1 - 265p | 1 |
+| Chapter 1 1 - 94p | 1 |
+| Chapter 2 95 - 232p | 1 |
+| Chapter 1 1 - 35p | 1 |
+| Chapter 2 36 - 84p | 1 |
+| Chapter 1 1 - 115p | 1 |
+| Chapter 1 1 - 307p | 1 |
+| Chapter 2 308 - 512p | 1 |
+| Chapter 3 513 - 588p | 1 |
+| Chapter 4 589 - 1062p | 1 |
+| Chapter 1 2323 - 2364p | 1 |
+| Chapter 2 2365 - 2438p | 1 |
+| Chapter 3 2439 - 2454p | 1 |
+| Chapter 4 2455 - 2596p | 1 |
+| Chapter 5 2597 - 2805p | 1 |
+| Chapter 1 10 - 162p | 1 |
+| Chapter 2 163 - 221p | 1 |
+| Chapter 3 222 - 405p | 1 |
+| Chapter 4 406 - 599p | 1 |
+| Chapter 5 600 - 807p | 1 |
+| Chapter 6 808 - 1026p | 1 |
+| Chapter 10 675 - 695p | 1 |
+| Chapter 11 696 - 709p | 1 |
+| Chapter 12 710 - 785p | 1 |
+| Chapter 13 786 - 845p | 1 |
+| Chapter 14 846 - 861p | 1 |
+| Chapter 15 862 - 881p | 1 |
+| Chapter 16 882 - 908p | 1 |
+| Chapter 1 17 - 222p | 1 |
+| Chapter 3 295 - 443p | 1 |
+| Chapter 4 444 - 492p | 1 |
+| Chapter 5 493 - 550p | 1 |
+| Chapter 6 551 - 595p | 1 |
+| Chapter 7 596 - 646p | 1 |
+| Chapter 8 647 - 662p | 1 |
+| Chapter 9 663 - 674p | 1 |
+| Chapter 1 1 - 57p | 1 |
+| Chapter 2 58 - 128p | 1 |
+| Chapter 1 1 - 137p | 1 |
+| Chapter 1 1 - 208p | 1 |
+| Chapter 2 209 - 403p | 1 |
+| Chapter 1 7 - 87p | 1 |
+| Chapter 2 88 - 199p | 1 |
+| Chapter 3 200 - 332p | 1 |
+| Chapter 4 333 - 429p | 1 |
+| 181p | 1 |
+| Chapter 1 1 - 174p | 1 |
+| Chapter 2 175 - 354p | 1 |
+| Chapter 3 355 - 513p | 1 |
+| Chapter 2 86 - 212p | 1 |
+| 180p | 1 |
+| Chapter 1 1 - 102p | 1 |
+| Chapter 2 103 - 203p | 1 |
+| Chapter 3 204 - 308p | 1 |
+| Chapter 4 309 - 406p | 1 |
+| Chapter 5 407 - 593p | 1 |
+| 286p | 1 |
+| 132p | 1 |
+| 194p | 1 |
+| 101p | 1 |
+| Chapter 1 1 - 96p | 1 |
+| Chapter 2 97 - 181p | 1 |
+| Chapter 1 1 - 191p | 1 |
+| Chapter 1 1009 - 1195p | 1 |
+| Chapter 2 1196 - 1284p | 1 |
+| Chapter 2 192 - 357p | 1 |
+| Chapter 3 1285 - 1481p | 1 |
+| Chapter 3 358 - 562p | 1 |
+| Chapter 4 1482 - 1680p | 1 |
+| Chapter 4 563 - 802p | 1 |
+| Chapter 5 1681 - 1796p | 1 |
+| Chapter 5 803 - 1008p | 1 |
+| Chapter 6 1797 - 1922p | 1 |
+| Chapter 1 1 - 48p | 1 |
+| Chapter 2 49 - 107p | 1 |
+| Chapter 3 108 - 160p | 1 |
+| Chapter 4 161 - 218p | 1 |
+| Chapter 5 219 - 256p | 1 |
+| Chapter 6 257 - 311p | 1 |
+| Chapter 7 278 - 311p | 1 |
+| Chapter 1 1 - 74p | 1 |
+| Chapter 2 75 - 121p | 1 |
+| Chapter 1 1 - 228p | 1 |
+| Chapter1 1 - 164p | 1 |
+| Chapter2 165 - 282p | 1 |
+| Chapter3 283 - 341p | 1 |
+| Chapter 1 1 - 139p | 1 |
+| Chapter 2 140 - 225p | 1 |
+| Chapter 3 226 - 277p | 1 |
+| Chapter 4 278 - 351p | 1 |
+| Chapter 5 352 - 434p | 1 |
+| Chapter 6 435 - 494p | 1 |
+| Chapter 7 495 - 526p | 1 |
+| Chapter 1 19 - 272p | 1 |
+| Chapter 1 27 - 141p | 1 |
+| Chapter 1 9 - 1 49p | 1 |
+| Chapter 2 142 - 274p | 1 |
+| Chapter 2 150 - 376p | 1 |
+| Chapter 2 273 - 458p | 1 |
+| Chapter 3 275 - 441p | 1 |
+| Chapter 3 377 - 477p | 1 |
+| Chapter 1 1 - 609p | 1 |
+| Chapter 2 1 - 240p | 1 |
+| Chapter 1 429 - 621p | 1 |
+| Chapter 2 622 - 778p | 1 |
+| Chapter 3 779 - 920p | 1 |
+| Chapter 4 921 - 1065p | 1 |
+| Chapter 5 1066 - 1184p | 1 |
+| Chapter 6 1185 - 1337p | 1 |
+| Chapter 7 1338 - 1410p | 1 |
+| Chapter 1 1 - 127p | 1 |
+| Chapter 2 128 - 259p | 1 |
+| Chapter 3 260 - 377p | 1 |
+| Chapter 4 378 - 426p | 1 |
+| D. Khondokar | 1 |
+| Salahuddin Jahanggir | 1 |
+| Abu Zafar | 1 |
+| Maolana Muhammad Abodur Rohim | 1 |
+| Maolana Abu Taher Bordhomani | 1 |
+| Abdul Hamid Al Madani | 1 |
+| Abdul Ajij Bin Abdullah Bin Baj | 1 |
+| Shaikh Muhammad Nasiruddin Alobani | 1 |
+| Abu Solim Muhammad Abdul Hai | 1 |
+| Nasir Helal | 1 |
+| Abdullah Bin Abdur Rahman | 1 |
+| Ashoraph Ali Thanobhi | 1 |
+| Husain Bin Sohorab | 1 |
+| Abdul Hamid Al-Phaiji | 1 |
+| Kazi Muhammad Ibrahim | 1 |
+| Molana Muhammad Abodur Rohim | 1 |
+| Maolana Ashoraph Ali Thanobi | 1 |
+| Imam Abu Hanipha | 1 |
+| Allama Iusuph Al Karojabhi | 1 |
+| Allama Iusuph Isolahi | 1 |
+| Maolana Saijjed Abul Ala Modudi | 1 |
+| E En Em Sirajul Islam | 1 |
+| Sanaullah Nojir Ahmad | 1 |
+| Moh Jillur Rahman Hashemi | 1 |
+| Aminul Islam | 1 |
+| Abdul Mannan Talib | 1 |
+| E.Ke.Em.Najir Ahmad | 1 |
+| Muhammad Iqbal Kilani | 1 |
+| D. Abu Aminah Bilal Philipos | 1 |
+| Abu Taher Mesobah | 1 |
+| Odhdhapok Muhammed Motiur Rahman | 1 |
+| 01927807760 | 1 |
+| page 1-54 | 1 |
+| page 119-182 | 1 |
+| Muhammad Khairul Minar Kaderi | 1 |
+| page 183-246 | 1 |
+| page 55-118 | 1 |
+| Atik Ullah | 1 |
+| D. Abdullah Ajojam | 1 |
+| Neel Atonko [Part i-ii] | 1 |
+| Ahmad Shoriph Sompadit | 1 |
+| 156 | 1 |
+| 157 | 1 |
+| Dhadha) - Ashutosh Bhattacharya | 1 |
+| Grihosth Sonnasi - Ashutosh Bhattacharya | 1 |
+| 158 | 1 |
+| Probad) - Ashutosh Bhattacharya | 1 |
+| 159 | 1 |
+| 1795-1900) - Ashutosh Bhattacharya | 1 |
+| 160 | 1 |
+| 153 | 1 |
+| Alochona) - Ashutosh Bhattacharya | 1 |
+| 154 | 1 |
+| Kotha) - Ashutosh Bhattacharya | 1 |
+| 155 | 1 |
+| Dante Aligijeri (Sudhangshuronjon Ghosh Onubadit) | 1 |
+| Gorongngrodh Nobosh Ara | 1 |
+| Bosonter Uttor (Kabbogronth) - Buddhodeb Basu | 1 |
+| Buddhodeb Bosul | 1 |
+| Shakoor Majid | 1 |
+| Subodhochondr Mojumodar Onudit | 1 |
+| Skondh 1-4 - Nilokonth Bhott | 1 |
+| Songskrit Mul O Bongganubad Somet | 1 |
+| Skondh 5-8 - Nilokonth Bhott | 1 |
+| Skondh 9-12 - Nilokonth Bhott | 1 |
+| Chapter 8 | 1 |
+| CH13 | 1 |
+| CH14 | 1 |
+| Ponchanon Torkorotn Onubadit | 1 |
+| Moheshochondr Pal | 1 |
+| CH15 | 1 |
+| CH5 | 1 |
+| CH16 | 1 |
+| CH6 | 1 |
+| CH7 | 1 |
+| CH17 | 1 |
+| 58 Borsh 1-2 Songkhkha | 1 |
+| Er Ek Probobdhe Lekha H”echhont Sut’, | 1 |
+| CH8 | 1 |
+| Jiboner Undeshr Jana Akote Hobe | 1 |
+| CH9 | 1 |
+| CH18 | 1 |
+| Drishtibhdi Ba Nojorija Tini Proborton | 1 |
+| CH1 | 1 |
+| Omusolimoder Dhran Ba Jog | 1 |
+| Preface | 1 |
+| CH10 | 1 |
+| Monojur Nuptomani (Roh.) Bolen | 1 |
+| CH2 | 1 |
+| CH11 | 1 |
+| Cheshta Kora Hobe | 1 |
+| Ajesha Sindika (Ra.) Hadistolo | 1 |
+| CH3 | 1 |
+| Ndotini Manoboke Ek Pheata Birro E_Ke | 1 |
+| CH12 | 1 |
+| CH4 | 1 |
+| Bongshodhorer Proti Ebong Musa, Isa O | 1 |
+| Hisebe Chisnit Hojechhe Eri | 1 |
+| Por Boishakhi Punorima Tii_R Shesh Ranthe | 1 |
+| Ebong Boijnanik I_Uri Jog Kore Chalu | 1 |
+| Soijd Abul A'la Modudi | 1 |
 | IFA | 1 |
-| মাওলানা আবুল হাসান আলী নদবী (রহ.) | 1 |
-| মাওলানা আশরাফ আলী থানবী (রহ.) | 1 |
-| মুফতি মুহাম্মাদ তাকি উসমানি | 1 |
-| মোঃ এনামুল হক | 1 |
-| আবদুল মান্নান তালিব | 1 |
-| আব্দুল্লাহিল হাদী | 1 |
-| আসাদ বিন হাফিয | 1 |
-| পি এ নাজির | 1 |
+| Maolana Abul Hasan Ali Nodobi (Roh.) | 1 |
+| A History of an Islamic Revolution | 1 |
+| Maolana Sadek Husain | 1 |
+| Maolana Ashoraph Ali Thanobi (Roh.) | 1 |
+| Life and Times (Chapter 2) | 1 |
+| Muphoti Muhammad Taki Usomani | 1 |
+| Moh Enamul Hok | 1 |
+| Abodul Mannan Talib | 1 |
+| Abdullahil Hadi | 1 |
+| Pi E Najir | 1 |
 | c r | 1 |
-| গুরুবন্ধু ভট্টাচার্য্য | 1 |
-| চিত্তরঞ্জন দাশ | 1 |
-| দেবেন্দ্রনাথ ঠাকুর | 1 |
-| দ্বিজেন্দ্রলাল রায় | 1 |
-| নগেন্দ্রনাথ বসু | 1 |
-| নবীনচন্দ্র সেন | 1 |
-| অনাথবন্ধু সেন | 1 |
-| নরেন্দ্রকৃষ্ণ চট্টোপাধ্যায় | 1 |
-| নারায়ণচন্দ্র বিদ্যারত্ন | 1 |
-| পঞ্চানন ভট্টাচার্য | 1 |
-| উইলিয়াম কেরি | 1 |
-| রজনীকান্ত সেন | 1 |
-| নীলমণি বসাক | 1 |
-| উমাকান্ত হাজারী | 1 |
-| বিজয়কৃষ্ণ গোস্বামী | 1 |
-| এম. জি. মুলকর | 1 |
-| বিনয় কুমার সান্যাল | 1 |
-| কাঞ্চনমালা বন্দ্যোপাধ্যায় | 1 |
-| প্রফুল্লরঞ্জন রায় | 1 |
-| কালীপ্রসন্ন ঘোষ | 1 |
-| প্রিয়দর্শন হালদার | 1 |
-| কালীপ্রসন্ন বিদ্যারত্ন | 1 |
-| বিলেশ্বর গড়াই | 1 |
-| কালীময় ঘটক | 1 |
-| কৃষ্ণকমল ভট্টাচার্য | 1 |
-| ব্রহ্মবান্ধব উপাধ্যায় | 1 |
-| অধরলাল সেন | 1 |
-| কুমুদিনী বসু | 1 |
-| ভক্তিসিদ্ধান্ত সরস্বতী | 1 |
-| কৃষ্ণকিশোর বন্দ্যোপাধ্যায় | 1 |
-| তারাশঙ্কর তর্করত্ন | 1 |
-| ভূদেব মুখোপাধ্যায় | 1 |
-| কৃষ্ণদাস আচার্য্য চৌধুরী | 1 |
-| দীননাথ দাস চন্দ | 1 |
-| গিরিশচন্দ্র ঘোষ | 1 |
-| মণীন্দ্রনাথ সিংহ | 1 |
-| গুরুনাথ সেনগুপ্ত | 1 |
-| সরলা দেবী চৌধুরানী | 1 |
-| সরোজনাথ মুখোপাধ্যায় | 1 |
-| রাজনারায়ণ বসু | 1 |
-| সুকোমল রায়চৌধুরী | 1 |
+| From Mining to Disposal | 1 |
+| Language Movement to Liberation | 1 |
+| Edward Bormashenko | 1 |
+| Gurubondhu Bhattacharyaj | 1 |
+| Chittoronjon Das | 1 |
+| Debendronath Tagore | 1 |
+| Nogendronath Basu | 1 |
+| Nobinochondr Sen | 1 |
+| Robert S. Eisenberg | 1 |
+| Onathobondhu Sen | 1 |
+| Norendrokrishn Chattopadhyay | 1 |
+| Narajnochondr Biddarotn | 1 |
+| Ponchanon Bhattacharya | 1 |
+| Uilijam Keri | 1 |
+| Rojonikant Sen | 1 |
+| Nilomoni Bosak | 1 |
+| Umakant Hajari | 1 |
+| Bijojkrishn Gosami | 1 |
+| Em. Ji. Mulokor | 1 |
+| Binoj Kumar Sannal | 1 |
+| Kanchonomala Bandyopadhyay | 1 |
+| Prophulloronjon Ray | 1 |
+| Kaliprosonn Ghosh | 1 |
+| Prijdorshon Halodar | 1 |
+| Kaliprosonn Biddarotn | 1 |
+| Bileshr Godai | 1 |
+| Kalimoj Ghotok | 1 |
+| Krishnokomol Bhattacharya | 1 |
+| Brohmobandhob Upadhdhaj | 1 |
+| Odhorolal Sen | 1 |
+| Kumudini Basu | 1 |
+| Bhoktisiddhant Sorosoti | 1 |
+| Krishnokishor Bandyopadhyay | 1 |
+| Tarashankar Torkorotn | 1 |
+| Bhudeb Mukhopadhyay | 1 |
+| Krishnodas Acharrj Chowdhury | 1 |
+| Dinonath Das Chond | 1 |
+| Monindronath Singh | 1 |
+| Gurunath Senogupt | 1 |
+| Sorola Devi Choudhurani | 1 |
+| Sorojonath Mukhopadhyay | 1 |
+| Rajonarajn Basu | 1 |
+| Sukomol Rajchoudhuri | 1 |
 | Bandhopadhyay, Chiraranjan | 1 |
-| ভূপেন্দ্রচন্দ্র চক্রবর্তী | 1 |
-| রাজশেখর বসু | 1 |
-| রজনীকান্ত গুপ্ত | 1 |
+| Bhupendrochondr Chokroborti | 1 |
+| Rojonikant Gupta | 1 |
 | Sultan Muhammad Razzak | 1 |
-| সুরেন্দ্রনাথ বন্দ্যোপাধ্যায় | 1 |
-| রাজীবলোচন মুখোপাধ্যায় | 1 |
+| Surendronath Bandyopadhyay | 1 |
+| Rajibolochon Mukhopadhyay | 1 |
 | Nikolai Nosov, Chaity Rahman, | 1 |
-| রামচন্দ্র মুখোপাধ্যায় | 1 |
+| Ramochondr Mukhopadhyay | 1 |
 | Das, Jibanananda | 1 |
-| রামনাথ বিশ্বাস | 1 |
-| সৌদামিনী সিংহ | 1 |
-| রোকেয়া সাখাওয়াত হোসেন | 1 |
+| Ramonath Bishas | 1 |
+| Soudamini Singh | 1 |
+| Rokeja Sakhaojat Hossain | 1 |
 | Md. Khoshbor ali | 1 |
-| হরিলাল সরকার | 1 |
-| লী রিচমণ্ড | 1 |
+| Horilal Sarkar | 1 |
+| Li Richomond | 1 |
 | Silvi Väljal | 1 |
-| শম্ভুচন্দ্র বিদ্যারত্ন | 1 |
 | Petras Cvirka | 1 |
-| মেশকাত শরীফ। সোলেমানিয়া বুক হাউস কর্তৃক প্রকাশিত | 1 |
-| সাইয়্যেদ সাবেক | 1 |
-| মোস্তাফিজুর রহমান ইবন আব্দুল আযীয আল-মাদানী | 1 |
-| হানা ক্যাথেরিন মুলেন্স | 1 |
-| ড. নূরুল ইসলাম | 1 |
-| শশিভূষণ পুরকায়স্থ | 1 |
-| মুহাম্মদ আব্দুল্লাহেল কাফী আল-কোরায়শী | 1 |
-| মাওলানা মুহাম্মাদ রিয়াজুদ্দীন | 1 |
-| নাহি আল-হাসান হাফিজাহুল্লাহ | 1 |
-| শাইখ মুহাম্মাদ ইবন সালেহ আল-উসাইমীন | 1 |
-| সখারাম গণেশ দেউস্কর | 1 |
-| ড. মুহাম্মদ আবদুল মাবুদ | 1 |
+| Meshokat Shoriph Solemanija Buk Haus Kortrik Prokashit | 1 |
+| Saijjed Sabek | 1 |
+| Mostaphijur Rahman Ibon Abdul Ajij Al-Madani | 1 |
+| Hana Kyatherin Mulens | 1 |
+| D. Nurul Islam | 1 |
+| Shoshibhushon Purokajsth | 1 |
+| Muhammad Abdullahel Kaphi Al-Korajshi | 1 |
+| Maolana Muhammad Rijajuddin | 1 |
+| Nahi Al-Hasan Haphijahullah | 1 |
+| Shaikh Muhammad Ibon Saleh Al-Usaimin | 1 |
+| Sokharam Gonesh Deuskor | 1 |
+| D. Muhammad Abodul Mabud | 1 |
 | Bhuluya | 1 |
-| মুহাম্মাদ আসাদুল্লাহ আল-গালিব | 1 |
+| Muhammad Asadullah Al-Galib | 1 |
 | Gangopadhyay,narayan | 1 |
-| সত্যচরণ লাহা | 1 |
-| রবীন্দ্রনাথ মৈত্র | 1 |
+| Sottochoron Laha | 1 |
+| Rabindranath Moitr | 1 |
 | Not Available | 1 |
-| সমরেন্দ্রচন্দ্র দেববর্মণ | 1 |
-| রমাপ্রসাদ চন্দ | 1 |
-| সরলাবালা সরকার | 1 |
-| শিব খেরা | 1 |
-| আহসান হাবীব (Ahsan Habib) | 1 |
+| Somorendrochondr Debobormon | 1 |
+| Romaprosad Chond | 1 |
+| Sorolabala Sarkar | 1 |
+| Shib Khera | 1 |
+| Ahosan Habib (Ahsan Habib) | 1 |
+| Review of Sources | 1 |
+| Complete Code of Life (Chapter 1) | 1 |
+| Es. Ojajed Ali | 1 |
+| Family Background and Personality | 1 |
 | Muhammad Jalaluddin Biswas | 1 |
-| Rahul Sankrityayan (Amarboi.com)_2 | 1 |
-| _www.islamicline.com | 1 |
-| বিনোদিনী দাসী | 1 |
-| স্বর্ণকুমারী দেবী | 1 |
-| নসীম হিজাযী, সৈয়দ আবদুল মান্নান | 1 |
-| আনোয়ার পাশা | 1 |
-| আয়মান সাদিক | 1 |
-| চিত্রা দেব | 1 |
-| বিনয় মজুমদার | 1 |
-| পর্যালোচনা | 1 |
-| মুফতি আযম বাঙ্গাল শায়েখ গোলাম সামদানী রেজভী | 1 |
-| ইলিয়াস | 1 |
-| সাইয়েদ আবুল হাসান আন-নাদভী | 1 |
-| আল বায়ান ফাউন্ডেশন | 1 |
-| আলী তানতাভী | 1 |
-| জুল্লাবুম ও এ্যাডওয়ার্ট মণ্টেন | 1 |
-| সাইয়েদ আবুল হাসান আলী নাদভী | 1 |
-| ত্বহাবীয়া | 1 |
-| মুহাম্মদ বিন আব্দুল ওয়াহহাব | 1 |
-| ত্বহাবীয়্যাহ ১ | 1 |
-| ত্বহাবীয়্যাহ ২ | 1 |
-| বর্জনীয় | 1 |
-| যুবাইর আলী যাঈ | 1 |
-| মাহরাম বিষয়ক ফাতাওয়া | 1 |
-| কর্তব্য | 1 |
-| শাইখ ফায়সাল বিন কাজ্জার | 1 |
-| আন্দোলনের ফতোয়া | 1 |
-| শায়বানী সম্পর্কে | 1 |
-| মুক্ববিল বিন হাদী | 1 |
-| এনামুল হক | 1 |
-| নাবযাতুল কাফীয়াহ | 1 |
-| রাসূলগণের দাওয়াতের পদ্ধতি | 1 |
-| হামূদ আত্তুওয়াইজিরী | 1 |
-| ৪০ মাসায়েল | 1 |
-| যুবায়ের আলী যাঈ | 1 |
+| Rahul Sankrityayan _2 | 1 |
+| www.islamicline.com | 1 |
+| Swornokumari Devi | 1 |
+| PART 1+2+3 | 1 |
+| PART 4+5+6+7 | 1 |
+| PART 8+9+10+11 | 1 |
+| Shaikh Naseruddin Al Alobani | 1 |
+| Abdur Rahman Abdul Khalek | 1 |
+| page 1-50 | 1 |
+| page 104-162 | 1 |
+| Odhdhapok Mophijur Rahman | 1 |
+| Repharens Hisebe Grohonojoggo Noj | 1 |
+| Saijed Abul Ala Momodudi | 1 |
+| Moh Sirajul Islam | 1 |
+| Abdul Ajij Ibon Baj | 1 |
+| Haphij Muhammad Aijub Bin Idu Mija | 1 |
+| Muhammad Bin Ibrahim At Tuojaijiri | 1 |
+| D. Phojole Ilahi | 1 |
+| Shajkh Mohammad Bin Solajman Al Mophadda | 1 |
+| Nosim Hijaji, Soijd Abodul Mannan | 1 |
+| Allama Haphij Ibonul Kajjim | 1 |
+| Abul Hasan Nodobhi | 1 |
+| D. Muhammad Chhanaullah | 1 |
+| Em E Ke Lodi Sompadit | 1 |
+| Khondokar Abul Khajer | 1 |
+| Ibonul Kaijim Jaojijjah | 1 |
+| Jajnul Abedin Rahonuma | 1 |
+| Ashoraph Ali Thanobi (Rohoh) | 1 |
+| D. Mohammad Manojure Ilahi | 1 |
+| Jaker Ullah Abul Khajer | 1 |
+| Ahomad Abodul Ali Tahot | 1 |
+| Delojar Hosain Saidi | 1 |
+| Delaojar Hosain Saidi | 1 |
+| Sompadonajh Mostaphijur Rahman Bin Abdul Ajij | 1 |
+| Muhammad Ibone Iborahim Atotuoj | 1 |
+| Haphej Muhammad Aijub | 1 |
+| Muhammad Jainul Abedin | 1 |
+| Es. Em. Ruhul Amin | 1 |
+| 1 Theke 4 Khond Ekotre | 1 |
+| Madarul Ojatan Shiksha Bibhag | 1 |
+| Muhammad Abodul Mannan | 1 |
+| Shamosunnahar Nijami | 1 |
+| D. Rukaijjah Binote Muhammad Al Maharib | 1 |
+| Er Mrittukalin Ochhijt | 1 |
+| Er Porichoj | 1 |
+| Shabir Ahosan | 1 |
+| Abu Talib | 1 |
+| Shaikh Atik Ullah | 1 |
+| Shaikh D. Ajij Al-Karoni | 1 |
+| Sirate Sorojare Alom - 2j Khond | 1 |
+| Kadijani Somossa | 1 |
+| Islam O Jahelijater Chironton Dwond | 1 |
+| Isolamer Drishtite Jonmonijntron | 1 |
+| Phororuk Ahammed | 1 |
+| Isolamer Punorjagorone Ikhojanul Musolimuner Bhumika | 1 |
+| Isolamer Swornojuge Samajik Nyajniti | 1 |
+| Muktomona [2016] | 1 |
+| Sompadona-Shahorijar Kobir | 1 |
+| Obhijit Ray । Mijan Rahman [2014] | 1 |
+| Obhijit Ray [2010] | 1 |
+| Hosain Ridojan Ali Khan | 1 |
+| Omorendronath Ray | 1 |
+| Omijkumar Chokroborti (Sompadok) | 1 |
+| Shriomorendronath Ray Songkolit | 1 |
+| Horipod Bhoumik | 1 |
+| Sourendromohon Gangopadhyay | 1 |
+| Shri Kaminikumar Ray | 1 |
+| Anojar Pasha | 1 |
+| Sonaton Dhormer Pranobhomora ।। Oniran Bandyopadhyay | 1 |
+| Oshok Mukhopadhyay | 1 |
+| Omullodhon Mukhopadhyay | 1 |
+| Shahadujjaman Sompadit | 1 |
+| Koruna Rani Saha - Shahadujjaman Sompadit | 1 |
+| Ojoj Dasogupt | 1 |
+| Bankim Chandra Chattopadhyay - Ahmad Chhopha | 1 |
+| Adonan Shahorijar | 1 |
+| Ormotto Sen | 1 |
+| 2j Khondo ।। Otin Bandyopadhyay | 1 |
+| Abdul Kaijum | 1 |
+| Obhijit Ray [2005] | 1 |
+| Golam Kiborija Pinu | 1 |
+| Obhijit Ray [2014] | 1 |
+| Obhijit Ray [2012] | 1 |
+| Obhijit Ray O Phorid Ahmed [2007] | 1 |
+| O-Chh) - Ashutosh Bhattacharya | 1 |
+| Ajman Sadik | 1 |
+| J-N) - Ashutosh Bhattacharya | 1 |
+| Ajman Sadik O Sakib Bin Roshid | 1 |
+| P-B) - Ashutosh Bhattacharya | 1 |
+| Bh-H) - Ashutosh Bhattacharya | 1 |
+| Chhoda) - Ashutosh Bhattacharya | 1 |
+| Git O Nritto) - Ashutosh Bhattacharya | 1 |
+| Ajesha Phojej | 1 |
+| Shri Upendronath Gangopadhyay | 1 |
+| Irophanur Rahman Raphin | 1 |
+| Kobita Singh | 1 |
+| Shrikalidas Ray | 1 |
+| Kaberi Rajchoudhuri | 1 |
+| Prothomangsh] | 1 |
+| Sheshangsh] | 1 |
+| 2j Khondo - Kaliprosonn Singh | 1 |
+| Orundhoti Ray | 1 |
+| Kyaren Armostrong | 1 |
+| Kinnor Ray | 1 |
+| Lio Tolostoj (Onubad - Shriprophull Chokrobortti) | 1 |
+| Kulodaronjon Ray | 1 |
+| Bhyasili Grosoman (Onubad - Bishtu Mukhopadhyay) | 1 |
+| Julai 1930 Theke Janujari 1934 | 1 |
+| Chitra Deb | 1 |
+| Rajbahadur Dineshochondr Sen | 1 |
+| 1926 Er Janujari Theke Nobhemr | 1 |
+| Rajbahadur Doktor Dinesh Chondr Sen | 1 |
+| Tarapod Ray, | 1 |
+| Pondit Gobinolal Bandyopadhyay Kobirotn | 1 |
+| Shrigopalodas Chowdhury O Shriprijronjon Sen Songkolit | 1 |
+| Shrisushilokumar De Sompadit | 1 |
+| Suniti Kumar Chattopadhyay | 1 |
+| Dinendrokumar Ray | 1 |
+| Shritoponomohon Chattopadhyay | 1 |
+| Tarokonath Gonggoppadhaj | 1 |
+| Dwitij Bhag - Ishorochondr Biddasagor | 1 |
+| Prothom Bhag - Ishorochondr Biddasagor | 1 |
+| Omoronath Ray | 1 |
+| Badhon Odhikari | 1 |
+| Niloroton Sen | 1 |
+| Bankim Chandra Chattopadhyay (v2) | 1 |
+| D. Jojdeb Mukhopadhyay | 1 |
+| Birendr Chattopadhyay | 1 |
+| Bishnu Probhakor | 1 |
+| Buddhodeb Basu Onubadit | 1 |
+| Birendrokumar Bandyopadhyay | 1 |
+| Humajun Ajad [1988] | 1 |
+| Humajun Ajad [1983] | 1 |
+| Humajun Ajad [1984] | 1 |
+| Humajun Ajad [2010] | 1 |
+| Humajun Ajad Sompadit [1994] | 1 |
+| Hajat Mamud | 1 |
+| Humajun Ajad [HQ] [1994] | 1 |
+| Humayun Ahmed [2012] [v1] | 1 |
+| Humajun Ajad [1994] | 1 |
+| I-Myag | 1 |
+| Shahana Kajes | 1 |
+| Humajun Ahmed [1993] | 1 |
+| Humajun Ajad [1996] | 1 |
+| Humajun Ahmed [1996] | 1 |
+| Muhummod Nurul Huda Sompadit | 1 |
+| Humajun Ajad [HQ] [1995] | 1 |
+| Humajun Ajad [1989] | 1 |
+| Humajun Ajad [1987] | 1 |
+| Humajun Ajad [1985] | 1 |
+| Humajun Ajad [1976] | 1 |
+| Humajun Ahmed | 1 |
+| Humojun Ajad [1992] | 1 |
+| Humajun Ajad [1990] | 1 |
+| Humajun Ajad [2000] | 1 |
+| Bhubon Mohon Ray | 1 |
+| Bharotochondr Rajgunakor | 1 |
+| Humayun Ahmed [v1] | 1 |
+| Humayun Ahmed [1972] | 1 |
+| Humayun Ahmed [2009] [v1] | 1 |
+| Shoshibhushon Nondi Borma Pronit | 1 |
+| Humayun Ahmed [1984] | 1 |
+| Rosikomohon Chattopadhyay | 1 |
+| Hemochondr Bhattacharya - Dwitij Khondo | 1 |
+| Hemochondr Bhattacharya - Prothom Khondo | 1 |
+| Humajun Ahmed [2000] | 1 |
+| Humayun Ahmed[2009] | 1 |
+| Sukhomoj Bhattacharya Shastri Soptotirth | 1 |
+| Humayun Ahmed [1987] | 1 |
+| 1m Bhag | 1 |
+| Hemochondr Bhattacharya | 1 |
+| Biplob Maji | 1 |
+| Shrijukt Protapochondr Ray | 1 |
+| Porralochona | 1 |
+| Ilijas | 1 |
+| Saijed Abul Hasan An-Nadobhi | 1 |
+| Al Bajan Phaundeshon | 1 |
+| Shophiuddin Sorodar | 1 |
+| Ali Tanotabhi | 1 |
+| Jullabum O Ejadojart Monten | 1 |
+| Saijed Abul Hasan Ali Nadobhi | 1 |
+| Twohabija | 1 |
+| Muhammad Bin Abdul Ojahohab | 1 |
+| Twohabijjah 1 | 1 |
+| Twohabijjah 2 | 1 |
+| Borjonij | 1 |
+| Jubair Ali Jai | 1 |
+| Mahoram Bishojk Phataoja | 1 |
+| Kortobbo | 1 |
+| Shaikh Phajsal Bin Kajjar | 1 |
+| Andoloner Photoja | 1 |
+| Shajbani Somporke | 1 |
+| Mukobil Bin Hadi | 1 |
+| Enamul Hok | 1 |
+| Nabojatul Kaphijah | 1 |
+| Rasulogoner Daojater Poddhoti | 1 |
+| Hamud Attuojaijiri | 1 |
+| 40 Masajel | 1 |
+| Jubajer Ali Jai | 1 |
 | islamqa | 1 |
-| মাসায়েল | 1 |
-| ৩০ ফতোয়া | 1 |
-| মাওলানা আব্দুর রহীম | 1 |
+| Masajel | 1 |
+| 30 Photoja | 1 |
+| Maolana Abdur Rohim | 1 |
 | Atmadeep | 1 |
-| ইমাম ইবনুল কাইয়্যিম (রহঃ) | 1 |
-| দামোদরাষ্টকম্ | 1 |
-| শাহ ওয়ালিউল্লাহ মুহাদ্দিসে দেহলভী (রহঃ) | 1 |
-| মুফতীয়ে আযমে বাঙ্গাল | 1 |
-| মুফতি আযম বাঙ্গাল শায়েখ গোলাম সামদানি রেজভী | 1 |
-| ম_ত_ন_ব_ব_ | 1 |
-| ড. নাসির আল আক্বল | 1 |
-| নেফাস সংক্রান্ত ফাতাওয়া | 1 |
-| তরবিয়ত | 1 |
-| কুরআন: এক মহাবিস্ময় | 1 |
-| চণ্ডীদাস | 1 |
-| রাধাগোবিন্দ বসাক | 1 |
-| জিতেন্দ্রনাথ বন্দ্যোপাধ্যায় | 1 |
-| পরিতোষ ঠাকুর | 1 |
-| পিয়েরে বুল | 1 |
-| হারম্যান মেলভিল | 1 |
-| মাইক জান | 1 |
-| রবার্ট লুই স্টিভেনসন | 1 |
-| আলীমুজ্জামান | 1 |
-| আলেকজান্ডার বেলায়েভ | 1 |
-| ওয়ালটার স্কট | 1 |
-| শামসুদ্দীন আবুল কালাম | 1 |
-| কাজী ইমদাদুল হক | 1 |
-| চার্লস নর্ডহফ, জেমস নরম্যান হল | 1 |
-| প্রিন্সিপাল ইবরাহীম খাঁ, ফিলিপ কে. হিট্টি | 1 |
-| জন স্টেইনবেক | 1 |
-| এনায়েতুল্লাহ আলতামাস, শহীদুল ইসলাম | 1 |
-| অভিজিৎ রায়, রায়হান আবীর | 1 |
-| মঈদুল হাসান | 1 |
-| মনোরঞ্জন ব্যাপারী | 1 |
-| মোতাহের হোসেন চৌধুরী | 1 |
-| প্রবোধকুমার ভৌমিক | 1 |
-| মারজুক রাসেল | 1 |
-| সুপ্রিয় চৌধুরী | 1 |
-| লোকেশ্বর বসু | 1 |
-| ফ্রানজ কাফকা, মাসরুর আরেফিন | 1 |
-| আবদুল্লাহ আবু সায়ীদ, শহিদুল আলম | 1 |
-| কহলীল জিবরান, মোস্তফা মীর | 1 |
-| আলেকজান্ডার ডুমাস, ফারুক বাশার | 1 |
-| মনোজ মিত্র | 1 |
-| সুকান্ত চৌধুরী | 1 |
-| ইসমাইল আরমান | 1 |
-| মোজাফ্‌ফর হোসেন | 1 |
-| অড্রি ট্রুসকে | 1 |
-| প্যাট্রিক নেস | 1 |
-| রুদ্র মুহম্মদ শহিদুল্লাহ | 1 |
-| সুরেশচন্দ্র বন্দ্যোপাধ্যায় | 1 |
-| সন্তোষকুমার ঘোষ | 1 |
-| জোনাথন সুইফট | 1 |
-| রামকিঙ্কর বেইজ | 1 |
-| জন ক্লেল্যান্ড | 1 |
-| অ্যাডাম রাকুনাস | 1 |
-| লিওপোল্ড ভন শাচার মাজো | 1 |
-| ফ্রানজ কাফকা | 1 |
-| ডেভিড রিগ্যান | 1 |
-| মুহম্মদ আবদুল হাই | 1 |
-| মাহবুব লীলেন | 1 |
-| আহমেদ রিয়াজ | 1 |
-| অভিজিৎ চৌধুরী | 1 |
-| আবুল কাসেম | 1 |
-| আবু বকর সিরাজী | 1 |
-| ইভন রিডলি | 1 |
-| অসীমবরণ দে | 1 |
-| রেবন্ত গোস্বামী | 1 |
-| আসিফ আদনান | 1 |
-| মোহাম্মদ আবদুল হাই | 1 |
-| শেখ আব্দুল হাকিম | 1 |
-| বিজনকৃষ্ণ চৌধুরী | 1 |
-| মরিস লেবলাঁ | 1 |
-| আবদুল মওদুদ | 1 |
-| কুদরতে জাহান, ডিউক জন, মরিস লেবলাঁ | 1 |
-| অগাস্ট স্ট্রিনডবার্গ | 1 |
-| বুদ্ধেশ্বর টুডু | 1 |
-| সুরেন্দ্রমোহন ভৌমিক | 1 |
-| কালিকারঞ্জন কানুনগো | 1 |
-| পরিতোষ সেন | 1 |
-| তৌহিদুর রহমান | 1 |
-| খুশবন্ত সিং | 1 |
-| ক্ষিতিশ সরকার | 1 |
-| রাজেন্দ্রনাথ রুদ্র | 1 |
-| নসিব পঞ্চম জিহাদী | 1 |
-| এম. জে. বাবু | 1 |
-| রেজা আহমদ | 1 |
-| মাহরীন ফেরদৌস | 1 |
-| রমণীমোহন দেবনাথ | 1 |
-| জলধর সেন | 1 |
-| খগেন্দ্রনাথ ভৌমিক | 1 |
-| সুপ্রিয়া ঘোষ | 1 |
-| প্রমথনাথ বিশী | 1 |
-| প্রশান্ত মৃধা | 1 |
-| প্রেমাঙ্কুর আতর্থী | 1 |
-| মনজুরুল হক | 1 |
-| তারক রায় | 1 |
-| কর্ণ শীল | 1 |
-| বিশ্বরূপ বন্দ্যোপাধ্যায় | 1 |
-| অময় দেব রায়, দীপঙ্কর ভট্টাচার্য | 1 |
-| অনুষ্টুপ শেঠ | 1 |
-| বামনদেব চক্রবর্তী | 1 |
-| আবুল বাসার, গ্রেগরি মোন, নীল ডিগ্র্যাস টাইসন | 1 |
-| প্রবোধকুমার সান্যাল | 1 |
-| নুসরৎ নওরিন | 1 |
-| এম আর আখতার মুকুল | 1 |
-| রোমিলা থাপার | 1 |
-| বিশাখদত্ত | 1 |
-| মিচিও কাকু, সাকিব জামাল | 1 |
-| ইসমাইল আরমান, কাজী আনোয়ার হোসেন | 1 |
-| মুজাফফর আহমদ | 1 |
-| সুপর্ণা বসু মিশ্র | 1 |
-| নির্মলচন্দ্র গঙ্গোপাধ্যায় | 1 |
-| নিরুপম আচার্য | 1 |
-| আনোয়ার হোসেন, কাজী মায়মুর হোসেন | 1 |
-| পূরবী বসু | 1 |
-| ভাস, মুরারিমোহন সেন | 1 |
-| মোহাম্মদ নজিবর রহমান | 1 |
-| জগদীশ গুপ্ত | 1 |
-| অ্যান্থনী ম্যাসকারেনহাস | 1 |
-| চাণক্য সেন | 1 |
-| মহিউদ্দিন মোহাম্মদ | 1 |
-| কিশোর পাশা ইমন | 1 |
-| ইশরাক অর্ণব, কেইগো হিগাশিনো, সালমান হক | 1 |
-| বেঞ্জামিন ওয়াকার | 1 |
-| লাবণ্য দাশ | 1 |
-| অমিতাভ সেনগুপ্ত | 1 |
-| কৃষ্ণদ্বৈপায়ন বেদব্যাস | 1 |
-| সমীরণ গুহ | 1 |
-| মণীন্দ্র গুপ্ত | 1 |
-| হাসান আজিজুল হক | 1 |
-| অ্যাডগার অ্যালান পো, জাকির শামীম | 1 |
-| সোমেন চন্দ | 1 |
-| হরপ্রসাদ শাস্ত্রী | 1 |
-| সেলিম আল দীন | 1 |
-| দাশরথি রায় | 1 |
-| কৃষ্ণদাস কবিরাজ গোস্বামী | 1 |
-| শৈবাল মিত্ৰ | 1 |
-| গ্যেটে, সুধাংশুরঞ্জন ঘোষ | 1 |
-| এইচ. পি. লাভক্র্যাফট | 1 |
-| আলবেয়ার কাম্যু, বাবুল আলম | 1 |
-| ক্যাথারিন নেভিল | 1 |
-| জন মিল্টন | 1 |
-| মেরি শেলি | 1 |
-| শরীফুল হাসান | 1 |
-| আব্বাসউদ্দীন আহমদ | 1 |
-| মুহম্মদ জালালউদ্দীন বিশ্বাস | 1 |
-| রাহুল সাংকৃত্যায়ন | 1 |
-| রবিশংকর বল | 1 |
-| আর্থার সি. ক্লার্ক | 1 |
-| শাহীন আখতার | 1 |
-| সনজীদা খাতুন | 1 |
-| আলেকজান্ডার ডুমাস | 1 |
-| মারিও পুজো, শেখ আবদুল হাকিম | 1 |
-| রবার্ট ব্লচ | 1 |
-| পাওলো কোয়েলহো | 1 |
-| মোঃ ফুয়াদ আল ফিদাহ, রবার্ট ব্লচ | 1 |
-| ক্লাইভ কাসলার, রাসেল ব্লেক, সাঈম শামস | 1 |
-| জুলফিকার নিউটন, লিও তলস্তয় | 1 |
-| আগাথা ক্রিস্টি, নচিকেতা ঘোষ | 1 |
-| আবদুল্লাহ আল-মুতী | 1 |
-| কার্ল মার্ক্স, ফ্রিডরিখ এঙ্গেলস | 1 |
-| ধনপতি বাগ, সিগমুন্ড ফ্রয়েড | 1 |
-| ও হেনরি | 1 |
-| হারুকি মুরাকামি | 1 |
-| আব্দুর রউফ চৌধুরী | 1 |
-| খায়রুল আলম মনি, ম্যাক্সিম গোর্কি | 1 |
-| আলাউদ্দিন আল আজাদ | 1 |
-| ফ্রিডরিখ এঙ্গেলস, মন্মথ সরকার | 1 |
-| কার্ল মার্ক্স, পীযুষ দাসগুপ্ত | 1 |
-| ইয়স্তেন গার্ডার, দ্বিজেন্দ্রনাথ বর্মন | 1 |
-| মাওলানা আজিজুল হক, হযরত মাওলানা শামছুল হক | 1 |
-| বিমল সেন, ম্যাক্সিম গোর্কি | 1 |
-| আবুল হাসনাৎ | 1 |
-| গাজী শামছুর রহমান | 1 |
-| চিত্তরঞ্জন মাইতি | 1 |
-| জ্যোতিরিন্দ্র নন্দী | 1 |
-| মালিহা তাবাসসুম | 1 |
-| তপন রায়চৌধুরী | 1 |
-| বর্ণালী সাহা | 1 |
-| অর্ণব সাহা | 1 |
-| নীলিমা ইব্রাহিম | 1 |
-| প্রতুলচন্দ্র গুপ্ত | 1 |
-| ফররুখ আহমদ | 1 |
-| ওয়াসি আহমেদ | 1 |
-| প্রতিভা বসু | 1 |
-| সুফিয়া কামাল | 1 |
-| গোলাম মোস্তফা | 1 |
-| প্রশান্তকুমার পাল | 1 |
-| শ্রীজাত বন্দ্যোপাধ্যায় | 1 |
-| মুহম্মদ শহীদুল্লাহ | 1 |
-| মোস্তাক আহমাদ দীন | 1 |
-| এম. এ. খান | 1 |
-| কৃত্তিবাস ওঝা | 1 |
-| তুলসীদাস | 1 |
-| শঙ্করলাল ভট্টাচার্য | 1 |
-| শশধর দত্ত | 1 |
-| শিবদাস ঘোষ | 1 |
-| আসাদ চৌধুরী | 1 |
-| উৎপলকুমার বসু | 1 |
-| চিত্তরঞ্জন দেব | 1 |
-| ক্ষিতীশচন্দ্র মৌলিক | 1 |
-| রাজা ভট্টাচার্য | 1 |
-| অজিত গঙ্গোপাধ্যায় | 1 |
-| প্রীতিলতা রায় | 1 |
-| সুকুমার বিশ্বাস | 1 |
-| বিষ্ণুপদ চক্রবর্তী | 1 |
-| শুভঙ্কর মুখোপাধ্যায় | 1 |
-| মাকিদ হায়দার | 1 |
-| সিদ্দিকা কবীর | 1 |
-| বিপুল কুমার রায় | 1 |
-| বৈশালী দাশগুপ্ত নন্দী | 1 |
-| বিজনবিহারী গোস্বামী | 1 |
-| রজনীকান্ত গুহ | 1 |
-| মহাদেব সাহা | 1 |
-| সুমন্ত চট্টোপাধ্যায় | 1 |
-| সত্যজিৎ রায়, সুদীপ দেব | 1 |
-| বারিদবরণ ঘোষ | 1 |
-| মন্দাক্রান্তা সেন | 1 |
-| সুনীতিকুমার চট্টোপাধ্যায় | 1 |
-| চার্লস ডারউইন | 1 |
-| সৌগত বসু | 1 |
-| রুণু গুহ নিয়োগী | 1 |
-| জাকির নায়েক | 1 |
-| আলবেয়ার কাম্যু | 1 |
-| আবদুল্লাহ আবু সায়ীদ | 1 |
-| সুজন দেবনাথ | 1 |
-| অরিজিৎ বন্দ্যোপাধ্যায় | 1 |
-| অভিষেক সেনগুপ্ত | 1 |
-| কালিদাস, রঙ্গলাল বন্দ্যোপাধ্যায় | 1 |
-| ভরতমুনি | 1 |
-| অতুলচন্দ্র সেন | 1 |
-| সমর পাল | 1 |
-| বঙ্কিমচন্দ্র চট্টোপাধ্যায়, সজনীকান্ত দাস | 1 |
-| দীনেশচন্দ্র সিংহ | 1 |
-| গোপালকৃষ্ণ রায় | 1 |
-| আবু সয়ীদ আইয়ুব | 1 |
-| অমরজ্যোতি মুখোপাধ্যায় | 1 |
-| লোকনাথ চক্রবর্তী | 1 |
-| সুজিত রায় | 1 |
-| অভিজিৎ পাল | 1 |
-| প্রদীপ বসু | 1 |
-| অজিত রায় | 1 |
-| হুমায়ুন কবীর | 1 |
-| অনিরুদ্ধ সরকার | 1 |
-| রোহন রায় | 1 |
-| সঞ্জয় ভট্টাচার্য | 1 |
-| সমুদ্র পাল | 1 |
-| অমৃতা কোনার | 1 |
-| প্রমথনাথ মল্লিক | 1 |
-| আর্নেস্ট হেমিংওয়ে | 1 |
-| তমোঘ্ন নস্কর | 1 |
-| ফিওডর দস্তয়েভস্কি | 1 |
-| কাজল ভট্টাচার্য | 1 |
-| গোপেন্দ্র বসু | 1 |
-| দেবশ্রী চক্রবর্তী | 1 |
-| পরিমল ভট্টাচার্য | 1 |
-| নির্বাণ রায় | 1 |
-| অমিতাভ চক্রবর্তী | 1 |
-| রণজিৎ দাশ | 1 |
-| গৌতম ভট্টাচার্য | 1 |
-| রাজর্ষি দাশ ভৌমিক | 1 |
-| নাগিব মাহফুজ | 1 |
-| অনীশ দেব, সমরেশ মজুমদার | 1 |
-| রণজিত সিংহ | 1 |
-| মিগেল দে সের্ভান্তেস | 1 |
-| অশোককুমার রায় | 1 |
-| রজতশুভ্র মজুমদার | 1 |
-| সুবোধ চক্রবর্তী | 1 |
-| প্রভাত দে সরকার | 1 |
-| নবকুমার বসু | 1 |
-| যোগীন্দ্রনাথ সরকার | 1 |
-| ফিলিপ কে. ডিক | 1 |
-| সহেলী চক্রবর্তী | 1 |
-| মৃগাঙ্ক ভট্টাচার্য | 1 |
-| অরিন্দম চক্রবর্তী | 1 |
-| চিন্ময় নাথ | 1 |
-| সুপর্ণা নাথ | 1 |
-| অরূপ রতন সমাজদার | 1 |
-| ভাস্বর চট্টোপাধ্যায় | 1 |
-| শাশ্বতী নন্দী | 1 |
-| কেদারনাথ গুপ্ত | 1 |
-| দীপান ভট্টাচার্য | 1 |
-| শহিদুল আলম | 1 |
-| নিখাদ বাঙালি (সম্পদ বারিক) | 1 |
-| রজত শুভ্র কর্মকার | 1 |
-| সুনির্মল বসু | 1 |
-| যাযাবর (বিনয় মুখোপাধ্যায়) | 1 |
-| শৈলজানন্দ মুখোপাধ্যায় | 1 |
-| জয়দেব গোস্বামী | 1 |
-| সিমোন দ্য বোভোয়ার, হুমায়ুন আজাদ | 1 |
-| ইউভাল নোয়া হারারি | 1 |
-| আশফাক আহমেদ, ইউভাল নোয়া হারারি | 1 |
-| কবীর চৌধুরী, ফ্রানজ কাফকা | 1 |
-| নিয়াজ মোরশেদ, হেনরি রাইডার হ্যাগার্ড | 1 |
-| বিভূতিভূষণ মিত্র | 1 |
-| আবুল কাশেম, আলি দস্তি, সৈকত চৌধুরী | 1 |
-| সতীনাথ ভাদুড়ী | 1 |
-| আগাথা ক্রিস্টি, শুভদেব চক্রবর্তী | 1 |
-| সান জু | 1 |
-| ক্রিস্টোফার সি ডয়েল, মাসুম আহমেদ আদি | 1 |
-| দক্ষিণারঞ্জন বসু | 1 |
-| আহসান হাবীব (কার্টুনিস্ট) | 1 |
-| দয়ানন্দ সরস্বতী | 1 |
-| কবীর চৌধুরী, স্যামুয়েল বেকেট | 1 |
-| অম্লান দত্ত, আরতি সেন, গৌরকিশোর ঘোষ (রূপদর্শী) | 1 |
-| মহিউদ্দিন আহমদ | 1 |
-| মোস্তফা হারুন, সাদত হাসান মান্টো | 1 |
-| রঞ্জিত চট্টোপাধ্যায়, সিদ্ধার্থ ঘোষ | 1 |
-| অভিজিৎ বিনায়ক বন্দ্যোপাধ্যায়, স্বাতী ভট্টাচার্য | 1 |
-| এ পি জে আবদুল কালাম, প্রমিত হোসেন | 1 |
-| গৌতম ভদ্র, পার্থ চট্টোপাধ্যায় | 1 |
-| রথীন বন্দ্যোপাধ্যায়, সতীশ চন্দ্র, সায়ন দে | 1 |
-| বুলবন ওসমান, লুইস হেনরি মর্গান | 1 |
-| কালী প্রসন্ন দাস | 1 |
-| জে ডি সালিঞ্জার, রাফায়েত রহমান রাতুল | 1 |
-| লোকনাথ ঘোষ, শুদ্ধোদন সেন | 1 |
-| র‍্যান্ডাল গ্যারেট, লরেন্স মার্ক জেনিফার | 1 |
-| মার্সেল প্রুস্ত | 1 |
-| অচিন্ত্যরূপ রায়, অমিতাভ ঘোষ | 1 |
-| এডগার অ্যালান পো | 1 |
-| র‍্যান্ডাল গ্যারেট | 1 |
-| রকিব হাসান, শামসুদ্দীন নওয়াব | 1 |
-| অক্ষয়কুমার মৈত্রেয় | 1 |
-| ইন্দুভূষণ দাস, মার্থা ম্যাককেনা | 1 |
-| কাজী মাহবুব হাসান, রিচার্ড হলোওয়ে | 1 |
-| অদিতি ফাল্গুনী, ভীমরাও রামজি আম্বেদকর | 1 |
-| আনিসুজ জামান, গাব্রিয়েল গার্সিয়া মার্কেস | 1 |
-| অনীশ দাস অপু, ব্রাম স্টোকার | 1 |
-| কাজী আনোয়ারুল কাদীর | 1 |
-| রিয়াজুল আলম শাওন | 1 |
-| জরাসন্ধ (চারুচন্দ্র চক্রবর্তী) | 1 |
-| গাব্রিয়েল গার্সিয়া মার্কেস | 1 |
-| কাজী মাহবুব হোসেন, ডেভিড সেলজার | 1 |
-| অনিল ঘড়াই | 1 |
-| কাজী মাহবুব হোসেন, জোসেফ হাওয়ার্ড | 1 |
-| কাজী মাহবুব হোসেন, গর্ডন ম্যাকগিল | 1 |
-| অভিজিৎ সেন | 1 |
-| অবধূত (দুলালচন্দ্র মুখোপাধ্যায়) | 1 |
-| ঈশান নাগর, দেবেশ ঠাকুর, সতীশচন্দ্র মিত্র | 1 |
-| প্রেমময় দাশগুপ্ত | 1 |
-| ঝিমলি মুখার্জি পাণ্ডে, শশী থারুর | 1 |
-| এ পি জে আবদুল কালাম, মনোজিৎ কুমার দাস | 1 |
-| ইসমাঈল কাদরী, রাফিক হারিরি | 1 |
-| কনফুসিয়াস, হেলাল উদ্দিন আহমেদ | 1 |
-| ভিক্টর ই. ফ্রাঙ্কেল, রাকিবুল রকি | 1 |
-| ব্রাম স্টোকার, রকিব হাসান | 1 |
-| ক্যারেন আর্মস্ট্রং, মোহাম্মদ হাসান শরীফ | 1 |
-| ক্যারেন আর্মস্ট্রং, সাদেকুল আহসান | 1 |
-| আল মারুফ রাসেল, কালিকিঙ্কর দত্ত | 1 |
-| খায়রুল আলম সবুজ, হেনরিক ইবসেন | 1 |
-| ইশরাক অর্ণব, কোজি সুজুকি | 1 |
-| সৈয়দ মাহমুদুল হাসান | 1 |
-| কল্লোল লাহিড়ী | 1 |
-| অ্যালেক্স মাইকেলিডিস, সালমান হক | 1 |
-| ইমদাদুল হক মিলন, সুনীল গঙ্গোপাধ্যায় | 1 |
-| হেমন্ত কুমার গঙ্গোপাধ্যায় | 1 |
-| অ্যান্টনি হরোউইটয, সায়েম সোলায়মান | 1 |
-| মির্চা এলিয়াদ | 1 |
-| অৎসুইশি, সালমান হক | 1 |
-| আইজাক আসিমভ, সাদেকুল আহসান | 1 |
-| আইজাক আসিমভ, জি. এইচ. হাবীব | 1 |
-| ইয়স্তেন গার্ডার, জি. এইচ. হাবীব | 1 |
-| উইলিয়াম শেক্সপিয়র | 1 |
-| এডগার রাইস বারুজ, মণীন্দ্র দত্ত, সুধাংশুরঞ্জন ঘোষ | 1 |
-| আলবেয়ার কাম্যু, মুনতাসীর মামুন | 1 |
-| ড্যানিয়েল ডিফো | 1 |
-| ফিওডর দস্তয়েভস্কি, সৈয়দ হালিম | 1 |
-| ম্যাথিউ রীলি, হাসান খুরশীদ রুমী | 1 |
-| কাজী আখতারউদ্দিন, জ্যাক হিগিনস | 1 |
-| সায়েম সোলায়মান, হারল্যান কোবেন | 1 |
-| জিম করবেট, মহাশ্বেতা দেবী | 1 |
-| মোহাম্মদ নাজিম উদ্দিন, স্টিগ লারসন | 1 |
-| জর্জ অরওয়েল, মাহমুদ মেনন | 1 |
-| জে অ্যানসন, লুৎফুল কায়সার | 1 |
-| বশীর বারহান, স্টেফানি মাইয়ার | 1 |
-| সঞ্চারী মুখোপাধ্যায়, সাদত হাসান মান্টো | 1 |
-| পাওলো কোয়েলহো, রাফিক হারিরি | 1 |
-| জেমস রোলিন্স, সাঈম শামস | 1 |
-| অসীম পিয়াস, ক্লাইভ কাসলার, গ্রাহাম ব্রাউন | 1 |
-| প্রিন্স আশরাফ, স্টেফানি মাইয়ার | 1 |
-| ক্লাইভ কাসলার, রবিন বারসেল, রাফায়েত রহমান রাতুল | 1 |
-| উইলবার স্মিথ, মাসুম আহমেদ আদি | 1 |
-| উইলবার স্মিথ, শওকত হোসেন | 1 |
-| উইলবার স্মিথ, জাইলস ক্রিস্টিয়ান, লুৎফুন নাহার | 1 |
-| উইলবার স্মিথ, পপি আখতার, শাহজাহান মানিক | 1 |
-| উইলবার স্মিথ, কাজী আখতারউদ্দিন | 1 |
-| অসীম পিয়াস, উইলবার স্মিথ, টম হারপার | 1 |
-| এনায়েতুল্লাহ আলতামাস, মুজাহিদ হুসাইন ইয়াসীন | 1 |
-| এনায়েতুল্লাহ আলতামাশ, মুহাম্মদ মুহিউদ্দীন | 1 |
-| এনায়েতুল্লাহ আলতামাশ, জহীর ইবনে মুসলিম | 1 |
-| এনায়েতুল্লাহ আলতামাশ, মাওলানা মুজিবুর রহমান | 1 |
-| মারিও পুজো, মোঃ বুলবুল আহমেদ | 1 |
-| এনায়েতুল্লাহ আলতামাশ, নাসীম আরাফাত | 1 |
-| উইলবার স্মিথ, শাহেদ জামান | 1 |
-| এনায়েতুল্লাহ আলতামাশ, মুহাম্মদ শফিউল আলম | 1 |
-| রাফায়েল সাবাতিনি, সাইফুল আরেফিন অপু | 1 |
-| ইসমাইল আরমান, রাফায়েল সাবাতিনি | 1 |
-| মোহাম্মদ আবদুর রশীদ, স্যামুয়েল পি. হান্টিংটন | 1 |
-| ভেরা পানোভা, শিউলি মজুমদার | 1 |
-| দিলওয়ার হাসান, হারুকি মুরাকামি | 1 |
-| আয়মান সাদিক, সাদমান সাদিক | 1 |
-| এডগার অ্যালান পো, চিত্তরঞ্জন মাইতি | 1 |
-| ত্রিদিবকুমার চট্টোপাধ্যায় | 1 |
-| জাহিদ হোসেন | 1 |
-| কৌশিক রায় | 1 |
-| নির্মল সেন | 1 |
-| প্রভাতকুমার মুখোপাধ্যায় | 1 |
-| ওমর খৈয়াম | 1 |
-| জয়গোপাল দে | 1 |
-| কার্ল মার্ক্স, জাভেদ হুসেন | 1 |
-| ভগিনী নিবেদিতা, স্বামী মাধবানন্দ | 1 |
-| ভবেশ রায়, মিলন নাথ | 1 |
-| মিনা ফারাহ | 1 |
-| দিলীপ মুখোপাধ্যায় | 1 |
-| বানভট্ট | 1 |
-| কৃষণ চন্দর, মোস্তফা হারুন | 1 |
-| রমেশচন্দ্র সেন | 1 |
-| চিত্রদীপ চক্রবর্তী, হিমাদ্রি সরকার | 1 |
-| নাগিব মাহফুজ, রাফিক হারিরি | 1 |
-| প্রণব রায় | 1 |
-| অনীশ দাস অপু, পাওলো কোয়েলহো | 1 |
-| বারিদবরণ ঘোষ, শীর্ষেন্দু মুখােপাধ্যায় | 1 |
-| মণিলাল গঙ্গোপাধ্যায় | 1 |
-| আফিফা পারভীন | 1 |
-| জ্যোতিভূষণ চাকী | 1 |
-| কাজী শাহনূর হোসেন, রবার্ট লুই স্টিভেনসন | 1 |
-| শান্তিপ্রিয় বন্দ্যোপাধ্যায় | 1 |
-| কাজী শাহনূর হোসেন, জর্জ ইলিয়ট | 1 |
+| Imam Ibonul Kaijjim (Rohoh) | 1 |
+| Damodorashtokom | 1 |
+| Shah Ojaliullah Muhaddise Deholobhi (Rohoh) | 1 |
+| Muphotije Ajome Banggal | 1 |
+| M_T_N_B_B | 1 |
+| Saijed Abul Hasan Ali Nodobhi Roh | 1 |
+| D. Nasir Al Akl | 1 |
+| Nephas Songkrant Phataoja | 1 |
+| Torobijt | 1 |
+| Quran Ek Mohabismoj | 1 |
+| Abdullah Shohid Abdur Rahman | 1 |
+| Moh Rophikul Islam | 1 |
+| Muhammad Akomal Husain | 1 |
+| Muphoti Isohak Al Gaji Al Kasemi | 1 |
+| Allama Jalaluddin Sijuti | 1 |
+| 2j Khond Ahmotin | 1 |
+| 2j Khond Hahparobhin | 1 |
+| Abu Saijid | 1 |
+| Ishorochondr Biddasagor Banglar Itihas, 2nd Part | 1 |
+| Poddhoti O Projog ।। Jojnt Gosami | 1 |
+| Shribishnupod Bhattacharyaj | 1 |
+| Shri Shrikumar Bandyopadhyay Bangasahitye Upanyaser Dhara | 1 |
+| Shricharuchondr Bandyopadhyay Bangasahitye Hasyaras | 1 |
+| Shri Shrikumar Bandyopadhyay Bangla Upanyas | 1 |
+| Shri Soroj Bandyopadhyay Bangla Upanyaser Kalantar | 1 |
+| Shritoponomohon Chattopadhyay Bangla Lyric-er Gorar Katha | 1 |
+| Shrisukumar Sen Bharatiya Sahityer Itihas | 1 |
+| Anisujjaman Muslim Banglar Samayik Patra | 1 |
+| Shrishrikumar Bandyopadhyay Sahitya O Sanskritir Tirthasanga | 1 |
+| Nirendronath Ray Sahitya Biksha | 1 |
+| Narajn Gangopadhyay Sahitye Chhoto Galpa | 1 |
+| Doh Shribimolakant Mukhopadhyay Sahityadarpana | 1 |
+| Shrikonok Bandyopadhyay Sahitya-Parikrama | 1 |
+| Shrisurendronath Dasogupt Sahitya-Parichay | 1 |
+| Shrithakurodas Mukhopadhyay Sahityamangal | 1 |
+| Trojodosh Khondo | 1 |
+| Shodsh Khondo | 1 |
+| Bhalobasa Jake Khaj | 1 |
+| Jodunath Nyajponchanon | 1 |
+| Oshtadoshopuran | 1 |
+| Chondidas | 1 |
+| Radhagobind Bosak | 1 |
+| Jitendronath Bandyopadhyay | 1 |
+| Poritosh Tagore | 1 |
+| Pijere Bul | 1 |
+| Haromman Melobhil | 1 |
+| Maik Jan | 1 |
+| Robart Lui Stibhenoson | 1 |
+| Alimujjaman | 1 |
+| Alekojandar Belajebh | 1 |
+| Ojalotar Skot | 1 |
+| Daojat Ilallah | 1 |
+| Shamosuddin Abul Kalam | 1 |
+| Mejor Anojar Hossain | 1 |
+| Kazi Imodadul Hok | 1 |
+| Charlos Nordohoph, Jemos Noromman Hol | 1 |
+| Prinsipal Iborahim Khan, Philip Ke. Hitti | 1 |
+| Jon Steinobek | 1 |
+| Enajetullah Alotamas, Shohidul Islam | 1 |
+| Obhijit Ray, Rajhan Abir | 1 |
+| Midul Hasan | 1 |
+| Monoronjon Byapari | 1 |
+| Motaher Hossain Chowdhury | 1 |
+| Probodhokumar Bhoumik | 1 |
+| Marojuk Rasel | 1 |
+| Suprij Chowdhury | 1 |
+| Lokeshr Basu | 1 |
+| Phranoj Kaphoka, Masorur Arephin | 1 |
+| Abodullah Abu Sajid, Shohidul Alom | 1 |
+| Koholil Jiboran, Mostopha Mir | 1 |
+| Alekojandar Dumas, Pharuk Bashar | 1 |
+| Monoj Mitra | 1 |
+| Sukanta Chowdhury | 1 |
+| Isomail Aroman | 1 |
+| Mojaph‌phor Hossain | 1 |
+| Odri Trusoke | 1 |
+| Pyatrik Nes | 1 |
+| Rudr Muhammed Shohidullah | 1 |
+| Sureshochondr Bandyopadhyay | 1 |
+| Sontoshokumar Ghosh | 1 |
+| Jonathon Suiphot | 1 |
+| Ramokingkor Beij | 1 |
+| Jon Klelland | 1 |
+| Ojadam Rakunas | 1 |
+| Liopold Bhon Shachar Majo | 1 |
+| Phranoj Kaphoka | 1 |
+| Debhid Riggan | 1 |
+| Muhammed Abodul Hai | 1 |
+| Mahobub Lilen | 1 |
+| Ahmed Rijaj | 1 |
+| Obhijit Chowdhury | 1 |
+| Abul Kasem | 1 |
+| Abu Bokor Siraji | 1 |
+| Ibhon Ridoli | 1 |
+| Osimoboron De | 1 |
+| Rebont Gosami | 1 |
+| Asiph Adonan | 1 |
+| Mohammad Abodul Hai | 1 |
+| Shekh Abdul Hakim | 1 |
+| Bijonokrishn Chowdhury | 1 |
+| Moris Lebola | 1 |
+| Abodul Modud | 1 |
+| Jakerullah Abul Khajer | 1 |
+| Kudorote Jahan, Diuk Jon, Moris Lebola | 1 |
+| Ogast Strinodobarg | 1 |
+| Buddheshr Tudu | 1 |
+| Surendromohon Bhoumik | 1 |
+| Kalikaronjon Kanunogo | 1 |
+| Khona (Lilaboti) | 1 |
+| Poritosh Sen | 1 |
+| Touhidur Rahman | 1 |
+| Kshitish Sarkar | 1 |
+| Rajendronath Rudr | 1 |
+| Nosib Ponchom Jihadi | 1 |
+| Em. Je. Babu | 1 |
+| Reja Ahmad | 1 |
+| Mahorin Pherodous | 1 |
+| Romonimohon Debonath | 1 |
+| Jolodhor Sen | 1 |
+| Khogendronath Bhoumik | 1 |
+| Suprija Ghosh | 1 |
+| Promothonath Bishi | 1 |
+| Proshant Mridha | 1 |
+| Premangkur Atorthi | 1 |
+| Monojurul Hok | 1 |
+| Tarok Ray | 1 |
+| Korn Shil | 1 |
+| Bishorup Bandyopadhyay | 1 |
+| Omoj Deb Ray, Dipongkor Bhattacharya | 1 |
+| Onushtup Sheth | 1 |
+| Chinmoj Ray | 1 |
+| Bamonodeb Chokroborti | 1 |
+| Abul Basar, Gregori Mon, Nil Digrras Taison | 1 |
+| Probodhokumar Sannal | 1 |
+| Nusorot Norin | 1 |
+| Romila Thapar | 1 |
+| Bishakhodott | 1 |
+| Michio Kaku, Sakib Jamal | 1 |
+| Isomail Aroman, Kazi Anojar Hossain | 1 |
+| Mujaphophor Ahmad | 1 |
+| Suporna Basu Mishr | 1 |
+| Nirmolochondr Gangopadhyay | 1 |
+| Nirupom Acharro | 1 |
+| Anojar Hossain, Kazi Majmur Hossain | 1 |
+| Purobi Basu | 1 |
+| Bhas, Murarimohon Sen | 1 |
+| Mohammad Nojibor Rahman | 1 |
+| Ojanthoni Myasokarenohas | 1 |
+| Chanokko Sen | 1 |
+| Mohiuddin Mohammad | 1 |
+| Kishor Pasha Imon | 1 |
+| Ishorak Ornob, Keigo Higashino, Saloman Hok | 1 |
+| Benjamin Ojakar | 1 |
+| Labonno Das | 1 |
+| Omitabh Senogupt | 1 |
+| Krishnodoipajn Bedobbas | 1 |
+| Somiron Guh | 1 |
+| Monindr Gupta | 1 |
+| Ojadogar Ojalan Po, Jakir Shamim | 1 |
+| Somen Chond | 1 |
+| Selim Al Din | 1 |
+| Dashorothi Ray | 1 |
+| Krishnodas Kobiraj Gosami | 1 |
+| Shoibal Mitৰ | 1 |
+| Gyete, Sudhangshuronjon Ghosh | 1 |
+| Eich. Pi. Labhokrraphot | 1 |
+| Alobejar Kammu, Babul Alom | 1 |
+| Kyatharin Nebhil | 1 |
+| Jon Milton | 1 |
+| Meri Sheli | 1 |
+| Shoriphul Hasan | 1 |
+| Abasuddin Ahmad | 1 |
+| Muhammed Jalaluddin Bishas | 1 |
+| Rahul Sangkrittajn | 1 |
+| Robishongkor Bol | 1 |
+| Arthar Si. Klark | 1 |
+| Shahin Akhotar | 1 |
+| Sonojida Khatun | 1 |
+| Alekojandar Dumas | 1 |
+| Mario Pujo, Shekh Abodul Hakim | 1 |
+| Robart Bloch | 1 |
+| Paolo Kojeloho | 1 |
+| Moh Phujad Al Phidah, Robart Bloch | 1 |
+| Klaibh Kasolar, Rasel Blek, Saim Shamos | 1 |
+| Julophikar Niuton, Lio Tolostoj | 1 |
+| Agatha Kristi, Nochiketa Ghosh | 1 |
+| Abodullah Al-Muti | 1 |
+| Karl Marks, Phridorikh Enggelos | 1 |
+| Dhonopoti Bag, Sigomund Phrojed | 1 |
+| O Henori | 1 |
+| Haruki Murakami | 1 |
+| Abdur Ruph Chowdhury | 1 |
+| Khajrul Alom Moni, Myaksim Gorki | 1 |
+| Phridorikh Enggelos, Monmoth Sarkar | 1 |
+| Karl Marks, Pijush Dasogupt | 1 |
+| Ijsten Gardar, Dwijendronath Bormon | 1 |
+| Maolana Ajijul Hok, Hojorot Maolana Shamochhul Hok | 1 |
+| Bimol Sen, Myaksim Gorki | 1 |
+| Abul Hasonat | 1 |
+| Gaji Shamochhur Rahman | 1 |
+| Jyotirindr Nondi | 1 |
+| Maliha Tabasosum | 1 |
+| Topon Rajchoudhuri | 1 |
+| Bornali Saha | 1 |
+| Ornob Saha | 1 |
+| Nilima Ibrahim | 1 |
+| Protulochondr Gupta | 1 |
+| Phororukh Ahmad | 1 |
+| Ojasi Ahmed | 1 |
+| Protibha Basu | 1 |
+| Proshantokumar Pal | 1 |
+| Shrijat Bandyopadhyay | 1 |
+| Muhammed Shohidullah | 1 |
+| Mostak Ahomad Din | 1 |
+| Em. E. Khan | 1 |
+| Tulosidas | 1 |
+| Shongkorolal Bhattacharya | 1 |
+| Shoshodhor Dutta | 1 |
+| Shibodas Ghosh | 1 |
+| 10 | 1 |
+| Asad Chowdhury | 1 |
+| Utpolokumar Basu | 1 |
+| Chittoronjon Deb | 1 |
+| Kshitishochondr Moulik | 1 |
+| Raja Bhattacharya | 1 |
+| Ojit Gangopadhyay | 1 |
+| Pritilota Ray | 1 |
+| Sukumar Bishas | 1 |
+| Bishnupod Chokroborti | 1 |
+| Shubhongkor Mukhopadhyay | 1 |
+| Makid Hajdar | 1 |
+| Siddika Kobir | 1 |
+| Bipul Kumar Ray | 1 |
+| Boishali Dashogupt Nondi | 1 |
+| Bijonobihari Gosami | 1 |
+| Rojonikant Guh | 1 |
+| Mohadeb Saha | 1 |
+| Sumont Chattopadhyay | 1 |
+| Satyajit Ray, Sudip Deb | 1 |
+| Molana Muhammad Abodur Rohim (Roh) | 1 |
+| Dilipokumar Chokroborti | 1 |
+| Ronobir Chokroborti | 1 |
+| Dilip Ghoshochoudhuri | 1 |
+| Shobha Sen | 1 |
+| Baridoboron Ghosh | 1 |
+| Thiodor Hartjel | 1 |
+| Mondakranta Sen | 1 |
+| Shoriphul Hok Dalim (Osongshodhit Bharson) | 1 |
+| Jakarija Polash | 1 |
+| Oshoka Rajna | 1 |
+| D. Nirmol Das | 1 |
+| Doh Kamal Hossain | 1 |
+| Sushilokumar Chattopadhyay | 1 |
+| Obhijit Bandyopadhyay | 1 |
+| Anondobajar Potrika | 1 |
+| Sotish Chondr Guh | 1 |
+| Borunokumar Chokroborti | 1 |
+| Songkolon O Sompadona Oshokokumar Mitra | 1 |
+| Charlos Daruin | 1 |
+| 2 Chotogolpo | 1 |
+| Oporajita Mukhopadhyay | 1 |
+| Roddur Ray | 1 |
+| Udoj Bhattacharya Sompadit | 1 |
+| Rituporna Chokroborti | 1 |
+| Sougot Basu | 1 |
+| Mrittunjoj Mukhopadhyay | 1 |
+| Runu Guh Nijogi | 1 |
+| Ritu Sen Chowdhury (Sompadit) | 1 |
+| Nikhil Sur | 1 |
+| Jakir Najek | 1 |
+| Pulok Bandyopadhyay | 1 |
+| Iti Gangopadhyay | 1 |
+| Alobejar Kammu | 1 |
+| Rojotokant Ray | 1 |
+| Tirthongkor Ray | 1 |
+| Shohidul Shah | 1 |
+| Bishnu Shorma | 1 |
+| Nabil Muhotasim | 1 |
+| Sujon Debonath | 1 |
+| Orijit Bandyopadhyay | 1 |
+| Obhishek Senogupt | 1 |
+| Abu Saiphullah | 1 |
+| Jerom Ke. Jerom | 1 |
+| Kalidas, Ronggolal Bandyopadhyay | 1 |
+| Mostakim Hosain Mridul Prodhan | 1 |
+| Muhammad Ahmad Bosumail | 1 |
+| Bhorotomuni | 1 |
+| Anondoborddhonacharro | 1 |
+| Otulochondr Sen | 1 |
+| Upen Manna | 1 |
+| Somor Pal | 1 |
+| Mohorshi Konad | 1 |
+| Abul Hajat | 1 |
+| Shubhomoj Saha | 1 |
+| Bankim Chandra Chattopadhyay, Sojonikant Das | 1 |
+| Jotin Sarkar Sompadit | 1 |
+| Upendronath Bandyopadhyay | 1 |
+| Sompadona Kartik Ghosh | 1 |
+| Dineshochondr Singh | 1 |
+| Abul Kalam Samosuddin | 1 |
+| Sotindromohon Chattopadhyay | 1 |
+| Es. Em. Imamuddin | 1 |
+| Mohendৰnath Chattopadhyay | 1 |
+| Gopalokrishn Ray | 1 |
+| Iqbal Kobir Mohon | 1 |
+| Manik Mohammad Rajjak | 1 |
+| Bidhan Riberu | 1 |
+| Abu Sojid Aijub | 1 |
+| Soijd Khaled Saiphullah | 1 |
+| Omorojjoti Mukhopadhyay | 1 |
+| Mujallima Morosheda Begom | 1 |
+| Moulana Abul Kalam Ajad | 1 |
+| Shukodeb Das | 1 |
+| Lokonath Chokroborti | 1 |
+| Soummodip | 1 |
+| Sujit Ray | 1 |
+| Sompadona Onima Mukti Gomej | 1 |
+| Swami Budhanond | 1 |
+| Hosone Ara Shahed | 1 |
+| Nitai Mollik | 1 |
+| Abodul Korim | 1 |
+| Muhammed Alomogir Toimur | 1 |
+| Obhijit Pal | 1 |
+| Prodip Basu | 1 |
+| Ojit Ray | 1 |
+| Sad Ur Rahman | 1 |
+| Koushik Rajchoudhuri | 1 |
+| Sugot Basu | 1 |
+| Onubadok Mohonolal Gangopadhyay | 1 |
+| Ramanond Sorosoti | 1 |
+| Rojjob Ali Deojan | 1 |
+| Soijd Monojurul Islam | 1 |
+| Kausar Chowdhury | 1 |
+| Kushilob Basu | 1 |
+| Bibhas Rajchoudhuri | 1 |
+| Nimaisadhon Basu | 1 |
+| Biraj Bhodr | 1 |
+| Odhdhapok Probhasochondr Dhor | 1 |
+| Omit Das | 1 |
+| Aroshi Sen | 1 |
+| Sompadona Shoilendr Halodar | 1 |
+| 1 (Probondh Songkolon) | 1 |
+| Oniruddh Sarkar | 1 |
+| Rohon Ray | 1 |
+| Mejor Jenarel Jijaur Rahman | 1 |
+| Himangshu Bikash Das | 1 |
+| Sonjoj Bhattacharya | 1 |
+| Nired Ray | 1 |
+| Omrita Konar | 1 |
+| Promothonath Mollik | 1 |
+| Arnest Hemingoje | 1 |
+| 1432 Pujabarshiki -(Thrilar Potrika) | 1 |
+| Tomoghn Noskor | 1 |
+| Abodul Halim | 1 |
+| Phiodor Dostojebhoski | 1 |
+| Asoma Pagol | 1 |
+| Imam Gajjali (Onubad Maolana Shah Ojaliullah) | 1 |
+| Kajol Bhattacharya | 1 |
+| Rothindronath Tagore | 1 |
+| Songkolon O Sompadona Nondolal Shorma | 1 |
+| Gopendr Basu | 1 |
+| Deboshri Chokroborti | 1 |
+| Porimol Bhattacharya | 1 |
+| Niran Ray | 1 |
+| Omitabh Chokroborti | 1 |
+| Ronojit Das | 1 |
+| Rebharend Ke. Ke. Ji. Sarkar | 1 |
+| Goutom Bhattacharya | 1 |
+| Rajorshi Das Bhoumik | 1 |
+| Sompadona O Onubad Komolesh Sen | 1 |
+| Antoin Di Seint Juperi | 1 |
+| Nagib Mahophuj | 1 |
+| Onish Deb, Somoresh Mojumodar | 1 |
+| Dah Somorendronath Pande Sompadit | 1 |
+| Ronojit Singh | 1 |
+| Promit Gupta | 1 |
+| Migel De Serbhantes | 1 |
+| Oshokokumar Ray | 1 |
+| Poreshochondr Bhattacharya | 1 |
+| Rojotoshubhr Mojumodar | 1 |
+| Subodh Chokroborti | 1 |
+| Boris Pasteronak | 1 |
+| Probhat De Sarkar | 1 |
+| Nobokumar Basu | 1 |
+| Jogindronath Sarkar | 1 |
+| Jephori Dibhar (Onubad Kudorote Jahan) | 1 |
+| Ojoj Mojumodar, Niloj Basu | 1 |
+| Philip Ke. Dik | 1 |
+| Soheli Chokroborti | 1 |
+| Mrigangk Bhattacharya | 1 |
+| Orindom Chokroborti | 1 |
+| Chinmoj Nath | 1 |
+| Suporna Nath | 1 |
+| Orup Roton Somajodar | 1 |
+| Bhasr Chattopadhyay | 1 |
+| Shashoti Nondi | 1 |
+| Kedaronath Gupta | 1 |
+| Dipan Bhattacharya | 1 |
+| Shohidul Alom | 1 |
+| Robart Ludolam (Onubad Rishad Habib) | 1 |
+| Nikhad Bangali (Sompod Barik) | 1 |
+| Nirmolochondr Ray | 1 |
+| Rojot Shubhr Kormokar | 1 |
+| Sunirmol Basu | 1 |
+| Jajabor (Binoj Mukhopadhyay) | 1 |
+| Shoilojanond Mukhopadhyay | 1 |
+| Oshokokumar Mitra | 1 |
+| Jojdeb Gosami | 1 |
+| Simon Dyo Bobhojar, Humajun Ajad | 1 |
+| Iubhal Noja Harari | 1 |
+| Ashophak Ahmed, Iubhal Noja Harari | 1 |
+| Kobir Chowdhury, Phranoj Kaphoka | 1 |
+| Nijaj Moroshed, Henori Raidar Hyagard | 1 |
+| Bibhutibhushan Mitra | 1 |
+| Abul Kashem, Ali Dosti, Soikot Chowdhury | 1 |
+| Sotinath Bhadudi | 1 |
+| Agatha Kristi, Shubhodeb Chokroborti | 1 |
+| San Ju | 1 |
+| Kristophar Si Dojel, Masum Ahmed Adi | 1 |
+| Dokshinaronjon Basu | 1 |
+| Ahosan Habib (Kartunist) | 1 |
+| Dojanond Sorosoti | 1 |
+| Kobir Chowdhury, Syamujel Beket | 1 |
+| Omlan Dutta, Aroti Sen, Gourokishor Ghosh (Rupodorshi) | 1 |
+| Mohiuddin Ahmad | 1 |
+| Mostopha Harun, Sadot Hasan Manto | 1 |
+| Ronjit Chattopadhyay, Siddharth Ghosh | 1 |
+| Obhijit Binajk Bandyopadhyay, Swati Bhattacharya | 1 |
+| E Pi Je Abodul Kalam, Promit Hossain | 1 |
+| Goutom Bhodr, Parth Chattopadhyay | 1 |
+| Rothin Bandyopadhyay, Sotish Chondr, Sajn De | 1 |
+| Bulobon Osoman, Luis Henori Morgan | 1 |
+| Kali Prosonn Das | 1 |
+| Je Di Salinjar, Raphajet Rahman Ratul | 1 |
+| Lokonath Ghosh, Shuddhodon Sen | 1 |
+| R‍jandal Gyaret, Lorens Mark Jeniphar | 1 |
+| Marsel Prust | 1 |
+| Ochinttorup Ray, Omitabh Ghosh | 1 |
+| Edogar Ojalan Po | 1 |
+| R‍jandal Gyaret | 1 |
+| Ruphul Alom | 1 |
+| Rokib Hasan, Shamosuddin Nojab | 1 |
+| Okshojkumar Moitrej | 1 |
+| Indubhushon Das, Martha Myakokena | 1 |
+| Kazi Mahobub Hasan, Richard Holooje | 1 |
+| Oditi Phalguni, Bhimorao Ramoji Amedokor | 1 |
+| Anisuj Jaman, Gabrijel Garsija Markes | 1 |
+| Onish Das Opu, Bram Stokar | 1 |
+| Bhanu Bandyopadhyay | 1 |
+| Kazi Anojarul Kadir | 1 |
+| Rijajul Alom Shaon | 1 |
+| Jorasondh (Charuchondr Chokroborti) | 1 |
+| Gabrijel Garsija Markes | 1 |
+| Kazi Mahobub Hossain, Debhid Selojar | 1 |
+| Onil Ghodai | 1 |
+| Kazi Mahobub Hossain, Joseph Haojard | 1 |
+| Kazi Mahobub Hossain, Gordon Myakogil | 1 |
+| Obhijit Sen | 1 |
+| Obodhut (Dulalochondr Mukhopadhyay) | 1 |
+| Ishan Nagor, Debesh Tagore, Sotishochondr Mitra | 1 |
+| Jhimoli Mukharji Pande, Shoshi Tharur | 1 |
+| E Pi Je Abodul Kalam, Monojit Kumar Das | 1 |
+| Isomail Kadori, Raphik Hariri | 1 |
+| Konophusijas, Helal Uddin Ahmed | 1 |
+| Bhiktor I. Phrangkel, Rakibul Roki | 1 |
+| Bram Stokar, Rokib Hasan | 1 |
+| Kyaren Armostrong, Mohammad Hasan Shoriph | 1 |
+| Kyaren Armostrong, Sadekul Ahosan | 1 |
+| Al Maruph Rasel, Kalikingkor Dutta | 1 |
+| Khajrul Alom Sobuj, Henorik Ibosen | 1 |
+| Ishorak Ornob, Koji Sujuki | 1 |
+| Soijd Mahomudul Hasan | 1 |
+| Kollol Lahidi | 1 |
+| Ojaleks Maikelidis, Saloman Hok | 1 |
+| Imodadul Hok Milon, Sunil Gangopadhyay | 1 |
+| Hemont Kumar Gangopadhyay | 1 |
+| Ojantoni Horouitoj, Sajem Solajman | 1 |
+| Mircha Elijad | 1 |
+| Otsuishi, Saloman Hok | 1 |
+| Aijak Asimobh, Sadekul Ahosan | 1 |
+| Aijak Asimobh, Ji. Eich. Habib | 1 |
+| Ijsten Gardar, Ji. Eich. Habib | 1 |
+| Uilijam Sheksopijr | 1 |
+| Edogar Rais Baruj, Monindr Dutta, Sudhangshuronjon Ghosh | 1 |
+| Alobejar Kammu, Munotasir Mamun | 1 |
+| Dyanijel Dipho | 1 |
+| Phiodor Dostojebhoski, Soijd Halim | 1 |
+| Myathiu Rili, Hasan Khuroshid Rumi | 1 |
+| Kazi Akhotaruddin, Jyak Higinos | 1 |
+| Sajem Solajman, Harollan Koben | 1 |
+| Jim Korobet, Mohasheta Devi | 1 |
+| Mohammad Najim Uddin, Stig Laroson | 1 |
+| Jorj Orojel, Mahomud Menon | 1 |
+| Je Ojanoson, Lutphul Kajsar | 1 |
+| Boshir Barohan, Stephani Maijar | 1 |
+| Sonchari Mukhopadhyay, Sadot Hasan Manto | 1 |
+| Paolo Kojeloho, Raphik Hariri | 1 |
+| Jemos Rolins, Saim Shamos | 1 |
+| Osim Pijas, Klaibh Kasolar, Graham Braun | 1 |
+| Prins Ashoraph, Stephani Maijar | 1 |
+| Klaibh Kasolar, Robin Barosel, Raphajet Rahman Ratul | 1 |
+| Uilobar Smith, Masum Ahmed Adi | 1 |
+| Uilobar Smith, Shokot Hossain | 1 |
+| Uilobar Smith, Jailos Kristijan, Lutphun Nahar | 1 |
+| Uilobar Smith, Popi Akhotar, Shahojahan Manik | 1 |
+| Uilobar Smith, Kazi Akhotaruddin | 1 |
+| Osim Pijas, Uilobar Smith, Tom Haropar | 1 |
+| Enajetullah Alotamas, Mujahid Husain Ijasin | 1 |
+| Enajetullah Alotamash, Muhammad Muhiuddin | 1 |
+| Enajetullah Alotamash, Johir Ibone Musolim | 1 |
+| Enajetullah Alotamash, Maolana Mujibur Rahman | 1 |
+| Mario Pujo, Moh Bulobul Ahmed | 1 |
+| Enajetullah Alotamash, Nasim Araphat | 1 |
+| Uilobar Smith, Shahed Jaman | 1 |
+| Enajetullah Alotamash, Muhammad Shophiul Alom | 1 |
+| Raphajel Sabatini, Saiphul Arephin Opu | 1 |
+| Isomail Aroman, Raphajel Sabatini | 1 |
+| Mohammad Abodur Roshid, Syamujel Pi. Hantington | 1 |
+| Bhera Panobha, Shiuli Mojumodar | 1 |
+| Dilojar Hasan, Haruki Murakami | 1 |
+| Ajman Sadik, Sadoman Sadik | 1 |
+| Edogar Ojalan Po, Chittoronjon Maiti | 1 |
+| Tridibokumar Chattopadhyay | 1 |
+| Jahid Hossain | 1 |
+| Koushik Ray | 1 |
+| Nirmol Sen | 1 |
+| Probhatokumar Mukhopadhyay | 1 |
+| Omor Khoijam | 1 |
+| Jojgopal De | 1 |
+| Karl Marks, Jabhed Husen | 1 |
+| Bhogini Nibedita, Swami Madhobanond | 1 |
+| Bhobesh Ray, Milon Nath | 1 |
+| Mina Pharah | 1 |
+| Dilip Mukhopadhyay | 1 |
+| Banobhott | 1 |
+| Krishon Chondor, Mostopha Harun | 1 |
+| Romeshochondr Sen | 1 |
+| Chitrodip Chokroborti, Himadri Sarkar | 1 |
+| Nagib Mahophuj, Raphik Hariri | 1 |
+| Pronob Ray | 1 |
+| Onish Das Opu, Paolo Kojeloho | 1 |
+| Baridoboron Ghosh, Shirshendu Mukhaepadhdhaj | 1 |
+| Allama Sophiur Rahman Mobarokopuri (Rohoh) | 1 |
+| Monilal Gangopadhyay | 1 |
+| Aphipha Parobhin | 1 |
+| Jyotibhushon Chaki | 1 |
+| Kazi Shahonur Hossain, Robart Lui Stibhenoson | 1 |
+| Shantiprij Bandyopadhyay | 1 |
+| Kazi Shahonur Hossain, Jorj Ilijt | 1 |
 | Government of Bangladesh | 1 |
-| শাহ্ নেয়ামতুল্লাহ্ | 1 |
+| Shah Nejamotullah | 1 |

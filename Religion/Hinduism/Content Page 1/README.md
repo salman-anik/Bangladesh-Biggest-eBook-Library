@@ -23,5 +23,5 @@
 
 ### 📂 Files Inside Folder
 
-- [Content Page 1 (1).pdf](https://drive.google.com/file/d/1M7xOJWDLXLFPE-mrciNk29xXDXibbaVN/view) (184.8 KB)
-- [Content Page 1 (2).pdf](https://drive.google.com/file/d/1vayqGZHbFsY3IhKatemHt-vwb8MKIBHa/view) (237.3 KB)
+- [Content Page 1.pdf](https://drive.google.com/file/d/1M7xOJWDLXLFPE-mrciNk29xXDXibbaVN/view) (184.8 KB)
+- [Content Page 1.pdf](https://drive.google.com/file/d/1vayqGZHbFsY3IhKatemHt-vwb8MKIBHa/view) (237.3 KB)

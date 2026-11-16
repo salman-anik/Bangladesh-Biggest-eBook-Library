@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Gravitation |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | University Physics - Gravitation and Gravity |
 | **Category** | Science/Physics |
 | **Subfolder** | English (G-M) |

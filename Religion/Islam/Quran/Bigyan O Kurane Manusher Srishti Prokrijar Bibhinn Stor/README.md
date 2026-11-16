@@ -1,0 +1,21 @@
+# 📖 Bigyan O Kurane Manusher Srishti Prokrijar Bibhinn Stor
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Religion](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/README.md) / [Quran](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/Islam/Quran/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/16WI0KPjgPpzvHMA8tf76IWzpkGnmM2M4)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/16WI0KPjgPpzvHMA8tf76IWzpkGnmM2M4) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | Bigyan O Kurane Manusher Srishti Prokrijar Bibhinn Stor |
+| **Author** | Various / Unknown |
+| **Publication / Source** | বই বিতরন (১৭/০৮/২০২২) |
+| **Category** | Religion/Islam/Quran |
+| **Subfolder** | প-ব |
+| **Formats** | — |
+| **Total Size** | — |

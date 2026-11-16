@@ -13,7 +13,7 @@
 
 | Field | Value |
 |---|---|
-| **Title** | Amar Dukkhobharakranto Beshyader Smritikotha - Bengali Translation of Gabriel Garcia Marquezs Novel Memoria de mis putas tristes - Translate |
+| **Title** | Amar Dukkhobharakranto Beshyader Smritikotha - Bengali Translation of Gabriel Garcia Marquezs Novel Memoria de |
 | **Author** | Various / Unknown |
 | **Publication / Source** | মৃণালের ই-লাইব্রেরি |
 | **Category** | Language and Linguistics/Translation |

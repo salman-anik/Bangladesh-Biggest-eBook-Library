@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | 34muslim-scientist-of-spain |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Islamic History |
 | **Subfolder** | 0-9 & Other |

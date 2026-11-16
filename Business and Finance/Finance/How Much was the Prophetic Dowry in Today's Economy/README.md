@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | How Much was the Prophetic Dowry in Today's Economy |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Business and Finance/Finance |
 | **Subfolder** | — |

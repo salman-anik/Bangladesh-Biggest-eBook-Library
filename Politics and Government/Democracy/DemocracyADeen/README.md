@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | DemocracyADeen |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Politics and Government/Democracy |
 | **Subfolder** | — |

@@ -13,7 +13,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Emergence of Bangladesh (1947-1971) |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | University Physics - 1st Year |
 | **Category** | History/Liberation War |
 | **Subfolder** | — |

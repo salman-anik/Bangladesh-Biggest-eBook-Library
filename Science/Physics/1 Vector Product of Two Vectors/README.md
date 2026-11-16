@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | 1 Vector Product of Two Vectors |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | University Physics - Mechanics |
 | **Category** | Science/Physics |
 | **Subfolder** | 0-9 & Other |

@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | shia-der boi islam e abu talib-er-obodan-nurul-monir |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Religion/Islam/Quran |
 | **Subfolder** | English (N-S) |

@@ -1,0 +1,29 @@
+# 📖 Tin Gojenda Bholium 35_Rokib Hasan
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Fiction](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Fiction/README.md) / [Thriller](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Fiction/Thriller/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1PEsgwMLhC3eEfv0rRT-jqR4KnGjMKdDR)
+
+![Tin Gojenda Bholium 35](https://drive.google.com/thumbnail?id=11RaIVAsz_JCw6s-XhL7bZ_cg776z6VtK&sz=w600)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1PEsgwMLhC3eEfv0rRT-jqR4KnGjMKdDR) |
+| 📄 **Structured Text (JSON)** | [Open Text JSON in Drive](https://drive.google.com/file/d/1DXOTz-QbICarmGaR-b5lL94s-KGtBuy4/view) |
+| 🖼️ **Cover Image** | [View Cover in Drive](https://drive.google.com/file/d/11RaIVAsz_JCw6s-XhL7bZ_cg776z6VtK/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | Tin Gojenda Bholium 35 |
+| **Author** | Rokib Hasan |
+| **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
+| **Category** | Fiction/Thriller |
+| **Subfolder** | রকিব হাসান |
+| **Formats** | TEXT, json |
+| **Total Size** | 977.5 KB |
+
+### 📂 Files Inside Folder
+
+- [Tin Gojenda Bholium 35_Rokib Hasan.json](https://drive.google.com/file/d/1DXOTz-QbICarmGaR-b5lL94s-KGtBuy4/view) (977.5 KB)

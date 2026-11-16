@@ -13,7 +13,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Dielectrics |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | University Physics - Classical Electrodynamics I |
 | **Category** | Science/Physics |
 | **Subfolder** | English (A-F) |

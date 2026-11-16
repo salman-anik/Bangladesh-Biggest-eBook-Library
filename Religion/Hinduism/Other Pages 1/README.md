@@ -23,5 +23,5 @@
 
 ### 📂 Files Inside Folder
 
-- [Other Pages 1 (1).pdf](https://drive.google.com/file/d/1wnPhA68c52LBqGycPahn_dDa0_6ISQuh/view) (160.4 KB)
-- [Other Pages 1 (2).pdf](https://drive.google.com/file/d/1Uzpdzw0FJPExchxXbWv3JKBbJpPp0jZu/view) (1.7 MB)
+- [Other Pages 1.pdf](https://drive.google.com/file/d/1wnPhA68c52LBqGycPahn_dDa0_6ISQuh/view) (160.4 KB)
+- [Other Pages 1.pdf](https://drive.google.com/file/d/1Uzpdzw0FJPExchxXbWv3JKBbJpPp0jZu/view) (1.7 MB)

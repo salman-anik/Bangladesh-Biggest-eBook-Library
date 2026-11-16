@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | 35Omar Tilmesani O Ikhwan |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Islamic History |
 | **Subfolder** | 0-9 & Other |

@@ -1,0 +1,30 @@
+# 📖 Masud Rana 469 - Kiling Mishon_Kazi Anojar Hossain, Kazi Majmur Hossain
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Fiction](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Fiction/README.md) / [Thriller](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Fiction/Thriller/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1ITTSMS19RMORx4RYowhbSadsOlSWA0R_)
+
+![Masud Rana 469 - Kiling Mishon](https://drive.google.com/thumbnail?id=1rnC2n1FFkvqkgXsJVpxHP90L-21RcqJB&sz=w600)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1ITTSMS19RMORx4RYowhbSadsOlSWA0R_) |
+| 📄 **Structured Text (JSON)** | [Open Text JSON in Drive](https://drive.google.com/file/d/1mjTqLNL0A5i6A-uWPgFUc13D9SnnrzAw/view) |
+| 🖼️ **Cover Image** | [View Cover in Drive](https://drive.google.com/file/d/1rnC2n1FFkvqkgXsJVpxHP90L-21RcqJB/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | Masud Rana 469 - Kiling Mishon |
+| **Author** | Kazi Anojar Hossain, Kazi Majmur Hossain |
+| **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
+| **Category** | Fiction/Thriller |
+| **Subfolder** | কাজী আনোয়ার হোসেন, কাজী মায়মুর হোসেন |
+| **Formats** | COVER, TEXT, json |
+| **Total Size** | 1.0 MB |
+
+### 📂 Files Inside Folder
+
+- [Masud Rana 469 - Kiling Mishon_Kazi Anojar Hossain, Kazi Majmur Hossain.jpg](https://drive.google.com/file/d/1rnC2n1FFkvqkgXsJVpxHP90L-21RcqJB/view) (21.6 KB)
+- [Masud Rana 469 - Kiling Mishon_Kazi Anojar Hossain, Kazi Majmur Hossain.json](https://drive.google.com/file/d/1mjTqLNL0A5i6A-uWPgFUc13D9SnnrzAw/view) (1.0 MB)

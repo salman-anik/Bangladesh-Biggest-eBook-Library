@@ -13,7 +13,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Optical Fibre and Total Internal Reflection (Physics Notes) |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | University Physics - Geophysics & 4th Year |
 | **Category** | Science/General Science |
 | **Subfolder** | — |

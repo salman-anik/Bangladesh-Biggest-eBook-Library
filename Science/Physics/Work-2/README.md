@@ -13,7 +13,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Work-2 |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | University Physics - 1st Year |
 | **Category** | Science/Physics |
 | **Subfolder** | English (T-Z) |

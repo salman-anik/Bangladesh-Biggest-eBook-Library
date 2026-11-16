@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | varote muslim shasoner buniyad by ABM muhibullah |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Islamic History |
 | **Subfolder** | English (T-Z) |

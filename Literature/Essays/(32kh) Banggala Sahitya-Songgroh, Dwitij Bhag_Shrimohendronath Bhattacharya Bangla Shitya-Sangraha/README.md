@@ -1,0 +1,26 @@
+# 📖 (32kh) Banggala Sahitya-Songgroh, Dwitij Bhag_Shrimohendronath Bhattacharya Bangla Shitya-Sangraha
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/README.md) / [Essays](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Essays/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1IfI9nyRNlqMM1TdmYMl2q9qLuH_pcmAK)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1IfI9nyRNlqMM1TdmYMl2q9qLuH_pcmAK) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/1VtSsE_1MquadXlIuXRZ-6btZvMZ4LLQv/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | (32kh) Banggala Sahitya-Songgroh, Dwitij Bhag |
+| **Author** | Shrimohendronath Bhattacharya Bangla Shitya-Sangraha |
+| **Publication / Source** | মৃণালের ই-লাইব্রেরি |
+| **Category** | Literature/Essays |
+| **Subfolder** | 0-9 & Other |
+| **Formats** | PDF |
+| **Total Size** | 6.7 MB |
+
+### 📂 Files Inside Folder
+
+- [(32kh) Banggala Sahitya-Songgroh, Dwitij Bhag_Shrimohendronath Bhattacharya Bangla Shitya-Sangraha.pdf](https://drive.google.com/file/d/1VtSsE_1MquadXlIuXRZ-6btZvMZ4LLQv/view) (6.7 MB)

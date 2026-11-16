@@ -1,0 +1,26 @@
+# 📖 Tafsir Bakara 1-29
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Religion](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/README.md) / [Tafsir](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/Islam/Tafsir/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1KFb-Qz7rr0SBtzLj7tt3_DqKFitNDFrK)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1KFb-Qz7rr0SBtzLj7tt3_DqKFitNDFrK) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/1lpsWi0xXTh2MDBk_fyk7jYOpS8dvrQFy/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | Tafsir Bakara 1-29 |
+| **Author** | Various / Compiled (Songkolit) |
+| **Publication / Source** | Shared Islamic Books (israt) |
+| **Category** | Religion/Islam/Tafsir |
+| **Subfolder** | ত-ন |
+| **Formats** | PDF |
+| **Total Size** | 1.8 MB |
+
+### 📂 Files Inside Folder
+
+- [Tafsir Bakara 1-29.pdf](https://drive.google.com/file/d/1lpsWi0xXTh2MDBk_fyk7jYOpS8dvrQFy/view) (1.8 MB)

@@ -13,7 +13,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Standing wave |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | University Physics - Fundamentals of Physics |
 | **Category** | Science/Physics |
 | **Subfolder** | English (N-S) |

@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Real Life Lessons from the Holy Quran |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Quran |
 | **Subfolder** | English (N-S) |

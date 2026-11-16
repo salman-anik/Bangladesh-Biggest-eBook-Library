@@ -13,7 +13,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Controversial issues in the constitution |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | University Physics - 1st Year |
 | **Category** | Politics and Government/Constitution |
 | **Subfolder** | — |

@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Medical Sciences in Islamic History (Chapter 1) |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Science/General Science |
 | **Subfolder** | — |

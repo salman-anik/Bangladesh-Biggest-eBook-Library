@@ -8,4 +8,4 @@
 
 | # | Book Folder & Name | Author | Formats | Size | Google Drive Folder |
 |---:|---|---|---|---:|---|
-| 1 | [Islamic View on Insurance Types and Models](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Business%20and%20Finance/Insurance/Islamic%20View%20on%20Insurance%20Types%20and%20Models/README.md) | Various / Compiled (সংকলিত) | PDF | 125.1 KB | [Open Folder](https://drive.google.com/drive/folders/1xnFcH50F6xW9z0i9uWu1XF3k8jfCjI4l) |
+| 1 | [Islamic View on Insurance Types and Models](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Business%20and%20Finance/Insurance/Islamic%20View%20on%20Insurance%20Types%20and%20Models/README.md) | Various / Compiled (Songkolit) | PDF | 125.1 KB | [Open Folder](https://drive.google.com/drive/folders/1xnFcH50F6xW9z0i9uWu1XF3k8jfCjI4l) |

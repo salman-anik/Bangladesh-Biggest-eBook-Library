@@ -1,0 +1,26 @@
+# 📖 Amar Fashi Chai_by- Motiur-Rahman Rentu
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [History](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/History/README.md) / [Bangladesh History](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/History/Bangladesh%20History/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/14McrTgrpaOiA8i01fpaYHGM03aq-WFoy)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/14McrTgrpaOiA8i01fpaYHGM03aq-WFoy) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/1WWNOMpmEtrWhvlJupkxdeC3ZXVzAn8Zo/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | Amar Fashi Chai |
+| **Author** | by- Motiur-Rahman Rentu |
+| **Publication / Source** | মৃণালের ই-লাইব্রেরি |
+| **Category** | History/Bangladesh History |
+| **Subfolder** | — |
+| **Formats** | PDF |
+| **Total Size** | 45.2 MB |
+
+### 📂 Files Inside Folder
+
+- [Amar Fashi Chai_by- Motiur-Rahman Rentu.pdf](https://drive.google.com/file/d/1WWNOMpmEtrWhvlJupkxdeC3ZXVzAn8Zo/view) (45.2 MB)

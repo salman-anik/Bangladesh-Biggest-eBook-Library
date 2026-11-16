@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Torque and Angular Momentum |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | University Physics - Mechanics |
 | **Category** | Science/Physics |
 | **Subfolder** | English (T-Z) |

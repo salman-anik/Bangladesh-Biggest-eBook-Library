@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Sirat e Rasul SM |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Seerah |
 | **Subfolder** | — |

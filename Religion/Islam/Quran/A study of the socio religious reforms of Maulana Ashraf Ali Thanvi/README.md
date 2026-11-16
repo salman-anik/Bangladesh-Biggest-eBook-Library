@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | A study of the socio religious reforms of Maulana Ashraf Ali Thanvi |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Religion/Islam/Quran |
 | **Subfolder** | English (A-F) |

@@ -13,7 +13,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Elasticity |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | University Physics - 1st Year |
 | **Category** | Science/Physics |
 | **Subfolder** | English (A-F) |

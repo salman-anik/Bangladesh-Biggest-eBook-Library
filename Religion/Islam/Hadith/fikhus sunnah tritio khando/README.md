@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | fikhus sunnah tritio khando |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Hadith |
 | **Subfolder** | English (A-F) |

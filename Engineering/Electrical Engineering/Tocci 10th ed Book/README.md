@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Tocci 10th ed Book |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Engineering BOOKS |
 | **Category** | Engineering/Electrical Engineering |
 | **Subfolder** | — |

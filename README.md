@@ -1,6 +1,6 @@
 # 📚 Bangladesh's Biggest eBook Library
 
-[🌐 Browse Searchable Web Explorer](https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/) | [📁 Open Google Drive Root](https://drive.google.com/drive/folders/1fMsplDtUnpUhnNBJGKvYQ1sdZx0QVJWq) | [✍️ Authors (1,287)](AUTHORS.md) | [🏢 Publications (29)](PUBLICATIONS.md)
+[🌐 Browse Searchable Web Explorer](https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/) | [📁 Open Google Drive Root](https://drive.google.com/drive/folders/1fMsplDtUnpUhnNBJGKvYQ1sdZx0QVJWq) | [✍️ Authors (2,565)](AUTHORS.md) | [🏢 Publications (29)](PUBLICATIONS.md)
 
 **14,496 Unified Book Folders** organized cleanly across **25 Categories & 256 Subcategories** (**135.6 GB** total).
 

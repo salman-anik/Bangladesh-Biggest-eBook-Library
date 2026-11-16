@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | ### antenna 1 |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | University Physics - Geophysics & 4th Year |
 | **Category** | Science/Physics |
 | **Subfolder** | 0-9 & Other |

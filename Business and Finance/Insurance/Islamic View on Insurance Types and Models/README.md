@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Islamic View on Insurance Types and Models |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Business and Finance/Insurance |
 | **Subfolder** | — |

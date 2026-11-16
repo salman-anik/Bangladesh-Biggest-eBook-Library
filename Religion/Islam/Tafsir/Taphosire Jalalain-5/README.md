@@ -1,0 +1,26 @@
+# 📖 Taphosire Jalalain-5
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Religion](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/README.md) / [Tafsir](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/Islam/Tafsir/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1EV3VK-dD3Za8kPw_17h7U0zq6kpSW86L)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1EV3VK-dD3Za8kPw_17h7U0zq6kpSW86L) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/1wn4mLR2WK6t3w6V1DPg5uJPaWC9sqPHr/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | Taphosire Jalalain-5 |
+| **Author** | Various / Unknown |
+| **Publication / Source** | ইসলামী বই |
+| **Category** | Religion/Islam/Tafsir |
+| **Subfolder** | ত-ন |
+| **Formats** | PDF |
+| **Total Size** | 39.1 MB |
+
+### 📂 Files Inside Folder
+
+- [Taphosire Jalalain-5.pdf](https://drive.google.com/file/d/1wn4mLR2WK6t3w6V1DPg5uJPaWC9sqPHr/view) (39.1 MB)

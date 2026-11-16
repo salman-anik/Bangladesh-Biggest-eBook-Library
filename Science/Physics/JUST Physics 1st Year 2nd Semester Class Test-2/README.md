@@ -13,7 +13,7 @@
 | Field | Value |
 |---|---|
 | **Title** | JUST Physics 1st Year 2nd Semester Class Test-2 |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | University Physics - 1st Year |
 | **Category** | Science/Physics |
 | **Subfolder** | English (G-M) |

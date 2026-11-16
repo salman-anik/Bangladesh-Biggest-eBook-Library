@@ -13,7 +13,7 @@
 | Field | Value |
 |---|---|
 | **Title** | 2 (c) Waves in Crystalline Medium |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | University Physics - Classical Electrodynamics II |
 | **Category** | Science/Physics |
 | **Subfolder** | 0-9 & Other |

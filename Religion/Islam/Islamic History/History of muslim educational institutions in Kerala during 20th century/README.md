@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | History of muslim educational institutions in Kerala during 20th century |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Religion/Islam/Islamic History |
 | **Subfolder** | English (G-M) |

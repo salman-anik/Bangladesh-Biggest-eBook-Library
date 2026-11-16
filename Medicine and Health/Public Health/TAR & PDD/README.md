@@ -13,7 +13,7 @@
 | Field | Value |
 |---|---|
 | **Title** | TAR & PDD |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | University Physics - Medical Physics |
 | **Category** | Medicine and Health/Public Health |
 | **Subfolder** | — |

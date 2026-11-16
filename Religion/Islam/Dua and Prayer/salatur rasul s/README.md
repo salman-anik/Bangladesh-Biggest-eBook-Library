@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | salatur rasul s |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Religion/Islam/Dua and Prayer |
 | **Subfolder** | — |

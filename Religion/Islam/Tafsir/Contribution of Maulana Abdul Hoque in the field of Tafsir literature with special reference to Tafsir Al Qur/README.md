@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Contribution of Maulana Abdul Hoque in the field of Tafsir literature with special reference to Tafsir Al Qur |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Religion/Islam/Tafsir |
 | **Subfolder** | English (A-F) |

@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | BibhutibhusanBandyopadhay Aronyok |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | SM-Collection Bangla eBook Archive |
 | **Category** | Religion/Islam/Quran |
 | **Subfolder** | English (A-F) |

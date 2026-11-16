@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | bangladeshe islami shilpokola |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Islamic History |
 | **Subfolder** | English (A-F) |

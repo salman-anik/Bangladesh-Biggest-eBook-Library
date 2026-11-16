@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Syyid Qutb Shaheeds contribution to Arabic Literature |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Language and Linguistics/Arabic Language |
 | **Subfolder** | — |

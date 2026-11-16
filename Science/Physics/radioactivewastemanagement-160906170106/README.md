@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | radioactivewastemanagement-160906170106 |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | University Physics - Geophysics & 4th Year |
 | **Category** | Science/Physics |
 | **Subfolder** | English (N-S) |

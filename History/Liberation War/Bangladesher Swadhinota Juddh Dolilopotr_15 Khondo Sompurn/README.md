@@ -1,0 +1,26 @@
+# 📖 Bangladesher Swadhinota Juddh Dolilopotr_15 Khondo Sompurn
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [History](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/History/README.md) / [Liberation War](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/History/Liberation%20War/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1yERRRUCAkfUn9smgWDQcDg0-5K4uxo8k)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1yERRRUCAkfUn9smgWDQcDg0-5K4uxo8k) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/1wD-tqGZXGVYjQ0ap9HAYMvI970Chk8mN/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | Bangladesher Swadhinota Juddh Dolilopotr |
+| **Author** | 15 Khondo Sompurn |
+| **Publication / Source** | মৃণালের ই-লাইব্রেরি |
+| **Category** | History/Liberation War |
+| **Subfolder** | — |
+| **Formats** | PDF |
+| **Total Size** | 88.4 MB |
+
+### 📂 Files Inside Folder
+
+- [Bangladesher Swadhinota Juddh Dolilopotr_15 Khondo Sompurn.pdf](https://drive.google.com/file/d/1wD-tqGZXGVYjQ0ap9HAYMvI970Chk8mN/view) (88.4 MB)

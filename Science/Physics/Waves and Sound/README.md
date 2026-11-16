@@ -13,7 +13,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Waves and Sound |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | University Physics - Waves and Sound |
 | **Category** | Science/Physics |
 | **Subfolder** | English (T-Z) |

@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Mechanical properties of optical fibers |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | University Physics - Lasers and Fiber Optics |
 | **Category** | Engineering/Mechanical Engineering |
 | **Subfolder** | — |

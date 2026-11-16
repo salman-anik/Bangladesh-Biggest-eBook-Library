@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | tafseer-tawzeehul-quran-by-a-rajjak-bin-yusuf-bangla-tafseer-of-amma-para |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Quran |
 | **Subfolder** | English (T-Z) |

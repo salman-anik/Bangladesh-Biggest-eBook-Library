@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Linear Momentum of a System of Particles |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | University Physics - Mechanics |
 | **Category** | Science/Physics |
 | **Subfolder** | English (G-M) |

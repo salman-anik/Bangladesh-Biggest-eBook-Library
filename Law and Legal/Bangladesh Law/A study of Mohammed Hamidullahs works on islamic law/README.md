@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | A study of Mohammed Hamidullahs works on islamic law |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Law and Legal/Bangladesh Law |
 | **Subfolder** | — |

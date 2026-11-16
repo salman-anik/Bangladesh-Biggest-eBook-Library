@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Indian Muslim Women's Contribution to Islamic Studies Since 1947 |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Religion/Islam/Quran |
 | **Subfolder** | English (G-M) |

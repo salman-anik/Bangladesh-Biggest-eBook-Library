@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Social-Cultural Conflict in Southern Thailand (Chapter 3) |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | History/World History |
 | **Subfolder** | — |

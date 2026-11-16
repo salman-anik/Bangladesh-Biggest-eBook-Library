@@ -13,7 +13,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Ray Transmission Theory |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | University Physics - Lasers and Fiber Optics |
 | **Category** | Science/Physics |
 | **Subfolder** | English (N-S) |

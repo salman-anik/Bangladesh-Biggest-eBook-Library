@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Abu Umar as Saif |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Religion/Islam/Quran |
 | **Subfolder** | English (A-F) |

@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Muslimpopulation |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Social Science/Population Studies |
 | **Subfolder** | — |

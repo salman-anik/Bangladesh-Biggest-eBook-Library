@@ -1,0 +1,26 @@
+# 📖 Hemendrokumar Rochonaboli 26_Hemendrokumar Ray
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Fiction](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Fiction/README.md) / [Detective](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Fiction/Detective/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1zPMYH8sTemmx2GWV4noL43BZspr0olcJ)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1zPMYH8sTemmx2GWV4noL43BZspr0olcJ) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/17dpjv8JGQNrjeklzL6ccXghRbmIoJOiU/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | Hemendrokumar Rochonaboli 26 |
+| **Author** | Hemendrokumar Ray |
+| **Publication / Source** | মৃণালের ই-লাইব্রেরি |
+| **Category** | Fiction/Detective |
+| **Subfolder** | য-হ |
+| **Formats** | PDF |
+| **Total Size** | 12.7 MB |
+
+### 📂 Files Inside Folder
+
+- [Hemendrokumar Rochonaboli 26_Hemendrokumar Ray.pdf](https://drive.google.com/file/d/17dpjv8JGQNrjeklzL6ccXghRbmIoJOiU/view) (12.7 MB)

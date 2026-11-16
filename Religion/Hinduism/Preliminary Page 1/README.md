@@ -23,5 +23,5 @@
 
 ### 📂 Files Inside Folder
 
-- [Preliminary Page 1 (1).pdf](https://drive.google.com/file/d/1KzaXvwwnCN9nEWXmG5AaiQ-hn-h-oTdh/view) (403.4 KB)
-- [Preliminary Page 1 (2).pdf](https://drive.google.com/file/d/1lJhzyq1urjSZermniK0uALJaVfvXbqkM/view) (129.0 KB)
+- [Preliminary Page 1.pdf](https://drive.google.com/file/d/1KzaXvwwnCN9nEWXmG5AaiQ-hn-h-oTdh/view) (403.4 KB)
+- [Preliminary Page 1.pdf](https://drive.google.com/file/d/1lJhzyq1urjSZermniK0uALJaVfvXbqkM/view) (129.0 KB)

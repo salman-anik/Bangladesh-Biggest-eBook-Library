@@ -1,0 +1,30 @@
+# 📖 Musolim Spener Rajonoitik Itihas_Es. Em. Imamuddin
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [History](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/History/README.md) / [Bangladesh History](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/History/Bangladesh%20History/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1OE_3JGaR_22JVxQOaiaap5G_BXazC3o-)
+
+![Musolim Spener Rajonoitik Itihas](https://drive.google.com/thumbnail?id=1ziy_SXh7Fk6QvWSjEliLZF-SnDHZg-6o&sz=w600)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1OE_3JGaR_22JVxQOaiaap5G_BXazC3o-) |
+| 📄 **Structured Text (JSON)** | [Open Text JSON in Drive](https://drive.google.com/file/d/127iAbuEzxTlRCel6sae-5CAkRqiSDxKN/view) |
+| 🖼️ **Cover Image** | [View Cover in Drive](https://drive.google.com/file/d/1ziy_SXh7Fk6QvWSjEliLZF-SnDHZg-6o/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | Musolim Spener Rajonoitik Itihas |
+| **Author** | Es. Em. Imamuddin |
+| **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
+| **Category** | History/Bangladesh History |
+| **Subfolder** | — |
+| **Formats** | COVER, TEXT, json |
+| **Total Size** | 1.8 MB |
+
+### 📂 Files Inside Folder
+
+- [Musolim Spener Rajonoitik Itihas_Es. Em. Imamuddin.jpg](https://drive.google.com/file/d/1ziy_SXh7Fk6QvWSjEliLZF-SnDHZg-6o/view) (16.5 KB)
+- [Musolim Spener Rajonoitik Itihas_Es. Em. Imamuddin.json](https://drive.google.com/file/d/127iAbuEzxTlRCel6sae-5CAkRqiSDxKN/view) (1.8 MB)

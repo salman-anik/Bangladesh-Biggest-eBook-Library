@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Jackson J D Classical Electrodynamics (Wiley, 1962)(T)(656S) |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | University Physics - Classical Electrodynamics II |
 | **Category** | Science/Physics |
 | **Subfolder** | English (G-M) |

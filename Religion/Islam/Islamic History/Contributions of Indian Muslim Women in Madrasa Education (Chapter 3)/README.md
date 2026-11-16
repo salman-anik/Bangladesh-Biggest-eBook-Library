@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Contributions of Indian Muslim Women in Madrasa Education (Chapter 3) |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Islamic History |
 | **Subfolder** | English (A-F) |

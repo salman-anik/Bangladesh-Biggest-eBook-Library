@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Biography of Khalifah Abu Bakr As Siddique |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Biography and Autobiography/Autobiographies |
 | **Subfolder** | — |

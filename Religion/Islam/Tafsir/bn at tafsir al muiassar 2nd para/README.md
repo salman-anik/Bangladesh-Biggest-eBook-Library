@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | bn at tafsir al muiassar 2nd para |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Tafsir |
 | **Subfolder** | English (A-F) |

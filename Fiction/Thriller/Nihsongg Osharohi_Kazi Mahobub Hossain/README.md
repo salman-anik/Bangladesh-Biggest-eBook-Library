@@ -1,0 +1,30 @@
+# 📖 Nihsongg Osharohi_Kazi Mahobub Hossain
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Fiction](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Fiction/README.md) / [Thriller](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Fiction/Thriller/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1u9rBZsm_CSO68W62O2xzyaPG63_FG6rS)
+
+![Nihsongg Osharohi](https://drive.google.com/thumbnail?id=1F1Z7V72O_ilwm15eO4GibfOX-0wfhQpk&sz=w600)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1u9rBZsm_CSO68W62O2xzyaPG63_FG6rS) |
+| 📄 **Structured Text (JSON)** | [Open Text JSON in Drive](https://drive.google.com/file/d/1UwcdFzoP93ra8e8eDmtW8AKnEzdo50CP/view) |
+| 🖼️ **Cover Image** | [View Cover in Drive](https://drive.google.com/file/d/1F1Z7V72O_ilwm15eO4GibfOX-0wfhQpk/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | Nihsongg Osharohi |
+| **Author** | Kazi Mahobub Hossain |
+| **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
+| **Category** | Fiction/Thriller |
+| **Subfolder** | কাজী মাহবুব হোসেন |
+| **Formats** | COVER, TEXT, json |
+| **Total Size** | 565.7 KB |
+
+### 📂 Files Inside Folder
+
+- [Nihsongg Osharohi_Kazi Mahobub Hossain.jpg](https://drive.google.com/file/d/1F1Z7V72O_ilwm15eO4GibfOX-0wfhQpk/view) (16.0 KB)
+- [Nihsongg Osharohi_Kazi Mahobub Hossain.json](https://drive.google.com/file/d/1UwcdFzoP93ra8e8eDmtW8AKnEzdo50CP/view) (549.7 KB)

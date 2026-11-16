@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | AhlehadithMovement.ItsOriginAndDevelopmentWithSpecialReferenceToTheSouthAsianRegionWrittenByProf.Dr |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Hadith |
 | **Subfolder** | English (A-F) |

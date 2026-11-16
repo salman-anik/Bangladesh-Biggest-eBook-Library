@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Logical Fallacies from Islamic Perspective |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Philosophy/Logic |
 | **Subfolder** | — |

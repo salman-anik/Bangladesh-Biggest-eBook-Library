@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Conservation of energy |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | University Physics - Mechanics |
 | **Category** | Science/Physics |
 | **Subfolder** | English (A-F) |

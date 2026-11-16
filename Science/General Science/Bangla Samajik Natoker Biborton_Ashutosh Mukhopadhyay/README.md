@@ -1,0 +1,26 @@
+# 📖 Bangla Samajik Natoker Biborton_Ashutosh Mukhopadhyay
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Science](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Science/README.md) / [General Science](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Science/General%20Science/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1v3X6Qx2iWpI4OACKrxkas_HGx06qHwFV)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1v3X6Qx2iWpI4OACKrxkas_HGx06qHwFV) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/1w2MotxUPGf-lzwsdGQRGHijRq_h7poSh/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | Bangla Samajik Natoker Biborton |
+| **Author** | Ashutosh Mukhopadhyay |
+| **Publication / Source** | মৃণালের ই-লাইব্রেরি |
+| **Category** | Science/General Science |
+| **Subfolder** | — |
+| **Formats** | PDF |
+| **Total Size** | 28.4 MB |
+
+### 📂 Files Inside Folder
+
+- [Bangla Samajik Natoker Biborton_Ashutosh Mukhopadhyay.pdf](https://drive.google.com/file/d/1w2MotxUPGf-lzwsdGQRGHijRq_h7poSh/view) (28.4 MB)

@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | arbi |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Language and Linguistics/Arabic Language |
 | **Subfolder** | — |

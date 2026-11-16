@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | diffraction |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | University Physics - Waves Oscillations & Optics |
 | **Category** | Science/Physics |
 | **Subfolder** | English (A-F) |

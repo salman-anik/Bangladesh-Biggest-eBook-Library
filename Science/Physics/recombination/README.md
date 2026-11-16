@@ -13,7 +13,7 @@
 | Field | Value |
 |---|---|
 | **Title** | recombination |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | University Physics - Geophysics & 4th Year |
 | **Category** | Science/Physics |
 | **Subfolder** | English (N-S) |

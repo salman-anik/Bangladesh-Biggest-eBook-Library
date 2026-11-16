@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Baksher Baire 2 (page 60-123) |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Religion/Islam/Quran |
 | **Subfolder** | English (A-F) |

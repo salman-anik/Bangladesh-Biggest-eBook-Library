@@ -1,0 +1,26 @@
+# 📖 Boishnob Kobi ।। Debonath Bandyopadhyay
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Religion](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/README.md) / [Hinduism](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/Hinduism/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1CX0_AwhuHy7ZtcRChY-yva_--5FNk2of)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1CX0_AwhuHy7ZtcRChY-yva_--5FNk2of) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/1-dl9NjlUdo7tnXWD7wxdxyLd4-O4Nd_1/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | Boishnob Kobi ।। Debonath Bandyopadhyay |
+| **Author** | Various / Unknown |
+| **Publication / Source** | মৃণালের ই-লাইব্রেরি |
+| **Category** | Religion/Hinduism |
+| **Subfolder** | প-ব |
+| **Formats** | PDF |
+| **Total Size** | 18.3 MB |
+
+### 📂 Files Inside Folder
+
+- [Boishnob Kobi ।। Debonath Bandyopadhyay.pdf](https://drive.google.com/file/d/1-dl9NjlUdo7tnXWD7wxdxyLd4-O4Nd_1/view) (18.3 MB)

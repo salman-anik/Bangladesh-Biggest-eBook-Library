@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | shia-der boi islami-chinta-dharar-upor-100sho-ekti-munajara-qom |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Religion/Islam/Quran |
 | **Subfolder** | English (N-S) |

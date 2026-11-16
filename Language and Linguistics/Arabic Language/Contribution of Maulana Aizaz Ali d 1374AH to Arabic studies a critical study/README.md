@@ -13,7 +13,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Contribution of Maulana Aizaz Ali d 1374AH to Arabic studies a critical study |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Language and Linguistics/Arabic Language |
 | **Subfolder** | — |

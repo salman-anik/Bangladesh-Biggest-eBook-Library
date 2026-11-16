@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | mohilakantho December 2015, PDF Formet |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Magazines and Periodicals/Literary Magazines |
 | **Subfolder** | — |

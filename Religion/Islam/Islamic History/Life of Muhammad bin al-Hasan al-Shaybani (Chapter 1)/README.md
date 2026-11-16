@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Life of Muhammad bin al-Hasan al-Shaybani (Chapter 1) |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Islamic History |
 | **Subfolder** | English (G-M) |

@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Religion in Safavid Persia 1974 |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Quran |
 | **Subfolder** | English (N-S) |

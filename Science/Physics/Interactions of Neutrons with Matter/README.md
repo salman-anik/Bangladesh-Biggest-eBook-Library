@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Interactions of Neutrons with Matter |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | University Physics - Reactor Physics |
 | **Category** | Science/Physics |
 | **Subfolder** | English (G-M) |

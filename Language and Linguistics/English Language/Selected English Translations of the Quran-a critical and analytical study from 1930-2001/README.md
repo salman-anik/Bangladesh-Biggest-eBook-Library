@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Selected English Translations of the Quran-a critical and analytical study from 1930-2001 |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Language and Linguistics/English Language |
 | **Subfolder** | — |

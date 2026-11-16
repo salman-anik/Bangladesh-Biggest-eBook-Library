@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | bn Ahlus sunnah wal jamater aqidar sonkipto mulniti |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Hadith |
 | **Subfolder** | English (A-F) |

@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | bangladeher rajnoitic ghotonapunjite 1971 2011 |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | History/Liberation War |
 | **Subfolder** | — |

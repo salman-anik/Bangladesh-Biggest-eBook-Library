@@ -1,0 +1,26 @@
+# 📖 4। Kuhok_Humayun Ahmed [1991]
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Fiction](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Fiction/README.md) / [Science Fiction](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Fiction/Science%20Fiction/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1mZDcCT6ErCFKuWaAMecjC_wJITClzABc)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1mZDcCT6ErCFKuWaAMecjC_wJITClzABc) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/1jNXYxq96qB1ay1KgYvetExEXUbwk3VZM/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | 4। Kuhok |
+| **Author** | Humayun Ahmed [1991] |
+| **Publication / Source** | মৃণালের ই-লাইব্রেরি |
+| **Category** | Fiction/Science Fiction |
+| **Subfolder** | — |
+| **Formats** | PDF |
+| **Total Size** | 9.5 MB |
+
+### 📂 Files Inside Folder
+
+- [4। Kuhok_Humayun Ahmed [1991].pdf](https://drive.google.com/file/d/1jNXYxq96qB1ay1KgYvetExEXUbwk3VZM/view) (9.5 MB)

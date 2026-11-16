@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Tafsr Ibn Kasir 8th, 9th, 10th, and 11th Part |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Tafsir |
 | **Subfolder** | English (T-Z) |

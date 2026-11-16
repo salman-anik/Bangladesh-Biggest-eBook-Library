@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | bangladeshe islami andoloner tin dhoshok |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Quran |
 | **Subfolder** | English (A-F) |

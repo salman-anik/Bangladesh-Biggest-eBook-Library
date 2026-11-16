@@ -13,7 +13,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Nuclear Reactor Coolants |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | University Physics - Reactor Physics |
 | **Category** | Science/Physics |
 | **Subfolder** | English (N-S) |

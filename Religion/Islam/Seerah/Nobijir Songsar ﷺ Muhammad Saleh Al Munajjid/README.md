@@ -1,0 +1,21 @@
+# 📖 Nobijir Songsar ﷺ Muhammad Saleh Al Munajjid
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Religion](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/README.md) / [Seerah](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/Islam/Seerah/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1AIQbKxPBHPR50whKbo3ktNu8-zKubJZc)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1AIQbKxPBHPR50whKbo3ktNu8-zKubJZc) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | Nobijir Songsar ﷺ Muhammad Saleh Al Munajjid |
+| **Author** | Various / Unknown |
+| **Publication / Source** | বই বিতরন (১৭/০৮/২০২২) |
+| **Category** | Religion/Islam/Seerah |
+| **Subfolder** | — |
+| **Formats** | — |
+| **Total Size** | — |

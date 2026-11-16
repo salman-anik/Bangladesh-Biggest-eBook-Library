@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | 6952-25172-1-PB |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | University Physics - 1st Year |
 | **Category** | Science/Physics |
 | **Subfolder** | 0-9 & Other |

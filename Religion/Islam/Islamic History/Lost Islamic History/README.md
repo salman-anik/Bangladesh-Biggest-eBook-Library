@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Lost Islamic History |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Islamic History |
 | **Subfolder** | English (G-M) |

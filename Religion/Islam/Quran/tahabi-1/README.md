@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | tahabi-1 |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Religion/Islam/Quran |
 | **Subfolder** | English (T-Z) |

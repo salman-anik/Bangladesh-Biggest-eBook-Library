@@ -1,0 +1,26 @@
+# 📖 Manob Srishotir Itihas
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [History](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/History/README.md) / [Bangladesh History](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/History/Bangladesh%20History/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1wkJsQPxX3m1he-t787vQpp3rCV3EjDXA)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1wkJsQPxX3m1he-t787vQpp3rCV3EjDXA) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/1REzxGuDFAypP-drq8surQHWWD7D7MRBT/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | Manob Srishotir Itihas |
+| **Author** | Various / Unknown |
+| **Publication / Source** | ইসলামীক বই ৫০০টি+ |
+| **Category** | History/Bangladesh History |
+| **Subfolder** | — |
+| **Formats** | PDF |
+| **Total Size** | 135.1 KB |
+
+### 📂 Files Inside Folder
+
+- [Manob Srishotir Itihas.pdf](https://drive.google.com/file/d/1REzxGuDFAypP-drq8surQHWWD7D7MRBT/view) (135.1 KB)

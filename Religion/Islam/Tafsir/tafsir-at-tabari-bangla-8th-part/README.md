@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | tafsir-at-tabari-bangla-8th-part |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Tafsir |
 | **Subfolder** | English (T-Z) |

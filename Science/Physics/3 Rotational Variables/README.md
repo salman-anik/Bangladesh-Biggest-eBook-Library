@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | 3 Rotational Variables |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | University Physics - Mechanics |
 | **Category** | Science/Physics |
 | **Subfolder** | 0-9 & Other |

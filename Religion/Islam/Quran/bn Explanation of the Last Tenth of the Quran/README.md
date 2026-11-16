@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | bn Explanation of the Last Tenth of the Quran |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Quran |
 | **Subfolder** | English (A-F) |

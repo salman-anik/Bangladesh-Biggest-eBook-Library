@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | empire-of-the-moghul-01-raiders-from-the-north |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Quran |
 | **Subfolder** | English (A-F) |

@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | 21afa49d8b8894ffb2abd68d1887977aafcd |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Quran |
 | **Subfolder** | 0-9 & Other |

@@ -1,0 +1,30 @@
+# 📖 Shreshth Golpo_Bibhutibhushan Mukhopadhyay
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/README.md) / [Short Stories](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Short%20Stories/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/16FNhggNvkeDxHMSyc3YLNZGUMTyPPEdn)
+
+![Shreshth Golpo](https://drive.google.com/thumbnail?id=1P6VyAa7WzQ3dCiJIRVj2VdgRb57UOHZm&sz=w600)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/16FNhggNvkeDxHMSyc3YLNZGUMTyPPEdn) |
+| 📄 **Structured Text (JSON)** | [Open Text JSON in Drive](https://drive.google.com/file/d/1NqVugG6MBZx2RGNYTf2s9v5mNSTiVL4W/view) |
+| 🖼️ **Cover Image** | [View Cover in Drive](https://drive.google.com/file/d/1P6VyAa7WzQ3dCiJIRVj2VdgRb57UOHZm/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | Shreshth Golpo |
+| **Author** | Bibhutibhushan Mukhopadhyay |
+| **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
+| **Category** | Literature/Short Stories |
+| **Subfolder** | বিভূতিভূষণ মুখোপাধ্যায় |
+| **Formats** | COVER, TEXT, json |
+| **Total Size** | 1.0 MB |
+
+### 📂 Files Inside Folder
+
+- [Shreshth Golpo_Bibhutibhushan Mukhopadhyay.jpg](https://drive.google.com/file/d/1P6VyAa7WzQ3dCiJIRVj2VdgRb57UOHZm/view) (18.9 KB)
+- [Shreshth Golpo_Bibhutibhushan Mukhopadhyay.json](https://drive.google.com/file/d/1NqVugG6MBZx2RGNYTf2s9v5mNSTiVL4W/view) (1.0 MB)

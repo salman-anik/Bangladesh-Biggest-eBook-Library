@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | tafsirtabari-bangla-6th-part-islaminonesite-wordpress-com |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Tafsir |
 | **Subfolder** | English (T-Z) |

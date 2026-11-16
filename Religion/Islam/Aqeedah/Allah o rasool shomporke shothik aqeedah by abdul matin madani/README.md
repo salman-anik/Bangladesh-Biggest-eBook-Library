@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Allah o rasool shomporke shothik aqeedah by abdul matin madani |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Aqeedah |
 | **Subfolder** | English (A-F) |

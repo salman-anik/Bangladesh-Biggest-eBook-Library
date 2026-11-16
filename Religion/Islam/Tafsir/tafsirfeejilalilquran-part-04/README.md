@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | tafsirfeejilalilquran-part-04 |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Tafsir |
 | **Subfolder** | English (T-Z) |

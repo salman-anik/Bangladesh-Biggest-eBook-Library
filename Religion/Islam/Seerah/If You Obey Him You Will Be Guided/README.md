@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | If You Obey Him You Will Be Guided |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Seerah |
 | **Subfolder** | — |

@@ -1,0 +1,32 @@
+# 📖 Shobonom_Soijd Mujotoba Ali
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/README.md) / [Novels](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Novels/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/14x8SJXzemQ6jDSSKlmYh9YwVHGTAZROO)
+
+![Shobonom](https://drive.google.com/thumbnail?id=1GitMWA5ithzDpO6K5j_7EY2qFf9vLMDB&sz=w600)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/14x8SJXzemQ6jDSSKlmYh9YwVHGTAZROO) |
+| 📱 **EPUB eBook** | [Open EPUB in Drive](https://drive.google.com/file/d/1b5czKPT18fhWgHZ7nv95VdP7wo8SdBKk/view) |
+| 📄 **Structured Text (JSON)** | [Open Text JSON in Drive](https://drive.google.com/file/d/1eA0RekRdi9a1FPJpt3meOcd7lfQGcCFb/view) |
+| 🖼️ **Cover Image** | [View Cover in Drive](https://drive.google.com/file/d/1GitMWA5ithzDpO6K5j_7EY2qFf9vLMDB/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | Shobonom |
+| **Author** | Soijd Mujotoba Ali |
+| **Publication / Source** | Kindle Bangla (kindlebangla.com) |
+| **Category** | Literature/Novels |
+| **Subfolder** | সৈয়দ মুজতবা আলী |
+| **Formats** | COVER, EPUB, TEXT, json |
+| **Total Size** | 990.1 KB |
+
+### 📂 Files Inside Folder
+
+- [Shobonom_Soijd Mujotoba Ali.epub](https://drive.google.com/file/d/1b5czKPT18fhWgHZ7nv95VdP7wo8SdBKk/view) (312.5 KB)
+- [Shobonom_Soijd Mujotoba Ali.jpg](https://drive.google.com/file/d/1GitMWA5ithzDpO6K5j_7EY2qFf9vLMDB/view) (31.9 KB)
+- [Shobonom_Soijd Mujotoba Ali.json](https://drive.google.com/file/d/1eA0RekRdi9a1FPJpt3meOcd7lfQGcCFb/view) (645.7 KB)

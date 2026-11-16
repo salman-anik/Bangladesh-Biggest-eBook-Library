@@ -13,7 +13,7 @@
 | Field | Value |
 |---|---|
 | **Title** | 2.2 There are many reasons behind the conflict of Bengalese and Pakistani |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | University Physics - 1st Year |
 | **Category** | Science/Physics |
 | **Subfolder** | 0-9 & Other |

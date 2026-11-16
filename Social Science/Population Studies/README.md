@@ -8,4 +8,4 @@
 
 | # | Book Folder & Name | Author | Formats | Size | Google Drive Folder |
 |---:|---|---|---|---:|---|
-| 1 | [Muslimpopulation](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Social%20Science/Population%20Studies/Muslimpopulation/README.md) | Various / Compiled (সংকলিত) | PDF | 8.4 MB | [Open Folder](https://drive.google.com/drive/folders/1Pdmwnqqk4GqLabGxbPNy_QHBPi--jG1w) |
+| 1 | [Muslimpopulation](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Social%20Science/Population%20Studies/Muslimpopulation/README.md) | Various / Compiled (Songkolit) | PDF | 8.4 MB | [Open Folder](https://drive.google.com/drive/folders/1Pdmwnqqk4GqLabGxbPNy_QHBPi--jG1w) |

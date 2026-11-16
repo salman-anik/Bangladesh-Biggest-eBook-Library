@@ -8,4 +8,4 @@
 
 | # | Book Folder & Name | Author | Formats | Size | Google Drive Folder |
 |---:|---|---|---|---:|---|
-| 1 | [কৃষি](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Agriculture%20and%20Nature/Agriculture/%E0%A6%95%E0%A7%83%E0%A6%B7%E0%A6%BF/README.md) | Various / Compiled (সংকলিত) | PDF | 1.8 MB | [Open Folder](https://drive.google.com/drive/folders/1_f0VCts7tA2VrCIGPu9G-OfJmN6tafqB) |
+| 1 | [Krishi](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Agriculture%20and%20Nature/Agriculture/Krishi/README.md) | Various / Compiled (Songkolit) | PDF | 1.8 MB | [Open Folder](https://drive.google.com/drive/folders/1_f0VCts7tA2VrCIGPu9G-OfJmN6tafqB) |

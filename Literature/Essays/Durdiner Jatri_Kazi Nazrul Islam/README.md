@@ -1,0 +1,32 @@
+# 📖 Durdiner Jatri_Kazi Nazrul Islam
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/README.md) / [Essays](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Essays/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1Xdcq1Mays1MtuuQnZMPpX40P3F5U0vDk)
+
+![Durdiner Jatri](https://drive.google.com/thumbnail?id=1nMqE89jX1in2vLx6reonoaG7V_bokorH&sz=w600)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1Xdcq1Mays1MtuuQnZMPpX40P3F5U0vDk) |
+| 📱 **EPUB eBook** | [Open EPUB in Drive](https://drive.google.com/file/d/1DyHVMfAjBrHS7VWnIURFJg99tW4um0WX/view) |
+| 📄 **Structured Text (JSON)** | [Open Text JSON in Drive](https://drive.google.com/file/d/1IEvrXBA1jfXV7dvC0Gk4v7Iu_3h4iwpZ/view) |
+| 🖼️ **Cover Image** | [View Cover in Drive](https://drive.google.com/file/d/1nMqE89jX1in2vLx6reonoaG7V_bokorH/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | Durdiner Jatri |
+| **Author** | Kazi Nazrul Islam |
+| **Publication / Source** | Kindle Bangla (kindlebangla.com) |
+| **Category** | Literature/Essays |
+| **Subfolder** | কাজী নজরুল ইসলাম |
+| **Formats** | COVER, EPUB, TEXT, json |
+| **Total Size** | 287.2 KB |
+
+### 📂 Files Inside Folder
+
+- [Durdiner Jatri_Kazi Nazrul Islam.epub](https://drive.google.com/file/d/1DyHVMfAjBrHS7VWnIURFJg99tW4um0WX/view) (212.0 KB)
+- [Durdiner Jatri_Kazi Nazrul Islam.jpg](https://drive.google.com/file/d/1nMqE89jX1in2vLx6reonoaG7V_bokorH/view) (70.3 KB)
+- [Durdiner Jatri_Kazi Nazrul Islam.json](https://drive.google.com/file/d/1IEvrXBA1jfXV7dvC0Gk4v7Iu_3h4iwpZ/view) (4.9 KB)

@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | bn aqida of ahle sunnat wal jamaat othaymeen 01 |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Quran |
 | **Subfolder** | English (A-F) |

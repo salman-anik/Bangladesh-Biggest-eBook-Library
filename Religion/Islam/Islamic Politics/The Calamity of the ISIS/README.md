@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | The Calamity of the ISIS |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Islamic Politics |
 | **Subfolder** | — |

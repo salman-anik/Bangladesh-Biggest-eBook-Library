@@ -1,0 +1,30 @@
+# 📖 Ganje Phereshote (Cholochchitr Itihaser Dolilogronth) - Sadot Hasan Manto_Mostopha Harun, Sadot Hasan Manto
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/README.md) / [Collected Works](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Collected%20Works/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1fHUPsCLXl0FP-mXmVK8RfHCwzTl8cqPm)
+
+![Ganje Phereshote (Cholochchitr Itihaser Dolilogronth) - Sadot Hasan Manto](https://drive.google.com/thumbnail?id=1Ild9cM177kXZV8QfhgrQjwzqlRbxyJvH&sz=w600)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1fHUPsCLXl0FP-mXmVK8RfHCwzTl8cqPm) |
+| 📄 **Structured Text (JSON)** | [Open Text JSON in Drive](https://drive.google.com/file/d/1DfK0v7BUzaoj1Jrsia6aQnE6Blrvv2HL/view) |
+| 🖼️ **Cover Image** | [View Cover in Drive](https://drive.google.com/file/d/1Ild9cM177kXZV8QfhgrQjwzqlRbxyJvH/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | Ganje Phereshote (Cholochchitr Itihaser Dolilogronth) - Sadot Hasan Manto |
+| **Author** | Mostopha Harun, Sadot Hasan Manto |
+| **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
+| **Category** | Literature/Collected Works |
+| **Subfolder** | ক-ঙ |
+| **Formats** | COVER, TEXT, json |
+| **Total Size** | 906.5 KB |
+
+### 📂 Files Inside Folder
+
+- [Ganje Phereshote (Cholochchitr Itihaser Dolilogronth) - Sadot Hasan Manto_Mostopha Harun, Sadot Hasan Manto.jpg](https://drive.google.com/file/d/1Ild9cM177kXZV8QfhgrQjwzqlRbxyJvH/view) (13.6 KB)
+- [Ganje Phereshote (Cholochchitr Itihaser Dolilogronth) - Sadot Hasan Manto_Mostopha Harun, Sadot Hasan Manto.json](https://drive.google.com/file/d/1DfK0v7BUzaoj1Jrsia6aQnE6Blrvv2HL/view) (892.9 KB)

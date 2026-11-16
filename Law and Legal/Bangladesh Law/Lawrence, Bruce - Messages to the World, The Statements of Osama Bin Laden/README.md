@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Lawrence, Bruce - Messages to the World, The Statements of Osama Bin Laden |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Law and Legal/Bangladesh Law |
 | **Subfolder** | — |

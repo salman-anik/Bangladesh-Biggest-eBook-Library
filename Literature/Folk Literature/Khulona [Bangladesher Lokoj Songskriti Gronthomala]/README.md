@@ -1,0 +1,26 @@
+# 📖 Khulona [Bangladesher Lokoj Songskriti Gronthomala]
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/README.md) / [Folk Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Folk%20Literature/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1ZAlbnNXBkluGZ7tivzociIpcwRVR0Nuk)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1ZAlbnNXBkluGZ7tivzociIpcwRVR0Nuk) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/1NSGWmJ8c8_VlTgJ7FHngHhlR0AraM5Ez/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | Khulona [Bangladesher Lokoj Songskriti Gronthomala] |
+| **Author** | Various / Unknown |
+| **Publication / Source** | মৃণালের ই-লাইব্রেরি |
+| **Category** | Literature/Folk Literature |
+| **Subfolder** | — |
+| **Formats** | PDF |
+| **Total Size** | 17.8 MB |
+
+### 📂 Files Inside Folder
+
+- [Khulona [Bangladesher Lokoj Songskriti Gronthomala].pdf](https://drive.google.com/file/d/1NSGWmJ8c8_VlTgJ7FHngHhlR0AraM5Ez/view) (17.8 MB)

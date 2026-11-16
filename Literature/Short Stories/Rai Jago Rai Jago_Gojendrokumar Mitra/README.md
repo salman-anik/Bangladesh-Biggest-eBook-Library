@@ -1,0 +1,26 @@
+# 📖 Rai Jago Rai Jago_Gojendrokumar Mitra
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/README.md) / [Short Stories](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Short%20Stories/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1Hbd-kkGRudPrc8R-lJgHjobTbBHDonNl)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1Hbd-kkGRudPrc8R-lJgHjobTbBHDonNl) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/1liZJhf_5_egCnNb9ClP39GQd_Txs7N8I/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | Rai Jago Rai Jago |
+| **Author** | Gojendrokumar Mitra |
+| **Publication / Source** | মৃণালের ই-লাইব্রেরি |
+| **Category** | Literature/Short Stories |
+| **Subfolder** | য-হ |
+| **Formats** | PDF |
+| **Total Size** | 13.3 MB |
+
+### 📂 Files Inside Folder
+
+- [Rai Jago Rai Jago_Gojendrokumar Mitra.pdf](https://drive.google.com/file/d/1liZJhf_5_egCnNb9ClP39GQd_Txs7N8I/view) (13.3 MB)

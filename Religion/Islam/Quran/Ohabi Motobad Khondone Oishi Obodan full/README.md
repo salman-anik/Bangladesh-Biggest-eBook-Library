@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Ohabi Motobad Khondone Oishi Obodan full |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Quran |
 | **Subfolder** | English (N-S) |

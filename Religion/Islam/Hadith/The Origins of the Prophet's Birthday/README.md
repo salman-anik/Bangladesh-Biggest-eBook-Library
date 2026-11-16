@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | The Origins of the Prophet's Birthday |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Hadith |
 | **Subfolder** | English (T-Z) |

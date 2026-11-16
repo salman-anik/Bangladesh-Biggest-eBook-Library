@@ -13,7 +13,7 @@
 | Field | Value |
 |---|---|
 | **Title** | barnabaser bible |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Christianity |
 | **Subfolder** | — |

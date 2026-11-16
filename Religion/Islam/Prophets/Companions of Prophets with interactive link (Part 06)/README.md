@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Companions of Prophets with interactive link (Part 06) |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Prophets |
 | **Subfolder** | — |

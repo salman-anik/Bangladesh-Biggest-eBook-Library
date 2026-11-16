@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | shamchul hak foridpuri (r) sarok grontho |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Quran |
 | **Subfolder** | English (N-S) |

@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Tafsire Sayeedi Sura Al Asar |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Tafsir |
 | **Subfolder** | English (T-Z) |

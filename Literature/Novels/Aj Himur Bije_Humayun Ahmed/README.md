@@ -1,0 +1,32 @@
+# 📖 Aj Himur Bije_Humayun Ahmed
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/README.md) / [Novels](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Novels/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1o49HlywFVf9J1hkHa9p74S2Oy9A0GZlT)
+
+![Aj Himur Bije](https://drive.google.com/thumbnail?id=1diMsMo6S9p-OtVD8CW6xVzC-4EoceUPr&sz=w600)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1o49HlywFVf9J1hkHa9p74S2Oy9A0GZlT) |
+| 📱 **EPUB eBook** | [Open EPUB in Drive](https://drive.google.com/file/d/1bGM9uB_4Xj9JDjWQptAQXhxEUgrBi7og/view) |
+| 📄 **Structured Text (JSON)** | [Open Text JSON in Drive](https://drive.google.com/file/d/1r0ygk5ri3Q2udMOoWVAHFGcYHyDRaP2K/view) |
+| 🖼️ **Cover Image** | [View Cover in Drive](https://drive.google.com/file/d/1diMsMo6S9p-OtVD8CW6xVzC-4EoceUPr/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | Aj Himur Bije |
+| **Author** | Humayun Ahmed |
+| **Publication / Source** | Kindle Bangla (kindlebangla.com) |
+| **Category** | Literature/Novels |
+| **Subfolder** | হুমায়ূন আহমেদ |
+| **Formats** | COVER, EPUB, TEXT, json |
+| **Total Size** | 629.5 KB |
+
+### 📂 Files Inside Folder
+
+- [Aj Himur Bije_Humayun Ahmed.epub](https://drive.google.com/file/d/1bGM9uB_4Xj9JDjWQptAQXhxEUgrBi7og/view) (280.2 KB)
+- [Aj Himur Bije_Humayun Ahmed.jpg](https://drive.google.com/file/d/1diMsMo6S9p-OtVD8CW6xVzC-4EoceUPr/view) (61.3 KB)
+- [Aj Himur Bije_Humayun Ahmed.json](https://drive.google.com/file/d/1r0ygk5ri3Q2udMOoWVAHFGcYHyDRaP2K/view) (288.0 KB)

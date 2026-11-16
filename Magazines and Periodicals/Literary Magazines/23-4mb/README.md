@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | 23-4mb |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Magazines and Periodicals/Literary Magazines |
 | **Subfolder** | — |

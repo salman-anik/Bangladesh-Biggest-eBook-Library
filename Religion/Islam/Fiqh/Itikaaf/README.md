@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Itikaaf |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Religion/Islam/Fiqh |
 | **Subfolder** | English (G-M) |

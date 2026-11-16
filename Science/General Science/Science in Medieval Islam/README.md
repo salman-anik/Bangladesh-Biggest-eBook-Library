@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Science in Medieval Islam |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | BD Public e-Library (ই-লাইব্রেরি) |
 | **Category** | Science/General Science |
 | **Subfolder** | — |

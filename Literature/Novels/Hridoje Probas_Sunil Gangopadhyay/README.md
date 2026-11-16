@@ -1,0 +1,29 @@
+# 📖 Hridoje Probas_Sunil Gangopadhyay
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/README.md) / [Novels](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Novels/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1INKC60jIIdS2rabplbCkcDDzRw3jjLtn)
+
+![Hridoje Probas](https://drive.google.com/thumbnail?id=11RaIVAsz_JCw6s-XhL7bZ_cg776z6VtK&sz=w600)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1INKC60jIIdS2rabplbCkcDDzRw3jjLtn) |
+| 📄 **Structured Text (JSON)** | [Open Text JSON in Drive](https://drive.google.com/file/d/1ne1oldttM3vXGXxHOVjUblG-Ty_hFSXK/view) |
+| 🖼️ **Cover Image** | [View Cover in Drive](https://drive.google.com/file/d/11RaIVAsz_JCw6s-XhL7bZ_cg776z6VtK/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | Hridoje Probas |
+| **Author** | Sunil Gangopadhyay |
+| **Publication / Source** | eBanglaLibrary (ebanglalibrary.com) |
+| **Category** | Literature/Novels |
+| **Subfolder** | সুনীল গঙ্গোপাধ্যায় |
+| **Formats** | TEXT, json |
+| **Total Size** | 548.2 KB |
+
+### 📂 Files Inside Folder
+
+- [Hridoje Probas_Sunil Gangopadhyay.json](https://drive.google.com/file/d/1ne1oldttM3vXGXxHOVjUblG-Ty_hFSXK/view) (548.2 KB)

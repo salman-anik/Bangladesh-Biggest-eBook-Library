@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Dawatul Haq may 2011 |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Magazines and Periodicals/Religious Magazines |
 | **Subfolder** | — |

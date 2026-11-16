@@ -13,7 +13,7 @@
 | Field | Value |
 |---|---|
 | **Title** | What is the difference between a fermion and a boson |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | University Physics - Reactor Physics |
 | **Category** | Science/Physics |
 | **Subfolder** | English (T-Z) |

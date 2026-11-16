@@ -1,0 +1,26 @@
+# 📖 Nari_Humajun Ajad [1992]
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Language and Linguistics](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Language%20and%20Linguistics/README.md) / [Bengali Language](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Language%20and%20Linguistics/Bengali%20Language/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1VWwg0DfZyY4kYaO_n_CF4ULxUpF6WSpu)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1VWwg0DfZyY4kYaO_n_CF4ULxUpF6WSpu) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/1Wb2jOX6RZW-Jq345X2aOT_Mkr0Ay4i1t/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | Nari |
+| **Author** | Humajun Ajad [1992] |
+| **Publication / Source** | মৃণালের ই-লাইব্রেরি |
+| **Category** | Language and Linguistics/Bengali Language |
+| **Subfolder** | — |
+| **Formats** | PDF |
+| **Total Size** | 28.0 MB |
+
+### 📂 Files Inside Folder
+
+- [Nari_Humajun Ajad [1992].pdf](https://drive.google.com/file/d/1Wb2jOX6RZW-Jq345X2aOT_Mkr0Ay4i1t/view) (28.0 MB)

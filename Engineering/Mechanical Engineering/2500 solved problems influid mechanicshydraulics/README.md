@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | 2500 solved problems influid mechanicshydraulics |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | University Physics - 1st Year |
 | **Category** | Engineering/Mechanical Engineering |
 | **Subfolder** | — |

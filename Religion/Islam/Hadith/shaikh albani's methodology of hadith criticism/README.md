@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | shaikh albani's methodology of hadith criticism |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Religion/Islam/Hadith |
 | **Subfolder** | English (N-S) |

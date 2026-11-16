@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | MaasirAl-umara english vol.2 |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Language and Linguistics/English Language |
 | **Subfolder** | — |

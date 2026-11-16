@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | critical notes |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | University Physics - Classical Electrodynamics II |
 | **Category** | Science/Physics |
 | **Subfolder** | English (A-F) |

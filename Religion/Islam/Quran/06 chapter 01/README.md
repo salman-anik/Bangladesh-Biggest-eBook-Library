@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | 06 chapter 01 |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Quran |
 | **Subfolder** | 0-9 & Other |

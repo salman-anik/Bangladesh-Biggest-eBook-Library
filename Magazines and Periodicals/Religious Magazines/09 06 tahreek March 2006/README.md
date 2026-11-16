@@ -13,7 +13,7 @@
 | Field | Value |
 |---|---|
 | **Title** | 09 06 tahreek March 2006 |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic Books (israt) |
 | **Category** | Magazines and Periodicals/Religious Magazines |
 | **Subfolder** | — |

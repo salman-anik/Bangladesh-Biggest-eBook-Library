@@ -13,7 +13,7 @@
 | Field | Value |
 |---|---|
 | **Title** | 10 01 tahreek October 2006 |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Magazines and Periodicals/Religious Magazines |
 | **Subfolder** | — |

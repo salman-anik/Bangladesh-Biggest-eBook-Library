@@ -23,5 +23,5 @@
 
 ### 📂 Files Inside Folder
 
-- [Introduction 1 (1).pdf](https://drive.google.com/file/d/1UHIV_Gh4GLVQFz2fyMWM8j9RpjjN92YR/view) (1.3 MB)
-- [Introduction 1 (2).pdf](https://drive.google.com/file/d/1KInvcXNwEA8dUtDXVq2IXIqPvfh--a_s/view) (167.1 KB)
+- [Introduction 1.pdf](https://drive.google.com/file/d/1UHIV_Gh4GLVQFz2fyMWM8j9RpjjN92YR/view) (1.3 MB)
+- [Introduction 1.pdf](https://drive.google.com/file/d/1KInvcXNwEA8dUtDXVq2IXIqPvfh--a_s/view) (167.1 KB)

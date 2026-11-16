@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | bissoborenno olamaye keramer dristrite mawlana moududi o jamate islami |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Quran |
 | **Subfolder** | English (A-F) |

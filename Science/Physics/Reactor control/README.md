@@ -1,25 +1,26 @@
-# 📖 Reactor control
+# 📖 reactor control
 
-[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Science](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Science/README.md) / [Physics](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Science/Physics/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1sulGNpLARzbqaTnsKcLRak70De6yr0Ps)
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Science](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Science/README.md) / [Physics](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Science/Physics/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1YLfwqs4F0nZLAPo0OSRmHezki5OIogz_)
 
 ## 📦 Available Files & Links
 
 | Resource | Link |
 |---|---|
-| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1sulGNpLARzbqaTnsKcLRak70De6yr0Ps) |
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1YLfwqs4F0nZLAPo0OSRmHezki5OIogz_) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/1uJvm7kLvpsWYIFlLYwbQNnzsgngldSey/view) |
 
 ## ℹ️ Metadata
 
 | Field | Value |
 |---|---|
-| **Title** | Reactor control |
-| **Author** | Various / Compiled (সংকলিত) |
-| **Publication / Source** | University Physics - Geophysics & 4th Year |
+| **Title** | reactor control |
+| **Author** | Various / Compiled (Songkolit) |
+| **Publication / Source** | University Physics - Reactor Physics |
 | **Category** | Science/Physics |
 | **Subfolder** | English (N-S) |
-| **Formats** | DOCX |
-| **Total Size** | 13.1 KB |
+| **Formats** | PDF |
+| **Total Size** | 614.5 KB |
 
 ### 📂 Files Inside Folder
 
-- [Reactor control.docx](https://drive.google.com/file/d/1pw8NLEGrAW4YXxCEIt64C4FkCqQmFMmi/view) (13.1 KB)
+- [reactor control.pdf](https://drive.google.com/file/d/1uJvm7kLvpsWYIFlLYwbQNnzsgngldSey/view) (614.5 KB)

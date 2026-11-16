@@ -1,0 +1,26 @@
+# 📖 Dua Munajate Nabi Rasuler Osila Deojah Ekoti Porralochona_Abdullah Shohid Abdur Rahman
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Religion](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/README.md) / [Dua and Prayer](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/Islam/Dua%20and%20Prayer/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1mmJQrbMPxYJqELrWDiBNebzyeL-HgzoB)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1mmJQrbMPxYJqELrWDiBNebzyeL-HgzoB) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/1hI7iETaXvTvf9oVeS_Ypz0fdl5g8fhyB/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | Dua Munajate Nabi Rasuler Osila Deojah Ekoti Porralochona |
+| **Author** | Abdullah Shohid Abdur Rahman |
+| **Publication / Source** | ইসলামী বই |
+| **Category** | Religion/Islam/Dua and Prayer |
+| **Subfolder** | — |
+| **Formats** | PDF |
+| **Total Size** | 1.5 MB |
+
+### 📂 Files Inside Folder
+
+- [Dua Munajate Nabi Rasuler Osila Deojah Ekoti Porralochona_Abdullah Shohid Abdur Rahman.pdf](https://drive.google.com/file/d/1hI7iETaXvTvf9oVeS_Ypz0fdl5g8fhyB/view) (1.5 MB)

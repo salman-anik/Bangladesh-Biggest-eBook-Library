@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Noble Life of The Prophet |
-| **Author** | Various / Compiled (সংকলিত) |
+| **Author** | Various / Compiled (Songkolit) |
 | **Publication / Source** | Shared Islamic & General Books (irfan) |
 | **Category** | Religion/Islam/Prophets |
 | **Subfolder** | — |
