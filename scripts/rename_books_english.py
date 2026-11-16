@@ -510,7 +510,7 @@ def gd_rename(file_id: str, new_name: str, retries: int = 3) -> tuple[bool, str]
             if res.returncode == 0:
                 return True, ""
             err = (res.stderr or res.stdout or "").strip()
-            if "429" in err or "rate" in err.lower() or "quota" in err.lower():
+            if any(k in err.lower() for k in ("429", "500", "502", "503", "rate", "quota", "eof", "timeout", "backend error")):
                 time.sleep(2 ** (attempt + 1))
                 continue
             return False, err[:150]
