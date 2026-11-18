@@ -11,3 +11,5 @@ data/*.sqlite*
 data/live_drive_snapshot.json
 data/*.tmp
 tmp_*/
+__pycache__/
+*.pyc
