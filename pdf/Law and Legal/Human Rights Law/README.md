@@ -1,0 +1,5 @@
+# Human Rights Law
+
+> **Path**: `pdf/Law and Legal/Human Rights Law` | **Books**: **0**
+
+*No books placed directly in this folder yet. Browse subfolders or see [Master Catalog](../../README.md).*

@@ -1,0 +1,72 @@
+{
+  "acs-iba-mba-question-bank-pdf": {
+    "folder_id": "1y3K3T3kh_xfFCcL4moVjKen15d6mpVlk",
+    "folder_link": "https://drive.google.com/drive/folders/1y3K3T3kh_xfFCcL4moVjKen15d6mpVlk",
+    "file_id": "1bt4pQ7U1DDRq7OmyySXw9ZxBvpH4SqNU",
+    "link": "https://drive.google.com/drive/folders/1y3K3T3kh_xfFCcL4moVjKen15d6mpVlk",
+    "name": "ACS IBA MBA Question Bank",
+    "title": "ACS IBA MBA Question Bank",
+    "author": "ACS Admission Private Batch",
+    "publication": "এসিএস (ACS)",
+    "top_category": "Education and Academics",
+    "leaf_path": "Education and Academics/Higher Secondary",
+    "leaf_category": "Higher Secondary",
+    "size": 75681961,
+    "pdf_file_id": "1bt4pQ7U1DDRq7OmyySXw9ZxBvpH4SqNU",
+    "epub_file_id": "",
+    "text_file_id": "",
+    "cover_file_id": "",
+    "cover_url": "https://students.bd/assets/1794935517202-acs-iba-mba-question-bank-pdf.avif",
+    "thumbnail_url": "https://students.bd/assets/1794935517202-acs-iba-mba-question-bank-pdf.avif",
+    "book_url": "https://students.bd/books/acs-iba-mba-question-bank-pdf",
+    "formats": [
+      "PDF"
+    ],
+    "files": [
+      {
+        "id": "1bt4pQ7U1DDRq7OmyySXw9ZxBvpH4SqNU",
+        "name": "ACS IBA MBA Question Bank.pdf",
+        "size": 75681961,
+        "mimeType": "application/pdf"
+      }
+    ],
+    "subfolder": null,
+    "source": "students.bd",
+    "slug": "acs-iba-mba-question-bank-pdf"
+  },
+  "mentors-private-university-admission-guide-for-spring-pdf": {
+    "folder_id": "1bhyZgmmf9BthFzAamkg_sOyHnuQQqxJu",
+    "folder_link": "https://drive.google.com/drive/folders/1bhyZgmmf9BthFzAamkg_sOyHnuQQqxJu",
+    "file_id": "1MW7O054CykJjfSgUAlmPAXMTXE-nWaus",
+    "link": "https://drive.google.com/drive/folders/1bhyZgmmf9BthFzAamkg_sOyHnuQQqxJu",
+    "name": "MENTORS Private University Admission Guide for Spring",
+    "title": "MENTORS Private University Admission Guide for Spring",
+    "author": "Mentors Education (Phoenix)",
+    "publication": "মেন্টরস (MENTORS')",
+    "top_category": "Education and Academics",
+    "leaf_path": "Education and Academics/Higher Secondary",
+    "leaf_category": "Higher Secondary",
+    "size": 166343532,
+    "pdf_file_id": "1MW7O054CykJjfSgUAlmPAXMTXE-nWaus",
+    "epub_file_id": "",
+    "text_file_id": "",
+    "cover_file_id": "",
+    "cover_url": "https://students.bd/assets/1794935913846-mentors-private-university-admission-guide-for-spring-pdf.avif",
+    "thumbnail_url": "https://students.bd/assets/1794935913846-mentors-private-university-admission-guide-for-spring-pdf.avif",
+    "book_url": "https://students.bd/books/mentors-private-university-admission-guide-for-spring-pdf",
+    "formats": [
+      "PDF"
+    ],
+    "files": [
+      {
+        "id": "1MW7O054CykJjfSgUAlmPAXMTXE-nWaus",
+        "name": "MENTORS Private University Admission Guide for Spring.pdf",
+        "size": 166343532,
+        "mimeType": "application/pdf"
+      }
+    ],
+    "subfolder": null,
+    "source": "students.bd",
+    "slug": "mentors-private-university-admission-guide-for-spring-pdf"
+  }
+}

@@ -1,6 +1,9 @@
 {
   "root_drive_id": "1fMsplDtUnpUhnNBJGKvYQ1sdZx0QVJWq",
   "root_drive_name": "Bangladesh-Biggest-eBook-Library",
+  "pdf_drive_id": "1eAvkHOqOwF2lSri8Xe3X4NXtsKsGI2u-",
+  "text_drive_id": "1Kc2ENKN8z0nZpjbZAjqhTHrS6Ny3ii6X",
+  "covers_drive_id": "1QLLOB1FSFrR36pb-7yb6O0gvNfWHJbTC",
   "folders": {
     "Agriculture and Nature": "1NGzWLOfODJXkwiUSTFKJ3f5envsiqav8",
     "Arts and Culture": "1l-8fnPy5EfkurBBGfPBEJqXwPW1oQtpE",
@@ -511,35 +514,196 @@
     "Science/Physics/ভ-ম": "1LL7QKjgmyaVIyNvK53SpcYbVq4bhrOay"
   },
   "tree": {
-    "Agriculture and Nature": [
-      "Agriculture",
-      "Fisheries"
+    "Religion": {
+      "Islam": [
+        "Quran",
+        "Tafsir",
+        "Hadith",
+        "Fiqh",
+        "Aqeedah",
+        "Seerah",
+        "Prophets",
+        "Sahaba",
+        "Islamic History",
+        "Islamic Lifestyle",
+        "Dua and Prayer",
+        "Islamic Economics",
+        "Islamic Politics",
+        "Islamic Philosophy",
+        "Islamic Literature",
+        "Islamic Children Books"
+      ],
+      "Hinduism": [],
+      "Buddhism": [],
+      "Christianity": [],
+      "Other Religions": [],
+      "Comparative Religion": []
+    },
+    "Literature": [
+      "Poetry",
+      "Novels",
+      "Short Stories",
+      "Essays",
+      "Drama",
+      "Plays",
+      "Humorous Literature",
+      "Travel Writing",
+      "Letters",
+      "Literary Criticism",
+      "Autobiography",
+      "Memoirs",
+      "Folk Literature",
+      "Children's Literature",
+      "Prose",
+      "Rhymes",
+      "Collected Works"
     ],
-    "Arts and Culture": [
-      "Cinema",
-      "Music",
-      "Painting"
+    "Fiction": [
+      "Romance",
+      "Mystery",
+      "Detective",
+      "Thriller",
+      "Horror",
+      "Ghost Stories",
+      "Science Fiction",
+      "Fantasy",
+      "Historical Fiction",
+      "Adventure",
+      "Psychological Fiction",
+      "Political Fiction",
+      "War Fiction",
+      "Social Fiction",
+      "Dystopian"
     ],
-    "Biography and Autobiography": [
-      "Autobiographies"
+    "Science": [
+      "Mathematics",
+      "Physics",
+      "Chemistry",
+      "Biology",
+      "Astronomy",
+      "Geography",
+      "Geology",
+      "Environmental Science",
+      "Genetics",
+      "Neuroscience",
+      "General Science"
+    ],
+    "Computer and Technology": [
+      "Computer Science",
+      "Programming",
+      "Artificial Intelligence AI",
+      "Machine Learning",
+      "Data Science",
+      "Data Analytics",
+      "Cybersecurity",
+      "Networking",
+      "Web Development",
+      "Software Engineering",
+      "Database",
+      "Robotics",
+      "Emerging Technology"
+    ],
+    "History": [
+      "Bangladesh History",
+      "World History",
+      "Ancient History",
+      "Medieval History",
+      "Modern History",
+      "Liberation War",
+      "Language Movement",
+      "British Period",
+      "Mughal Period",
+      "Archaeology",
+      "Historical Documents"
+    ],
+    "Politics and Government": [
+      "Political Theory",
+      "Political Parties",
+      "Democracy",
+      "Constitution",
+      "Governance",
+      "International Relations",
+      "Diplomacy",
+      "Public Administration",
+      "Human Rights"
+    ],
+    "Social Science": [
+      "Sociology",
+      "Anthropology",
+      "Psychology",
+      "Economics",
+      "Education",
+      "Social Work",
+      "Gender Studies",
+      "Population Studies",
+      "Culture",
+      "Development Studies"
+    ],
+    "Philosophy": [
+      "Logic",
+      "Ethics",
+      "Metaphysics",
+      "Eastern Philosophy",
+      "Western Philosophy",
+      "Islamic Philosophy",
+      "Modern Philosophy"
+    ],
+    "Psychology and Mind": [
+      "Cognitive Psychology",
+      "Behavioral Psychology",
+      "Social Psychology",
+      "Personality",
+      "Emotional Intelligence",
+      "Mental Development",
+      "Human Behavior"
     ],
     "Business and Finance": [
+      "Entrepreneurship",
+      "Business Management",
+      "Marketing",
+      "Accounting",
       "Banking",
       "Finance",
+      "Investment",
+      "Stock Market",
       "Insurance",
       "Islamic Finance"
     ],
-    "Children and Young Adult": [
-      "Adventure Stories",
-      "Comics",
-      "Fairy Tales"
+    "Law and Legal": [
+      "Bangladesh Law",
+      "Constitutional Law",
+      "Criminal Law",
+      "Civil Law",
+      "International Law",
+      "Human Rights Law",
+      "Islamic Law"
     ],
-    "Computer and Technology": [
-      "Computer Science"
+    "Medicine and Health": [
+      "Anatomy",
+      "Physiology",
+      "Medicine",
+      "Surgery",
+      "Pharmacy",
+      "Nutrition",
+      "Public Health",
+      "Mental Health",
+      "First Aid",
+      "Alternative Medicine"
+    ],
+    "Engineering": [
+      "Electrical Engineering",
+      "Electronics",
+      "Mechanical Engineering",
+      "Civil Engineering",
+      "Chemical Engineering",
+      "Architecture",
+      "Textile Engineering",
+      "Agricultural Engineering",
+      "Telecommunications"
     ],
     "Education and Academics": [
+      "Pre-Primary",
       "Class 1",
-      "Class 10",
       "Class 2",
       "Class 3",
       "Class 4",
@@ -548,125 +712,115 @@
       "Class 7",
       "Class 8",
       "Class 9",
+      "Class 10",
+      "Primary Education",
+      "Secondary Education",
       "Higher Secondary",
-      "Pre-Primary",
-      "Primary Education"
-    ],
-    "Engineering": [
-      "Electrical Engineering",
-      "Mechanical Engineering"
-    ],
-    "Fiction": [
-      "Adventure",
-      "Detective",
-      "Horror",
-      "Mystery",
-      "Science Fiction",
-      "Social Fiction",
-      "Thriller"
-    ],
-    "History": [
-      "Ancient History",
-      "Bangladesh History",
-      "Language Movement",
-      "Liberation War",
-      "World History"
+      "University",
+      "Admission Preparation",
+      "Academic Textbooks",
+      "Research Methodology",
+      "Thesis and Dissertation",
+      "Question Banks",
+      "Competitive Exams"
     ],
     "Language and Linguistics": [
-      "Arabic Language",
       "Bengali Language",
-      "Dictionary",
       "English Language",
+      "Arabic Language",
+      "Grammar",
       "Linguistics",
-      "Translation"
+      "Translation",
+      "Vocabulary",
+      "Dictionary"
     ],
-    "Law and Legal": [
-      "Bangladesh Law",
-      "Constitutional Law"
+    "Biography and Autobiography": [
+      "World Leaders",
+      "Bangladeshi Personalities",
+      "Scientists",
+      "Writers and Poets",
+      "Entrepreneurs",
+      "Historical Personalities",
+      "Autobiographies"
     ],
-    "Literature": [
-      "Autobiography",
-      "Children's Literature",
-      "Collected Works",
-      "Drama",
-      "Essays",
-      "Folk Literature",
-      "Humorous Literature",
-      "Literary Criticism",
-      "Novels",
-      "Plays",
-      "Poetry",
-      "Short Stories",
-      "Travel Writing"
+    "Self Development": [
+      "Productivity",
+      "Time Management",
+      "Leadership",
+      "Communication",
+      "Critical Thinking",
+      "Problem Solving",
+      "Habits",
+      "Motivation",
+      "Career Development"
+    ],
+    "Arts and Culture": [
+      "Painting",
+      "Photography",
+      "Music",
+      "Dance",
+      "Cinema",
+      "Theatre",
+      "Architecture",
+      "Calligraphy",
+      "Handicrafts"
+    ],
+    "Agriculture and Nature": [
+      "Agriculture",
+      "Gardening",
+      "Forestry",
+      "Fisheries",
+      "Animal Husbandry",
+      "Wildlife",
+      "Climate Change",
+      "Biodiversity"
+    ],
+    "Travel and Geography": [
+      "Bangladesh",
+      "Asia",
+      "Europe",
+      "Africa",
+      "Americas",
+      "Travel Guides",
+      "Travel Memoirs",
+      "Maps and Atlases"
+    ],
+    "Children and Young Adult": [
+      "Picture Books",
+      "Fairy Tales",
+      "Moral Stories",
+      "Adventure Stories",
+      "Educational Books",
+      "Science for Kids",
+      "Comics",
+      "Teen Fiction",
+      "Teen Nonfiction"
+    ],
+    "Reference Books": [
+      "Encyclopedia",
+      "Dictionary",
+      "Atlas",
+      "Yearbooks",
+      "Almanacs",
+      "Handbooks",
+      "Directories",
+      "Bibliography",
+      "General Knowledge"
     ],
     "Magazines and Periodicals": [
       "Literary Magazines",
-      "Religious Magazines"
+      "Science Magazines",
+      "Religious Magazines",
+      "Children's Magazines",
+      "Newspapers",
+      "Journals",
+      "Newsletters"
     ],
-    "Medicine and Health": [
-      "Alternative Medicine",
-      "Medicine",
-      "Public Health"
-    ],
-    "Philosophy": [
-      "Eastern Philosophy",
-      "Logic"
-    ],
-    "Politics and Government": [
-      "Constitution",
-      "Democracy",
-      "Human Rights",
-      "Political Parties",
-      "Political Theory"
-    ],
-    "Reference Books": [
-      "Almanacs",
-      "Dictionary",
-      "Encyclopedia"
-    ],
-    "Religion": {
-      "Islam": [
-        "Aqeedah",
-        "Dua and Prayer",
-        "Fiqh",
-        "Hadith",
-        "Islamic Children Books",
-        "Islamic Economics",
-        "Islamic History",
-        "Islamic Lifestyle",
-        "Islamic Literature",
-        "Islamic Philosophy",
-        "Islamic Politics",
-        "Prophets",
-        "Quran",
-        "Sahaba",
-        "Seerah",
-        "Tafsir"
-      ],
-      "Buddhism": [],
-      "Christianity": [],
-      "Comparative Religion": [],
-      "Hinduism": [],
-      "Other Religions": []
-    },
-    "Science": [
-      "Biology",
-      "Environmental Science",
-      "General Science",
-      "Mathematics",
-      "Physics"
-    ],
-    "Self Development": [
-      "Motivation"
-    ],
-    "Social Science": [
-      "Culture",
-      "Economics",
-      "Gender Studies",
-      "Population Studies"
-    ],
-    "Travel and Geography": [
-      "Travel Memoirs"
+    "Others and Unclassified": [
+      "Rare Books",
+      "Historical Manuscripts",
+      "Unclassified",
+      "To Be Organized"
     ]
   }
 }
