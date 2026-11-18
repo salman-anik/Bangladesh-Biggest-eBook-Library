@@ -40,8 +40,12 @@ DATA_DIR = REPO_DIR / "data"
 UNKNOWN_AUTHORS = {
     "",
     "various / unknown",
+    "various unknown",
     "various / compiled (সংকলিত)",
+    "various compiled (সংকলিত)",
+    "various compiled (songkolit)",
     "various / compiled",
+    "various compiled",
     "unknown",
     "n/a",
     "none",
@@ -363,7 +367,8 @@ def strip_noise(text: str) -> str:
 def resolve_book_and_author(rec: dict) -> tuple[str, str]:
     """Return (english_bookname, english_author) for a merged_books.json record."""
     raw_title = strip_noise(rec.get("title") or rec.get("name") or "")
-    raw_author = strip_noise(rec.get("author") or "")
+    orig_author = (rec.get("author") or "").strip()
+    raw_author = "" if orig_author.lower() in UNKNOWN_AUTHORS else strip_noise(orig_author)
     if raw_author.lower() in UNKNOWN_AUTHORS:
         raw_author = ""
 
@@ -612,14 +617,22 @@ def main() -> None:
     book_targets: list[tuple[dict, str, str, str]] = []
 
     for b in books:
+        fid = b.get("folder_id") or ""
+        old_folder_name = b.get("name") or ""
+        needs_rename = (
+            fid not in renamed_map
+            or bool(BN_RE.search(old_folder_name))
+            or bool(re.fullmatch(r"[A-Za-z0-9_-]{25,45}", old_folder_name))
+        )
+        if not needs_rename:
+            continue
+
         en_title, en_author = resolve_book_and_author(b)
         target_stem = format_target_stem(en_title, en_author)
         cat = b.get("top_category") or ""
         book_targets.append((b, en_title, en_author, target_stem))
 
-        fid = b.get("folder_id") or ""
-        old_folder_name = b.get("name") or ""
-        if fid and fid not in seen_ids and renamed_map.get(fid) != target_stem:
+        if fid and fid not in seen_ids:
             seen_ids.add(fid)
             if target_stem and target_stem != old_folder_name:
                 ops.append((fid, old_folder_name, target_stem, "folder", cat))
@@ -644,7 +657,7 @@ def main() -> None:
                 elif "text" in mt:
                     ext = ".txt"
             new_fname = f"{target_stem}{ext}"
-            if new_fname != f_old and renamed_map.get(f_id) != new_fname:
+            if new_fname != f_old:
                 ops.append((f_id, f_old, new_fname, "file", cat))
 
     print(f"Books matched: {len(books)} | Pending Drive renames: {len(ops)}", flush=True)
