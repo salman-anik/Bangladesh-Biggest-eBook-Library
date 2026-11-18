@@ -11,6 +11,7 @@ import html as html_lib
 import json
 import os
 import re
+import shutil
 import ssl
 import sys
 import threading
@@ -35,6 +36,18 @@ UA = (
 )
 
 BOOK_EXTS = (".pdf", ".epub", ".djvu", ".mobi", ".azw3")
+
+SKIP_DOMAINS = (
+    "mediafire.com",
+    "banglakitab.com",
+    "bnislaam.files.wordpress.com",
+    "bnislamcdn.files.wordpress.com",
+)
+
+
+def _is_skipped_url(url: str) -> bool:
+    low = (url or "").lower()
+    return any(dom in low for dom in SKIP_DOMAINS)
 
 SEED_DRIVE_FOLDERS: list[tuple[str, str]] = [
     ("14TJVDcNMQVyVGcQNsmTB3cI0V2XFCMqV", "Islamic"),
@@ -64,9 +77,14 @@ SHORTLINKS_TO_RESOLVE: list[str] = [
 WEB_SEED_PAGES: list[str] = [
     "https://justpaste.it/collectionislamicbd",
     "https://justpaste.it/islamiclinks",
+    "https://justpaste.it/islamiclinks/pdf",
     "https://collectionislamicbd.blogspot.com/2018/09/pdf.html",
     "https://collectionislamicbd.blogspot.com/2018/09/blog-post_46.html",
+    "https://collectionislamicbd.blogspot.com/2018/",
+    "https://collectionislamicbd.blogspot.com/2019/",
+    "https://collectionislamicbd.blogspot.com/2020/",
     "https://bangla-booksdownload.blogspot.com/",
+    "https://hugecollectionoflinks.blogspot.com/",
     "https://islamiboi.wordpress.com/",
     "https://islamicbookhouse.wordpress.com/",
     "https://banglakitab.wordpress.com/islamic-book/",
@@ -80,6 +98,36 @@ WEB_SEED_PAGES: list[str] = [
     "https://www.quraneralo.com/category/bangla-islamic-books/",
     "https://i-onlinemedia.net/category/downloads/ebooks",
     "https://sites.google.com/site/almunirabdullah/bangla-books",
+    "http://kitabbhubon.com/",
+    "http://pathagar.com/",
+    "http://almodina.com/site_2.xhtml",
+    "http://jamiatulasad.com/?page_id=4188",
+    "http://www.banglakitab.com/kitab.htm",
+    "http://waytotawheed.com/%E0%A6%A4%E0%A6%BE%E0%A6%93%E0%A6%B9%E0%A7%80%E0%A6%A6/",
+    "https://islamhouse.com/bn/main/",
+    "https://islamhouse.com/",
+    "http://eelm.weebly.com/",
+    "https://banglakitab.weebly.com/",
+    "http://ohilibrary.blogspot.com/",
+    "http://www.draminlibrary.com/proindex/bookcatagory/1/4",
+    "https://www.muslimmedia.info/",
+    "http://www.mwazed.com/",
+    "http://aazeenofislam.com/",
+    "http://assunnahtrust.com/wps/",
+    "http://www.waytojannah.com/",
+    "http://preachingauthenticislaminbangla.blogspot.com/",
+    "http://alquranervasha.com/books",
+    "http://islamicboisomahar.blogspot.com/2017/04/blog-post_10.html",
+    "https://www.allahsword.com/",
+    "https://islam4god.wordpress.com/",
+    "https://justpaste.it/hasanmirza",
+    "https://justpaste.it/thegreatestnation",
+    "https://justpaste.it/meersalman",
+    "https://justpaste.it/collected2-4",
+    "https://justpaste.it/noyonchatterjee",
+    "https://justpaste.it/lekhacollection",
+    "https://justpaste.it/lekhacollection2",
+    "https://justpaste.it/5may2013",
 ]
 
 PROGRESS_FILE = DATA_DIR / "extra_sources_progress.json"
@@ -254,44 +302,114 @@ def classify_book(title: str, source_path: str, clean_folders: dict[str, str]) -
     return "Religion/Islam/Islamic Lifestyle" if "Religion/Islam/Islamic Lifestyle" in clean_folders else "Reference Books/Encyclopedia"
 
 
-def build_catalog() -> list[dict[str, Any]]:
-    if CATALOG_FILE.exists():
-        data = json.loads(CATALOG_FILE.read_text(encoding="utf-8"))
-        if data:
-            return data
+def _extract_links_from_html(
+    final_url: str,
+    body: str,
+    source_label: str,
+    discovered_folders: dict[str, str],
+    discovered_drive_files: dict[str, dict[str, Any]],
+    discovered_web_pdfs: dict[str, dict[str, Any]],
+    collect_internal: bool = False,
+) -> list[str]:
+    for m in re.finditer(r"drive\.google\.com/(?:drive/folders/|folderview\?id=)([A-Za-z0-9_-]{15,})", final_url + "\n" + body):
+        discovered_folders.setdefault(m.group(1), source_label)
+    for m in re.finditer(r"drive\.google\.com/(?:file/d/|open\?id=)([A-Za-z0-9_-]{15,})", final_url + "\n" + body):
+        discovered_drive_files.setdefault(
+            m.group(1),
+            {"kind": "drive_file", "id": m.group(1), "name": m.group(1), "source": source_label},
+        )
+    for href in re.findall(r'href=["\']([^"\']+\.pdf(?:\?[^"\']*)?)["\']', body, re.I):
+        full = urllib.parse.urljoin(final_url, href)
+        if _is_skipped_url(full):
+            continue
+        fname = clean_book_name(Path(urllib.parse.urlparse(full).path).name)
+        discovered_web_pdfs.setdefault(
+            full,
+            {"kind": "web_pdf", "id": full, "url": full, "name": fname, "source": source_label},
+        )
 
+    internal_links: list[str] = []
+    if collect_internal:
+        parsed_base = urllib.parse.urlparse(final_url)
+        host = parsed_base.netloc.lower()
+        follow_domains = ("blogspot.com", "wordpress.com", "kalamullah.com", "islamicbook.ws", "allahsword.com")
+        if any(d in host for d in follow_domains) and not _is_skipped_url(final_url):
+            seen: set[str] = set()
+            for href in re.findall(r'href=["\']([^"\'#]+)["\']', body, re.I):
+                full = urllib.parse.urljoin(final_url, href)
+                if _is_skipped_url(full):
+                    continue
+                p = urllib.parse.urlparse(full)
+                if p.scheme not in ("http", "https") or p.netloc.lower() != host:
+                    continue
+                low = p.path.lower()
+                if low.endswith((".jpg", ".jpeg", ".png", ".gif", ".svg", ".css", ".js", ".ico", ".xml", ".pdf")):
+                    continue
+                if any(skip in low for skip in ("/search/label/", "wp-login", "wp-json", "/feed", "/comment", "share=")):
+                    continue
+                if full not in seen and full != final_url:
+                    seen.add(full)
+                    internal_links.append(full)
+                    if len(internal_links) >= 40:
+                        break
+    return internal_links
+
+
+def build_catalog(refresh_web: bool = False) -> list[dict[str, Any]]:
     discovered_folders: dict[str, str] = {fid: label for fid, label in SEED_DRIVE_FOLDERS}
     discovered_drive_files: dict[str, dict[str, Any]] = {}
     discovered_web_pdfs: dict[str, dict[str, Any]] = {}
 
-    # 1. Resolve shortlinks
-    for u in SHORTLINKS_TO_RESOLVE:
-        try:
-            final_url, body = http_get_lenient(u, timeout=15)
-            for m in re.finditer(r"drive\.google\.com/(?:drive/folders/|folderview\?id=)([A-Za-z0-9_-]{15,})", final_url + "\n" + body):
-                discovered_folders.setdefault(m.group(1), u)
-            for m in re.finditer(r"drive\.google\.com/(?:file/d/|open\?id=)([A-Za-z0-9_-]{15,})", final_url + "\n" + body):
-                discovered_drive_files.setdefault(m.group(1), {"kind": "drive_file", "id": m.group(1), "name": m.group(1), "source": u})
-        except Exception:
-            pass
+    if CATALOG_FILE.exists():
+        data = json.loads(CATALOG_FILE.read_text(encoding="utf-8"))
+        if data and not refresh_web:
+            return data
+        for it in data:
+            if it.get("kind") == "drive_file":
+                discovered_drive_files[it["id"]] = it
+            elif it.get("kind") == "web_pdf" and not _is_skipped_url(it.get("url", "")):
+                discovered_web_pdfs[it["id"]] = it
 
-    # 2. Crawl web seed pages for PDFs and Drive links
-    for page_url in WEB_SEED_PAGES:
+    # 1. Resolve shortlinks & crawl web seed pages concurrently
+    crawl_lock = threading.Lock()
+    internal_candidates: list[str] = []
+
+    def crawl_one(url: str, collect_internal: bool) -> list[str]:
         try:
-            final_url, body = http_get_lenient(page_url, timeout=20)
-            for m in re.finditer(r"drive\.google\.com/(?:drive/folders/|folderview\?id=)([A-Za-z0-9_-]{15,})", body):
-                discovered_folders.setdefault(m.group(1), final_url)
-            for m in re.finditer(r"drive\.google\.com/(?:file/d/|open\?id=)([A-Za-z0-9_-]{15,})", body):
-                discovered_drive_files.setdefault(m.group(1), {"kind": "drive_file", "id": m.group(1), "name": m.group(1), "source": final_url})
-            for href in re.findall(r'href=["\']([^"\']+\.pdf(?:\?[^"\']*)?)["\']', body, re.I):
-                full = urllib.parse.urljoin(final_url, href)
-                fname = clean_book_name(Path(urllib.parse.urlparse(full).path).name)
-                discovered_web_pdfs.setdefault(full, {"kind": "web_pdf", "id": full, "url": full, "name": fname, "source": final_url})
+            final_url, body = http_get_lenient(url, timeout=20)
         except Exception:
-            pass
+            return []
+        with crawl_lock:
+            return _extract_links_from_html(
+                final_url,
+                body,
+                final_url,
+                discovered_folders,
+                discovered_drive_files,
+                discovered_web_pdfs,
+                collect_internal=collect_internal,
+            )
+
+    print("Crawling shortlinks and web seed pages...", flush=True)
+    with concurrent.futures.ThreadPoolExecutor(max_workers=12) as ex:
+        futs = [ex.submit(crawl_one, u, False) for u in SHORTLINKS_TO_RESOLVE]
+        futs.extend(ex.submit(crawl_one, u, True) for u in WEB_SEED_PAGES)
+        for fut in concurrent.futures.as_completed(futs):
+            internal_candidates.extend(fut.result())
+
+    # 2. Follow 1-level internal post/category links on blog/book sites
+    unique_internal = list(dict.fromkeys(internal_candidates))
+    if unique_internal:
+        print(f"Following {len(unique_internal)} 1-level internal pages for nested PDFs/Drive links...", flush=True)
+        with concurrent.futures.ThreadPoolExecutor(max_workers=12) as ex:
+            list(ex.map(lambda u: crawl_one(u, False), unique_internal))
 
     # 3. Recursively walk all discovered Google Drive folders
-    visited_folders: set[str] = set()
+    visited_folders: set[str] = (
+        {fid for fid, _ in SEED_DRIVE_FOLDERS}
+        if refresh_web
+        else set()
+    )
     queue: list[tuple[str, str]] = list(discovered_folders.items())
     while queue:
         fid, path_hint = queue.pop(0)
@@ -329,6 +447,8 @@ def process_one(item: dict[str, Any], clean_folders: dict[str, str], existing_no
         return "time_limit", item["id"]
 
     key = item["id"]
+    if item["kind"] == "web_pdf" and _is_skipped_url(item.get("url", "")):
+        return "skipped_dup", key
     if item["kind"] == "drive_file" and key in existing_fids:
         return "skipped_dup", key
 
@@ -348,12 +468,33 @@ def process_one(item: dict[str, Any], clean_folders: dict[str, str], existing_no
         size_bytes = int(item.get("size") or 0)
         mime = item.get("mimeType") or "application/pdf"
     else:
-        TMP_DIR.mkdir(parents=True, exist_ok=True)
-        tmp_pdf = TMP_DIR / f"{clean_name}.pdf"
+        book_tmp_dir = TMP_DIR / f"web_{abs(hash(key))}"
+        book_tmp_dir.mkdir(parents=True, exist_ok=True)
+        tmp_pdf = book_tmp_dir / f"{clean_name}.pdf"
         try:
             ctx = ssl._create_unverified_context()
-            req = urllib.request.Request(item["url"], headers={"User-Agent": UA})
-            with urllib.request.urlopen(req, timeout=180, context=ctx) as resp, open(tmp_pdf, "wb") as f:
+            target_url = item["url"]
+            if "mediafire.com/file/" in target_url.lower():
+                try:
+                    mf_req = urllib.request.Request(target_url, headers={"User-Agent": UA})
+                    with urllib.request.urlopen(mf_req, timeout=10, context=ctx) as mf_resp:
+                        mf_html = mf_resp.read(300_000).decode("utf-8", "ignore")
+                    m_dl = re.search(
+                        r'href=["\'](https?://download[^"\']+mediafire\.com/[^"\']+)["\']',
+                        mf_html,
+                        re.I,
+                    )
+                    if not m_dl:
+                        return "error_mediafire_blocked", key
+                    target_url = m_dl.group(1)
+                except Exception:
+                    return "error_mediafire_blocked", key
+
+            req = urllib.request.Request(target_url, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=20, context=ctx) as resp, open(tmp_pdf, "wb") as f:
+                ct = (resp.headers.get("Content-Type") or "").lower()
+                if "text/html" in ct:
+                    return "error_html", key
                 while True:
                     chunk = resp.read(1024 * 256)
                     if not chunk:
@@ -362,16 +503,15 @@ def process_one(item: dict[str, Any], clean_folders: dict[str, str], existing_no
             size_bytes = tmp_pdf.stat().st_size
             if size_bytes < 1024:
                 return "error_small", key
+            with open(tmp_pdf, "rb") as f:
+                if f.read(4) != b"%PDF":
+                    return "error_not_pdf", key
             book_folder_id = drive_mkdir(clean_name, parent_folder_id)
             copied_id = drive_upload_pdf(tmp_pdf, book_folder_id)
             ext = ".pdf"
             mime = "application/pdf"
         finally:
-            if tmp_pdf.exists():
-                try:
-                    tmp_pdf.unlink()
-                except Exception:
-                    pass
+            shutil.rmtree(book_tmp_dir, ignore_errors=True)
 
     fmt = ext.lstrip(".").upper() or "PDF"
     rec = {
@@ -400,18 +540,32 @@ def process_one(item: dict[str, Any], clean_folders: dict[str, str], existing_no
         "source": "extra_sources",
     }
 
-    with LOCK:
-        prog = json.loads(PROGRESS_FILE.read_text(encoding="utf-8")) if PROGRESS_FILE.exists() else {}
-        prog[key] = rec
-        PROGRESS_FILE.write_text(json.dumps(prog, ensure_ascii=False, indent=2), encoding="utf-8")
+    return "added", rec
 
-    return "added", clean_name
+
+def _save_progress(progress: dict[str, Any]) -> None:
+    tmp = PROGRESS_FILE.with_suffix(".tmp")
+    tmp.write_text(json.dumps(progress, ensure_ascii=False, indent=2), encoding="utf-8")
+    tmp.replace(PROGRESS_FILE)
 
 
 def merge_into_catalog() -> int:
-    if not PROGRESS_FILE.exists():
+    remote_prog_path = Path(r"C:\Users\USER\.gemini\antigravity\brain\6af272c0-81bd-4ce5-b026-18cf29271c9c\scratch\remote_extra_prog.json")
+    prog = json.loads(PROGRESS_FILE.read_text(encoding="utf-8")) if PROGRESS_FILE.exists() else {}
+    if remote_prog_path.exists():
+        try:
+            rprog = json.loads(remote_prog_path.read_text(encoding="utf-8"))
+            updated = False
+            for k, v in rprog.items():
+                if k not in prog:
+                    prog[k] = v
+                    updated = True
+            if updated:
+                PROGRESS_FILE.write_text(json.dumps(prog, ensure_ascii=False, indent=2), encoding="utf-8")
+        except Exception:
+            pass
+    if not prog:
         return 0
-    prog = json.loads(PROGRESS_FILE.read_text(encoding="utf-8"))
     merged = json.loads(MERGED_FILE.read_text(encoding="utf-8"))
     existing_fids = {b["folder_id"] for b in merged if b.get("folder_id")}
     added = 0
@@ -431,6 +585,7 @@ def main() -> None:
     parser.add_argument("--workers", type=int, default=12)
     parser.add_argument("--max-minutes", type=int, default=300)
     parser.add_argument("--merge-only", action="store_true")
+    parser.add_argument("--refresh-web", action="store_true")
     args = parser.parse_args()
 
     if args.merge_only:
@@ -443,7 +598,7 @@ def main() -> None:
     existing_fids = {b["file_id"] for b in merged if b.get("file_id")}
 
     progress = json.loads(PROGRESS_FILE.read_text(encoding="utf-8")) if PROGRESS_FILE.exists() else {}
-    catalog = build_catalog()
+    catalog = build_catalog(refresh_web=args.refresh_web)
     todo = [it for it in catalog if it["id"] not in progress]
     if args.limit > 0:
         todo = todo[: args.limit]
@@ -461,26 +616,34 @@ def main() -> None:
         for f in concurrent.futures.as_completed(futs):
             it = futs[f]
             done += 1
+            status = "error"
             try:
                 status, info = f.result()
                 if status == "added":
                     stats["added"] += 1
+                    progress[it["id"]] = info
                 elif status == "skipped_dup":
                     stats["skipped_dup"] += 1
-                    with LOCK:
-                        prog = json.loads(PROGRESS_FILE.read_text(encoding="utf-8")) if PROGRESS_FILE.exists() else {}
-                        prog[it["id"]] = {"status": "skipped_dup"}
-                        PROGRESS_FILE.write_text(json.dumps(prog, ensure_ascii=False, indent=2), encoding="utf-8")
+                    progress[it["id"]] = {"status": "skipped_dup"}
                 elif status == "time_limit":
                     stats["time_limit"] += 1
                 else:
                     stats["error"] += 1
+                    progress[it["id"]] = {"status": "error", "detail": status}
             except Exception as e:
                 stats["error"] += 1
                 print(f"[{done}/{len(todo)}] EXCEPTION {it['id']}: {e}", flush=True)
-            if done % 25 == 0 or done == len(todo):
-                print(f"Progress: {done}/{len(todo)} | {stats}", flush=True)
+                progress[it["id"]] = {"status": "error", "detail": str(e)}
+            if done % 20 == 0 or done == len(todo):
+                _save_progress(progress)
+            if status == "added" or done % 5 == 0 or done == len(todo):
+                print(
+                    f"[Countdown] Done: {done}/{len(todo)} | Remaining: {len(todo) - done} | "
+                    f"added={stats['added']} skipped={stats['skipped_dup']} errors={stats['error']}",
+                    flush=True,
+                )
 
+    _save_progress(progress)
     print(f"Done! {stats} | Merged {merge_into_catalog()} new books into merged_books.json")
 
 
