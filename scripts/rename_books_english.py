@@ -350,6 +350,8 @@ def sanitize_filename(name: str, max_len: int = 140) -> str:
 
 def strip_noise(text: str) -> str:
     s = text.strip()
+    if BN_RE.search(s) or any(sep in s for sep in ("_–_", "_—_", "_-_")):
+        s = s.replace("_", " ")
     for pat in WATERMARK_PATTERNS:
         s = re.sub(pat, " ", s, flags=re.I)
     s = re.sub(r"\(\s*\d+\s*\)\s*$", "", s).strip()
@@ -493,6 +495,24 @@ def _gd_rename_rest(file_id: str, new_name: str, retries: int = 4) -> tuple[bool
     return False, "max retries exceeded"
 
 
+def _gd_get_meta_rest(file_id: str) -> dict:
+    for attempt in range(3):
+        try:
+            token = _get_drive_access_token()
+            if not token:
+                return {}
+            url = (
+                f"https://www.googleapis.com/drive/v3/files/{urllib.parse.quote(file_id)}"
+                "?supportsAllDrives=true&fields=name,size"
+            )
+            req = urllib.request.Request(url, headers={"Authorization": f"Bearer {token}"})
+            with urllib.request.urlopen(req, timeout=25) as resp:
+                return json.loads(resp.read().decode("utf-8"))
+        except Exception:
+            time.sleep(1.5 * (attempt + 1))
+    return {}
+
+
 def gd_rename(file_id: str, new_name: str, retries: int = 3) -> tuple[bool, str]:
     if os.environ.get("GDRIVE_OAUTH_JSON") or os.environ.get("GDRIVE_SERVICE_ACCOUNT_JSON"):
         return _gd_rename_rest(file_id, new_name, retries=retries)
@@ -535,11 +555,49 @@ def main() -> None:
     merged_path = DATA_DIR / "merged_books.json"
     state_path = DATA_DIR / "english_rename_state.json"
 
-    books = json.loads(merged_path.read_text(encoding="utf-8"))
+    all_books = json.loads(merged_path.read_text(encoding="utf-8"))
+    books = all_books
     if args.category:
-        books = [b for b in books if (b.get("top_category") or "").lower() == args.category.lower()]
+        books = [b for b in all_books if (b.get("top_category") or "").lower() == args.category.lower()]
     if args.limit > 0:
         books = books[: args.limit]
+
+    # Backfill real title & byte size for 0-size / raw-Drive-ID books via Drive REST API
+    if not args.dry_run and _get_drive_access_token():
+        zero_books = [
+            b for b in books
+            if not b.get("size") or re.fullmatch(r"[A-Za-z0-9_-]{25,45}", b.get("name") or "")
+        ]
+        if zero_books:
+            print(f"Backfilling Drive metadata (name/size) for {len(zero_books)} books...", flush=True)
+
+            def _backfill_one(b: dict) -> bool:
+                changed = False
+                raw_n = b.get("name") or ""
+                is_raw_id = bool(re.fullmatch(r"[A-Za-z0-9_-]{25,45}", raw_n))
+                meta = _gd_get_meta_rest(raw_n if is_raw_id else (b.get("file_id") or ""))
+                if not meta.get("size") and b.get("file_id"):
+                    meta2 = _gd_get_meta_rest(b["file_id"])
+                    if meta2.get("size"):
+                        meta["size"] = meta2["size"]
+                if is_raw_id and meta.get("name"):
+                    real_stem = Path(meta["name"]).stem
+                    if real_stem and not re.fullmatch(r"[A-Za-z0-9_-]{25,45}", real_stem):
+                        b["name"] = real_stem
+                        b["title"] = real_stem
+                        changed = True
+                if meta.get("size") and not b.get("size"):
+                    sz = int(meta["size"])
+                    b["size"] = sz
+                    for f in b.get("files") or []:
+                        if not f.get("size"):
+                            f["size"] = sz
+                    changed = True
+                return changed
+
+            with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as pool:
+                bf_results = list(pool.map(_backfill_one, zero_books))
+            print(f"Backfilled metadata for {sum(1 for x in bf_results if x)}/{len(zero_books)} books.", flush=True)
 
     state = (
         json.loads(state_path.read_text(encoding="utf-8"))
@@ -551,15 +609,17 @@ def main() -> None:
     # Collect (id, old_name, new_name, kind, category)
     ops: list[tuple[str, str, str, str, str]] = []
     seen_ids: set[str] = set()
+    book_targets: list[tuple[dict, str, str, str]] = []
 
     for b in books:
         en_title, en_author = resolve_book_and_author(b)
         target_stem = format_target_stem(en_title, en_author)
         cat = b.get("top_category") or ""
+        book_targets.append((b, en_title, en_author, target_stem))
 
         fid = b.get("folder_id") or ""
         old_folder_name = b.get("name") or ""
-        if fid and fid not in seen_ids and fid not in renamed_map:
+        if fid and fid not in seen_ids and renamed_map.get(fid) != target_stem:
             seen_ids.add(fid)
             if target_stem and target_stem != old_folder_name:
                 ops.append((fid, old_folder_name, target_stem, "folder", cat))
@@ -567,7 +627,7 @@ def main() -> None:
         for f in b.get("files") or []:
             f_id = f.get("id") or ""
             f_old = f.get("name") or ""
-            if not f_id or f_id in seen_ids or f_id in renamed_map:
+            if not f_id or f_id in seen_ids:
                 continue
             seen_ids.add(f_id)
             ext = Path(f_old).suffix.lower()
@@ -584,7 +644,7 @@ def main() -> None:
                 elif "text" in mt:
                     ext = ".txt"
             new_fname = f"{target_stem}{ext}"
-            if new_fname != f_old:
+            if new_fname != f_old and renamed_map.get(f_id) != new_fname:
                 ops.append((f_id, f_old, new_fname, "file", cat))
 
     print(f"Books matched: {len(books)} | Pending Drive renames: {len(ops)}", flush=True)
@@ -610,26 +670,51 @@ def main() -> None:
     failed = 0
     total = len(ops)
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as pool:
-        futures = {
-            pool.submit(gd_rename, oid, new_n): (oid, old_n, new_n)
-            for oid, old_n, new_n, _, _ in ops
-        }
-        for fut in concurrent.futures.as_completed(futures):
-            oid, old_n, new_n = futures[fut]
-            ok, err = fut.result()
-            if ok:
-                renamed_map[oid] = new_n
-                done += 1
-            else:
-                failed += 1
-                print(f"  FAIL {oid} ({old_n!r} -> {new_n!r}): {err}", flush=True)
-            if (done + failed) % 100 == 0 or (done + failed) == total:
-                state_path.write_text(json.dumps(state, ensure_ascii=False), encoding="utf-8")
-                print(f"Progress: {done}/{total} renamed ({failed} failed)", flush=True)
+    if ops:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as pool:
+            futures = {
+                pool.submit(gd_rename, oid, new_n): (oid, old_n, new_n)
+                for oid, old_n, new_n, _, _ in ops
+            }
+            for fut in concurrent.futures.as_completed(futures):
+                oid, old_n, new_n = futures[fut]
+                ok, err = fut.result()
+                if ok:
+                    renamed_map[oid] = new_n
+                    done += 1
+                else:
+                    failed += 1
+                    print(f"  FAIL {oid} ({old_n!r} -> {new_n!r}): {err}", flush=True)
+                if (done + failed) % 100 == 0 or (done + failed) == total:
+                    state_path.write_text(json.dumps(state, ensure_ascii=False), encoding="utf-8")
+                    print(f"Progress: {done}/{total} renamed ({failed} failed)", flush=True)
 
+    # Sync English names, extracted authors, and filenames back into data/merged_books.json
+    updated_records = 0
+    for b, en_title, en_author, target_stem in book_targets:
+        if not target_stem:
+            continue
+        if b.get("name") != target_stem:
+            b["name"] = target_stem
+            updated_records += 1
+        if en_title and b.get("title") != en_title:
+            b["title"] = en_title
+        cur_auth = (b.get("author") or "").strip()
+        if en_author and (cur_auth.lower() in UNKNOWN_AUTHORS or BN_RE.search(cur_auth)):
+            b["author"] = en_author
+        elif cur_auth and BN_RE.search(cur_auth):
+            b["author"] = sanitize_filename(to_english_translit(cur_auth), max_len=60) or cur_auth
+        for f in b.get("files") or []:
+            f_old = f.get("name") or ""
+            ext = Path(f_old).suffix.lower() or ".pdf"
+            f["name"] = f"{target_stem}{ext}"
+
+    merged_path.write_text(json.dumps(all_books, ensure_ascii=False), encoding="utf-8")
     state_path.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Finished! Renamed: {done}, Failed: {failed}", flush=True)
+    print(
+        f"Finished! Drive renamed: {done} (failed: {failed}) | Updated {updated_records} records in merged_books.json",
+        flush=True,
+    )
 
 
 if __name__ == "__main__":
