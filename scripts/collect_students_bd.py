@@ -99,39 +99,60 @@ def _get_drive_access_token() -> str | None:
     return None
 
 
-def http_get(url: str, timeout: int = 25) -> str:
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=timeout) as resp:
-        return resp.read().decode("utf-8", "ignore")
+def http_get(url: str, timeout: int = 60, retries: int = 4) -> str:
+    for attempt in range(retries):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                return resp.read().decode("utf-8", "ignore")
+        except Exception:
+            if attempt == retries - 1:
+                raise
+            time.sleep(2.0 * (attempt + 1))
+    raise RuntimeError(f"http_get failed: {url}")
 
 
-def http_post_json(url: str, payload: dict[str, Any], referer: str, timeout: int = 25) -> dict[str, Any]:
-    req = urllib.request.Request(
-        url,
-        data=json.dumps(payload).encode("utf-8"),
-        headers={
-            "Content-Type": "application/json",
-            "User-Agent": UA,
-            "Referer": referer,
-            "Origin": BASE_URL,
-        },
-        method="POST",
-    )
-    with urllib.request.urlopen(req, timeout=timeout) as resp:
-        return json.loads(resp.read().decode("utf-8"))
+def http_post_json(url: str, payload: dict[str, Any], referer: str, timeout: int = 60, retries: int = 4) -> dict[str, Any]:
+    for attempt in range(retries):
+        try:
+            req = urllib.request.Request(
+                url,
+                data=json.dumps(payload).encode("utf-8"),
+                headers={
+                    "Content-Type": "application/json",
+                    "User-Agent": UA,
+                    "Referer": referer,
+                    "Origin": BASE_URL,
+                },
+                method="POST",
+            )
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                return json.loads(resp.read().decode("utf-8"))
+        except Exception:
+            if attempt == retries - 1:
+                raise
+            time.sleep(2.0 * (attempt + 1))
+    raise RuntimeError(f"http_post_json failed: {url}")
 
 
-def download_file(url: str, dest: Path, referer: str, timeout: int = 180) -> int:
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Referer": referer})
-    with urllib.request.urlopen(req, timeout=timeout) as resp, open(dest, "wb") as f:
-        total = 0
-        while True:
-            chunk = resp.read(1024 * 256)
-            if not chunk:
-                break
-            f.write(chunk)
-            total += len(chunk)
-    return total
+def download_file(url: str, dest: Path, referer: str, timeout: int = 300, retries: int = 3) -> int:
+    for attempt in range(retries):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA, "Referer": referer})
+            with urllib.request.urlopen(req, timeout=timeout) as resp, open(dest, "wb") as f:
+                total = 0
+                while True:
+                    chunk = resp.read(1024 * 256)
+                    if not chunk:
+                        break
+                    f.write(chunk)
+                    total += len(chunk)
+            return total
+        except Exception:
+            if attempt == retries - 1:
+                raise
+            time.sleep(3.0 * (attempt + 1))
+    raise RuntimeError(f"download_file failed: {url}")
 
 
 def norm_title(s: str) -> str:
@@ -246,7 +267,7 @@ def gdrive_mkdir(name: str, parent_id: str) -> str:
     for attempt in range(4):
         res = subprocess.run(
             [GDRIVE, "mutate", "mkdir", name, "--parent", parent_id],
-            capture_output=True, text=True, encoding="utf-8",
+            capture_output=True, text=True, encoding="utf-8", timeout=120,
         )
         if res.returncode == 0:
             fid = parse_gdrive_id(res.stdout)
@@ -262,7 +283,7 @@ def gdrive_upload(local_path: Path, parent_id: str) -> str:
     for attempt in range(4):
         res = subprocess.run(
             [GDRIVE, "mutate", "upload", str(local_path), "--parent", parent_id],
-            capture_output=True, text=True, encoding="utf-8",
+            capture_output=True, text=True, encoding="utf-8", timeout=600,
         )
         if res.returncode == 0:
             fid = parse_gdrive_id(res.stdout)
@@ -371,11 +392,12 @@ def classify_book(title: str, author: str, category: str, publisher: str, slug: 
     )
     if leaf in clean_folders:
         return leaf
+    top_cat = leaf.split("/")[0]
+    if top_cat in clean_folders:
+        return top_cat
     if category.lower() in ("admission", "academic"):
         return "Education and Academics/Higher Secondary"
-    if category.lower() in ("job", "job prep"):
-        return "Reference Books/General Knowledge"
-    return "Reference Books/General Knowledge"
+    return "Reference Books/Encyclopedia" if "Reference Books/Encyclopedia" in clean_folders else "Education and Academics/Higher Secondary"
 
 
 def process_one(
@@ -425,25 +447,18 @@ def process_one(
     if dl_url.startswith("/"):
         dl_url = BASE_URL + dl_url
 
-    TMP_DIR.mkdir(parents=True, exist_ok=True)
-    tmp_pdf = TMP_DIR / f"{slug}.pdf"
+    book_tmp_dir = TMP_DIR / slug
+    book_tmp_dir.mkdir(parents=True, exist_ok=True)
+    tmp_pdf = book_tmp_dir / f"{clean_name}.pdf"
     try:
         size_bytes = download_file(dl_url, tmp_pdf, referer=dl_page_url)
         if size_bytes < 1024:
             return "error_small_file", slug
 
         book_folder_id = gdrive_mkdir(clean_name, parent_folder_id)
-        # Rename before upload so Drive filename is clean_name.pdf
-        clean_pdf = TMP_DIR / f"{clean_name}.pdf"
-        if tmp_pdf != clean_pdf:
-            if clean_pdf.exists():
-                clean_pdf.unlink()
-            tmp_pdf.rename(clean_pdf)
-            tmp_pdf = clean_pdf
         uploaded_pdf_id = gdrive_upload(tmp_pdf, book_folder_id)
     finally:
-        if tmp_pdf.exists():
-            tmp_pdf.unlink()
+        shutil.rmtree(book_tmp_dir, ignore_errors=True)
 
     top_cat, leaf_cat = leaf_path.split("/", 1)[0], leaf_path.split("/")[-1]
     record = {
@@ -565,7 +580,7 @@ def main() -> None:
                 stats["error"] += 1
                 print(f"[{done}/{len(todo)}] EXCEPTION {it['slug']}: {e}", flush=True)
 
-            if done % 20 == 0 or done == len(todo):
+            if done % 10 == 0 or done == len(todo):
                 print(
                     f"Progress: {done}/{len(todo)} | added={stats['added']} skipped={stats['skipped_dup']} errors={stats['error']}",
                     flush=True,
