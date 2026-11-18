@@ -368,7 +368,11 @@ def resolve_book_and_author(rec: dict) -> tuple[str, str]:
     """Return (english_bookname, english_author) for a merged_books.json record."""
     raw_title = strip_noise(rec.get("title") or rec.get("name") or "")
     orig_author = (rec.get("author") or "").strip()
-    raw_author = "" if orig_author.lower() in UNKNOWN_AUTHORS else strip_noise(orig_author)
+    is_unknown = (
+        orig_author.lower() in UNKNOWN_AUTHORS
+        or any(k in orig_author.lower() for k in ("various", "unknown", "compiled", "songkolit", "সংকলিত", "anonymous"))
+    )
+    raw_author = "" if is_unknown else strip_noise(orig_author)
     if raw_author.lower() in UNKNOWN_AUTHORS:
         raw_author = ""
 
