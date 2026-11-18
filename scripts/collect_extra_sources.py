@@ -13,6 +13,7 @@ import os
 import re
 import shutil
 import ssl
+import subprocess
 import sys
 import threading
 import time
@@ -605,7 +606,11 @@ def main() -> None:
 
     print(f"Extra Catalog: {len(catalog)} | Processed: {len(progress)} | Todo: {len(todo)}", flush=True)
     if not todo:
-        print(f"Nothing left. Merged {merge_into_catalog()} books.")
+        print(f"Nothing left. Merged {merge_into_catalog()} books.", flush=True)
+        subprocess.run(
+            [sys.executable, str(SCRIPTS_DIR / "rename_books_english.py"), "--workers", str(args.workers)],
+            check=False,
+        )
         return
 
     deadline = (time.time() + args.max_minutes * 60) if args.max_minutes > 0 else None
@@ -644,7 +649,11 @@ def main() -> None:
                 )
 
     _save_progress(progress)
-    print(f"Done! {stats} | Merged {merge_into_catalog()} new books into merged_books.json")
+    print(f"Done! {stats} | Merged {merge_into_catalog()} new books into merged_books.json", flush=True)
+    subprocess.run(
+        [sys.executable, str(SCRIPTS_DIR / "rename_books_english.py"), "--workers", str(args.workers)],
+        check=False,
+    )
 
 
 if __name__ == "__main__":
