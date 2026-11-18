@@ -407,9 +407,9 @@ def build_catalog(refresh_web: bool = False) -> list[dict[str, Any]]:
 
     # 3. Recursively walk all discovered Google Drive folders
     visited_folders: set[str] = (
-        {fid for fid, _ in SEED_DRIVE_FOLDERS}
-        if (refresh_web or len(discovered_drive_files) >= 2000)
-        else set()
+        set()
+        if refresh_web
+        else ({fid for fid, _ in SEED_DRIVE_FOLDERS} if len(discovered_drive_files) >= 2000 else set())
     )
     queue: list[tuple[str, str]] = list(discovered_folders.items())
     while queue:
