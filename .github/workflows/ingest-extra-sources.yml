@@ -1,0 +1,97 @@
+name: Ingest Extra Drive Folders & Web Books
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Max books per run (0 = all remaining up to 300 min)"
+        required: false
+        default: "1000"
+      workers:
+        description: "Concurrent workers"
+        required: false
+        default: "12"
+      auto_continue:
+        description: "Automatically chain next run if books remain"
+        type: boolean
+        required: false
+        default: true
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  ingest-extra-sources:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Verify GDRIVE_OAUTH_JSON secret
+        env:
+          GDRIVE_OAUTH_JSON: ${{ secrets.GDRIVE_OAUTH_JSON }}
+        run: |
+          if [ -z "$GDRIVE_OAUTH_JSON" ]; then
+            echo "::error::Missing GDRIVE_OAUTH_JSON secret."
+            exit 1
+          fi
+
+      - name: Collect Drive folders & web PDFs
+        env:
+          GDRIVE_OAUTH_JSON: ${{ secrets.GDRIVE_OAUTH_JSON }}
+        run: |
+          python scripts/collect_extra_sources.py \
+            --limit "${{ inputs.limit }}" \
+            --workers "${{ inputs.workers }}" \
+            --max-minutes 300
+
+      - name: Rebuild GitHub catalog, READMEs, and books.json
+        if: always()
+        run: |
+          python scripts/collect_extra_sources.py --merge-only
+          python scripts/rebuild_github_clean_repo.py
+
+      - name: Commit and push updated library
+        id: commit_push
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "feat: ingest extra Drive folders and web PDFs"
+            git pull --rebase
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Chain next batch if books remain
+        if: ${{ success() && inputs.auto_continue && steps.commit_push.outputs.changed == 'true' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          REMAINING=$(python -c '
+          import json
+          from pathlib import Path
+          cat = json.loads(Path("data/extra_sources_catalog.json").read_text(encoding="utf-8"))
+          prog = json.loads(Path("data/extra_sources_progress.json").read_text(encoding="utf-8")) if Path("data/extra_sources_progress.json").exists() else {}
+          print(sum(1 for it in cat if it["id"] not in prog))
+          ')
+          echo "Remaining books: $REMAINING"
+          if [ "$REMAINING" -gt 0 ]; then
+            gh workflow run ingest-extra-sources.yml \
+              -f limit="${{ inputs.limit }}" \
+              -f workers="${{ inputs.workers }}" \
+              -f auto_continue=true
+          fi
