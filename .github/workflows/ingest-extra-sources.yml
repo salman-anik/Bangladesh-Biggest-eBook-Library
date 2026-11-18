@@ -1,6 +1,8 @@
 name: Ingest Extra Drive Folders & Web Books
 
 on:
+  schedule:
+    - cron: "0 0 * * 0"
   workflow_dispatch:
     inputs:
       limit:
@@ -20,6 +22,10 @@ on:
 permissions:
   contents: write
   actions: write
+
+concurrency:
+  group: ebook-library-ingest
+  cancel-in-progress: false
 
 jobs:
   ingest-extra-sources:
@@ -49,35 +55,41 @@ jobs:
           GDRIVE_OAUTH_JSON: ${{ secrets.GDRIVE_OAUTH_JSON }}
         run: |
           python scripts/collect_extra_sources.py \
-            --limit "${{ inputs.limit }}" \
-            --workers "${{ inputs.workers }}" \
+            --refresh-web \
+            --limit "${{ inputs.limit || '1000' }}" \
+            --workers "${{ inputs.workers || '12' }}" \
             --max-minutes 300
 
-      - name: Rebuild GitHub catalog, READMEs, and books.json
-        if: always()
-        run: |
-          python scripts/collect_extra_sources.py --merge-only
-          python scripts/rebuild_github_clean_repo.py
-
-      - name: Commit and push updated library
+      - name: Merge, rebuild catalog, and push to main
         id: commit_push
         if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
-          if git diff --staged --quiet; then
-            echo "No changes to commit."
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-          else
-            git commit -m "feat: ingest extra Drive folders and web PDFs"
-            git pull --rebase
-            git push
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-          fi
+          for attempt in 1 2 3; do
+            git checkout -- data/merged_books.json 2>/dev/null || true
+            git pull --rebase origin main || { git rebase --abort 2>/dev/null || true; git pull --no-rebase -X theirs origin main; }
+            python scripts/collect_extra_sources.py --merge-only
+            [ -f scripts/collect_students_bd.py ] && python scripts/collect_students_bd.py --merge-only || true
+            python scripts/build_merged_github_and_report.py
+            git add -A
+            if git diff --staged --quiet; then
+              echo "No changes to commit."
+              echo "changed=false" >> "$GITHUB_OUTPUT"
+              break
+            else
+              git commit -m "feat: ingest extra Drive folders and web PDFs"
+              if git push origin main; then
+                echo "changed=true" >> "$GITHUB_OUTPUT"
+                break
+              fi
+              echo "Push raced with another run (attempt $attempt), retrying..."
+              git reset --soft HEAD~1
+            fi
+          done
 
       - name: Chain next batch if books remain
-        if: ${{ success() && inputs.auto_continue && steps.commit_push.outputs.changed == 'true' }}
+        if: ${{ success() && (inputs.auto_continue != false) && steps.commit_push.outputs.changed == 'true' }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -91,7 +103,7 @@ jobs:
           echo "Remaining books: $REMAINING"
           if [ "$REMAINING" -gt 0 ]; then
             gh workflow run ingest-extra-sources.yml \
-              -f limit="${{ inputs.limit }}" \
-              -f workers="${{ inputs.workers }}" \
+              -f limit="${{ inputs.limit || '1000' }}" \
+              -f workers="${{ inputs.workers || '12' }}" \
               -f auto_continue=true
           fi
