@@ -362,8 +362,8 @@ def build_catalog(refresh_web: bool = False) -> list[dict[str, Any]]:
 
     if CATALOG_FILE.exists():
         data = json.loads(CATALOG_FILE.read_text(encoding="utf-8"))
-        if data and not refresh_web:
-            return data
+        if data and len(data) >= 7000 and not refresh_web:
+            return [it for it in data if not (it.get("kind") == "web_pdf" and _is_skipped_url(it.get("url", "")))]
         for it in data:
             if it.get("kind") == "drive_file":
                 discovered_drive_files[it["id"]] = it
@@ -407,7 +407,7 @@ def build_catalog(refresh_web: bool = False) -> list[dict[str, Any]]:
     # 3. Recursively walk all discovered Google Drive folders
     visited_folders: set[str] = (
         {fid for fid, _ in SEED_DRIVE_FOLDERS}
-        if refresh_web
+        if (refresh_web or len(discovered_drive_files) >= 2000)
         else set()
     )
     queue: list[tuple[str, str]] = list(discovered_folders.items())
