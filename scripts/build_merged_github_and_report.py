@@ -218,6 +218,20 @@ def main() -> None:
         raise FileNotFoundError(f"Missing {merged_p}; run merge_books_by_title.py first")
 
     merged = json.loads(merged_p.read_text(encoding="utf-8"))
+    local_added_p = DATA / "local_added_books.json"
+    if local_added_p.exists():
+        local_added = json.loads(local_added_p.read_text(encoding="utf-8"))
+        seen_fids = {b.get("folder_id") for b in merged if b.get("folder_id")}
+        added_local = 0
+        for b in local_added:
+            fid = b.get("folder_id")
+            if fid and fid not in seen_fids:
+                merged.append(b)
+                seen_fids.add(fid)
+                added_local += 1
+        if added_local:
+            merged_p.write_text(json.dumps(merged, ensure_ascii=False), encoding="utf-8")
+            print(f"Merged {added_local} books from local_added_books.json into merged_books.json", flush=True)
     clean_folders = json.loads(folders_p.read_text(encoding="utf-8"))
 
     # 1. Remove stale legacy pdf/ and text/ directories from Git workspace root
@@ -407,6 +421,8 @@ def main() -> None:
         "data/live_drive_snapshot.json",
         "data/*.tmp",
         "tmp_*/",
+        "__pycache__/",
+        "*.pyc",
     ]
     for ign in needed_ignores:
         if ign not in gi_lines:
