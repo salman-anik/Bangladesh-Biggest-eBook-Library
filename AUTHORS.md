@@ -1,10 +1,10 @@
 # ✍️ Authors Index
 
-Total distinct authors: **2,587** across **21,249** merged book folders.
+Total distinct authors: **2,587** across **21,255** merged book folders.
 
 | Author | Books |
 |---|---:|
-| Various / Unknown | 10,615 |
+| Various / Unknown | 10,621 |
 | Various / Compiled (Songkolit) | 1,947 |
 | NCTB | 1,253 |
 | Humayun Ahmed | 344 |

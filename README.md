@@ -1,8 +1,8 @@
 # 📚 Bangladesh's Biggest eBook Library
 
-[🌐 Browse Searchable Web Explorer](https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/) | [📁 Open Google Drive Root](https://drive.google.com/drive/folders/1fMsplDtUnpUhnNBJGKvYQ1sdZx0QVJWq) | [✍️ Authors (2,587)](AUTHORS.md) | [🏢 Publications (246)](PUBLICATIONS.md)
+[🌐 Browse Searchable Web Explorer](https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/) | [📁 Open Google Drive Root](https://drive.google.com/drive/folders/1fMsplDtUnpUhnNBJGKvYQ1sdZx0QVJWq) | [✍️ Authors (2,587)](AUTHORS.md) | [🏢 Publications (247)](PUBLICATIONS.md)
 
-**21,249 Unified Book Folders** organized cleanly across **25 Categories & 256 Subcategories** (**153.9 GB** total).
+**21,255 Unified Book Folders** organized cleanly across **25 Categories & 256 Subcategories** (**154.0 GB** total).
 
 Every book resides in its own dedicated `<Category>/<Subcategory>/<Clean Book Name>/` folder containing the book's **PDF / EPUB**, **Structured Text JSON**, and **Cover Image** together.
 
@@ -28,7 +28,7 @@ Every book resides in its own dedicated `<Category>/<Subcategory>/<Clean Book Na
 | 16 | [Philosophy](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Philosophy/README.md) | 59 | 284.2 MB | [Open Folder](https://drive.google.com/drive/folders/1ysHFxZ3mJyjHs5-1GUNSas-BRH8obKPQ) |
 | 17 | [Politics and Government](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Politics%20and%20Government/README.md) | 19 | 105.3 MB | [Open Folder](https://drive.google.com/drive/folders/1GOdtNfSwZl7UIYy30uKcn6GRGzI25bem) |
 | 18 | [Reference Books](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Reference%20Books/README.md) | 16 | 901.1 MB | [Open Folder](https://drive.google.com/drive/folders/101tlEJNPPgyOSHbHzk2Q8J7DOvtWe0YT) |
-| 19 | [Religion](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/README.md) | 11,700 | 57.4 GB | [Open Folder](https://drive.google.com/drive/folders/12pMmEYKjz8635-QlAVNagXrUGkloeiPx) |
+| 19 | [Religion](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/README.md) | 11,706 | 57.5 GB | [Open Folder](https://drive.google.com/drive/folders/12pMmEYKjz8635-QlAVNagXrUGkloeiPx) |
 | 20 | [Science](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Science/README.md) | 343 | 1.4 GB | [Open Folder](https://drive.google.com/drive/folders/1TNX8p2_21a88ZmEwHSUd6U6SKgnEcsY2) |
 | 21 | [Self Development](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Self%20Development/README.md) | 49 | 511.5 MB | [Open Folder](https://drive.google.com/drive/folders/1xoYIf59ePzYhxZJ6Y0A2z0PME3zEF-qH) |
 | 22 | [Social Science](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Social%20Science/README.md) | 77 | 1.3 GB | [Open Folder](https://drive.google.com/drive/folders/1QcXnMRm9gIqiXr5n8sXRaQKxw-9Y_2Cy) |

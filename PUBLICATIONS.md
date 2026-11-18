@@ -1,6 +1,6 @@
 # 🏢 Publications & Sources Index
 
-Total sources/publications: **246** across **21,249** merged book folders.
+Total sources/publications: **247** across **21,255** merged book folders.
 
 | Publication / Source | Books |
 |---|---:|
@@ -57,6 +57,7 @@ Total sources/publications: **246** across **21,249** merged book folders.
 | BD Public e-Library/৫. যাকাত - ইসলামী অর্থনীতি | 19 |
 | BD Public e-Library/৯. আত্মশুদ্ধি | 19 |
 | Islamic/Books/Al-Quran/Tafseer (full)/Tafhimul Quran | 18 |
+| https://collectionislamicbd.blogspot.com/2019/ | 18 |
 | BD Public e-Library/১৭. মাযহাব - ফিক্বহের মূলনীতি | 17 |
 | https://islamiboipdf.blogspot.com/2021/07/pdf_8.html | 17 |
 | Pinu's Kindle/অনুবাদ/জুল ভার্ন | 16 |
@@ -68,7 +69,6 @@ Total sources/publications: **246** across **21,249** merged book folders.
 | Pinu's Kindle/বিভূতিভূষণ বন্দ্যোপাধ্যায় | 13 |
 | BD Public e-Library/২০. দাওয়াত - বিদ্বেষীদের জবাব/ফেসবুকের নির্বাচিত লেখা | 13 |
 | BD Public e-Library/১৪. বিধান, আমল ও ফযীলত/পাপ, তার প্রকারভেদ ও মুক্তির উপায় | 13 |
-| https://collectionislamicbd.blogspot.com/2019/ | 13 |
 | University Physics - Classical Electrodynamics II | 12 |
 | BD Public e-Library/৬. সিয়াম - রমাদান | 12 |
 | BD Public e-Library/১৮. জীবনী - ইতিহাস | 12 |
@@ -250,3 +250,4 @@ Total sources/publications: **246** across **21,249** merged book folders.
 | https://islamiboipdf.blogspot.com/2021/08/pdf.html | 1 |
 | https://islamiboipdf.blogspot.com/2021/10/accidentislamiboipdf.html | 1 |
 | https://islamiboipdf.blogspot.com/2021/08/pdf_25.html | 1 |
+| https://islamiboipdf.blogspot.com/2021/08/2.html | 1 |
