@@ -1,0 +1,26 @@
+# 📖 turkish-16
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Religion](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/README.md) / [Islamic Lifestyle](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/Islam/Islamic%20Lifestyle/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1ELhf7MmBOfcfQXW7By5H2F9rHlJrzt-c)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1ELhf7MmBOfcfQXW7By5H2F9rHlJrzt-c) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/1gPxfMt7RAdDnWF9i8sLC0yANkdC0aqfM/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | turkish-16 |
+| **Author** | Various / Unknown |
+| **Publication / Source** | https://www.islamicbook.ws/turkish/ |
+| **Category** | Religion/Islam/Islamic Lifestyle |
+| **Subfolder** | — |
+| **Formats** | PDF |
+| **Total Size** | 1.4 MB |
+
+### 📂 Files Inside Folder
+
+- [turkish-16.pdf](https://drive.google.com/file/d/1gPxfMt7RAdDnWF9i8sLC0yANkdC0aqfM/view) (1.4 MB)

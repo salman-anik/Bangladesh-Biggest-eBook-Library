@@ -1,0 +1,26 @@
+# 📖 ফেরাউনের_গুপ্তধন_–_আসাদ_বিন_হাফিয
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Religion](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/README.md) / [Islamic Lifestyle](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/Islam/Islamic%20Lifestyle/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1QZounhVI-xADJ7CeAMBuBu6IypjZbO-2)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1QZounhVI-xADJ7CeAMBuBu6IypjZbO-2) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/1o8PU57Zz5T3qQo9qyL2mjFch4B5c0XeQ/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | ফেরাউনের_গুপ্তধন_–_আসাদ_বিন_হাফিয |
+| **Author** | Various / Unknown |
+| **Publication / Source** | https://collectionislamicbd.blogspot.com/2019/07/blog-post.html |
+| **Category** | Religion/Islam/Islamic Lifestyle |
+| **Subfolder** | — |
+| **Formats** | PDF |
+| **Total Size** | 2.8 MB |
+
+### 📂 Files Inside Folder
+
+- [ফেরাউনের_গুপ্তধন_–_আসাদ_বিন_হাফিয.pdf](https://drive.google.com/file/d/1o8PU57Zz5T3qQo9qyL2mjFch4B5c0XeQ/view) (2.8 MB)

@@ -2,7 +2,7 @@
 
 [⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Science](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Science/README.md) | [📁 Open Folder in Google Drive](https://drive.google.com/drive/folders/11tQ3PKw5w2jQprg9rXxt7QVcitLe4WCH)
 
-**Total Books:** 13 | **Total Size:** 189.6 MB
+**Total Books:** 14 | **Total Size:** 191.5 MB
 
 ## 📖 Books (Folder = PDF / EPUB + Text JSON + Cover)
 
@@ -21,3 +21,4 @@
 | 11 | [Mansanka(Manosangk)](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Science/Mathematics/Mansanka%28Manosangk%29/README.md) | Various / Unknown | PDF | 34.5 MB | [Open Folder](https://drive.google.com/drive/folders/1c68yhKUWJEy7YtncYCtI4JwmG73B7tbt) |
 | 12 | [Ongk Bhaija_Chomok Hasan](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Science/Mathematics/Ongk%20Bhaija_Chomok%20Hasan/README.md) | Chomok Hasan | PDF | 16.7 MB | [Open Folder](https://drive.google.com/drive/folders/1mtVLhzHyGUU_QuD8i4-WizzVGQa_NLM5) |
 | 13 | [Poka-Makod_Jogodanond Ray](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Science/Mathematics/Poka-Makod_Jogodanond%20Ray/README.md) | Jogodanond Ray | TEXT, json | 832.6 KB | [Open Folder](https://drive.google.com/drive/folders/1VxQJhmcWOuwa8sQUrwb51Vo2NvcYrm-L) |
+| 14 | [মানসাঙ্ক (পরিমার্জিত অংশ)](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Science/Mathematics/%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A6%B8%E0%A6%BE%E0%A6%99%E0%A7%8D%E0%A6%95%20%28%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A6%BF%E0%A6%A4%20%E0%A6%85%E0%A6%82%E0%A6%B6%29/README.md) | Various / Unknown | PDF | 1.9 MB | [Open Folder](https://drive.google.com/drive/folders/1-8NNLOsaHkAfHl5huC1PcVWnRnOU6xMa) |

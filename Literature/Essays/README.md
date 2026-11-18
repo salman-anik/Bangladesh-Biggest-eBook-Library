@@ -2,7 +2,7 @@
 
 [⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/README.md) | [📁 Open Folder in Google Drive](https://drive.google.com/drive/folders/1KvJMVH4inZlVKwojJu68hK6LKw_gC-EF)
 
-**Total Books:** 365 | **Total Size:** 1.1 GB
+**Total Books:** 367 | **Total Size:** 1.1 GB
 
 ## 📖 Books (Folder = PDF / EPUB + Text JSON + Cover)
 
@@ -373,3 +373,5 @@
 | 363 | [Toruner Bidroh_Sarat Chandra Chattopadhyay](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Essays/Toruner%20Bidroh_Sarat%20Chandra%20Chattopadhyay/README.md) | Sarat Chandra Chattopadhyay | TEXT | 50.9 KB | [Open Folder](https://drive.google.com/drive/folders/1TcIVJ0in9zBRmgLE0ok42OCIHS9StO49) |
 | 364 | [Ubhoj Bangla_Soijd Mujotoba Ali](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Essays/Ubhoj%20Bangla_Soijd%20Mujotoba%20Ali/README.md) | Soijd Mujotoba Ali | COVER, EPUB, TEXT | 547.1 KB | [Open Folder](https://drive.google.com/drive/folders/16pIrVooUSmNopWXK2SDedP3Ym37paJQ0) |
 | 365 | [Uponishoder Kotha_Sotindromohon Chattopadhyay](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Essays/Uponishoder%20Kotha_Sotindromohon%20Chattopadhyay/README.md) | Sotindromohon Chattopadhyay | COVER, TEXT, json | 409.4 KB | [Open Folder](https://drive.google.com/drive/folders/1FG8566tCnNXTeFU5R6AD0irFyOTp0BL1) |
+| 366 | [আল্লামা আলবানী সম্পর্কে সমালোচনার জবাব](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Essays/%E0%A6%86%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A6%BE%20%E0%A6%86%E0%A6%B2%E0%A6%AC%E0%A6%BE%E0%A6%A8%E0%A7%80%20%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A7%87%20%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%B2%E0%A7%8B%E0%A6%9A%E0%A6%A8%E0%A6%BE%E0%A6%B0%20%E0%A6%9C%E0%A6%AC%E0%A6%BE%E0%A6%AC/README.md) | Various / Unknown | PDF | 1.6 MB | [Open Folder](https://drive.google.com/drive/folders/1EnmNdBzI8Jk_XMM_zLxwn7LNjhhBV1jr) |
+| 367 | [সম্মানিত ইমামগণের সমালোচনার জবাব](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Essays/%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A6%A4%20%E0%A6%87%E0%A6%AE%E0%A6%BE%E0%A6%AE%E0%A6%97%E0%A6%A3%E0%A7%87%E0%A6%B0%20%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%B2%E0%A7%8B%E0%A6%9A%E0%A6%A8%E0%A6%BE%E0%A6%B0%20%E0%A6%9C%E0%A6%AC%E0%A6%BE%E0%A6%AC/README.md) | Various / Unknown | PDF | 1.6 MB | [Open Folder](https://drive.google.com/drive/folders/1RwmKyT72FSIXPgq42ufVJzppMSbrezAR) |

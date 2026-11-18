@@ -1,5 +1,0 @@
-# Picture Books
-
-> **Path**: `pdf/Children and Young Adult/Picture Books` | **Books**: **0**
-
-*No books placed directly in this folder yet. Browse subfolders or see [Master Catalog](../../README.md).*

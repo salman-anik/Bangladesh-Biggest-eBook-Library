@@ -2,7 +2,7 @@
 
 [⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Self Development](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Self%20Development/README.md) | [📁 Open Folder in Google Drive](https://drive.google.com/drive/folders/1ueBcdWpNACrrNCgWPrOBn1hBBw0v-Eev)
 
-**Total Books:** 48 | **Total Size:** 511.0 MB
+**Total Books:** 49 | **Total Size:** 511.5 MB
 
 ## 📖 Books (Folder = PDF / EPUB + Text JSON + Cover)
 
@@ -56,3 +56,4 @@
 | 46 | [Who Moved My Cheese by Spencer Johnson](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Self%20Development/Motivation/Who%20Moved%20My%20Cheese%20by%20Spencer%20Johnson/README.md) | Various / Unknown | PDF | 8.9 MB | [Open Folder](https://drive.google.com/drive/folders/1ognU1Lz2vhTJ1j28ZMLMUAhCcez_Ng40) |
 | 47 | [You Can Win by Shiv Khera](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Self%20Development/Motivation/You%20Can%20Win%20by%20Shiv%20Khera/README.md) | Various / Unknown | PDF | 6.7 MB | [Open Folder](https://drive.google.com/drive/folders/1qladvQ2efYUcpmoP10MYqvhUE1kKA17t) |
 | 48 | [Zero to One by Blake Masters and Peter Thiel](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Self%20Development/Motivation/Zero%20to%20One%20by%20Blake%20Masters%20and%20Peter%20Thiel/README.md) | Various / Unknown | PDF | 32.8 MB | [Open Folder](https://drive.google.com/drive/folders/1k3NyGHOuzO9Lp2jfUa1XWZt06cy4y2ma) |
+| 49 | [দ্য ফাইভ সেকেন্ড রুল - মেল রবিন্স](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Self%20Development/Motivation/%E0%A6%A6%E0%A7%8D%E0%A6%AF%20%E0%A6%AB%E0%A6%BE%E0%A6%87%E0%A6%AD%20%E0%A6%B8%E0%A7%87%E0%A6%95%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%A1%20%E0%A6%B0%E0%A7%81%E0%A6%B2%20-%20%E0%A6%AE%E0%A7%87%E0%A6%B2%20%E0%A6%B0%E0%A6%AC%E0%A6%BF%E0%A6%A8%E0%A7%8D%E0%A6%B8/README.md) | Various / Unknown | MOBI | 473.5 KB | [Open Folder](https://drive.google.com/drive/folders/16o5Dmz1TQ0GcFAuT_x-QtkiJFQ3j5dqm) |

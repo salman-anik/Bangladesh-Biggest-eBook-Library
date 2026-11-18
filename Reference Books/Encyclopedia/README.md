@@ -2,7 +2,7 @@
 
 [⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Reference Books](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Reference%20Books/README.md) | [📁 Open Folder in Google Drive](https://drive.google.com/drive/folders/1N7geJOTwZ1YxFh6WLvE3fPcOst5d5R8U)
 
-**Total Books:** 10 | **Total Size:** 586.2 MB
+**Total Books:** 13 | **Total Size:** 898.5 MB
 
 ## 📖 Books (Folder = PDF / EPUB + Text JSON + Cover)
 
@@ -18,3 +18,6 @@
 | 8 | [Isolami Bishokosh-3](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Reference%20Books/Encyclopedia/Isolami%20Bishokosh-3/README.md) | Various / Unknown | PDF | 49.7 MB | [Open Folder](https://drive.google.com/drive/folders/1lbuk2_976eKkWsPAxLgScGHF2mtptqbz) |
 | 9 | [Isolami Bishokosh-4](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Reference%20Books/Encyclopedia/Isolami%20Bishokosh-4/README.md) | Various / Unknown | PDF | 76.8 MB | [Open Folder](https://drive.google.com/drive/folders/1J2MA7DwMuGk5D-TclSuAb97XUzjqHAk6) |
 | 10 | [Isolami Bishokosh-5](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Reference%20Books/Encyclopedia/Isolami%20Bishokosh-5/README.md) | Various / Unknown | PDF | 67.8 MB | [Open Folder](https://drive.google.com/drive/folders/1oEw87uFGnZ6e0HNZtdAhWfdY3zouHIai) |
+| 11 | [Jubayer's Samprotik Capsule 3 (2026)](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Reference%20Books/Encyclopedia/Jubayer%27s%20Samprotik%20Capsule%203%20%282026%29/README.md) | Jubayer Ahmed & Alim Razi | PDF | 17.3 MB | [Open Folder](https://drive.google.com/drive/folders/1zm7LblYh2RLKp7jUB1J-rHvRkOcRqyYV) |
+| 12 | [Medico General Knowledge International Affairs Book](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Reference%20Books/Encyclopedia/Medico%20General%20Knowledge%20International%20Affairs%20Book/README.md) | Medico Academic and Admission Care | PDF | 166.2 MB | [Open Folder](https://drive.google.com/drive/folders/1xHD4XbomUuPjHS774TG0yrUoX0qdRdhQ) |
+| 13 | [Medico Zoology Companion Book](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Reference%20Books/Encyclopedia/Medico%20Zoology%20Companion%20Book/README.md) | Medico Academic & Admission Care | PDF | 128.8 MB | [Open Folder](https://drive.google.com/drive/folders/1ioNrIQzgiRd5US7lDUn7mU3bPgUbO3RE) |

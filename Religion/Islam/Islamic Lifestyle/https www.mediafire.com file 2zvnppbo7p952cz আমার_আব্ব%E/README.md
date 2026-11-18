@@ -1,0 +1,26 @@
+# 📖 https www.mediafire.com file 2zvnppbo7p952cz আমার_আব্ব%E
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Religion](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/README.md) / [Islamic Lifestyle](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/Islam/Islamic%20Lifestyle/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1kvth3xXIi-ApDYS2YjYQ5jwGNrnpbWah)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1kvth3xXIi-ApDYS2YjYQ5jwGNrnpbWah) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/19puP-H3afx-_82XLEN_GDDr1Cc4aHsj8/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | https www.mediafire.com file 2zvnppbo7p952cz আমার_আব্ব%E |
+| **Author** | Various / Unknown |
+| **Publication / Source** | https://justpaste.it/collectionislamicbd |
+| **Category** | Religion/Islam/Islamic Lifestyle |
+| **Subfolder** | — |
+| **Formats** | PDF |
+| **Total Size** | 7.1 KB |
+
+### 📂 Files Inside Folder
+
+- [https www.mediafire.com file 2zvnppbo7p952cz আমার_আব্ব%E.pdf](https://drive.google.com/file/d/19puP-H3afx-_82XLEN_GDDr1Cc4aHsj8/view) (7.1 KB)

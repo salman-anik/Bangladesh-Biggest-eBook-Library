@@ -1,0 +1,26 @@
+# 📖 https www.mediafire.com file h07d9ge2dmdc65u বড়দের_স্ম%E
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Religion](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/README.md) / [Islamic Lifestyle](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/Islam/Islamic%20Lifestyle/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1kflfaBsw8rFpkWB4YR2sQGv4ZQsdk53p)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1kflfaBsw8rFpkWB4YR2sQGv4ZQsdk53p) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/1y1elOCawfdDaVC9vm3vdfuRuUQielQTS/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | https www.mediafire.com file h07d9ge2dmdc65u বড়দের_স্ম%E |
+| **Author** | Various / Unknown |
+| **Publication / Source** | https://justpaste.it/collectionislamicbd |
+| **Category** | Religion/Islam/Islamic Lifestyle |
+| **Subfolder** | — |
+| **Formats** | PDF |
+| **Total Size** | 6.8 KB |
+
+### 📂 Files Inside Folder
+
+- [https www.mediafire.com file h07d9ge2dmdc65u বড়দের_স্ম%E.pdf](https://drive.google.com/file/d/1y1elOCawfdDaVC9vm3vdfuRuUQielQTS/view) (6.8 KB)

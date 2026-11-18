@@ -1,0 +1,26 @@
+# 📖 https www.mediafire.com file z2c4rqp7192l2fa ভয়ংকর_ষড়য%E
+
+[⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Religion](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/README.md) / [Islamic Lifestyle](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Religion/Islam/Islamic%20Lifestyle/README.md) | [📁 Open Book Folder in Google Drive](https://drive.google.com/drive/folders/1RzxhtlRLyqOd7fSGNWJ6-5uXEEdgjnew)
+
+## 📦 Available Files & Links
+
+| Resource | Link |
+|---|---|
+| 📁 **Book Folder (All Files)** | [Open Folder in Drive](https://drive.google.com/drive/folders/1RzxhtlRLyqOd7fSGNWJ6-5uXEEdgjnew) |
+| 📕 **PDF eBook** | [Open PDF in Drive](https://drive.google.com/file/d/1XMnLBJmqyTgV0gUqlZV6tV_wKWX4-wCP/view) |
+
+## ℹ️ Metadata
+
+| Field | Value |
+|---|---|
+| **Title** | https www.mediafire.com file z2c4rqp7192l2fa ভয়ংকর_ষড়য%E |
+| **Author** | Various / Unknown |
+| **Publication / Source** | https://justpaste.it/collectionislamicbd |
+| **Category** | Religion/Islam/Islamic Lifestyle |
+| **Subfolder** | — |
+| **Formats** | PDF |
+| **Total Size** | 6.8 KB |
+
+### 📂 Files Inside Folder
+
+- [https www.mediafire.com file z2c4rqp7192l2fa ভয়ংকর_ষড়য%E.pdf](https://drive.google.com/file/d/1XMnLBJmqyTgV0gUqlZV6tV_wKWX4-wCP/view) (6.8 KB)

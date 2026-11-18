@@ -2,7 +2,7 @@
 
 [⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [Literature](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/README.md) | [📁 Open Folder in Google Drive](https://drive.google.com/drive/folders/1CqU78qEmuy9C6q5woDnL7vt_7NN5nkOP)
 
-**Total Books:** 49 | **Total Size:** 406.0 MB
+**Total Books:** 50 | **Total Size:** 406.3 MB
 
 ## 📖 Books (Folder = PDF / EPUB + Text JSON + Cover)
 
@@ -57,3 +57,4 @@
 | 47 | [Shyama_Rabindranath Tagore](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Drama/Shyama_Rabindranath%20Tagore/README.md) | Rabindranath Tagore | TEXT, json | 51.8 KB | [Open Folder](https://drive.google.com/drive/folders/1qjrRqkZ3ddNYdD3cGbZo8s_BBqf5nJ7x) |
 | 48 | [Swopnobasobodotta - Bhas_Bhas, Murarimohon Sen](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Drama/Swopnobasobodotta%20-%20Bhas_Bhas%2C%20Murarimohon%20Sen/README.md) | Bhas, Murarimohon Sen | COVER, TEXT, json | 467.7 KB | [Open Folder](https://drive.google.com/drive/folders/1LDTYnCebN2j9eeAHSdTephIhQUKF_p_A) |
 | 49 | [Thana Theke Asochhi_Ojit Gangopadhyay](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Drama/Thana%20Theke%20Asochhi_Ojit%20Gangopadhyay/README.md) | Ojit Gangopadhyay | COVER, TEXT, json | 346.8 KB | [Open Folder](https://drive.google.com/drive/folders/12aBZv0QJkqjZVSVkxLruKHdZpLWHtKyh) |
+| 50 | [পাগলা সাহেবের কবর - শীর্ষেন্দু মুখোপাধ্যায় (1987)](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Literature/Drama/%E0%A6%AA%E0%A6%BE%E0%A6%97%E0%A6%B2%E0%A6%BE%20%E0%A6%B8%E0%A6%BE%E0%A6%B9%E0%A7%87%E0%A6%AC%E0%A7%87%E0%A6%B0%20%E0%A6%95%E0%A6%AC%E0%A6%B0%20-%20%E0%A6%B6%E0%A7%80%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%81%20%E0%A6%AE%E0%A7%81%E0%A6%96%E0%A7%8B%E0%A6%AA%E0%A6%BE%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A7%9F%20%281987%29/README.md) | Various / Unknown | MOBI | 307.9 KB | [Open Folder](https://drive.google.com/drive/folders/1l7Y3WTQZr4FveCeC61m1wNko4QFqzi6E) |

@@ -2,7 +2,7 @@
 
 [⬅️ Back to Home](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/README.md) / [History](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/History/README.md) | [📁 Open Folder in Google Drive](https://drive.google.com/drive/folders/1ZL1OLj0vp5vBAh3RvERcnPfjrFX3x_hF)
 
-**Total Books:** 85 | **Total Size:** 1.0 GB
+**Total Books:** 86 | **Total Size:** 1.0 GB
 
 ## 📖 Books (Folder = PDF / EPUB + Text JSON + Cover)
 
@@ -93,3 +93,4 @@
 | 83 | [Teilla Chora_Obajed Hok](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/History/Liberation%20War/Teilla%20Chora_Obajed%20Hok/README.md) | Obajed Hok | COVER, EPUB, TEXT, json | 899.5 KB | [Open Folder](https://drive.google.com/drive/folders/1t3bFgD70fQ0XvjMGVzolMGf8XNR3tKKY) |
 | 84 | [war criminal-1971](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/History/Liberation%20War/war%20criminal-1971/README.md) | Various / Unknown | DOC | 334.0 KB | [Open Folder](https://drive.google.com/drive/folders/1U8v9OnSR-aS-qyNxKdcTaZiPpHnLBp7G) |
 | 85 | [war criminal-1971](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/History/Liberation%20War/war%20criminal-1971/README.md) | Various / Unknown | PDF | 323.3 KB | [Open Folder](https://drive.google.com/drive/folders/1igzgWfNQaeums6TCL1DjG_fkDwVymAKj) |
+| 86 | [ধর্মনিরপেক্ষতাবাদী+ও+মুক্তিযুদ্ধের+স্বত্বলোভীদের+প্রতি+খোলা+চিঠি+–+হারুনুর+](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/History/Liberation%20War/%E0%A6%A7%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%AA%E0%A7%87%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%A4%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A7%80%2B%E0%A6%93%2B%E0%A6%AE%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%AF%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A7%87%E0%A6%B0%2B%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%B2%E0%A7%8B%E0%A6%AD%E0%A7%80%E0%A6%A6%E0%A7%87%E0%A6%B0%2B%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%2B%E0%A6%96%E0%A7%8B%E0%A6%B2%E0%A6%BE%2B%E0%A6%9A%E0%A6%BF%E0%A6%A0%E0%A6%BF%2B%E2%80%93%2B%E0%A6%B9%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%A8%E0%A7%81%E0%A6%B0%2B/README.md) | Various / Unknown | PDF | 337.4 KB | [Open Folder](https://drive.google.com/drive/folders/1matpXkFAjC5vX5cN_qaZIUoCMVXUIaEQ) |
