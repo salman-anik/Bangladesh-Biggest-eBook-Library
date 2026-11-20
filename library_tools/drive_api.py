@@ -116,6 +116,11 @@ def download_range(file_id: str, start: int = 0, end: int | None = None) -> byte
                    raw=True, headers={"Range": rng})
 
 
+def download_full(file_id: str) -> bytes:
+    return request("GET", f"/files/{file_id}", {"alt": "media", "supportsAllDrives": "true"},
+                   raw=True)
+
+
 # ---- mutations (only used by apply-mode tools, never by the audit) ----
 
 def rename(file_id: str, new_name: str) -> dict:

@@ -2,6 +2,11 @@ name: "Library Audit (read-only)"
 
 on:
   workflow_dispatch:
+    inputs:
+      extract_metadata:
+        description: "Also validate every eBook and extract embedded metadata"
+        type: boolean
+        default: true
 
 permissions:
   contents: read
@@ -13,11 +18,13 @@ concurrency:
 jobs:
   audit:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 240
     steps:
       - uses: actions/checkout@v4
         with:
-          sparse-checkout: library_tools
+          sparse-checkout: |
+            library_tools
+            data
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -30,4 +37,19 @@ jobs:
         with:
           name: library-audit
           path: out/audit
+          retention-days: 30
+      - name: Validate files + extract embedded metadata (read-only)
+        if: ${{ inputs.extract_metadata }}
+        env:
+          GDRIVE_OAUTH_JSON: ${{ secrets.GDRIVE_OAUTH_JSON }}
+          AUDIT_OUT: out/audit
+          META_OUT: out/meta
+          REPO_DATA: data
+          WORKERS: "16"
+        run: python library_tools/extract_metadata.py
+      - uses: actions/upload-artifact@v4
+        if: ${{ always() && inputs.extract_metadata }}
+        with:
+          name: library-metadata
+          path: out/meta
           retention-days: 30
