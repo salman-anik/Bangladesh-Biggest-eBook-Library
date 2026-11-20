@@ -1,6 +1,6 @@
 # 📚 Bangladesh's Biggest eBook Library
 
-[🌐 Browse Searchable Web Explorer](https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/) | [📁 Open Google Drive Root](https://drive.google.com/drive/folders/1fMsplDtUnpUhnNBJGKvYQ1sdZx0QVJWq) | [✍️ Authors (2,587)](AUTHORS.md) | [🏢 Publications (247)](PUBLICATIONS.md)
+[🌐 Browse Searchable Web Explorer](https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/) | [📊 Google Sheets Master Catalog](https://docs.google.com/spreadsheets/d/14w-o89nRvdYYOINV2mtEZBZbNRh0P1TDZZ_84arSG-k/edit) | [📖 00 - START HERE Document](https://docs.google.com/document/d/1dEMPkGWXWvx3vSHu708KTfpKwS7IG0Ar_ffKtA4-QDM/edit) | [📁 Open Google Drive Root](https://drive.google.com/drive/folders/1fMsplDtUnpUhnNBJGKvYQ1sdZx0QVJWq) | [✍️ Authors (2,587)](AUTHORS.md) | [🏢 Publications (247)](PUBLICATIONS.md)
 
 **21,255 Unified Book Folders** organized cleanly across **25 Categories & 256 Subcategories** (**154.0 GB** total).
 
@@ -33,3 +33,48 @@ Every book resides in its own dedicated `<Category>/<Subcategory>/<Clean Book Na
 | 21 | [Self Development](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Self%20Development/README.md) | 49 | 511.5 MB | [Open Folder](https://drive.google.com/drive/folders/1xoYIf59ePzYhxZJ6Y0A2z0PME3zEF-qH) |
 | 22 | [Social Science](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Social%20Science/README.md) | 77 | 1.3 GB | [Open Folder](https://drive.google.com/drive/folders/1QcXnMRm9gIqiXr5n8sXRaQKxw-9Y_2Cy) |
 | 23 | [Travel and Geography](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/blob/main/Travel%20and%20Geography/README.md) | 1 | 201.3 KB | [Open Folder](https://drive.google.com/drive/folders/1NTW8yvtPXEUL_xsBIOc78S-ZFu4L0DhS) |
+
+
+---
+
+## 🛠️ Intelligent Library Manager & Automation CLI
+
+The repository includes a production-grade automation engine in `src/` controlled via `main.py`:
+
+```bash
+# 1. Recursive Drive inventory scanning
+python main.py scan
+
+# 2. Intelligent bibliographic metadata extraction & classification
+python main.py extract
+
+# 3. Multi-stage duplicate detection (exact, metadata, fuzzy)
+python main.py duplicates
+
+# 4. Searchable inverted index generation
+python main.py index
+
+# 5. Non-destructive reorganization mapping
+python main.py plan
+
+# 6. Google Sheets 8-worksheet Master Catalog generation & upload
+python main.py catalog
+
+# 7. '00 - START HERE' bilingual Google Doc generation & upload
+python main.py doc
+
+# 8. Automated 15-point QA verification
+python main.py verify
+
+# 9. Full end-to-end synchronization pipeline
+python main.py sync
+```
+
+### ⚡ GitHub Actions Automation
+
+Continuous synchronization and quality verification runs automatically via `.github/workflows/sync-and-organize-library.yml`. The action:
+- Scans inventory and verifies links
+- Refreshes metadata and search index
+- Runs regression tests
+- Builds the Next.js visualizer explorer
+- Pushes updated catalogs and verification reports directly to GitHub
