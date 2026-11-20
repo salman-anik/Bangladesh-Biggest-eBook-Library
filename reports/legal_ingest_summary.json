@@ -1,0 +1,23 @@
+{
+  "candidates_checked": 531,
+  "uploaded_count": 233,
+  "uploaded_bytes": 10750623827,
+  "skipped": {
+    "duplicate_md5": 160,
+    "already_in_live_titles": 1
+  },
+  "failed_count": 137,
+  "by_source_uploaded": {
+    "Bengali Wikisource": 96,
+    "NCTB / nctbbook.bd (eGovCloud)": 1,
+    "OpenStax (Rice University)": 110,
+    "Internet Archive (Bangla Historical PD)": 2,
+    "Internet Archive (Open CS/Math Textbooks)": 1,
+    "English Wikisource": 23
+  },
+  "by_language_uploaded": {
+    "Bangla": 99,
+    "English": 134
+  },
+  "elapsed_sec": 3748
+}
