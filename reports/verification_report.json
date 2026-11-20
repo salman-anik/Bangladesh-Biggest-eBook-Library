@@ -1,99 +1,77 @@
 {
-  "timestamp": "2026-11-20T07:26:16.376177+00:00",
-  "total_checks": 15,
-  "passed_checks": 15,
-  "failed_checks": 0,
-  "overall_status": "PASSED",
-  "checks": [
-    {
-      "check_id": 1,
-      "name": "Inventory Completeness",
-      "passed": true,
-      "details": "Discovered 25,908 verified file IDs in recursive Drive inventory."
+  "verified_at": "2026-11-20T19:51:20Z",
+  "qc_passed": true,
+  "live_catalog_books": 12060,
+  "live_catalog_bytes": 175681747188,
+  "live_catalog_gb": 175.68,
+  "unique_named_authors": 2994,
+  "categories_active": 53,
+  "series_active": 26,
+  "languages": {
+    "English": 3493,
+    "Bangla": 8533,
+    "Arabic": 33,
+    "Other": 1
+  },
+  "new_legal_books_uploaded": 233,
+  "new_legal_missing_rights": 0,
+  "quarantined": {
+    "Broken_HTML_Redirects": 4391,
+    "Corrupted_or_Empty": 47,
+    "Exact_Duplicates_Quarantine": 1906
+  },
+  "missing_books_count": 0,
+  "missing_book_ids": [],
+  "wrong_path_books_count": 0,
+  "total_shortcuts": 4289,
+  "broken_shortcuts_count": 0,
+  "quoted_active_folders_count": 0,
+  "active_duplicate_md5_groups": 0,
+  "manual_review_count": 4860,
+  "nctb_class_distribution": {
+    "03_Education_and_Textbooks/Admission": 87,
+    "03_Education_and_Textbooks/HSC_Class_11-12": 19,
+    "03_Education_and_Textbooks/Madrasa/Class_04": 1,
+    "03_Education_and_Textbooks/Madrasa/Dakhil": 178,
+    "03_Education_and_Textbooks/Madrasa/General": 5,
+    "03_Education_and_Textbooks/Madrasa/Ibtedayi": 108,
+    "03_Education_and_Textbooks/School/Class_01": 13,
+    "03_Education_and_Textbooks/School/Class_02": 14,
+    "03_Education_and_Textbooks/School/Class_03": 48,
+    "03_Education_and_Textbooks/School/Class_04": 48,
+    "03_Education_and_Textbooks/School/Class_05": 64,
+    "03_Education_and_Textbooks/School/Class_06": 135,
+    "03_Education_and_Textbooks/School/Class_07": 130,
+    "03_Education_and_Textbooks/School/Class_08": 129,
+    "03_Education_and_Textbooks/School/Class_09": 182,
+    "03_Education_and_Textbooks/School/Class_10": 232,
+    "03_Education_and_Textbooks/School/Other_School": 6,
+    "03_Education_and_Textbooks/School/Pre_Primary": 39
+  },
+  "top_folder_stats": {
+    "01_Bangla_Books": {
+      "count": 4627,
+      "gb": 46.35
     },
-    {
-      "check_id": 2,
-      "name": "Unique Book IDs",
-      "passed": true,
-      "details": "21,255 unique IDs generated with zero collisions."
+    "02_English_Books": {
+      "count": 1194,
+      "gb": 28.8
     },
-    {
-      "check_id": 3,
-      "name": "Drive File ID Validation",
-      "passed": true,
-      "details": "21,255 of 21,255 records possess valid Drive File IDs."
+    "03_Education_and_Textbooks": {
+      "count": 1438,
+      "gb": 62.48
     },
-    {
-      "check_id": 4,
-      "name": "Drive URL Integrity",
-      "passed": true,
-      "details": "All direct Drive links are strictly constructed from verified file IDs."
+    "04_Islamic_Books": {
+      "count": 4231,
+      "gb": 32.83
     },
-    {
-      "check_id": 5,
-      "name": "Zero File Deletion",
-      "passed": true,
-      "details": "Strict non-destructive mode enforced; zero deletion operations executed."
+    "07_Reference_and_Research": {
+      "count": 325,
+      "gb": 3.66
     },
-    {
-      "check_id": 6,
-      "name": "Zero File Overwriting",
-      "passed": true,
-      "details": "No in-place Drive mutations executed; original documents remain untouched."
-    },
-    {
-      "check_id": 7,
-      "name": "Safe Duplicate Handling",
-      "passed": true,
-      "details": "19,189 duplicate candidates flagged for human review without automated deletion."
-    },
-    {
-      "check_id": 8,
-      "name": "Valid Processing Status",
-      "passed": true,
-      "details": "All catalog records assigned standardized review and processing statuses."
-    },
-    {
-      "check_id": 9,
-      "name": "Explicit Unknown Metadata",
-      "passed": true,
-      "details": "Missing authors, years, or ISBNs are explicitly labeled as 'Unknown' with adjusted confidence scores."
-    },
-    {
-      "check_id": 10,
-      "name": "Bangla Text Preservation",
-      "passed": true,
-      "details": "Unicode normalization verified; 6,248 Bangla titles and authors preserved."
-    },
-    {
-      "check_id": 11,
-      "name": "Search Relevance & Speed",
-      "passed": true,
-      "details": "Inverted search index contains 29,367 searchable tokens."
-    },
-    {
-      "check_id": 12,
-      "name": "Facet Filtering",
-      "passed": true,
-      "details": "Facets confirmed across 23 subjects, 3 languages, and 146 publication years."
-    },
-    {
-      "check_id": 13,
-      "name": "Master Catalog Generation",
-      "passed": true,
-      "details": "8-worksheet Excel catalog created; uploaded to Drive: https://docs.google.com/spreadsheets/d/14w-o89nRvdYYOINV2mtEZBZbNRh0P1TDZZ_84arSG-k/edit."
-    },
-    {
-      "check_id": 14,
-      "name": "START HERE Documentation",
-      "passed": true,
-      "details": "Bilingual onboarding guide created; uploaded to Drive: https://docs.google.com/document/d/1dEMPkGWXWvx3vSHu708KTfpKwS7IG0Ar_ffKtA4-QDM/edit."
-    },
-    {
-      "check_id": 15,
-      "name": "Security & Permission Audit",
-      "passed": true,
-      "details": "Preserved original Drive sharing permissions; no private files made public."
+    "08_Review_and_Unclassified": {
+      "count": 245,
+      "gb": 1.56
     }
-  ]
+  }
 }
