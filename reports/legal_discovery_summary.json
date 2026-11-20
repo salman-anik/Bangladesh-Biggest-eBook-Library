@@ -1,0 +1,36 @@
+{
+  "total_discovered": 602,
+  "already_in_library": 189,
+  "new_candidates_ready_for_approval": 413,
+  "by_source_total": {
+    "Bengali Wikisource": 188,
+    "NCTB / nctbbook.bd (eGovCloud)": 255,
+    "OpenStax (Rice University)": 113,
+    "Internet Archive (Bangla Historical PD)": 17,
+    "Internet Archive (Open CS/Math Textbooks)": 4,
+    "English Wikisource": 25
+  },
+  "by_source_new": {
+    "Bengali Wikisource": 96,
+    "NCTB / nctbbook.bd (eGovCloud)": 161,
+    "OpenStax (Rice University)": 110,
+    "Internet Archive (Bangla Historical PD)": 17,
+    "Internet Archive (Open CS/Math Textbooks)": 4,
+    "English Wikisource": 25
+  },
+  "by_language_new": {
+    "Bangla": 263,
+    "English": 150
+  },
+  "by_category_new": {
+    "01_Bangla_Books": 113,
+    "03_Education_and_Textbooks": 161,
+    "02_English_Books": 139
+  },
+  "by_copyright_new": {
+    "Public Domain": 134,
+    "Official Free Textbook": 161,
+    "Open Access (Creative Commons)": 118
+  },
+  "filtered_unverified_ia": 137
+}

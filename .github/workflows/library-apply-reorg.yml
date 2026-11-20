@@ -1,0 +1,76 @@
+name: "Library Apply Reorganization (Google Drive)"
+
+on:
+  workflow_dispatch:
+    inputs:
+      phase:
+        description: "Execution phase (all, folders, ebooks, quarantine, assets, shortcuts, trash_empty_legacy)"
+        required: false
+        default: "all"
+      workers:
+        description: "Concurrent Drive API workers"
+        required: false
+        default: "10"
+      max_minutes:
+        description: "Max runtime before graceful checkpoint & auto-chain"
+        required: false
+        default: "290"
+      auto_continue:
+        description: "Automatically trigger follow-up run if REMAINING > 0"
+        type: boolean
+        required: false
+        default: true
+
+permissions:
+  contents: read
+  actions: write
+
+concurrency:
+  group: library-drive-write
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            library_tools
+            reports
+            scripts
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run multi-threaded Drive reorganization
+        id: run_apply
+        env:
+          GDRIVE_OAUTH_JSON: ${{ secrets.GDRIVE_OAUTH_JSON }}
+        run: |
+          python -u library_tools/apply_drive_reorg.py \
+            --plan reports/dry_run_plan.json.gz \
+            --phase "${{ inputs.phase || 'all' }}" \
+            --workers "${{ inputs.workers || '10' }}" \
+            --max-minutes "${{ inputs.max_minutes || '290' }}" \
+            --out-dir out/apply | tee apply.log
+          REM=$(grep -oE 'REMAINING=[0-9]+' apply.log | tail -n1 | cut -d= -f2 || echo "0")
+          echo "remaining=${REM:-0}" >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: library-apply-${{ github.run_number }}
+          path: out/apply
+          retention-days: 30
+      - name: Auto-chain resume if operations remain
+        if: ${{ success() && inputs.auto_continue && steps.run_apply.outputs.remaining != '0' && steps.run_apply.outputs.remaining != '' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          echo "Remaining ops: ${{ steps.run_apply.outputs.remaining }} — dispatching continuation run"
+          gh workflow run library-apply-reorg.yml \
+            -R "${{ github.repository }}" \
+            -f phase="${{ inputs.phase || 'all' }}" \
+            -f workers="${{ inputs.workers || '10' }}" \
+            -f max_minutes="${{ inputs.max_minutes || '290' }}" \
+            -f auto_continue=true

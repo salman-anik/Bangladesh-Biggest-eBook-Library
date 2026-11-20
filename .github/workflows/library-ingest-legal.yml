@@ -1,0 +1,80 @@
+name: "Library Legal eBook Expansion (Download & Import)"
+
+on:
+  workflow_dispatch:
+    inputs:
+      workers:
+        description: "Concurrent download/upload workers"
+        required: false
+        default: "8"
+      include_gutenberg:
+        description: "Also fetch top public-domain Project Gutenberg EPUBs from runner"
+        type: boolean
+        required: false
+        default: true
+      max_minutes:
+        description: "Max runtime minutes"
+        required: false
+        default: "240"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: library-drive-write
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Download, validate, deduplicate, and upload legal eBooks to Drive
+        env:
+          GDRIVE_OAUTH_JSON: ${{ secrets.GDRIVE_OAUTH_JSON }}
+        run: |
+          ARGS="--candidates reports/legal_discovery_candidates.csv --workers ${{ inputs.workers || '8' }} --max-minutes ${{ inputs.max_minutes || '240' }} --out-dir out/legal_ingest"
+          if [ "${{ inputs.include_gutenberg }}" = "true" ]; then
+            ARGS="$ARGS --include-gutenberg"
+          fi
+          python -u library_tools/ingest_legal_ebooks.py $ARGS
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: library-legal-ingest-${{ github.run_number }}
+          path: out/legal_ingest
+          retention-days: 30
+      - name: Save provenance logs to reports/ and push
+        if: always()
+        run: |
+          mkdir -p reports
+          if [ -f out/legal_ingest/ingested_books.jsonl ]; then
+            python -c '
+import json
+from pathlib import Path
+seen = {}
+for p in [Path("reports/ingested_legal_books.jsonl"), Path("out/legal_ingest/ingested_books.jsonl")]:
+    if p.exists():
+        for line in p.read_text(encoding="utf-8").splitlines():
+            if line.strip():
+                r = json.loads(line)
+                seen[r["drive_file_id"]] = r
+with open("reports/ingested_legal_books.jsonl", "w", encoding="utf-8") as fh:
+    for r in seen.values():
+        fh.write(json.dumps(r, ensure_ascii=False) + "\n")
+'
+          fi
+          [ -f out/legal_ingest/failed_downloads.csv ] && cp out/legal_ingest/failed_downloads.csv reports/failed_legal_downloads.csv || true
+          [ -f out/legal_ingest/legal_ingest_summary.json ] && cp out/legal_ingest/legal_ingest_summary.json reports/legal_ingest_summary.json || true
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add reports/ingested_legal_books.jsonl reports/failed_legal_downloads.csv reports/legal_ingest_summary.json 2>/dev/null || true
+          if ! git diff --staged --quiet; then
+            git commit -m "chore(ingest): record legally imported eBooks and provenance"
+            git pull --rebase origin main || true
+            git push
+          fi

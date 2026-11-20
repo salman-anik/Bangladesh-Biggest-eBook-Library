@@ -2,8 +2,9 @@ name: Rebuild Library Catalog & Explorer
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 0 * * 0"
+  # Legacy weekly cron replaced by library-verify-sync.yml
+  # schedule:
+  #   - cron: "0 0 * * 0"
 
 permissions:
   contents: write

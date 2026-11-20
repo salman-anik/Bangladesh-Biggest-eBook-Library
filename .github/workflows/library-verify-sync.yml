@@ -1,0 +1,53 @@
+name: "Library Verify & Sync Catalog (Drive + GitHub)"
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 2 * * 0"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: library-verify-sync
+  cancel-in-progress: false
+
+jobs:
+  verify_sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run full live Drive verification + build Master Catalog & indexes + upload to Drive
+        env:
+          GDRIVE_OAUTH_JSON: ${{ secrets.GDRIVE_OAUTH_JSON }}
+        run: |
+          python -u library_tools/verify_and_sync_catalog.py \
+            --plan reports/dry_run_plan.json.gz \
+            --ingested reports/ingested_legal_books.jsonl \
+            --repo-dir . \
+            --upload-to-drive
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: library-verification
+          path: |
+            reports/verification_report.json
+            reports/verification_report.md
+            reports/manual_review_report.csv
+          retention-days: 30
+      - name: Commit and push updated catalog, indexes, reports, and README
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md catalog/ reports/
+          if git diff --staged --quiet; then
+            echo "Catalog already up to date."
+          else
+            git commit -m "chore(catalog): verify live Drive library and sync GitHub catalog & indexes"
+            git pull --rebase origin main || true
+            git push
+          fi
