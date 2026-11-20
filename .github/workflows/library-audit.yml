@@ -1,0 +1,33 @@
+name: "Library Audit (read-only)"
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: library-audit
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: library_tools
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Full read-only Drive audit
+        env:
+          GDRIVE_OAUTH_JSON: ${{ secrets.GDRIVE_OAUTH_JSON }}
+          AUDIT_OUT: out/audit
+        run: python library_tools/audit_drive.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: library-audit
+          path: out/audit
+          retention-days: 30
