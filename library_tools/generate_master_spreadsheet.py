@@ -8,6 +8,7 @@ import csv
 import json
 import os
 import re
+import unicodedata
 from pathlib import Path
 from collections import defaultdict, Counter
 
@@ -31,8 +32,8 @@ def format_size_mb(num_bytes):
 def main():
     repo_dir = Path(r'C:\Users\USER\.gemini\antigravity\scratch\Bangladesh-Biggest-eBook-Library')
     catalog_path = repo_dir / 'catalog' / 'master_catalog.json'
-    drive_map_path = Path(r'C:\Users\USER\.gemini\antigravity\brain\fc64da93-615a-4dd3-b630-983a9609f78a\scratch\drive_folders_map.json')
-    author_map_path = Path(r'C:\Users\USER\.gemini\antigravity\brain\fc64da93-615a-4dd3-b630-983a9609f78a\scratch\live_author_folders_map.json')
+    drive_map_path = Path(r'C:\Users\USER\.gemini\antigravity\brain\59b32550-005f-4ecb-a6cd-d10a6f15189e\scratch\drive_folders_map.json')
+    author_map_path = Path(r'C:\Users\USER\.gemini\antigravity\brain\59b32550-005f-4ecb-a6cd-d10a6f15189e\scratch\live_author_folders_map.json')
 
     xlsx_output_path = repo_dir / 'catalog' / 'Bangladesh_eBook_Library_Master_Navigator.xlsx'
     csv_output_path = repo_dir / 'catalog' / 'Bangladesh_eBook_Library_Master_Navigator.csv'
@@ -117,7 +118,7 @@ def main():
         
         if cat == '08_Review_and_Unclassified':
             placement_status = "⚠️ Unclassified / Review Required"
-            placement_action = "Move to 01_Bangla, 02_English, or 04_Islamic once verified."
+            placement_action = "Move to 01_Bangla, 02_English, or 04_Religion_Books once verified."
         elif norm_cur.startswith(norm_target):
             placement_status = "✅ Correctly Placed in Folder"
             placement_action = "Already organized in designated target folder."
@@ -162,6 +163,13 @@ def main():
             'drive_file_id': file_id,
             'source_url': clean_str(b.get('source_url', '')),
         })
+
+    # Arrange all books ascending by book name (title)
+    enhanced_books.sort(key=lambda x: (
+        unicodedata.normalize("NFC", str(x['title'])).strip().casefold(),
+        unicodedata.normalize("NFC", str(x['author'])).strip().casefold(),
+        str(x['drive_file_id'])
+    ))
 
     print("Generating CSV export...")
     # Write CSV version (universal UTF-8 with BOM)
@@ -229,7 +237,7 @@ def main():
     ws_dash.row_dimensions[1].height = 35
 
     ws_dash.merge_cells("A2:H2")
-    ws_dash["A2"] = "Complete catalog of 12,060 eBooks with direct Google Drive links, folder placement guidelines, and navigation indexes."
+    ws_dash["A2"] = f"Complete catalog of {len(catalog):,} eBooks (sorted ascending by title) with direct Google Drive links, folder placement guidelines, and navigation indexes."
     ws_dash["A2"].font = Font(name=font_family, size=10, italic=True, color="595959")
     ws_dash.row_dimensions[2].height = 20
 
@@ -278,12 +286,12 @@ def main():
     category_info = [
         ("01_Bangla_Books", "বাংলা সাহিত্য, উপন্যাস, গল্প, কবিতা, প্রবন্ধ, ইতিহাস, নাটক", category_counts["01_Bangla_Books"], "PDF, EPUB", 15),
         ("02_English_Books", "English Classic & Modern Literature, Fiction, Science, Non-Fiction", category_counts["02_English_Books"], "PDF, EPUB, MOBI", 8),
-        ("03_Education_and_Textbooks", "NCTB School Textbooks (Class 1-10), HSC, Admission, Madrasa", category_counts["03_Education_and_Textbooks"], "PDF", 8),
-        ("04_Islamic_Books", "কুরআন, তাফসির, হাদিস, ফিকহ, সীরাত, আকিদা, ইসলামিক সাহিত্য", category_counts["04_Islamic_Books"], "PDF, EPUB", 8),
-        ("05_Authors_and_Scholars", "লেখক কেন্দ্রিক ফোল্ডার (বাংলা বর্ণমালা ও A-Z Index) — 1 Author = 1 Folder", 0, "Shortcuts", 245),
-        ("06_Series_and_Collections", "জনপ্রিয় সিরিজ (হিমু, মিসির আলি, ফেলুদা, বোমকেশ, মাসুদ রানা)", 0, "Shortcuts", 18),
+        ("03_Education_and_Textbooks", "NCTB School Textbooks (Class 1-10), HSC, Admission, Madrasa, BCS", category_counts["03_Education_and_Textbooks"], "PDF", 8),
+        ("04_Religion_Books", "ইসলামিক, হিন্দু, বৌদ্ধ, খ্রিস্টান ও তুলনামূলক ধর্মগ্রন্থ (Islamic/Hindu/Buddhist/Christian)", category_counts["04_Religion_Books"], "PDF, EPUB", len(folders_map.get("04_Religion_Books", {}).get("subfolders", {}))),
+        ("05_Authors_and_Scholars", "লেখক কেন্দ্রিক ফোল্ডার (বাংলা বর্ণমালা ও A-Z Index) — 1 Author = 1 Folder", category_counts["05_Authors_and_Scholars"], "PDF, EPUB, Shortcuts", len(author_map)),
+        ("06_Series_and_Collections", "জনপ্রিয় সিরিজ (হিমু, মিসির আলি, ফেলুদা, ব্যোমকেশ, মাসুদ রানা)", category_counts["06_Series_and_Collections"], "PDF, EPUB, Shortcuts", len(folders_map.get("06_Series_and_Collections", {}).get("subfolders", {}))),
         ("07_Reference_and_Research", "Dictionaries, Encyclopedias, Research Papers, Journals", category_counts["07_Reference_and_Research"], "PDF", 5),
-        ("08_Review_and_Unclassified", "Manual Review, Quarantine, Duplicates, Uncertain Authors", category_counts["08_Review_and_Unclassified"], "All Formats", 6),
+        ("08_Review_and_Unclassified", "Manual Review, Quarantine, Duplicates, Uncertain Authors", category_counts["08_Review_and_Unclassified"], "All Formats", len(folders_map.get("08_Review_and_Unclassified", {}).get("subfolders", {}))),
     ]
 
     for idx, (cat_id, desc, b_count, f_types, subs) in enumerate(category_info, start=9):
@@ -317,8 +325,9 @@ def main():
     ws_dash.cell(row=instr_row, column=1, value="📖 How to Use This Spreadsheet to Put Books into Folders").font = Font(name=font_family, size=12, bold=True, color="1F4E79")
     ws_dash.row_dimensions[instr_row].height = 25
 
+    all_sheet_title = f"📚 All Books ({len(catalog):,})"
     instructions = [
-        ("1. Find & Filter:", "Go to the '📚 All Books (12,060)' tab. Use Excel's filter dropdowns on 'Author', 'Category', or 'Subcategory' to locate books."),
+        ("1. Find & Filter:", f"Go to the '{all_sheet_title}' tab (arranged ascending by Book Title). Use Excel's filter dropdowns on 'Title', 'Author', 'Category', or 'Subcategory' to locate books."),
         ("2. Check Placement Status:", "Look at the 'Placement Status' column. Green (✅) books are already organized in their target folder. Yellow/Orange (📁) books need moving."),
         ("3. Open Target Folder:", "Click the link in 'Target Folder Drive URL' to open the exact destination folder directly in Google Drive."),
         ("4. Move File in Drive:", "Click 'Book Direct Drive URL' to view the file. Use Google Drive's 'Move' (Shift + Z or right-click 'Organize' > 'Move') to move it to the target folder."),
@@ -341,8 +350,8 @@ def main():
     # -------------------------------------------------------------
     # SHEET 2: 📚 All Books (Master Catalog)
     # -------------------------------------------------------------
-    print("Generating Sheet 2: 📚 All Books...")
-    ws_all = wb.create_sheet(title="📚 All Books (12,060)")
+    print(f"Generating Sheet 2: {all_sheet_title}...")
+    ws_all = wb.create_sheet(title=all_sheet_title)
     ws_all.views.sheetView[0].showGridLines = True
     ws_all.freeze_panes = "A2"
 
@@ -432,8 +441,11 @@ def main():
         ws_all.cell(row=row_idx, column=21, value=item['drive_file_id']).font = regular_font
 
         for col_i in range(1, 22):
-            ws_all.cell(row=row_idx, column=col_i).fill = fill
-            ws_all.cell(row=row_idx, column=col_i).border = border_thin
+            c_obj = ws_all.cell(row=row_idx, column=col_i)
+            if col_i not in (15, 16, 17) and isinstance(c_obj.value, str) and c_obj.value.startswith("="):
+                c_obj.data_type = "s"
+            c_obj.fill = fill
+            c_obj.border = border_thin
 
     # Auto-filter
     ws_all.auto_filter.ref = f"A1:U{len(enhanced_books)+1}"
@@ -608,8 +620,11 @@ def main():
         ws_rev.cell(row=row_idx, column=21, value=item['drive_file_id']).font = regular_font
 
         for col_i in range(1, 22):
-            ws_rev.cell(row=row_idx, column=col_i).fill = fill
-            ws_rev.cell(row=row_idx, column=col_i).border = border_thin
+            c_obj = ws_rev.cell(row=row_idx, column=col_i)
+            if col_i not in (15, 16, 17) and isinstance(c_obj.value, str) and c_obj.value.startswith("="):
+                c_obj.data_type = "s"
+            c_obj.fill = fill
+            c_obj.border = border_thin
 
     ws_rev.auto_filter.ref = f"A1:U{len(rev_books)+1}"
     for i, w in enumerate(all_widths, start=1):

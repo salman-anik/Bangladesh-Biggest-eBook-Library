@@ -9,7 +9,7 @@
 
 ## 📚 Collections & Genres
 
-### 📂 আকিদা (8 books)
+### 📂 Islamic_Books/আকিদা (8 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **আহলে সুন্নাত ওয়াল জামায়াত এর আকীদা** | আবু বকর জাকারিয়া | — | PDF | 602 KB | [📖 Open Book](https://drive.google.com/file/d/1r_IhkfuCX6otiCpjSNZ66-LA1gYvpDZ4/view) |
@@ -26,20 +26,20 @@
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **কুরআন অর্থ বুঝার সহজ অভিধান** | আবু বকর জাকারিয়া | — | PDF | 2.1 MB | [📖 Open Book](https://drive.google.com/file/d/1-wG_fiM6ygH4NZT2qRtO81JcnfT56yZT/view) |
 
-### 📂 অন্যান্য (1 books)
-| # | Title | Author | Year | Format | Size | Google Drive |
-|---:|---|---|:---:|:---:|---:|:---:|
-| 1 | **সালাত আদায়ের জন্য আসো** | আবু বকর জাকারিয়া | — | PDF | 1.0 MB | [📖 Open Book](https://drive.google.com/file/d/16WbowXpmMGoXTDkyTT518AhCtu-cAslz/view) |
-
-### 📂 সীরাত (1 books)
+### 📂 Islamic_Books/সীরাত (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **মহানবীর(সঃ) জীবনআদর্শ** | আবু বকর জাকারিয়া | — | PDF | 1.0 MB | [📖 Open Book](https://drive.google.com/file/d/1JxGggOn_AZN1krepUG8pxX_7Vxp_kpTQ/view) |
 
-### 📂 ফিকহ (1 books)
+### 📂 Islamic_Books/ফিকহ (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **সাওম বিষয়ক আধুনিক কিছু মাসয়ালা** | আবু বকর জাকারিয়া | — | PDF | 1.3 MB | [📖 Open Book](https://drive.google.com/file/d/1py89CnnATfGvc53SqbLuQiV5KbxRv2XW/view) |
+
+### 📂 Islamic_Books/অন্যান্য (1 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **সালাত আদায়ের জন্য আসো** | আবু বকর জাকারিয়া | — | PDF | 1.0 MB | [📖 Open Book](https://drive.google.com/file/d/16WbowXpmMGoXTDkyTT518AhCtu-cAslz/view) |
 
 ---
 [⬅️ Back to Bangla Index](../README.md) | [🏠 Back to Library Home](../../../README.md)

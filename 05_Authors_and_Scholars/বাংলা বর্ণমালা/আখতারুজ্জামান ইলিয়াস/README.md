@@ -3,11 +3,19 @@
 [🏠 Home](../../../README.md) / [05_Authors_and_Scholars](../../README.md) / [Bangla Index](../README.md) / **আখতারুজ্জামান ইলিয়াস**
 
 > **📂 Google Drive Author Folder:** [Open in Drive](https://drive.google.com/drive/folders/1qVfMJz06aAAUUTffXHoypj2stIvCX5Lr)  
-> **Total Books in Library:** **5 books** across 3 genres/series
+> **Total Books in Library:** **9 books** across 4 genres/series
 
 ---
 
 ## 📚 Collections & Genres
+
+### 📂 বাংলা বর্ণমালা/আখতারুজ্জামান ইলিয়াস (4 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **Akhtaruzzaman Elias Er Sahitto Jibon O Somokal** | আখতারুজ্জামান ইলিয়াস | — | PDF | 10.7 MB | [📖 Open Book](https://drive.google.com/file/d/1ty-TiQIicscdxotyEzlIY90j36ZwZAZj/view) |
+| 2 | **Chilekothar Shepai** | আখতারুজ্জামান ইলিয়াস | — | PDF | 16.2 MB | [📖 Open Book](https://drive.google.com/file/d/1q4owcAgMCjPkYhGXMZTqEWHH94Ww76RL/view) |
+| 3 | **Khowabnama** | আখতারুজ্জামান ইলিয়াস | — | PDF | 12.8 MB | [📖 Open Book](https://drive.google.com/file/d/1TVtsbN8lsBmZyeYHAPJgMUNC7Emlcsha/view) |
+| 4 | **Sanskritir Bhanga Setu** | আখতারুজ্জামান ইলিয়াস | — | PDF | 28.6 MB | [📖 Open Book](https://drive.google.com/file/d/173YAJ5xrfp5CKIddurjf0tSnqd_T20e2/view) |
 
 ### 📂 গল্প ও ছোটগল্প (2 books)
 | # | Title | Author | Year | Format | Size | Google Drive |

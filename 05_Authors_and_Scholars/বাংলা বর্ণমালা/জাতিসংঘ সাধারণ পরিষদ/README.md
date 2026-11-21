@@ -9,7 +9,7 @@
 
 ## 📚 Collections & Genres
 
-### 📂 কুরআন ও তাফসির (5 books)
+### 📂 Islamic_Books/কুরআন ও তাফসির (5 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **জাতিসংঘ সাধারণ পরিষদ - অর্থনৈতিক, সামাজিক ও সাংস্কৃতিক অধিকার বিষয়ক আন্তর্জাতিক চুক্তি (১৯৬৬)** | জাতিসংঘ সাধারণ পরিষদ | 1966 | EPUB | 82 KB | [📖 Open Book](https://drive.google.com/file/d/1c8H7zflT3zTMcL_uPp-Dz5HnGDLJ4FIl/view) |

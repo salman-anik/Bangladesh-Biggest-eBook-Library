@@ -4,7 +4,7 @@
 
 > **📂 Google Drive:** [Open in Google Drive](https://drive.google.com/drive/folders/11Uih6M8ow5sLpclFRBuedlfxyAhozZ4e)  
 > **📊 Master Spreadsheet:** [Open Excel Navigator](https://drive.google.com/file/d/1PBHQfSIQvGCYinQkk6XvtjuGgixbHWbM/view)  
-> **Total Books:** **576** | **Total Size:** **3.68 GB**
+> **Total Books:** **620** | **Total Size:** **4.30 GB**
 
 ---
 
@@ -373,221 +373,265 @@
 | 359 | **[455] Masud Rana** | Duratma | — | PDF | 6.2 MB | [📖 Open Book](https://drive.google.com/file/d/1DyFCqhBggKhWFC5gsvH29GUUYxyMiYjE/view) |
 | 360 | **[456] Masud Rana** | Top Terror | — | PDF | 14.3 MB | [📖 Open Book](https://drive.google.com/file/d/1SsvG1kT9r391cE0ZQYqAyeWUNOtwIJGt/view) |
 | 361 | **[457] Masud Rana -Guptobidya** | Guptobidya | — | PDF | 17.8 MB | [📖 Open Book](https://drive.google.com/file/d/1zdYrkg4TESQFWTY0awyiekQ23wbxJ0N4/view) |
-| 362 | **অগোচরা – মোহাম্মদ নাজিম উদ্দিন** | মোহাম্মদ নাজিম উদ্দিন | 2025 | EPUB | 272 KB | [📖 Open Book](https://drive.google.com/file/d/1qgbk0nK27NEY7Aw5JfMayfGqbbLB7dpm/view) |
-| 363 | **অপারেশন ওয়ারিস্তান** | ইন্দ্রনীল সান্যাল | 2024 | EPUB | 336 KB | [📖 Open Book](https://drive.google.com/file/d/1QTnO8Wxy43o-pnhU3nmp-i7ycHGdIWOf/view) |
-| 364 | **অপার্থিব** | অভিজ্ঞান গাঙ্গুলী | 2026 | EPUB | 433 KB | [📖 Open Book](https://drive.google.com/file/d/1qODBwP9nX5ZYIvFnRveXKcsYMDKxTRjZ/view) |
-| 365 | **অপ্সরা থিয়েটারের মামলা (১৯৮৭)** | সত্যজিৎ রায় | 2020 | MOBI | 255 KB | [📖 Open Book](https://drive.google.com/file/d/1hX_K5vgHViVYZgSMLWkLRpatQreAbJjl/view) |
-| 366 | **অবগুণ্ঠিতা** | নীহাররঞ্জন গুপ্ত | 2023 | EPUB | 347 KB | [📖 Open Book](https://drive.google.com/file/d/1xR9hniqWXhpZah_VNxZUmxf4ZThFHInY/view) |
-| 367 | **অম্বর সেন অন্তর্ধান রহস্য (১৯৮৩)** | সত্যজিৎ রায় | 2020 | MOBI | 197 KB | [📖 Open Book](https://drive.google.com/file/d/1_6y26gNWhd16OmasDFzlZG6GUp6EJHuA/view) |
-| 368 | **অলাতচক্র** | তারাদাস বন্দ্যোপাধ্যায় | — | PDF | 2.4 MB | [📖 Open Book](https://drive.google.com/file/d/1A6doFmOsRLejHKQCsTVbRY0pSMnC2bPm/view) |
-| 369 | **অ্যাডভেঞ্চার ভয়ংকর** | হিমাদ্রিকিশোর দাসগুপ্ত | 2025 | EPUB | 358 KB | [📖 Open Book](https://drive.google.com/file/d/1sQS-LP-sItJ_xIod2kOVl5SVaDQd5UFM/view) |
-| 370 | **অ্যাডভেন৪** | হিমাদ্রিকিশোর দাশগুপ্ত | 2026 | EPUB | 702 KB | [📖 Open Book](https://drive.google.com/file/d/11x1hm8VCoeZeLuPQ9C5ywe8wVq4fee37/view) |
-| 371 | **অ্যানিমেল ফার্ম** | জর্জ অরওয়েল | 2026 | EPUB | 257 KB | [📖 Open Book](https://drive.google.com/file/d/1cHofiA3-WYDgBcE2glEbhi1-QLQk8PDX/view) |
-| 372 | **আজাজেল্‌** | অনিশা দত্ত, আইজাক আসিমভ | 2023 | EPUB | 311 KB | [📖 Open Book](https://drive.google.com/file/d/1iSzC-ueshwQiqSaNhIHWqfc8oLybB8AG/view) |
-| 373 | **আমার প্রিয় ভৌতিক গল্প** | হুমায়ুন আহমেদ | — | PDF | 7.1 MB | [📖 Open Book](https://drive.google.com/file/d/1N5Srio7zP5FkKV4Dwz-l7WP5Oyk5w_Lu/view) |
-| 374 | **আমার প্রিয় ভৌতিক গল্প** | হুমায়ূন আহমেদ | — | PDF | 13.2 MB | [📖 Open Book](https://drive.google.com/file/d/1Sod_R6niKASuRADEJYBZDqFcjsDN2hen/view) |
-| 375 | **ইন্দ্রজাল রহস্য (১৯৯৬)** | সত্যজিৎ রায় | 2020 | MOBI | 182 KB | [📖 Open Book](https://drive.google.com/file/d/1AMnAMFIa689NLotirYL07cCYZFgn6gUV/view) |
-| 376 | **ঈশ্বর যখন বন্দি** | দেবারতি মুখোপাধ্যায় | 2026 | EPUB | 380 KB | [📖 Open Book](https://drive.google.com/file/d/1ctGPRFthRt1-C__yTJxPw9OKFRYnxfk9/view) |
-| 377 | **ঋজুদা সমগ্র ২ – বুদ্ধদেব গুহ** | বুদ্ধদেব গুহ | — | PDF | 24.5 MB | [📖 Open Book](https://drive.google.com/file/d/1mEHlVpr4bgqIFoxxCoYi54I9d-rI7Xcw/view) |
-| 378 | **ঋজুদা সমগ্র ৩ – বুদ্ধদেব গুহ** | বুদ্ধদেব গুহ | — | PDF | 36.6 MB | [📖 Open Book](https://drive.google.com/file/d/1YQ9oqI3Eo8xxAg69Tp-NnE3nOVLSb90D/view) |
-| 379 | **ঋজুদা সমগ্র ৪ – বুদ্ধদেব গুহ** | বুদ্ধদেব গুহ | — | PDF | 7.1 MB | [📖 Open Book](https://drive.google.com/file/d/19gJfTeVpOuxurjuT3z7OLQznF8vFl6Bf/view) |
-| 380 | **এ স্টাডি ইন স্কারলেট** | স্যার আর্থার কোনান ডয়েল (১৮৮৭) | — | MOBI | 366 KB | [📖 Open Book](https://drive.google.com/file/d/1_WtczXKwxHb5LN9CkXwlseNU7-UIGeHl/view) |
-| 381 | **এক ব্রিটিশ গোয়েন্দার ডায়েরী–সৈয়দ মুজতবা আলী** | সৈয়দ মুজতবা আলী | — | PDF | 3.0 MB | [📖 Open Book](https://drive.google.com/file/d/1zI-7fddsjgtDWJ5YeUYo_RLcn7vOQdMq/view) |
-| 382 | **এবার কাণ্ড কেদারনাথে (১৯৮৪)** | সত্যজিৎ রায় | 2020 | MOBI | 247 KB | [📖 Open Book](https://drive.google.com/file/d/1PTzvht49Wf_jBK9EK_8WNQRdW4-lEr2p/view) |
-| 383 | **এমিলের গোয়েন্দা দল** | এরিখ কেস্টনার | — | MOBI | 336 KB | [📖 Open Book](https://drive.google.com/file/d/14IIbD3-_1yOP9gIpvch7k7IYAKYAqb5z/view) |
-| 384 | **কথাকলি কোথায়?** | অভিষেক চট্টোপাধ্যায় | 2026 | EPUB | 574 KB | [📖 Open Book](https://drive.google.com/file/d/1gIQMSFFzo7iXR7fzsT-reumsrbKPDBIA/view) |
-| 385 | **কহেন কবি কালিদাস (ব্যোমকেশ)** | শরদিন্দু বন্দ্যোপাধ্যায় | 2023 | EPUB | 231 KB | [📖 Open Book](https://drive.google.com/file/d/178LJqlW7RYvp00-14v6aUhH2Cg6Wdj23/view) |
-| 386 | **কাকাবাবু সমগ্র** | সুনীল গঙ্গোপাধ্যায় | — | MOBI | 5.9 MB | [📖 Open Book](https://drive.google.com/file/d/1xEwjBxHED9y19RjnF1dyFk_c_iS28DQN/view) |
-| 387 | **কিরীটী সমগ্র** | নীহাররঞ্জন গুপ্ত | 2023 | EPUB | 4.0 MB | [📖 Open Book](https://drive.google.com/file/d/109irbAMRyo3-xSXWIHaSmECnpax5KWyR/view) |
-| 388 | **কিশোর হরর** | — | — | MOBI | 753 KB | [📖 Open Book](https://drive.google.com/file/d/1IyZzp-f2ZBGMOKeDkxmOn2vAJdtN2IB0/view) |
-| 389 | **কৈলাশে কেলেঙ্কারী (১৯৭৩)** | সত্যজিৎ রায় | — | MOBI | 937 KB | [📖 Open Book](https://drive.google.com/file/d/1BeYtX48xQ5ZAYm3xRAhmRttbJKoOfiR7/view) |
-| 390 | **কৈলাস চৌধুরীর পাথর (১৯৬৭)** | সত্যজিৎ রায় | 2020 | MOBI | 172 KB | [📖 Open Book](https://drive.google.com/file/d/1Ua3DqA0irIYQ2o6fnpzdTabwcq_nSTez/view) |
-| 391 | **খুঁজে খুঁজে খুন** | ইন্দ্রনীল সান্যাল | 2025 | EPUB | 296 KB | [📖 Open Book](https://drive.google.com/file/d/1yUo5bmYu6aS4eOjtEqTTpblEN-7PW9MZ/view) |
-| 392 | **গোঁসাইবাগানের ভূত - শীর্ষেন্দু মুখোপাধ্যায় (1979)** | — | 1979 | MOBI | 1.7 MB | [📖 Open Book](https://drive.google.com/file/d/19TusrXk3jUzpomSfb2-hYO4zmwT-R85e/view) |
-| 393 | **গোয়েন্দা এসিজি সমগ্র** | অনীশ দেব | 2023 | EPUB | 571 KB | [📖 Open Book](https://drive.google.com/file/d/1nkttdD2rsrf8HNi-340KpWha5jG88JQj/view) |
-| 394 | **গোয়েন্দা টম সয়্যার** | মার্ক টোয়েন | 2016 | EPUB | 401 KB | [📖 Open Book](https://drive.google.com/file/d/13wKW4kKR6C-K_RZ-PnmWWeqiqO_HhY_R/view) |
-| 395 | **গোয়েন্দা টম সয়্যার** | মার্ক টোয়েন | 2016 | MOBI | 360 KB | [📖 Open Book](https://drive.google.com/file/d/1dn5etrPl9txt4IuwSnatGARBfRzWFV92/view) |
-| 396 | **গোয়েন্দা বরদাচরণ সমগ্র ও অন্যান্য** | শীর্ষেন্দু মুখোপাধ্যায় | 2020 | EPUB | 3.8 MB | [📖 Open Book](https://drive.google.com/file/d/1-tyeNA7Po49DZQaQUvawjOWZMQnT8Gk-/view) |
-| 397 | **গোয়েন্দা বরদাচরণ সমগ্র ও অন্যান্য** | শীর্ষেন্দু মুখোপাধ্যায় | 2020 | MOBI | 3.6 MB | [📖 Open Book](https://drive.google.com/file/d/1VN1QqKmyz3Ne6OOdmgdJ5tBMdHdnG0WT/view) |
-| 398 | **গোরস্থানে সাবধান (১৯৭৭)** | সত্যজিৎ রায় | — | MOBI | 1.0 MB | [📖 Open Book](https://drive.google.com/file/d/1jAJSwLSRHdom388ajphmFUQT_wMack3A/view) |
-| 399 | **গোরস্থানে সাবধান!** | সত্যজিৎ রায় | 2023 | EPUB | 1.5 MB | [📖 Open Book](https://drive.google.com/file/d/178Bha6p01TcimMR3lf9RifyZw-D6n8e5/view) |
-| 400 | **গোলকধাম রহস্য (১৯৮০)** | সত্যজিৎ রায় | — | MOBI | 632 KB | [📖 Open Book](https://drive.google.com/file/d/1tgFr7Rx45-wTwqJPBv0NirK702AGZdZ4/view) |
-| 401 | **গোসাঁইপুর সরগরম (১৯৭৬)** | সত্যজিৎ রায় | — | MOBI | 846 KB | [📖 Open Book](https://drive.google.com/file/d/1v2BafG-swteH2-q6bS9lc0VM4NDu5J1g/view) |
-| 402 | **গোসাইবাগানের ভূত** | শীর্ষেন্দু মুখোপাধ্যায় | 2021 | EPUB | 1.0 MB | [📖 Open Book](https://drive.google.com/file/d/1aKISX3bucGyzSTwYgxH_8ypG0BevWbSC/view) |
-| 403 | **গ্যাংটকে গণ্ডগোল** | সত্যজিৎ রায় | 2023 | EPUB | 1.8 MB | [📖 Open Book](https://drive.google.com/file/d/166MUES6XVyUgXOQ6mBOwDDvN_th5Ov4j/view) |
-| 404 | **গ্যাংটকে গণ্ডগোল (১৯৭০)** | সত্যজিৎ রায় | — | MOBI | 1.3 MB | [📖 Open Book](https://drive.google.com/file/d/1-IPnlXbdixec94MmcQbUZaA1gVyEkkBs/view) |
-| 405 | **ঘুরঘুটিয়ার ঘটনা (১৯৭৫)** | সত্যজিৎ রায় | 2020 | MOBI | 130 KB | [📖 Open Book](https://drive.google.com/file/d/1Qy_Jr6ocR42yrTHJj-xkUdW_RhCHZZhf/view) |
-| 406 | **চারের সংকেত** | স্যার আর্থার কোনান ডয়েল (১৮৯০) | — | MOBI | 415 KB | [📖 Open Book](https://drive.google.com/file/d/1XmfKy9vjM0dFWH_04dX--D-JMea5q70O/view) |
-| 407 | **ছিন্নমস্তার অভিশাপ** | সত্যজিৎ রায় | 2023 | EPUB | 1.4 MB | [📖 Open Book](https://drive.google.com/file/d/1ZDfiUvk6oQBoh6Lq5mhG7ElIw3oNAFzv/view) |
-| 408 | **ছিন্নমস্তার অভিশাপ (১৯৭৮)** | সত্যজিৎ রায় | — | MOBI | 970 KB | [📖 Open Book](https://drive.google.com/file/d/1OpV2dYEKkOmo3m23sLbng4GI9MnAvNpL/view) |
-| 409 | **জবর বারো** | সত্যজিৎ রায় | 2024 | EPUB | 330 KB | [📖 Open Book](https://drive.google.com/file/d/1xY2g2UiAjBrKDrob4X52XSsz3DgWWozf/view) |
-| 410 | **জয় পরাজয়** | পাঁচকড়ি দে | 2023 | EPUB | 321 KB | [📖 Open Book](https://drive.google.com/file/d/10g5CiDE8RpE7Tcty1uoANz32321vk_Ne/view) |
-| 411 | **জয় বাবা ফেলুনাথ** | সত্যজিৎ রায় | 2023 | EPUB | 1.3 MB | [📖 Open Book](https://drive.google.com/file/d/1eTnkNHnpkUsvWEwndAT-PqcQIafGQQvv/view) |
-| 412 | **জয় বাবা ফেলুনাথ (১৯৭৫)** | সত্যজিৎ রায় | — | MOBI | 855 KB | [📖 Open Book](https://drive.google.com/file/d/13f0KiUD66MXZf6J3Z6rHagRwZsWzOjYh/view) |
-| 413 | **জয়তু জয়ন্ত** | হেমেন্দ্রকুমার রায় | 2024 | EPUB | 283 KB | [📖 Open Book](https://drive.google.com/file/d/1WMQ61eFukJXItKBJyBr0jKhw0H4JBlBt/view) |
-| 414 | **জাহাঙ্গীরের স্বর্ণমুদ্রা (১৯৮৩)** | সত্যজিৎ রায় | 2020 | MOBI | 166 KB | [📖 Open Book](https://drive.google.com/file/d/1eX8VwCvxZSPYQ_ZNHLVonoLjuXrznB81/view) |
-| 415 | **জেমস বন্ড সমগ্র** | ইয়ান ফ্লেমিং, পৃথ্বীরাজ সেন | 2023 | EPUB | 1.7 MB | [📖 Open Book](https://drive.google.com/file/d/1zAJu5KksJAHlAulSpsXBXbrBXkGHHa-O/view) |
-| 416 | **ঝাউ-বাংলোর রহস্য** | নারায়ণ গঙ্গোপাধ্যায় | — | MOBI | 388 KB | [📖 Open Book](https://drive.google.com/file/d/1fxBqtV8yUwHTcRex1ebTQecGw6t9qYwT/view) |
-| 417 | **টিনটোরেটোর যীশু** | সত্যজিৎ রায় | 2023 | EPUB | 1.5 MB | [📖 Open Book](https://drive.google.com/file/d/1Xq6inanPmg_HepnDLIKIIZ0ittSu24cz/view) |
-| 418 | **টিনটোরেটোর যীশু (১৯৮২)** | সত্যজিৎ রায় | — | MOBI | 1.0 MB | [📖 Open Book](https://drive.google.com/file/d/1owkrcUi_Eunar3P6T3F3G0p4xlem5xoA/view) |
-| 419 | **ট্রেজার আইল্যান্ড** | রবার্ট লুই স্টিভেনসন | 2020 | MOBI | 1.0 MB | [📖 Open Book](https://drive.google.com/file/d/1ei17q0gmLuT-iysfePnTrDR3KD4LiDNd/view) |
-| 420 | **ডট কম রহস্য** | অনীশ দেব | 2023 | EPUB | 1.0 MB | [📖 Open Book](https://drive.google.com/file/d/1rADtyibqdpPiQZ5zdVuxxvQlQ4Epm3Ln/view) |
-| 421 | **ডবল ফেলুদা** | সত্যজিৎ রায় | — | MOBI | 539 KB | [📖 Open Book](https://drive.google.com/file/d/1xdxWptXOQaP3NZmi8jpPQg0nobgwWVzA/view) |
-| 422 | **ডাঃ মুনসীর ডায়রি (১৯৮৯)** | সত্যজিৎ রায় | 2020 | MOBI | 207 KB | [📖 Open Book](https://drive.google.com/file/d/1q3iGS5TnKAINXR-UU29Ko4xhyZp8BrQZ/view) |
-| 423 | **ডাকাতরাজা** | দেবারতি মুখোপাধ্যায় | 2026 | EPUB | 661 KB | [📖 Open Book](https://drive.google.com/file/d/1Hs8JQiF9_iF-qFnZPBajkLRoDIbrvrxP/view) |
-| 424 | **ডেভিড কপারফিল্ড** | এ. টি. এম. শামসুদ্দিন, চার্লস ডিকেন্স | 2023 | EPUB | 258 KB | [📖 Open Book](https://drive.google.com/file/d/1PjkRe9hMhsDnAZcprBYlv2cCIDh8j7LI/view) |
-| 425 | **তারানাথ তান্ত্রিক** | তারাদাস বন্দ্যোপাধ্যায় | 2023 | EPUB | 373 KB | [📖 Open Book](https://drive.google.com/file/d/1kM-ZGra-NNXsFl9g7ddqLyI3Tdis4zh3/view) |
-| 426 | **তিমির প্রেম** | রকিব হাসান | 2026 | EPUB | 277 KB | [📖 Open Book](https://drive.google.com/file/d/1skLiedEwuQUk9TqiLNzRQ0z7ZQ55ZmZH/view) |
-| 427 | **তেইশ ঘণ্টা ষাট মিনিট** | অনীশ দেব | 2023 | EPUB | 776 KB | [📖 Open Book](https://drive.google.com/file/d/1n0rofn_6I19VCHF17ovmvoTOVE1Nso3U/view) |
-| 428 | **তেরো নম্বর ফ্লোর** | অভিষেক চট্টোপাধ্যায় | — | PDF | 862 KB | [📖 Open Book](https://drive.google.com/file/d/1U6EzrWvpNyode-WPRzoEHQCRQ38f8lJX/view) |
-| 429 | **দস্যু বনহুর সমগ্র ১** | রোমেনা আফাজ | 2023 | EPUB | 1.1 MB | [📖 Open Book](https://drive.google.com/file/d/1ewjkTTJXOKZap7R8O-1eKo1E408pYFEf/view) |
-| 430 | **দস্যু বনহুর সমগ্র ২** | রোমেনা আফাজ | 2023 | EPUB | 1.2 MB | [📖 Open Book](https://drive.google.com/file/d/1VvephtGaf_XmNoVD3_15KDPZimaqnO-F/view) |
-| 431 | **দস্যু বনহুর সমগ্র ৩** | রোমেনা আফাজ | 2023 | EPUB | 1.1 MB | [📖 Open Book](https://drive.google.com/file/d/10lbZEuAEq3J50u2r5dlJzpR9AYujBTMg/view) |
-| 432 | **দস্যু বনহুর সমগ্র ৪** | রোমেনা আফাজ | 2023 | EPUB | 1.1 MB | [📖 Open Book](https://drive.google.com/file/d/1E_0AAFuCsBLQo5bPFKMhQmiY8eF3CXcY/view) |
-| 433 | **দার্জিলিং জমজমাট (১৯৮৬)** | সত্যজিৎ রায় | — | MOBI | 1.1 MB | [📖 Open Book](https://drive.google.com/file/d/1cr2RDqxJe4VDm2wQVD6RQg_OcYFk5jak/view) |
-| 434 | **দি অ্যাডভেঞ্চারস অভ হাকলবেরি ফিন** | মার্ক টোয়েন | 2020 | MOBI | 1.4 MB | [📖 Open Book](https://drive.google.com/file/d/1nqMAwqmasc8tTP8oX2KfxuQyP8NZEZSS/view) |
-| 435 | **দি আডভেঞ্চার্স অফ শার্লক হোমস** | স্যার আর্থার কোনান ডয়েল (১৮৯২) | — | MOBI | 548 KB | [📖 Open Book](https://drive.google.com/file/d/1R4cIuBKo990_dg8GZ9ZB5PATqsgDTfyb/view) |
-| 436 | **দুর্গরহস্য** | শরদিন্দু বন্দ্যোপাধ্যায় | 2023 | EPUB | 267 KB | [📖 Open Book](https://drive.google.com/file/d/1Mc77Xudsr4uFg7DzqoBoGTfQKn5oktr2/view) |
-| 437 | **দ্য কেস-বুক অফ শার্লক হোমস** | স্যার আর্থার কোনান ডয়েল (১৯২৭) | 2020 | MOBI | 577 KB | [📖 Open Book](https://drive.google.com/file/d/18nfSVr4O_ELSDkFzUy_hMndvTyo_JRAe/view) |
-| 438 | **দ্য পিকউইক পেপার্স** | চার্লস ডিকেন্স | 2023 | EPUB | 468 KB | [📖 Open Book](https://drive.google.com/file/d/1BdgmUEZxSdzT1-3qwiSfaZa8YwxSkeW3/view) |
-| 439 | **দ্য ভ্যালি অফ ফিয়ার** | স্যার আর্থার কোনান ডয়েল (১৯১৪) | 2020 | MOBI | 419 KB | [📖 Open Book](https://drive.google.com/file/d/1eOKyzsdQlmuOIHR1R1NMH-cFkyj-sSSx/view) |
-| 440 | **দ্য মিরাকলস অব দ্য নামিয়া জেনারেল স্টোর** | কেইগো হিগাশিনো | 2023 | EPUB | 422 KB | [📖 Open Book](https://drive.google.com/file/d/1Ot8fEDsyDtwNc5AMzfEnqWcdcf8GCInH/view) |
-| 441 | **দ্য মেমোয়্যার্স অফ শার্লক হোমস** | স্যার আর্থার কোনান ডয়েল (১৮৯৪) | — | MOBI | 494 KB | [📖 Open Book](https://drive.google.com/file/d/1c9bo-XRvZW-o0xkllGkYNQgkfNOnyZV4/view) |
-| 442 | **দ্য রিটার্ন অব শার্লক হোমস** | স্যার আর্থার কোনান ডয়েল (১৯০৫) | 2020 | MOBI | 874 KB | [📖 Open Book](https://drive.google.com/file/d/1u3JpM-OztXhqdokEumDPEKi6HnTXVwMx/view) |
-| 443 | **নকল কিশোর (তিন গোয়েন্দা)** | রকিব হাসান | 2023 | EPUB | 347 KB | [📖 Open Book](https://drive.google.com/file/d/1CSQYbxaX-jT-fF-DcKchszlqgDPw1FYR/view) |
-| 444 | **নয়ন রহস্য** | সত্যজিৎ রায় | 2020 | EPUB | 745 KB | [📖 Open Book](https://drive.google.com/file/d/1gmz1ZO2OfUXXK-w76bgQ_duo49v8__Bz/view) |
-| 445 | **নয়ন রহস্য (উপন্যাস) (১৯৯০)** | সত্যজিৎ রায় | 2020 | MOBI | 269 KB | [📖 Open Book](https://drive.google.com/file/d/1kPwMuziSfXHgxaotzBZYnljJTZ6kDLbM/view) |
-| 446 | **নরক সংকেত** | দেবারতি মুখোপাধ্যায় | 2026 | EPUB | 757 KB | [📖 Open Book](https://drive.google.com/file/d/1GwMdEUdv4DtJcfDA9DI0grTfhzh4wKxu/view) |
-| 447 | **নিকোলাস নিকলবি** | চার্লস ডিকেন্স | 2023 | EPUB | 284 KB | [📖 Open Book](https://drive.google.com/file/d/1H1rAkKjyNxstH13HD04JTcbEO686fsxl/view) |
-| 448 | **নির্বাচিত ভূতের গল্প** | হুমায়ূন আহমেদ | 2020 | MOBI | 758 KB | [📖 Open Book](https://drive.google.com/file/d/1EpkXL9x0FShcquwxmA_ifOJcek1_pj-V/view) |
-| 449 | **নির্বাচিত ভূতের গল্প** | হুমায়ূন আহমেদ | — | PDF | 9.2 MB | [📖 Open Book](https://drive.google.com/file/d/1dZL-PldBoqx3VeZUtoqhCxEeMLlKYR6K/view) |
-| 450 | **নীলবসনা সুন্দরী** | পাঁচকড়ি দে | 2023 | EPUB | 364 KB | [📖 Open Book](https://drive.google.com/file/d/14gJW9a3Lza3CQwLLlJgvdLvmvNiKqTvG/view) |
-| 451 | **নৃসিংহ রহস্য - শীর্ষেন্দু মুখোপাধ্যায় (1984)** | — | 1984 | MOBI | 289 KB | [📖 Open Book](https://drive.google.com/file/d/1o7Jw4NRIXr8g0sqFxolQkPdhtrx3L9Od/view) |
-| 452 | **নেপোলিয়নের চিঠি (১৯৮১)** | সত্যজিৎ রায় | — | MOBI | 213 KB | [📖 Open Book](https://drive.google.com/file/d/1yKKlMQoyrPlOQ7GhxpyNYwgrqAESqCEj/view) |
-| 453 | **পিশাচ দেবতা** | অনীশ দাস অপু | 2023 | EPUB | 240 KB | [📖 Open Book](https://drive.google.com/file/d/1tPSH2cSOyo_sJcCO7n07uQMze77t0L9t/view) |
-| 454 | **পৃথিবীর সেরা থ্রিলার গল্প** | অনীশ দাস অপু | 2023 | EPUB | 368 KB | [📖 Open Book](https://drive.google.com/file/d/19ffipxxFIDOcFVht-AOQLZKgjf5g1OYp/view) |
-| 455 | **পৃথিবীর সেরা ভৌতিক গল্প** | অনীশ দাস অপু | 2023 | EPUB | 409 KB | [📖 Open Book](https://drive.google.com/file/d/1MEw_t_1KZ3Xx0nH2baGMHFQVO9a96sGt/view) |
-| 456 | **পেন্ডুলাম** | মোহাম্মদ নাজিম উদ্দিন | 2025 | EPUB | 375 KB | [📖 Open Book](https://drive.google.com/file/d/1FPgpOyDGgfi-zpFkTlR-bp9JtynhbI7z/view) |
-| 457 | **প্রতিঘাত** | অনীশ দেব | 2023 | EPUB | 341 KB | [📖 Open Book](https://drive.google.com/file/d/1tjgGTH3twM8LYEylENld3g_RnXvy21Ic/view) |
-| 458 | **প্রিয়নাথ মুখোপাধ্যায় - ভূতের বিচার** | প্রিয়নাথ মুখোপাধ্যায় | — | EPUB | 109 KB | [📖 Open Book](https://drive.google.com/file/d/1nYt8d7q2i7JgrfHnX2UF3CYc2LOBVsHy/view) |
-| 459 | **প্রেতচক্র** | অনীশ দাস অপু | 2023 | EPUB | 254 KB | [📖 Open Book](https://drive.google.com/file/d/1b2ocGpC_EI459aYCCjEsjgUR0fY68RVe/view) |
-| 460 | **ফিরিঙ্গি ঠগি** | হিমাদ্রিকিশোর দাশগুপ্ত | 2025 | EPUB | 300 KB | [📖 Open Book](https://drive.google.com/file/d/1x4jNJr26ydNTuSvSTGvD-o__25O9Cfz1/view) |
-| 461 | **ফেলুদা এণ্ড কোং** | সত্যজিৎ রায় | 2023 | EPUB | 1.7 MB | [📖 Open Book](https://drive.google.com/file/d/1HqqCsfNOJAunW5IgV43pLw9L039OXnxp/view) |
-| 462 | **ফেলুদা এন্ড কোং** | সত্যজিৎ রায় | — | MOBI | 1.2 MB | [📖 Open Book](https://drive.google.com/file/d/1z3URWlRgHA4Xnv6fcp9RIMq_0vxVtoLT/view) |
-| 463 | **ফেলুদা ওয়ান ফেলুদা টু** | সত্যজিৎ রায় | — | MOBI | 1.0 MB | [📖 Open Book](https://drive.google.com/file/d/11FzS3yz9ZJ6JTYxbF6orl_6AhR_EoxRk/view) |
-| 464 | **ফেলুদা প্লাস ফেলুদা** | সত্যজিৎ রায় | — | MOBI | 2.4 MB | [📖 Open Book](https://drive.google.com/file/d/1a91d3KnPiGL3WYQrvi41QA430IoSysZh/view) |
-| 465 | **ফেলুদা সমগ্র** | সত্যজিৎ রায় | 2023 | EPUB | 17.7 MB | [📖 Open Book](https://drive.google.com/file/d/1br7NzNWNsDjPz7fP4m1SeyPLhs4wFC2s/view) |
-| 466 | **ফেলুদার গোয়েন্দাগিরি** | সত্যজিৎ রায় | 2023 | EPUB | 686 KB | [📖 Open Book](https://drive.google.com/file/d/1x_QuqYdLYNqAecizihZqFsT3x5nIFUNB/view) |
-| 467 | **ফেলুদার গোয়েন্দাগিরি (১৯৬৫)** | সত্যজিৎ রায় | — | MOBI | 160 KB | [📖 Open Book](https://drive.google.com/file/d/1UG4MpeXlGwpnU57jlzfuPHLqGvXEE2sO/view) |
-| 468 | **বাক্স রহস্য** | সত্যজিৎ রায় | 2023 | EPUB | 1.1 MB | [📖 Open Book](https://drive.google.com/file/d/121HMAVQdXxUnv2CfmEtgRKPReHJAUu2K/view) |
-| 469 | **বাক্স রহস্য (১৯৭২)** | সত্যজিৎ রায় | — | MOBI | 616 KB | [📖 Open Book](https://drive.google.com/file/d/1yXb7ldnVxy8B6XQm-slCQlamypsEKPp3/view) |
-| 470 | **বাড়িটায় কেউ যেয়ো না** | অনীশ দেব | 2023 | EPUB | 1.4 MB | [📖 Open Book](https://drive.google.com/file/d/1d2x_Zp-WEsLpVTjeQEHoQLgUb8dfH3Ly/view) |
-| 471 | **বাদশাহী আংটি** | সত্যজিৎ রায় | 2023 | EPUB | 1.9 MB | [📖 Open Book](https://drive.google.com/file/d/1_CL38f9e3UGTPMNKm3qt5YEFbPYAa9IT/view) |
-| 472 | **বাদশাহী আংটি (১৯৬৬)** | সত্যজিৎ রায় | — | MOBI | 1.4 MB | [📖 Open Book](https://drive.google.com/file/d/1VYiJYzQzco1vhjk9PPQVks33HiHhs16l/view) |
-| 473 | **বারোটি রহস্য উপন্যাস** | অনীশ দেব | — | PDF | 2.4 MB | [📖 Open Book](https://drive.google.com/file/d/1cUoepMdu-V7gyY4R6ZI3ZjIfe99_ruSx/view) |
-| 474 | **বিচারক ভবন** | ব্রাম স্টোকার (হরর কাহিনী) | 2016 | MOBI | 217 KB | [📖 Open Book](https://drive.google.com/file/d/1rLwJO1vq2ZIDwHpIMr7HN-25jjSdTtWz/view) |
-| 475 | **বোম্বাইয়ের বোম্বেটে** | সত্যজিৎ রায় | 2023 | EPUB | 1.4 MB | [📖 Open Book](https://drive.google.com/file/d/1cx8yJBE5Luv1ujsm2aMPlfjlVRvK7z0w/view) |
-| 476 | **বোম্বাইয়ের বোম্বেটে (১৯৭৬)** | সত্যজিৎ রায় | — | MOBI | 1.0 MB | [📖 Open Book](https://drive.google.com/file/d/1k2p_sXxVmJRgVFTAhYcL0j-jRZ1_t0uo/view) |
-| 477 | **বোম্বেটে (তিন গোয়েন্দা)** | রকিব হাসান | 2023 | EPUB | 275 KB | [📖 Open Book](https://drive.google.com/file/d/1NXdKSBvWLPgMDfcMtxArXmsB-NVzvt_P/view) |
-| 478 | **বোসপুকুরে খুনখারাপি (১৯৮৫)** | সত্যজিত রায় | 2020 | MOBI | 262 KB | [📖 Open Book](https://drive.google.com/file/d/1rXMKNRPovDJbMmy-zjbal26fgKeTYFbN/view) |
-| 479 | **ব্যোমকেশ ও বরদা** | শরদিন্দু বন্দ্যোপাধ্যায় | 2023 | EPUB | 197 KB | [📖 Open Book](https://drive.google.com/file/d/1VXNS_Q3oBlxeVcalTu0rqgMFusHgLgpo/view) |
-| 480 | **ভূত প্রেত রক্তচোষা** | অনীশ দাস অপু | 2023 | EPUB | 321 KB | [📖 Open Book](https://drive.google.com/file/d/1xjhyelgNWzbB-Gv9aW0Y8G2eux42iWLC/view) |
-| 481 | **ভূতনাথের ডায়েরি** | অনীশ দেব | 2023 | EPUB | 245 KB | [📖 Open Book](https://drive.google.com/file/d/1MDFbmnI6ULgOUf1EsVF0G0NidQAtMYYX/view) |
-| 482 | **ভূতের গল্প** | তসলিমা নাসরিন | — | PDF | 113 KB | [📖 Open Book](https://drive.google.com/file/d/1Ljjk1Rozi6pyPXF1kiQkzQjZsF20oBEE/view) |
-| 483 | **ভূতের পাল্লায় গোপাল ভাঁড়** | মণ্টু চক্রবর্তী | — | MOBI | 310 KB | [📖 Open Book](https://drive.google.com/file/d/10g8zEv9KpSYdtY0GhGxxMcIvNnybgwdW/view) |
-| 484 | **ভূতের পাল্লায় গোপাল ভাঁড়** | মণ্টু চক্রবর্তী | 2026 | EPUB | 286 KB | [📖 Open Book](https://drive.google.com/file/d/1lcDOZlqqxX5OQR39EwKuHVTfKZVV3Vr9/view) |
-| 485 | **ভূতের বিচার** | প্রিয়নাথ মুখোপাধ্যায় | 1910 | MOBI | 134 KB | [📖 Open Book](https://drive.google.com/file/d/1EkO3BqS9UkxCse3B10elxDMmjVeBG5YU/view) |
-| 486 | **ভূস্বর্গ ভয়ংকর (গল্প) (১৯৮৭)** | সত্যজিত রায় | 2020 | MOBI | 276 KB | [📖 Open Book](https://drive.google.com/file/d/1K1LWzN00Q7TyBWQ5Hyajcj2qA_7YyOkm/view) |
-| 487 | **ভৌতিক গল্পসমগ্র** | সৈয়দ মুস্তাফা সিরাজ | — | MOBI | 1.3 MB | [📖 Open Book](https://drive.google.com/file/d/1nzpUM-2DGmb63v5X0u72xXPyBCIKi740/view) |
-| 488 | **মনোরমা** | পাঁচকড়ি দে | 2023 | EPUB | 312 KB | [📖 Open Book](https://drive.google.com/file/d/1YiOi1Jx2-07x7n_PmB5pqUtkenctEwN6/view) |
-| 489 | **মহররম ও আশুরার ফজিলত** | মুহাম্মাদ ইবন সালেহ আল-মুনাজ্জিদ | — | PDF | 930 KB | [📖 Open Book](https://drive.google.com/file/d/1nPqAMzLGKVGmkj6NlRVERmRrWN5bgYUP/view) |
-| 490 | **মহাভারতে গোয়েন্দা** | — | — | PDF | 18.6 MB | [📖 Open Book](https://drive.google.com/file/d/1Wa87yffnau9aUDohrHtZxL0bJxSkud6f/view) |
-| 491 | **মানসী তুমি** | নীহাররঞ্জন গুপ্ত | 2023 | EPUB | 283 KB | [📖 Open Book](https://drive.google.com/file/d/1HTrrTOj5gZqS6iA9dJEpsSI7hbyAoUZp/view) |
-| 492 | **মানুষের প্রথম অ্যাডভেঞ্চার** | হেমেন্দ্রকুমার রায় | — | MOBI | 275 KB | [📖 Open Book](https://drive.google.com/file/d/11zzwQmRpjCXa5uJW3Vr6-VgHmjguucbw/view) |
-| 493 | **মায়াবিনী** | পাঁচকড়ি দে | 2023 | EPUB | 241 KB | [📖 Open Book](https://drive.google.com/file/d/1RAhrCFJsztkl5kfmt9nvteVq_u6HCY3x/view) |
-| 494 | **মিসির আলি অমনিবাস-১ -হুমায়ূন আহমেদ** | হুমায়ূন আহমেদ | 2018 | MOBI | 1.3 MB | [📖 Open Book](https://drive.google.com/file/d/1lkiRyABw-aqAzczH32U7w80aLwCfiaYA/view) |
-| 495 | **মিসির আলি অমনিবাস-২ -হুমায়ূন আহমেদ** | হুমায়ূন আহমেদ | 2018 | MOBI | 1.0 MB | [📖 Open Book](https://drive.google.com/file/d/17W6cRotR6M6Imv19_BuVUKLNtpjud5FR/view) |
-| 496 | **মিসির আলি অমনিবাস-৩ -হুমায়ূন আহমেদ** | হুমায়ূন আহমেদ | 2018 | MOBI | 880 KB | [📖 Open Book](https://drive.google.com/file/d/1UuhCG1Fo8Nk2_GSxX_Xr3YInM_TPRHlF/view) |
-| 497 | **মৃত জ্যোৎস্নার রাত্রি** | অভিষেক চট্টোপাধ্যায় | 2026 | EPUB | 574 KB | [📖 Open Book](https://drive.google.com/file/d/18ssDe8dkWfjAK3CQ_zrByZzP7YkR-9db/view) |
-| 498 | **মৃত্যু-রঙ্গিনী** | পাঁচকড়ি দে | 2023 | EPUB | 293 KB | [📖 Open Book](https://drive.google.com/file/d/17dwPl2EkohCOn2clmvpnEqgFBjq8BSpX/view) |
-| 499 | **যত কাণ্ড কাঠমাণ্ডুতে** | সত্যজিৎ রায় | 2023 | EPUB | 1.6 MB | [📖 Open Book](https://drive.google.com/file/d/1cg0AAbO3SoZvnafN3VCYUGhHmOI6bMMh/view) |
-| 500 | **যত কাণ্ড কাঠমাণ্ডুতে (১৯৮০)** | সত্যজিৎ রায় | — | MOBI | 1.1 MB | [📖 Open Book](https://drive.google.com/file/d/1NsXr9vMxAFPiiFQaZr2Beray_kabsb3a/view) |
-| 501 | **যুগলবন্দী** | নীহাররঞ্জন গুপ্ত | 2023 | EPUB | 268 KB | [📖 Open Book](https://drive.google.com/file/d/1I7Rp7MvfAAmHvyikbQx-fEBY9nzp1pLB/view) |
-| 502 | **রঘু ডাকাত** | পাঁচকড়ি দে | 2023 | EPUB | 298 KB | [📖 Open Book](https://drive.google.com/file/d/1AeX01mjbQI6D6fLxS54yhB598B9J5oDp/view) |
-| 503 | **রবার্টসনের রুবি** | সত্যজিৎ রায় | 2020 | EPUB | 741 KB | [📖 Open Book](https://drive.google.com/file/d/1TSZkax7qvkZh-zM0K24wyOgdKQo1w8Ck/view) |
-| 504 | **রবার্টসনের রুবি (১৯৯১)** | সত্যজিত রায় | 2020 | MOBI | 235 KB | [📖 Open Book](https://drive.google.com/file/d/1QiNPgByDymKsFkxusqB01GSSY3PugzC8/view) |
-| 505 | **রবিনসন ক্রুসো** | ড্যানিয়েল ডিফো | — | MOBI | 784 KB | [📖 Open Book](https://drive.google.com/file/d/1TgdYQP-Uxu-cdi88A1IUvjqU46yumuch/view) |
-| 506 | **রবীন্দ্রনাথ এখানে কখনও আসেননি** | মোহাম্মদ নাজিম উদ্দিন | 2025 | EPUB | 472 KB | [📖 Open Book](https://drive.google.com/file/d/1MfrEepUj_Eds115A6W8zJCojkfT1FIpO/view) |
-| 507 | **রবীন্দ্রনাথ এখানে কখনও খেতে আসেননি** | মোহাম্মদ নাজিম উদ্দিন | 2025 | EPUB | 377 KB | [📖 Open Book](https://drive.google.com/file/d/1PI6uBUI1YaanG7use4GRM4429HRdMVy5/view) |
-| 508 | **রয়েল বেঙ্গল রহস্য** | সত্যজিৎ রায় | 2023 | EPUB | 1.5 MB | [📖 Open Book](https://drive.google.com/file/d/1vcIzo55ZUTS3bHN3L_Dx5EctpkcvbPQ3/view) |
-| 509 | **রয়েল বেঙ্গল রহস্য (১৯৭৪)** | সত্যজিৎ রায় | — | MOBI | 1.0 MB | [📖 Open Book](https://drive.google.com/file/d/1YyF7HwPmvu_qx6PhnqqO-h47CKU2zsWI/view) |
-| 510 | **রসাতলের রহস্য** | সমরেশ মজুমদার | 2024 | EPUB | 261 KB | [📖 Open Book](https://drive.google.com/file/d/1CydEdr1nHOevBAXH82K8tbWqG7c6lKS2/view) |
-| 511 | **রহস্য সমগ্র** | রবীন্দ্রনাথ ঠাকুর | 2025 | EPUB | 323 KB | [📖 Open Book](https://drive.google.com/file/d/1gNiFYdYiqmARKcWk4VByX0pq9OFveo5c/view) |
-| 512 | **রহস্য-রোমাঞ্চ সমগ্র** | হেমেন্দ্রকুমার রায় | 2020 | MOBI | 2.6 MB | [📖 Open Book](https://drive.google.com/file/d/1nBPcRaWDbixLXkexckyz4ZRMgMyxyqZO/view) |
-| 513 | **রহস্যের আলো-ছায়া** | হেমেন্দ্রকুমার রায় | — | MOBI | 223 KB | [📖 Open Book](https://drive.google.com/file/d/1jai0-L2EajUxo4Sx7E8-7UwrFh2DGLxB/view) |
-| 514 | **রহস্যের ধারাপাত** | ইন্দ্রনীল সান্যাল | 2024 | EPUB | 383 KB | [📖 Open Book](https://drive.google.com/file/d/1Fu7fVevVyJi8IysM6REudrCF8sQ6wsAo/view) |
-| 515 | **রুনু-টুনুর অ্যাডভেঞ্চার** | হেমেন্দ্রকুমার রায় | — | MOBI | 258 KB | [📖 Open Book](https://drive.google.com/file/d/1YXZPz72jmoSlBvlAJlNrFehK86MxWsty/view) |
-| 516 | **লন্ডনে ফেলুদা** | সত্যজিৎ রায় | 2020 | EPUB | 744 KB | [📖 Open Book](https://drive.google.com/file/d/1A1R0QOrWOrVbpV7q9-c4yEJ4Llu6b7JZ/view) |
-| 517 | **লন্ডনে ফেলুদা (১৯৮৯)** | সত্যজিত রায় | 2020 | MOBI | 240 KB | [📖 Open Book](https://drive.google.com/file/d/1eflKzQT1__bN1k_72mJ-yd9YCORMyBR5/view) |
-| 518 | **লোকরহস্য ও মুচিরাম গুড়ের জীবন-চরিত** | বঙ্কিমচন্দ্র চট্টোপাধ্যায় | 2020 | MOBI | 1.0 MB | [📖 Open Book](https://drive.google.com/file/d/1E1Lgrmlpgx-_cDDusVNSQ9jLPwnrb1Zs/view) |
-| 519 | **লৌকিক এবং অলৌকিক গল্প** | প্রফুল্ল রায় | 2025 | EPUB | 309 KB | [📖 Open Book](https://drive.google.com/file/d/1mPwEUWI2XI1e6CiJ3VLPPggtGMaf0ABe/view) |
-| 520 | **শার্লক হোমস সমগ্র ১** | স্যার আর্থার কোনান ডয়েল | 2024 | EPUB | 781 KB | [📖 Open Book](https://drive.google.com/file/d/14QfF-4gkRQUKMJ-PzFgwA6V50VZ2FutP/view) |
-| 521 | **শার্লক হোমস সমগ্র ২** | স্যার আর্থার কোনান ডয়েল | 2024 | EPUB | 1.2 MB | [📖 Open Book](https://drive.google.com/file/d/1lK54yNUB-mUmGRMNCPvzlXbu1xKynu3F/view) |
-| 522 | **শার্লক হোমসের অভিযান** | আর্থার কোনান ডয়েল | 2023 | EPUB | 408 KB | [📖 Open Book](https://drive.google.com/file/d/1z7WMV10hp3TKOTVPcQh9bsxYGpTNvKB0/view) |
-| 523 | **শুভ্রসমগ্র** | হুমায়ূন আহমেদ | — | PDF | 22.8 MB | [📖 Open Book](https://drive.google.com/file/d/1TBsJpLJgPx3Yf4U7b-zE3Ns8XEhuxqIb/view) |
-| 524 | **শেয়াল দেবতা রহস্য (১৯৬৯)** | সত্যজিৎ রায় | — | MOBI | 314 KB | [📖 Open Book](https://drive.google.com/file/d/18CyA6eN49q_mrpRs8P3IV-PJNT7MMBjB/view) |
-| 525 | **সবুজ সরণি** | ইন্দ্রনীল সান্যাল | 2026 | EPUB | 401 KB | [📖 Open Book](https://drive.google.com/file/d/1umd11UovEleW4wiV-4sdRNQV8CAmQ9j5/view) |
-| 526 | **সমাদ্দারের চাবি (১৯৭৩)** | সত্যজিৎ রায় | — | MOBI | 298 KB | [📖 Open Book](https://drive.google.com/file/d/1Uf0PgvtgiY81cB-DyjG6Vmqg1s8RFcxB/view) |
-| 527 | **সহধর্মিণী** | পাঁচকড়ি দে | 2023 | EPUB | 285 KB | [📖 Open Book](https://drive.google.com/file/d/18CVz7tUqELpqZj1H7wlAexGA5uirQuGk/view) |
-| 528 | **সামনে সমুদ্র নীল** | নীহাররঞ্জন গুপ্ত | 2023 | EPUB | 315 KB | [📖 Open Book](https://drive.google.com/file/d/1FPusLQKq82hONu9vTbN9JQ_6wxTw5fSX/view) |
-| 529 | **সারমেয় গেণ্ডুকের কাঁটা** | নারায়ণ সান্যাল | 2024 | EPUB | 376 KB | [📖 Open Book](https://drive.google.com/file/d/1B-w63rEq8ElNpjxJfY5kUbNw80TBAQAN/view) |
-| 530 | **সোনার কেল্লা** | সত্যজিৎ রায় | 2023 | EPUB | 790 KB | [📖 Open Book](https://drive.google.com/file/d/18oVsWUQx2DddEGk2rVSGE1ZPrq2G9xtu/view) |
-| 531 | **সোনার কেল্লা (১৯৭১)** | সত্যজিৎ রায় | — | MOBI | 241 KB | [📖 Open Book](https://drive.google.com/file/d/1dnS-s7yLztBfJuwJ9eTpoVm07bG8ZfFP/view) |
-| 532 | **হত্যা-রহস্য** | পাঁচকড়ি দে | 2023 | EPUB | 345 KB | [📖 Open Book](https://drive.google.com/file/d/1unJreG4AH0xFvXP5ZwrrHByclR_ndkL6/view) |
-| 533 | **হত্যাকারী কে** | পাঁচকড়ি দে | 2023 | EPUB | 262 KB | [📖 Open Book](https://drive.google.com/file/d/1sPR8_3HtdqbX7aaf2EckJAlQMvVoIsZh/view) |
-| 534 | **হত্যাপুরী** | সত্যজিৎ রায় | 2023 | EPUB | 1.6 MB | [📖 Open Book](https://drive.google.com/file/d/1GMomKv8lzGRdQND4u6Nuipc_6Ml_jm7M/view) |
-| 535 | **হত্যাপুরী (১৯৭৯)** | সত্যজিৎ রায় | — | MOBI | 1.1 MB | [📖 Open Book](https://drive.google.com/file/d/1laAapQBuVOJ4hX-bp2XzCPSRvNeh0VBd/view) |
-| 536 | **হরর 13** | অনীশ দাস অপু | 2023 | EPUB | 282 KB | [📖 Open Book](https://drive.google.com/file/d/1iglXIBJOayPMAsbC47kaIlqbCDIaTGmF/view) |
-| 537 | **হিজ লাস্ট বাও** | স্যার আর্থার কোনান ডয়েল (১৯১৭) | 2020 | MOBI | 491 KB | [📖 Open Book](https://drive.google.com/file/d/1Ek-T1TewRmJBy-gxX4xGRmRWdjXEMXKC/view) |
-| 538 | **হিমু মিসির আলি যুগলবন্দি** | হুমায়ূন আহমেদ | — | PDF | 36.6 MB | [📖 Open Book](https://drive.google.com/file/d/15gO2sn6p1P0iNbaw9IdiEuzlN7WlW3fQ/view) |
-| 539 | **হেমেন্দ্রকুমার রচনাবলী ১** | হেমেন্দ্রকুমার রায় (1) | — | PDF | 10.5 MB | [📖 Open Book](https://drive.google.com/file/d/1tWPThFbfPe6Yn6CwQBE6lrCuaatnY2xA/view) |
-| 540 | **হেমেন্দ্রকুমার রচনাবলী ১০** | হেমেন্দ্রকুমার রায় (10) | — | PDF | 6.9 MB | [📖 Open Book](https://drive.google.com/file/d/1VnRYV55Jg5dc6uIDRo67l5Av9C1CHuge/view) |
-| 541 | **হেমেন্দ্রকুমার রচনাবলী ১১** | হেমেন্দ্রকুমার রায় (11) | — | PDF | 6.4 MB | [📖 Open Book](https://drive.google.com/file/d/1eTJpjP9uh76CaHcHp3nSh6QMgd_cq07a/view) |
-| 542 | **হেমেন্দ্রকুমার রচনাবলী ১২** | হেমেন্দ্রকুমার রায় (12) | — | PDF | 5.7 MB | [📖 Open Book](https://drive.google.com/file/d/14sHKVs2Nm6L_b63NC5cG_5c8Vo8jINn3/view) |
-| 543 | **হেমেন্দ্রকুমার রচনাবলী ১৩** | হেমেন্দ্রকুমার রায় (13) | — | PDF | 6.1 MB | [📖 Open Book](https://drive.google.com/file/d/1D4J5Y3gCkQ5bpTW3CUPkcVYsORUHMQvR/view) |
-| 544 | **হেমেন্দ্রকুমার রচনাবলী ১৪** | হেমেন্দ্রকুমার রায় (14) | — | PDF | 14.3 MB | [📖 Open Book](https://drive.google.com/file/d/17XX_0r0mSIdo2HnYAoLY4YWSP61eQGqv/view) |
-| 545 | **হেমেন্দ্রকুমার রচনাবলী ১৫- হেমেন্দ্রকুমার রায় (15)** | হেমেন্দ্রকুমার রায় | — | PDF | 8.3 MB | [📖 Open Book](https://drive.google.com/file/d/1yQgdERP0a5FpNw7le3IkVsnPyDyfFQXh/view) |
-| 546 | **হেমেন্দ্রকুমার রচনাবলী ১৬- হেমেন্দ্রকুমার রায় (16)** | হেমেন্দ্রকুমার রায় | — | PDF | 6.9 MB | [📖 Open Book](https://drive.google.com/file/d/1dveOuJRzpMd4XIQ76P6Seek3LUrvjXgn/view) |
-| 547 | **হেমেন্দ্রকুমার রচনাবলী ১৭** | হেমেন্দ্রকুমার রায় (17) | — | PDF | 9.6 MB | [📖 Open Book](https://drive.google.com/file/d/1Clc6tH72sQ-wxHft1X18tQZQ_Z0URWLg/view) |
-| 548 | **হেমেন্দ্রকুমার রচনাবলী ১৮** | হেমেন্দ্রকুমার রায় (18) | — | PDF | 4.4 MB | [📖 Open Book](https://drive.google.com/file/d/1NXG13eXWT1-DNI3uGQj3Zls62hxw7CJR/view) |
-| 549 | **হেমেন্দ্রকুমার রচনাবলী ১৯** | হেমেন্দ্রকুমার রায় (19) | — | PDF | 6.1 MB | [📖 Open Book](https://drive.google.com/file/d/1XEYbod2EEzJZ5jfYuFud0BfTVbySpvjC/view) |
-| 550 | **হেমেন্দ্রকুমার রচনাবলী ২** | হেমেন্দ্রকুমার রায় (2) | — | PDF | 8.1 MB | [📖 Open Book](https://drive.google.com/file/d/1wUzcHuGZHgL9bO12n-CaJmkrucIhrCov/view) |
-| 551 | **হেমেন্দ্রকুমার রচনাবলী ২০** | হেমেন্দ্রকুমার রায় (20) | — | PDF | 24.8 MB | [📖 Open Book](https://drive.google.com/file/d/1qllaQtBR1M5rbsa2vdJzVKN44rM2XI7c/view) |
-| 552 | **হেমেন্দ্রকুমার রচনাবলী ২১** | হেমেন্দ্রকুমার রায় (21) | — | PDF | 5.4 MB | [📖 Open Book](https://drive.google.com/file/d/1d_L72RzpQsGWPW3zybhYkjUt_Pe5tpup/view) |
-| 553 | **হেমেন্দ্রকুমার রচনাবলী ২২** | হেমেন্দ্রকুমার রায় (22) | — | PDF | 5.3 MB | [📖 Open Book](https://drive.google.com/file/d/1Gc5As9LrIeDrZ-DnwLLuGHPQE25rDEw6/view) |
-| 554 | **হেমেন্দ্রকুমার রচনাবলী ২৩** | হেমেন্দ্রকুমার রায় (23) | — | PDF | 4.9 MB | [📖 Open Book](https://drive.google.com/file/d/1CBG23Pm_75KgnvorYLwdD9EIm-RG3Z5O/view) |
-| 555 | **হেমেন্দ্রকুমার রচনাবলী ২৪** | হেমেন্দ্রকুমার রায় (24) | — | PDF | 4.7 MB | [📖 Open Book](https://drive.google.com/file/d/1c5ooklP_ZR0D0MWS87pRQ0yWYWLhRx2L/view) |
-| 556 | **হেমেন্দ্রকুমার রচনাবলী ২৫** | হেমেন্দ্রকুমার রায় (25) | — | PDF | 5.1 MB | [📖 Open Book](https://drive.google.com/file/d/1_5jKuaJ9ZzvFx6SZgZJRmB6GrAt9bueS/view) |
-| 557 | **হেমেন্দ্রকুমার রচনাবলী ২৬** | হেমেন্দ্রকুমার রায় (26) | — | PDF | 12.7 MB | [📖 Open Book](https://drive.google.com/file/d/17dpjv8JGQNrjeklzL6ccXghRbmIoJOiU/view) |
-| 558 | **হেমেন্দ্রকুমার রচনাবলী ২৭** | হেমেন্দ্রকুমার রায় (27) | — | PDF | 11.8 MB | [📖 Open Book](https://drive.google.com/file/d/1J-FfbWhArw4iVDpymp5FV2QyoGqwEFUr/view) |
-| 559 | **হেমেন্দ্রকুমার রচনাবলী ৩** | হেমেন্দ্রকুমার রায় (3) | — | PDF | 8.1 MB | [📖 Open Book](https://drive.google.com/file/d/1i-TI5ISNyD-KeM-PyPOWUXdBmj_rylS-/view) |
-| 560 | **হেমেন্দ্রকুমার রচনাবলী ৪** | হেমেন্দ্রকুমার রায় (4) | — | PDF | 9.1 MB | [📖 Open Book](https://drive.google.com/file/d/1_PobY3uljmYSJEyUcwk8CZpNMfua4Gn2/view) |
-| 561 | **হেমেন্দ্রকুমার রচনাবলী ৫** | হেমেন্দ্রকুমার রায় (5) | — | PDF | 10.2 MB | [📖 Open Book](https://drive.google.com/file/d/1hTMaepkQjhX-dJmJstVYdaLmqX0cXibe/view) |
-| 562 | **হেমেন্দ্রকুমার রচনাবলী ৬** | হেমেন্দ্রকুমার রায় (6) | — | PDF | 7.5 MB | [📖 Open Book](https://drive.google.com/file/d/1__cb4F2G3mx7tnZ2FADcVmbAaLugY9Wg/view) |
-| 563 | **হেমেন্দ্রকুমার রচনাবলী ৭** | হেমেন্দ্রকুমার রায় (7) | — | PDF | 7.5 MB | [📖 Open Book](https://drive.google.com/file/d/15uDXPcRq54_q1cUNITKAMkZD7-SpJ4pT/view) |
-| 564 | **হেমেন্দ্রকুমার রচনাবলী ৮** | হেমেন্দ্রকুমার রায় (8) | — | PDF | 7.1 MB | [📖 Open Book](https://drive.google.com/file/d/1S6L-JlFnK7bgi0b1oWKtNWyT4TwG0TGZ/view) |
-| 565 | **হেমেন্দ্রকুমার রচনাবলী ৯** | হেমেন্দ্রকুমার রায় (9) | — | PDF | 7.1 MB | [📖 Open Book](https://drive.google.com/file/d/1BVtbEvmSVhFl3oQEG8WQ28tYfQ7_pXx3/view) |
-| 566 | **১০। মিসির আলির অমীমাংসিত রহস্য** | হুমায়ূন আহমেদ [১৯৯৬] | 1996 | PDF | 11.5 MB | [📖 Open Book](https://drive.google.com/file/d/1v60QCYB-0oEc22REzoAZ3IEel17a1ZzI/view) |
-| 567 | **১২। আমিই মিসির আলি** | হুমায়ুন আহমেদ [২০০০] | 2000 | PDF | 11.7 MB | [📖 Open Book](https://drive.google.com/file/d/1h49w_tnAi_FFlM2viv5rZEp_cgDu3x_V/view) |
-| 568 | **১৩। বাঘবন্দি মিসির আলি** | হুমায়ূন আহমেদ [২০০১] | 2001 | PDF | 8.3 MB | [📖 Open Book](https://drive.google.com/file/d/1RQutacPNB-Ckkm3si6uMnlG7NIedJ2DG/view) |
-| 569 | **১৬। মিসির আলির চশমা** | হুমায়ূন আহমেদ [২০০৮] | 2008 | PDF | 8.4 MB | [📖 Open Book](https://drive.google.com/file/d/1jNDZxvPW5eto4nTWzfqHN7Oz2kOOmbEC/view) |
-| 570 | **১৭। মিসির আলি আপনি কোথায়** | হুমায়ূন আহমেদ[২০০৯] | 2009 | PDF | 4.5 MB | [📖 Open Book](https://drive.google.com/file/d/1aH3hQRzz0-pfOHHeW2wj511p1LSEXtwF/view) |
-| 571 | **১৮। মিসির আলি আনসলভড** | হুমায়ূন আহমেদ [২০০৯] | 2009 | PDF | 4.8 MB | [📖 Open Book](https://drive.google.com/file/d/1rueVrkx7sTvEcnFsVqMvIQWeI1y-gMpC/view) |
-| 572 | **২৫টি সেরা ভূত** | শীর্ষেন্দু মুখোপাধ্যায় | — | MOBI | 500 KB | [📖 Open Book](https://drive.google.com/file/d/1h_7inZn7NvbzxNl0J4uuKgCVeDDy6o8-/view) |
-| 573 | **৩। বোতল ভূত** | হুমায়ূন আহমেদ [১৯৮৯] | 1989 | PDF | 4.0 MB | [📖 Open Book](https://drive.google.com/file/d/1hZu5EbXoseBV1bO3oYecBUNofC4F97il/view) |
-| 574 | **৪। শুভ্র** | হুমায়ূন আহমেদ [২০০০] | 2000 | PDF | 11.8 MB | [📖 Open Book](https://drive.google.com/file/d/1e0-QYFYNortJWIQCimpGEpY5hVkHapJi/view) |
-| 575 | **৫। এই শুভ্র! এই!** | হুমায়ূন আহমেদ [২০০৩] | 2003 | PDF | 6.0 MB | [📖 Open Book](https://drive.google.com/file/d/1K3TafZ-KD9jtNjecH-FzvgU6Zv0xTlYT/view) |
-| 576 | **৬। শুভ্র গেছে বনে** | হুমায়ূন আহমেদ [২০১০] | 2010 | PDF | 6.5 MB | [📖 Open Book](https://drive.google.com/file/d/1ei1YbYaKVtwJfhxIINstqGc3zxU2jVf-/view) |
+| 362 | **manosik rog o psychotherapy** | — | — | PDF | 3.1 MB | [📖 Open Book](https://drive.google.com/file/d/1hKl9ikb7l55sXzopM_c7y5tEYTKj9thZ/view) |
+| 363 | **Psycho Banglapdf.net Exclusive** | — | — | PDF | 3.2 MB | [📖 Open Book](https://drive.google.com/file/d/1yhA8i4bvtbdZyS3as2Bwp6qWWBS5H6Co/view) |
+| 364 | **The Surgeon** | Tess Gerritsen Santa Riki ShOpNoHiN bdeboi.com | — | PDF | 20.0 MB | [📖 Open Book](https://drive.google.com/file/d/1BEiBg-80l6boHgziqdNtrmN7q7B86jza/view) |
+| 365 | **অগোচরা – মোহাম্মদ নাজিম উদ্দিন** | মোহাম্মদ নাজিম উদ্দিন | 2025 | EPUB | 272 KB | [📖 Open Book](https://drive.google.com/file/d/1qgbk0nK27NEY7Aw5JfMayfGqbbLB7dpm/view) |
+| 366 | **অপারেশন ওয়ারিস্তান** | ইন্দ্রনীল সান্যাল | 2024 | EPUB | 336 KB | [📖 Open Book](https://drive.google.com/file/d/1QTnO8Wxy43o-pnhU3nmp-i7ycHGdIWOf/view) |
+| 367 | **অপার্থিব** | অভিজ্ঞান গাঙ্গুলী | 2026 | EPUB | 433 KB | [📖 Open Book](https://drive.google.com/file/d/1qODBwP9nX5ZYIvFnRveXKcsYMDKxTRjZ/view) |
+| 368 | **অপ্সরা থিয়েটারের মামলা (১৯৮৭)** | সত্যজিৎ রায় | 2020 | MOBI | 255 KB | [📖 Open Book](https://drive.google.com/file/d/1hX_K5vgHViVYZgSMLWkLRpatQreAbJjl/view) |
+| 369 | **অবগুণ্ঠিতা** | নীহাররঞ্জন গুপ্ত | 2023 | EPUB | 347 KB | [📖 Open Book](https://drive.google.com/file/d/1xR9hniqWXhpZah_VNxZUmxf4ZThFHInY/view) |
+| 370 | **অম্বর সেন অন্তর্ধান রহস্য (১৯৮৩)** | সত্যজিৎ রায় | 2020 | MOBI | 197 KB | [📖 Open Book](https://drive.google.com/file/d/1_6y26gNWhd16OmasDFzlZG6GUp6EJHuA/view) |
+| 371 | **অযাচী সন্ধানে** | বিভূতিভূষণ মুখোপাধ্যায় | — | PDF | 3.3 MB | [📖 Open Book](https://drive.google.com/file/d/1iIK4POy5MjIq8PTVlt27kGbBlZ89LOvh/view) |
+| 372 | **অলাতচক্র** | তারাদাস বন্দ্যোপাধ্যায় | — | PDF | 2.4 MB | [📖 Open Book](https://drive.google.com/file/d/1A6doFmOsRLejHKQCsTVbRY0pSMnC2bPm/view) |
+| 373 | **অ্যাডভেঞ্চার ভয়ংকর** | হিমাদ্রিকিশোর দাসগুপ্ত | 2025 | EPUB | 358 KB | [📖 Open Book](https://drive.google.com/file/d/1sQS-LP-sItJ_xIod2kOVl5SVaDQd5UFM/view) |
+| 374 | **অ্যাডভেন৪** | হিমাদ্রিকিশোর দাশগুপ্ত | 2026 | EPUB | 702 KB | [📖 Open Book](https://drive.google.com/file/d/11x1hm8VCoeZeLuPQ9C5ywe8wVq4fee37/view) |
+| 375 | **অ্যানিমেল ফার্ম** | জর্জ অরওয়েল | 2026 | EPUB | 257 KB | [📖 Open Book](https://drive.google.com/file/d/1cHofiA3-WYDgBcE2glEbhi1-QLQk8PDX/view) |
+| 376 | **আজাজেল্‌** | অনিশা দত্ত, আইজাক আসিমভ | 2023 | EPUB | 311 KB | [📖 Open Book](https://drive.google.com/file/d/1iSzC-ueshwQiqSaNhIHWqfc8oLybB8AG/view) |
+| 377 | **আনন্দমেলা ভূতের গল্পসংকলন** | — | — | PDF | 17.3 MB | [📖 Open Book](https://drive.google.com/file/d/136sSf8VEVq_6xfR6ZZQ9mtCKo4QSNZ1t/view) |
+| 378 | **আমার প্রিয় ভৌতিক গল্প** | হুমায়ুন আহমেদ | — | PDF | 7.1 MB | [📖 Open Book](https://drive.google.com/file/d/1N5Srio7zP5FkKV4Dwz-l7WP5Oyk5w_Lu/view) |
+| 379 | **আমার প্রিয় ভৌতিক গল্প** | হুমায়ূন আহমেদ | — | PDF | 13.2 MB | [📖 Open Book](https://drive.google.com/file/d/1Sod_R6niKASuRADEJYBZDqFcjsDN2hen/view) |
+| 380 | **ইটির ময়না তদন্ত ও রসওয়েল রহস্য** | — | — | PDF | 9.5 MB | [📖 Open Book](https://drive.google.com/file/d/1reFz8y0Cf1iwx8vFTiGIS63d6CKq44Yo/view) |
+| 381 | **ইন্দ্রজাল রহস্য (১৯৯৬)** | সত্যজিৎ রায় | 2020 | MOBI | 182 KB | [📖 Open Book](https://drive.google.com/file/d/1AMnAMFIa689NLotirYL07cCYZFgn6gUV/view) |
+| 382 | **ঈশ্বর যখন বন্দি** | দেবারতি মুখোপাধ্যায় | 2026 | EPUB | 380 KB | [📖 Open Book](https://drive.google.com/file/d/1ctGPRFthRt1-C__yTJxPw9OKFRYnxfk9/view) |
+| 383 | **ঋজুদা সমগ্র ২ – বুদ্ধদেব গুহ** | বুদ্ধদেব গুহ | — | PDF | 24.5 MB | [📖 Open Book](https://drive.google.com/file/d/1mEHlVpr4bgqIFoxxCoYi54I9d-rI7Xcw/view) |
+| 384 | **ঋজুদা সমগ্র ৩ – বুদ্ধদেব গুহ** | বুদ্ধদেব গুহ | — | PDF | 36.6 MB | [📖 Open Book](https://drive.google.com/file/d/1YQ9oqI3Eo8xxAg69Tp-NnE3nOVLSb90D/view) |
+| 385 | **ঋজুদা সমগ্র ৪ – বুদ্ধদেব গুহ** | বুদ্ধদেব গুহ | — | PDF | 7.1 MB | [📖 Open Book](https://drive.google.com/file/d/19gJfTeVpOuxurjuT3z7OLQznF8vFl6Bf/view) |
+| 386 | **এ স্টাডি ইন স্কারলেট** | স্যার আর্থার কোনান ডয়েল (১৮৮৭) | — | MOBI | 366 KB | [📖 Open Book](https://drive.google.com/file/d/1_WtczXKwxHb5LN9CkXwlseNU7-UIGeHl/view) |
+| 387 | **এক ব্রিটিশ গোয়েন্দার ডায়েরী–সৈয়দ মুজতবা আলী** | সৈয়দ মুজতবা আলী | — | PDF | 3.0 MB | [📖 Open Book](https://drive.google.com/file/d/1zI-7fddsjgtDWJ5YeUYo_RLcn7vOQdMq/view) |
+| 388 | **এবার কাণ্ড কেদারনাথে (১৯৮৪)** | সত্যজিৎ রায় | 2020 | MOBI | 247 KB | [📖 Open Book](https://drive.google.com/file/d/1PTzvht49Wf_jBK9EK_8WNQRdW4-lEr2p/view) |
+| 389 | **এমিলের গোয়েন্দা দল** | এরিখ কেস্টনার | — | MOBI | 336 KB | [📖 Open Book](https://drive.google.com/file/d/14IIbD3-_1yOP9gIpvch7k7IYAKYAqb5z/view) |
+| 390 | **কথাকলি কোথায়?** | অভিষেক চট্টোপাধ্যায় | 2026 | EPUB | 574 KB | [📖 Open Book](https://drive.google.com/file/d/1gIQMSFFzo7iXR7fzsT-reumsrbKPDBIA/view) |
+| 391 | **কহেন কবি কালিদাস (ব্যোমকেশ)** | শরদিন্দু বন্দ্যোপাধ্যায় | 2023 | EPUB | 231 KB | [📖 Open Book](https://drive.google.com/file/d/178LJqlW7RYvp00-14v6aUhH2Cg6Wdj23/view) |
+| 392 | **কাকাবাবু সমগ্র** | সুনীল গঙ্গোপাধ্যায় | — | MOBI | 5.9 MB | [📖 Open Book](https://drive.google.com/file/d/1xEwjBxHED9y19RjnF1dyFk_c_iS28DQN/view) |
+| 393 | **কাশিমের জুতো রহস্য** | চীরঞ্জীব সেন | — | PDF | 3.5 MB | [📖 Open Book](https://drive.google.com/file/d/1Rpr2ROlmDsOTfgF9KEFFKhzJ6VmSMXnh/view) |
+| 394 | **কিরীটী সমগ্র** | নীহাররঞ্জন গুপ্ত | 2023 | EPUB | 4.0 MB | [📖 Open Book](https://drive.google.com/file/d/109irbAMRyo3-xSXWIHaSmECnpax5KWyR/view) |
+| 395 | **কিশোর হরর** | — | — | MOBI | 753 KB | [📖 Open Book](https://drive.google.com/file/d/1IyZzp-f2ZBGMOKeDkxmOn2vAJdtN2IB0/view) |
+| 396 | **কৈলাশে কেলেঙ্কারী (১৯৭৩)** | সত্যজিৎ রায় | — | MOBI | 937 KB | [📖 Open Book](https://drive.google.com/file/d/1BeYtX48xQ5ZAYm3xRAhmRttbJKoOfiR7/view) |
+| 397 | **কৈলাস চৌধুরীর পাথর (১৯৬৭)** | সত্যজিৎ রায় | 2020 | MOBI | 172 KB | [📖 Open Book](https://drive.google.com/file/d/1Ua3DqA0irIYQ2o6fnpzdTabwcq_nSTez/view) |
+| 398 | **খুঁজে খুঁজে খুন** | ইন্দ্রনীল সান্যাল | 2025 | EPUB | 296 KB | [📖 Open Book](https://drive.google.com/file/d/1yUo5bmYu6aS4eOjtEqTTpblEN-7PW9MZ/view) |
+| 399 | **খুদে গোয়েন্দা** | পরিমল দাস | — | PDF | 2.1 MB | [📖 Open Book](https://drive.google.com/file/d/1dBE1M0rcocDILTWTOcdyczSU84eK0k92/view) |
+| 400 | **গল্প রহস্য অনেক** | প্রদীপ কান্তি পাল | — | PDF | 7.8 MB | [📖 Open Book](https://drive.google.com/file/d/1CqNF2xfP6KX2yHQ6MMRhuNSzVNunm59l/view) |
+| 401 | **গোঁসাইবাগানের ভূত - শীর্ষেন্দু মুখোপাধ্যায় (1979)** | — | 1979 | MOBI | 1.7 MB | [📖 Open Book](https://drive.google.com/file/d/19TusrXk3jUzpomSfb2-hYO4zmwT-R85e/view) |
+| 402 | **গোয়েন্দা এসিজি সমগ্র** | অনীশ দেব | 2023 | EPUB | 571 KB | [📖 Open Book](https://drive.google.com/file/d/1nkttdD2rsrf8HNi-340KpWha5jG88JQj/view) |
+| 403 | **গোয়েন্দা টম সয়্যার** | মার্ক টোয়েন | 2016 | EPUB | 401 KB | [📖 Open Book](https://drive.google.com/file/d/13wKW4kKR6C-K_RZ-PnmWWeqiqO_HhY_R/view) |
+| 404 | **গোয়েন্দা টম সয়্যার** | মার্ক টোয়েন | 2016 | MOBI | 360 KB | [📖 Open Book](https://drive.google.com/file/d/1dn5etrPl9txt4IuwSnatGARBfRzWFV92/view) |
+| 405 | **গোয়েন্দা বরদাচরণ সমগ্র ও অন্যান্য** | শীর্ষেন্দু মুখোপাধ্যায় | 2020 | EPUB | 3.8 MB | [📖 Open Book](https://drive.google.com/file/d/1-tyeNA7Po49DZQaQUvawjOWZMQnT8Gk-/view) |
+| 406 | **গোয়েন্দা বরদাচরণ সমগ্র ও অন্যান্য** | শীর্ষেন্দু মুখোপাধ্যায় | 2020 | MOBI | 3.6 MB | [📖 Open Book](https://drive.google.com/file/d/1VN1QqKmyz3Ne6OOdmgdJ5tBMdHdnG0WT/view) |
+| 407 | **গোয়েন্দা যখন নিজেই খুনী** | সৌরেন দত্ত | — | PDF | 8.7 MB | [📖 Open Book](https://drive.google.com/file/d/1EyKVP6gd2Z0gdt-YpF6nAyCkMw1MOVzr/view) |
+| 408 | **গোয়েন্দাদের সেরা গল্প** | — | — | PDF | 16.4 MB | [📖 Open Book](https://drive.google.com/file/d/1GkDcEHQO9whqhA3-FA9jO6opmgG-WpA5/view) |
+| 409 | **গোরস্থানে সাবধান (১৯৭৭)** | সত্যজিৎ রায় | — | MOBI | 1.0 MB | [📖 Open Book](https://drive.google.com/file/d/1jAJSwLSRHdom388ajphmFUQT_wMack3A/view) |
+| 410 | **গোরস্থানে সাবধান!** | সত্যজিৎ রায় | 2023 | EPUB | 1.5 MB | [📖 Open Book](https://drive.google.com/file/d/178Bha6p01TcimMR3lf9RifyZw-D6n8e5/view) |
+| 411 | **গোলকধাম রহস্য (১৯৮০)** | সত্যজিৎ রায় | — | MOBI | 632 KB | [📖 Open Book](https://drive.google.com/file/d/1tgFr7Rx45-wTwqJPBv0NirK702AGZdZ4/view) |
+| 412 | **গোসাঁইপুর সরগরম (১৯৭৬)** | সত্যজিৎ রায় | — | MOBI | 846 KB | [📖 Open Book](https://drive.google.com/file/d/1v2BafG-swteH2-q6bS9lc0VM4NDu5J1g/view) |
+| 413 | **গোসাইবাগানের ভূত** | শীর্ষেন্দু মুখোপাধ্যায় | 2021 | EPUB | 1.0 MB | [📖 Open Book](https://drive.google.com/file/d/1aKISX3bucGyzSTwYgxH_8ypG0BevWbSC/view) |
+| 414 | **গ্যাংটকে গণ্ডগোল** | সত্যজিৎ রায় | 2023 | EPUB | 1.8 MB | [📖 Open Book](https://drive.google.com/file/d/166MUES6XVyUgXOQ6mBOwDDvN_th5Ov4j/view) |
+| 415 | **গ্যাংটকে গণ্ডগোল (১৯৭০)** | সত্যজিৎ রায় | — | MOBI | 1.3 MB | [📖 Open Book](https://drive.google.com/file/d/1-IPnlXbdixec94MmcQbUZaA1gVyEkkBs/view) |
+| 416 | **ঘুরঘুটিয়ার ঘটনা (১৯৭৫)** | সত্যজিৎ রায় | 2020 | MOBI | 130 KB | [📖 Open Book](https://drive.google.com/file/d/1Qy_Jr6ocR42yrTHJj-xkUdW_RhCHZZhf/view) |
+| 417 | **চারের সংকেত** | স্যার আর্থার কোনান ডয়েল (১৮৯০) | — | MOBI | 415 KB | [📖 Open Book](https://drive.google.com/file/d/1XmfKy9vjM0dFWH_04dX--D-JMea5q70O/view) |
+| 418 | **ছিন্নমস্তার অভিশাপ** | সত্যজিৎ রায় | 2023 | EPUB | 1.4 MB | [📖 Open Book](https://drive.google.com/file/d/1ZDfiUvk6oQBoh6Lq5mhG7ElIw3oNAFzv/view) |
+| 419 | **ছিন্নমস্তার অভিশাপ (১৯৭৮)** | সত্যজিৎ রায় | — | MOBI | 970 KB | [📖 Open Book](https://drive.google.com/file/d/1OpV2dYEKkOmo3m23sLbng4GI9MnAvNpL/view) |
+| 420 | **ছোটদের রহস্য-রোমাঞ্চ** | মঞ্জলি সেন | — | PDF | 8.1 MB | [📖 Open Book](https://drive.google.com/file/d/1j4t0KESlgtkClDLksPT0kop0P_mHVT3l/view) |
+| 421 | **জবর বারো** | সত্যজিৎ রায় | 2024 | EPUB | 330 KB | [📖 Open Book](https://drive.google.com/file/d/1xY2g2UiAjBrKDrob4X52XSsz3DgWWozf/view) |
+| 422 | **জয় পরাজয়** | পাঁচকড়ি দে | 2023 | EPUB | 321 KB | [📖 Open Book](https://drive.google.com/file/d/10g5CiDE8RpE7Tcty1uoANz32321vk_Ne/view) |
+| 423 | **জয় বাবা ফেলুনাথ** | সত্যজিৎ রায় | 2023 | EPUB | 1.3 MB | [📖 Open Book](https://drive.google.com/file/d/1eTnkNHnpkUsvWEwndAT-PqcQIafGQQvv/view) |
+| 424 | **জয় বাবা ফেলুনাথ (১৯৭৫)** | সত্যজিৎ রায় | — | MOBI | 855 KB | [📖 Open Book](https://drive.google.com/file/d/13f0KiUD66MXZf6J3Z6rHagRwZsWzOjYh/view) |
+| 425 | **জয়তু জয়ন্ত** | হেমেন্দ্রকুমার রায় | 2024 | EPUB | 283 KB | [📖 Open Book](https://drive.google.com/file/d/1WMQ61eFukJXItKBJyBr0jKhw0H4JBlBt/view) |
+| 426 | **জাহাঙ্গীরের স্বর্ণমুদ্রা (১৯৮৩)** | সত্যজিৎ রায় | 2020 | MOBI | 166 KB | [📖 Open Book](https://drive.google.com/file/d/1eX8VwCvxZSPYQ_ZNHLVonoLjuXrznB81/view) |
+| 427 | **জেমস বন্ড সমগ্র** | ইয়ান ফ্লেমিং, পৃথ্বীরাজ সেন | 2023 | EPUB | 1.7 MB | [📖 Open Book](https://drive.google.com/file/d/1zAJu5KksJAHlAulSpsXBXbrBXkGHHa-O/view) |
+| 428 | **ঝাউ-বাংলোর রহস্য** | নারায়ণ গঙ্গোপাধ্যায় | — | MOBI | 388 KB | [📖 Open Book](https://drive.google.com/file/d/1fxBqtV8yUwHTcRex1ebTQecGw6t9qYwT/view) |
+| 429 | **টিনটোরেটোর যীশু** | সত্যজিৎ রায় | 2023 | EPUB | 1.5 MB | [📖 Open Book](https://drive.google.com/file/d/1Xq6inanPmg_HepnDLIKIIZ0ittSu24cz/view) |
+| 430 | **টিনটোরেটোর যীশু (১৯৮২)** | সত্যজিৎ রায় | — | MOBI | 1.0 MB | [📖 Open Book](https://drive.google.com/file/d/1owkrcUi_Eunar3P6T3F3G0p4xlem5xoA/view) |
+| 431 | **ট্রেজার আইল্যান্ড** | রবার্ট লুই স্টিভেনসন | 2020 | MOBI | 1.0 MB | [📖 Open Book](https://drive.google.com/file/d/1ei17q0gmLuT-iysfePnTrDR3KD4LiDNd/view) |
+| 432 | **ডট কম রহস্য** | অনীশ দেব | 2023 | EPUB | 1.0 MB | [📖 Open Book](https://drive.google.com/file/d/1rADtyibqdpPiQZ5zdVuxxvQlQ4Epm3Ln/view) |
+| 433 | **ডবল ফেলুদা** | সত্যজিৎ রায় | — | MOBI | 539 KB | [📖 Open Book](https://drive.google.com/file/d/1xdxWptXOQaP3NZmi8jpPQg0nobgwWVzA/view) |
+| 434 | **ডাঃ মুনসীর ডায়রি (১৯৮৯)** | সত্যজিৎ রায় | 2020 | MOBI | 207 KB | [📖 Open Book](https://drive.google.com/file/d/1q3iGS5TnKAINXR-UU29Ko4xhyZp8BrQZ/view) |
+| 435 | **ডাকাতরাজা** | দেবারতি মুখোপাধ্যায় | 2026 | EPUB | 661 KB | [📖 Open Book](https://drive.google.com/file/d/1Hs8JQiF9_iF-qFnZPBajkLRoDIbrvrxP/view) |
+| 436 | **ডেভিড কপারফিল্ড** | এ. টি. এম. শামসুদ্দিন, চার্লস ডিকেন্স | 2023 | EPUB | 258 KB | [📖 Open Book](https://drive.google.com/file/d/1PjkRe9hMhsDnAZcprBYlv2cCIDh8j7LI/view) |
+| 437 | **তারানাথ তান্ত্রিক** | তারাদাস বন্দ্যোপাধ্যায় | 2023 | EPUB | 373 KB | [📖 Open Book](https://drive.google.com/file/d/1kM-ZGra-NNXsFl9g7ddqLyI3Tdis4zh3/view) |
+| 438 | **তিমির প্রেম** | রকিব হাসান | 2026 | EPUB | 277 KB | [📖 Open Book](https://drive.google.com/file/d/1skLiedEwuQUk9TqiLNzRQ0z7ZQ55ZmZH/view) |
+| 439 | **তেইশ ঘণ্টা ষাট মিনিট** | অনীশ দেব | 2023 | EPUB | 776 KB | [📖 Open Book](https://drive.google.com/file/d/1n0rofn_6I19VCHF17ovmvoTOVE1Nso3U/view) |
+| 440 | **তেরো নম্বর ফ্লোর** | অভিষেক চট্টোপাধ্যায় | — | PDF | 862 KB | [📖 Open Book](https://drive.google.com/file/d/1U6EzrWvpNyode-WPRzoEHQCRQ38f8lJX/view) |
+| 441 | **দস্যু বনহুর সমগ্র ১** | রোমেনা আফাজ | 2023 | EPUB | 1.1 MB | [📖 Open Book](https://drive.google.com/file/d/1ewjkTTJXOKZap7R8O-1eKo1E408pYFEf/view) |
+| 442 | **দস্যু বনহুর সমগ্র ২** | রোমেনা আফাজ | 2023 | EPUB | 1.2 MB | [📖 Open Book](https://drive.google.com/file/d/1VvephtGaf_XmNoVD3_15KDPZimaqnO-F/view) |
+| 443 | **দস্যু বনহুর সমগ্র ৩** | রোমেনা আফাজ | 2023 | EPUB | 1.1 MB | [📖 Open Book](https://drive.google.com/file/d/10lbZEuAEq3J50u2r5dlJzpR9AYujBTMg/view) |
+| 444 | **দস্যু বনহুর সমগ্র ৪** | রোমেনা আফাজ | 2023 | EPUB | 1.1 MB | [📖 Open Book](https://drive.google.com/file/d/1E_0AAFuCsBLQo5bPFKMhQmiY8eF3CXcY/view) |
+| 445 | **দার্জিলিং জমজমাট (১৯৮৬)** | সত্যজিৎ রায় | — | MOBI | 1.1 MB | [📖 Open Book](https://drive.google.com/file/d/1cr2RDqxJe4VDm2wQVD6RQg_OcYFk5jak/view) |
+| 446 | **দি অ্যাডভেঞ্চারস অভ হাকলবেরি ফিন** | মার্ক টোয়েন | 2020 | MOBI | 1.4 MB | [📖 Open Book](https://drive.google.com/file/d/1nqMAwqmasc8tTP8oX2KfxuQyP8NZEZSS/view) |
+| 447 | **দি আডভেঞ্চার্স অফ শার্লক হোমস** | স্যার আর্থার কোনান ডয়েল (১৮৯২) | — | MOBI | 548 KB | [📖 Open Book](https://drive.google.com/file/d/1R4cIuBKo990_dg8GZ9ZB5PATqsgDTfyb/view) |
+| 448 | **দুই বাংলার সেরা ভূতের গল্প** | — | — | PDF | 13.7 MB | [📖 Open Book](https://drive.google.com/file/d/1GuVNLMazqftzH_rSflcsqtWov6KwZKom/view) |
+| 449 | **দুর্গরহস্য** | শরদিন্দু বন্দ্যোপাধ্যায় | 2023 | EPUB | 267 KB | [📖 Open Book](https://drive.google.com/file/d/1Mc77Xudsr4uFg7DzqoBoGTfQKn5oktr2/view) |
+| 450 | **দ্য কেস-বুক অফ শার্লক হোমস** | স্যার আর্থার কোনান ডয়েল (১৯২৭) | 2020 | MOBI | 577 KB | [📖 Open Book](https://drive.google.com/file/d/18nfSVr4O_ELSDkFzUy_hMndvTyo_JRAe/view) |
+| 451 | **দ্য পিকউইক পেপার্স** | চার্লস ডিকেন্স | 2023 | EPUB | 468 KB | [📖 Open Book](https://drive.google.com/file/d/1BdgmUEZxSdzT1-3qwiSfaZa8YwxSkeW3/view) |
+| 452 | **দ্য ভ্যালি অফ ফিয়ার** | স্যার আর্থার কোনান ডয়েল (১৯১৪) | 2020 | MOBI | 419 KB | [📖 Open Book](https://drive.google.com/file/d/1eOKyzsdQlmuOIHR1R1NMH-cFkyj-sSSx/view) |
+| 453 | **দ্য মিরাকলস অব দ্য নামিয়া জেনারেল স্টোর** | কেইগো হিগাশিনো | 2023 | EPUB | 422 KB | [📖 Open Book](https://drive.google.com/file/d/1Ot8fEDsyDtwNc5AMzfEnqWcdcf8GCInH/view) |
+| 454 | **দ্য মেমোয়্যার্স অফ শার্লক হোমস** | স্যার আর্থার কোনান ডয়েল (১৮৯৪) | — | MOBI | 494 KB | [📖 Open Book](https://drive.google.com/file/d/1c9bo-XRvZW-o0xkllGkYNQgkfNOnyZV4/view) |
+| 455 | **দ্য রিটার্ন অব শার্লক হোমস** | স্যার আর্থার কোনান ডয়েল (১৯০৫) | 2020 | MOBI | 874 KB | [📖 Open Book](https://drive.google.com/file/d/1u3JpM-OztXhqdokEumDPEKi6HnTXVwMx/view) |
+| 456 | **নকল কিশোর (তিন গোয়েন্দা)** | রকিব হাসান | 2023 | EPUB | 347 KB | [📖 Open Book](https://drive.google.com/file/d/1CSQYbxaX-jT-fF-DcKchszlqgDPw1FYR/view) |
+| 457 | **নদীবাংলোর রহস্য ও অন্যান্য** | শচীন্দ্রনাথ বড় পণ্ডা | — | PDF | 14.2 MB | [📖 Open Book](https://drive.google.com/file/d/11KogiluLeXVyc7hxdXyb1dAdoKNO8mAv/view) |
+| 458 | **নয়ন রহস্য** | সত্যজিৎ রায় | 2020 | EPUB | 745 KB | [📖 Open Book](https://drive.google.com/file/d/1gmz1ZO2OfUXXK-w76bgQ_duo49v8__Bz/view) |
+| 459 | **নয়ন রহস্য (উপন্যাস) (১৯৯০)** | সত্যজিৎ রায় | 2020 | MOBI | 269 KB | [📖 Open Book](https://drive.google.com/file/d/1kPwMuziSfXHgxaotzBZYnljJTZ6kDLbM/view) |
+| 460 | **নরক সংকেত** | দেবারতি মুখোপাধ্যায় | 2026 | EPUB | 757 KB | [📖 Open Book](https://drive.google.com/file/d/1GwMdEUdv4DtJcfDA9DI0grTfhzh4wKxu/view) |
+| 461 | **নিকোলাস নিকলবি** | চার্লস ডিকেন্স | 2023 | EPUB | 284 KB | [📖 Open Book](https://drive.google.com/file/d/1H1rAkKjyNxstH13HD04JTcbEO686fsxl/view) |
+| 462 | **নির্বাচিত ভূতের গল্প** | হুমায়ূন আহমেদ | 2020 | MOBI | 758 KB | [📖 Open Book](https://drive.google.com/file/d/1EpkXL9x0FShcquwxmA_ifOJcek1_pj-V/view) |
+| 463 | **নির্বাচিত ভূতের গল্প** | হুমায়ূন আহমেদ | — | PDF | 9.2 MB | [📖 Open Book](https://drive.google.com/file/d/1dZL-PldBoqx3VeZUtoqhCxEeMLlKYR6K/view) |
+| 464 | **নীলবসনা সুন্দরী** | পাঁচকড়ি দে | 2023 | EPUB | 364 KB | [📖 Open Book](https://drive.google.com/file/d/14gJW9a3Lza3CQwLLlJgvdLvmvNiKqTvG/view) |
+| 465 | **নৃসিংহ রহস্য - শীর্ষেন্দু মুখোপাধ্যায় (1984)** | — | 1984 | MOBI | 289 KB | [📖 Open Book](https://drive.google.com/file/d/1o7Jw4NRIXr8g0sqFxolQkPdhtrx3L9Od/view) |
+| 466 | **নেপোলিয়নের চিঠি (১৯৮১)** | সত্যজিৎ রায় | — | MOBI | 213 KB | [📖 Open Book](https://drive.google.com/file/d/1yKKlMQoyrPlOQ7GhxpyNYwgrqAESqCEj/view) |
+| 467 | **পাতায় পাতায় রহস্য** | অদ্রীশ বর্ধন | — | PDF | 4.8 MB | [📖 Open Book](https://drive.google.com/file/d/1UloDQyfpUb09tjw897rfAq9YqUX67NEr/view) |
+| 468 | **পিকনিকে ভানু গোয়েন্দা জহর অ্যাসিস্ট্যান্ট** | প্রণব রায় | — | PDF | 3.8 MB | [📖 Open Book](https://drive.google.com/file/d/18t5EH0c1I33XOGrJvbifm4aPs7nguuS1/view) |
+| 469 | **পিশাচ দেবতা** | অনীশ দাস অপু | 2023 | EPUB | 240 KB | [📖 Open Book](https://drive.google.com/file/d/1tPSH2cSOyo_sJcCO7n07uQMze77t0L9t/view) |
+| 470 | **পৃথিবীর শ্রেষ্ঠ ভূতের গল্প** | — | — | PDF | 56.2 MB | [📖 Open Book](https://drive.google.com/file/d/1ZJ4Ze9lOy66wWjItSa6_YTOsL9ElJpWK/view) |
+| 471 | **পৃথিবীর শ্রেষ্ঠ ভৌতিক গল্প** | — | — | PDF | 32.7 MB | [📖 Open Book](https://drive.google.com/file/d/1iOK4XXGNUOzRjPPNZFbTgzbVGvsPaHa4/view) |
+| 472 | **পৃথিবীর সেরা থ্রিলার গল্প** | অনীশ দাস অপু | 2023 | EPUB | 368 KB | [📖 Open Book](https://drive.google.com/file/d/19ffipxxFIDOcFVht-AOQLZKgjf5g1OYp/view) |
+| 473 | **পৃথিবীর সেরা ভৌতিক গল্প** | অনীশ দাস অপু | 2023 | EPUB | 409 KB | [📖 Open Book](https://drive.google.com/file/d/1MEw_t_1KZ3Xx0nH2baGMHFQVO9a96sGt/view) |
+| 474 | **পেন্ডুলাম** | মোহাম্মদ নাজিম উদ্দিন | 2025 | EPUB | 375 KB | [📖 Open Book](https://drive.google.com/file/d/1FPgpOyDGgfi-zpFkTlR-bp9JtynhbI7z/view) |
+| 475 | **প্রতিঘাত** | অনীশ দেব | 2023 | EPUB | 341 KB | [📖 Open Book](https://drive.google.com/file/d/1tjgGTH3twM8LYEylENld3g_RnXvy21Ic/view) |
+| 476 | **প্রিয়নাথ মুখোপাধ্যায় - ভূতের বিচার** | প্রিয়নাথ মুখোপাধ্যায় | — | EPUB | 109 KB | [📖 Open Book](https://drive.google.com/file/d/1nYt8d7q2i7JgrfHnX2UF3CYc2LOBVsHy/view) |
+| 477 | **প্রেতচক্র** | অনীশ দাস অপু | 2023 | EPUB | 254 KB | [📖 Open Book](https://drive.google.com/file/d/1b2ocGpC_EI459aYCCjEsjgUR0fY68RVe/view) |
+| 478 | **ফিরিঙ্গি ঠগি** | হিমাদ্রিকিশোর দাশগুপ্ত | 2025 | EPUB | 300 KB | [📖 Open Book](https://drive.google.com/file/d/1x4jNJr26ydNTuSvSTGvD-o__25O9Cfz1/view) |
+| 479 | **ফেলুদা এণ্ড কোং** | সত্যজিৎ রায় | 2023 | EPUB | 1.7 MB | [📖 Open Book](https://drive.google.com/file/d/1HqqCsfNOJAunW5IgV43pLw9L039OXnxp/view) |
+| 480 | **ফেলুদা এন্ড কোং** | সত্যজিৎ রায় | — | MOBI | 1.2 MB | [📖 Open Book](https://drive.google.com/file/d/1z3URWlRgHA4Xnv6fcp9RIMq_0vxVtoLT/view) |
+| 481 | **ফেলুদা ওয়ান ফেলুদা টু** | সত্যজিৎ রায় | — | MOBI | 1.0 MB | [📖 Open Book](https://drive.google.com/file/d/11FzS3yz9ZJ6JTYxbF6orl_6AhR_EoxRk/view) |
+| 482 | **ফেলুদা প্লাস ফেলুদা** | সত্যজিৎ রায় | — | MOBI | 2.4 MB | [📖 Open Book](https://drive.google.com/file/d/1a91d3KnPiGL3WYQrvi41QA430IoSysZh/view) |
+| 483 | **ফেলুদা সমগ্র** | সত্যজিৎ রায় | 2023 | EPUB | 17.7 MB | [📖 Open Book](https://drive.google.com/file/d/1br7NzNWNsDjPz7fP4m1SeyPLhs4wFC2s/view) |
+| 484 | **ফেলুদার গোয়েন্দাগিরি** | সত্যজিৎ রায় | 2023 | EPUB | 686 KB | [📖 Open Book](https://drive.google.com/file/d/1x_QuqYdLYNqAecizihZqFsT3x5nIFUNB/view) |
+| 485 | **ফেলুদার গোয়েন্দাগিরি (১৯৬৫)** | সত্যজিৎ রায় | — | MOBI | 160 KB | [📖 Open Book](https://drive.google.com/file/d/1UG4MpeXlGwpnU57jlzfuPHLqGvXEE2sO/view) |
+| 486 | **বাক্স রহস্য** | সত্যজিৎ রায় | 2023 | EPUB | 1.1 MB | [📖 Open Book](https://drive.google.com/file/d/121HMAVQdXxUnv2CfmEtgRKPReHJAUu2K/view) |
+| 487 | **বাক্স রহস্য (১৯৭২)** | সত্যজিৎ রায় | — | MOBI | 616 KB | [📖 Open Book](https://drive.google.com/file/d/1yXb7ldnVxy8B6XQm-slCQlamypsEKPp3/view) |
+| 488 | **বাড়িটায় কেউ যেয়ো না** | অনীশ দেব | 2023 | EPUB | 1.4 MB | [📖 Open Book](https://drive.google.com/file/d/1d2x_Zp-WEsLpVTjeQEHoQLgUb8dfH3Ly/view) |
+| 489 | **বাদশাহী আংটি** | সত্যজিৎ রায় | 2023 | EPUB | 1.9 MB | [📖 Open Book](https://drive.google.com/file/d/1_CL38f9e3UGTPMNKm3qt5YEFbPYAa9IT/view) |
+| 490 | **বাদশাহী আংটি (১৯৬৬)** | সত্যজিৎ রায় | — | MOBI | 1.4 MB | [📖 Open Book](https://drive.google.com/file/d/1VYiJYzQzco1vhjk9PPQVks33HiHhs16l/view) |
+| 491 | **বারোটি রহস্য উপন্যাস** | অনীশ দেব | — | PDF | 2.4 MB | [📖 Open Book](https://drive.google.com/file/d/1cUoepMdu-V7gyY4R6ZI3ZjIfe99_ruSx/view) |
+| 492 | **বিচারক ভবন** | ব্রাম স্টোকার (হরর কাহিনী) | 2016 | MOBI | 217 KB | [📖 Open Book](https://drive.google.com/file/d/1rLwJO1vq2ZIDwHpIMr7HN-25jjSdTtWz/view) |
+| 493 | **বিভূতিভূষণ মুখোপাধ্যায়ের স্বনির্বাচিত গল্প সংকলন** | — | — | PDF | 16.3 MB | [📖 Open Book](https://drive.google.com/file/d/1wHupiSxKfrgjFqdN-BBiATj5NwczgxC9/view) |
+| 494 | **বিশ্ববিখ্যাত গোয়েন্দা কাহিনী** | — | — | PDF | 10.4 MB | [📖 Open Book](https://drive.google.com/file/d/1UBQZS_MiBWuHACGNHCplSpiUPCl8nE9G/view) |
+| 495 | **বিশ্বশ্রেষ্ঠ গোয়েন্দা গল্পসম্ভার** | অসিত মৈত্র | — | PDF | 14.5 MB | [📖 Open Book](https://drive.google.com/file/d/16O-R5KFWtB9h2vmrJ1T3WxMNRMTcUMTy/view) |
+| 496 | **বিশ্বের শ্রেষ্ঠ ভূতের গল্প** | — | — | PDF | 8.5 MB | [📖 Open Book](https://drive.google.com/file/d/19A6aE_vyQXmQSroP-uEhzmpYX4zLWJ02/view) |
+| 497 | **বোম্বাইয়ের বোম্বেটে** | সত্যজিৎ রায় | 2023 | EPUB | 1.4 MB | [📖 Open Book](https://drive.google.com/file/d/1cx8yJBE5Luv1ujsm2aMPlfjlVRvK7z0w/view) |
+| 498 | **বোম্বাইয়ের বোম্বেটে (১৯৭৬)** | সত্যজিৎ রায় | — | MOBI | 1.0 MB | [📖 Open Book](https://drive.google.com/file/d/1k2p_sXxVmJRgVFTAhYcL0j-jRZ1_t0uo/view) |
+| 499 | **বোম্বেটে (তিন গোয়েন্দা)** | রকিব হাসান | 2023 | EPUB | 275 KB | [📖 Open Book](https://drive.google.com/file/d/1NXdKSBvWLPgMDfcMtxArXmsB-NVzvt_P/view) |
+| 500 | **বোসপুকুরে খুনখারাপি (১৯৮৫)** | সত্যজিত রায় | 2020 | MOBI | 262 KB | [📖 Open Book](https://drive.google.com/file/d/1rXMKNRPovDJbMmy-zjbal26fgKeTYFbN/view) |
+| 501 | **ব্যোমকেশ ও বরদা** | শরদিন্দু বন্দ্যোপাধ্যায় | 2023 | EPUB | 197 KB | [📖 Open Book](https://drive.google.com/file/d/1VXNS_Q3oBlxeVcalTu0rqgMFusHgLgpo/view) |
+| 502 | **ভূত প্রেত রক্তচোষা** | অনীশ দাস অপু | 2023 | EPUB | 321 KB | [📖 Open Book](https://drive.google.com/file/d/1xjhyelgNWzbB-Gv9aW0Y8G2eux42iWLC/view) |
+| 503 | **ভূত যখন পুত** | পরিচয় গুপ্ত | — | PDF | 3.0 MB | [📖 Open Book](https://drive.google.com/file/d/1PkIKD72PMUzTP9GtcRyEMXOycc31CDyQ/view) |
+| 504 | **ভূতনাথের ডায়েরি** | অনীশ দেব | 2023 | EPUB | 245 KB | [📖 Open Book](https://drive.google.com/file/d/1MDFbmnI6ULgOUf1EsVF0G0NidQAtMYYX/view) |
+| 505 | **ভূতের গল্প** | তসলিমা নাসরিন | — | PDF | 113 KB | [📖 Open Book](https://drive.google.com/file/d/1Ljjk1Rozi6pyPXF1kiQkzQjZsF20oBEE/view) |
+| 506 | **ভূতের পাল্লায় গোপাল ভাঁড়** | মণ্টু চক্রবর্তী | — | MOBI | 310 KB | [📖 Open Book](https://drive.google.com/file/d/10g8zEv9KpSYdtY0GhGxxMcIvNnybgwdW/view) |
+| 507 | **ভূতের পাল্লায় গোপাল ভাঁড়** | মণ্টু চক্রবর্তী | 2026 | EPUB | 286 KB | [📖 Open Book](https://drive.google.com/file/d/1lcDOZlqqxX5OQR39EwKuHVTfKZVV3Vr9/view) |
+| 508 | **ভূতের বিচার** | প্রিয়নাথ মুখোপাধ্যায় | 1910 | MOBI | 134 KB | [📖 Open Book](https://drive.google.com/file/d/1EkO3BqS9UkxCse3B10elxDMmjVeBG5YU/view) |
+| 509 | **ভূস্বর্গ ভয়ংকর (গল্প) (১৯৮৭)** | সত্যজিত রায় | 2020 | MOBI | 276 KB | [📖 Open Book](https://drive.google.com/file/d/1K1LWzN00Q7TyBWQ5Hyajcj2qA_7YyOkm/view) |
+| 510 | **ভৌতিক অমনিবাস** | ড. পার্থ চট্টোপাধ্যায় | — | PDF | 17.4 MB | [📖 Open Book](https://drive.google.com/file/d/1ec095ihUEcU6aBrf0F05aN2bqVqAdr3p/view) |
+| 511 | **ভৌতিক গল্প সংকলন** | — | — | PDF | 13.9 MB | [📖 Open Book](https://drive.google.com/file/d/1G1FBErOF8LBMgzz6kQYISZOl1DdHO4hp/view) |
+| 512 | **ভৌতিক গল্পসমগ্র** | সৈয়দ মুস্তাফা সিরাজ | — | MOBI | 1.3 MB | [📖 Open Book](https://drive.google.com/file/d/1nzpUM-2DGmb63v5X0u72xXPyBCIKi740/view) |
+| 513 | **মনোরমা** | পাঁচকড়ি দে | 2023 | EPUB | 312 KB | [📖 Open Book](https://drive.google.com/file/d/1YiOi1Jx2-07x7n_PmB5pqUtkenctEwN6/view) |
+| 514 | **মহররম ও আশুরার ফজিলত** | মুহাম্মাদ ইবন সালেহ আল-মুনাজ্জিদ | — | PDF | 930 KB | [📖 Open Book](https://drive.google.com/file/d/1nPqAMzLGKVGmkj6NlRVERmRrWN5bgYUP/view) |
+| 515 | **মহাভারতে গোয়েন্দা** | — | — | PDF | 18.6 MB | [📖 Open Book](https://drive.google.com/file/d/1Wa87yffnau9aUDohrHtZxL0bJxSkud6f/view) |
+| 516 | **মানসী তুমি** | নীহাররঞ্জন গুপ্ত | 2023 | EPUB | 283 KB | [📖 Open Book](https://drive.google.com/file/d/1HTrrTOj5gZqS6iA9dJEpsSI7hbyAoUZp/view) |
+| 517 | **মানুষের প্রথম অ্যাডভেঞ্চার** | হেমেন্দ্রকুমার রায় | — | MOBI | 275 KB | [📖 Open Book](https://drive.google.com/file/d/11zzwQmRpjCXa5uJW3Vr6-VgHmjguucbw/view) |
+| 518 | **মায়াবিনী** | পাঁচকড়ি দে | 2023 | EPUB | 241 KB | [📖 Open Book](https://drive.google.com/file/d/1RAhrCFJsztkl5kfmt9nvteVq_u6HCY3x/view) |
+| 519 | **মিসির আলি অমনিবাস-১ -হুমায়ূন আহমেদ** | হুমায়ূন আহমেদ | 2018 | MOBI | 1.3 MB | [📖 Open Book](https://drive.google.com/file/d/1lkiRyABw-aqAzczH32U7w80aLwCfiaYA/view) |
+| 520 | **মিসির আলি অমনিবাস-২ -হুমায়ূন আহমেদ** | হুমায়ূন আহমেদ | 2018 | MOBI | 1.0 MB | [📖 Open Book](https://drive.google.com/file/d/17W6cRotR6M6Imv19_BuVUKLNtpjud5FR/view) |
+| 521 | **মিসির আলি অমনিবাস-৩ -হুমায়ূন আহমেদ** | হুমায়ূন আহমেদ | 2018 | MOBI | 880 KB | [📖 Open Book](https://drive.google.com/file/d/1UuhCG1Fo8Nk2_GSxX_Xr3YInM_TPRHlF/view) |
+| 522 | **মৃত জ্যোৎস্নার রাত্রি** | অভিষেক চট্টোপাধ্যায় | 2026 | EPUB | 574 KB | [📖 Open Book](https://drive.google.com/file/d/18ssDe8dkWfjAK3CQ_zrByZzP7YkR-9db/view) |
+| 523 | **মৃত্যু-রঙ্গিনী** | পাঁচকড়ি দে | 2023 | EPUB | 293 KB | [📖 Open Book](https://drive.google.com/file/d/17dwPl2EkohCOn2clmvpnEqgFBjq8BSpX/view) |
+| 524 | **যত কাণ্ড কাঠমাণ্ডুতে** | সত্যজিৎ রায় | 2023 | EPUB | 1.6 MB | [📖 Open Book](https://drive.google.com/file/d/1cg0AAbO3SoZvnafN3VCYUGhHmOI6bMMh/view) |
+| 525 | **যত কাণ্ড কাঠমাণ্ডুতে (১৯৮০)** | সত্যজিৎ রায় | — | MOBI | 1.1 MB | [📖 Open Book](https://drive.google.com/file/d/1NsXr9vMxAFPiiFQaZr2Beray_kabsb3a/view) |
+| 526 | **যুগলবন্দী** | নীহাররঞ্জন গুপ্ত | 2023 | EPUB | 268 KB | [📖 Open Book](https://drive.google.com/file/d/1I7Rp7MvfAAmHvyikbQx-fEBY9nzp1pLB/view) |
+| 527 | **রঘু ডাকাত** | পাঁচকড়ি দে | 2023 | EPUB | 298 KB | [📖 Open Book](https://drive.google.com/file/d/1AeX01mjbQI6D6fLxS54yhB598B9J5oDp/view) |
+| 528 | **রবার্টসনের রুবি** | সত্যজিৎ রায় | 2020 | EPUB | 741 KB | [📖 Open Book](https://drive.google.com/file/d/1TSZkax7qvkZh-zM0K24wyOgdKQo1w8Ck/view) |
+| 529 | **রবার্টসনের রুবি (১৯৯১)** | সত্যজিত রায় | 2020 | MOBI | 235 KB | [📖 Open Book](https://drive.google.com/file/d/1QiNPgByDymKsFkxusqB01GSSY3PugzC8/view) |
+| 530 | **রবিনসন ক্রুসো** | ড্যানিয়েল ডিফো | — | MOBI | 784 KB | [📖 Open Book](https://drive.google.com/file/d/1TgdYQP-Uxu-cdi88A1IUvjqU46yumuch/view) |
+| 531 | **রবীন্দ্রনাথ এখানে কখনও আসেননি** | মোহাম্মদ নাজিম উদ্দিন | 2025 | EPUB | 472 KB | [📖 Open Book](https://drive.google.com/file/d/1MfrEepUj_Eds115A6W8zJCojkfT1FIpO/view) |
+| 532 | **রবীন্দ্রনাথ এখানে কখনও খেতে আসেননি** | মোহাম্মদ নাজিম উদ্দিন | 2025 | EPUB | 377 KB | [📖 Open Book](https://drive.google.com/file/d/1PI6uBUI1YaanG7use4GRM4429HRdMVy5/view) |
+| 533 | **রয়েল বেঙ্গল রহস্য** | সত্যজিৎ রায় | 2023 | EPUB | 1.5 MB | [📖 Open Book](https://drive.google.com/file/d/1vcIzo55ZUTS3bHN3L_Dx5EctpkcvbPQ3/view) |
+| 534 | **রয়েল বেঙ্গল রহস্য (১৯৭৪)** | সত্যজিৎ রায় | — | MOBI | 1.0 MB | [📖 Open Book](https://drive.google.com/file/d/1YyF7HwPmvu_qx6PhnqqO-h47CKU2zsWI/view) |
+| 535 | **রসাতলের রহস্য** | সমরেশ মজুমদার | 2024 | EPUB | 261 KB | [📖 Open Book](https://drive.google.com/file/d/1CydEdr1nHOevBAXH82K8tbWqG7c6lKS2/view) |
+| 536 | **রহস্য -The Secret** | — | — | PDF | 13.1 MB | [📖 Open Book](https://drive.google.com/file/d/15Eggk3tEYGxah-KagLiHuZIJu8YMhk4p/view) |
+| 537 | **রহস্য যখন ডারউইন** | অভিজ্ঞান রায়চৌধুরী | — | PDF | 6.8 MB | [📖 Open Book](https://drive.google.com/file/d/1PbLz_8JIwj_9WiyBslvA3vdpvtiDy0Pg/view) |
+| 538 | **রহস্য সমগ্র** | রবীন্দ্রনাথ ঠাকুর | 2025 | EPUB | 323 KB | [📖 Open Book](https://drive.google.com/file/d/1gNiFYdYiqmARKcWk4VByX0pq9OFveo5c/view) |
+| 539 | **রহস্য-রোমাঞ্চ সমগ্র** | হেমেন্দ্রকুমার রায় | 2020 | MOBI | 2.6 MB | [📖 Open Book](https://drive.google.com/file/d/1nBPcRaWDbixLXkexckyz4ZRMgMyxyqZO/view) |
+| 540 | **রহস্যভেদী বাসব (১০ম খণ্ড) কৃশানু বন্দ্যোপাধ্যায়** | — | — | PDF | 15.7 MB | [📖 Open Book](https://drive.google.com/file/d/1Xsn7U6x0eJ2OqHO1AoYsVfGG9V3hcFrE/view) |
+| 541 | **রহস্যভেদী বাসব (১১ খণ্ড) কৃশানু বন্দ্যোপাধ্যায়** | — | — | PDF | 16.5 MB | [📖 Open Book](https://drive.google.com/file/d/1AEBVr0Y6IdYEN6-hb3mY_ADo889apfiH/view) |
+| 542 | **রহস্যভেদী বাসব (১২ খণ্ড) কৃশানু বন্দ্যোপাধ্যায়** | — | — | PDF | 14.3 MB | [📖 Open Book](https://drive.google.com/file/d/1knpjmxl4RormLREPB2zMuUVh_Xg5dzwm/view) |
+| 543 | **রহস্যভেদী বাসব (১৩ খণ্ড) কৃশানু বন্দ্যোপাধ্যায়** | — | — | PDF | 15.0 MB | [📖 Open Book](https://drive.google.com/file/d/1cC2PoSw4rbSqKpId1J9NA3DWWy3oBvwz/view) |
+| 544 | **রহস্যভেদী বাসব (৪র্থ খণ্ড) কৃশানু বন্দ্যোপাধ্যায়** | — | — | PDF | 8.5 MB | [📖 Open Book](https://drive.google.com/file/d/15QV1qLASgM2bk5Btf3GRTdrUbocbg8_F/view) |
+| 545 | **রহস্যভেদী বাসব (৫ম খণ্ড) কৃশানু বন্দ্যোপাধ্যায়** | — | — | PDF | 14.6 MB | [📖 Open Book](https://drive.google.com/file/d/1IBbQ8CSCOgL7-Fl_5kaP9lF5gZOI5DuZ/view) |
+| 546 | **রহস্যভেদী বাসব (৬ষ্ঠ খণ্ড) কৃশানু বন্দ্যোপাধ্যায়** | — | — | PDF | 19.5 MB | [📖 Open Book](https://drive.google.com/file/d/1-BM4lvQNuFxw3HHzlq98goWsoPUe_Idi/view) |
+| 547 | **রহস্যভেদী বাসব (৭তম খণ্ড) কৃশানু বন্দ্যোপাধ্যায়** | — | — | PDF | 32.8 MB | [📖 Open Book](https://drive.google.com/file/d/1R5pREnyQBdmVQOjYITv8_NyyAYDAGMHY/view) |
+| 548 | **রহস্যভেদী বাসব (৮ম খণ্ড) কৃশানু বন্দ্যোপাধ্যায়** | — | — | PDF | 15.5 MB | [📖 Open Book](https://drive.google.com/file/d/1YISA4Ch-rve0hxEfG6gsBQhE3CcnIR-H/view) |
+| 549 | **রহস্যভেদী বাসব (৯ খণ্ড) কৃশানু বন্দ্যোপাধ্যায়** | — | — | PDF | 6.2 MB | [📖 Open Book](https://drive.google.com/file/d/1Ux1QBqHkkCsyP-EYJWVKGqKnoYL3wVPB/view) |
+| 550 | **রহস্যের আলো-ছায়া** | হেমেন্দ্রকুমার রায় | — | MOBI | 223 KB | [📖 Open Book](https://drive.google.com/file/d/1jai0-L2EajUxo4Sx7E8-7UwrFh2DGLxB/view) |
+| 551 | **রহস্যের ধারাপাত** | ইন্দ্রনীল সান্যাল | 2024 | EPUB | 383 KB | [📖 Open Book](https://drive.google.com/file/d/1Fu7fVevVyJi8IysM6REudrCF8sQ6wsAo/view) |
+| 552 | **রহস্যের পাঁচ ঠিকানা** | শেখর বসু | — | PDF | 22.9 MB | [📖 Open Book](https://drive.google.com/file/d/1ZrI37_MwsssTiueMv5-2j_oWNl6WmNsv/view) |
+| 553 | **রুনু-টুনুর অ্যাডভেঞ্চার** | হেমেন্দ্রকুমার রায় | — | MOBI | 258 KB | [📖 Open Book](https://drive.google.com/file/d/1YXZPz72jmoSlBvlAJlNrFehK86MxWsty/view) |
+| 554 | **রূহের-রহস্য-(www.purepdfbook.com)** | — | — | PDF | 14.0 MB | [📖 Open Book](https://drive.google.com/file/d/1XiLyfwBM76CO7Y81HU3VUjKedmWhNfsn/view) |
+| 555 | **লন্ডনে ফেলুদা** | সত্যজিৎ রায় | 2020 | EPUB | 744 KB | [📖 Open Book](https://drive.google.com/file/d/1A1R0QOrWOrVbpV7q9-c4yEJ4Llu6b7JZ/view) |
+| 556 | **লন্ডনে ফেলুদা (১৯৮৯)** | সত্যজিত রায় | 2020 | MOBI | 240 KB | [📖 Open Book](https://drive.google.com/file/d/1eflKzQT1__bN1k_72mJ-yd9YCORMyBR5/view) |
+| 557 | **লোকরহস্য ও মুচিরাম গুড়ের জীবন-চরিত** | বঙ্কিমচন্দ্র চট্টোপাধ্যায় | 2020 | MOBI | 1.0 MB | [📖 Open Book](https://drive.google.com/file/d/1E1Lgrmlpgx-_cDDusVNSQ9jLPwnrb1Zs/view) |
+| 558 | **লৌকিক এবং অলৌকিক গল্প** | প্রফুল্ল রায় | 2025 | EPUB | 309 KB | [📖 Open Book](https://drive.google.com/file/d/1mPwEUWI2XI1e6CiJ3VLPPggtGMaf0ABe/view) |
+| 559 | **শতাব্দীর সেরা ভূতের গল্প** | — | — | PDF | 69.6 MB | [📖 Open Book](https://drive.google.com/file/d/1eDtFpV3pjLkEByswvRbwsvhNRxlC31mq/view) |
+| 560 | **শার্লক হোমস সমগ্র ১** | স্যার আর্থার কোনান ডয়েল | 2024 | EPUB | 781 KB | [📖 Open Book](https://drive.google.com/file/d/14QfF-4gkRQUKMJ-PzFgwA6V50VZ2FutP/view) |
+| 561 | **শার্লক হোমস সমগ্র ২** | স্যার আর্থার কোনান ডয়েল | 2024 | EPUB | 1.2 MB | [📖 Open Book](https://drive.google.com/file/d/1lK54yNUB-mUmGRMNCPvzlXbu1xKynu3F/view) |
+| 562 | **শার্লক হোমসের অভিযান** | আর্থার কোনান ডয়েল | 2023 | EPUB | 408 KB | [📖 Open Book](https://drive.google.com/file/d/1z7WMV10hp3TKOTVPcQh9bsxYGpTNvKB0/view) |
+| 563 | **শীর্ষেন্দু মুখোপাধ্যায় সম্পাদিত ২৫টি নতুন ভূত** | — | — | PDF | 9.9 MB | [📖 Open Book](https://drive.google.com/file/d/1Qv0trmaV9lnI6rTOLvebyC2TNS8XXpzF/view) |
+| 564 | **শুভ্রসমগ্র** | হুমায়ূন আহমেদ | — | PDF | 22.8 MB | [📖 Open Book](https://drive.google.com/file/d/1TBsJpLJgPx3Yf4U7b-zE3Ns8XEhuxqIb/view) |
+| 565 | **শেয়াল দেবতা রহস্য (১৯৬৯)** | সত্যজিৎ রায় | — | MOBI | 314 KB | [📖 Open Book](https://drive.google.com/file/d/18CyA6eN49q_mrpRs8P3IV-PJNT7MMBjB/view) |
+| 566 | **শ্রেষ্ঠ রহস্য কাহিনী** | নটরাজন | — | PDF | 19.8 MB | [📖 Open Book](https://drive.google.com/file/d/1mlQyNZgf5SrlYuZDW6O86EWKoLvOAiC_/view) |
+| 567 | **সব ভূত অদ্ভূত** | প্রিয়রঞ্জন মৈত্র | — | PDF | 3.3 MB | [📖 Open Book](https://drive.google.com/file/d/1zyPqbKvx8h0B4x37B0FHRLnG9AueXWQe/view) |
+| 568 | **সবুজ সরণি** | ইন্দ্রনীল সান্যাল | 2026 | EPUB | 401 KB | [📖 Open Book](https://drive.google.com/file/d/1umd11UovEleW4wiV-4sdRNQV8CAmQ9j5/view) |
+| 569 | **সমাদ্দারের চাবি (১৯৭৩)** | সত্যজিৎ রায় | — | MOBI | 298 KB | [📖 Open Book](https://drive.google.com/file/d/1Uf0PgvtgiY81cB-DyjG6Vmqg1s8RFcxB/view) |
+| 570 | **সহধর্মিণী** | পাঁচকড়ি দে | 2023 | EPUB | 285 KB | [📖 Open Book](https://drive.google.com/file/d/18CVz7tUqELpqZj1H7wlAexGA5uirQuGk/view) |
+| 571 | **সাত রহস্য** | নির্মলেন্দু গৌতম | — | PDF | 3.5 MB | [📖 Open Book](https://drive.google.com/file/d/11m0eQ_fw-isHjbfocWIeaAwureUD7O6z/view) |
+| 572 | **সামনে সমুদ্র নীল** | নীহাররঞ্জন গুপ্ত | 2023 | EPUB | 315 KB | [📖 Open Book](https://drive.google.com/file/d/1FPusLQKq82hONu9vTbN9JQ_6wxTw5fSX/view) |
+| 573 | **সারমেয় গেণ্ডুকের কাঁটা** | নারায়ণ সান্যাল | 2024 | EPUB | 376 KB | [📖 Open Book](https://drive.google.com/file/d/1B-w63rEq8ElNpjxJfY5kUbNw80TBAQAN/view) |
+| 574 | **সোনার কেল্লা** | সত্যজিৎ রায় | 2023 | EPUB | 790 KB | [📖 Open Book](https://drive.google.com/file/d/18oVsWUQx2DddEGk2rVSGE1ZPrq2G9xtu/view) |
+| 575 | **সোনার কেল্লা (১৯৭১)** | সত্যজিৎ রায় | — | MOBI | 241 KB | [📖 Open Book](https://drive.google.com/file/d/1dnS-s7yLztBfJuwJ9eTpoVm07bG8ZfFP/view) |
+| 576 | **হত্যা-রহস্য** | পাঁচকড়ি দে | 2023 | EPUB | 345 KB | [📖 Open Book](https://drive.google.com/file/d/1unJreG4AH0xFvXP5ZwrrHByclR_ndkL6/view) |
+| 577 | **হত্যাকারী কে** | পাঁচকড়ি দে | 2023 | EPUB | 262 KB | [📖 Open Book](https://drive.google.com/file/d/1sPR8_3HtdqbX7aaf2EckJAlQMvVoIsZh/view) |
+| 578 | **হত্যাপুরী** | সত্যজিৎ রায় | 2023 | EPUB | 1.6 MB | [📖 Open Book](https://drive.google.com/file/d/1GMomKv8lzGRdQND4u6Nuipc_6Ml_jm7M/view) |
+| 579 | **হত্যাপুরী (১৯৭৯)** | সত্যজিৎ রায় | — | MOBI | 1.1 MB | [📖 Open Book](https://drive.google.com/file/d/1laAapQBuVOJ4hX-bp2XzCPSRvNeh0VBd/view) |
+| 580 | **হরর 13** | অনীশ দাস অপু | 2023 | EPUB | 282 KB | [📖 Open Book](https://drive.google.com/file/d/1iglXIBJOayPMAsbC47kaIlqbCDIaTGmF/view) |
+| 581 | **হিজ লাস্ট বাও** | স্যার আর্থার কোনান ডয়েল (১৯১৭) | 2020 | MOBI | 491 KB | [📖 Open Book](https://drive.google.com/file/d/1Ek-T1TewRmJBy-gxX4xGRmRWdjXEMXKC/view) |
+| 582 | **হিমু মিসির আলি যুগলবন্দি** | হুমায়ূন আহমেদ | — | PDF | 36.6 MB | [📖 Open Book](https://drive.google.com/file/d/15gO2sn6p1P0iNbaw9IdiEuzlN7WlW3fQ/view) |
+| 583 | **হেমেন্দ্রকুমার রচনাবলী ১** | হেমেন্দ্রকুমার রায় (1) | — | PDF | 10.5 MB | [📖 Open Book](https://drive.google.com/file/d/1tWPThFbfPe6Yn6CwQBE6lrCuaatnY2xA/view) |
+| 584 | **হেমেন্দ্রকুমার রচনাবলী ১০** | হেমেন্দ্রকুমার রায় (10) | — | PDF | 6.9 MB | [📖 Open Book](https://drive.google.com/file/d/1VnRYV55Jg5dc6uIDRo67l5Av9C1CHuge/view) |
+| 585 | **হেমেন্দ্রকুমার রচনাবলী ১১** | হেমেন্দ্রকুমার রায় (11) | — | PDF | 6.4 MB | [📖 Open Book](https://drive.google.com/file/d/1eTJpjP9uh76CaHcHp3nSh6QMgd_cq07a/view) |
+| 586 | **হেমেন্দ্রকুমার রচনাবলী ১২** | হেমেন্দ্রকুমার রায় (12) | — | PDF | 5.7 MB | [📖 Open Book](https://drive.google.com/file/d/14sHKVs2Nm6L_b63NC5cG_5c8Vo8jINn3/view) |
+| 587 | **হেমেন্দ্রকুমার রচনাবলী ১৩** | হেমেন্দ্রকুমার রায় (13) | — | PDF | 6.1 MB | [📖 Open Book](https://drive.google.com/file/d/1D4J5Y3gCkQ5bpTW3CUPkcVYsORUHMQvR/view) |
+| 588 | **হেমেন্দ্রকুমার রচনাবলী ১৪** | হেমেন্দ্রকুমার রায় (14) | — | PDF | 14.3 MB | [📖 Open Book](https://drive.google.com/file/d/17XX_0r0mSIdo2HnYAoLY4YWSP61eQGqv/view) |
+| 589 | **হেমেন্দ্রকুমার রচনাবলী ১৫- হেমেন্দ্রকুমার রায় (15)** | হেমেন্দ্রকুমার রায় | — | PDF | 8.3 MB | [📖 Open Book](https://drive.google.com/file/d/1yQgdERP0a5FpNw7le3IkVsnPyDyfFQXh/view) |
+| 590 | **হেমেন্দ্রকুমার রচনাবলী ১৬- হেমেন্দ্রকুমার রায় (16)** | হেমেন্দ্রকুমার রায় | — | PDF | 6.9 MB | [📖 Open Book](https://drive.google.com/file/d/1dveOuJRzpMd4XIQ76P6Seek3LUrvjXgn/view) |
+| 591 | **হেমেন্দ্রকুমার রচনাবলী ১৭** | হেমেন্দ্রকুমার রায় (17) | — | PDF | 9.6 MB | [📖 Open Book](https://drive.google.com/file/d/1Clc6tH72sQ-wxHft1X18tQZQ_Z0URWLg/view) |
+| 592 | **হেমেন্দ্রকুমার রচনাবলী ১৮** | হেমেন্দ্রকুমার রায় (18) | — | PDF | 4.4 MB | [📖 Open Book](https://drive.google.com/file/d/1NXG13eXWT1-DNI3uGQj3Zls62hxw7CJR/view) |
+| 593 | **হেমেন্দ্রকুমার রচনাবলী ১৯** | হেমেন্দ্রকুমার রায় (19) | — | PDF | 6.1 MB | [📖 Open Book](https://drive.google.com/file/d/1XEYbod2EEzJZ5jfYuFud0BfTVbySpvjC/view) |
+| 594 | **হেমেন্দ্রকুমার রচনাবলী ২** | হেমেন্দ্রকুমার রায় (2) | — | PDF | 8.1 MB | [📖 Open Book](https://drive.google.com/file/d/1wUzcHuGZHgL9bO12n-CaJmkrucIhrCov/view) |
+| 595 | **হেমেন্দ্রকুমার রচনাবলী ২০** | হেমেন্দ্রকুমার রায় (20) | — | PDF | 24.8 MB | [📖 Open Book](https://drive.google.com/file/d/1qllaQtBR1M5rbsa2vdJzVKN44rM2XI7c/view) |
+| 596 | **হেমেন্দ্রকুমার রচনাবলী ২১** | হেমেন্দ্রকুমার রায় (21) | — | PDF | 5.4 MB | [📖 Open Book](https://drive.google.com/file/d/1d_L72RzpQsGWPW3zybhYkjUt_Pe5tpup/view) |
+| 597 | **হেমেন্দ্রকুমার রচনাবলী ২২** | হেমেন্দ্রকুমার রায় (22) | — | PDF | 5.3 MB | [📖 Open Book](https://drive.google.com/file/d/1Gc5As9LrIeDrZ-DnwLLuGHPQE25rDEw6/view) |
+| 598 | **হেমেন্দ্রকুমার রচনাবলী ২৩** | হেমেন্দ্রকুমার রায় (23) | — | PDF | 4.9 MB | [📖 Open Book](https://drive.google.com/file/d/1CBG23Pm_75KgnvorYLwdD9EIm-RG3Z5O/view) |
+| 599 | **হেমেন্দ্রকুমার রচনাবলী ২৪** | হেমেন্দ্রকুমার রায় (24) | — | PDF | 4.7 MB | [📖 Open Book](https://drive.google.com/file/d/1c5ooklP_ZR0D0MWS87pRQ0yWYWLhRx2L/view) |
+| 600 | **হেমেন্দ্রকুমার রচনাবলী ২৫** | হেমেন্দ্রকুমার রায় (25) | — | PDF | 5.1 MB | [📖 Open Book](https://drive.google.com/file/d/1_5jKuaJ9ZzvFx6SZgZJRmB6GrAt9bueS/view) |
+| 601 | **হেমেন্দ্রকুমার রচনাবলী ২৬** | হেমেন্দ্রকুমার রায় (26) | — | PDF | 12.7 MB | [📖 Open Book](https://drive.google.com/file/d/17dpjv8JGQNrjeklzL6ccXghRbmIoJOiU/view) |
+| 602 | **হেমেন্দ্রকুমার রচনাবলী ২৭** | হেমেন্দ্রকুমার রায় (27) | — | PDF | 11.8 MB | [📖 Open Book](https://drive.google.com/file/d/1J-FfbWhArw4iVDpymp5FV2QyoGqwEFUr/view) |
+| 603 | **হেমেন্দ্রকুমার রচনাবলী ৩** | হেমেন্দ্রকুমার রায় (3) | — | PDF | 8.1 MB | [📖 Open Book](https://drive.google.com/file/d/1i-TI5ISNyD-KeM-PyPOWUXdBmj_rylS-/view) |
+| 604 | **হেমেন্দ্রকুমার রচনাবলী ৪** | হেমেন্দ্রকুমার রায় (4) | — | PDF | 9.1 MB | [📖 Open Book](https://drive.google.com/file/d/1_PobY3uljmYSJEyUcwk8CZpNMfua4Gn2/view) |
+| 605 | **হেমেন্দ্রকুমার রচনাবলী ৫** | হেমেন্দ্রকুমার রায় (5) | — | PDF | 10.2 MB | [📖 Open Book](https://drive.google.com/file/d/1hTMaepkQjhX-dJmJstVYdaLmqX0cXibe/view) |
+| 606 | **হেমেন্দ্রকুমার রচনাবলী ৬** | হেমেন্দ্রকুমার রায় (6) | — | PDF | 7.5 MB | [📖 Open Book](https://drive.google.com/file/d/1__cb4F2G3mx7tnZ2FADcVmbAaLugY9Wg/view) |
+| 607 | **হেমেন্দ্রকুমার রচনাবলী ৭** | হেমেন্দ্রকুমার রায় (7) | — | PDF | 7.5 MB | [📖 Open Book](https://drive.google.com/file/d/15uDXPcRq54_q1cUNITKAMkZD7-SpJ4pT/view) |
+| 608 | **হেমেন্দ্রকুমার রচনাবলী ৮** | হেমেন্দ্রকুমার রায় (8) | — | PDF | 7.1 MB | [📖 Open Book](https://drive.google.com/file/d/1S6L-JlFnK7bgi0b1oWKtNWyT4TwG0TGZ/view) |
+| 609 | **হেমেন্দ্রকুমার রচনাবলী ৯** | হেমেন্দ্রকুমার রায় (9) | — | PDF | 7.1 MB | [📖 Open Book](https://drive.google.com/file/d/1BVtbEvmSVhFl3oQEG8WQ28tYfQ7_pXx3/view) |
+| 610 | **১০। মিসির আলির অমীমাংসিত রহস্য** | হুমায়ূন আহমেদ [১৯৯৬] | 1996 | PDF | 11.5 MB | [📖 Open Book](https://drive.google.com/file/d/1v60QCYB-0oEc22REzoAZ3IEel17a1ZzI/view) |
+| 611 | **১২। আমিই মিসির আলি** | হুমায়ুন আহমেদ [২০০০] | 2000 | PDF | 11.7 MB | [📖 Open Book](https://drive.google.com/file/d/1h49w_tnAi_FFlM2viv5rZEp_cgDu3x_V/view) |
+| 612 | **১৩। বাঘবন্দি মিসির আলি** | হুমায়ূন আহমেদ [২০০১] | 2001 | PDF | 8.3 MB | [📖 Open Book](https://drive.google.com/file/d/1RQutacPNB-Ckkm3si6uMnlG7NIedJ2DG/view) |
+| 613 | **১৬। মিসির আলির চশমা** | হুমায়ূন আহমেদ [২০০৮] | 2008 | PDF | 8.4 MB | [📖 Open Book](https://drive.google.com/file/d/1jNDZxvPW5eto4nTWzfqHN7Oz2kOOmbEC/view) |
+| 614 | **১৭। মিসির আলি আপনি কোথায়** | হুমায়ূন আহমেদ[২০০৯] | 2009 | PDF | 4.5 MB | [📖 Open Book](https://drive.google.com/file/d/1aH3hQRzz0-pfOHHeW2wj511p1LSEXtwF/view) |
+| 615 | **১৮। মিসির আলি আনসলভড** | হুমায়ূন আহমেদ [২০০৯] | 2009 | PDF | 4.8 MB | [📖 Open Book](https://drive.google.com/file/d/1rueVrkx7sTvEcnFsVqMvIQWeI1y-gMpC/view) |
+| 616 | **২৫টি সেরা ভূত** | শীর্ষেন্দু মুখোপাধ্যায় | — | MOBI | 500 KB | [📖 Open Book](https://drive.google.com/file/d/1h_7inZn7NvbzxNl0J4uuKgCVeDDy6o8-/view) |
+| 617 | **৩। বোতল ভূত** | হুমায়ূন আহমেদ [১৯৮৯] | 1989 | PDF | 4.0 MB | [📖 Open Book](https://drive.google.com/file/d/1hZu5EbXoseBV1bO3oYecBUNofC4F97il/view) |
+| 618 | **৪। শুভ্র** | হুমায়ূন আহমেদ [২০০০] | 2000 | PDF | 11.8 MB | [📖 Open Book](https://drive.google.com/file/d/1e0-QYFYNortJWIQCimpGEpY5hVkHapJi/view) |
+| 619 | **৫। এই শুভ্র! এই!** | হুমায়ূন আহমেদ [২০০৩] | 2003 | PDF | 6.0 MB | [📖 Open Book](https://drive.google.com/file/d/1K3TafZ-KD9jtNjecH-FzvgU6Zv0xTlYT/view) |
+| 620 | **৬। শুভ্র গেছে বনে** | হুমায়ূন আহমেদ [২০১০] | 2010 | PDF | 6.5 MB | [📖 Open Book](https://drive.google.com/file/d/1ei1YbYaKVtwJfhxIINstqGc3zxU2jVf-/view) |
 
 ---
 [⬅️ Back to 01_Bangla_Books](../README.md) | [🏠 Back to Library Home](../../README.md)

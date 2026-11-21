@@ -3,11 +3,335 @@
 [🏠 Home](../../../README.md) / [05_Authors_and_Scholars](../../README.md) / [Bangla Index](../README.md) / **হুমায়ূন আহমেদ**
 
 > **📂 Google Drive Author Folder:** [Open in Drive](https://drive.google.com/drive/folders/1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj)  
-> **Total Books in Library:** **416 books** across 14 genres/series
+> **Total Books in Library:** **741 books** across 17 genres/series
 
 ---
 
 ## 📚 Collections & Genres
+
+### 📂 বাংলা বর্ণমালা/হুমায়ূন আহমেদ (320 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **1971** | হুমায়ূন আহমেদ | — | PDF | 7.1 MB | [📖 Open Book](https://drive.google.com/file/d/16Odc-Fwc3Trn-Lo_W2kXcVrbpv3chatk/view) |
+| 2 | **Aaj Ami Kothao Jabo Na** | হুমায়ূন আহমেদ | — | PDF | 7.0 MB | [📖 Open Book](https://drive.google.com/file/d/1H_PWBkWt0DZ4tmGIDDVtouZ6L0sYkBby/view) |
+| 3 | **Aaj Ami Kothao Jabo Naa** | হুমায়ূন আহমেদ | — | PDF | 5.9 MB | [📖 Open Book](https://drive.google.com/file/d/1WFJ-qRtbZK73_hyiv2oT8_JNqQxtmEWx/view) |
+| 4 | **Aaj Chitrar Biye** | হুমায়ূন আহমেদ | — | PDF | 8.3 MB | [📖 Open Book](https://drive.google.com/file/d/13dschtpJIKSlX1K-2a-lYTB3qScDzd_B/view) |
+| 5 | **Achinpur** | হুমায়ূন আহমেদ | — | PDF | 5.2 MB | [📖 Open Book](https://drive.google.com/file/d/11FJXQs9cftLhp-AMHFHZwfS54JiN6ED0/view) |
+| 6 | **Achinpur** | হুমায়ূন আহমেদ | — | PDF | 5.4 MB | [📖 Open Book](https://drive.google.com/file/d/1cbj3E3ttr4IPkqyxRqYzj8qLvgMIQ-jS/view) |
+| 7 | **Adbhut Sob Golpo** | হুমায়ূন আহমেদ | — | PDF | 6.8 MB | [📖 Open Book](https://drive.google.com/file/d/1oiaXmjh_R3gmh9w_BHItiy8JiMSpv1bP/view) |
+| 8 | **Aguner Poroshmoni** | হুমায়ূন আহমেদ | — | PDF | 3.9 MB | [📖 Open Book](https://drive.google.com/file/d/1b7OdNag5N4cNy1Da1ITU3mH_GGS04Yc5/view) |
+| 9 | **Ahok** | হুমায়ূন আহমেদ | — | PDF | 3.3 MB | [📖 Open Book](https://drive.google.com/file/d/1eV48eeWcU2JXDtguNPMxGhaw1DBrggPQ/view) |
+| 10 | **Ai megh rodro chaya** | হুমায়ূন আহমেদ | — | PDF | 6.3 MB | [📖 Open Book](https://drive.google.com/file/d/1vJ5bQlNqkiaLNwovdobmhn2W5TK5jKI5/view) |
+| 11 | **Aj Chitrar Biye** | হুমায়ূন আহমেদ | — | PDF | 10.2 MB | [📖 Open Book](https://drive.google.com/file/d/1cVayzPEo8JRWjcWDlakgZya79UdZeyWu/view) |
+| 12 | **Aj Dupure Tomar Nimontron Humayun Ahmed** | হুমায়ূন আহমেদ | — | PDF | 6.3 MB | [📖 Open Book](https://drive.google.com/file/d/1q6lSVk_sgImRYgwNGgrabcObG1o4lnTA/view) |
+| 13 | **Akash Jora Megh** | হুমায়ূন আহমেদ | — | PDF | 11.3 MB | [📖 Open Book](https://drive.google.com/file/d/1XXwwY-XEYw4kTb8TDS4m7vPlAkGDO7cq/view) |
+| 14 | **Amader Shada bari** | হুমায়ূন আহমেদ | — | PDF | 5.6 MB | [📖 Open Book](https://drive.google.com/file/d/1eG9ZSIpD5svXOLFlfGoZRpn6c50bQNiy/view) |
+| 15 | **Amar Ache Jol** | হুমায়ূন আহমেদ | — | PDF | 3.3 MB | [📖 Open Book](https://drive.google.com/file/d/1jjS4mvSBBEFOUMFFkXVh1VCa0p6gPyCp/view) |
+| 16 | **Amar Chelebela** | হুমায়ূন আহমেদ | — | PDF | 7.8 MB | [📖 Open Book](https://drive.google.com/file/d/1dEbvF8iblzyYegy8WOSEPy_2WZzrhzhn/view) |
+| 17 | **Amar Priyo Voutik Galpo Edited** | হুমায়ূন আহমেদ | — | PDF | 7.1 MB | [📖 Open Book](https://drive.google.com/file/d/13u8pxGnJxck8PpgWFSlOi7I-aJjtYkBN/view) |
+| 18 | **Amar Priyo Voutik Golpo** | হুমায়ূন আহমেদ | — | PDF | 13.2 MB | [📖 Open Book](https://drive.google.com/file/d/1tYmI137MH6wiI2wMM6EUADpOCtL9tRBp/view) |
+| 19 | **Ami Ebong Amra** | হুমায়ূন আহমেদ | — | PDF | 9.4 MB | [📖 Open Book](https://drive.google.com/file/d/1Q7gLWu4kR6zfSyRLMqwM2fQ7ScdHzzkV/view) |
+| 20 | **Ami ebong amra** | হুমায়ূন আহমেদ | — | PDF | 9.4 MB | [📖 Open Book](https://drive.google.com/file/d/1bxA2tQD97KiuIIbpY5VAug0Rxt-B6fCm/view) |
+| 21 | **Ami Ebong Koyekti Projapoti** | হুমায়ূন আহমেদ | — | PDF | 2.7 MB | [📖 Open Book](https://drive.google.com/file/d/1egjyn8OC3ndBrNQ39nSnC-39V64TQqlU/view) |
+| 22 | **Amra Keu Basay Nei** | হুমায়ূন আহমেদ | — | PDF | 11.8 MB | [📖 Open Book](https://drive.google.com/file/d/18pPL0hM-nCz9mDegKi0U4qGJXjKU-AZO/view) |
+| 23 | **Amra Keu Basay Nei** | হুমায়ূন আহমেদ | — | PDF | 5.3 MB | [📖 Open Book](https://drive.google.com/file/d/1tW3rPbtikfSzBjMoOgkD25iqLp2bu58j/view) |
+| 24 | **Ananto Nakkhatro Bithi** | হুমায়ূন আহমেদ | — | PDF | 3.6 MB | [📖 Open Book](https://drive.google.com/file/d/1qfCX29cmJKkPqqWX_VoMTegtlqQaUE_Y/view) |
+| 25 | **Andhokarer Gaan** | হুমায়ূন আহমেদ | — | PDF | 8.4 MB | [📖 Open Book](https://drive.google.com/file/d/1r0hglsCHYeQhb1LmVMWvVnmXUXc7f9xk/view) |
+| 26 | **Angul Kata Jaglu** | হুমায়ূন আহমেদ | — | PDF | 9.7 MB | [📖 Open Book](https://drive.google.com/file/d/1F5vTXCD7ctN7gka5CvfDMYoO26kMraJQ/view) |
+| 27 | **Anondo Bedonar Kabbo** | হুমায়ূন আহমেদ | — | PDF | 1.6 MB | [📖 Open Book](https://drive.google.com/file/d/1i8Re4zapuA_uLjwfOVgroiJlkJFSuGlP/view) |
+| 28 | **Anonto Ambore** | হুমায়ূন আহমেদ | — | PDF | 4.5 MB | [📖 Open Book](https://drive.google.com/file/d/1YhPKrc7LzvsXMD624-v7C6IS3-7TYakp/view) |
+| 29 | **Antorar Baba** | হুমায়ূন আহমেদ | — | PDF | 1.6 MB | [📖 Open Book](https://drive.google.com/file/d/1FGgH5JoDHqWBLewpivkfJw4XSVhlQqLG/view) |
+| 30 | **Anyobhubon** | হুমায়ূন আহমেদ | — | PDF | 4.4 MB | [📖 Open Book](https://drive.google.com/file/d/16HJ5WrGl8XDBRWUFA8v30o-GW94MxYCJ/view) |
+| 31 | **Anyodin** | হুমায়ূন আহমেদ | — | PDF | 3.8 MB | [📖 Open Book](https://drive.google.com/file/d/1DdDb8q1UAMvBE-k0XhQBHSfh3yC5Xqnd/view) |
+| 32 | **Aponare Ami Khujia Berai** | হুমায়ূন আহমেদ | — | PDF | 16.0 MB | [📖 Open Book](https://drive.google.com/file/d/18Mgj515oGorb9fa9_ImP_SSuvwOeIhHC/view) |
+| 33 | **Aporahnyo** | হুমায়ূন আহমেদ | — | PDF | 4.1 MB | [📖 Open Book](https://drive.google.com/file/d/1C9sPVJ9gkaeSyy-OI4ncuoMFd86yNJ1Q/view) |
+| 34 | **Ashabori** | হুমায়ূন আহমেদ | — | PDF | 11.4 MB | [📖 Open Book](https://drive.google.com/file/d/1CRS8efokAAS-HLxwICiMYk2u5TmU4yJ-/view) |
+| 35 | **Asmanira Tin Bon** | হুমায়ূন আহমেদ | — | PDF | 17.7 MB | [📖 Open Book](https://drive.google.com/file/d/1k6r8sRRj0MIEHuIFYCsl122LEHXSPWgz/view) |
+| 36 | **Asmanira Tin Bon** | হুমায়ূন আহমেদ | — | PDF | 5.1 MB | [📖 Open Book](https://drive.google.com/file/d/1ww0niRjoNcEnbzfAquBTRyjy_NZXfX1i/view) |
+| 37 | **Ayna Ghor** | হুমায়ূন আহমেদ | — | PDF | 6.5 MB | [📖 Open Book](https://drive.google.com/file/d/130awlSRMvufKtpikZlbsQqvh1tPWUhBI/view) |
+| 38 | **Ayna Ghor** | হুমায়ূন আহমেদ | — | PDF | 6.8 MB | [📖 Open Book](https://drive.google.com/file/d/1lqm7Ywyhxdb86K-xxzYkuHusMSMR807B/view) |
+| 39 | **Ayomoy** | হুমায়ূন আহমেদ | — | PDF | 10.3 MB | [📖 Open Book](https://drive.google.com/file/d/1SYMsAU8n5jEmx6a9CxidwLLzbQ-nGYvk/view) |
+| 40 | **Badol Diner Dwitiyo Kodom Phul** | হুমায়ূন আহমেদ | — | PDF | 6.0 MB | [📖 Open Book](https://drive.google.com/file/d/1EJnIfVd9IQPCTl6W3GM34Kve3MrPtG8H/view) |
+| 41 | **Badol Diner Dwitiyo Kodom Phul** | হুমায়ূন আহমেদ | — | PDF | 6.2 MB | [📖 Open Book](https://drive.google.com/file/d/1ZyjaU4NB1y7OWE0JBS5_LA8juNC-OSck/view) |
+| 42 | **Badsha Namder** | হুমায়ূন আহমেদ | — | PDF | 4.1 MB | [📖 Open Book](https://drive.google.com/file/d/1dzIGwnCLWVOyQ5RugHi8X0ykXIQcsirp/view) |
+| 43 | **Badshah Namdar** | হুমায়ূন আহমেদ | — | PDF | 39.4 MB | [📖 Open Book](https://drive.google.com/file/d/1KLCtRZDyXOZK9Tne7a-XZPk6ZUyutdL-/view) |
+| 44 | **Badshah Namdar PDF** | হুমায়ূন আহমেদ | — | PDF | 4.3 MB | [📖 Open Book](https://drive.google.com/file/d/17yMUHvbXsQ4zvZm02OyPFN1r_KibbUCF/view) |
+| 45 | **Ballpoint** | হুমায়ূন আহমেদ | — | PDF | 7.4 MB | [📖 Open Book](https://drive.google.com/file/d/1b_GPAQBa99pkTxv9sR5dVTPqmciOHtxx/view) |
+| 46 | **Basanta Bilap** | হুমায়ূন আহমেদ | — | PDF | 9.6 MB | [📖 Open Book](https://drive.google.com/file/d/1RgFcwpr1ct_CYrC6LTNApHnHart19Odx/view) |
+| 47 | **Basor** | হুমায়ূন আহমেদ | — | PDF | 4.3 MB | [📖 Open Book](https://drive.google.com/file/d/1ABVUNP9w2YNCJAA9IiWTsoSa8-KctuJe/view) |
+| 48 | **Bhoy** | হুমায়ূন আহমেদ | — | PDF | 7.1 MB | [📖 Open Book](https://drive.google.com/file/d/1jO4cd42WWV7Y3oUEr5wTrEUK-xjU3cE8/view) |
+| 49 | **Bhoy Humayun Ahmed** | হুমায়ূন আহমেদ | — | PDF | 6.9 MB | [📖 Open Book](https://drive.google.com/file/d/1ZmD_E-rgHupBEVoOcXU0qJftkYqWtKzW/view) |
+| 50 | **Bhraman Samagra** | হুমায়ূন আহমেদ | — | PDF | 8.4 MB | [📖 Open Book](https://drive.google.com/file/d/1SHt7-IRwn3fquJnV8bsxeH8FH4qWzgnx/view) |
+| 51 | **Bipod** | হুমায়ূন আহমেদ | — | PDF | 2.8 MB | [📖 Open Book](https://drive.google.com/file/d/1Lw7shTD0-aBMpj4xyGJZwIPcjOnOKHM1/view) |
+| 52 | **Bipod** | হুমায়ূন আহমেদ | — | PDF | 3.1 MB | [📖 Open Book](https://drive.google.com/file/d/1Nfj6picdrJfp2x6SEP51PttCoWLdbKwP/view) |
+| 53 | **Black Friday** | হুমায়ূন আহমেদ | — | PDF | 1.1 MB | [📖 Open Book](https://drive.google.com/file/d/1F7VFi74002gTVCaTnv4n8lWHLcjs7rJj/view) |
+| 54 | **Bohubrihi** | হুমায়ূন আহমেদ | — | PDF | 15.0 MB | [📖 Open Book](https://drive.google.com/file/d/1BisBgnWGnrrHj0Jyoa5XRMO6PeSbOrlL/view) |
+| 55 | **Bohubrihi** | হুমায়ূন আহমেদ | — | PDF | 14.4 MB | [📖 Open Book](https://drive.google.com/file/d/1M-43sNvuyWKHAMNIHOdTsxpwUkdCv5lm/view) |
+| 56 | **Botol Bhut** | হুমায়ূন আহমেদ | — | PDF | 4.6 MB | [📖 Open Book](https://drive.google.com/file/d/11-E4h8leW9z-SgODArYXcm3DaA2HQOAu/view) |
+| 57 | **Brihonnola** | হুমায়ূন আহমেদ | — | PDF | 4.2 MB | [📖 Open Book](https://drive.google.com/file/d/14xO6pKVv-T7ynFhAGRmRS1WTTS_w8HCl/view) |
+| 58 | **Brihonnola** | হুমায়ূন আহমেদ | — | PDF | 4.3 MB | [📖 Open Book](https://drive.google.com/file/d/1xkrF1e6XXly7aQy_Jc3RO62gB07g9LF4/view) |
+| 59 | **Brikkha Kotha** | হুমায়ূন আহমেদ | — | PDF | 6.3 MB | [📖 Open Book](https://drive.google.com/file/d/1XVNFOvpusk1jH2YWRvvfYHPoqLogTAFB/view) |
+| 60 | **Brikkhakatha** | হুমায়ূন আহমেদ | — | PDF | 15.0 MB | [📖 Open Book](https://drive.google.com/file/d/1mD0ZXBdz89R6Z2Uvp4l7lWaZllLm6c9U/view) |
+| 61 | **Brikkhokotha** | হুমায়ূন আহমেদ | — | PDF | 5.0 MB | [📖 Open Book](https://drive.google.com/file/d/1ETjalJ-eireUMZOZdwz4jzAH3N_DsndA/view) |
+| 62 | **Brishti Bilash** | হুমায়ূন আহমেদ | — | PDF | 10.3 MB | [📖 Open Book](https://drive.google.com/file/d/17R0onbch2-PqFpyyiVtb29Y1C2o64Yc5/view) |
+| 63 | **Brishti Bilash** | হুমায়ূন আহমেদ | — | PDF | 10.6 MB | [📖 Open Book](https://drive.google.com/file/d/1m4PpjRLazb9Fid0z_RP1wj84-K5rvOzi/view) |
+| 64 | **Brishti O Meghomala** | হুমায়ূন আহমেদ | — | PDF | 5.0 MB | [📖 Open Book](https://drive.google.com/file/d/1rfI8j594vMi515heZ-LbAH6bdJR55bXD/view) |
+| 65 | **Chader Aloy Koyekjon Jubok Humayun Ahmed** | হুমায়ূন আহমেদ | — | PDF | 7.9 MB | [📖 Open Book](https://drive.google.com/file/d/16jBWuet6xANrOXzmK9A8ZDsKFPRHZAmN/view) |
+| 66 | **Chander Aloy Koekjon Jubok** | হুমায়ূন আহমেদ | — | PDF | 7.8 MB | [📖 Open Book](https://drive.google.com/file/d/1DPuw_TcsfyfFqFnVVv_AAzPchpLO_FjU/view) |
+| 67 | **Chander Aloy Koekjon Jubok Humayun Ahmed** | হুমায়ূন আহমেদ | — | PDF | 7.8 MB | [📖 Open Book](https://drive.google.com/file/d/1-Wn4uGge2VQkM9W6Sqv0ASg3JlCRNRiM/view) |
+| 68 | **Chaya Songi** | হুমায়ূন আহমেদ | — | PDF | 2.8 MB | [📖 Open Book](https://drive.google.com/file/d/11bPYeOL68lsC5k39LLLdCLPw24a2Xr02/view) |
+| 69 | **Chayabithi** | হুমায়ূন আহমেদ | — | PDF | 5.3 MB | [📖 Open Book](https://drive.google.com/file/d/1o37y3xQHqFIFkq54yxiTm7dRl7CK-DN2/view) |
+| 70 | **Cheleta** | হুমায়ূন আহমেদ | — | PDF | 7.9 MB | [📖 Open Book](https://drive.google.com/file/d/1LqI7tz9BjI-usq65i5GcId8R56rkuFeW/view) |
+| 71 | **Chobi Bananor Golpo** | হুমায়ূন আহমেদ | — | PDF | 35.8 MB | [📖 Open Book](https://drive.google.com/file/d/1URZPAHHV0k1KqBsu2nlIr5rEpWKGSu9C/view) |
+| 72 | **Choitrer Ditio Dibos** | হুমায়ূন আহমেদ | — | PDF | 12.2 MB | [📖 Open Book](https://drive.google.com/file/d/1PdiNYwUPaX4uz95ITEqvq8fK2Nhod7wT/view) |
+| 73 | **Chokkhe Amar Trishna** | হুমায়ূন আহমেদ | — | PDF | 4.9 MB | [📖 Open Book](https://drive.google.com/file/d/1P0K-Fj0urMlwP3BJCpbZGwuA0AabNVwM/view) |
+| 74 | **Chokkhe Amar Trisna** | হুমায়ূন আহমেদ | — | PDF | 4.4 MB | [📖 Open Book](https://drive.google.com/file/d/1MWoRgqD8kfGANrtWBZlV36JnoYAYd2ad/view) |
+| 75 | **Chole Jay Bosonter Din** | হুমায়ূন আহমেদ | — | PDF | 9.8 MB | [📖 Open Book](https://drive.google.com/file/d/10dh8Y5rsfAxZDPTZJOOgtyVrgRebGHU8/view) |
+| 76 | **Choto Golpo** | হুমায়ূন আহমেদ | — | PDF | 3.6 MB | [📖 Open Book](https://drive.google.com/file/d/15qFnRVc4wrTwZwbBrmHgIKNHfvlXVl1a/view) |
+| 77 | **Chotoder Joto Lekha** | হুমায়ূন আহমেদ | — | PDF | 12.4 MB | [📖 Open Book](https://drive.google.com/file/d/1ssHqE8owKnjHriA4v9USNYw_wC92GVF_/view) |
+| 78 | **Dar Kaker Songsar Kingba Majhe Majhe Tobo Dekha Pai Humayun Ahmed** | হুমায়ূন আহমেদ | — | PDF | 4.1 MB | [📖 Open Book](https://drive.google.com/file/d/19QBGQbTUJMYPezabrUi3BOpDbCNYqjNE/view) |
+| 79 | **Daruchini Dip** | হুমায়ূন আহমেদ | — | PDF | 9.4 MB | [📖 Open Book](https://drive.google.com/file/d/1Oy0GSF-CdWWF9wkE9AJiIFw8q1vAJaD-/view) |
+| 80 | **Debi** | হুমায়ূন আহমেদ | — | PDF | 7.9 MB | [📖 Open Book](https://drive.google.com/file/d/1BehsGZDIt-pXFB8l5iUmo6cgArlxvsgg/view) |
+| 81 | **Debi** | হুমায়ূন আহমেদ | — | PDF | 8.0 MB | [📖 Open Book](https://drive.google.com/file/d/1N_wI89IshmPl6sMq5A48yuhcfqV-iM_8/view) |
+| 82 | **Dekha Na Dekha** | হুমায়ূন আহমেদ | — | PDF | 2.7 MB | [📖 Open Book](https://drive.google.com/file/d/1we9oW-ARWh6-LBMH3zqH4xrV-lxiFjZf/view) |
+| 83 | **Deyal** | হুমায়ূন আহমেদ | — | PDF | 4.3 MB | [📖 Open Book](https://drive.google.com/file/d/1BQuoJFmLTcXz9tXlF6Fm4i0V63oaOJ5Z/view) |
+| 84 | **Dighir Jola Kaar Chayago** | হুমায়ূন আহমেদ | — | PDF | 5.4 MB | [📖 Open Book](https://drive.google.com/file/d/1jKbGtZa-CrSaLj-tuAGT-yQFP8f-LRiX/view) |
+| 85 | **Dighir Jole Kar Chaya Go Humayun Ahmed** | হুমায়ূন আহমেদ | — | PDF | 6.5 MB | [📖 Open Book](https://drive.google.com/file/d/1JPlnqsToGdmgkxVd2Gcwkbrg5ZecCXAi/view) |
+| 86 | **Diner Seshe** | হুমায়ূন আহমেদ | — | PDF | 42.4 MB | [📖 Open Book](https://drive.google.com/file/d/1mieU4YuIStq5Cy1weIKxJIiyFlQVLbJm/view) |
+| 87 | **Diner Shese** | হুমায়ূন আহমেদ | — | PDF | 6.2 MB | [📖 Open Book](https://drive.google.com/file/d/1qSv5mCXUFx3bdPmKiI-l2SQkJ2nwucTo/view) |
+| 88 | **Ditiyo Manob** | হুমায়ূন আহমেদ | — | PDF | 5.1 MB | [📖 Open Book](https://drive.google.com/file/d/10YM5IlxzsUiGvD2Wb-5yXS6EpspRQ7sg/view) |
+| 89 | **Ditiyo Prahar** | হুমায়ূন আহমেদ | — | PDF | 5.7 MB | [📖 Open Book](https://drive.google.com/file/d/1UvBCYL9CPb5hcGyBi9gugjulQOrJB_m0/view) |
+| 90 | **Doiroth** | হুমায়ূন আহমেদ | — | PDF | 807 KB | [📖 Open Book](https://drive.google.com/file/d/1xXcGvT4gKmydB2yiKcMiJtFIcSQaNzNw/view) |
+| 91 | **Dorjar Opashe** | হুমায়ূন আহমেদ | — | PDF | 10.1 MB | [📖 Open Book](https://drive.google.com/file/d/1H6Fs9DD_PO50GF1HsfCkw0sT8s7bQWMN/view) |
+| 92 | **Dosh Jon** | হুমায়ূন আহমেদ | — | PDF | 16.5 MB | [📖 Open Book](https://drive.google.com/file/d/1Cct03Yl26fpPkYrt9gw8NSsO487r9T4_/view) |
+| 93 | **Dui Duari** | হুমায়ূন আহমেদ | — | PDF | 6.4 MB | [📖 Open Book](https://drive.google.com/file/d/1Cb7VslBYe6Zev8a_mz0xbz_RRrUp7l2y/view) |
+| 94 | **Dui Duari** | হুমায়ূন আহমেদ | — | PDF | 6.8 MB | [📖 Open Book](https://drive.google.com/file/d/1DcitG2GrlfUMVHuSO1adAJ85hO8cOP78/view) |
+| 95 | **Dure Kothao** | হুমায়ূন আহমেদ | — | PDF | 14.2 MB | [📖 Open Book](https://drive.google.com/file/d/1jIvqwsYpkrXuqnh9-3XLb6Yx6jdM5rNa/view) |
+| 96 | **Ei Ami** | হুমায়ূন আহমেদ | — | PDF | 12.7 MB | [📖 Open Book](https://drive.google.com/file/d/1BUFh80lpuHJ_bVWuwZl3RgLvHjm_CrXH/view) |
+| 97 | **Ei Ami** | হুমায়ূন আহমেদ | — | PDF | 14.0 MB | [📖 Open Book](https://drive.google.com/file/d/1wKNwdWXseXJkkl_-T4xuXsqYjtpHrPGO/view) |
+| 98 | **Ei Bosonte** | হুমায়ূন আহমেদ | — | PDF | 3.6 MB | [📖 Open Book](https://drive.google.com/file/d/1asA_y67ObxOKKc5lYBFnAG83XYjGg8ru/view) |
+| 99 | **Ei Megh Rodro Chaya** | হুমায়ূন আহমেদ | — | PDF | 6.6 MB | [📖 Open Book](https://drive.google.com/file/d/12AFogq6BlE9-2i9oNn88Wry5llrT6SDg/view) |
+| 100 | **Ei Megh Rodro Chaya** | হুমায়ূন আহমেদ | — | PDF | 6.3 MB | [📖 Open Book](https://drive.google.com/file/d/1X2xQcTVvAKUMe1yTXZhnMRBoNdmNNZxy/view) |
+| 101 | **Ei Shuvro Ei Humayun Ahmed []** | হুমায়ূন আহমেদ | — | PDF | 4.4 MB | [📖 Open Book](https://drive.google.com/file/d/1tPxtA3i6B_ACWpsKvIWb5Kko-LFONy-6/view) |
+| 102 | **Ei Sob Din Ratri** | হুমায়ূন আহমেদ | — | PDF | 11.1 MB | [📖 Open Book](https://drive.google.com/file/d/10B27WTyKsjLWGeT-l-W-_rZiPWc3xc1Y/view) |
+| 103 | **Eka Eka** | হুমায়ূন আহমেদ | — | PDF | 8.8 MB | [📖 Open Book](https://drive.google.com/file/d/1ZAnPVIQ6Qxqj7eX-7got-BifjUqK1Jc5/view) |
+| 104 | **Ekattor Ebong Amar Baba** | হুমায়ূন আহমেদ | — | PDF | 8.9 MB | [📖 Open Book](https://drive.google.com/file/d/1HF2IX55WUZ1RSGqgdMhw-0WLB1OCGtev/view) |
+| 105 | **Eki Kando** | হুমায়ূন আহমেদ | — | PDF | 4.0 MB | [📖 Open Book](https://drive.google.com/file/d/1GnT3ihDXCB7SCn-GD4-KpGKDGR05EubE/view) |
+| 106 | **Ekjon Mayaboti** | হুমায়ূন আহমেদ | — | PDF | 2.2 MB | [📖 Open Book](https://drive.google.com/file/d/10ks8DYJEOTCBCixt-WfuixfSCPLy2yD8/view) |
+| 107 | **Ekjon Mayaboti** | হুমায়ূন আহমেদ | — | PDF | 5.0 MB | [📖 Open Book](https://drive.google.com/file/d/1M_W5bs29SuIoQICF0pJsnQFQ4jr3W4ok/view) |
+| 108 | **Ekti Cycle Ebong Koyekti Dahuk Pakhi** | হুমায়ূন আহমেদ | — | PDF | 14.2 MB | [📖 Open Book](https://drive.google.com/file/d/1NUSfd5o4W4d9ohWp5EsaGd-EW7V3CDhZ/view) |
+| 109 | **Ekti Cycle Ebong Koyekti Dahuk Pakhi** | হুমায়ূন আহমেদ | — | PDF | 17.2 MB | [📖 Open Book](https://drive.google.com/file/d/1tTckVWtTi9nlKmC1OLlyYwDo123zhhpY/view) |
+| 110 | **Ele Bele** | হুমায়ূন আহমেদ | — | PDF | 6.8 MB | [📖 Open Book](https://drive.google.com/file/d/11M4WIG9GikmnFUEQKKJ-Ial51kyY9sjV/view) |
+| 111 | **Ele-Bele.2** | হুমায়ূন আহমেদ | — | PDF | 8.8 MB | [📖 Open Book](https://drive.google.com/file/d/1dsmdle-z7opzO0ukOm-nPmyPBs4Cy2pj/view) |
+| 112 | **Ema** | হুমায়ূন আহমেদ | — | PDF | 6.8 MB | [📖 Open Book](https://drive.google.com/file/d/1qx2Qed-q1xaOLAoYljENJvA9NSIY63UX/view) |
+| 113 | **Ema** | হুমায়ূন আহমেদ | — | PDF | 5.9 MB | [📖 Open Book](https://drive.google.com/file/d/1voaestrQ9yGwEzT-CPcy6UEqhy1duWsk/view) |
+| 114 | **Epitaph** | হুমায়ূন আহমেদ | — | PDF | 7.8 MB | [📖 Open Book](https://drive.google.com/file/d/1O65eofF8yPnsy3taegL_vDKY-Snvl8i9/view) |
+| 115 | **Fera** | হুমায়ূন আহমেদ | — | PDF | 1.4 MB | [📖 Open Book](https://drive.google.com/file/d/1G2UqG7r732QC4cAtBEuLvVyHOiAnFPZc/view) |
+| 116 | **Fiha Somikoron** | হুমায়ূন আহমেদ | — | PDF | 5.4 MB | [📖 Open Book](https://drive.google.com/file/d/12styR8RR6jidVEtwEdAbq2Im7EwZ6mYz/view) |
+| 117 | **Fountain Pen** | হুমায়ূন আহমেদ | — | PDF | 6.7 MB | [📖 Open Book](https://drive.google.com/file/d/1FH-wbbTWxWSIPN9wz1FDv6Dp6WMJaZTJ/view) |
+| 118 | **Golpo Samagra** | হুমায়ূন আহমেদ | — | PDF | 19.8 MB | [📖 Open Book](https://drive.google.com/file/d/1IOOUK7H2DfLvVlG6DphIX8titZlVRLtV/view) |
+| 119 | **Golpo Samagra** | হুমায়ূন আহমেদ | — | PDF | 19.9 MB | [📖 Open Book](https://drive.google.com/file/d/1OEHMsUrBQqKNTquOcyrj4Bb8nCKxXZRv/view) |
+| 120 | **Gouripur Jongshon (Junction)** | হুমায়ূন আহমেদ | — | PDF | 4.6 MB | [📖 Open Book](https://drive.google.com/file/d/1I2ZETxaFkuNBCf2krBGmrmqXsz3JfHlN/view) |
+| 121 | **Gouripur Junction** | হুমায়ূন আহমেদ | — | PDF | 8.4 MB | [📖 Open Book](https://drive.google.com/file/d/1o6ed8M4A_88kbQRBxFVhR96oWxvLVN3Q/view) |
+| 122 | **Grihotagi Jochna** | হুমায়ূন আহমেদ | — | PDF | 2.9 MB | [📖 Open Book](https://drive.google.com/file/d/1EDvpdQVUrCsD1wadGhzLXiYwN6lNjhkt/view) |
+| 123 | **Grihotaygi Jotsna-Humayun Ahmed** | হুমায়ূন আহমেদ | — | PDF | 2.9 MB | [📖 Open Book](https://drive.google.com/file/d/1anIAumVSDKCU-ioYkejex3GSZdmod_Bc/view) |
+| 124 | **Hartan ishkapon** | হুমায়ূন আহমেদ | — | PDF | 4.1 MB | [📖 Open Book](https://drive.google.com/file/d/1PUgiaYP7oNeMx0GR3yCJVxJjEaEjuusm/view) |
+| 125 | **Hartan Ishkapon** | হুমায়ূন আহমেদ | — | PDF | 4.2 MB | [📖 Open Book](https://drive.google.com/file/d/1pqsklN3vQpfA1rMN1_kKUXeSGdBNnlW5/view) |
+| 126 | **Hijibiji** | হুমায়ূন আহমেদ | — | PDF | 22.0 MB | [📖 Open Book](https://drive.google.com/file/d/1ZjuuvpUMSXrt4fSMgETN_qPFV7wklEJi/view) |
+| 127 | **Hijibiji** | হুমায়ূন আহমেদ | — | PDF | 22.2 MB | [📖 Open Book](https://drive.google.com/file/d/1fHu7bjQ8yiLwK866BypbHkoofwUNzOsI/view) |
+| 128 | **Hotel Graver Inn** | হুমায়ূন আহমেদ | — | PDF | 3.3 MB | [📖 Open Book](https://drive.google.com/file/d/19PxgQvK4V-QYXtV5b-MYvaAVZ3-fLahs/view) |
+| 129 | **Humayun Ahmed Er Premer Golpo** | হুমায়ূন আহমেদ | — | PDF | 7.5 MB | [📖 Open Book](https://drive.google.com/file/d/1DPc9Hte0l7HyGQU55GiuWU88ZcY-pk_J/view) |
+| 130 | **Humayun Ahmeder Hate Panchti Neel Paddo** | হুমায়ূন আহমেদ | — | PDF | 44.1 MB | [📖 Open Book](https://drive.google.com/file/d/13yoiy4cKZwvu3yRDgB2aTSmSHzLCWiaL/view) |
+| 131 | **In Blissfull Hell [English Translation Of Nondito Noroke]** | হুমায়ূন আহমেদ | — | PDF | 2.6 MB | [📖 Open Book](https://drive.google.com/file/d/1Tfc7XddyyfWCk0yLKlKz3r8wgb23HuTh/view) |
+| 132 | **Ireena** | হুমায়ূন আহমেদ | — | PDF | 8.7 MB | [📖 Open Book](https://drive.google.com/file/d/1lgkxGHSesFKj9KIx9wmdbQ7Y3uDZODZN/view) |
+| 133 | **Ishtishon** | হুমায়ূন আহমেদ | — | PDF | 7.9 MB | [📖 Open Book](https://drive.google.com/file/d/1QPi6keP0g8BfF-MS4IMAxZx58ZjMFknD/view) |
+| 134 | **Istition** | হুমায়ূন আহমেদ | — | PDF | 2.0 MB | [📖 Open Book](https://drive.google.com/file/d/10tpLKFRuG5VVGWJU8Dgh_NUylzaSECUf/view) |
+| 135 | **Jadukor** | হুমায়ূন আহমেদ | — | PDF | 726 KB | [📖 Open Book](https://drive.google.com/file/d/16ibn9EDDhksfCdN3NGMOU2X9YhtymaAU/view) |
+| 136 | **Jalil Shaheber Petition** | হুমায়ূন আহমেদ | — | PDF | 370 KB | [📖 Open Book](https://drive.google.com/file/d/1_73FVjFWqD7B73udiYy3og6Ag_zy-5tW/view) |
+| 137 | **Jibonkrishno Memorial High School** | হুমায়ূন আহমেদ | — | PDF | 3.5 MB | [📖 Open Book](https://drive.google.com/file/d/1lr7u3d7Qabxd0_nxPFVBY3yiVlebD--5/view) |
+| 138 | **Jochna O Jononir Golpo** | হুমায়ূন আহমেদ | — | PDF | 20.9 MB | [📖 Open Book](https://drive.google.com/file/d/1yVtEnFV6zzZMVoIOe6n2atHyfN-Z-Xth/view) |
+| 139 | **Jodio Sondha** | হুমায়ূন আহমেদ | — | PDF | 10.7 MB | [📖 Open Book](https://drive.google.com/file/d/1Nz5Zq-38F10CT20aLzVkQLORB8A3h1iE/view) |
+| 140 | **Jokhon Giyeche Dube Ponchomir Chan** | হুমায়ূন আহমেদ | — | PDF | 15.3 MB | [📖 Open Book](https://drive.google.com/file/d/1B-cKWOTNgXN7SVYIRSmOX8bJoqvtZ1vb/view) |
+| 141 | **Jokhon Namibe Adhar** | হুমায়ূন আহমেদ | — | PDF | 8.0 MB | [📖 Open Book](https://drive.google.com/file/d/1Kc30SIeq2j9mlblo6cf7QtC7KINRwhhx/view) |
+| 142 | **Jol Jochona** | হুমায়ূন আহমেদ | — | PDF | 5.5 MB | [📖 Open Book](https://drive.google.com/file/d/1FPlJCvb4q90KsvJxvfxu2rmKIylT4-ZP/view) |
+| 143 | **Jol Poddo** | হুমায়ূন আহমেদ | — | PDF | 10.6 MB | [📖 Open Book](https://drive.google.com/file/d/1pTQXRRynpdaHuNYUgozdAv-58tJUUyf7/view) |
+| 144 | **Jolkonna** | হুমায়ূন আহমেদ | — | PDF | 1.8 MB | [📖 Open Book](https://drive.google.com/file/d/1glGrjOgFr-nKoM6Aai15LeBdV2Iqz4Fx/view) |
+| 145 | **Jonom Jonom** | হুমায়ূন আহমেদ | — | PDF | 5.9 MB | [📖 Open Book](https://drive.google.com/file/d/1_5Jj1bjIqq3oH6mh4ofuIu9MV3f8xqaH/view) |
+| 146 | **Jontro** | হুমায়ূন আহমেদ | — | PDF | 325 KB | [📖 Open Book](https://drive.google.com/file/d/1E1zRKK2WMpxcYOnnv1nP_ZIv3VB6Z7Zu/view) |
+| 147 | **Joshoha Brikkher Deshe** | হুমায়ূন আহমেদ | — | PDF | 1.5 MB | [📖 Open Book](https://drive.google.com/file/d/15Eyf-pYiHflDHbyXm_kCbXeehhuZd-L0/view) |
+| 148 | **Joyjoyonti** | হুমায়ূন আহমেদ | — | PDF | 18.6 MB | [📖 Open Book](https://drive.google.com/file/d/1A5z1EDssV5shpP1wvsve9vDiRBR46Ykq/view) |
+| 149 | **Kalo Jadukor** | হুমায়ূন আহমেদ | — | PDF | 6.9 MB | [📖 Open Book](https://drive.google.com/file/d/1foVHti1RqIZ7eZqsVK5bws83D7IbWILO/view) |
+| 150 | **Kalo Jadukor** | হুমায়ূন আহমেদ | — | PDF | 5.4 MB | [📖 Open Book](https://drive.google.com/file/d/1zqy9551dh094J9WL8EJx1MrL0Kcoaqyw/view) |
+| 151 | **Kathpencil** | হুমায়ূন আহমেদ | — | PDF | 5.5 MB | [📖 Open Book](https://drive.google.com/file/d/1gCHNSL4wr4T6PXq43q2Nncwj_BEpCTQ1/view) |
+| 152 | **Kathpencil** | হুমায়ূন আহমেদ | — | PDF | 5.3 MB | [📖 Open Book](https://drive.google.com/file/d/1jVEYOhscCOhep0fZAZ4h2f3LHwlpYHpy/view) |
+| 153 | **Ke Kotha Koy** | হুমায়ূন আহমেদ | — | PDF | 27.9 MB | [📖 Open Book](https://drive.google.com/file/d/1P5dJH5A3iNuNykHwWBNh-bhlTE9xf6Z9/view) |
+| 154 | **Kichu Shoishob** | হুমায়ূন আহমেদ | — | PDF | 10.1 MB | [📖 Open Book](https://drive.google.com/file/d/1n42I5y4AzDVyIBat9SwBKxkkBbPEVKf7/view) |
+| 155 | **Kichukkhan** | হুমায়ূন আহমেদ | — | PDF | 8.6 MB | [📖 Open Book](https://drive.google.com/file/d/19oiDus2t6gyvBnHksh8KNQBSrEVlEDSd/view) |
+| 156 | **Kichukkhan** | হুমায়ূন আহমেদ | — | PDF | 2.3 MB | [📖 Open Book](https://drive.google.com/file/d/1xMHtypKHYi225zptaf0pq_NjeRmUd01y/view) |
+| 157 | **Kobi** | হুমায়ূন আহমেদ | — | PDF | 28.1 MB | [📖 Open Book](https://drive.google.com/file/d/1JBda3UPKffx_fSTKi9H29SGCZhvev99l/view) |
+| 158 | **Kobi 1, 2 3** | হুমায়ূন আহমেদ | — | PDF | 28.4 MB | [📖 Open Book](https://drive.google.com/file/d/1BlsriPbg9SpGG4uQyY3DJleQGV2kZoch/view) |
+| 159 | **Kohen Kobi Kalidas** | হুমায়ূন আহমেদ | — | PDF | 5.8 MB | [📖 Open Book](https://drive.google.com/file/d/1dEn6Eo-II_tyMYu2soDxey7nZw0DjVJM/view) |
+| 160 | **Kohen kobi kalidash** | হুমায়ূন আহমেদ | — | PDF | 5.9 MB | [📖 Open Book](https://drive.google.com/file/d/1hg8MIQuMoWA2fpi9aRFWJpne5Q4EyMED/view) |
+| 161 | **Kothao Keu Nei PDF** | হুমায়ূন আহমেদ | — | PDF | 12.6 MB | [📖 Open Book](https://drive.google.com/file/d/1nSo45m5N89gHVRbXnmv7bh8J2RGlEq-D/view) |
+| 162 | **Kothau Keu Nei** | হুমায়ূন আহমেদ | — | PDF | 14.0 MB | [📖 Open Book](https://drive.google.com/file/d/1CMQJ4DK9MR6yDBG5qSsZs5cRwAqKLaOq/view) |
+| 163 | **Koto Na Osru Jol** | হুমায়ূন আহমেদ | — | PDF | 722 KB | [📖 Open Book](https://drive.google.com/file/d/1tHdmspFM5Jk4sOvzWmLVNsubm_kGK2bv/view) |
+| 164 | **Krishno Pokkho** | হুমায়ূন আহমেদ | — | PDF | 450 KB | [📖 Open Book](https://drive.google.com/file/d/1Pdkkfw2vJZrsAFE2c2eCkd0kv_KZkP3n/view) |
+| 165 | **Kudduser Ekdin** | হুমায়ূন আহমেদ | — | PDF | 1.3 MB | [📖 Open Book](https://drive.google.com/file/d/1ddeAb8MHyqTdiY_HZCRU3jEU2xrqE_43/view) |
+| 166 | **Kuhok** | হুমায়ূন আহমেদ | — | PDF | 7.1 MB | [📖 Open Book](https://drive.google.com/file/d/1UQOvLIFPdHRgOt4qdC-PWZ8A5QKB4T21/view) |
+| 167 | **Kuhurani** | হুমায়ূন আহমেদ | — | PDF | 6.6 MB | [📖 Open Book](https://drive.google.com/file/d/1WsxKcGZzPhQusqR4s_st-0GD49wxtbKL/view) |
+| 168 | **Kuhurani** | হুমায়ূন আহমেদ | — | PDF | 7.6 MB | [📖 Open Book](https://drive.google.com/file/d/1onVhytRm-TdKlM1NMv5Tl3PcuRUYIFnj/view) |
+| 169 | **Kutu Mia** | হুমায়ূন আহমেদ | — | PDF | 9.5 MB | [📖 Open Book](https://drive.google.com/file/d/16OvNujdBCj1NwwW4vXoQw_Nvxws2XO09/view) |
+| 170 | **Lilaboti** | হুমায়ূন আহমেদ | — | PDF | 47.9 MB | [📖 Open Book](https://drive.google.com/file/d/1lQ_NEV9l6jIwtPcGJPuAGWaYkmnrPwEP/view) |
+| 171 | **Lilaboti PDF** | হুমায়ূন আহমেদ | — | PDF | 3.2 MB | [📖 Open Book](https://drive.google.com/file/d/1DyKz1YLMbI7hL8naScx-OetB34ywRnWH/view) |
+| 172 | **Lilabotir Mrityau** | হুমায়ূন আহমেদ | — | PDF | 2.5 MB | [📖 Open Book](https://drive.google.com/file/d/1oGec89E_hdpOpH6gmjd1kDrNah7C8Zd_/view) |
+| 173 | **Lilabotir Mrityu** | হুমায়ূন আহমেদ | — | PDF | 3.2 MB | [📖 Open Book](https://drive.google.com/file/d/18ZYmDlu445BMkamtDIx6INyo-wKCH90E/view) |
+| 174 | **Lilua batash** | হুমায়ূন আহমেদ | — | PDF | 4.4 MB | [📖 Open Book](https://drive.google.com/file/d/1-0qST9vYBzc-S9w7KwV2dzLq6O_ggcqB/view) |
+| 175 | **Lipi** | হুমায়ূন আহমেদ | — | PDF | 1.9 MB | [📖 Open Book](https://drive.google.com/file/d/19dwlgilQTAeviAv26ExhDfS1mVPkHtMb/view) |
+| 176 | **Maddhanya** | হুমায়ূন আহমেদ | — | PDF | 42.7 MB | [📖 Open Book](https://drive.google.com/file/d/1wuyLUAmfoA8vbwlN-GcD2EJ62IM35NPT/view) |
+| 177 | **Magic Munshi** | হুমায়ূন আহমেদ | — | PDF | 4.6 MB | [📖 Open Book](https://drive.google.com/file/d/1ukQqsS_OVR7frqzgb2ec34BDpmHl2ctJ/view) |
+| 178 | **Magic Munsi** | হুমায়ূন আহমেদ | — | PDF | 5.2 MB | [📖 Open Book](https://drive.google.com/file/d/13H8fWX9bN7Ieo7kHz_IfdcsWOKou_w6t/view) |
+| 179 | **Manobi** | হুমায়ূন আহমেদ | — | PDF | 5.3 MB | [📖 Open Book](https://drive.google.com/file/d/1nekKlw9tbKnVEkfaEmwPct0GVcascVK_/view) |
+| 180 | **Matal Haowa** | হুমায়ূন আহমেদ | — | PDF | 11.8 MB | [📖 Open Book](https://drive.google.com/file/d/1-JnX3VX-7lh6c0CIOmaUtKGMrcFlni1r/view) |
+| 181 | **Matal Haowa** | হুমায়ূন আহমেদ | — | PDF | 11.7 MB | [📖 Open Book](https://drive.google.com/file/d/1NRhQbMwtLaBRSon7vJvC5kDtwIb5nJa1/view) |
+| 182 | **May Flower** | হুমায়ূন আহমেদ | — | PDF | 43.3 MB | [📖 Open Book](https://drive.google.com/file/d/1xGG4EoaGUOsMMvEDeD-4WTBMkkM-Fzz3/view) |
+| 183 | **Megh Boleche Jabo Jabo** | হুমায়ূন আহমেদ | — | PDF | 11.7 MB | [📖 Open Book](https://drive.google.com/file/d/1k3h4JKj2Er6hNgQeisxIyhRmW04lIHuw/view) |
+| 184 | **Megh Boleche Jabo Jabo** | হুমায়ূন আহমেদ | — | PDF | 13.4 MB | [📖 Open Book](https://drive.google.com/file/d/1s23W4KDuJNbxBC7dNrkl6yqfjr0_oigw/view) |
+| 185 | **Megher Chaya** | হুমায়ূন আহমেদ | — | PDF | 8.0 MB | [📖 Open Book](https://drive.google.com/file/d/1N932TfqahUKn4MmeDkoEx4L2NhTR56Ix/view) |
+| 186 | **Megher Opor Bari** | হুমায়ূন আহমেদ | — | PDF | 4.3 MB | [📖 Open Book](https://drive.google.com/file/d/1ZifidnIud3aYv-UmuIXTgsSHUxL4kdG-/view) |
+| 187 | **Megher Upor Bari** | হুমায়ূন আহমেদ | — | PDF | 1.1 MB | [📖 Open Book](https://drive.google.com/file/d/1II1g4GNs7K6RzFvYfDz_T_iQxmXauvuk/view) |
+| 188 | **Mirar Gramer Bari** | হুমায়ূন আহমেদ | — | PDF | 7.3 MB | [📖 Open Book](https://drive.google.com/file/d/1G5LA7XQdUTCxcmuVI9QmN17V58mx4tNS/view) |
+| 189 | **Mirar Gramer Bari** | হুমায়ূন আহমেদ | — | PDF | 7.3 MB | [📖 Open Book](https://drive.google.com/file/d/1se6w-E1rcjN1EUQGTNsANmgC3f8K2v3n/view) |
+| 190 | **Mohapurush** | হুমায়ূন আহমেদ | — | PDF | 1.7 MB | [📖 Open Book](https://drive.google.com/file/d/1PK1MgQiiXw5re4ZLmEVxzuY3F_zDb594/view) |
+| 191 | **Mojar Bhoot** | হুমায়ূন আহমেদ | — | PDF | 7.2 MB | [📖 Open Book](https://drive.google.com/file/d/1WsQAdJcghsd0BslA_lljbL_1dt0Wgmzh/view) |
+| 192 | **Mojar Bhoot** | হুমায়ূন আহমেদ | — | PDF | 7.5 MB | [📖 Open Book](https://drive.google.com/file/d/1pbEpjdADHIy8tusC1vMxc5Ypw2-WvMFp/view) |
+| 193 | **Mondroshoptok** | হুমায়ূন আহমেদ | — | PDF | 13.4 MB | [📖 Open Book](https://drive.google.com/file/d/1ksuAJGuCMT1YbbT5EC4CTwR1LnMnhoaq/view) |
+| 194 | **Moyurakkhi** | হুমায়ূন আহমেদ | — | PDF | 6.0 MB | [📖 Open Book](https://drive.google.com/file/d/1xL5R1oEqp9gvoRLkl48mdWiYOsG1zQK4/view) |
+| 195 | **Moyurakkhi Humayun Ahmed** | হুমায়ূন আহমেদ | — | PDF | 5.8 MB | [📖 Open Book](https://drive.google.com/file/d/1dpRK_Ecj_8mSFd763F4N6AH5EUAy5ctE/view) |
+| 196 | **Mrinmoyee** | হুমায়ূন আহমেদ | — | PDF | 11.0 MB | [📖 Open Book](https://drive.google.com/file/d/1LxsNdqqr_6YQuJL0bLxxJ6vPKiJZsFyQ/view) |
+| 197 | **Mrinmoyee** | হুমায়ূন আহমেদ | — | PDF | 11.1 MB | [📖 Open Book](https://drive.google.com/file/d/1jVlB-K2HuUKfy56Td4-RuMzSeVHCwF2X/view) |
+| 198 | **Mrinmoyee-by-Humayun-Ahmed-part1** | হুমায়ূন আহমেদ | — | PDF | 4.4 MB | [📖 Open Book](https://drive.google.com/file/d/1p8BviuiIYkP0siiPI5lof4oR41JOIXSJ/view) |
+| 199 | **Mrinmoyir Mon Bhalo Nei** | হুমায়ূন আহমেদ | — | PDF | 7.6 MB | [📖 Open Book](https://drive.google.com/file/d/1KzskiiTLjndHLyj0tAuhAnH2ttBnyUT2/view) |
+| 200 | **Mrinmoyir Mon Valo Nei** | হুমায়ূন আহমেদ | — | PDF | 8.3 MB | [📖 Open Book](https://drive.google.com/file/d/1C-zXB5uzDNMcyb4_TUMZ564SyWgGR442/view) |
+| 201 | **Muktijuddher Uponnash Samagra Humayun Ahmed** | হুমায়ূন আহমেদ | — | PDF | 10.1 MB | [📖 Open Book](https://drive.google.com/file/d/1k7UROICPH3LBRxyoPOSgTgl3OqZPz_Df/view) |
+| 202 | **Nabani** | হুমায়ূন আহমেদ | — | PDF | 11.6 MB | [📖 Open Book](https://drive.google.com/file/d/1_7xWL_8o019IdwgbSLxHOlPjUJLr_e46/view) |
+| 203 | **Nalini Babu BSc** | হুমায়ূন আহমেদ | — | PDF | 6.3 MB | [📖 Open Book](https://drive.google.com/file/d/1yd024KDw47tO6ewgQIgPEzyE0iiI0bvp/view) |
+| 204 | **Nandito Noroke** | হুমায়ূন আহমেদ | — | PDF | 7.8 MB | [📖 Open Book](https://drive.google.com/file/d/1tdzsBHuWQbP_Rzo5bJ8MLcaIs05RcwmA/view) |
+| 205 | **Nee** | হুমায়ূন আহমেদ | — | PDF | 12.6 MB | [📖 Open Book](https://drive.google.com/file/d/1o-virZmwHztQYxVfs6cAABRTi3JhZSNV/view) |
+| 206 | **Neel Hati** | হুমায়ূন আহমেদ | — | PDF | 6.3 MB | [📖 Open Book](https://drive.google.com/file/d/1PlWcyxQgOSIBv0V4_AwPircChsn1A2a7/view) |
+| 207 | **Neel Hati** | হুমায়ূন আহমেদ | — | PDF | 827 KB | [📖 Open Book](https://drive.google.com/file/d/1qbhuBV9K-w6utZU-NNAcvIdNfGY1f1ON/view) |
+| 208 | **Neel Manush** | হুমায়ূন আহমেদ | — | PDF | 6.9 MB | [📖 Open Book](https://drive.google.com/file/d/1HHIospJKKD9SXzJTiwEMkaEh7MXQQcY4/view) |
+| 209 | **Neel Oporajita** | হুমায়ূন আহমেদ | — | PDF | 13.0 MB | [📖 Open Book](https://drive.google.com/file/d/1_B2RJTPptNq9115IuksrsSDUTCZl15DN/view) |
+| 210 | **New York Er Nil Akashe Jhokjhoke Rod** | হুমায়ূন আহমেদ | — | PDF | 1.6 MB | [📖 Open Book](https://drive.google.com/file/d/1WCUvlYY8ZQhYGwMss3BQqvBK96iIFexB/view) |
+| 211 | **Newtoner Bhul Shutro** | হুমায়ূন আহমেদ | — | PDF | 2.3 MB | [📖 Open Book](https://drive.google.com/file/d/1NXSU0sws-IVsOQFJ6WUxGiKgoj1_khC_/view) |
+| 212 | **Nimoddhoma** | হুমায়ূন আহমেদ | — | PDF | 546 KB | [📖 Open Book](https://drive.google.com/file/d/1eR7doB5_oOg03dWzTF_62gVJ5LzVAm3t/view) |
+| 213 | **Nirbachito Bhuter Golpo** | হুমায়ূন আহমেদ | — | PDF | 11.1 MB | [📖 Open Book](https://drive.google.com/file/d/18xXdS0ZjbwNqUa2Acl97qyOJWzle68kn/view) |
+| 214 | **Nirbachito Vuter Golpo** | হুমায়ূন আহমেদ | — | PDF | 10.5 MB | [📖 Open Book](https://drive.google.com/file/d/1oV1kLxEYG4kVvjg1ifouTCbcv7Ppvep2/view) |
+| 215 | **Nirbason** | হুমায়ূন আহমেদ | — | PDF | 3.1 MB | [📖 Open Book](https://drive.google.com/file/d/1EwqgxD-qpmC6DDCbqs5tYRZMQ_lQmLTA/view) |
+| 216 | **Nishad** | হুমায়ূন আহমেদ | — | PDF | 7.4 MB | [📖 Open Book](https://drive.google.com/file/d/12qrUUpE-jefE9gNTeuNkVQVCKBqlJjsK/view) |
+| 217 | **Nishad** | হুমায়ূন আহমেদ | — | PDF | 7.6 MB | [📖 Open Book](https://drive.google.com/file/d/1wwzWyHJwGtIHg6L-QOwudulnGqIUkCIb/view) |
+| 218 | **Nishithini** | হুমায়ূন আহমেদ | — | PDF | 10.7 MB | [📖 Open Book](https://drive.google.com/file/d/1G4ioCHATJmJ8ASv8cxouj_OYAjweO-V2/view) |
+| 219 | **Nishithini 2nd part of debi** | হুমায়ূন আহমেদ | — | PDF | 10.6 MB | [📖 Open Book](https://drive.google.com/file/d/1HifmOco3Sk6nMoP3izl-r-jgUnAS_GQF/view) |
+| 220 | **Nokkhotrer Raat** | হুমায়ূন আহমেদ | — | PDF | 5.4 MB | [📖 Open Book](https://drive.google.com/file/d/1pahFZ8PDmEiLPeEMGZrax1h_zEz8Ytuj/view) |
+| 221 | **Nondito Noroke** | হুমায়ূন আহমেদ | — | PDF | 8.3 MB | [📖 Open Book](https://drive.google.com/file/d/1xSMMIqiFsjKE6hm0-dVqIyghtJL-uun-/view) |
+| 222 | **Nripoti** | হুমায়ূন আহমেদ | — | PDF | 1.3 MB | [📖 Open Book](https://drive.google.com/file/d/11vCecpA74B7VnwODD1BlBXsFSZUne7j0/view) |
+| 223 | **Omanush** | হুমায়ূন আহমেদ | — | PDF | 4.7 MB | [📖 Open Book](https://drive.google.com/file/d/15sYNHaAawKBTyZWNt9Oh8eJ5whrlqxej/view) |
+| 224 | **Omega Point** | হুমায়ূন আহমেদ | — | PDF | 5.4 MB | [📖 Open Book](https://drive.google.com/file/d/1KRzSRBuHz1gGdXf-WgdwsG9rO6n-fjq3/view) |
+| 225 | **Onil Bagchir Ekdin** | হুমায়ূন আহমেদ | — | PDF | 20.5 MB | [📖 Open Book](https://drive.google.com/file/d/1LXZNb2V70sjVtoF4kbMOzFYjFPLOkMoH/view) |
+| 226 | **Onil Bagchir Ekdin** | হুমায়ূন আহমেদ | — | PDF | 3.5 MB | [📖 Open Book](https://drive.google.com/file/d/1qhn2hyO4fXjpcUUN5HP6GbXcgSNJ4WPw/view) |
+| 227 | **Onish** | হুমায়ূন আহমেদ | — | PDF | 4.4 MB | [📖 Open Book](https://drive.google.com/file/d/1Pf-AI8SRgvuLpfVoV3sdUtdkTLbUibmr/view) |
+| 228 | **Onnobhubon** | হুমায়ূন আহমেদ | — | PDF | 3.8 MB | [📖 Open Book](https://drive.google.com/file/d/1dJrUJVd0rYNYHohudbnsEDd-XXU9u_KH/view) |
+| 229 | **Onnodin** | হুমায়ূন আহমেদ | — | PDF | 3.8 MB | [📖 Open Book](https://drive.google.com/file/d/1ceM-ugIhqG67R2VlxdG6hvWBKLeeq1J6/view) |
+| 230 | **Onnodin** | হুমায়ূন আহমেদ | — | PDF | 3.7 MB | [📖 Open Book](https://drive.google.com/file/d/1npSZHOE2GLJmshYM0A5pLuRleWAK8K4D/view) |
+| 231 | **Opekkha** | হুমায়ূন আহমেদ | — | PDF | 4.6 MB | [📖 Open Book](https://drive.google.com/file/d/1NbYlZ46ZPh5Kuit_bIJk0Dxqma4-Ilhp/view) |
+| 232 | **Opekkha** | হুমায়ূন আহমেদ | — | PDF | 22.3 MB | [📖 Open Book](https://drive.google.com/file/d/1nN5Y8xb_7SJifErsfyW-zYA5ppAsepbM/view) |
+| 233 | **Oronno** | হুমায়ূন আহমেদ | — | PDF | 3.5 MB | [📖 Open Book](https://drive.google.com/file/d/1y2l507s3C2tNhNr5tgXDGVPsajiifVtO/view) |
+| 234 | **Pakhi Amar Ekla Pakhi** | হুমায়ূন আহমেদ | — | PDF | 7.4 MB | [📖 Open Book](https://drive.google.com/file/d/1juUg8-KG1LNYnvAKqmFNrhmLAS8cYl29/view) |
+| 235 | **Pakhi Amar Ekla Pakhi Humayun Ahmed** | হুমায়ূন আহমেদ | — | PDF | 7.9 MB | [📖 Open Book](https://drive.google.com/file/d/1vgPi-gEp0hNxrM-wA4bf5wA4y3eeRtvX/view) |
+| 236 | **Pap** | হুমায়ূন আহমেদ | — | PDF | 1.1 MB | [📖 Open Book](https://drive.google.com/file/d/1o1wDhxQD6CMGcrq9adM2KSEC1M_mn0zr/view) |
+| 237 | **Parapar** | হুমায়ূন আহমেদ | — | PDF | 9.1 MB | [📖 Open Book](https://drive.google.com/file/d/1ZJX8-6sJSRPGibVtVNuMQWOvDw0-ijnG/view) |
+| 238 | **Parul O Tinti Kukur** | হুমায়ূন আহমেদ | — | PDF | 16.1 MB | [📖 Open Book](https://drive.google.com/file/d/1AdBU4C1dn9FBUsolP_7A9TglJOKxhCM_/view) |
+| 239 | **Parul O Tinti Kukur** | হুমায়ূন আহমেদ | — | PDF | 12.2 MB | [📖 Open Book](https://drive.google.com/file/d/1BRYsGjf67CfxGwg-OfJyf0X4L9U2u3yj/view) |
+| 240 | **Payer Tolay Khorom** | হুমায়ূন আহমেদ | — | PDF | 5.8 MB | [📖 Open Book](https://drive.google.com/file/d/14K5TKVdZbYAHTRm22Hgt1AKGk0Q4PBy1/view) |
+| 241 | **Payer Tolay Khrom** | হুমায়ূন আহমেদ | — | PDF | 10.5 MB | [📖 Open Book](https://drive.google.com/file/d/1B-h2nQR8QmpcVb7sSC1BFTkRRtdbRlzD/view) |
+| 242 | **Pencile Aka Pori** | হুমায়ূন আহমেদ | — | PDF | 3.5 MB | [📖 Open Book](https://drive.google.com/file/d/1O33K8P5kWTjrHMZ5NRxhw_fkao8rQ0iQ/view) |
+| 243 | **Pipli Begum** | হুমায়ূন আহমেদ | — | PDF | 3.5 MB | [📖 Open Book](https://drive.google.com/file/d/1sBEP_ezmBP014OQLBjFnEdK1QYluJoT2/view) |
+| 244 | **Poka** | হুমায়ূন আহমেদ | — | PDF | 6.9 MB | [📖 Open Book](https://drive.google.com/file/d/1V8UpGtBo6Y-OrcnxyreVWaVhhv_K2kSQ/view) |
+| 245 | **Poka** | হুমায়ূন আহমেদ | — | PDF | 6.0 MB | [📖 Open Book](https://drive.google.com/file/d/1ob7K901aeNnNWKdQytRZS-NMu07A_oeX/view) |
+| 246 | **Ponchokonna** | হুমায়ূন আহমেদ | — | PDF | 14.2 MB | [📖 Open Book](https://drive.google.com/file/d/1Bbnmka8DY0IZ6Qa1_nzGGx0XsycdytmM/view) |
+| 247 | **Poresher Hoilda Bari** | হুমায়ূন আহমেদ | — | PDF | 243 KB | [📖 Open Book](https://drive.google.com/file/d/1Oo5zXAokHM3S2kwL3ClouYLLV10uda9L/view) |
+| 248 | **Premer Golpo** | হুমায়ূন আহমেদ | — | PDF | 7.5 MB | [📖 Open Book](https://drive.google.com/file/d/10CealARSVB6tvoKrcVzTcNrlATz023Zd/view) |
+| 249 | **Prio Bhoyonkor** | হুমায়ূন আহমেদ | — | PDF | 59.7 MB | [📖 Open Book](https://drive.google.com/file/d/137nTwa0lKzDDM9aUXWJSTAcDoHYLWIlE/view) |
+| 250 | **Prio Podorekha** | হুমায়ূন আহমেদ | — | PDF | 8.0 MB | [📖 Open Book](https://drive.google.com/file/d/1NjiR5XCiNs7UDTznqePmtq5WqulmGMDU/view) |
+| 251 | **Priyotomeshu** | হুমায়ূন আহমেদ | — | PDF | 2.2 MB | [📖 Open Book](https://drive.google.com/file/d/1JZ_4pAmHJbvC4MKQ95Dh-I7oeOsig2Do/view) |
+| 252 | **Prothom Prohor** | হুমায়ূন আহমেদ | — | PDF | 2.6 MB | [📖 Open Book](https://drive.google.com/file/d/1Mm5TtY5VvOO-LAR2EWMNzD6rNx4o1JNr/view) |
+| 253 | **Pufi** | হুমায়ূন আহমেদ | — | PDF | 5.9 MB | [📖 Open Book](https://drive.google.com/file/d/1SvQlYi0rOFgd3206KUupyi8I3M8bYmxE/view) |
+| 254 | **Pufi** | হুমায়ূন আহমেদ | — | PDF | 4.5 MB | [📖 Open Book](https://drive.google.com/file/d/1thNomjKrGYWa95yEQbW1jkOBxAchd_5T/view) |
+| 255 | **Putul** | হুমায়ূন আহমেদ | — | PDF | 757 KB | [📖 Open Book](https://drive.google.com/file/d/1PtpR6DU9kVam_VV7IBvsT4YB-zzTe6N7/view) |
+| 256 | **Raboner Deshe Ami Ebong Amra** | হুমায়ূন আহমেদ | — | PDF | 9.9 MB | [📖 Open Book](https://drive.google.com/file/d/1cDR4SlqQCWrmp0SeS1BwnNDqd6BThW9U/view) |
+| 257 | **Raboner Deshe Ami Ebong Amra Humayun Ahmed** | হুমায়ূন আহমেদ | — | PDF | 11.0 MB | [📖 Open Book](https://drive.google.com/file/d/1QV3iu5FrYa_vgixCGEdSmTTKWNpVcHbU/view) |
+| 258 | **Rakkhosh Khokkosh Ebong Bhokkosh Humayun Ahmed** | হুমায়ূন আহমেদ | — | PDF | 6.0 MB | [📖 Open Book](https://drive.google.com/file/d/1OQ32BtQzzLUkoHyxP-0KJlU8-wTZoThx/view) |
+| 259 | **Rodon Vora E Bosonto** | হুমায়ূন আহমেদ | — | PDF | 3.0 MB | [📖 Open Book](https://drive.google.com/file/d/1SFbHlKhJx6Ck7KaBLE-WtJQ6JizjvGil/view) |
+| 260 | **Rong Pencil** | হুমায়ূন আহমেদ | — | PDF | 495 KB | [📖 Open Book](https://drive.google.com/file/d/1WQKCfel4r7F0ju40XLVcP-dURmnC9NI8/view) |
+| 261 | **Ros Kos Singara Bulbuli Mostok** | হুমায়ূন আহমেদ | — | PDF | 4.3 MB | [📖 Open Book](https://drive.google.com/file/d/1K3mnALnl7CqNeftyrpOGWMmTcuOBRvC5/view) |
+| 262 | **Rumali** | হুমায়ূন আহমেদ | — | PDF | 7.3 MB | [📖 Open Book](https://drive.google.com/file/d/1lpQfPnou0ot4TJndjjHDWG_hRIUimyHN/view) |
+| 263 | **Rupa** | হুমায়ূন আহমেদ | — | PDF | 7.9 MB | [📖 Open Book](https://drive.google.com/file/d/1JVTs_43joz_rXbAHJKvk6X-MasLFL-ZC/view) |
+| 264 | **rupa-by-humayun-ahmed-new-book-2010** | হুমায়ূন আহমেদ | — | PDF | 403 KB | [📖 Open Book](https://drive.google.com/file/d/1Gchkjs8stHYqg6a91iDG9FXzzCm7XJyr/view) |
+| 265 | **Rupali Dip** | হুমায়ূন আহমেদ | — | PDF | 7.5 MB | [📖 Open Book](https://drive.google.com/file/d/1vOz3kzkcj4ER5nA1oCb3T2gZB2GS2IW_/view) |
+| 266 | **Rupali Dip Humayun Ahmed** | হুমায়ূন আহমেদ | — | PDF | 7.4 MB | [📖 Open Book](https://drive.google.com/file/d/1HHy0tM9xTiSCIY9LVlOkzLw3uNCNZaE4/view) |
+| 267 | **Rupar Palonko** | হুমায়ূন আহমেদ | — | PDF | 1.9 MB | [📖 Open Book](https://drive.google.com/file/d/1Be-R01HN9aWOHqJZ9cwCYCN2xTaX_9ES/view) |
+| 268 | **Sajghor** | হুমায়ূন আহমেদ | — | PDF | 8.9 MB | [📖 Open Book](https://drive.google.com/file/d/13Cn9lUovAh-zwyq3ExzUNrJpzONJkltJ/view) |
+| 269 | **Sajghor** | হুমায়ূন আহমেদ | — | PDF | 8.7 MB | [📖 Open Book](https://drive.google.com/file/d/1LuLyvXznkKSaKvG7oD6stVzoGAutBS4r/view) |
+| 270 | **Sanaullar Mohabipod** | হুমায়ূন আহমেদ | — | PDF | 6.8 MB | [📖 Open Book](https://drive.google.com/file/d/1rUQ18DIq20uWq2i_lQsfnGSDGvZo69Hg/view) |
+| 271 | **Science Fiction Samagra 01 Humayun Ahmed** | হুমায়ূন আহমেদ | — | PDF | 14.8 MB | [📖 Open Book](https://drive.google.com/file/d/1Zxsqqbo2SmjJAveeqpwUeTdcCmmaMJwd/view) |
+| 272 | **Science Fiction Samagra 02 Humayun Ahmed** | হুমায়ূন আহমেদ | — | PDF | 10.9 MB | [📖 Open Book](https://drive.google.com/file/d/14c8JsRhc5nrY4bL78loxRevu8ECP0IX9/view) |
+| 273 | **science fiction samagra-1** | হুমায়ূন আহমেদ | — | PDF | 15.5 MB | [📖 Open Book](https://drive.google.com/file/d/1OlAyIgqIzbf7bOcPx6J8770Ns6W8b--a/view) |
+| 274 | **science fiction samogro-2** | হুমায়ূন আহমেদ | — | PDF | 10.8 MB | [📖 Open Book](https://drive.google.com/file/d/1DfTeESQXgBiLZm_JAF5-m15_V7CvHDq8/view) |
+| 275 | **science-fiction-samogro-03-by-humayun-ahmed** | হুমায়ূন আহমেদ | — | PDF | 10.2 MB | [📖 Open Book](https://drive.google.com/file/d/1kQee7f4h1w2Jtqy5AXbtQr3PRc2nTas7/view) |
+| 276 | **Se Ashe Dhire** | হুমায়ূন আহমেদ | — | PDF | 7.2 MB | [📖 Open Book](https://drive.google.com/file/d/1-ieNsLhnNelvAwtI1jACJpPTH4mHa896/view) |
+| 277 | **Se O Nortoki** | হুমায়ূন আহমেদ | — | PDF | 1.5 MB | [📖 Open Book](https://drive.google.com/file/d/1WxOA3MYAY9qpu8mgDbFfZRPss2APXPKk/view) |
+| 278 | **Sedin Chaitramas** | হুমায়ূন আহমেদ | — | PDF | 5.5 MB | [📖 Open Book](https://drive.google.com/file/d/1K0uSEztF-xfMQqDY6AcACrk3nln_5VAM/view) |
+| 279 | **Sedin Choitramas** | হুমায়ূন আহমেদ | — | PDF | 5.9 MB | [📖 Open Book](https://drive.google.com/file/d/1IdetisLP1HY2E2NrdeIuuriBGhVucLOH/view) |
+| 280 | **Shamol Chaya** | হুমায়ূন আহমেদ | — | PDF | 2.4 MB | [📖 Open Book](https://drive.google.com/file/d/1XmCew7a8JzMyB06bshJXardqRKCEEyml/view) |
+| 281 | **Shob Jatra** | হুমায়ূন আহমেদ | — | PDF | 661 KB | [📖 Open Book](https://drive.google.com/file/d/1k7MT5o2uyJ1FPQSE26Dm5qwXSkn3SdoQ/view) |
+| 282 | **Shonkhonil Karagar** | হুমায়ূন আহমেদ | — | PDF | 7.3 MB | [📖 Open Book](https://drive.google.com/file/d/1-P67s_EzAjdU5BtmNuFvdRMlGtR0YWe2/view) |
+| 283 | **Shourov** | হুমায়ূন আহমেদ | — | PDF | 4.1 MB | [📖 Open Book](https://drive.google.com/file/d/13anJSABx1WPC2o6Elu731a8f90AV2ntS/view) |
+| 284 | **Shunno** | হুমায়ূন আহমেদ | — | PDF | 5.7 MB | [📖 Open Book](https://drive.google.com/file/d/14v3qX9s_48UXBlyVt8p5LUlytbv8txPS/view) |
+| 285 | **Shuvro** | হুমায়ূন আহমেদ | — | PDF | 12.7 MB | [📖 Open Book](https://drive.google.com/file/d/1LcwwckgfJOBOs_P7s49Vh9qFevqdwz69/view) |
+| 286 | **Shuvro Geche Bone** | হুমায়ূন আহমেদ | — | PDF | 8.8 MB | [📖 Open Book](https://drive.google.com/file/d/1fB86Ik7HveoefoZOMYVvULk0NH6rS3JX/view) |
+| 287 | **Shuvro Samagra** | হুমায়ূন আহমেদ | — | PDF | 23.0 MB | [📖 Open Book](https://drive.google.com/file/d/1jmDvSU3H_DTRfZ3VleBJXRa0sS1WJKax/view) |
+| 288 | **Sobai Geche Bone** | হুমায়ূন আহমেদ | — | PDF | 5.8 MB | [📖 Open Book](https://drive.google.com/file/d/15eOqjopsZFcLUQgN6BGlDQ5gJcOYKoM5/view) |
+| 289 | **Sobai Gechhe Bone** | হুমায়ূন আহমেদ | — | PDF | 5.5 MB | [📖 Open Book](https://drive.google.com/file/d/1JVvJ6uu3Yum-ZQdDv8lPc5z96ZYqTltr/view) |
+| 290 | **Sokol Kata Dhonno Kore** | হুমায়ূন আহমেদ | — | PDF | 21.6 MB | [📖 Open Book](https://drive.google.com/file/d/1BB3-DnZUM0rOqMkPOIXDFyxg3b_vLDqg/view) |
+| 291 | **Somporko** | হুমায়ূন আহমেদ | — | PDF | 469 KB | [📖 Open Book](https://drive.google.com/file/d/1A4-ZkdpGoTql_ANBmmQOPZnNwKunGACd/view) |
+| 292 | **Somrat** | হুমায়ূন আহমেদ | — | PDF | 11.7 MB | [📖 Open Book](https://drive.google.com/file/d/11_WV-6AHpxe17vpJZPvL6Y4d36ZVnp7p/view) |
+| 293 | **Srabon Megher Din** | হুমায়ূন আহমেদ | — | PDF | 8.9 MB | [📖 Open Book](https://drive.google.com/file/d/1iLFQ6OYqlqDBxwRCHCb-QsvX2--5erEj/view) |
+| 294 | **Surjer Din** | হুমায়ূন আহমেদ | — | PDF | 1.8 MB | [📖 Open Book](https://drive.google.com/file/d/1EEqxYP6pRDLRAvO0krdyJeLhKWGkBu3B/view) |
+| 295 | **Swapna O Annayanna** | হুমায়ূন আহমেদ | — | PDF | 22.3 MB | [📖 Open Book](https://drive.google.com/file/d/15PNY7noRhhnFvQkECkNFmfLyl_ygJx5D/view) |
+| 296 | **Tahara** | হুমায়ূন আহমেদ | — | PDF | 452 KB | [📖 Open Book](https://drive.google.com/file/d/1wWDZF8pVp-4C90xECQYaNcR5aDfQNY4t/view) |
+| 297 | **Tara Tin Jon Humayun Ahmed** | হুমায়ূন আহমেদ | — | PDF | 7.0 MB | [📖 Open Book](https://drive.google.com/file/d/17ikEG1Wa0547ZsNR8tfwhfUJu0c3zQIq/view) |
+| 298 | **Tetul Bone Jochna** | হুমায়ূন আহমেদ | — | PDF | 14.1 MB | [📖 Open Book](https://drive.google.com/file/d/10-zGme9Pe_I8artZ0XYMQXiwM1e9Qp8X/view) |
+| 299 | **Tetul Bone Jochna** | হুমায়ূন আহমেদ | — | PDF | 14.0 MB | [📖 Open Book](https://drive.google.com/file/d/1uPFvGGfK922OrtvsEPr9cxgpoccCtatT/view) |
+| 300 | **The Exorcist** | হুমায়ূন আহমেদ | — | PDF | 10.0 MB | [📖 Open Book](https://drive.google.com/file/d/1QHTkQxXI3i44BEHSXrXV8UYxPuTi5Tts/view) |
+| 301 | **The Exorcist** | হুমায়ূন আহমেদ | — | PDF | 9.7 MB | [📖 Open Book](https://drive.google.com/file/d/1tpV_a3YRUlAJ6_TbOth2NEsq9egaUePJ/view) |
+| 302 | **Tin Doblew** | হুমায়ূন আহমেদ | — | PDF | 2.2 MB | [📖 Open Book](https://drive.google.com/file/d/1PxeBL5130JKfsEone8rnsfTKH20xdn8t/view) |
+| 303 | **Tithir Neel Toyale** | হুমায়ূন আহমেদ | — | PDF | 8.6 MB | [📖 Open Book](https://drive.google.com/file/d/1dO-w2FnPTGd-YNBcHA9DNgV1gvnzai-W/view) |
+| 304 | **Tithir Neel Toyale** | হুমায়ূন আহমেদ | — | PDF | 8.2 MB | [📖 Open Book](https://drive.google.com/file/d/1wnSRpWf6Vn1SpeYpWpQbkOgfwl1-2sQF/view) |
+| 305 | **Tomader Ei Nogore** | হুমায়ূন আহমেদ | — | PDF | 5.1 MB | [📖 Open Book](https://drive.google.com/file/d/1J-qhZ72FSceTj1qoq3F6mSzdCZJ-xmqY/view) |
+| 306 | **Tomader Jonno Valobasha** | হুমায়ূন আহমেদ | — | PDF | 11.4 MB | [📖 Open Book](https://drive.google.com/file/d/1B0acKzPri65lC7O3KrHAJDQcz89UyKvq/view) |
+| 307 | **Tomake** | হুমায়ূন আহমেদ | — | PDF | 6.4 MB | [📖 Open Book](https://drive.google.com/file/d/1KFalxJmnPDoArhaz4dEpdDwe_KSs1q1K/view) |
+| 308 | **Tondrabilas** | হুমায়ূন আহমেদ | — | PDF | 5.7 MB | [📖 Open Book](https://drive.google.com/file/d/1OwauWj2V0XXORNxaSOMQjqGBLdsRoBvG/view) |
+| 309 | **Tondrabilas** | হুমায়ূন আহমেদ | — | PDF | 5.1 MB | [📖 Open Book](https://drive.google.com/file/d/1v10Q3MlXTNYFN2zEmBIYxCI-Whw9c5A5/view) |
+| 310 | **Tumi Amay Dekechile Chutir Nimontrone** | হুমায়ূন আহমেদ | — | PDF | 4.4 MB | [📖 Open Book](https://drive.google.com/file/d/1E33AU80BGVdYoUvSk_26oam9exXalnM5/view) |
+| 311 | **Tumi Amay Dekechile Chutir Nimontrone Humayun Ahmed** | হুমায়ূন আহমেদ | — | PDF | 2.3 MB | [📖 Open Book](https://drive.google.com/file/d/1mlfXFHfxuazlJJOjYOmHHxCIRJTmFlyw/view) |
+| 312 | **Uralpankhi Humayun Ahmed** | হুমায়ূন আহমেদ | — | PDF | 4.6 MB | [📖 Open Book](https://drive.google.com/file/d/1Ff4N4YOVONgHMQddf9cvzZsEvJwPm8bm/view) |
+| 313 | **Uralponkhi** | হুমায়ূন আহমেদ | — | PDF | 4.8 MB | [📖 Open Book](https://drive.google.com/file/d/1lC7VsrtMDdIoM267LsVlieAycv_l4ad2/view) |
+| 314 | **Uthon Periye Dui Paa** | হুমায়ূন আহমেদ | — | PDF | 12.7 MB | [📖 Open Book](https://drive.google.com/file/d/1GH6L5bc5PK6N5mdUU4Toz51q5Ftiuzkl/view) |
+| 315 | **Voyonkor Vuture** | হুমায়ূন আহমেদ | — | PDF | 1.6 MB | [📖 Open Book](https://drive.google.com/file/d/1jY63KYgUtVGuIgiMgm7aWPWzbQ7lp5l9/view) |
+| 316 | **তিনি ও সে** | হুমায়ূন আহমেদ | — | PDF | 1.5 MB | [📖 Open Book](https://drive.google.com/file/d/1yDPI2Rfwch7BkBsBKQz9dsXfKcJkOv4A/view) |
+| 317 | **দৌলত শাহ র অদ্ভুত কাহিনী** | হুমায়ূন আহমেদ | — | PDF | 7.6 MB | [📖 Open Book](https://drive.google.com/file/d/19qNeNMK-mWAGlxst20iXFqEmDNg3Hz1T/view) |
+| 318 | **রস, কষ, শিঙারা, বুলবুলি, মস্তক** | হুমায়ূন আহমেদ | — | PDF | 4.1 MB | [📖 Open Book](https://drive.google.com/file/d/1sGzjIb4JwB5SzTSGDxNGfkVrCnCgfJQo/view) |
+| 319 | **সমালোচনা হুমায়ূন আহমেদ** | হুমায়ূন আহমেদ | — | PDF | 172 KB | [📖 Open Book](https://drive.google.com/file/d/1awGwHiocP0WfDxJs1mctn1OAtRiYjbpZ/view) |
+| 320 | **হুমায়ূন আহমেদের অপ্রকাশিত রচনা** | হুমায়ূন আহমেদ | — | PDF | 2.0 MB | [📖 Open Book](https://drive.google.com/file/d/1DJ9Q0IrzITwFXN7bhmkAoIQAnyUD_lIS/view) |
 
 ### 📂 উপন্যাস (312 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
@@ -108,31 +432,31 @@
 | 94 | **Mrinmoyir Mon Bhalo Nei** | হুমায়ূন আহমেদ | — | PDF | 7.6 MB | [📖 Open Book](https://drive.google.com/file/d/1b_vr1iXRtyUJ5mUqbwCr3mzF21XBaVA9/view) |
 | 95 | **Neel Hati** | হুমায়ূন আহমেদ | — | PDF | 6.3 MB | [📖 Open Book](https://drive.google.com/file/d/1FOAPV4qCCTOh1VhP5yGERvVntAS0g0TP/view) |
 | 96 | **New York Er Nil Akashe Jhokjhoke Rod** | হুমায়ূন আহমেদ | — | PDF | 1.4 MB | [📖 Open Book](https://drive.google.com/file/d/1MEPPXKI_3p9j426ODmeZkk4wGZ99MpFM/view) |
-| 97 | **Nirbachito Bhooter Golpo** | হুমায়ূন আহমেদ | — | PDF | 9.2 MB | [📖 Open Book](https://drive.google.com/file/d/156QWr6TCfYZ43V7aAHnv45b2odmroSWX/view) |
-| 98 | **Nirbason** | হুমায়ূন আহমেদ | — | PDF | 2.5 MB | [📖 Open Book](https://drive.google.com/file/d/1PpyXqgJoSJKGITIc_Te1fff-GKj2pUTZ/view) |
-| 99 | **Nishad** | হুমায়ূন আহমেদ | — | PDF | 7.6 MB | [📖 Open Book](https://drive.google.com/file/d/1kAYv19ePq4JbyzXam8ZIp6M4hueTgj6Y/view) |
-| 100 | **Omanush** | হুমায়ূন আহমেদ | — | PDF | 5.1 MB | [📖 Open Book](https://drive.google.com/file/d/1mHmQiC2DsT0fossY3W311U3GgEtvyTRG/view) |
-| 101 | **Onil Bagchir Ekdin** | হুমায়ূন আহমেদ | — | PDF | 20.5 MB | [📖 Open Book](https://drive.google.com/file/d/1KRvOvzZImNXhIMOggD3QYTt54nxu3HSN/view) |
-| 102 | **Onnodin** | হুমায়ূন আহমেদ | — | PDF | 3.7 MB | [📖 Open Book](https://drive.google.com/file/d/12_-4jlUzY453ag0Uf0H50CJlX3-vRk2v/view) |
-| 103 | **Opekkha** | হুমায়ূন আহমেদ | — | PDF | 22.3 MB | [📖 Open Book](https://drive.google.com/file/d/18Er335mvLVhNplN6CrDfEfbDMbFH8UQS/view) |
-| 104 | **Paap** | হুমায়ূন আহমেদ | — | PDF | 914 KB | [📖 Open Book](https://drive.google.com/file/d/1AtHMte3ns3ziyncvkDKC7qkdEz9loGWE/view) |
-| 105 | **Pakhi Amar Ekla Pakhi** | হুমায়ূন আহমেদ | — | PDF | 7.4 MB | [📖 Open Book](https://drive.google.com/file/d/1mD2KZ0P6xBjWbvthB939eMudak7obpn2/view) |
-| 106 | **Parul O Tinti Kukur** | হুমায়ূন আহমেদ | — | PDF | 16.1 MB | [📖 Open Book](https://drive.google.com/file/d/1vT_8QavoW_cktVQyA6PNufJWoL7EE9a7/view) |
-| 107 | **Payer Tolay Khrom** | হুমায়ূন আহমেদ | — | PDF | 10.5 MB | [📖 Open Book](https://drive.google.com/file/d/1SwQP6Pq7NZ1evdju1ujQ9DdsVXKd1uoo/view) |
-| 108 | **Poka** | হুমায়ূন আহমেদ | — | PDF | 6.9 MB | [📖 Open Book](https://drive.google.com/file/d/1s3FSY64pb716_MyyznWZpqKvGcLQRso2/view) |
-| 109 | **Premer Golpo** | হুমায়ূন আহমেদ | — | PDF | 8.4 MB | [📖 Open Book](https://drive.google.com/file/d/1e4BIMgaI9nJrJHALFI_A7XnCyQ9IOILr/view) |
-| 110 | **Putul** | হুমায়ূন আহমেদ | — | PDF | 752 KB | [📖 Open Book](https://drive.google.com/file/d/15smeafBQuVhVgSs2J-OlBo-F9ymCVYn0/view) |
-| 111 | **Raboner Deshe Ami Ebong Amra** | হুমায়ূন আহমেদ | — | PDF | 9.9 MB | [📖 Open Book](https://drive.google.com/file/d/171IufHL80dG-Kf-EK45D7W1-mZDE0gJ1/view) |
-| 112 | **Rupa** | হুমায়ূন আহমেদ | — | PDF | 7.9 MB | [📖 Open Book](https://drive.google.com/file/d/1in20-V8wdrOUVU7xMEDTI5qSmgxYRMpG/view) |
-| 113 | **Sanaullar Mohabipod** | হুমায়ূন আহমেদ | — | PDF | 5.5 MB | [📖 Open Book](https://drive.google.com/file/d/1mHjFl1cdSzje92SHgx52B5yz3D-zgXXW/view) |
-| 114 | **Se O Nortoki** | হুমায়ূন আহমেদ | — | PDF | 1.8 MB | [📖 Open Book](https://drive.google.com/file/d/1DBLrohSzVeOTFWY_d9zmWO9GCwLh_sr8/view) |
-| 115 | **Shunya** | হুমায়ূন আহমেদ | — | PDF | 5.7 MB | [📖 Open Book](https://drive.google.com/file/d/1_dVHq__ET4vC3q7PoljvoAvJVmucG5bk/view) |
-| 116 | **Sobai Gechhe Bone** | হুমায়ূন আহমেদ | — | PDF | 5.5 MB | [📖 Open Book](https://drive.google.com/file/d/1LagJMKxdurTsDHGOFTG8N7_6ddrUhb_O/view) |
-| 117 | **Tithir Neel Toyale** | হুমায়ূন আহমেদ | — | PDF | 8.2 MB | [📖 Open Book](https://drive.google.com/file/d/13mP28kFVlMB31RBnSz0X5j-S-FknZGsj/view) |
-| 118 | **Tumi Amay Dekechile Chutir Nimontrone** | হুমায়ূন আহমেদ | — | PDF | 4.4 MB | [📖 Open Book](https://drive.google.com/file/d/1T5CjJZDG9j4zZC3HwgyPbItRLF4jtCU4/view) |
-| 119 | **Uthon Periye Dui Paa** | হুমায়ূন আহমেদ | — | PDF | 11.4 MB | [📖 Open Book](https://drive.google.com/file/d/1QZfD8bqZgEVDf9AO85q3el7v9wf4W9eN/view) |
-| 120 | **nilpoddo -humayun ahmed** | হুমায়ূন আহমেদ | — | PDF | 2.3 MB | [📖 Open Book](https://drive.google.com/file/d/1wUK7XzU7Q4Jb7kdHs9qRDOb7tKuQEILz/view) |
-| 121 | **ochinpur** | হুমায়ূন আহমেদ | — | PDF | 5.2 MB | [📖 Open Book](https://drive.google.com/file/d/1-sMEeYgBXUv0H-TzShZjsQc0djb8eotu/view) |
+| 97 | **nilpoddo -humayun ahmed** | হুমায়ূন আহমেদ | — | PDF | 2.3 MB | [📖 Open Book](https://drive.google.com/file/d/1wUK7XzU7Q4Jb7kdHs9qRDOb7tKuQEILz/view) |
+| 98 | **Nirbachito Bhooter Golpo** | হুমায়ূন আহমেদ | — | PDF | 9.2 MB | [📖 Open Book](https://drive.google.com/file/d/156QWr6TCfYZ43V7aAHnv45b2odmroSWX/view) |
+| 99 | **Nirbason** | হুমায়ূন আহমেদ | — | PDF | 2.5 MB | [📖 Open Book](https://drive.google.com/file/d/1PpyXqgJoSJKGITIc_Te1fff-GKj2pUTZ/view) |
+| 100 | **Nishad** | হুমায়ূন আহমেদ | — | PDF | 7.6 MB | [📖 Open Book](https://drive.google.com/file/d/1kAYv19ePq4JbyzXam8ZIp6M4hueTgj6Y/view) |
+| 101 | **ochinpur** | হুমায়ূন আহমেদ | — | PDF | 5.2 MB | [📖 Open Book](https://drive.google.com/file/d/1-sMEeYgBXUv0H-TzShZjsQc0djb8eotu/view) |
+| 102 | **Omanush** | হুমায়ূন আহমেদ | — | PDF | 5.1 MB | [📖 Open Book](https://drive.google.com/file/d/1mHmQiC2DsT0fossY3W311U3GgEtvyTRG/view) |
+| 103 | **Onil Bagchir Ekdin** | হুমায়ূন আহমেদ | — | PDF | 20.5 MB | [📖 Open Book](https://drive.google.com/file/d/1KRvOvzZImNXhIMOggD3QYTt54nxu3HSN/view) |
+| 104 | **Onnodin** | হুমায়ূন আহমেদ | — | PDF | 3.7 MB | [📖 Open Book](https://drive.google.com/file/d/12_-4jlUzY453ag0Uf0H50CJlX3-vRk2v/view) |
+| 105 | **Opekkha** | হুমায়ূন আহমেদ | — | PDF | 22.3 MB | [📖 Open Book](https://drive.google.com/file/d/18Er335mvLVhNplN6CrDfEfbDMbFH8UQS/view) |
+| 106 | **Paap** | হুমায়ূন আহমেদ | — | PDF | 914 KB | [📖 Open Book](https://drive.google.com/file/d/1AtHMte3ns3ziyncvkDKC7qkdEz9loGWE/view) |
+| 107 | **Pakhi Amar Ekla Pakhi** | হুমায়ূন আহমেদ | — | PDF | 7.4 MB | [📖 Open Book](https://drive.google.com/file/d/1mD2KZ0P6xBjWbvthB939eMudak7obpn2/view) |
+| 108 | **Parul O Tinti Kukur** | হুমায়ূন আহমেদ | — | PDF | 16.1 MB | [📖 Open Book](https://drive.google.com/file/d/1vT_8QavoW_cktVQyA6PNufJWoL7EE9a7/view) |
+| 109 | **Payer Tolay Khrom** | হুমায়ূন আহমেদ | — | PDF | 10.5 MB | [📖 Open Book](https://drive.google.com/file/d/1SwQP6Pq7NZ1evdju1ujQ9DdsVXKd1uoo/view) |
+| 110 | **Poka** | হুমায়ূন আহমেদ | — | PDF | 6.9 MB | [📖 Open Book](https://drive.google.com/file/d/1s3FSY64pb716_MyyznWZpqKvGcLQRso2/view) |
+| 111 | **Premer Golpo** | হুমায়ূন আহমেদ | — | PDF | 8.4 MB | [📖 Open Book](https://drive.google.com/file/d/1e4BIMgaI9nJrJHALFI_A7XnCyQ9IOILr/view) |
+| 112 | **Putul** | হুমায়ূন আহমেদ | — | PDF | 752 KB | [📖 Open Book](https://drive.google.com/file/d/15smeafBQuVhVgSs2J-OlBo-F9ymCVYn0/view) |
+| 113 | **Raboner Deshe Ami Ebong Amra** | হুমায়ূন আহমেদ | — | PDF | 9.9 MB | [📖 Open Book](https://drive.google.com/file/d/171IufHL80dG-Kf-EK45D7W1-mZDE0gJ1/view) |
+| 114 | **Rupa** | হুমায়ূন আহমেদ | — | PDF | 7.9 MB | [📖 Open Book](https://drive.google.com/file/d/1in20-V8wdrOUVU7xMEDTI5qSmgxYRMpG/view) |
+| 115 | **Sanaullar Mohabipod** | হুমায়ূন আহমেদ | — | PDF | 5.5 MB | [📖 Open Book](https://drive.google.com/file/d/1mHjFl1cdSzje92SHgx52B5yz3D-zgXXW/view) |
+| 116 | **Se O Nortoki** | হুমায়ূন আহমেদ | — | PDF | 1.8 MB | [📖 Open Book](https://drive.google.com/file/d/1DBLrohSzVeOTFWY_d9zmWO9GCwLh_sr8/view) |
+| 117 | **Shunya** | হুমায়ূন আহমেদ | — | PDF | 5.7 MB | [📖 Open Book](https://drive.google.com/file/d/1_dVHq__ET4vC3q7PoljvoAvJVmucG5bk/view) |
+| 118 | **Sobai Gechhe Bone** | হুমায়ূন আহমেদ | — | PDF | 5.5 MB | [📖 Open Book](https://drive.google.com/file/d/1LagJMKxdurTsDHGOFTG8N7_6ddrUhb_O/view) |
+| 119 | **Tithir Neel Toyale** | হুমায়ূন আহমেদ | — | PDF | 8.2 MB | [📖 Open Book](https://drive.google.com/file/d/13mP28kFVlMB31RBnSz0X5j-S-FknZGsj/view) |
+| 120 | **Tumi Amay Dekechile Chutir Nimontrone** | হুমায়ূন আহমেদ | — | PDF | 4.4 MB | [📖 Open Book](https://drive.google.com/file/d/1T5CjJZDG9j4zZC3HwgyPbItRLF4jtCU4/view) |
+| 121 | **Uthon Periye Dui Paa** | হুমায়ূন আহমেদ | — | PDF | 11.4 MB | [📖 Open Book](https://drive.google.com/file/d/1QZfD8bqZgEVDf9AO85q3el7v9wf4W9eN/view) |
 | 122 | **অঁহক** | হুমায়ূন আহমেদ | 2023 | EPUB | 187 KB | [📖 Open Book](https://drive.google.com/file/d/1vFLHlI_TKeMtPPwFFm77S7nSQWroJU26/view) |
 | 123 | **অচিনপুর** | হুমায়ূন আহমেদ | 2023 | EPUB | 285 KB | [📖 Open Book](https://drive.google.com/file/d/1ElKAbATwbqYNmS6CDbbV5xoYFIjPNA3I/view) |
 | 124 | **অনন্ত নক্ষত্রবীথি** | হুমায়ূন আহমেদ | 2023 | EPUB | 248 KB | [📖 Open Book](https://drive.google.com/file/d/1jN694GlNX3i6FKbbWnKK0_nbQkoffzel/view) |
@@ -330,11 +654,11 @@
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **HumayunAhmed Ebong Himu [1995]** | হুমায়ূন আহমেদ | 1995 | PDF | 14.1 MB | [📖 Open Book](https://drive.google.com/file/d/19LQQSuDJ3bbDz-JKkGPn6DQ7Gtl5casF/view) |
 | 2 | **HumayunAhmed Ekjon Himu Koekti Jhin Jhin Poka [1999]** | হুমায়ূন আহমেদ | 1999 | PDF | 9.7 MB | [📖 Open Book](https://drive.google.com/file/d/1f4CGpj3QtzAas3NIC7BO5LKyLCsCar5V/view) |
-| 3 | **HumayunAhmed Himu Ebong Ekti Russian Pori [2011]** | হুমায়ূন আহমেদ | 2011 | PDF | 4.6 MB | [📖 Open Book](https://drive.google.com/file/d/1bkm1Jsj-vb-u0L0qQ0Ig1Js68Ax8Q8FO/view) |
-| 4 | **HumayunAhmed Himu Ebong Harvard Ph.D. Boltu Bhai [2011]** | হুমায়ূন আহমেদ | 2011 | PDF | 3.3 MB | [📖 Open Book](https://drive.google.com/file/d/1T-kghM-FpcPxV-VqAKlvwhbqeqzeGLLS/view) |
-| 5 | **HumayunAhmed Himu Mama [2004]** | হুমায়ূন আহমেদ | 2004 | PDF | 8.4 MB | [📖 Open Book](https://drive.google.com/file/d/1194KZVJYMrEb3j5uCrZI9M4AJjChaSpJ/view) |
-| 6 | **HumayunAhmed Himu Remand-E [2008]** | হুমায়ূন আহমেদ | 2008 | PDF | 8.4 MB | [📖 Open Book](https://drive.google.com/file/d/1nrtF72L83EXx-P47ebOgRcrpx1Ol-vig/view) |
-| 7 | **HumayunAhmed Himu [1993]** | হুমায়ূন আহমেদ | 1993 | PDF | 4.4 MB | [📖 Open Book](https://drive.google.com/file/d/1AwT7Gslsyx17DzrXbKyROU7Vca3F0tW2/view) |
+| 3 | **HumayunAhmed Himu [1993]** | হুমায়ূন আহমেদ | 1993 | PDF | 4.4 MB | [📖 Open Book](https://drive.google.com/file/d/1AwT7Gslsyx17DzrXbKyROU7Vca3F0tW2/view) |
+| 4 | **HumayunAhmed Himu Ebong Ekti Russian Pori [2011]** | হুমায়ূন আহমেদ | 2011 | PDF | 4.6 MB | [📖 Open Book](https://drive.google.com/file/d/1bkm1Jsj-vb-u0L0qQ0Ig1Js68Ax8Q8FO/view) |
+| 5 | **HumayunAhmed Himu Ebong Harvard Ph.D. Boltu Bhai [2011]** | হুমায়ূন আহমেদ | 2011 | PDF | 3.3 MB | [📖 Open Book](https://drive.google.com/file/d/1T-kghM-FpcPxV-VqAKlvwhbqeqzeGLLS/view) |
+| 6 | **HumayunAhmed Himu Mama [2004]** | হুমায়ূন আহমেদ | 2004 | PDF | 8.4 MB | [📖 Open Book](https://drive.google.com/file/d/1194KZVJYMrEb3j5uCrZI9M4AJjChaSpJ/view) |
+| 7 | **HumayunAhmed Himu Remand-E [2008]** | হুমায়ূন আহমেদ | 2008 | PDF | 8.4 MB | [📖 Open Book](https://drive.google.com/file/d/1nrtF72L83EXx-P47ebOgRcrpx1Ol-vig/view) |
 | 8 | **HumayunAhmed Holud Himu Kalo RAB [2006]** | হুমায়ূন আহমেদ | 2006 | PDF | 5.6 MB | [📖 Open Book](https://drive.google.com/file/d/1xB0TfmmIqZbzNcoyyHRDq1uM2M5IuuKW/view) |
 | 9 | **আজ হিমুর বিয়ে** | হুমায়ূন আহমেদ | 2023 | EPUB | 280 KB | [📖 Open Book](https://drive.google.com/file/d/1bGM9uB_4Xj9JDjWQptAQXhxEUgrBi7og/view) |
 | 10 | **একজন হিমু কয়েকটি ঝিঁঝিঁ পোকা** | হুমায়ূন আহমেদ | 2023 | EPUB | 269 KB | [📖 Open Book](https://drive.google.com/file/d/1SaGg_O8-DG8cBly8VpGWcOj7HgGP20lD/view) |
@@ -364,8 +688,8 @@
 | 1 | **Ami-ee Misir Ali** | হুমায়ূন আহমেদ | — | PDF | 10.5 MB | [📖 Open Book](https://drive.google.com/file/d/1RLMxvFWG4IYIwcmN5rNVL6WDXtUc9dcl/view) |
 | 2 | **HumayunAhmed Ami-ee Misir Ali (I am Misir Ali)** | হুমায়ূন আহমেদ | — | PDF | 10.5 MB | [📖 Open Book](https://drive.google.com/file/d/1fzmOfpSdg7UHfWULDEscEGJbarDXnsR7/view) |
 | 3 | **HumayunAhmed Misir Ali Bishoyok Rochona Jokhon Namibe Adhar** | হুমায়ূন আহমেদ | — | PDF | 8.3 MB | [📖 Open Book](https://drive.google.com/file/d/107fImqNSHSdmEIiCIP0ydpKpkZIPkUX9/view) |
-| 4 | **HumayunAhmed Misir Ali Unsolved** | হুমায়ূন আহমেদ | — | PDF | 4.5 MB | [📖 Open Book](https://drive.google.com/file/d/15SFMS4rhB80L1YZoa6qHozfTtwSlBuNp/view) |
-| 5 | **HumayunAhmed Misir Ali r Choshma (Misir Alis Glasses)** | হুমায়ূন আহমেদ | — | PDF | 880 KB | [📖 Open Book](https://drive.google.com/file/d/1yhuGfvuWjUNzvu9IbYPHTNm13tHwTO9z/view) |
+| 4 | **HumayunAhmed Misir Ali r Choshma (Misir Alis Glasses)** | হুমায়ূন আহমেদ | — | PDF | 880 KB | [📖 Open Book](https://drive.google.com/file/d/1yhuGfvuWjUNzvu9IbYPHTNm13tHwTO9z/view) |
+| 5 | **HumayunAhmed Misir Ali Unsolved** | হুমায়ূন আহমেদ | — | PDF | 4.5 MB | [📖 Open Book](https://drive.google.com/file/d/15SFMS4rhB80L1YZoa6qHozfTtwSlBuNp/view) |
 | 6 | **HumayunAhmed Misir Ali! Apni Kothai (Misir Ali! Where Are You)** | হুমায়ূন আহমেদ | — | PDF | 4.5 MB | [📖 Open Book](https://drive.google.com/file/d/1Ige07sL0bN-wNcf-2KOOKBqAm_lqrN7G/view) |
 | 7 | **HumayunAhmed Misir Alir Amimangsito Rahasya (The Unsolved Mystery of Misir Ali)** | হুমায়ূন আহমেদ | — | PDF | 8.1 MB | [📖 Open Book](https://drive.google.com/file/d/1SxLdHUwHPSRX7IKvHFfhsn5Y-bquB_1R/view) |
 | 8 | **আমিই মিসির আলি** | হুমায়ূন আহমেদ | 2026 | EPUB | 246 KB | [📖 Open Book](https://drive.google.com/file/d/18EUjCw3DyHeOvQ0PecOsxyJ0D998Bhid/view) |
@@ -454,17 +778,35 @@
 | 2 | **নির্বাচিত ভূতের গল্প** | হুমায়ূন আহমেদ | 2020 | MOBI | 758 KB | [📖 Open Book](https://drive.google.com/file/d/1EpkXL9x0FShcquwxmA_ifOJcek1_pj-V/view) |
 | 3 | **নির্বাচিত ভূতের গল্প** | হুমায়ূন আহমেদ | — | PDF | 9.2 MB | [📖 Open Book](https://drive.google.com/file/d/1dZL-PldBoqx3VeZUtoqhCxEeMLlKYR6K/view) |
 
+### 📂 বাংলা বর্ণমালা/হুমায়ূন আহমেদ/উপন্যাস (3 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **উপন্যাস সমগ্র (৭ম খণ্ড)- হুমায়ূন আহমেদ** | হুমায়ূন আহমেদ | — | PDF | 40.0 MB | [📖 Open Book](https://drive.google.com/file/d/14Jyz_1RBeykYFtZpPmveA68yRNNsvJ1E/view) |
+| 2 | **৩৮। পারুল ও তিনটি কুকুর** | হুমায়ূন আহমেদ | — | PDF | 16.1 MB | [📖 Open Book](https://drive.google.com/file/d/1uYtzQZhZCPgjuJG2DO1gxKhwcY8gyFD1/view) |
+| 3 | **৪০। কবি** | হুমায়ূন আহমেদ | — | PDF | 28.4 MB | [📖 Open Book](https://drive.google.com/file/d/1sHKB2a-98NVPbPOELHGGEnJoc13NynFZ/view) |
+
 ### 📂 ইতিহাস (2 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **1971-humayun ahmed** | হুমায়ূন আহমেদ | 1971 | PDF | 6.4 MB | [📖 Open Book](https://drive.google.com/file/d/1gFGTscth0ShhDaAEW_0gOGB_VL2ZNu6y/view) |
 | 2 | **মুক্তিযুদ্ধের উপন্যাসসমগ্র** | হুমায়ূন আহমেদ | — | PDF | 10.1 MB | [📖 Open Book](https://drive.google.com/file/d/1ZJHEB4k_Q_rJcwSyk_tNiodzMt1AK7Eq/view) |
 
+### 📂 বাংলা বর্ণমালা/হুমায়ূন আহমেদ/গল্প (2 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **ছোট গল্প** | হুমায়ূন আহমেদ | — | PDF | 3.6 MB | [📖 Open Book](https://drive.google.com/file/d/1lW7-Prfk76K5A1tmt9UYfK3UgWeth40V/view) |
+| 2 | **নির্বাচিত ভুতের গল্প** | হুমায়ূন আহমেদ | — | PDF | 9.2 MB | [📖 Open Book](https://drive.google.com/file/d/1SjTXGAmEX1r2Y-kb1yVxNAzQoeXr8vbF/view) |
+
 ### 📂 ভ্রমণ (2 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **দেখা না-দেখা** | হুমায়ূন আহমেদ | 2023 | EPUB | 268 KB | [📖 Open Book](https://drive.google.com/file/d/1wT-IRJXqZ-XgMAVmwIOWswkdhOpzQL0w/view) |
 | 2 | **রাবণের দেশে আমি এবং আমরা** | হুমায়ূন আহমেদ | 2023 | EPUB | 413 KB | [📖 Open Book](https://drive.google.com/file/d/1g7esw9xZ1wRZSkzipwggF7W7PqFgJN8Z/view) |
+
+### 📂 ভাষা ও ব্যাকরণ (1 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **In Blissfull Hell [English Translation Of Nondito Noroke]** | হুমায়ূন আহমেদ | — | PDF | 2.6 MB | [📖 Open Book](https://drive.google.com/file/d/1zX-vuIPSgqJ9u4N5pnP1G2qpw9FWKsU6/view) |
 
 ### 📂 কবিতা (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
@@ -475,11 +817,6 @@
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **নৃপতি** | হুমায়ূন আহমেদ | 2023 | EPUB | 225 KB | [📖 Open Book](https://drive.google.com/file/d/1vg6-5M7l-SemjI7mabkFb8QInWmMfAi3/view) |
-
-### 📂 ভাষা ও ব্যাকরণ (1 books)
-| # | Title | Author | Year | Format | Size | Google Drive |
-|---:|---|---|:---:|:---:|---:|:---:|
-| 1 | **In Blissfull Hell [English Translation Of Nondito Noroke]** | হুমায়ূন আহমেদ | — | PDF | 2.6 MB | [📖 Open Book](https://drive.google.com/file/d/1zX-vuIPSgqJ9u4N5pnP1G2qpw9FWKsU6/view) |
 
 ---
 [⬅️ Back to Bangla Index](../README.md) | [🏠 Back to Library Home](../../../README.md)

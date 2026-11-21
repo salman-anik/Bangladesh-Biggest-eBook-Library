@@ -3,11 +3,20 @@
 [🏠 Home](../../../README.md) / [05_Authors_and_Scholars](../../README.md) / [Bangla Index](../README.md) / **আবুল বাশার**
 
 > **📂 Google Drive Author Folder:** [Open in Drive](https://drive.google.com/drive/folders/1GW2DfBJGQJwxffna18ZJEbHcAOcx1fr5)  
-> **Total Books in Library:** **4 books** across 2 genres/series
+> **Total Books in Library:** **9 books** across 3 genres/series
 
 ---
 
 ## 📚 Collections & Genres
+
+### 📂 বাংলা বর্ণমালা/আবুল বাশার (5 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **Agni Bolaka** | আবুল বাশার | — | PDF | 21.0 MB | [📖 Open Book](https://drive.google.com/file/d/17fQcaIC8ZJR4mMUimLBKk3CSz9a7G74S/view) |
+| 2 | **Moru Sorgo** | আবুল বাশার | — | PDF | 9.3 MB | [📖 Open Book](https://drive.google.com/file/d/1dLxz7vvy3qWEPUEA1DrD0IfJORxpB9TW/view) |
+| 3 | **Moyuri Ebong Moyuri** | আবুল বাশার | — | PDF | 5.4 MB | [📖 Open Book](https://drive.google.com/file/d/1flGYMFXaPDBWlROxL54Mf51zWX6mvd6W/view) |
+| 4 | **Phulbou** | আবুল বাশার | — | PDF | 13.0 MB | [📖 Open Book](https://drive.google.com/file/d/1eO511OafEREIODrOI0LOonXQBVzwdHDA/view) |
+| 5 | **Rajaboli** | আবুল বাশার | — | PDF | 9.3 MB | [📖 Open Book](https://drive.google.com/file/d/1MDPDJXUOip88Ogvji5QowBPp00fHGCfX/view) |
 
 ### 📂 উপন্যাস (3 books)
 | # | Title | Author | Year | Format | Size | Google Drive |

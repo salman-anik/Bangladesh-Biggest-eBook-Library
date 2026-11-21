@@ -9,7 +9,7 @@
 
 ## 📚 Collections & Genres
 
-### 📂 অন্যান্য (3 books)
+### 📂 Islamic_Books/অন্যান্য (3 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **আত্মীয়তার সম্পর্ক** | ড.কাবীরুল ইসলাম | — | PDF | 1.1 MB | [📖 Open Book](https://drive.google.com/file/d/1mVILr9bZB3QaO8GHtMEGBq_6jWAOIYms/view) |

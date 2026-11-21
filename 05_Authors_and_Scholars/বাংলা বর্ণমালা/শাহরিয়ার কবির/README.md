@@ -15,7 +15,7 @@
 | 1 | **রাঙা মেঘ সাঁতরে যায়** | শাহরিয়ার কবির | — | DOCX | 45.8 MB | [📖 Open Book](https://drive.google.com/file/d/1-TmcTvrROSWVYyUzzxTf2v5GSb76Smkx/view) |
 | 2 | **রাঙা মেঘ সাঁতরে যায়** | শাহরিয়ার কবির | — | DOCX | 377 KB | [📖 Open Book](https://drive.google.com/file/d/1WsgnW8DE1IjQTCbcOsvlM1or_kXpaLTF/view) |
 
-### 📂 অন্যান্য (1 books)
+### 📂 Islamic_Books/অন্যান্য (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **হানাবাড়ীর রহস্য** | শাহরিয়ার কবির | — | MOBI | 309 KB | [📖 Open Book](https://drive.google.com/file/d/1VNDpL10_q1VXUm2XhcTyh5R83iLTn9hh/view) |

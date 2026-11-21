@@ -3,11 +3,78 @@
 [🏠 Home](../../../README.md) / [05_Authors_and_Scholars](../../README.md) / [Bangla Index](../README.md) / **হেমেন্দ্রকুমার রায়**
 
 > **📂 Google Drive Author Folder:** [Open in Drive](https://drive.google.com/drive/folders/1H6d30ktoNaKg52m3fjq-fegHnVWFKJri)  
-> **Total Books in Library:** **39 books** across 4 genres/series
+> **Total Books in Library:** **102 books** across 5 genres/series
 
 ---
 
 ## 📚 Collections & Genres
+
+### 📂 বাংলা বর্ণমালা/হেমেন্দ্রকুমার রায় (63 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **Abar Jokher Dhon** | হেমেন্দ্রকুমার রায় | — | PDF | 883 KB | [📖 Open Book](https://drive.google.com/file/d/1StZgGJXf6SSwlJKyr1GCPYp5DFlBMNmv/view) |
+| 2 | **Adhunik Robinhood** | হেমেন্দ্রকুমার রায় | — | PDF | 7.9 MB | [📖 Open Book](https://drive.google.com/file/d/1cFpQCqgtRfyXmwcY_BdPn5CQYuaEYynM/view) |
+| 3 | **Adrishya Manus** | হেমেন্দ্রকুমার রায় | — | PDF | 552 KB | [📖 Open Book](https://drive.google.com/file/d/1mn2OyvKp1yIU5SjOXutVIeloJM2BDxfk/view) |
+| 4 | **Ajana Dwiper Rani** | হেমেন্দ্রকুমার রায় | — | PDF | 676 KB | [📖 Open Book](https://drive.google.com/file/d/1NmwVZkzE_A1SQ0iKUkTYWJZufBI1jzcu/view) |
+| 5 | **Amanushik Manush** | হেমেন্দ্রকুমার রায় | — | PDF | 771 KB | [📖 Open Book](https://drive.google.com/file/d/1jTdsMAymb68IvElXUOICgg-M_LajBDFI/view) |
+| 6 | **Amanushik Manush** | হেমেন্দ্রকুমার রায় | — | PDF | 771 KB | [📖 Open Book](https://drive.google.com/file/d/1yAnaH9UFNWZMal0nyTI0k4CG4Yruxqkg/view) |
+| 7 | **Amrita dip** | হেমেন্দ্রকুমার রায় | — | PDF | 9.0 MB | [📖 Open Book](https://drive.google.com/file/d/1aHWNMUbT0hsopcDMwSHmW9MdB6tid8nc/view) |
+| 8 | **Andhakarer Bondhu** | হেমেন্দ্রকুমার রায় | — | PDF | 534 KB | [📖 Open Book](https://drive.google.com/file/d/1SjgHsNeZDhcdqlaxr3w-lHLZC5L078QS/view) |
+| 9 | **Baghrajer Abhijan** | হেমেন্দ্রকুমার রায় | — | PDF | 803 KB | [📖 Open Book](https://drive.google.com/file/d/1gOzkRDSzXeZR2u0iZpkytVbrotGJAHCq/view) |
+| 10 | **Bharater Dwitiyo Probhate** | হেমেন্দ্রকুমার রায় | — | PDF | 875 KB | [📖 Open Book](https://drive.google.com/file/d/1B1k82TVx81Epr-BCRHXLP3EFsslrImDl/view) |
+| 11 | **Bimaner Notun Dada** | হেমেন্দ্রকুমার রায় | — | PDF | 1.0 MB | [📖 Open Book](https://drive.google.com/file/d/1PsTAataL1cR3jEzMfq5MPZkfPDwJO7S9/view) |
+| 12 | **Bishal Gorer Dushasan** | হেমেন্দ্রকুমার রায় | — | PDF | 780 KB | [📖 Open Book](https://drive.google.com/file/d/1_cuhXPzSPYukVwFYqg8NUHkz1DTU-NAP/view) |
+| 13 | **Chotto Pomir Abhijan** | হেমেন্দ্রকুমার রায় | — | PDF | 504 KB | [📖 Open Book](https://drive.google.com/file/d/1qR0rmr3QMA2dwXA-G8A1GO5cuYb7kTn-/view) |
+| 14 | **Dersho Khokar Kando** | হেমেন্দ্রকুমার রায় | — | PDF | 773 KB | [📖 Open Book](https://drive.google.com/file/d/1KjuL1Dlts5zfzGg54G3UMPbW14S4B60H/view) |
+| 15 | **Goenda Bhoot O Manush** | হেমেন্দ্রকুমার রায় | — | PDF | 5.4 MB | [📖 Open Book](https://drive.google.com/file/d/1ma6BQRfhf9E6ABUM3BkXlZ4yYdLn-Zww/view) |
+| 16 | **Goenda Kahini Samagra** | হেমেন্দ্রকুমার রায় | — | PDF | 40.2 MB | [📖 Open Book](https://drive.google.com/file/d/1ALnny6ZPdSsHPn5vp1WjopDK12QEt06z/view) |
+| 17 | **Haradhaner dwip** | হেমেন্দ্রকুমার রায় | — | PDF | 788 KB | [📖 Open Book](https://drive.google.com/file/d/1UShIZC13Ugs0HmpQIEnnJLigufS_aCER/view) |
+| 18 | **hemendro-kumar-rochonabali-1** | হেমেন্দ্রকুমার রায় | — | PDF | 10.5 MB | [📖 Open Book](https://drive.google.com/file/d/1mJZvWOQK6QGt3swOcqVv693Om4hqP-n5/view) |
+| 19 | **hemendro-kumar-rochonabali-2** | হেমেন্দ্রকুমার রায় | — | PDF | 8.1 MB | [📖 Open Book](https://drive.google.com/file/d/1hO3naweF1Y4N-Z1zTn3lYS8S7v76UyXb/view) |
+| 20 | **hemendro-kumar-rochonabali-3** | হেমেন্দ্রকুমার রায় | — | PDF | 8.1 MB | [📖 Open Book](https://drive.google.com/file/d/1VPU2y4tRmgBIg0vndy_tCHRB3fXgY3rw/view) |
+| 21 | **hemendro-kumar-rochonabali-4** | হেমেন্দ্রকুমার রায় | — | PDF | 9.1 MB | [📖 Open Book](https://drive.google.com/file/d/1A3sUG5UqzjhisdaME1IMrQuJbOv_7KS-/view) |
+| 22 | **hemendro-kumar-rochonabali-5** | হেমেন্দ্রকুমার রায় | — | PDF | 10.2 MB | [📖 Open Book](https://drive.google.com/file/d/1dkgC5wLtOD51nfuX5o0hgznZggNSdRPu/view) |
+| 23 | **hemendro-kumar-rochonaboli-10** | হেমেন্দ্রকুমার রায় | — | PDF | 6.9 MB | [📖 Open Book](https://drive.google.com/file/d/1XtjVjeC8dVRS_6qEvmxTSqkY-ny4bp_S/view) |
+| 24 | **hemendro-kumar-rochonaboli-11** | হেমেন্দ্রকুমার রায় | — | PDF | 6.4 MB | [📖 Open Book](https://drive.google.com/file/d/1OG90qVQ3UrV7aucHrwVBSKH8rQlK18kg/view) |
+| 25 | **hemendro-kumar-rochonaboli-12** | হেমেন্দ্রকুমার রায় | — | PDF | 5.7 MB | [📖 Open Book](https://drive.google.com/file/d/1FT6zppyQiwdI8ZrrzRF4TS0yKfNzSNTg/view) |
+| 26 | **hemendro-kumar-rochonaboli-13** | হেমেন্দ্রকুমার রায় | — | PDF | 6.1 MB | [📖 Open Book](https://drive.google.com/file/d/1Fyczae2A-0BI7Cm_ddfxQmXSyIyxnfmx/view) |
+| 27 | **hemendro-kumar-rochonaboli-14** | হেমেন্দ্রকুমার রায় | — | PDF | 14.3 MB | [📖 Open Book](https://drive.google.com/file/d/185goSwr8dQSv7kB4m08C7HuP2wqYa-L8/view) |
+| 28 | **hemendro-kumar-rochonaboli-15** | হেমেন্দ্রকুমার রায় | — | PDF | 8.3 MB | [📖 Open Book](https://drive.google.com/file/d/1zvDTH7vx9pkxXo8rFwCvtqHhnvYl2eBD/view) |
+| 29 | **hemendro-kumar-rochonaboli-16** | হেমেন্দ্রকুমার রায় | — | PDF | 6.9 MB | [📖 Open Book](https://drive.google.com/file/d/1jzX3KBDE4-efWuExNlCiPdYcdu_mGHE4/view) |
+| 30 | **hemendro-kumar-rochonaboli-17** | হেমেন্দ্রকুমার রায় | — | PDF | 9.6 MB | [📖 Open Book](https://drive.google.com/file/d/1Rh5cM5KbrT40cAUmprGqWCKHsTUUQeXH/view) |
+| 31 | **hemendro-kumar-rochonaboli-18** | হেমেন্দ্রকুমার রায় | — | PDF | 4.4 MB | [📖 Open Book](https://drive.google.com/file/d/1fPTxsQhVJ0VQ8x9XK_0uhzp-pAYwjzY3/view) |
+| 32 | **hemendro-kumar-rochonaboli-19** | হেমেন্দ্রকুমার রায় | — | PDF | 6.1 MB | [📖 Open Book](https://drive.google.com/file/d/1w652Yu1qX1CsYtmVsdGi2ksvCCG_o9o4/view) |
+| 33 | **hemendro-kumar-rochonaboli-20** | হেমেন্দ্রকুমার রায় | — | PDF | 24.8 MB | [📖 Open Book](https://drive.google.com/file/d/1q_IT3UVAifKdMtxjkubkjnX2rcUoqvWJ/view) |
+| 34 | **hemendro-kumar-rochonaboli-21** | হেমেন্দ্রকুমার রায় | — | PDF | 5.4 MB | [📖 Open Book](https://drive.google.com/file/d/14QQYM09K-J8YxBqtZiYDRUjtViYk8Sik/view) |
+| 35 | **hemendro-kumar-rochonaboli-22** | হেমেন্দ্রকুমার রায় | — | PDF | 5.3 MB | [📖 Open Book](https://drive.google.com/file/d/1rgUWXPl6Sc2s0sAfTxw32U6EdlrAN3VN/view) |
+| 36 | **hemendro-kumar-rochonaboli-23** | হেমেন্দ্রকুমার রায় | — | PDF | 4.9 MB | [📖 Open Book](https://drive.google.com/file/d/1cnX9OznrSv0Q5cckEz_XkQl02fYryscR/view) |
+| 37 | **hemendro-kumar-rochonaboli-24** | হেমেন্দ্রকুমার রায় | — | PDF | 4.7 MB | [📖 Open Book](https://drive.google.com/file/d/17T0orJkV3SdOEJFcrfouGmdpbXR2iHUm/view) |
+| 38 | **hemendro-kumar-rochonaboli-25** | হেমেন্দ্রকুমার রায় | — | PDF | 5.1 MB | [📖 Open Book](https://drive.google.com/file/d/1_BOLCkffsbH5zcQ-rnapFVaoqRRvoyt-/view) |
+| 39 | **hemendro-kumar-rochonaboli-26** | হেমেন্দ্রকুমার রায় | — | PDF | 12.7 MB | [📖 Open Book](https://drive.google.com/file/d/13FzBGFX3TRjsePKxzC7h0fnowEdTG2R1/view) |
+| 40 | **hemendro-kumar-rochonaboli-27** | হেমেন্দ্রকুমার রায় | — | PDF | 11.8 MB | [📖 Open Book](https://drive.google.com/file/d/1mz6i8oGHSO1ccrG-634ZqSuVFAZbWPwZ/view) |
+| 41 | **hemendro-kumar-rochonaboli-6** | হেমেন্দ্রকুমার রায় | — | PDF | 7.5 MB | [📖 Open Book](https://drive.google.com/file/d/1zxYIy_ZxktNZiSTDWrJ8I-kSLGPUVesI/view) |
+| 42 | **hemendro-kumar-rochonaboli-7** | হেমেন্দ্রকুমার রায় | — | PDF | 7.5 MB | [📖 Open Book](https://drive.google.com/file/d/12KDOZR6vxfJg_u4Vok_gttisjbpAfBHT/view) |
+| 43 | **hemendro-kumar-rochonaboli-8** | হেমেন্দ্রকুমার রায় | — | PDF | 7.1 MB | [📖 Open Book](https://drive.google.com/file/d/1V21rY0rjwdJHwZDtiKq_Xn_NTGBmmZFn/view) |
+| 44 | **hemendro-kumar-rochonaboli-9** | হেমেন্দ্রকুমার রায় | — | PDF | 7.1 MB | [📖 Open Book](https://drive.google.com/file/d/11UPsoG-xFiLJNvWJwhQFMV2RWpNe66wK/view) |
+| 45 | **Jagat Shether Ratnakuthi** | হেমেন্দ্রকুমার রায় | — | PDF | 15.7 MB | [📖 Open Book](https://drive.google.com/file/d/1ToOTO4fnOXLJ3X9rghJ-4ROgoMlUbB3W/view) |
+| 46 | **Jaladashu Kahini** | হেমেন্দ্রকুমার রায় | — | PDF | 941 KB | [📖 Open Book](https://drive.google.com/file/d/1Oy9Ysb1ug8Alwe3obJkhlhWkcgk5KyKJ/view) |
+| 47 | **Jokher Dhon** | হেমেন্দ্রকুমার রায় | — | PDF | 3.5 MB | [📖 Open Book](https://drive.google.com/file/d/1pGGICIX-G-a-LUsaXPU-y4y29jBMulmu/view) |
+| 48 | **King Kong** | হেমেন্দ্রকুমার রায় | — | PDF | 1.3 MB | [📖 Open Book](https://drive.google.com/file/d/1f7Z7gSx9HPP3ExErQ7QFrEif45WewZM3/view) |
+| 49 | **Kishor Bhoutik Samagra** | হেমেন্দ্রকুমার রায় | — | PDF | 36.8 MB | [📖 Open Book](https://drive.google.com/file/d/1fK4Fu-nI9onJ57c-rLenykbLxM73kxC8/view) |
+| 50 | **Kishor Kahini Samagra** | হেমেন্দ্রকুমার রায় | — | PDF | 31.7 MB | [📖 Open Book](https://drive.google.com/file/d/1OaTcay84pz98p-zV7nhDW39lietH8tR4/view) |
+| 51 | **Kumar Bimal Er Adventure Samagra** | হেমেন্দ্রকুমার রায় | — | PDF | 43.9 MB | [📖 Open Book](https://drive.google.com/file/d/1E7U872JSn-gFZknbgtY8fQ_UQJlBPAMu/view) |
+| 52 | **Manus Pisach** | হেমেন্দ্রকুমার রায় | — | PDF | 770 KB | [📖 Open Book](https://drive.google.com/file/d/1YRbM-CQrwwvbv0NhfUMbEg1i1Nl3tDkG/view) |
+| 53 | **Manusher Gandha Pai** | হেমেন্দ্রকুমার রায় | — | PDF | 606 KB | [📖 Open Book](https://drive.google.com/file/d/1aEq4xSIIh5z8SZZymhjTxbJ82P3ygEBm/view) |
+| 54 | **Manusher Pratham Adventure** | হেমেন্দ্রকুমার রায় | — | PDF | 786 KB | [📖 Open Book](https://drive.google.com/file/d/1W_mCIGEqRkK72aydlhSi2o7ScMSNhzXi/view) |
+| 55 | **Meghduter Marte Agoman** | হেমেন্দ্রকুমার রায় | — | PDF | 723 KB | [📖 Open Book](https://drive.google.com/file/d/1VvYnIQmsvHD1oaPifyEcCQzq-_QephzX/view) |
+| 56 | **Omaboswar Raat** | হেমেন্দ্রকুমার রায় | — | PDF | 575 KB | [📖 Open Book](https://drive.google.com/file/d/1Xo0K4ZeRm55QwpgxymLkaeyg4yeJg911/view) |
+| 57 | **Rahasyer Alo Chaya** | হেমেন্দ্রকুমার রায় | — | PDF | 572 KB | [📖 Open Book](https://drive.google.com/file/d/1qmYk1ycbg7IFN9BXpj-YoCFJ1kWkBMNy/view) |
+| 58 | **Runu Tunur Adventure** | হেমেন্দ্রকুমার রায় | — | PDF | 744 KB | [📖 Open Book](https://drive.google.com/file/d/1KZPDndU2sF-XpG8pof8mUebBbk_q8QDv/view) |
+| 59 | **Sahittik Saratchandra** | হেমেন্দ্রকুমার রায় | — | PDF | 643 KB | [📖 Open Book](https://drive.google.com/file/d/1ydLLJG-OTglsM3TTdK9B3q12k7DAYF6p/view) |
+| 60 | **Sandhar Pare Sabdhan** | হেমেন্দ্রকুমার রায় | — | PDF | 584 KB | [📖 Open Book](https://drive.google.com/file/d/1rvFxG7qqnorIttTKCY2_QyCFjjA0Qioz/view) |
+| 61 | **Sundarbaner Manush Bagh** | হেমেন্দ্রকুমার রায় | — | PDF | 550 KB | [📖 Open Book](https://drive.google.com/file/d/1XvJDPyNvoOoyYDFf21MGhIIhn5rrTQB8/view) |
+| 62 | **Tara Tin Bondhu** | হেমেন্দ্রকুমার রায় | — | PDF | 531 KB | [📖 Open Book](https://drive.google.com/file/d/1pilPKxjsgOko3z9MEibKefINE-QqG287/view) |
+| 63 | **জয়ন্ত মাণিক গোয়েন্দা কাহিনী সমগ্র** | হেমেন্দ্রকুমার রায় | — | PDF | 38.1 MB | [📖 Open Book](https://drive.google.com/file/d/1xrxeM_Y8HguiMzpRlNd4SEUeRft2E5DD/view) |
 
 ### 📂 উপন্যাস (31 books)
 | # | Title | Author | Year | Format | Size | Google Drive |

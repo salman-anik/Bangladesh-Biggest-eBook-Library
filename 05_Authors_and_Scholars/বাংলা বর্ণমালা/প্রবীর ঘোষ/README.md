@@ -9,20 +9,20 @@
 
 ## 📚 Collections & Genres
 
-### 📂 কুরআন ও তাফসির (1 books)
+### 📂 উপন্যাস (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
-| 1 | **প্রবীর ঘোষ - আমি কেন ঈশ্বরে বিশ্বাস করি না (১৯৯৬)** | প্রবীর ঘোষ | 1996 | EPUB | 1.0 MB | [📖 Open Book](https://drive.google.com/file/d/1-M-K34xAaN__e95CrBDezij2uZxipKfG/view) |
+| 1 | **অলৌকিক নয়, লৌকিক (জাতিস্মর, আত্মা, অধ্যাত্মবাদ)** | প্রবীর ঘোষ | 2024 | EPUB | 540 KB | [📖 Open Book](https://drive.google.com/file/d/1TVwl9R6x4SYDR7yUUCsRtDF-Ha2vHWDS/view) |
 
 ### 📂 প্রবন্ধ (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **আমি কেন ঈশ্বরে বিশ্বাস করি না** | প্রবীর ঘোষ | 2024 | EPUB | 425 KB | [📖 Open Book](https://drive.google.com/file/d/19TujvsRgMhcZjAXqLMq4KCtwWTy7xe85/view) |
 
-### 📂 উপন্যাস (1 books)
+### 📂 Islamic_Books/কুরআন ও তাফসির (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
-| 1 | **অলৌকিক নয়, লৌকিক (জাতিস্মর, আত্মা, অধ্যাত্মবাদ)** | প্রবীর ঘোষ | 2024 | EPUB | 540 KB | [📖 Open Book](https://drive.google.com/file/d/1TVwl9R6x4SYDR7yUUCsRtDF-Ha2vHWDS/view) |
+| 1 | **প্রবীর ঘোষ - আমি কেন ঈশ্বরে বিশ্বাস করি না (১৯৯৬)** | প্রবীর ঘোষ | 1996 | EPUB | 1.0 MB | [📖 Open Book](https://drive.google.com/file/d/1-M-K34xAaN__e95CrBDezij2uZxipKfG/view) |
 
 ---
 [⬅️ Back to Bangla Index](../README.md) | [🏠 Back to Library Home](../../../README.md)

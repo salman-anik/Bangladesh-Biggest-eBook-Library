@@ -3,11 +3,25 @@
 [🏠 Home](../../../README.md) / [05_Authors_and_Scholars](../../README.md) / [Bangla Index](../README.md) / **শিবরাম চক্রবর্তী**
 
 > **📂 Google Drive Author Folder:** [Open in Drive](https://drive.google.com/drive/folders/131i_44tH4kvw5AOd-LXtUjKb3RoOVyWx)  
-> **Total Books in Library:** **10 books** across 3 genres/series
+> **Total Books in Library:** **20 books** across 4 genres/series
 
 ---
 
 ## 📚 Collections & Genres
+
+### 📂 বাংলা বর্ণমালা/শিবরাম চক্রবর্তী (10 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **Bari Theke Paliye** | শিবরাম চক্রবর্তী | — | PDF | 16.9 MB | [📖 Open Book](https://drive.google.com/file/d/1IRe0eTYuuHG0rldHu9DKsow97cXVZzBt/view) |
+| 2 | **Issor Prithibi Valobasha** | শিবরাম চক্রবর্তী | — | PDF | 14.5 MB | [📖 Open Book](https://drive.google.com/file/d/13891RGMC9TmT7TG0o2RMzbOs_MEJGN0x/view) |
+| 3 | **Itur Theke Ityadi** | শিবরাম চক্রবর্তী | — | PDF | 4.3 MB | [📖 Open Book](https://drive.google.com/file/d/1gEckzN1V689xPdgQq0FyqBRIY5iJ1Ulp/view) |
+| 4 | **Praan Niye Tanatani** | শিবরাম চক্রবর্তী | — | PDF | 4.3 MB | [📖 Open Book](https://drive.google.com/file/d/1D4joDaNxNyeajpn0UEcrEIi-6k3qOUSu/view) |
+| 5 | **Prothom Dhakkay Chit-Potang** | শিবরাম চক্রবর্তী | — | PDF | 2.4 MB | [📖 Open Book](https://drive.google.com/file/d/1cS-JWpG32GNPL9JPm_8tjpH8qu4ojMJc/view) |
+| 6 | **Rohossyamoy Attalika** | শিবরাম চক্রবর্তী | — | PDF | 3.3 MB | [📖 Open Book](https://drive.google.com/file/d/14kuVTeSHrxZiBOysbvnkNMrTJuafhOYz/view) |
+| 7 | **Shibram Rachana Samagra** | শিবরাম চক্রবর্তী | — | PDF | 26.6 MB | [📖 Open Book](https://drive.google.com/file/d/1DLrGryEqf98ncsiHm6ARyfiNtb0QVjog/view) |
+| 8 | **আমার লেখা** | শিবরাম চক্রবর্তী | — | PDF | 15.6 MB | [📖 Open Book](https://drive.google.com/file/d/1yDCQ2trgrIxRA3VH6inVe0o61dbgmkqR/view) |
+| 9 | **শিব্রাম অমনিবাস ০৭** | শিবরাম চক্রবর্তী | — | PDF | 8.3 MB | [📖 Open Book](https://drive.google.com/file/d/1ctzhoOv3hcyP2GhIxQ4MnCSiozu6T-gk/view) |
+| 10 | **শিব্রাম অমনিবাস ১১** | শিবরাম চক্রবর্তী | — | PDF | 7.7 MB | [📖 Open Book](https://drive.google.com/file/d/1Sdn5iZdqFJqWF7q6jaPwO9BfRpg3A7ac/view) |
 
 ### 📂 উপন্যাস (5 books)
 | # | Title | Author | Year | Format | Size | Google Drive |

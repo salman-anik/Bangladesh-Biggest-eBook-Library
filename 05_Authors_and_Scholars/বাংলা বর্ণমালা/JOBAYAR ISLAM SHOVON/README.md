@@ -9,7 +9,7 @@
 
 ## 📚 Collections & Genres
 
-### 📂 কুরআন ও তাফসির (4 books)
+### 📂 Islamic_Books/কুরআন ও তাফসির (4 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **one man army** | JOBAYAR ISLAM SHOVON | — | PDF | 1.3 MB | [📖 Open Book](https://drive.google.com/file/d/148vkrpc62rtAmO9TMbRvufDhRJsnuMzJ/view) |
@@ -23,15 +23,15 @@
 | 1 | **1LEaojcq5qE2el6gWM3htd6Tj93jAjD6o** | JOBAYAR ISLAM SHOVON | — | PDF | 1.3 MB | [📖 Open Book](https://drive.google.com/file/d/1BqvLiIna8Z3rVT2FX9_0ygsj-BDodUQ4/view) |
 | 2 | **1P7bpVwxiZohzBYoZAwxMJ6KyLsAXMB3S** | JOBAYAR ISLAM SHOVON | — | PDF | 3.5 MB | [📖 Open Book](https://drive.google.com/file/d/1FU1T6n1Gp6YSIcMnOgJbjtC6BAeP955W/view) |
 
-### 📂 অন্যান্য (1 books)
-| # | Title | Author | Year | Format | Size | Google Drive |
-|---:|---|---|:---:|:---:|---:|:---:|
-| 1 | **জান্নাতের ১০ টি জিকির** | JOBAYAR ISLAM SHOVON | — | PDF | 507 KB | [📖 Open Book](https://drive.google.com/file/d/1-utR9qjtx5IjM9aaZgSXBB0N0wB9l2YX/view) |
-
-### 📂 Biography (1 books)
+### 📂 Islamic_Books/ইসলামিক ইতিহাস (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **biography of asem umar** | JOBAYAR ISLAM SHOVON | — | PDF | 523 KB | [📖 Open Book](https://drive.google.com/file/d/13AvFOu60qy3D_5MrAPg39yYdAM8-Chsq/view) |
+
+### 📂 Islamic_Books/অন্যান্য (1 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **জান্নাতের ১০ টি জিকির** | JOBAYAR ISLAM SHOVON | — | PDF | 507 KB | [📖 Open Book](https://drive.google.com/file/d/1-utR9qjtx5IjM9aaZgSXBB0N0wB9l2YX/view) |
 
 ---
 [⬅️ Back to Bangla Index](../README.md) | [🏠 Back to Library Home](../../../README.md)

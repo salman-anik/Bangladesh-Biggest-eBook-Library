@@ -9,7 +9,7 @@
 
 ## 📚 Collections & Genres
 
-### 📂 অন্যান্য (3 books)
+### 📂 Islamic_Books/অন্যান্য (3 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **ইসলামের প্রথম মুয়াযযিন হযরত বিলাল (রাঃ)** | Rah | — | PDF | 1.3 MB | [📖 Open Book](https://drive.google.com/file/d/1UcT7iHKQJZ-qffwdLu5zzg_MR3u_txM8/view) |
@@ -22,7 +22,7 @@
 | 1 | **হযরত আবু বকর (রাঃ)** | Rah | — | PDF | 12.7 MB | [📖 Open Book](https://drive.google.com/file/d/1aUozWGeBA8HRrJQwgx-ZW1_ZMs_5c-68/view) |
 | 2 | **হায়াতুস সাহাবা (রাঃ)** | Rah | — | PDF | 28.5 MB | [📖 Open Book](https://drive.google.com/file/d/1I9wLZQzifVYR5RC--w-GPIRLhWS3U5cT/view) |
 
-### 📂 সীরাত (1 books)
+### 📂 Islamic_Books/সীরাত (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **সীরাতে আয়েশা (রাঃ)** | Rah | — | PDF | 11.5 MB | [📖 Open Book](https://drive.google.com/file/d/11oA11hrNW0T97HKq9Mm2JmCEFba9bHqp/view) |

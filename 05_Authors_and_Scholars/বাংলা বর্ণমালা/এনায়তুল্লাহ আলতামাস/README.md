@@ -9,7 +9,7 @@
 
 ## 📚 Collections & Genres
 
-### 📂 আকিদা (8 books)
+### 📂 Islamic_Books/আকিদা (8 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **ঈমানদীপ্ত দাস্তান ১ম খণ্ড** | এনায়তুল্লাহ আলতামাস | — | PDF | 14.2 MB | [📖 Open Book](https://drive.google.com/file/d/1HKSkdPoGreGcNN5PQvJXYzGOYdPtbrdK/view) |
@@ -21,7 +21,7 @@
 | 7 | **ঈমানদীপ্ত দাস্তান ৭ম খণ্ড** | এনায়তুল্লাহ আলতামাস | — | PDF | 13.2 MB | [📖 Open Book](https://drive.google.com/file/d/1CDSlDOw4dYj7lXEEDBcANdfrQWCR7Am8/view) |
 | 8 | **ঈমানদীপ্ত দাস্তান ৮ম খণ্ড** | এনায়তুল্লাহ আলতামাস | — | PDF | 13.3 MB | [📖 Open Book](https://drive.google.com/file/d/1ByjR35OLhzBSOs9amS8HedSrcZ9E9-Wr/view) |
 
-### 📂 অন্যান্য (4 books)
+### 📂 Islamic_Books/অন্যান্য (4 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **নাঙ্গা তলোয়ার ১ম খণ্ড** | এনায়তুল্লাহ আলতামাস | — | PDF | 3.4 MB | [📖 Open Book](https://drive.google.com/file/d/1-TfRi3M4rOcvrxTwbMlyQYBygIu0OxNZ/view) |

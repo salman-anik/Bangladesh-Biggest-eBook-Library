@@ -9,7 +9,7 @@
 
 ## 📚 Collections & Genres
 
-### 📂 অন্যান্য (61 books)
+### 📂 Islamic_Books/অন্যান্য (61 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **অক্টোপাশের বিদায়-আবুল আসাদ** | আবুল আসাদ | — | PDF | 622 KB | [📖 Open Book](https://drive.google.com/file/d/1zIekSps1EqbE9BnHusldHllftVlBxDXh/view) |
@@ -81,12 +81,12 @@
 | 2 | **amra sei se jati 2** | আবুল আসাদ | — | PDF | 2.2 MB | [📖 Open Book](https://drive.google.com/file/d/1GKaAmRGiWbzG2MLhRZPJrA54Zn0__CEj/view) |
 | 3 | **eksho bochorer rajniti** | আবুল আসাদ | — | PDF | 13.2 MB | [📖 Open Book](https://drive.google.com/file/d/1_dmwLfIPw78RWIFkor6ukzbQx8aFMvtU/view) |
 
-### 📂 কুরআন ও তাফসির (1 books)
+### 📂 Islamic_Books/কুরআন ও তাফসির (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **jug sondhikkhoner prithibi** | আবুল আসাদ | — | PDF | 9.8 MB | [📖 Open Book](https://drive.google.com/file/d/1MRm5RqrDmW5q6Lg_geVMjbKWfGe05SCQ/view) |
 
-### 📂 ইসলামিক ইতিহাস (1 books)
+### 📂 Islamic_Books/ইসলামিক ইতিহাস (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **আন্দালুসিয়ার প্রান্তরে-আবুল আসাদ** | আবুল আসাদ | — | PDF | 731 KB | [📖 Open Book](https://drive.google.com/file/d/1bqqmaCAPZPaO3YZ3WPmqQq6q5_NciP0K/view) |

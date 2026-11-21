@@ -3,7 +3,7 @@
 [🏠 Home](../../../README.md) / [05_Authors_and_Scholars](../../README.md) / [Bangla Index](../README.md) / **অতীন বন্দ্যোপাধ্যায়**
 
 > **📂 Google Drive Author Folder:** [Open in Drive](https://drive.google.com/drive/folders/1WKyL6mQzRWA8dm0CPVsLpGe48A3ebqXo)  
-> **Total Books in Library:** **17 books** across 2 genres/series
+> **Total Books in Library:** **19 books** across 3 genres/series
 
 ---
 
@@ -28,6 +28,12 @@
 | 14 | **রোদ্দুরে জ্যোৎস্নায়** | অতীন বন্দ্যোপাধ্যায় | — | PDF | 6.7 MB | [📖 Open Book](https://drive.google.com/file/d/1V14BJttUxmbzAe8_g3RHtXf8QAGuYp1B/view) |
 | 15 | **শামুকখোল** | অতীন বন্দ্যোপাধ্যায় | — | PDF | 12.2 MB | [📖 Open Book](https://drive.google.com/file/d/1IBEENUvNUdnY92PzIYQ6OyE2aLxabWT8/view) |
 | 16 | **সমুদ্রমানুষ** | অতীন বন্দ্যোপাধ্যায় | — | PDF | 11.4 MB | [📖 Open Book](https://drive.google.com/file/d/1aI2IAd_unWwKyGE5smJap8-MEKOs71jy/view) |
+
+### 📂 বাংলা বর্ণমালা/অতীন বন্দ্যোপাধ্যায় (2 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **দুঃখিনী বর্ণমালা মা আমার** | অতীন বন্দ্যোপাধ্যায় | — | PDF | 6.1 MB | [📖 Open Book](https://drive.google.com/file/d/1QiiwTC_QH8OUGSeSaLbzvMAtIM0Ewr-S/view) |
+| 2 | **বাসযাত্রা** | অতীন বন্দ্যোপাধ্যায় | — | PDF | 13.2 MB | [📖 Open Book](https://drive.google.com/file/d/1hbbNSGBxUIltbc3IbjerUvnpqLfMQJHV/view) |
 
 ### 📂 গল্প ও ছোটগল্প (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |

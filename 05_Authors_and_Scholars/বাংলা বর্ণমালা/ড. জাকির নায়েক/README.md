@@ -9,7 +9,7 @@
 
 ## 📚 Collections & Genres
 
-### 📂 অন্যান্য (6 books)
+### 📂 Islamic_Books/অন্যান্য (6 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **আমাদের জীবনের উদ্দেশ্য কি** | ড. জাকির নায়েক | — | PDF | 1.7 MB | [📖 Open Book](https://drive.google.com/file/d/1ddk2eXfDBMP7AMdaWjMooFn-wGSQmuqP/view) |
@@ -19,7 +19,7 @@
 | 5 | **মৌলবাদ বনাম মুক্ত চিন্তা** | ড. জাকির নায়েক | — | PDF | 2.8 MB | [📖 Open Book](https://drive.google.com/file/d/19CJKIhCmiv-T_Js1imZiS-hKgzANGXMQ/view) |
 | 6 | **সালাত** | ড. জাকির নায়েক | — | PDF | 975 KB | [📖 Open Book](https://drive.google.com/file/d/14ydg3qtvbV7ex4Cc0_jN-UrpIkaFvLBm/view) |
 
-### 📂 কুরআন ও তাফসির (6 books)
+### 📂 Islamic_Books/কুরআন ও তাফসির (6 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **আল কুরআন ও আধুনিক বিজ্ঞান** | ড. জাকির নায়েক | — | PDF | 1.6 MB | [📖 Open Book](https://drive.google.com/file/d/1BN2HSBvWKGU2svyOPEC0rWbwSavwYTS2/view) |
@@ -29,7 +29,7 @@
 | 5 | **জাকির নায়েক–প্রশ্নোত্তরপর্ব ১** | ড. জাকির নায়েক | — | PDF | 3.7 MB | [📖 Open Book](https://drive.google.com/file/d/1I1Ku5TIqLK8pkT0RB-LX62ZWWhrSqriX/view) |
 | 6 | **জাকির নায়েক–প্রশ্নোত্তরপর্ব ৪** | ড. জাকির নায়েক | — | PDF | 15.9 MB | [📖 Open Book](https://drive.google.com/file/d/1SGgo2bsdrsufM66N92kvmuSgxf8VcChe/view) |
 
-### 📂 সীরাত (1 books)
+### 📂 Islamic_Books/সীরাত (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **রাসুলুল্লাহ সাঃ এর নামায** | ড. জাকির নায়েক | — | PDF | 2.1 MB | [📖 Open Book](https://drive.google.com/file/d/1PYtv0ztZ17DzG5h1Vrq0YzlaE2tOinxg/view) |

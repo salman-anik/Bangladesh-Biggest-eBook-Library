@@ -19,7 +19,7 @@
 | 5 | **দ্য ম্যান ইটিং ল্যাপার্ড অব রুদ্রপ্রয়াগ** | জিম করবেট | 2023 | EPUB | 369 KB | [📖 Open Book](https://drive.google.com/file/d/158wWRiKQVTkNZcAKjMqJ6GydVR5sgcAd/view) |
 | 6 | **মাই ইন্ডিয়া** | জিম করবেট | 2023 | EPUB | 395 KB | [📖 Open Book](https://drive.google.com/file/d/1fbV8knnhpxvur511Gcy61Pq7WG4NkNus/view) |
 
-### 📂 অন্যান্য (1 books)
+### 📂 Islamic_Books/অন্যান্য (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **আমার ভারত** | জিম করবেট | — | MOBI | 596 KB | [📖 Open Book](https://drive.google.com/file/d/1t-oE6AtMB3u_lJljyozlcfutJa6-4uq1/view) |

@@ -9,20 +9,20 @@
 
 ## 📚 Collections & Genres
 
-### 📂 কুরআন ও তাফসির (1 books)
+### 📂 Islamic_Books/কুরআন ও তাফসির (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **al aksa masjid er iti kotha** | এ এন এম সিরাজুল ইসলাম | — | PDF | 3.3 MB | [📖 Open Book](https://drive.google.com/file/d/1KqBFUeqTL1RmbLL5r0M2NHKOgjJ14kQX/view) |
-
-### 📂 ফিকহ (1 books)
-| # | Title | Author | Year | Format | Size | Google Drive |
-|---:|---|---|:---:|:---:|---:|:---:|
-| 1 | **রমযানের তিরিশ শিক্ষা** | এ এন এম সিরাজুল ইসলাম | — | PDF | 6.4 MB | [📖 Open Book](https://drive.google.com/file/d/1Xpqw4vMBNMBnhWS43CRlKhvXKAp2nB3v/view) |
 
 ### 📂 ইতিহাস (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **মক্কা শরীফের ইতিহাস** | এ এন এম সিরাজুল ইসলাম | — | PDF | 15.1 MB | [📖 Open Book](https://drive.google.com/file/d/1ZK8o6dZTRe65PA-G36RcRoitIeZ2c5vn/view) |
+
+### 📂 Islamic_Books/ফিকহ (1 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **রমযানের তিরিশ শিক্ষা** | এ এন এম সিরাজুল ইসলাম | — | PDF | 6.4 MB | [📖 Open Book](https://drive.google.com/file/d/1Xpqw4vMBNMBnhWS43CRlKhvXKAp2nB3v/view) |
 
 ---
 [⬅️ Back to Bangla Index](../README.md) | [🏠 Back to Library Home](../../../README.md)

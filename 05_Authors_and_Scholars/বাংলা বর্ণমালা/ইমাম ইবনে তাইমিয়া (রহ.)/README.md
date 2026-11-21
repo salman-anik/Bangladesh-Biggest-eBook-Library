@@ -9,7 +9,7 @@
 
 ## 📚 Collections & Genres
 
-### 📂 কুরআন ও তাফসির (3 books)
+### 📂 Islamic_Books/কুরআন ও তাফসির (3 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **আল্লাহকে পেতে ওসীলা- ইবনে তাইমিয়া** | ইমাম ইবনে তাইমিয়া (রহ.) | — | PDF | 256 KB | [📖 Open Book](https://drive.google.com/file/d/1WJ0mkdUfxhAcrcU0YUQN3jH1zzR4W7i1/view) |

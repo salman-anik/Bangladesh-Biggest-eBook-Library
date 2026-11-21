@@ -3,7 +3,7 @@
 [🏠 Home](../../../README.md) / [05_Authors_and_Scholars](../../README.md) / [Bangla Index](../README.md) / **কাজী নজরুল ইসলাম**
 
 > **📂 Google Drive Author Folder:** [Open in Drive](https://drive.google.com/drive/folders/1QtCP6RCqau0nkEHnuZ84_iZ841yK4uM7)  
-> **Total Books in Library:** **36 books** across 6 genres/series
+> **Total Books in Library:** **53 books** across 8 genres/series
 
 ---
 
@@ -34,6 +34,26 @@
 | 20 | **সর্বহারা** | কাজী নজরুল ইসলাম | — | PDF | 438 KB | [📖 Open Book](https://drive.google.com/file/d/1wZoOnMvnzMSS8f6nBtREKHJ3faQ7GXe0/view) |
 | 21 | **হেনা** | কাজী নজরুল ইসলাম | — | PDF | 1.0 MB | [📖 Open Book](https://drive.google.com/file/d/1FIQD-YATr_6R0r3wmlYv82o7Dacbfi-D/view) |
 
+### 📂 বাংলা বর্ণমালা/কাজী নজরুল ইসলাম (16 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **Agni Bina** | কাজী নজরুল ইসলাম | — | PDF | 2.7 MB | [📖 Open Book](https://drive.google.com/file/d/1b8Y2JL47CRv1UQ7uNWSAr4283dsa-dJw/view) |
+| 2 | **Badol Borishone** | কাজী নজরুল ইসলাম | — | PDF | 1.3 MB | [📖 Open Book](https://drive.google.com/file/d/14HGWmkM9np8LcAFQYkPyPNfqUHNIwT6V/view) |
+| 3 | **Bisher Banshi** | কাজী নজরুল ইসলাম | — | PDF | 3.3 MB | [📖 Open Book](https://drive.google.com/file/d/17VRonAsiABbysW5tuFBDCVPRgosYXcsA/view) |
+| 4 | **BL-Kazi Nazrul Islam by** | কাজী নজরুল ইসলাম | — | PDF | 3.0 MB | [📖 Open Book](https://drive.google.com/file/d/1nm7fWDeDL7MTn6MjeUuKr996eJjRySut/view) |
+| 5 | **Ghumer Ghore** | কাজী নজরুল ইসলাম | — | PDF | 1.5 MB | [📖 Open Book](https://drive.google.com/file/d/17r6h7mJYzai28esWCmv0TuLnYz30-nvd/view) |
+| 6 | **Hena** | কাজী নজরুল ইসলাম | — | PDF | 1.3 MB | [📖 Open Book](https://drive.google.com/file/d/1L3LT8Zikxs5R7gT0nqtgL6m4a44PhhvH/view) |
+| 7 | **Kazi Nazrul Islam** | কাজী নজরুল ইসলাম | — | PDF | 3.0 MB | [📖 Open Book](https://drive.google.com/file/d/1__15yISY2rtrev0Xp8SkEr4ofToNklRL/view) |
+| 8 | **Sanchita** | কাজী নজরুল ইসলাম | — | PDF | 9.9 MB | [📖 Open Book](https://drive.google.com/file/d/10AKY0KUucgM1FyWFSVBRHA3w9Q4pdtGP/view) |
+| 9 | **Sarbahara** | কাজী নজরুল ইসলাম | — | PDF | 1.4 MB | [📖 Open Book](https://drive.google.com/file/d/10XltDfeXEsLKcany7qNcNs_7Vq9EAzre/view) |
+| 10 | **নজরুল রচনাবলী- ১ম খন্ড** | কাজী নজরুল ইসলাম | — | PDF | 14.2 MB | [📖 Open Book](https://drive.google.com/file/d/1JUlBrR0ZkGnLk1Yy2FFQHynUEYhFtDIX/view) |
+| 11 | **নজরুল রচনাবলী- ২য় খন্ড** | কাজী নজরুল ইসলাম | — | PDF | 13.6 MB | [📖 Open Book](https://drive.google.com/file/d/17P2psyGeHf4MP5BGMqlNR9ZCu9S6R1LF/view) |
+| 12 | **নজরুল রচনাবলী- ৩য় খন্ড** | কাজী নজরুল ইসলাম | — | PDF | 12.5 MB | [📖 Open Book](https://drive.google.com/file/d/1uehP4z_Bs7TCqPCsmzAte1RMpnEOmIOf/view) |
+| 13 | **নজরুল রচনাবলী- ৪র্থ খন্ড** | কাজী নজরুল ইসলাম | — | PDF | 11.7 MB | [📖 Open Book](https://drive.google.com/file/d/1YSaRt6PsLaArETW-PRzjFf1sNSoD37BR/view) |
+| 14 | **নজরুল রচনাবলী- ৫ম খন্ড** | কাজী নজরুল ইসলাম | — | PDF | 11.9 MB | [📖 Open Book](https://drive.google.com/file/d/1tTz9xkmpX5qeZxaoRLIJepOw-t6mkuJU/view) |
+| 15 | **নজরুল রচনাবলী- ৬ষ্ঠ খন্ড** | কাজী নজরুল ইসলাম | — | PDF | 13.4 MB | [📖 Open Book](https://drive.google.com/file/d/1LyhyD2ZwvtFlNbvG1HEfybIyEUE7EilO/view) |
+| 16 | **নজরুল রচনাবলী- ৭ম খন্ড** | কাজী নজরুল ইসলাম | — | PDF | 12.9 MB | [📖 Open Book](https://drive.google.com/file/d/1yIAM3Be2udS7S235wwyAiKKSKPe8SpDC/view) |
+
 ### 📂 উপন্যাস (5 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
@@ -58,6 +78,11 @@
 | 2 | **রিক্তের বেদন** | কাজী নজরুল ইসলাম | 2023 | EPUB | 308 KB | [📖 Open Book](https://drive.google.com/file/d/1p3jB9034Rluz8w-Ptd85xXhjQ4SY-uRp/view) |
 | 3 | **শিউলিমালা** | কাজী নজরুল ইসলাম | 2023 | EPUB | 246 KB | [📖 Open Book](https://drive.google.com/file/d/1W9JRtp1dkubG7jVMu8qayctoxXFsP0GP/view) |
 | 4 | **হক সাহেবের হাসির গল্প** | কাজী নজরুল ইসলাম | 2023 | EPUB | 239 KB | [📖 Open Book](https://drive.google.com/file/d/1zeCWK10zZeIsBc73k6WcP444_6Gft_yH/view) |
+
+### 📂 বাংলা বর্ণমালা/কাজী নজরুল ইসলাম/কবিতা (1 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **Kazi Nazrul Islamer Srestho Kobita [Sanchita]** | কাজী নজরুল ইসলাম | — | PDF | 3.5 MB | [📖 Open Book](https://drive.google.com/file/d/1zwQ4iN8K-LOuTjGShteYcXfiBUkBPhJs/view) |
 
 ### 📂 অন্যান্য (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |

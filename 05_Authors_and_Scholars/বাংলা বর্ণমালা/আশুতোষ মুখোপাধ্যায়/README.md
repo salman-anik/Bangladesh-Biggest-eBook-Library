@@ -3,7 +3,7 @@
 [🏠 Home](../../../README.md) / [05_Authors_and_Scholars](../../README.md) / [Bangla Index](../README.md) / **আশুতোষ মুখোপাধ্যায়**
 
 > **📂 Google Drive Author Folder:** [Open in Drive](https://drive.google.com/drive/folders/1lUdFbZInvqr5fjtrQlQ1jMOXwmXL62_C)  
-> **Total Books in Library:** **16 books** across 3 genres/series
+> **Total Books in Library:** **18 books** across 4 genres/series
 
 ---
 
@@ -31,6 +31,12 @@
 | 2 | **দুজনার ঘর** | আশুতোষ মুখোপাধ্যায় | 2023 | EPUB | 336 KB | [📖 Open Book](https://drive.google.com/file/d/1ejgQWf1Pq-sTbuPq13kq4x0b42DzxDCN/view) |
 | 3 | **ফেরারী অতীত** | আশুতোষ মুখোপাধ্যায় | 2023 | EPUB | 336 KB | [📖 Open Book](https://drive.google.com/file/d/1p_SGSmTIs_AmXnT8PAJhyp-nyGjBQfRs/view) |
 | 4 | **মডেল** | আশুতোষ মুখোপাধ্যায় | 2023 | EPUB | 293 KB | [📖 Open Book](https://drive.google.com/file/d/1_cXXUCRG7Qu4a-xZf9IQiemWa5lvQ1TB/view) |
+
+### 📂 বাংলা বর্ণমালা/আশুতোষ মুখোপাধ্যায় (2 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **অন্যনাম জীবন** | আশুতোষ মুখোপাধ্যায় | — | PDF | 4.0 MB | [📖 Open Book](https://drive.google.com/file/d/1jW5L-EO2MNC4xSSuuYrJ3YDYLVUpJc7m/view) |
+| 2 | **খনির নতুন মণি** | আশুতোষ মুখোপাধ্যায় | — | PDF | 9.8 MB | [📖 Open Book](https://drive.google.com/file/d/1Qk6cp_QfblhqaMzagVFuV5JLtp8VaQDy/view) |
 
 ### 📂 ইতিহাস (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |

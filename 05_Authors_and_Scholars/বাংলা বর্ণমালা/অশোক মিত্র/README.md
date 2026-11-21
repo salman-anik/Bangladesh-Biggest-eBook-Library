@@ -3,11 +3,18 @@
 [🏠 Home](../../../README.md) / [05_Authors_and_Scholars](../../README.md) / [Bangla Index](../README.md) / **অশোক মিত্র**
 
 > **📂 Google Drive Author Folder:** [Open in Drive](https://drive.google.com/drive/folders/1vIZH-NUNFAEW2I2gVbrUmpoATR923wIq)  
-> **Total Books in Library:** **4 books** across 2 genres/series
+> **Total Books in Library:** **7 books** across 3 genres/series
 
 ---
 
 ## 📚 Collections & Genres
+
+### 📂 বাংলা বর্ণমালা/অশোক মিত্র (3 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **অচেনাকে চিনে চিনে** | অশোক মিত্র | — | PDF | 7.0 MB | [📖 Open Book](https://drive.google.com/file/d/1_Scnj_UF00KA8EBHzCPm7w0F6bpMFoyx/view) |
+| 2 | **ভারতের চিত্রকলা প্রথম খণ্ড** | অশোক মিত্র | — | PDF | 23.6 MB | [📖 Open Book](https://drive.google.com/file/d/1oKltcB-vNJjHbVRIGZi6l-KIEiPIZPgT/view) |
+| 3 | **সমাজ, স্মৃতি, সাহিত্য** | অশোক মিত্র | — | PDF | 15.2 MB | [📖 Open Book](https://drive.google.com/file/d/11IC4ClocbwkPrwUfnEL_PglPnUzuEWYa/view) |
 
 ### 📂 ইতিহাস (3 books)
 | # | Title | Author | Year | Format | Size | Google Drive |

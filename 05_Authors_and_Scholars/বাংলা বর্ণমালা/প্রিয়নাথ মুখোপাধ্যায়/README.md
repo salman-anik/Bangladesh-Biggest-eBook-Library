@@ -9,7 +9,7 @@
 
 ## 📚 Collections & Genres
 
-### 📂 কুরআন ও তাফসির (6 books)
+### 📂 Islamic_Books/কুরআন ও তাফসির (6 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **প্রিয়নাথ মুখোপাধ্যায় - উভয় সঙ্কট (১৯০৬)** | প্রিয়নাথ মুখোপাধ্যায় | 1906 | EPUB | 115 KB | [📖 Open Book](https://drive.google.com/file/d/1bAZYyhLPTJH6D79g-GxqQFQ9dEQ_eqaY/view) |

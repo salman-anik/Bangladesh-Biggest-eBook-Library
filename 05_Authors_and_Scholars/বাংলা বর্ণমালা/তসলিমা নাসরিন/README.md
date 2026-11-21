@@ -3,7 +3,7 @@
 [🏠 Home](../../../README.md) / [05_Authors_and_Scholars](../../README.md) / [Bangla Index](../README.md) / **তসলিমা নাসরিন**
 
 > **📂 Google Drive Author Folder:** [Open in Drive](https://drive.google.com/drive/folders/1qs22e3DTPDHLjVhV0_BzmO17fQpFRsLl)  
-> **Total Books in Library:** **33 books** across 6 genres/series
+> **Total Books in Library:** **35 books** across 7 genres/series
 
 ---
 
@@ -54,6 +54,12 @@
 | 2 | **খালি খালি লাগে** | তসলিমা নাসরিন | — | PDF | 215 KB | [📖 Open Book](https://drive.google.com/file/d/1xvqN-CEi2tgBZyKxv0w9Co7nPhWwhW3X/view) |
 | 3 | **বন্দিনী** | তসলিমা নাসরিন | — | PDF | 263 KB | [📖 Open Book](https://drive.google.com/file/d/1ODqq6fX-n8lghMlpGkI-g2LoPP37mp5A/view) |
 | 4 | **ভালোবাসো? ছাই বাসো!** | তসলিমা নাসরিন | — | PDF | 297 KB | [📖 Open Book](https://drive.google.com/file/d/1RitOQ2ZGdMyEcz3e1-efvb9tQHE24tR4/view) |
+
+### 📂 বাংলা বর্ণমালা/তসলিমা নাসরিন (2 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **The Unsevered Toungue Taslima Nasreen** | তসলিমা নাসরিন | — | PDF | 191 KB | [📖 Open Book](https://drive.google.com/file/d/1JD4E6ptwO5QkoT3al3FVK68w7LH5Ogqd/view) |
+| 2 | **ভালোবাসো, ছাই বাসো** | তসলিমা নাসরিন | — | PDF | 297 KB | [📖 Open Book](https://drive.google.com/file/d/13hhq8R2UsJOdUe2pEBihasY1_RJkmS2Q/view) |
 
 ### 📂 প্রবন্ধ (2 books)
 | # | Title | Author | Year | Format | Size | Google Drive |

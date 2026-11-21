@@ -9,7 +9,7 @@
 
 ## 📚 Collections & Genres
 
-### 📂 অন্যান্য (8 books)
+### 📂 Islamic_Books/অন্যান্য (8 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **উমরু দরবেশ** | আসাদ বিন হাফিয | — | PDF | 3.3 MB | [📖 Open Book](https://drive.google.com/file/d/14jCxJnmpz1pqDq25lFDKPG-Vkd7GmEmM/view) |
@@ -21,7 +21,7 @@
 | 7 | **সর্প কেল্লার খুনী** | আসাদ বিন হাফিয | — | PDF | 1.9 MB | [📖 Open Book](https://drive.google.com/file/d/1pJDMRB0e7Z6N3sC00FRZSu34wNgETfad/view) |
 | 8 | **সালাহউদ্দীনের দুঃসাহসিক অভিযান** | আসাদ বিন হাফিয | — | PDF | 3.6 MB | [📖 Open Book](https://drive.google.com/file/d/1arkLuDh82ZwSlat5F4TXLVK1OQ82-gm1/view) |
 
-### 📂 কুরআন ও তাফসির (1 books)
+### 📂 Islamic_Books/কুরআন ও তাফসির (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **ছোট বেগম** | আসাদ বিন হাফিয | — | PDF | 3.0 MB | [📖 Open Book](https://drive.google.com/file/d/1kY761Dsj9izkK4li_CkhwkT_Pscsl7_P/view) |

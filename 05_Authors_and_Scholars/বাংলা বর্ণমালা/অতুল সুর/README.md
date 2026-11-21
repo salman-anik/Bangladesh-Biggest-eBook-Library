@@ -3,7 +3,7 @@
 [🏠 Home](../../../README.md) / [05_Authors_and_Scholars](../../README.md) / [Bangla Index](../README.md) / **অতুল সুর**
 
 > **📂 Google Drive Author Folder:** [Open in Drive](https://drive.google.com/drive/folders/1lk9BYew2zeSVgWO5O4yOxMfdF4c7Z_f9)  
-> **Total Books in Library:** **11 books** across 3 genres/series
+> **Total Books in Library:** **13 books** across 4 genres/series
 
 ---
 
@@ -22,15 +22,21 @@
 | 8 | **মহাভারত ও সিন্ধুসভ্যতা** | অতুল সুর | 2023 | EPUB | 188 KB | [📖 Open Book](https://drive.google.com/file/d/1_F7YcGTCtWLo2CPPpt4AIZ9VKLx0w_Ts/view) |
 | 9 | **৩০০ বছরের কলকাতা : পটভূমি ও ইতিকথা – ডঃ অতুল সুর** | অতুল সুর | 2024 | EPUB | 516 KB | [📖 Open Book](https://drive.google.com/file/d/1lF7rzWj2RjZEonQdYMvgOPBdDrBJiC9R/view) |
 
-### 📂 প্রবন্ধ (1 books)
+### 📂 বাংলা বর্ণমালা/অতুল সুর (2 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
-| 1 | **প্রমীলা প্রসঙ্গ** | অতুল সুর | 2023 | EPUB | 454 KB | [📖 Open Book](https://drive.google.com/file/d/14dT5GqVaYegmkSnYA0p3YEvduMjqTjuf/view) |
+| 1 | **আঠারো শতকের বাঙালা ও বাঙালী** | অতুল সুর | — | PDF | 9.2 MB | [📖 Open Book](https://drive.google.com/file/d/1OsUz82uxM5nughoBb5GQahNnVD81pPXf/view) |
+| 2 | **তিনশো বছরের কলকাতা পটভূমি ও ইতিকথা** | অতুল সুর | — | PDF | 8.0 MB | [📖 Open Book](https://drive.google.com/file/d/19I3of-7HioeXixBdGdcGVSoWiKiwTVK4/view) |
 
 ### 📂 ধর্ম ও দর্শন (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **দেবলোকের যৌনজীবন** | অতুল সুর | 2023 | EPUB | 507 KB | [📖 Open Book](https://drive.google.com/file/d/1zwXLre7ar2ibJlAgMNiCIJC92SuBsMd1/view) |
+
+### 📂 প্রবন্ধ (1 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **প্রমীলা প্রসঙ্গ** | অতুল সুর | 2023 | EPUB | 454 KB | [📖 Open Book](https://drive.google.com/file/d/14dT5GqVaYegmkSnYA0p3YEvduMjqTjuf/view) |
 
 ---
 [⬅️ Back to Bangla Index](../README.md) | [🏠 Back to Library Home](../../../README.md)

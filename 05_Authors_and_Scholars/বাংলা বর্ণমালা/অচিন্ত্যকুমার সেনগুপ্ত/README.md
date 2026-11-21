@@ -3,7 +3,7 @@
 [🏠 Home](../../../README.md) / [05_Authors_and_Scholars](../../README.md) / [Bangla Index](../README.md) / **অচিন্ত্যকুমার সেনগুপ্ত**
 
 > **📂 Google Drive Author Folder:** [Open in Drive](https://drive.google.com/drive/folders/1pOEqMK3kIk_KibvPVa_tjQgu48VKr9b7)  
-> **Total Books in Library:** **10 books** across 1 genres/series
+> **Total Books in Library:** **11 books** across 2 genres/series
 
 ---
 
@@ -22,6 +22,11 @@
 | 8 | **গরীয়সী গৌরী** | অচিন্ত্যকুমার সেনগুপ্ত | — | PDF | 2.4 MB | [📖 Open Book](https://drive.google.com/file/d/1G9niaIJjxKoAZ4xEQgveEeV_Gp5QHswp/view) |
 | 9 | **গৌরাঙ্গ-পরিজন** | অচিন্ত্যকুমার সেনগুপ্ত | — | PDF | 5.3 MB | [📖 Open Book](https://drive.google.com/file/d/1gpWUU3eAzKrtVddhcijCw2PzzfDA-_Pe/view) |
 | 10 | **জ্যৈষ্ঠের ঝড়** | অচিন্ত্যকুমার সেনগুপ্ত | — | PDF | 2.9 MB | [📖 Open Book](https://drive.google.com/file/d/1O3buhHfUrX5ggbl9br07LzmSj68THYqa/view) |
+
+### 📂 বাংলা বর্ণমালা/অচিন্ত্যকুমার সেনগুপ্ত (1 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **শত গল্প** | অচিন্ত্যকুমার সেনগুপ্ত | — | PDF | 60.1 MB | [📖 Open Book](https://drive.google.com/file/d/1YpLzMjUCAybwRMUi0yXjOhtApJvBnTt3/view) |
 
 ---
 [⬅️ Back to Bangla Index](../README.md) | [🏠 Back to Library Home](../../../README.md)

@@ -9,12 +9,12 @@
 
 ## 📚 Collections & Genres
 
-### 📂 কুরআন ও তাফসির (1 books)
+### 📂 Islamic_Books/কুরআন ও তাফসির (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **কুরআন ও সুন্নাহর আলোকে রোগীদের জন্য সুসংবাদ** | অধ্যাপক মুজিবুর রহমান | — | PDF | 918 KB | [📖 Open Book](https://drive.google.com/file/d/1CkH5KAdUnXP4tvEdfDxStLDTFKxO3dAj/view) |
 
-### 📂 অন্যান্য (1 books)
+### 📂 Islamic_Books/অন্যান্য (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **দৌড়াও আল্লাহর দিকে** | অধ্যাপক মুজিবুর রহমান | — | PDF | 1.9 MB | [📖 Open Book](https://drive.google.com/file/d/1c1HT_MkEEwM5Y7Nq6WFnjas210i4Fb_8/view) |

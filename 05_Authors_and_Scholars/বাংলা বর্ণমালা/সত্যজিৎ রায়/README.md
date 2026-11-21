@@ -3,7 +3,7 @@
 [🏠 Home](../../../README.md) / [05_Authors_and_Scholars](../../README.md) / [Bangla Index](../README.md) / **সত্যজিৎ রায়**
 
 > **📂 Google Drive Author Folder:** [Open in Drive](https://drive.google.com/drive/folders/117qC2BwBUPK9S0X_RHH-Th42tyIq7ZIK)  
-> **Total Books in Library:** **93 books** across 6 genres/series
+> **Total Books in Library:** **121 books** across 8 genres/series
 
 ---
 
@@ -92,7 +92,36 @@
 | 31 | **সমাদ্দারের চাবি** | সত্যজিৎ রায় | 2023 | EPUB | 888 KB | [📖 Open Book](https://drive.google.com/file/d/1ZZvo66GMdck5R7dLyOUTl-90D8eurmhz/view) |
 | 32 | **সাবাস প্রফেসর শংকু** | সত্যজিৎ রায় | 2023 | EPUB | 4.3 MB | [📖 Open Book](https://drive.google.com/file/d/1Vz_mH1U5N0YTCnlu2jvbqP32Wndld-uU/view) |
 
-### 📂 ফেলুদা সিরিজ (9 books)
+### 📂 বাংলা বর্ণমালা/সত্যজিৎ রায় (25 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **Batik Babu** | সত্যজিৎ রায় | — | PDF | 2.0 MB | [📖 Open Book](https://drive.google.com/file/d/16bGkEyy9P8_HClU05TJA4PmtI9UeJBgp/view) |
+| 2 | **Bhuto** | সত্যজিৎ রায় | — | PDF | 1.7 MB | [📖 Open Book](https://drive.google.com/file/d/17OeDairy4aqm8G20I6MXm_nKlriljsfG/view) |
+| 3 | **Ekei Bole Shooting** | সত্যজিৎ রায় | — | PDF | 2.6 MB | [📖 Open Book](https://drive.google.com/file/d/17pzZbdg6Y_CHrKcI-F3C3ijtXW4piGBU/view) |
+| 4 | **Fotic Chand** | সত্যজিৎ রায় | — | PDF | 7.6 MB | [📖 Open Book](https://drive.google.com/file/d/1MQt9oFzRvWqoDcnpVe0RUFNvhII2BfT2/view) |
+| 5 | **Galpo 101** | সত্যজিৎ রায় | — | PDF | 48.2 MB | [📖 Open Book](https://drive.google.com/file/d/17mhW2H0tXfFPRAzSb2BRyPvMnTa2_g87/view) |
+| 6 | **Gupi Gain Bagha Bain** | সত্যজিৎ রায় | — | PDF | 7.9 MB | [📖 Open Book](https://drive.google.com/file/d/1apfc8rtQzdtj48nLbuu_cAsf1bcU3gJM/view) |
+| 7 | **Jakhan Choto Chilam** | সত্যজিৎ রায় | — | PDF | 6.3 MB | [📖 Open Book](https://drive.google.com/file/d/1sCuyUr1Oqph8mWExoVsE6HQQq07iCfCe/view) |
+| 8 | **Patol Babu Film Star** | সত্যজিৎ রায় | — | PDF | 1.3 MB | [📖 Open Book](https://drive.google.com/file/d/1necvfd2uUsDOqZ56NzXHV45ZYoyDQvVy/view) |
+| 9 | **Sera Sandesh** | সত্যজিৎ রায় | — | PDF | 20.7 MB | [📖 Open Book](https://drive.google.com/file/d/1LooDr6QibjENvpQToTM1WdyhCoR41Otr/view) |
+| 10 | **Sera Satyajit** | সত্যজিৎ রায় | — | PDF | 10.7 MB | [📖 Open Book](https://drive.google.com/file/d/18kmSNvOHFtnewMcYMo-Al6mV92Gr2Nzw/view) |
+| 11 | **Shadhon Babur Shondeho Satyajit Ray** | সত্যজিৎ রায় | — | PDF | 1.3 MB | [📖 Open Book](https://drive.google.com/file/d/1JTo3KI5e2XA4SqpIAAhdp8_sqfbjzQ8Q/view) |
+| 12 | **Tarini Khuror Kirti Kalap** | সত্যজিৎ রায় | — | PDF | 7.5 MB | [📖 Open Book](https://drive.google.com/file/d/1PNzOMgMN3cpHoYB1UW2_lx2T54nXIDKM/view) |
+| 13 | **অঙ্ক স্যার, গোলাপীবাবু আর টিপু** | সত্যজিৎ রায় | — | PDF | 1.9 MB | [📖 Open Book](https://drive.google.com/file/d/1SUYQ_aZSIggnHVF3-iDK08CbZstsL4iv/view) |
+| 14 | **কৈলাশে কেলেঙ্কারি** | সত্যজিৎ রায় | — | PDF | 1.7 MB | [📖 Open Book](https://drive.google.com/file/d/1WDOPPSDtatFnEc3VysGOo8UFF0DOpoxN/view) |
+| 15 | **গণেশ মুৎসুদ্দির পোর্ট্রেট** | সত্যজিৎ রায় | — | PDF | 1.1 MB | [📖 Open Book](https://drive.google.com/file/d/1JFCJlN4ks1aVEAf3wqP8qZPMD1QOlWoe/view) |
+| 16 | **তরিণীখুড়োর কীর্তিকলাপ** | সত্যজিৎ রায় | — | PDF | 8.4 MB | [📖 Open Book](https://drive.google.com/file/d/1r6hg2dfPUWC_yhf7rqOwrE3t-FCmwwPu/view) |
+| 17 | **তারিণীখুড়োর কীর্তিকলাপ** | সত্যজিৎ রায় | — | PDF | 8.6 MB | [📖 Open Book](https://drive.google.com/file/d/1mOKGznAorip9CYCpbIX6y-9yv-rZdZR8/view) |
+| 18 | **পটলবাবু ফিল্মস্টার** | সত্যজিৎ রায় | — | PDF | 1.2 MB | [📖 Open Book](https://drive.google.com/file/d/1YIepdrC79aRNDhEnmYaHmafMslgsWqz8/view) |
+| 19 | **বাতিকবাবু** | সত্যজিৎ রায় | — | PDF | 1.8 MB | [📖 Open Book](https://drive.google.com/file/d/1Bz6iP31N6bz2YqGZTZGWZ_3HMoKvfXhh/view) |
+| 20 | **বারীন ভৌমিকের ব্যারাম** | সত্যজিৎ রায় | — | PDF | 2.1 MB | [📖 Open Book](https://drive.google.com/file/d/1ze2RQ1nL1ghUFBhIjjJU0mF64FCCDaF5/view) |
+| 21 | **বিষয় চলচ্চিত্র** | সত্যজিৎ রায় | — | PDF | 26.0 MB | [📖 Open Book](https://drive.google.com/file/d/18OAHeGlbtsLC1609Dpur-DhvSREc9Jxa/view) |
+| 22 | **ভক্ত** | সত্যজিৎ রায় | — | PDF | 1.2 MB | [📖 Open Book](https://drive.google.com/file/d/1r-bayllaW3l04ReJOfRjSDEbbVvpcuqQ/view) |
+| 23 | **ভূতো** | সত্যজিৎ রায় | — | PDF | 1.6 MB | [📖 Open Book](https://drive.google.com/file/d/1S2i-86fSKR6QpdDMNlB47G19uyvXBYo6/view) |
+| 24 | **শেঠ গঙ্গারামের ধনদৌলত** | সত্যজিৎ রায় | — | PDF | 1.5 MB | [📖 Open Book](https://drive.google.com/file/d/1Gm69vXUKkRL5JJrqlu8uSVDIo69avEuK/view) |
+| 25 | **সাধনবাবুর সন্দেহ** | সত্যজিৎ রায় | — | PDF | 1.1 MB | [📖 Open Book](https://drive.google.com/file/d/1-21j6yQuCPJoBjd1RS7GtNeJW67MdbMn/view) |
+
+### 📂 ফেলুদা সিরিজ (11 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **ডবল ফেলুদা** | সত্যজিৎ রায় | — | MOBI | 539 KB | [📖 Open Book](https://drive.google.com/file/d/1xdxWptXOQaP3NZmi8jpPQg0nobgwWVzA/view) |
@@ -101,9 +130,11 @@
 | 4 | **ফেলুদা ওয়ান ফেলুদা টু** | সত্যজিৎ রায় | — | MOBI | 1.0 MB | [📖 Open Book](https://drive.google.com/file/d/11FzS3yz9ZJ6JTYxbF6orl_6AhR_EoxRk/view) |
 | 5 | **ফেলুদা প্লাস ফেলুদা** | সত্যজিৎ রায় | — | MOBI | 2.4 MB | [📖 Open Book](https://drive.google.com/file/d/1a91d3KnPiGL3WYQrvi41QA430IoSysZh/view) |
 | 6 | **ফেলুদা সমগ্র** | সত্যজিৎ রায় | 2023 | EPUB | 17.7 MB | [📖 Open Book](https://drive.google.com/file/d/1br7NzNWNsDjPz7fP4m1SeyPLhs4wFC2s/view) |
-| 7 | **ফেলুদার গোয়েন্দাগিরি** | সত্যজিৎ রায় | 2023 | EPUB | 686 KB | [📖 Open Book](https://drive.google.com/file/d/1x_QuqYdLYNqAecizihZqFsT3x5nIFUNB/view) |
-| 8 | **ফেলুদার গোয়েন্দাগিরি (১৯৬৫)** | সত্যজিৎ রায় | — | MOBI | 160 KB | [📖 Open Book](https://drive.google.com/file/d/1UG4MpeXlGwpnU57jlzfuPHLqGvXEE2sO/view) |
-| 9 | **লন্ডনে ফেলুদা** | সত্যজিৎ রায় | 2020 | EPUB | 744 KB | [📖 Open Book](https://drive.google.com/file/d/1A1R0QOrWOrVbpV7q9-c4yEJ4Llu6b7JZ/view) |
+| 7 | **ফেলুদা সমগ্র ০১** | সত্যজিৎ রায় | — | PDF | 29.5 MB | [📖 Open Book](https://drive.google.com/file/d/1giHtfs5Fwhm_pE1Jd28ObM6arAUIIH91/view) |
+| 8 | **ফেলুদার গোয়েন্দাগিরি** | সত্যজিৎ রায় | 2023 | EPUB | 686 KB | [📖 Open Book](https://drive.google.com/file/d/1x_QuqYdLYNqAecizihZqFsT3x5nIFUNB/view) |
+| 9 | **ফেলুদার গোয়েন্দাগিরি (১৯৬৫)** | সত্যজিৎ রায় | — | MOBI | 160 KB | [📖 Open Book](https://drive.google.com/file/d/1UG4MpeXlGwpnU57jlzfuPHLqGvXEE2sO/view) |
+| 10 | **ফেলুদার রহস্য অ্যাডভেঞ্জার** | সত্যজিৎ রায় | — | PDF | 25.3 MB | [📖 Open Book](https://drive.google.com/file/d/12RF6qjQpds9eX0KhWEwdjm9Yp9tCpVrw/view) |
+| 11 | **লন্ডনে ফেলুদা** | সত্যজিৎ রায় | 2020 | EPUB | 744 KB | [📖 Open Book](https://drive.google.com/file/d/1A1R0QOrWOrVbpV7q9-c4yEJ4Llu6b7JZ/view) |
 
 ### 📂 গল্প ও ছোটগল্প (4 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
@@ -125,6 +156,11 @@
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **ব্রেজিলের কালো বাঘ ও অন্যান্য** | সত্যজিৎ রায় | 2024 | EPUB | 279 KB | [📖 Open Book](https://drive.google.com/file/d/142cmyKLsvN-yfSoueA1hlNptjjY6QUkY/view) |
+
+### 📂 বাংলা বর্ণমালা/সত্যজিৎ রায়/গল্প (1 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **সত্যজিৎ রায় গল্প ১০১** | সত্যজিৎ রায় | — | PDF | 48.0 MB | [📖 Open Book](https://drive.google.com/file/d/1tyR8QfSxfYsBh-713SicXJgA4DH_OXb1/view) |
 
 ---
 [⬅️ Back to Bangla Index](../README.md) | [🏠 Back to Library Home](../../../README.md)

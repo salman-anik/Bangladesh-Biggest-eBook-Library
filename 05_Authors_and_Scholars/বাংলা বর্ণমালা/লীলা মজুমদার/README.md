@@ -3,7 +3,7 @@
 [🏠 Home](../../../README.md) / [05_Authors_and_Scholars](../../README.md) / [Bangla Index](../README.md) / **লীলা মজুমদার**
 
 > **📂 Google Drive Author Folder:** [Open in Drive](https://drive.google.com/drive/folders/1prJkkV20RqLuWY80rx5h6eh1XZzTZbRp)  
-> **Total Books in Library:** **13 books** across 3 genres/series
+> **Total Books in Library:** **18 books** across 4 genres/series
 
 ---
 
@@ -21,6 +21,15 @@
 | 7 | **বদ্যিনাথের বড়ি (গল্পগ্রন্থ)** | লীলা মজুমদার | 2020 | MOBI | 310 KB | [📖 Open Book](https://drive.google.com/file/d/1zwD7RUXw3_wsp2qphxvD8vgqyEaMLFYe/view) |
 | 8 | **বাঘের চোখ** | লীলা মজুমদার | — | MOBI | 241 KB | [📖 Open Book](https://drive.google.com/file/d/1e_P6t6oTWY8xrsnZ9AT29ltL5UgA6wMt/view) |
 | 9 | **বেড়ালের বই** | লীলা মজুমদার | 2023 | EPUB | 1.7 MB | [📖 Open Book](https://drive.google.com/file/d/1NT1vC1wvW5cNgrnjVL6ySWq_qBQNjrzZ/view) |
+
+### 📂 বাংলা বর্ণমালা/লীলা মজুমদার (5 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **আর কোনোখানে** | লীলা মজুমদার | — | PDF | 7.1 MB | [📖 Open Book](https://drive.google.com/file/d/1EQ4pYSpU_tQk6zTTFMyNoHaCM_xsB3Qo/view) |
+| 2 | **জোড়াসাঁকোর ঠাকুরবাড়ি** | লীলা মজুমদার | — | PDF | 9.3 MB | [📖 Open Book](https://drive.google.com/file/d/1Me9ZVl6yKVKw8y-esAW00HZ0x6P40MVk/view) |
+| 3 | **পদিপিসির বর্মিবাক্স** | লীলা মজুমদার | — | PDF | 11.2 MB | [📖 Open Book](https://drive.google.com/file/d/1o3J4FanUZRUO29D3-YHmARVneVxASGlu/view) |
+| 4 | **ভয়ঙ্কর ভূতের গল্প** | লীলা মজুমদার | — | PDF | 15.1 MB | [📖 Open Book](https://drive.google.com/file/d/1Y6jlO4YJVFHg_Pbp6d--A0KoXqvXKofv/view) |
+| 5 | **হাতি হাতি** | লীলা মজুমদার | — | PDF | 5.9 MB | [📖 Open Book](https://drive.google.com/file/d/1S1vo8HKM8ZCHx2jVKd7-NoarHHOm74Ma/view) |
 
 ### 📂 গল্প ও ছোটগল্প (3 books)
 | # | Title | Author | Year | Format | Size | Google Drive |

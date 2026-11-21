@@ -3,7 +3,7 @@
 [🏠 Home](../../../README.md) / [05_Authors_and_Scholars](../../README.md) / [Bangla Index](../README.md) / **জয় গোস্বামী**
 
 > **📂 Google Drive Author Folder:** [Open in Drive](https://drive.google.com/drive/folders/1CzTEj0OTfr2ergPsGy-1mN_SmhvrNST6)  
-> **Total Books in Library:** **17 books** across 1 genres/series
+> **Total Books in Library:** **18 books** across 2 genres/series
 
 ---
 
@@ -29,6 +29,11 @@
 | 15 | **সংশোধন বা কাটাকুটি** | জয় গোস্বামী | — | PDF | 23.9 MB | [📖 Open Book](https://drive.google.com/file/d/19EDEuBiQqrCYqaxT9lrByTuqASMnU0EH/view) |
 | 16 | **সব অন্ধকার ফুলগাছ** | জয় গোস্বামী | — | PDF | 22.3 MB | [📖 Open Book](https://drive.google.com/file/d/1CVamuseDgLXEuN6MNztjCg9Uhz5EKTHi/view) |
 | 17 | **সূর্য পোড়া ছাই** | জয় গোস্বামী | — | PDF | 1.1 MB | [📖 Open Book](https://drive.google.com/file/d/1qMgdKYs5LSSiMA4BlRaQTP1K40Yc5cV8/view) |
+
+### 📂 বাংলা বর্ণমালা/জয় গোস্বামী/কবিতা (1 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **কবিতা সংগ্রহ** | জয় গোস্বামী | — | PDF | 6.6 MB | [📖 Open Book](https://drive.google.com/file/d/1gU9YV8CeftCd8vepxxT3b4Oya67XqXPq/view) |
 
 ---
 [⬅️ Back to Bangla Index](../README.md) | [🏠 Back to Library Home](../../../README.md)

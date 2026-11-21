@@ -3,7 +3,7 @@
 [🏠 Home](../../../README.md) / [05_Authors_and_Scholars](../../README.md) / [Bangla Index](../README.md) / **বিভূতিভূষণ বন্দ্যোপাধ্যায়**
 
 > **📂 Google Drive Author Folder:** [Open in Drive](https://drive.google.com/drive/folders/1PmIVrj58wUFF5gKYks1BTyWWt3XvMIff)  
-> **Total Books in Library:** **56 books** across 6 genres/series
+> **Total Books in Library:** **83 books** across 7 genres/series
 
 ---
 
@@ -53,6 +53,37 @@
 | 39 | **সুন্দরবনে সাত বৎসর** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | — | PDF | 4.1 MB | [📖 Open Book](https://drive.google.com/file/d/1ZgDheDZZjeCBUeugNhU5IgXR98E13Qqb/view) |
 | 40 | **হীরামানিক জ্বলে (১৯৪৬)** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | — | MOBI | 402 KB | [📖 Open Book](https://drive.google.com/file/d/143nTQKWN6wuUXSLf-QnUgCuE-M2xmwGV/view) |
 
+### 📂 বাংলা বর্ণমালা/বিভূতিভূষণ বন্দ্যোপাধ্যায় (27 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **Aam Atir Vepu** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | — | PDF | 4.7 MB | [📖 Open Book](https://drive.google.com/file/d/1GjKC2a1G-9Wt5HZBKsofdXFlfFs6LCTB/view) |
+| 2 | **Abhijatrik** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | — | PDF | 14.1 MB | [📖 Open Book](https://drive.google.com/file/d/19Pbm51sc0DcMtzNB0MgRtBFZwogy6ZKj/view) |
+| 3 | **Adarsha Hindu Hotel** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | — | PDF | 833 KB | [📖 Open Book](https://drive.google.com/file/d/1u3qSJsIlAF1T2XUSazeCJcGIy6h1-CC1/view) |
+| 4 | **Ashani Sanket** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | — | PDF | 3.4 MB | [📖 Open Book](https://drive.google.com/file/d/19xJUniQ1KkK0Jajx3WiLqrf3UJpBay9u/view) |
+| 5 | **Bibhuti-Rachanabali** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | — | PDF | 8.6 MB | [📖 Open Book](https://drive.google.com/file/d/1Kg81mpLBrS9thmRh_XOQbcICFhf61F-U/view) |
+| 6 | **Bibhuti-Rachanabali** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | — | PDF | 5.9 MB | [📖 Open Book](https://drive.google.com/file/d/1TB6DD2I3-DkmihAsrVx9ZvkQ5EEqhDxD/view) |
+| 7 | **Bibhuti-Rachanabali** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | — | PDF | 5.0 MB | [📖 Open Book](https://drive.google.com/file/d/1X51VkTJ8XklyCE7jklUwMTDbzC-54I1v/view) |
+| 8 | **Bibhuti-Rachanabali** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | — | PDF | 7.8 MB | [📖 Open Book](https://drive.google.com/file/d/1YbwHeHKGQ3KKXh5xnSChOcLZYnjaAyQk/view) |
+| 9 | **Bibhuti-Rachanabali** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | — | PDF | 6.7 MB | [📖 Open Book](https://drive.google.com/file/d/1_qYTpPLCgeevEcBXKxkKR0j9JKhAyxId/view) |
+| 10 | **Bibhuti-Rachanabali** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | — | PDF | 8.6 MB | [📖 Open Book](https://drive.google.com/file/d/1e5zFLczRMcLJ_PgD8bExNXzmwo41wRgP/view) |
+| 11 | **Bibhuti-Rachanabali** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | — | PDF | 6.9 MB | [📖 Open Book](https://drive.google.com/file/d/1fpZocm4njbmXH5h5ySPXg90esWZC0fUc/view) |
+| 12 | **Bibhuti-Rachanabali** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | — | PDF | 7.8 MB | [📖 Open Book](https://drive.google.com/file/d/1h5Wxza7CIe6HrofpYi0Yi9syybyyGQnT/view) |
+| 13 | **Bibhuti-Rachanabali** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | — | PDF | 6.4 MB | [📖 Open Book](https://drive.google.com/file/d/1lBnJz07KF0uhi6RqbWu9fzJ0-4fZGFmi/view) |
+| 14 | **Bibhuti-Rachanabali** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | — | PDF | 9.3 MB | [📖 Open Book](https://drive.google.com/file/d/1mZ8IpGEZ6RWEWMbrdSDW83sSAg8R8SjF/view) |
+| 15 | **Bibhuti-Rachanabali** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | — | PDF | 7.3 MB | [📖 Open Book](https://drive.google.com/file/d/1trrcsRQIgRLvPAzvU71GyEek4O3YoXG_/view) |
+| 16 | **Bibhutibhushan Golpo Somogro Bibhutibhushan Bandopadhyay** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | — | PDF | 25.9 MB | [📖 Open Book](https://drive.google.com/file/d/1xdIU33zF9fPaMKAEwTyHAeAUSl2dgTWb/view) |
+| 17 | **Bibhutibhushaner Aprakashito Dinolipi** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | — | PDF | 4.9 MB | [📖 Open Book](https://drive.google.com/file/d/1dOTrNCQOhNfBnvkzC2KXTZeUkJQcusaR/view) |
+| 18 | **Bipiner Songshar Bibhutibhushan Bandopadhyay -** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | — | PDF | 9.7 MB | [📖 Open Book](https://drive.google.com/file/d/1vfRGsM9UiofbUef-PyS2STPaqFo6iGgt/view) |
+| 19 | **Chander Pahar** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | — | PDF | 2.6 MB | [📖 Open Book](https://drive.google.com/file/d/1prjgL4zN65-LaAv-UZqkZCzt274eKl9A/view) |
+| 20 | **Debjan** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | — | PDF | 5.9 MB | [📖 Open Book](https://drive.google.com/file/d/1Hk0vl7Uuia8oLcgZkva2Dww4I8GAOJfs/view) |
+| 21 | **Dristi Prodip** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | — | PDF | 8.0 MB | [📖 Open Book](https://drive.google.com/file/d/1XJJnTkHUmeJYVMVT6Bj25XJWNbU2sD6e/view) |
+| 22 | **Ichamati** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | — | PDF | 12.4 MB | [📖 Open Book](https://drive.google.com/file/d/1lePpWYw5w86q9zlIUmUNSA-qK2CUlm6u/view) |
+| 23 | **Malancha** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | — | PDF | 9.3 MB | [📖 Open Book](https://drive.google.com/file/d/1ZsclWg0gpRKR0sqn7ASakYzvQ0eooKnx/view) |
+| 24 | **mismider-kabach-by-bibhutibhushan-bandyopadhyay -** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | — | PDF | 2.5 MB | [📖 Open Book](https://drive.google.com/file/d/1aROgizTDxachFM-3AHsocJf5t1IpxHcV/view) |
+| 25 | **Moroner Danka Baje** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | — | PDF | 4.9 MB | [📖 Open Book](https://drive.google.com/file/d/1Dh0e6xCGUkhU1wbXsiWoXaHpVhMYchpm/view) |
+| 26 | **Sundorbone Sat Botchor** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | — | PDF | 4.1 MB | [📖 Open Book](https://drive.google.com/file/d/1J8qvDGJU9kpkmfpbRueZrBT3SaqfRgn3/view) |
+| 27 | **Trinangkur** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | — | PDF | 5.3 MB | [📖 Open Book](https://drive.google.com/file/d/18O4ngfg4jqu3pb6WznMfMEOskYHFXtWE/view) |
+
 ### 📂 শিশু-কিশোর সাহিত্য (8 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
@@ -72,17 +103,17 @@
 | 2 | **গল্পসমগ্র-২** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | 2020 | EPUB | 1.4 MB | [📖 Open Book](https://drive.google.com/file/d/1ol7tLxBYLrwPpC7gTy2_V7se-MemJpqF/view) |
 | 3 | **বিভূতিভূষণ বন্দ্যোপাধ্যায়ের শ্রেষ্ঠ গল্প** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | — | PDF | 15.0 MB | [📖 Open Book](https://drive.google.com/file/d/1KkWeVT6Uo_F7aHasoPfRcj4qWq-Tt7sn/view) |
 
-### 📂 প্রবন্ধ (2 books)
-| # | Title | Author | Year | Format | Size | Google Drive |
-|---:|---|---|:---:|:---:|---:|:---:|
-| 1 | **বিভূতিভূষণ উপন্যাস সমগ্র ১** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | 2020 | EPUB | 2.1 MB | [📖 Open Book](https://drive.google.com/file/d/1DcSj8gCsaVJXJ3gj2y_FS92-Utji4Ruy/view) |
-| 2 | **বিভূতিভূষণ উপন্যাস সমগ্র ২** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | 2023 | EPUB | 2.2 MB | [📖 Open Book](https://drive.google.com/file/d/1tGsGvge4khQ8hpmVz6N55DBYIXFLZzC3/view) |
-
 ### 📂 অন্যান্য (2 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **অনুসন্ধান** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | 2026 | EPUB | 83 KB | [📖 Open Book](https://drive.google.com/file/d/1HTFgAbGxCQKyDhUKvHBcZHGz3s2sbwOZ/view) |
 | 2 | **নীলগঞ্জের ফালমন সাহেব** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | 2026 | EPUB | 138 KB | [📖 Open Book](https://drive.google.com/file/d/1E5i5909FXMFfHBdN1WUiSdE34BaELJu_/view) |
+
+### 📂 প্রবন্ধ (2 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **বিভূতিভূষণ উপন্যাস সমগ্র ১** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | 2020 | EPUB | 2.1 MB | [📖 Open Book](https://drive.google.com/file/d/1DcSj8gCsaVJXJ3gj2y_FS92-Utji4Ruy/view) |
+| 2 | **বিভূতিভূষণ উপন্যাস সমগ্র ২** | বিভূতিভূষণ বন্দ্যোপাধ্যায় | 2023 | EPUB | 2.2 MB | [📖 Open Book](https://drive.google.com/file/d/1tGsGvge4khQ8hpmVz6N55DBYIXFLZzC3/view) |
 
 ### 📂 ইতিহাস (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |

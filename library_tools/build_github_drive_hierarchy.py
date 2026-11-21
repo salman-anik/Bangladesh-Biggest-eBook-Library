@@ -9,6 +9,7 @@ import json
 import os
 import re
 import shutil
+import unicodedata
 from pathlib import Path
 from collections import defaultdict, Counter
 
@@ -33,8 +34,8 @@ def clean_val(v):
 def main():
     repo_dir = Path(r'C:\Users\USER\.gemini\antigravity\scratch\Bangladesh-Biggest-eBook-Library')
     catalog_path = repo_dir / 'catalog' / 'master_catalog.json'
-    drive_map_path = Path(r'C:\Users\USER\.gemini\antigravity\brain\fc64da93-615a-4dd3-b630-983a9609f78a\scratch\drive_folders_map.json')
-    author_map_path = Path(r'C:\Users\USER\.gemini\antigravity\brain\fc64da93-615a-4dd3-b630-983a9609f78a\scratch\live_author_folders_map.json')
+    drive_map_path = Path(r'C:\Users\USER\.gemini\antigravity\brain\59b32550-005f-4ecb-a6cd-d10a6f15189e\scratch\drive_folders_map.json')
+    author_map_path = Path(r'C:\Users\USER\.gemini\antigravity\brain\59b32550-005f-4ecb-a6cd-d10a6f15189e\scratch\live_author_folders_map.json')
 
     print("Loading data...")
     with open(catalog_path, 'r', encoding='utf-8') as f:
@@ -91,8 +92,8 @@ def main():
             "| # | Title | Author | Year | Format | Size | Google Drive |",
             "|---:|---|---|:---:|:---:|---:|:---:|"
         ]
-        # Sort by title
-        sorted_books = sorted(book_list, key=lambda x: x.get('title', ''))
+        # Sort by title ascending (case-insensitive Unicode NFC)
+        sorted_books = sorted(book_list, key=lambda x: unicodedata.normalize("NFC", x.get('title', '')).strip().casefold())
         for idx, b in enumerate(sorted_books, start=1):
             t = b.get('title', 'Untitled').replace('|', '/')
             a = clean_val(b.get('author', '—')).replace('|', '/')
@@ -109,7 +110,7 @@ def main():
         ('01_Bangla_Books', 'বাংলা বই (Bangla Books)', 'বাংলা সাহিত্য, উপন্যাস, ছোটগল্প, কবিতা, নাটক, ইতিহাস ও প্রবন্ধের সমৃদ্ধ ভাণ্ডার।'),
         ('02_English_Books', 'English Books', 'Classic & modern English literature, science, technology, history, and philosophy.'),
         ('03_Education_and_Textbooks', 'শিক্ষা ও পাঠ্যবই (Education and Textbooks)', 'NCTB জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ডের সকল শ্রেণির বই (১ম-১০ম শ্রেণি), এইচএসসি ও ভর্তি পরীক্ষার সহায়িকা।'),
-        ('04_Islamic_Books', 'ইসলামিক বই (Islamic Books)', 'কুরআন ও তাফসির, হাদিস, ফিকহ, আকিদা, সীরাত ও ইসলামিক ইতিহাসের নির্ভরযোগ্য গ্রন্থাবলী।'),
+        ('04_Religion_Books', 'ধর্মীয় বই (Religion Books)', 'ইসলামিক (কুরআন, তাফসির, হাদিস, ফিকহ, সীরাত, আকিদা, সাহিত্য), হিন্দু, বৌদ্ধ, খ্রিস্টান ও তুলনামূলক ধর্মীয় গ্রন্থাবলী।'),
         ('07_Reference_and_Research', 'রেফারেন্স ও গবেষণা (Reference and Research)', 'অভিধান, বিশ্বকোষ, গবেষণাপত্র ও সাময়িকী সংগ্রহ।'),
         ('08_Review_and_Unclassified', 'রিভিউ ও অসংজ্ঞায়িত (Review and Unclassified)', 'পর্যালোচনা ও পুনঃশ্রেণিবিভাগের জন্য সংরক্ষিত বই ও ফাইল।'),
     ]
@@ -450,6 +451,7 @@ def main():
 
     # 5. REMOVE LEGACY SCATTERED DIRECTORIES
     legacy_dirs = [
+        '04_Islamic_Books',
         'Agriculture and Nature', 'Arts and Culture', 'Biography and Autobiography',
         'Business and Finance', 'Children and Young Adult', 'Computer and Technology',
         'Education and Academics', 'Engineering', 'Fiction', 'History',

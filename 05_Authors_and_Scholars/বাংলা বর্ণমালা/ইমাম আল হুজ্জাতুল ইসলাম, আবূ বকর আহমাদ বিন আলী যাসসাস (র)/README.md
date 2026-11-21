@@ -9,7 +9,7 @@
 
 ## 📚 Collections & Genres
 
-### 📂 কুরআন ও তাফসির (3 books)
+### 📂 Islamic_Books/কুরআন ও তাফসির (3 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **আহকামুল কুরআন ১ম খণ্ড** | ইমাম আল হুজ্জাতুল ইসলাম, আবূ বকর আহমাদ বিন আলী যাসসাস (র) | — | PDF | 17.3 MB | [📖 Open Book](https://drive.google.com/file/d/1Gf16AsL8LOs5gshFjiRoYmVyoS1nprMw/view) |

@@ -9,7 +9,7 @@
 
 ## 📚 Collections & Genres
 
-### 📂 হাদিস (8 books)
+### 📂 Islamic_Books/হাদিস (8 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **আল আদাবুল মুফরাদ- ইমাম বুখারী** | ইমাম মুহাম্মাদ আল-বুখারী (রহ.) | — | PDF | 22.2 MB | [📖 Open Book](https://drive.google.com/file/d/1XyXrsXnGTwJKelIJftzhmu1dpWdg5poP/view) |

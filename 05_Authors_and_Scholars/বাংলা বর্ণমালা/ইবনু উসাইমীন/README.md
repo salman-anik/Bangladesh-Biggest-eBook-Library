@@ -9,13 +9,13 @@
 
 ## 📚 Collections & Genres
 
-### 📂 ফিকহ (2 books)
+### 📂 Islamic_Books/ফিকহ (2 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **উলামার মতানৈক্য- ইবনু উসাইমীন** | ইবনু উসাইমীন | — | PDF | 423 KB | [📖 Open Book](https://drive.google.com/file/d/1VODjMfEi1fh-ojKVhxNKqNXBqlTC6O4Q/view) |
 | 2 | **উসূলে ফিক্বহ- ইবনু উসাইমীন** | ইবনু উসাইমীন | — | PDF | 3.2 MB | [📖 Open Book](https://drive.google.com/file/d/1OjUtAU2dH21NU5azed3SIfX1NHPSUkt0/view) |
 
-### 📂 কুরআন ও তাফসির (1 books)
+### 📂 Islamic_Books/কুরআন ও তাফসির (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **আল্লাহর নাম ও গুণের আদর্শিক নীতিমালা– ইবনু উসাইমীন** | ইবনু উসাইমীন | — | PDF | 1.6 MB | [📖 Open Book](https://drive.google.com/file/d/1XirjMmwksKlSnfe_VgGxzc9XIun-vAxB/view) |

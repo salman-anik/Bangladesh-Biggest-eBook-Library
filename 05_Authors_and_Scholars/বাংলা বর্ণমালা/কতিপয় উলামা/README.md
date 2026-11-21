@@ -9,7 +9,7 @@
 
 ## 📚 Collections & Genres
 
-### 📂 কুরআন ও তাফসির (3 books)
+### 📂 Islamic_Books/কুরআন ও তাফসির (3 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **bn al quran er sonkipto tafsir 01** | কতিপয় উলামা | — | PDF | 673 KB | [📖 Open Book](https://drive.google.com/file/d/17GngU_z0wAYjiIyjbCn4S3oXQRT4le9j/view) |

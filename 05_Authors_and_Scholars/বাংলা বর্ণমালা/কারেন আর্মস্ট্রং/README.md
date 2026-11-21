@@ -24,15 +24,15 @@
 | 2 | **বাইবেল সংক্ষিপ্ত ইতিহাস** | কারেন আর্মস্ট্রং | 2023 | EPUB | 397 KB | [📖 Open Book](https://drive.google.com/file/d/1ef2oSHIaQbOCJxukusutYV134EdvGkAu/view) |
 | 3 | **স্রষ্টার জন্য লড়াই মৌলবাদের ইতিহাস** | কারেন আর্মস্ট্রং | 2023 | EPUB | 808 KB | [📖 Open Book](https://drive.google.com/file/d/1YyzwofAxNUp67Szp-yW7p4Q4exhXK84u/view) |
 
+### 📂 Islamic_Books/অন্যান্য (1 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **ইসলাম সংক্ষিপ্ত ইতিহাস** | কারেন আর্মস্ট্রং | 2023 | EPUB | 421 KB | [📖 Open Book](https://drive.google.com/file/d/1Wz2-v6js2zhu-RR2tFQHdPrxD1JVcmc8/view) |
+
 ### 📂 ধর্ম ও দর্শন (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **বুদ্ধ** | কারেন আর্মস্ট্রং | 2023 | EPUB | 371 KB | [📖 Open Book](https://drive.google.com/file/d/1DLxa_tID6erV3tuwohCXTLlRQtjL1Nc-/view) |
-
-### 📂 অন্যান্য (1 books)
-| # | Title | Author | Year | Format | Size | Google Drive |
-|---:|---|---|:---:|:---:|---:|:---:|
-| 1 | **ইসলাম সংক্ষিপ্ত ইতিহাস** | কারেন আর্মস্ট্রং | 2023 | EPUB | 421 KB | [📖 Open Book](https://drive.google.com/file/d/1Wz2-v6js2zhu-RR2tFQHdPrxD1JVcmc8/view) |
 
 ---
 [⬅️ Back to Bangla Index](../README.md) | [🏠 Back to Library Home](../../../README.md)

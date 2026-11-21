@@ -3,13 +3,13 @@
 [🏠 Home](../../../README.md) / [05_Authors_and_Scholars](../../README.md) / [Bangla Index](../README.md) / **মোশাররফ হোসেন খান**
 
 > **📂 Google Drive Author Folder:** [Open in Drive](https://drive.google.com/drive/folders/1s-gAD6C4dcSA16GvS46gvb0uN5fBRWYQ)  
-> **Total Books in Library:** **11 books** across 4 genres/series
+> **Total Books in Library:** **17 books** across 5 genres/series
 
 ---
 
 ## 📚 Collections & Genres
 
-### 📂 কুরআন ও তাফসির (7 books)
+### 📂 Islamic_Books/কুরআন ও তাফসির (7 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **bangladesher shishu sahitto** | মোশাররফ হোসেন খান | — | PDF | 1.9 MB | [📖 Open Book](https://drive.google.com/file/d/128709aHkAiKko8i_D8eFT9WeF9ZHfdsj/view) |
@@ -20,7 +20,22 @@
 | 6 | **shahitto seminar 2008** | মোশাররফ হোসেন খান | 2008 | PDF | 1.8 MB | [📖 Open Book](https://drive.google.com/file/d/1uIPlcsCjdBwADTim_f86mlNEfpzBtx3R/view) |
 | 7 | **sobuj prthibir kompon** | মোশাররফ হোসেন খান | — | PDF | 2.3 MB | [📖 Open Book](https://drive.google.com/file/d/1mzrclZp893uykW93N-SH8ozaQH4b-T8n/view) |
 
-### 📂 সীরাত (2 books)
+### 📂 বাংলা বর্ণমালা/মোশাররফ হোসেন খান (5 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **সাহসী মানুষের গল্প ১ম খণ্ড** | মোশাররফ হোসেন খান | — | PDF | 1.8 MB | [📖 Open Book](https://drive.google.com/file/d/1GOPLFbOO5ombBloxT-Rx_JdBGt3_Fjsx/view) |
+| 2 | **সাহসী মানুষের গল্প ২য় খণ্ড** | মোশাররফ হোসেন খান | — | PDF | 2.7 MB | [📖 Open Book](https://drive.google.com/file/d/11Lk9Kjgd6xuOMjRQbhdHLSQ8XahGd4UZ/view) |
+| 3 | **সাহসী মানুষের গল্প ৩য় খণ্ড** | মোশাররফ হোসেন খান | — | PDF | 2.4 MB | [📖 Open Book](https://drive.google.com/file/d/1mPpAmuqThADq86r-LM68rCMXCpdF5_Sd/view) |
+| 4 | **সাহসী মানুষের গল্প ৪র্থ খণ্ড** | মোশাররফ হোসেন খান | — | PDF | 1.7 MB | [📖 Open Book](https://drive.google.com/file/d/1Rn9LFpHFCN4tGA46zzQPHgySQOettzTR/view) |
+| 5 | **সাহসী মানুষের গল্প ৫ খণ্ড** | মোশাররফ হোসেন খান | — | PDF | 2.5 MB | [📖 Open Book](https://drive.google.com/file/d/1wDn94IgBP4VSGhAGeaAB7yMH2GsxSSvp/view) |
+
+### 📂 Islamic_Books/অন্যান্য (2 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **shahoshi manusher golpo 02** | মোশাররফ হোসেন খান | — | PDF | 2.7 MB | [📖 Open Book](https://drive.google.com/file/d/1vYaMRt25NpBblTZor3360CfnKtBJ-SCL/view) |
+| 2 | **মাওলানা মনিরুজ্জামান ইসলামাবাদী** | মোশাররফ হোসেন খান | — | PDF | 2.5 MB | [📖 Open Book](https://drive.google.com/file/d/1TLsZjfCx9CPcwo_Qx0qk0tRcWxcCKhPi/view) |
+
+### 📂 Islamic_Books/সীরাত (2 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **siratunnobi sm songkha 2012** | মোশাররফ হোসেন খান | 2012 | PDF | 7.6 MB | [📖 Open Book](https://drive.google.com/file/d/1L5HP8dbVCLpR_JD86BsuKXQe1aOSMBEn/view) |
@@ -30,11 +45,6 @@
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **mukhomukhi** | মোশাররফ হোসেন খান | — | PDF | 2.8 MB | [📖 Open Book](https://drive.google.com/file/d/1XQ-pS9v4U7xZm6LPOkOGiyJyXk95M3_9/view) |
-
-### 📂 অন্যান্য (1 books)
-| # | Title | Author | Year | Format | Size | Google Drive |
-|---:|---|---|:---:|:---:|---:|:---:|
-| 1 | **shahoshi manusher golpo 02** | মোশাররফ হোসেন খান | — | PDF | 2.7 MB | [📖 Open Book](https://drive.google.com/file/d/1vYaMRt25NpBblTZor3360CfnKtBJ-SCL/view) |
 
 ---
 [⬅️ Back to Bangla Index](../README.md) | [🏠 Back to Library Home](../../../README.md)

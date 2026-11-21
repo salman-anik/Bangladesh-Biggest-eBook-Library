@@ -9,7 +9,7 @@
 
 ## 📚 Collections & Genres
 
-### 📂 অন্যান্য (5 books)
+### 📂 Islamic_Books/অন্যান্য (5 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **কায়সার ও কিসরা** | নাসিম হেযাজী | — | PDF | 1.9 MB | [📖 Open Book](https://drive.google.com/file/d/1OkXWKQAcuDbyJa4gqx3_DFhnmC-kg6BP/view) |

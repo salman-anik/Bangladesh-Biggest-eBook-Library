@@ -3,7 +3,7 @@
 [🏠 Home](../../../README.md) / [05_Authors_and_Scholars](../../README.md) / [Bangla Index](../README.md) / **জীবনানন্দ দাশ**
 
 > **📂 Google Drive Author Folder:** [Open in Drive](https://drive.google.com/drive/folders/1k9S6crqxQ1UQIQUmp1DdbkSB2nTw9tMi)  
-> **Total Books in Library:** **18 books** across 2 genres/series
+> **Total Books in Library:** **25 books** across 4 genres/series
 
 ---
 
@@ -27,6 +27,15 @@
 | 13 | **রূপসী বাংলা** | জীবনানন্দ দাশ | — | PDF | 1.1 MB | [📖 Open Book](https://drive.google.com/file/d/1RWh8RgRdMmeLU7CMWSUU2QeyI51USZBy/view) |
 | 14 | **শ্রেষ্ঠ কবিতা** | জীবনানন্দ দাশ | — | PDF | 675 KB | [📖 Open Book](https://drive.google.com/file/d/1xsX13rOu_V8PvDzz1Kc9PTQIxxoWrBkH/view) |
 
+### 📂 বাংলা বর্ণমালা/জীবনানন্দ দাশ (5 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **Banalata Sen** | জীবনানন্দ দাশ | — | PDF | 4.4 MB | [📖 Open Book](https://drive.google.com/file/d/1U3ylDaPz92zoMiuGiJiHodHk5u88fzg9/view) |
+| 2 | **Jhora Palok** | জীবনানন্দ দাশ | — | PDF | 1.7 MB | [📖 Open Book](https://drive.google.com/file/d/1o5NFO2q9ELcQMVhy63z28ZCpu-E9Oic-/view) |
+| 3 | **Jibanananda Rachanabali** | জীবনানন্দ দাশ | — | PDF | 3.0 MB | [📖 Open Book](https://drive.google.com/file/d/1P2BAOTRLd6J_UtVH-ugpqLaekqkqqcoE/view) |
+| 4 | **Ruposhi Bangla** | জীবনানন্দ দাশ | — | PDF | 918 KB | [📖 Open Book](https://drive.google.com/file/d/16SDk7mHv09angM0aCrF1wr2vMCnQXwQT/view) |
+| 5 | **Satti Tarar Timir** | জীবনানন্দ দাশ | — | PDF | 1.9 MB | [📖 Open Book](https://drive.google.com/file/d/1jChnaDRUO_r9_ph25ugjR_SqYVwsJ1RL/view) |
+
 ### 📂 উপন্যাস (4 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
@@ -34,6 +43,12 @@
 | 2 | **বনলতা সেন** | জীবনানন্দ দাশ | 2016 | EPUB | 153 KB | [📖 Open Book](https://drive.google.com/file/d/136L6Vl4ofuBG0_f6OiEhjs0i21yZv_ZU/view) |
 | 3 | **বনলতা সেন** | জীবনানন্দ দাশ | 2023 | EPUB | 210 KB | [📖 Open Book](https://drive.google.com/file/d/1bvm2NzGqPHl-_nPG280HZZ2p7y06ACFJ/view) |
 | 4 | **মাল্যবান** | জীবনানন্দ দাশ | — | PDF | 8.5 MB | [📖 Open Book](https://drive.google.com/file/d/1kRBRQXTEqTd0nN8YhXXD1J8VGF0SOQmf/view) |
+
+### 📂 বাংলা বর্ণমালা/জীবনানন্দ দাশ/কবিতা (2 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **Jibananda Daser Srestho Kobita** | জীবনানন্দ দাশ | — | PDF | 5.1 MB | [📖 Open Book](https://drive.google.com/file/d/1pBt-OlppLKd2IL3aHlCLvjn_5YRqDuP7/view) |
+| 2 | **Shreshtho Kobita** | জীবনানন্দ দাশ | — | PDF | 8.2 MB | [📖 Open Book](https://drive.google.com/file/d/1Cw_JZ-36iE9-ER_8TNsnhsI60tyLeB6S/view) |
 
 ---
 [⬅️ Back to Bangla Index](../README.md) | [🏠 Back to Library Home](../../../README.md)

@@ -9,7 +9,7 @@
 
 ## 📚 Collections & Genres
 
-### 📂 কুরআন ও তাফসির (2 books)
+### 📂 Islamic_Books/কুরআন ও তাফসির (2 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **এশিয়া মহাদেশের ইমাম,লেখক - মুফতীয়ে আযম বাঙ্গাল শায়েখ গোলাম সামদানী রেজভী** | মুফতীয়ে আযম বাঙ্গাল শায়েখ গোলাম সামদানী রেজভী | — | PDF | 25.2 MB | [📖 Open Book](https://drive.google.com/file/d/1c1bMvAAUW6Dhj1qjt9QaTNPqlTVDDLUA/view) |

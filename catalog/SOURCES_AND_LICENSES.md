@@ -1,10 +1,10 @@
 # Sources & License Records
 
-All newly added books are strictly verified as Public Domain, Official Government Free Textbooks (NCTB), or Open Access (Creative Commons).
+Records source and copyright classifications for indexed files across the library.
 
 | License | Copyright Status | Books |
 |---|---|---:|
-| Existing Personal Library File | Personal Collection (Verify Before Public Redistribution) | 9,012 |
+| Existing Personal Library File | Personal Collection (Verify Before Public Redistribution) | 15,599 |
 | Government of Bangladesh Free Educational Distribution (NCTB) | Official Free Textbook | 1,378 |
 | Existing Personal Library Import | Personal Collection (Verify Before Public Redistribution) | 1,345 |
 | Public Domain (Work) / CC-BY-SA-4.0 (Wikisource transcription) | Public Domain | 119 |

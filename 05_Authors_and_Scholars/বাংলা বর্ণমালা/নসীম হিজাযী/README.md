@@ -9,7 +9,7 @@
 
 ## 📚 Collections & Genres
 
-### 📂 কুরআন ও তাফসির (3 books)
+### 📂 Islamic_Books/কুরআন ও তাফসির (3 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **Roktakto varot Hijazi** | নসীম হিজাযী | — | PDF | 9.8 MB | [📖 Open Book](https://drive.google.com/file/d/1MYjr75FloanoCBTy6oOPgVCisykYncs1/view) |

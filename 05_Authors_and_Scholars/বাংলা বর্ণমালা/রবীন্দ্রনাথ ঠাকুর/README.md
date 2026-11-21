@@ -3,7 +3,7 @@
 [🏠 Home](../../../README.md) / [05_Authors_and_Scholars](../../README.md) / [Bangla Index](../README.md) / **রবীন্দ্রনাথ ঠাকুর**
 
 > **📂 Google Drive Author Folder:** [Open in Drive](https://drive.google.com/drive/folders/1USOLZiyXSyMED5gOORhUJmC3ufHcHOcE)  
-> **Total Books in Library:** **134 books** across 8 genres/series
+> **Total Books in Library:** **210 books** across 12 genres/series
 
 ---
 
@@ -79,6 +79,70 @@
 | 65 | **স্বদেশী সমাজ** | রবীন্দ্রনাথ ঠাকুর | 2026 | EPUB | 148 KB | [📖 Open Book](https://drive.google.com/file/d/1fldWuvOpC9t7R9utRVP5mYwwLxZxPyI0/view) |
 | 66 | **হাস্যকৌতুক** | রবীন্দ্রনাথ ঠাকুর | 2026 | EPUB | 105 KB | [📖 Open Book](https://drive.google.com/file/d/1E2zOmt1CJhGFuj2biHUFud91B6lfR3vR/view) |
 
+### 📂 বাংলা বর্ণমালা/রবীন্দ্রনাথ ঠাকুর (60 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **Bhanu Singher Padabali** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 3.0 MB | [📖 Open Book](https://drive.google.com/file/d/1UQcpbG6JumUdHsUJ7_Yc_b2zeOK3qbOR/view) |
+| 2 | **BL-Robindronath Tagore by** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 3.6 MB | [📖 Open Book](https://drive.google.com/file/d/1OBiUpbKEI9Ov3hJpnEFcT5MzYnET4d0y/view) |
+| 3 | **Bou Thakuranir Haat** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 483 KB | [📖 Open Book](https://drive.google.com/file/d/1w3et52am4z0nxii4wfk8IAObL55CwxZe/view) |
+| 4 | **Char Adhyay** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 388 KB | [📖 Open Book](https://drive.google.com/file/d/1ar4re5NTmP2bEZiWIP4TE0zSp4MNc-7r/view) |
+| 5 | **Chaturanga** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 472 KB | [📖 Open Book](https://drive.google.com/file/d/1muBVEhi-ML3XCX9HQQtUlrAWgfbmUE38/view) |
+| 6 | **Chokher Bali** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 1.9 MB | [📖 Open Book](https://drive.google.com/file/d/19CLjMYxa5TSLTcyygZgJPacHIr6X28O1/view) |
+| 7 | **Chotu Rango** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 15.8 MB | [📖 Open Book](https://drive.google.com/file/d/1ODivn8yXl7kfULjkWSclKYIBf4nH1iNA/view) |
+| 8 | **Dakghar** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 8.5 MB | [📖 Open Book](https://drive.google.com/file/d/1k0zORgJnDtQhI5w6Pr49UTX9jd-0LaUi/view) |
+| 9 | **Dui Bon** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 647 KB | [📖 Open Book](https://drive.google.com/file/d/1tvmRGnX8LYv8HQNh-ztmFUHefR3twT3I/view) |
+| 10 | **Ghore Baire** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 1.7 MB | [📖 Open Book](https://drive.google.com/file/d/10VR42wyta_nHVhG3BeCuX9raSaHwfLvb/view) |
+| 11 | **Golpo Guccho** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 4.4 MB | [📖 Open Book](https://drive.google.com/file/d/14JAN1H0BZJLm8CUKRFCOB1MgEvZ-ePvG/view) |
+| 12 | **Golpo Guccho** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 5.8 MB | [📖 Open Book](https://drive.google.com/file/d/1iX_jhDUmOo8Wq6gu7WWLa4kH9l5sabpR/view) |
+| 13 | **Golpo Sholpo** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 525 KB | [📖 Open Book](https://drive.google.com/file/d/1DfGueGDcvo411u7YFRiaLpKAnsyJAWAx/view) |
+| 14 | **Golpo Somogro** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 6.0 MB | [📖 Open Book](https://drive.google.com/file/d/1tynzxm9YQTJvr4P5KdyYXUoa36IRw2yV/view) |
+| 15 | **Gora** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 3.1 MB | [📖 Open Book](https://drive.google.com/file/d/1Q5GvjvU4R4wp7PQeU1WQzTkltUhLIg9_/view) |
+| 16 | **Jethay Mosha** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 337 KB | [📖 Open Book](https://drive.google.com/file/d/1HsbHOP9e-caHSCYU9ccfd8qOE6MFlMdJ/view) |
+| 17 | **Jogajog written** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 39.9 MB | [📖 Open Book](https://drive.google.com/file/d/1NRMUY9KJ5O_WT6S38qggCbCzP1Z_hE4U/view) |
+| 18 | **Laboratory** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 220 KB | [📖 Open Book](https://drive.google.com/file/d/1K1T3xL38eia7Xf7EEqNragzHfrFZanbC/view) |
+| 19 | **Lipica** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 1.5 MB | [📖 Open Book](https://drive.google.com/file/d/1i4WrH-BezguapZqROv0FAPsmyVVp76Yl/view) |
+| 20 | **Malancha** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 627 KB | [📖 Open Book](https://drive.google.com/file/d/1C-D-KzZ8CMSR5LmmlQjNMBKRrQ6H73fS/view) |
+| 21 | **Malancha** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 466 KB | [📖 Open Book](https://drive.google.com/file/d/1kB6XeNDhH9sBzRfmQy-paww4ifCb8JE2/view) |
+| 22 | **Master Moshai** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 167 KB | [📖 Open Book](https://drive.google.com/file/d/1OENf0WCq58L6A2ABOvyXjmVLbL1zaE1U/view) |
+| 23 | **Noukadubi** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 3.6 MB | [📖 Open Book](https://drive.google.com/file/d/1Gz99-vxms1vRm-iCunWHZOm4Mgn9rCOR/view) |
+| 24 | **Projapotir Nirbondha** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 1.3 MB | [📖 Open Book](https://drive.google.com/file/d/1g0v5SX-J145Jm0mP7PWTabPKGxUSFcs3/view) |
+| 25 | **RABINDRA RACHANABALI** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 11.9 MB | [📖 Open Book](https://drive.google.com/file/d/1-Jkv3DQL36Yz_0Y68JYFsCUGZBCoIv34/view) |
+| 26 | **RABINDRA RACHANABALI** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 8.8 MB | [📖 Open Book](https://drive.google.com/file/d/1-QMJ9J1KGkmHtznnG_KK8EfFXTL3H6n3/view) |
+| 27 | **RABINDRA RACHANABALI** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 12.9 MB | [📖 Open Book](https://drive.google.com/file/d/14ptHNdgARMbQrFTGokxAXxka-vTwgw4f/view) |
+| 28 | **RABINDRA RACHANABALI** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 25.5 MB | [📖 Open Book](https://drive.google.com/file/d/161PaDLaYlcYKdIU_g3xuRCKh4xEv4RXH/view) |
+| 29 | **RABINDRA RACHANABALI** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 29.1 MB | [📖 Open Book](https://drive.google.com/file/d/16dp1yQ2T7Ee_2CVHoUwKsAxkCsi9KnFw/view) |
+| 30 | **RABINDRA RACHANABALI** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 13.2 MB | [📖 Open Book](https://drive.google.com/file/d/16qPhFyLIY0PFA5KtrXPfL9lPTqxg8k7Y/view) |
+| 31 | **RABINDRA RACHANABALI** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 20.6 MB | [📖 Open Book](https://drive.google.com/file/d/182tjh63Qd_c-RqkSAqFobvaleyz4kAuV/view) |
+| 32 | **RABINDRA RACHANABALI** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 17.7 MB | [📖 Open Book](https://drive.google.com/file/d/184eGMKxNelr_zgFMjGDlo8G0BEq6Ut8H/view) |
+| 33 | **RABINDRA RACHANABALI** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 8.6 MB | [📖 Open Book](https://drive.google.com/file/d/19GLUdN26qoav8sOJClGp_mSTMJk7zZsM/view) |
+| 34 | **RABINDRA RACHANABALI** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 19.5 MB | [📖 Open Book](https://drive.google.com/file/d/1GU3ARZwbmicjTzwsU8Yhc5NiyYGvIei-/view) |
+| 35 | **RABINDRA RACHANABALI** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 11.2 MB | [📖 Open Book](https://drive.google.com/file/d/1JOXOKPNQSs-DcFxyhQ4bOHMtl15HUYb2/view) |
+| 36 | **RABINDRA RACHANABALI** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 10.9 MB | [📖 Open Book](https://drive.google.com/file/d/1JZlF0b1bkbiHPvxPnDX0yf9hp1gvo2Nm/view) |
+| 37 | **RABINDRA RACHANABALI** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 20.4 MB | [📖 Open Book](https://drive.google.com/file/d/1L5R1HlmMT0qCCxZpdpWBW2ov_dfGRyqN/view) |
+| 38 | **RABINDRA RACHANABALI** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 12.1 MB | [📖 Open Book](https://drive.google.com/file/d/1Mj42TcSNZfa3pyQYIO1IPxttyA5gn1Iz/view) |
+| 39 | **RABINDRA RACHANABALI** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 12.0 MB | [📖 Open Book](https://drive.google.com/file/d/1NjyKGULuMha0lQ-2fdhaaO5S29yzb651/view) |
+| 40 | **RABINDRA RACHANABALI** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 14.8 MB | [📖 Open Book](https://drive.google.com/file/d/1P3yeI_jTPehF2fzAszZALml0CgXyQc1c/view) |
+| 41 | **RABINDRA RACHANABALI** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 11.6 MB | [📖 Open Book](https://drive.google.com/file/d/1TvaZwurBm6-bkR_bq-iM2K8vWJXo3ksD/view) |
+| 42 | **RABINDRA RACHANABALI** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 15.6 MB | [📖 Open Book](https://drive.google.com/file/d/1V9Vis2S0jcnfnqHUBpFKN-2MDfnGY_Mj/view) |
+| 43 | **RABINDRA RACHANABALI** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 22.1 MB | [📖 Open Book](https://drive.google.com/file/d/1VBduMGSjJkRdsP2L0l4BJ1uW9Y9wTSUv/view) |
+| 44 | **RABINDRA RACHANABALI** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 11.8 MB | [📖 Open Book](https://drive.google.com/file/d/1Vikh6egTYmyUKr44QqhRAjInzE_gPCJP/view) |
+| 45 | **RABINDRA RACHANABALI** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 9.2 MB | [📖 Open Book](https://drive.google.com/file/d/1_qXyk_Pk6vyJfKXTpxEsiJL0zeqgW8_b/view) |
+| 46 | **RABINDRA RACHANABALI** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 18.4 MB | [📖 Open Book](https://drive.google.com/file/d/1rRt_Ya_CI-HiX7KsHOLpjlrYz2uMY8Ct/view) |
+| 47 | **RABINDRA RACHANABALI** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 14.7 MB | [📖 Open Book](https://drive.google.com/file/d/1t3SzpOO5S4d3Pr1TN9sYkxGk-WyZwVZR/view) |
+| 48 | **RABINDRA RACHANABALI** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 9.5 MB | [📖 Open Book](https://drive.google.com/file/d/1u5XmQoQTEMttvzwLjI6y-3KNl9l2YoBV/view) |
+| 49 | **RABINDRA RACHANABALI** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 13.5 MB | [📖 Open Book](https://drive.google.com/file/d/1vDXJotyTiPZSBnILevRquLz-AmLKdBXi/view) |
+| 50 | **RABINDRA RACHANABALI** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 15.8 MB | [📖 Open Book](https://drive.google.com/file/d/1vpFD6XCptyPMuL6G8GMJAZHBdC3zFrR3/view) |
+| 51 | **RABINDRA RACHANABALI** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 35.7 MB | [📖 Open Book](https://drive.google.com/file/d/1xkw-HOyJVF5o6L6glhI9885x2idAD-e8/view) |
+| 52 | **Rajarshi** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 807 KB | [📖 Open Book](https://drive.google.com/file/d/1-oAeROuqaEgckj7uIBbDBCC5C4pJGE--/view) |
+| 53 | **Robindronath Tagore** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 3.6 MB | [📖 Open Book](https://drive.google.com/file/d/1fAtqBFssujmDBgdXgt3zZyL7NDsk6UQu/view) |
+| 54 | **Roktokorobi** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 457 KB | [📖 Open Book](https://drive.google.com/file/d/1mC6s6bkPY7zunsE86Zmy9OW2zEleBWvR/view) |
+| 55 | **Shapmochan** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 143 KB | [📖 Open Book](https://drive.google.com/file/d/13jnQ4hx1BtVctHTpdzkpW1jL6JFeT5B8/view) |
+| 56 | **Tin Songi** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 1.6 MB | [📖 Open Book](https://drive.google.com/file/d/1bG4URadhc9P1Z6koZvSYOhR6cjQa951w/view) |
+| 57 | **কবির ভণিতা** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 2.4 MB | [📖 Open Book](https://drive.google.com/file/d/10MdafCHhe4xD9Wn-hrACzCOuTtUMecfB/view) |
+| 58 | **রানু ও ভানু** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 42.7 MB | [📖 Open Book](https://drive.google.com/file/d/1k6SORIce5IwVMD_9Xjf3m-9C0zfmOyLT/view) |
+| 59 | **সঞ্চয়িতা** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 32.4 MB | [📖 Open Book](https://drive.google.com/file/d/1Pkyi76lFuUKtODzyA7PhG9AKG6MPzxCg/view) |
+| 60 | **সঞ্চয়িতা** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 8.8 MB | [📖 Open Book](https://drive.google.com/file/d/1_oVS_3MhsT_flPZyNeTjqG7MzhFZoHE7/view) |
+
 ### 📂 উপন্যাস (53 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
@@ -136,14 +200,22 @@
 | 52 | **রবীন্দ্রনাথ ঠাকুর - স্মরণ (১৯১৪)** | রবীন্দ্রনাথ ঠাকুর | 1914 | EPUB | 204 KB | [📖 Open Book](https://drive.google.com/file/d/1OApWmpuF3-6I9OMd_ObLZRWXFkgCAofH/view) |
 | 53 | **শ্রেষ্ঠ বড় গল্প** | রবীন্দ্রনাথ ঠাকুর | — | MOBI | 319 KB | [📖 Open Book](https://drive.google.com/file/d/17-tnTcWQLabauZSoBVQHbPlyeqL0X7C4/view) |
 
-### 📂 প্রবন্ধ (5 books)
+### 📂 বাংলা বর্ণমালা/রবীন্দ্রনাথ ঠাকুর/কবিতা (13 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
-| 1 | **গীতাঞ্জলি** | রবীন্দ্রনাথ ঠাকুর | 2026 | EPUB | 367 KB | [📖 Open Book](https://drive.google.com/file/d/1mzZMu2SnkZSuO0NyuOhtmIUD3fHNxsGJ/view) |
-| 2 | **ছেলেবেলা** | রবীন্দ্রনাথ ঠাকুর | 2015 | EPUB | 262 KB | [📖 Open Book](https://drive.google.com/file/d/1qfr9TT7-kGFaPrz8gtW0ey6plaYjfQ7-/view) |
-| 3 | **বাংলা শব্দতত্ত্ব – রবীন্দ্রনাথ ঠাকুর** | রবীন্দ্রনাথ ঠাকুর | 2016 | EPUB | 268 KB | [📖 Open Book](https://drive.google.com/file/d/1Pef2MgaGNwxfSaZsksX5MEjTNhRyFW_T/view) |
-| 4 | **রবীন্দ্র উপন্যাস সমগ্র** | রবীন্দ্রনাথ ঠাকুর | 2023 | EPUB | 2.4 MB | [📖 Open Book](https://drive.google.com/file/d/11hcX_CkouuDiTajPgxA2dTfQ4TRcMMtr/view) |
-| 5 | **রবীন্দ্র উপন্যাস সমগ্র** | রবীন্দ্রনাথ ঠাকুর | — | MOBI | 4.2 MB | [📖 Open Book](https://drive.google.com/file/d/1njvze11ogaZs-wkf8pmNIuf0WpVkWKbA/view) |
+| 1 | **Akash-Prodeep-Kabbyo-by-Rabindra-Nath-Thakur** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 739 KB | [📖 Open Book](https://drive.google.com/file/d/1vz0Q2wifKAm49U2FViAfFgB8ogqMd-dd/view) |
+| 2 | **Bonoful-Kabbyo-by-Rabindra-Nath-Thakur** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 1.1 MB | [📖 Open Book](https://drive.google.com/file/d/1nR-gH65uNO3IQ53wmppuIZCoCOFd-Kk6/view) |
+| 3 | **Chitra-Kabbyo-by-Rabindra-Nath-Thakur** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 1.2 MB | [📖 Open Book](https://drive.google.com/file/d/14x5Nwl26Yld5bWrLdvYmDqvFlJV_lH9x/view) |
+| 4 | **Kahini-Kabbyo-by-Rabindra-Nath-Thakur** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 1.4 MB | [📖 Open Book](https://drive.google.com/file/d/1cUGekl8CRsGD-J9yQqYwU-KqdChK7m7T/view) |
+| 5 | **Kheya-Kabbyo-by-Rabindra-Nath-Thakur** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 1.4 MB | [📖 Open Book](https://drive.google.com/file/d/1aI0YV9DU9Qp6xHbbKbeEABWtW-b5L1Rv/view) |
+| 6 | **Kolpona-Kabbyo-by-Rabindra-Nath-Thakur** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 1.0 MB | [📖 Open Book](https://drive.google.com/file/d/1ssevn55DD2at3lWmJ5b8It7OwsNzvOae/view) |
+| 7 | **Kori-O-Komol-Kabbyo-by-Rabindra-Nath-Thakur** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 1.9 MB | [📖 Open Book](https://drive.google.com/file/d/1zrnztCqcJXjC0XB_VeKjEbVlkHcy8Q9H/view) |
+| 8 | **Kothaq O Kahini Rabi Thakur** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 494 KB | [📖 Open Book](https://drive.google.com/file/d/13yrAC-PHBA3jdgGo1xa6GwmK9PUSz96u/view) |
+| 9 | **Naibedya-Kabbyo-by-Rabindra-Nath-Thakur** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 970 KB | [📖 Open Book](https://drive.google.com/file/d/1e5mnsyQBLw9BxpFYt9jWyhh4Ibfe99dM/view) |
+| 10 | **Robi-Chaya-Kabbyo-by-Rabindra-Nath-Thakur** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 2.4 MB | [📖 Open Book](https://drive.google.com/file/d/1-6WhkcBAs-G88AfmP1KYsNYxYhNBjJlF/view) |
+| 11 | **Shesher Kobita** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 1.9 MB | [📖 Open Book](https://drive.google.com/file/d/1SBNo32eI4zmuCeQIG9w_KvLVPuqei_RL/view) |
+| 12 | **Sonar-Tori-Kabbyo-by-Rabindra-Nath-Thakur** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 1.2 MB | [📖 Open Book](https://drive.google.com/file/d/1USsP2GuN3T_FHvi5HH4hGs9ah83R5H6T/view) |
+| 13 | **Swadesh-Kabbyo-by-Rabindra-Nath-Thakur** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 1.3 MB | [📖 Open Book](https://drive.google.com/file/d/1RCgUi9Gm_aVIEP3k62LM7qFAe_SyVNuT/view) |
 
 ### 📂 গল্প ও ছোটগল্প (5 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
@@ -154,21 +226,41 @@
 | 4 | **গল্পগুচ্ছ-২** | রবীন্দ্রনাথ ঠাকুর | 2024 | EPUB | 855 KB | [📖 Open Book](https://drive.google.com/file/d/1ZB9G2vvynZPlrGSwpuPTzBjvA5qiZbli/view) |
 | 5 | **লিপিকা** | রবীন্দ্রনাথ ঠাকুর | 2026 | EPUB | 109 KB | [📖 Open Book](https://drive.google.com/file/d/1KySmX7JW4I9JcV5f3HAVW0KON0FDTnJk/view) |
 
+### 📂 প্রবন্ধ (5 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **গীতাঞ্জলি** | রবীন্দ্রনাথ ঠাকুর | 2026 | EPUB | 367 KB | [📖 Open Book](https://drive.google.com/file/d/1mzZMu2SnkZSuO0NyuOhtmIUD3fHNxsGJ/view) |
+| 2 | **ছেলেবেলা** | রবীন্দ্রনাথ ঠাকুর | 2015 | EPUB | 262 KB | [📖 Open Book](https://drive.google.com/file/d/1qfr9TT7-kGFaPrz8gtW0ey6plaYjfQ7-/view) |
+| 3 | **বাংলা শব্দতত্ত্ব – রবীন্দ্রনাথ ঠাকুর** | রবীন্দ্রনাথ ঠাকুর | 2016 | EPUB | 268 KB | [📖 Open Book](https://drive.google.com/file/d/1Pef2MgaGNwxfSaZsksX5MEjTNhRyFW_T/view) |
+| 4 | **রবীন্দ্র উপন্যাস সমগ্র** | রবীন্দ্রনাথ ঠাকুর | 2023 | EPUB | 2.4 MB | [📖 Open Book](https://drive.google.com/file/d/11hcX_CkouuDiTajPgxA2dTfQ4TRcMMtr/view) |
+| 5 | **রবীন্দ্র উপন্যাস সমগ্র** | রবীন্দ্রনাথ ঠাকুর | — | MOBI | 4.2 MB | [📖 Open Book](https://drive.google.com/file/d/1njvze11ogaZs-wkf8pmNIuf0WpVkWKbA/view) |
+
 ### 📂 কবিতা (2 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **অনূদিত কবিতা** | রবীন্দ্রনাথ ঠাকুর | 2016 | EPUB | 170 KB | [📖 Open Book](https://drive.google.com/file/d/1YCbOFmkW0QQlF6JMRuvJsQoXexaqgFGz/view) |
 | 2 | **রবীন্দ্রনাথ ঠাকুর - গীতাঞ্জলি (১৯১৩)** | রবীন্দ্রনাথ ঠাকুর | 1913 | EPUB | 270 KB | [📖 Open Book](https://drive.google.com/file/d/1yotTt0yjv-BVBX0TcdiV_OhGfRJX4tzU/view) |
 
-### 📂 বিজ্ঞান ও প্রযুক্তি (1 books)
+### 📂 বাংলা বর্ণমালা/রবীন্দ্রনাথ ঠাকুর/উপন্যাস (2 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
-| 1 | **রবীন্দ্রনাথ ঠাকুর - আরোগ্য (১৯৪১)** | রবীন্দ্রনাথ ঠাকুর | 1941 | EPUB | 74 KB | [📖 Open Book](https://drive.google.com/file/d/155GPNy9xMJX89gJ8e_9cKU8H73oQKKvE/view) |
+| 1 | **উপন্যাস সমগ্র** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 26.5 MB | [📖 Open Book](https://drive.google.com/file/d/1jx55TEKrZxRzCFYFhDq-etUzxGvYP6B-/view) |
+| 2 | **উপন্যাস সমগ্র** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 24.5 MB | [📖 Open Book](https://drive.google.com/file/d/1n5jMxn9sSRvdYAFmwYZgIeTfBIEDGSH8/view) |
 
 ### 📂 রচনাবলী ও রচনাসমগ্র (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **কিশোর রচনাসমগ্র** | রবীন্দ্রনাথ ঠাকুর | — | MOBI | 886 KB | [📖 Open Book](https://drive.google.com/file/d/1LbItwTxuK300FkOdDuJekTF4xwfhVDbR/view) |
+
+### 📂 বাংলা বর্ণমালা/রবীন্দ্রনাথ ঠাকুর/প্রবন্ধ (1 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **প্রবন্ধ সমগ্র** | রবীন্দ্রনাথ ঠাকুর | — | PDF | 24.1 MB | [📖 Open Book](https://drive.google.com/file/d/1yfTByUGBvrvYPxk4zwL99pzuhGuvEtFt/view) |
+
+### 📂 বিজ্ঞান ও প্রযুক্তি (1 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **রবীন্দ্রনাথ ঠাকুর - আরোগ্য (১৯৪১)** | রবীন্দ্রনাথ ঠাকুর | 1941 | EPUB | 74 KB | [📖 Open Book](https://drive.google.com/file/d/155GPNy9xMJX89gJ8e_9cKU8H73oQKKvE/view) |
 
 ### 📂 থ্রিলার, রহস্য ও গোয়েন্দা (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |

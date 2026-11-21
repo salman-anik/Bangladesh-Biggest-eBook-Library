@@ -3,7 +3,7 @@
 [🏠 Home](../../../README.md) / [05_Authors_and_Scholars](../../README.md) / [Bangla Index](../README.md) / **কাজী আনোয়ার হোসেন**
 
 > **📂 Google Drive Author Folder:** [Open in Drive](https://drive.google.com/drive/folders/19-D592u2bJQpH5A1isHsFsb4-Xwgk9y0)  
-> **Total Books in Library:** **24 books** across 1 genres/series
+> **Total Books in Library:** **30 books** across 2 genres/series
 
 ---
 
@@ -36,6 +36,16 @@
 | 22 | **সেই কুয়াশা (১ম খণ্ড)** | কাজী আনোয়ার হোসেন | 2023 | EPUB | 427 KB | [📖 Open Book](https://drive.google.com/file/d/11V5xA1FjrPmNS9LScdTcWfRggiuvZ99E/view) |
 | 23 | **সেই কুয়াশা (২য় খণ্ড)** | কাজী আনোয়ার হোসেন | 2023 | EPUB | 453 KB | [📖 Open Book](https://drive.google.com/file/d/1mRlKKRsz7ijP0JeOm0w5GGJhE4FDfETE/view) |
 | 24 | **স্বর্ণলিপ্সা** | কাজী আনোয়ার হোসেন | 2023 | EPUB | 550 KB | [📖 Open Book](https://drive.google.com/file/d/1m3cgvGtcwolA-306acBVP_CFssy7qt1F/view) |
+
+### 📂 বাংলা বর্ণমালা/কাজী আনোয়ার হোসেন (6 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **ATTO UNNAYAN** | কাজী আনোয়ার হোসেন | — | PDF | 5.1 MB | [📖 Open Book](https://drive.google.com/file/d/1W6fZYUygTdWaCPkPcibCUvBn8VvfRIIS/view) |
+| 2 | **ATTOSOMMOHON** | কাজী আনোয়ার হোসেন | — | PDF | 2.1 MB | [📖 Open Book](https://drive.google.com/file/d/1MnXJ82MrBs9flz4VXalIYmZDo4ql0E3q/view) |
+| 3 | **DHUMPAN TYAGE ATTOSOMMOHON** | কাজী আনোয়ার হোসেন | — | PDF | 3.7 MB | [📖 Open Book](https://drive.google.com/file/d/1Q0LW9_wxyqmJjyiUnZNphRaG-FNmV2fz/view) |
+| 4 | **JONOPRIOTA** | কাজী আনোয়ার হোসেন | — | PDF | 2.3 MB | [📖 Open Book](https://drive.google.com/file/d/10dHY3a-iS6YVdlIkCYLC8J5y9jBxbxxS/view) |
+| 5 | **KHALIHATE ATTOROKKHA** | কাজী আনোয়ার হোসেন | — | PDF | 5.4 MB | [📖 Open Book](https://drive.google.com/file/d/1kAxOwsg8jCAMNV4XFgudqtX1Sl6yVhiK/view) |
+| 6 | **SUKH SOMRIDDHI** | কাজী আনোয়ার হোসেন | — | PDF | 6.3 MB | [📖 Open Book](https://drive.google.com/file/d/1DmrcAEhU0VfUR_Q844J2zAsBcAgq1VW8/view) |
 
 ---
 [⬅️ Back to Bangla Index](../README.md) | [🏠 Back to Library Home](../../../README.md)

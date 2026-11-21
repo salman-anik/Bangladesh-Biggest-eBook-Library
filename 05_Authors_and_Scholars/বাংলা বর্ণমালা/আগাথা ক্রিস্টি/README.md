@@ -32,7 +32,7 @@
 | 18 | **মার্ডার অ্যাট হ্যাজেলমুর** | আগাথা ক্রিস্টি | 2023 | EPUB | 303 KB | [📖 Open Book](https://drive.google.com/file/d/1TftwwHOF4AOzySgZwtH0SJ4iTWaTNF1G/view) |
 | 19 | **স্পার্কলিং সায়ানাইড** | আগাথা ক্রিস্টি | 2023 | EPUB | 290 KB | [📖 Open Book](https://drive.google.com/file/d/1QZwyHjchLQzlh5JtLyTWah5FSgxXQZEK/view) |
 
-### 📂 অন্যান্য (2 books)
+### 📂 Islamic_Books/অন্যান্য (2 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **দ্য ক্রেটান বুল** | আগাথা ক্রিস্টি | 2016 | MOBI | 386 KB | [📖 Open Book](https://drive.google.com/file/d/1y_FIFzIlQCxX9iG7Pippk4EDpLCmgoC5/view) |

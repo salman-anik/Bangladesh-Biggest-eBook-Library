@@ -10,8 +10,8 @@
 
 | Index Branch | Authors | Description | Drive Folder |
 |---|---:|---|:---:|
-| [বাংলা বর্ণমালা](বাংলা বর্ণমালা/README.md) | 229 | বাংলা সাহিত্যের সকল প্রথিতযশা লেখক ও গবেষক | [Open in Drive](https://drive.google.com/drive/folders/12hrCkJA6ABOYu5LlETm8cuOxu7ZkktGM) |
-| [A-Z](A-Z/README.md) | 16 | International & English classic authors | [Open in Drive](https://drive.google.com/drive/folders/1t4sbTJRytV1btgWIJrqosHuXstIaEAtx) |
+| [বাংলা বর্ণমালা](বাংলা বর্ণমালা/README.md) | 335 | বাংলা সাহিত্যের সকল প্রথিতযশা লেখক ও গবেষক | [Open in Drive](https://drive.google.com/drive/folders/12hrCkJA6ABOYu5LlETm8cuOxu7ZkktGM) |
+| [A-Z](A-Z/README.md) | 25 | International & English classic authors | [Open in Drive](https://drive.google.com/drive/folders/1t4sbTJRytV1btgWIJrqosHuXstIaEAtx) |
 
 ---
 [🏠 Back to Library Home](../README.md)

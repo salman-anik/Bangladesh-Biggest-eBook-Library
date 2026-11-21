@@ -3,7 +3,7 @@
 [🏠 Home](../../../README.md) / [05_Authors_and_Scholars](../../README.md) / [Bangla Index](../README.md) / **দেবীপ্রসাদ চট্টোপাধ্যায়**
 
 > **📂 Google Drive Author Folder:** [Open in Drive](https://drive.google.com/drive/folders/1SkqMlSEWGggRAwrd8n41VqkgKIapJjg2)  
-> **Total Books in Library:** **8 books** across 3 genres/series
+> **Total Books in Library:** **9 books** across 4 genres/series
 
 ---
 
@@ -23,6 +23,11 @@
 | 1 | **বিজ্ঞান কী ও কেন** | দেবীপ্রসাদ চট্টোপাধ্যায় | — | PDF | 13.0 MB | [📖 Open Book](https://drive.google.com/file/d/1_SH4c_wovzBIff4Nr-GutMYPR5zIJMHJ/view) |
 | 2 | **বিজ্ঞান কী ও কেন [v1]** | দেবীপ্রসাদ চট্টোপাধ্যায় | — | PDF | 1.4 MB | [📖 Open Book](https://drive.google.com/file/d/1BM6DUQOn2Adm7jEUk9E3WPxoNCJIq9GC/view) |
 | 3 | **যে গল্পের শেষ নেই** | দেবীপ্রসাদ চট্টোপাধ্যায় | 2026 | EPUB | 336 KB | [📖 Open Book](https://drive.google.com/file/d/14qkjh9TlcoQbiF44SAd-XoHbXD9HyzJZ/view) |
+
+### 📂 বাংলা বর্ণমালা/দেবীপ্রসাদ চট্টোপাধ্যায় (1 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **পায়ের নখ থেকে মাথার চুল** | দেবীপ্রসাদ চট্টোপাধ্যায় | — | PDF | 2.3 MB | [📖 Open Book](https://drive.google.com/file/d/1lIewM0H-6Ci2amw9TVDJ6ZiB8mKJz_ps/view) |
 
 ### 📂 জীবনী ও আত্মজীবনী (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |

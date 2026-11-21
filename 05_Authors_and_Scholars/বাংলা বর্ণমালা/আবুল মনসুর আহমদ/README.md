@@ -3,11 +3,19 @@
 [🏠 Home](../../../README.md) / [05_Authors_and_Scholars](../../README.md) / [Bangla Index](../README.md) / **আবুল মনসুর আহমদ**
 
 > **📂 Google Drive Author Folder:** [Open in Drive](https://drive.google.com/drive/folders/117nGTnnmvKFauem4lxlPzoiol8Yb-qrv)  
-> **Total Books in Library:** **5 books** across 3 genres/series
+> **Total Books in Library:** **9 books** across 4 genres/series
 
 ---
 
 ## 📚 Collections & Genres
+
+### 📂 বাংলা বর্ণমালা/আবুল মনসুর আহমদ (4 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **Amar ekha rajnitir 50 bochor Abul Mansur Ahmed** | আবুল মনসুর আহমদ | — | PDF | 20.6 MB | [📖 Open Book](https://drive.google.com/file/d/1pONdgDzmGrfeAIwa1gQDMU--u9Aa9LSm/view) |
+| 2 | **Amar ekha rajnitir 50 bochor Abul Mansur Ahmed** | আবুল মনসুর আহমদ | — | PDF | 20.6 MB | [📖 Open Book](https://drive.google.com/file/d/1sOLB3eyoxd6gB9O9UxwI_vXKFkyNPl8g/view) |
+| 3 | **Food Conference** | আবুল মনসুর আহমদ | — | PDF | 2.7 MB | [📖 Open Book](https://drive.google.com/file/d/1fjJZ0hEf5B0m9QMOCpiIbaKReQzUSvnY/view) |
+| 4 | **Galivorer Sofor Nama** | আবুল মনসুর আহমদ | — | PDF | 22.5 MB | [📖 Open Book](https://drive.google.com/file/d/1Fi1GdhnFbogW7aQIpfWOSUNB0MpQ6aiQ/view) |
 
 ### 📂 জীবনী ও আত্মজীবনী (2 books)
 | # | Title | Author | Year | Format | Size | Google Drive |

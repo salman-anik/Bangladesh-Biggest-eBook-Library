@@ -3,11 +3,18 @@
 [🏠 Home](../../../README.md) / [05_Authors_and_Scholars](../../README.md) / [Bangla Index](../README.md) / **তারাপদ রায়**
 
 > **📂 Google Drive Author Folder:** [Open in Drive](https://drive.google.com/drive/folders/1HpAEy40CtNwpT3cU5gQ8wPQG2IlZ-0uW)  
-> **Total Books in Library:** **3 books** across 1 genres/series
+> **Total Books in Library:** **6 books** across 2 genres/series
 
 ---
 
 ## 📚 Collections & Genres
+
+### 📂 বাংলা বর্ণমালা/তারাপদ রায় (3 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **কিশোর উপন্যাস সমগ্র** | তারাপদ রায় | — | PDF | 10.8 MB | [📖 Open Book](https://drive.google.com/file/d/1TQTTtU_889M7eeBnmnZvJMxAQbl_b5tQ/view) |
+| 2 | **মাতাল সমগ্র** | তারাপদ রায় | — | PDF | 82.5 MB | [📖 Open Book](https://drive.google.com/file/d/11UsiKVnn9WgWcG17QQVQBrKf8-EWSM4V/view) |
+| 3 | **সুরমা মেল** | তারাপদ রায় | — | PDF | 2.8 MB | [📖 Open Book](https://drive.google.com/file/d/1YyOJc90Gra9__Whei7gZ1qG-WTczsA7v/view) |
 
 ### 📂 গল্প ও ছোটগল্প (3 books)
 | # | Title | Author | Year | Format | Size | Google Drive |

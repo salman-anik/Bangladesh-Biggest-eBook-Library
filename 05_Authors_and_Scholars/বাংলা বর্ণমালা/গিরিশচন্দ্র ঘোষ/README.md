@@ -17,7 +17,7 @@
 | 3 | **গিরীশ রচনাবলী ৩** | গিরিশচন্দ্র ঘোষ | — | PDF | 29.1 MB | [📖 Open Book](https://drive.google.com/file/d/1qygNgeTkyJZF3sAYznyQF3QCBIyJHkyX/view) |
 | 4 | **গিরীশ রচনাবলী ৪** | গিরিশচন্দ্র ঘোষ | — | PDF | 22.8 MB | [📖 Open Book](https://drive.google.com/file/d/1Jge6HBUF1bTKKCq9UXPiHxoQJ8MTu5zp/view) |
 
-### 📂 কুরআন ও তাফসির (1 books)
+### 📂 Islamic_Books/কুরআন ও তাফসির (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **গিরিশচন্দ্র ঘোষ - সভ্যতার পাণ্ডা (১৮৯৪)** | গিরিশচন্দ্র ঘোষ | — | EPUB | 132 KB | [📖 Open Book](https://drive.google.com/file/d/1D3i3nfEv3zTrK5CYvBj8t-5AJsO0Krwa/view) |

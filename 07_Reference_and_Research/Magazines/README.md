@@ -258,15 +258,15 @@
 | 244 | **Dawatul Haq may 2011** | — | 2011 | PDF | 3.6 MB | [📖 Open Book](https://drive.google.com/file/d/1g1j9B6twvRrBr7AgyfCIDM191rPumuec/view) |
 | 245 | **mohilakantho December 2015, PDF Formet** | — | 2015 | PDF | 18.7 MB | [📖 Open Book](https://drive.google.com/file/d/1L0xvFz0BZlo447By9K0F_4J9VQwcH_F6/view) |
 | 246 | **oporajita - 1-80** | — | — | PDF | 20.5 MB | [📖 Open Book](https://drive.google.com/file/d/1lT42V2O_b_aQPuoHPsL8wMcAoeZshk0L/view) |
-| 247 | **মাসিক আল-আবরার** | দৃষ্টিভ্দি বা নজরীয়া তিনি প্রবর্তন | — | PDF | 159 KB | [📖 Open Book](https://drive.google.com/file/d/14ab9Knq_belhYOh324gDXTniWKrpMfAZ/view) |
-| 248 | **মাসিক আল-আবরার** | এর এক প্রবব্ধে লেখা হ”েছন্ত সু্ত’, | — | PDF | 142 KB | [📖 Open Book](https://drive.google.com/file/d/154QO4YMSDpy3kBERL9L-40yql6DSxKXG/view) |
-| 249 | **মাসিক আল-আবরার** | জীবনের উন্ডেশ্র জানা াকতে হবে। | — | PDF | 179 KB | [📖 Open Book](https://drive.google.com/file/d/15gFTUn4ljnQQDgogGzptPSyEBwPAWQNe/view) |
-| 250 | **মাসিক আল-আবরার** | বংশধরের প্রতি এবং মূসা, ঈসা ও | — | PDF | 174 KB | [📖 Open Book](https://drive.google.com/file/d/1CVglfKTnES1eWCUE9uf_mL90BV0MhBBU/view) |
-| 251 | **মাসিক আল-আবরার** | হিসেবে চিস্নিত হয়েছে। এরই | — | PDF | 121 KB | [📖 Open Book](https://drive.google.com/file/d/1EPQm8DfsE9N-2YrN9SOZheqUetcYVXfk/view) |
-| 252 | **মাসিক আল-আবরার** | অমুসলিমদের ধ্রান বা যোগ | — | PDF | 153 KB | [📖 Open Book](https://drive.google.com/file/d/1QhNgrTAMDzeQQ3dl0c82u-WxMMiUVSZC/view) |
-| 253 | **মাসিক আল-আবরার** | আয়েশা সিন্ডিকা (রা.) হাদীস্টলো | — | PDF | 146 KB | [📖 Open Book](https://drive.google.com/file/d/1bPUGjS3ryEzpbdU7qCpF6pWp9drEd5-I/view) |
-| 254 | **মাসিক আল-আবরার** | চেষ্টা করা হবে। | — | PDF | 465 KB | [📖 Open Book](https://drive.google.com/file/d/1sVaw_ImO91JDd_lJBH28N86prplZNJeC/view) |
-| 255 | **মাসিক আল-আবরার** | মনযুর নুপ্টমানী (রহ.) বলেন | — | PDF | 170 KB | [📖 Open Book](https://drive.google.com/file/d/1tYU0Ctwshs1mOsBBww6SbGb0PzXv48v_/view) |
+| 247 | **মাসিক আল-আবরার** | অমুসলিমদের ধ্রান বা যোগ | — | PDF | 153 KB | [📖 Open Book](https://drive.google.com/file/d/1QhNgrTAMDzeQQ3dl0c82u-WxMMiUVSZC/view) |
+| 248 | **মাসিক আল-আবরার** | আয়েশা সিন্ডিকা (রা.) হাদীস্টলো | — | PDF | 146 KB | [📖 Open Book](https://drive.google.com/file/d/1bPUGjS3ryEzpbdU7qCpF6pWp9drEd5-I/view) |
+| 249 | **মাসিক আল-আবরার** | এর এক প্রবব্ধে লেখা হ”েছন্ত সু্ত’, | — | PDF | 142 KB | [📖 Open Book](https://drive.google.com/file/d/154QO4YMSDpy3kBERL9L-40yql6DSxKXG/view) |
+| 250 | **মাসিক আল-আবরার** | চেষ্টা করা হবে। | — | PDF | 465 KB | [📖 Open Book](https://drive.google.com/file/d/1sVaw_ImO91JDd_lJBH28N86prplZNJeC/view) |
+| 251 | **মাসিক আল-আবরার** | জীবনের উন্ডেশ্র জানা াকতে হবে। | — | PDF | 179 KB | [📖 Open Book](https://drive.google.com/file/d/15gFTUn4ljnQQDgogGzptPSyEBwPAWQNe/view) |
+| 252 | **মাসিক আল-আবরার** | দৃষ্টিভ্দি বা নজরীয়া তিনি প্রবর্তন | — | PDF | 159 KB | [📖 Open Book](https://drive.google.com/file/d/14ab9Knq_belhYOh324gDXTniWKrpMfAZ/view) |
+| 253 | **মাসিক আল-আবরার** | বংশধরের প্রতি এবং মূসা, ঈসা ও | — | PDF | 174 KB | [📖 Open Book](https://drive.google.com/file/d/1CVglfKTnES1eWCUE9uf_mL90BV0MhBBU/view) |
+| 254 | **মাসিক আল-আবরার** | মনযুর নুপ্টমানী (রহ.) বলেন | — | PDF | 170 KB | [📖 Open Book](https://drive.google.com/file/d/1tYU0Ctwshs1mOsBBww6SbGb0PzXv48v_/view) |
+| 255 | **মাসিক আল-আবরার** | হিসেবে চিস্নিত হয়েছে। এরই | — | PDF | 121 KB | [📖 Open Book](https://drive.google.com/file/d/1EPQm8DfsE9N-2YrN9SOZheqUetcYVXfk/view) |
 | 256 | **মাসিক আল-আবরার - আলষ্মাহ পাকের কাছে নশ্বর এই দুনিয়া যদি** | — | — | PDF | 209 KB | [📖 Open Book](https://drive.google.com/file/d/1YS4nuv8CevI9hH3n6q6SiH7n-bRNygkb/view) |
 | 257 | **মাসিক আল-আবরার - একটি অক্ষর বা যের যবর পর্য্শদ্ম কেউ** | — | — | PDF | 127 KB | [📖 Open Book](https://drive.google.com/file/d/12DwDYvNyW95eybqz5k7N090TvpcT-PmZ/view) |
 | 258 | **মাসিক আল-আবরার - এবং বৈজ্ঞানিক ি উরি যোগ করে চালু** | Ebong Boijnanik I Uri Jog Kore Chalu | — | PDF | 159 KB | [📖 Open Book](https://drive.google.com/file/d/1Jm4pTxB1UHsOa0_WzG3JbkArBmKnZsmb/view) |

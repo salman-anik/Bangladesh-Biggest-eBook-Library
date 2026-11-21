@@ -19,7 +19,7 @@
 | 5 | **বিষাক্ত ভূখণ্ড** | স্যার আর্থার কোনান ডয়েল | 2026 | EPUB | 276 KB | [📖 Open Book](https://drive.google.com/file/d/12079LNb3-CvwLaEB0PdTclJxXffHV4fC/view) |
 | 6 | **হারানো পৃথিবী** | স্যার আর্থার কোনান ডয়েল | 2023 | EPUB | 674 KB | [📖 Open Book](https://drive.google.com/file/d/1eAPIHIMLxKPVyMKz0k0qnbIIKHlKEVx7/view) |
 
-### 📂 অন্যান্য (3 books)
+### 📂 Islamic_Books/অন্যান্য (3 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **ডিসইনটিগ্রেশন মেশিন** | স্যার আর্থার কোনান ডয়েল | 2016 | MOBI | 196 KB | [📖 Open Book](https://drive.google.com/file/d/1CeeRJAdVk_y77BnqeQdd-8YzIduVnR-c/view) |

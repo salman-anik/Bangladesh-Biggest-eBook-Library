@@ -9,7 +9,7 @@
 
 ## 📚 Collections & Genres
 
-### 📂 কুরআন ও তাফসির (2 books)
+### 📂 Islamic_Books/কুরআন ও তাফসির (2 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **হেমচন্দ্র বন্দ্যোপাধ্যায় - আশাকানন (১৮৭৬)** | হেমচন্দ্র বন্দ্যোপাধ্যায় | — | EPUB | 144 KB | [📖 Open Book](https://drive.google.com/file/d/1UbbdFCR93DLcOYHFcPmbPHFOervD5zRX/view) |

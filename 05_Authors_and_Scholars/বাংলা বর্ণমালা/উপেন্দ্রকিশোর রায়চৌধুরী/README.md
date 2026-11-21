@@ -3,7 +3,7 @@
 [🏠 Home](../../../README.md) / [05_Authors_and_Scholars](../../README.md) / [Bangla Index](../README.md) / **উপেন্দ্রকিশোর রায়চৌধুরী**
 
 > **📂 Google Drive Author Folder:** [Open in Drive](https://drive.google.com/drive/folders/1JT1N-0NNjUSQ4Sk25w0aPuFWUPxXOLbS)  
-> **Total Books in Library:** **10 books** across 3 genres/series
+> **Total Books in Library:** **11 books** across 4 genres/series
 
 ---
 
@@ -30,6 +30,11 @@
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **গুপি গাইন ও বাঘা বাইন** | উপেন্দ্রকিশোর রায়চৌধুরী | 2026 | EPUB | 1.8 MB | [📖 Open Book](https://drive.google.com/file/d/1p4AgwE8cZ65kpwBdnyNGBtQ4mW27_1Ro/view) |
+
+### 📂 বাংলা বর্ণমালা/উপেন্দ্রকিশোর রায়চৌধুরী (1 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **সাপ রাজপুত্র** | উপেন্দ্রকিশোর রায়চৌধুরী | — | PDF | 20.5 MB | [📖 Open Book](https://drive.google.com/file/d/1YOfV4UxrJhC0YqWfJpNDIaYCoihgVIEw/view) |
 
 ---
 [⬅️ Back to Bangla Index](../README.md) | [🏠 Back to Library Home](../../../README.md)

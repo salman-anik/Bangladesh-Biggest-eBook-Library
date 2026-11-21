@@ -20,7 +20,7 @@
 | 6 | **এসো নাহু শিখি** | আবু তাহের মিসবাহ | — | PDF | 5.5 MB | [📖 Open Book](https://drive.google.com/file/d/1ZL0nP-bUvjIxs29tKizzEMjc1zmm5ij1/view) |
 | 7 | **এসো বালাগাত শিখি** | আবু তাহের মিসবাহ | — | PDF | 10.3 MB | [📖 Open Book](https://drive.google.com/file/d/1hJmw4G0gdlKJKTjAqGfys-gGx-IoiVBi/view) |
 
-### 📂 ফিকহ (1 books)
+### 📂 Islamic_Books/ফিকহ (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **এসো ফিকাহ শিখি** | আবু তাহের মিসবাহ | — | PDF | 3.9 MB | [📖 Open Book](https://drive.google.com/file/d/1n2lFuevHtE-AAlkhcMUgrNmPfTVwNcS4/view) |

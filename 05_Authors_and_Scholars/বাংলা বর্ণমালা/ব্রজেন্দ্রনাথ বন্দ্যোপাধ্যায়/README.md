@@ -9,7 +9,7 @@
 
 ## 📚 Collections & Genres
 
-### 📂 কুরআন ও তাফসির (2 books)
+### 📂 Islamic_Books/কুরআন ও তাফসির (2 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **ব্রজেন্দ্রনাথ বন্দ্যোপাধ্যায় - বাঙ্গ্‌লার বেগম (১৯১২)** | ব্রজেন্দ্রনাথ বন্দ্যোপাধ্যায় | 1912 | EPUB | 9.0 MB | [📖 Open Book](https://drive.google.com/file/d/1byXgQOdpZs4DXWgWhzUPNhGg1TSAVoG3/view) |

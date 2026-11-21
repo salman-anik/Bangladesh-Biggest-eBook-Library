@@ -16,7 +16,7 @@
 | 2 | **আমাদের ইন্তিফাদা** | শাইখ আতিক উল্লাহ | — | PDF | 8.8 MB | [📖 Open Book](https://drive.google.com/file/d/1gmTGBi6PnIPPUZV04kMiAL4ZU4qTrEje/view) |
 | 3 | **থোকায় থোকায় জোনাক জ্বলে** | শাইখ আতিক উল্লাহ | — | PDF | 16.0 MB | [📖 Open Book](https://drive.google.com/file/d/1XYVdY0ijkdiUYTofYcVAYUlPzAIRcg85/view) |
 
-### 📂 কুরআন ও তাফসির (1 books)
+### 📂 Islamic_Books/কুরআন ও তাফসির (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **আই লাভ কুরআন** | শাইখ আতিক উল্লাহ | — | PDF | 49.1 MB | [📖 Open Book](https://drive.google.com/file/d/1VuMpIbgzBnxyDsgaG8NETppDNS7hWizW/view) |

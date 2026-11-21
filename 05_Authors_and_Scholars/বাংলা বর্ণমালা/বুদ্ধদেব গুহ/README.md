@@ -3,7 +3,7 @@
 [🏠 Home](../../../README.md) / [05_Authors_and_Scholars](../../README.md) / [Bangla Index](../README.md) / **বুদ্ধদেব গুহ**
 
 > **📂 Google Drive Author Folder:** [Open in Drive](https://drive.google.com/drive/folders/18-tS32lwfbJ7o3KgLKMams6Rkh4C0nsH)  
-> **Total Books in Library:** **115 books** across 5 genres/series
+> **Total Books in Library:** **122 books** across 6 genres/series
 
 ---
 
@@ -121,6 +121,17 @@
 | 107 | **হলুদ বসন্ত –বুদ্ধদেব গুহ** | বুদ্ধদেব গুহ | 2020 | EPUB | 408 KB | [📖 Open Book](https://drive.google.com/file/d/14I4fOkrw3wwxD7KqEz2VWJy6f1YoMEme/view) |
 | 108 | **হাজারদুয়ারি** | বুদ্ধদেব গুহ | 2023 | EPUB | 421 KB | [📖 Open Book](https://drive.google.com/file/d/1LBjMB4OZmcukimJE4-ncYUeNGeGxCMma/view) |
 
+### 📂 বাংলা বর্ণমালা/বুদ্ধদেব গুহ (7 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **Rijuda Samagra 01** | বুদ্ধদেব গুহ | — | PDF | 10.9 MB | [📖 Open Book](https://drive.google.com/file/d/1Wo4Ii1GWMpx2QYWdw6NdnkB6cdyiKFFj/view) |
+| 2 | **Rijuda Samagra 02** | বুদ্ধদেব গুহ | — | PDF | 6.8 MB | [📖 Open Book](https://drive.google.com/file/d/1L87fBwB2bEq_ylftU8H6fg_Wu0sm9qGv/view) |
+| 3 | **Rijuda Samagra 03** | বুদ্ধদেব গুহ | — | PDF | 35.1 MB | [📖 Open Book](https://drive.google.com/file/d/1_ZvLWB8BIT6wpGLE6m3lV1Di3KBoeP2s/view) |
+| 4 | **Rijuda Samagra 04** | বুদ্ধদেব গুহ | — | PDF | 7.9 MB | [📖 Open Book](https://drive.google.com/file/d/1-6zbXbj5JSvFAdS-H2XArgbwoB8ve6YV/view) |
+| 5 | **Rijuda Samagra 05** | বুদ্ধদেব গুহ | — | PDF | 18.8 MB | [📖 Open Book](https://drive.google.com/file/d/1LugB5LJyHUsvG4Uw4qJf7ixDNl59ahDY/view) |
+| 6 | **জংলীমহল** | বুদ্ধদেব গুহ | — | PDF | 18.6 MB | [📖 Open Book](https://drive.google.com/file/d/1GwYsb7oqOE-BrBAlkVfoUTfXOIjvaYIZ/view) |
+| 7 | **বাংরিপোসির দুরাত্তির** | বুদ্ধদেব গুহ | — | PDF | 4.2 MB | [📖 Open Book](https://drive.google.com/file/d/1pQrD87Z_69130gacaDu9x7j4hHbhA86k/view) |
+
 ### 📂 থ্রিলার, রহস্য ও গোয়েন্দা (3 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
@@ -134,15 +145,15 @@
 | 1 | **জংলিমহল** | বুদ্ধদেব গুহ | — | PDF | 18.6 MB | [📖 Open Book](https://drive.google.com/file/d/1IVvdLpx_noVY10ihB80YNxlSvhvGWtlQ/view) |
 | 2 | **শ্রেষ্ঠ গল্প** | বুদ্ধদেব গুহ | — | PDF | 25.8 MB | [📖 Open Book](https://drive.google.com/file/d/1sGWDUv_FJafeL6oDfvBU-bUf0gNEJfhK/view) |
 
-### 📂 শিশু-কিশোর সাহিত্য (1 books)
-| # | Title | Author | Year | Format | Size | Google Drive |
-|---:|---|---|:---:|:---:|---:|:---:|
-| 1 | **বনবিবির বনে** | বুদ্ধদেব গুহ | — | PDF | 1.7 MB | [📖 Open Book](https://drive.google.com/file/d/1X0tHtCXMPIpel861EcVDbtVZj7w3_iqB/view) |
-
 ### 📂 Journals (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **জঙ্গলের জার্নাল** | বুদ্ধদেব গুহ | — | PDF | 6.6 MB | [📖 Open Book](https://drive.google.com/file/d/1wYWiX9nvA_uW2B4N0LjyIcm7xVYD4Sx7/view) |
+
+### 📂 শিশু-কিশোর সাহিত্য (1 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **বনবিবির বনে** | বুদ্ধদেব গুহ | — | PDF | 1.7 MB | [📖 Open Book](https://drive.google.com/file/d/1X0tHtCXMPIpel861EcVDbtVZj7w3_iqB/view) |
 
 ---
 [⬅️ Back to Bangla Index](../README.md) | [🏠 Back to Library Home](../../../README.md)

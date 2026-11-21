@@ -9,7 +9,7 @@
 
 ## 📚 Collections & Genres
 
-### 📂 কুরআন ও তাফসির (5 books)
+### 📂 Islamic_Books/কুরআন ও তাফসির (5 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **দারসে কুরান ১ম খণ্ড** | অধ্যাপক আবদুল মতিন | — | PDF | 4.2 MB | [📖 Open Book](https://drive.google.com/file/d/16fo2Fr6SHeyDdVQ79oODJ8M51LUO0MeN/view) |

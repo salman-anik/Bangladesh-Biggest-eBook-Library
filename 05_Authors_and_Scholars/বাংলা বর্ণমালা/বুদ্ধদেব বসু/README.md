@@ -3,7 +3,7 @@
 [🏠 Home](../../../README.md) / [05_Authors_and_Scholars](../../README.md) / [Bangla Index](../README.md) / **বুদ্ধদেব বসু**
 
 > **📂 Google Drive Author Folder:** [Open in Drive](https://drive.google.com/drive/folders/1F_Wg-eWxep69YDqA2avpQz7vj4AzI7VS)  
-> **Total Books in Library:** **66 books** across 7 genres/series
+> **Total Books in Library:** **68 books** across 8 genres/series
 
 ---
 
@@ -83,10 +83,21 @@
 | 1 | **কবিতার শত্রু ও মিত্র** | বুদ্ধদেব বসু | 2026 | EPUB | 298 KB | [📖 Open Book](https://drive.google.com/file/d/15uTmYtORpl9iRMT0lOWqcRuA3j7GFhAh/view) |
 | 2 | **সাহিত্যচর্চা** | বুদ্ধদেব বসু | 2026 | EPUB | 517 KB | [📖 Open Book](https://drive.google.com/file/d/12RcuPdMxcPodzButyFCgerqVBfGaep88/view) |
 
+### 📂 বাংলা বর্ণমালা/বুদ্ধদেব বসু (2 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **কালিসাদের মেঘদূত** | বুদ্ধদেব বসু | — | PDF | 18.7 MB | [📖 Open Book](https://drive.google.com/file/d/1tGaZyBf7StF4b0RBYi19AMNhPK-7_cmn/view) |
+| 2 | **বারোমাসের ছড়া** | বুদ্ধদেব বসু | — | PDF | 4.1 MB | [📖 Open Book](https://drive.google.com/file/d/15Pbov2T29opq-uKMT03t9T8Idn1r1Trf/view) |
+
 ### 📂 জীবনী ও আত্মজীবনী (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **আমার ছেলেবেলা** | বুদ্ধদেব বসু | 2026 | EPUB | 636 KB | [📖 Open Book](https://drive.google.com/file/d/12pERZsXU0VtUn42HTXFtzzcNX1TZgO8n/view) |
+
+### 📂 ভ্রমণ (1 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **আমি চঞ্চল হে** | বুদ্ধদেব বসু | 2025 | EPUB | 234 KB | [📖 Open Book](https://drive.google.com/file/d/1hB7igjb98gX9v0xtzrr4aodqGQ1HGXeY/view) |
 
 ### 📂 শিশু-কিশোর সাহিত্য (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
@@ -97,11 +108,6 @@
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **প্রেম পত্র ও অন্যান্য গল্প** | বুদ্ধদেব বসু | 2026 | EPUB | 275 KB | [📖 Open Book](https://drive.google.com/file/d/1N6XZGarwrzCxSncM0pbwL-cPHqtDyNtR/view) |
-
-### 📂 ভ্রমণ (1 books)
-| # | Title | Author | Year | Format | Size | Google Drive |
-|---:|---|---|:---:|:---:|---:|:---:|
-| 1 | **আমি চঞ্চল হে** | বুদ্ধদেব বসু | 2025 | EPUB | 234 KB | [📖 Open Book](https://drive.google.com/file/d/1hB7igjb98gX9v0xtzrr4aodqGQ1HGXeY/view) |
 
 ---
 [⬅️ Back to Bangla Index](../README.md) | [🏠 Back to Library Home](../../../README.md)

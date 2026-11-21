@@ -30,14 +30,14 @@
 | 16 | **Class 7 Bangla Byakoron O Nirmiti Board Book** | এনসিটিবি | — | PDF | 33.9 MB | [📖 Open Book](https://drive.google.com/file/d/1p7r_Z1Ceg0mSaZr2_hYDn3dvI5ySknxY/view) |
 | 17 | **Class 7 Bangladesh and Global Studies (English Version) Board Book** | NCTB | — | PDF | 59.8 MB | [📖 Open Book](https://drive.google.com/file/d/1Kj8e_v9f_ZAxZv_yZpIbNTucPzNvR7NY/view) |
 | 18 | **Class 7 Bangladesh and Global Studies Board Book** | NCTB | — | PDF | 27.9 MB | [📖 Open Book](https://drive.google.com/file/d/1KGEYKIFJ4_P8mUmh36Strw6gigLvYfny/view) |
-| 19 | **Class 7 Buddhist Religion Studies (English Version) Board Book** | NCTB | — | PDF | 67.1 MB | [📖 Open Book](https://drive.google.com/file/d/1OIysUCGm4wNs6KPIPlhhpFo9zo2aJqDz/view) |
-| 20 | **Class 7 Buddhist Religion and Moral Education Board Book** | NCTB | — | PDF | 31.3 MB | [📖 Open Book](https://drive.google.com/file/d/1V-gogVR6lEdFTYaYFNvNALXTry7z7Tuj/view) |
-| 21 | **Class 7 Christian Religion Studies (English Version) Board Book** | NCTB | — | PDF | 51.5 MB | [📖 Open Book](https://drive.google.com/file/d/1y-eAUKQMBAaY1WmoJlLTsUsP2gr7YkIW/view) |
-| 22 | **Class 7 Christian Religion and Moral Education Board Book** | NCTB | — | PDF | 63.1 MB | [📖 Open Book](https://drive.google.com/file/d/1epp4onFfnVy9Z2OCGyPnyWBysUOSNF6U/view) |
+| 19 | **Class 7 Buddhist Religion and Moral Education Board Book** | NCTB | — | PDF | 31.3 MB | [📖 Open Book](https://drive.google.com/file/d/1V-gogVR6lEdFTYaYFNvNALXTry7z7Tuj/view) |
+| 20 | **Class 7 Buddhist Religion Studies (English Version) Board Book** | NCTB | — | PDF | 67.1 MB | [📖 Open Book](https://drive.google.com/file/d/1OIysUCGm4wNs6KPIPlhhpFo9zo2aJqDz/view) |
+| 21 | **Class 7 Christian Religion and Moral Education Board Book** | NCTB | — | PDF | 63.1 MB | [📖 Open Book](https://drive.google.com/file/d/1epp4onFfnVy9Z2OCGyPnyWBysUOSNF6U/view) |
+| 22 | **Class 7 Christian Religion Studies (English Version) Board Book** | NCTB | — | PDF | 51.5 MB | [📖 Open Book](https://drive.google.com/file/d/1y-eAUKQMBAaY1WmoJlLTsUsP2gr7YkIW/view) |
 | 23 | **Class 7 English For Today Board Book** | NCTB | — | PDF | 52.3 MB | [📖 Open Book](https://drive.google.com/file/d/1hTjALLxlT8qCIiT6-xLkFHFBCEcEfq_v/view) |
 | 24 | **Class 7 English Grammar and Composition Board Book** | NCTB | — | PDF | 44.1 MB | [📖 Open Book](https://drive.google.com/file/d/1p8ZWujly-9AKC3SsquEEcfUnJ1mhVBKu/view) |
-| 25 | **Class 7 Hindu Religion Studies (English Version) Board Book** | NCTB | — | PDF | 52.2 MB | [📖 Open Book](https://drive.google.com/file/d/11NKbsIf-2CT5RMvm39AznY6zvrGwjOYF/view) |
-| 26 | **Class 7 Hindu Religion and Moral Education Board Book** | NCTB | — | PDF | 45.9 MB | [📖 Open Book](https://drive.google.com/file/d/14doQ56XG7APYHAft8KQNUR3uruxdaCit/view) |
+| 25 | **Class 7 Hindu Religion and Moral Education Board Book** | NCTB | — | PDF | 45.9 MB | [📖 Open Book](https://drive.google.com/file/d/14doQ56XG7APYHAft8KQNUR3uruxdaCit/view) |
+| 26 | **Class 7 Hindu Religion Studies (English Version) Board Book** | NCTB | — | PDF | 52.2 MB | [📖 Open Book](https://drive.google.com/file/d/11NKbsIf-2CT5RMvm39AznY6zvrGwjOYF/view) |
 | 27 | **Class 7 Home Science (English Version) Board Book** | NCTB | — | PDF | 123.2 MB | [📖 Open Book](https://drive.google.com/file/d/1MlzYlMYLGrX2KhH0H9gLxBszxpwNWbhk/view) |
 | 28 | **Class 7 Home Science Board Book** | NCTB | — | PDF | 94.4 MB | [📖 Open Book](https://drive.google.com/file/d/1BTgK49SCObM21FATZewVdU7F83ST8NNY/view) |
 | 29 | **Class 7 Information and Communication Technology (English Version) Board Book** | NCTB | — | PDF | 38.2 MB | [📖 Open Book](https://drive.google.com/file/d/1Xxc9ZWV-j10S2151Rq7PyzkxyKwHXLiI/view) |

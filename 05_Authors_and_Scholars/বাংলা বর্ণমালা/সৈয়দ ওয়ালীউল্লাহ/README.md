@@ -3,11 +3,20 @@
 [🏠 Home](../../../README.md) / [05_Authors_and_Scholars](../../README.md) / [Bangla Index](../README.md) / **সৈয়দ ওয়ালীউল্লাহ**
 
 > **📂 Google Drive Author Folder:** [Open in Drive](https://drive.google.com/drive/folders/1PKzKmgWC3W42osOjIfjVCrc4TJbFsGN9)  
-> **Total Books in Library:** **4 books** across 1 genres/series
+> **Total Books in Library:** **9 books** across 2 genres/series
 
 ---
 
 ## 📚 Collections & Genres
+
+### 📂 বাংলা বর্ণমালা/সৈয়দ ওয়ালীউল্লাহ (5 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **Chader Amaboshay** | সৈয়দ ওয়ালীউল্লাহ | — | PDF | 3.3 MB | [📖 Open Book](https://drive.google.com/file/d/1GqG4NRrNgoAEnyXEuZcMYi0uMccYbx9N/view) |
+| 2 | **Golpo Somogro** | সৈয়দ ওয়ালীউল্লাহ | — | PDF | 16.8 MB | [📖 Open Book](https://drive.google.com/file/d/1nvozxnu5DRA-PAgN47SakEKI52BiPVqU/view) |
+| 3 | **Kado Nodi Kado** | সৈয়দ ওয়ালীউল্লাহ | — | PDF | 6.8 MB | [📖 Open Book](https://drive.google.com/file/d/18P7ag15rnVcsd9Z8V9UddPmFODCjkYY8/view) |
+| 4 | **Lalsalu** | সৈয়দ ওয়ালীউল্লাহ | — | PDF | 4.2 MB | [📖 Open Book](https://drive.google.com/file/d/19NqRPUWVAEY8xeR90JsGnbV4GTrrADcP/view) |
+| 5 | **Ujane Mrityu** | সৈয়দ ওয়ালীউল্লাহ | — | PDF | 774 KB | [📖 Open Book](https://drive.google.com/file/d/17uqYycwexafkMspla-5fctVAxdWn7EI_/view) |
 
 ### 📂 উপন্যাস (4 books)
 | # | Title | Author | Year | Format | Size | Google Drive |

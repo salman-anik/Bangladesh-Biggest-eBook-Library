@@ -423,7 +423,7 @@ def main() -> None:
     ]
     arch_roots = [
         "00_Library_Management", "01_Bangla_Books", "02_English_Books",
-        "03_Education_and_Textbooks", "04_Islamic_Books", "05_Authors_and_Scholars",
+        "03_Education_and_Textbooks", "04_Religion_Books", "05_Authors_and_Scholars",
         "06_Series_and_Collections", "07_Reference_and_Research", "08_Review_and_Unclassified",
     ]
     for ar in arch_roots:

@@ -9,7 +9,7 @@
 
 ## 📚 Collections & Genres
 
-### 📂 কুরআন ও তাফসির (3 books)
+### 📂 Islamic_Books/কুরআন ও তাফসির (3 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **সুভাষচন্দ্র বসু - তরুণের স্বপ্ন (১৯৩৮)** | সুভাষচন্দ্র বসু | 1938 | EPUB | 233 KB | [📖 Open Book](https://drive.google.com/file/d/1S7SNryZJb45i7VD5W5gxluADa7thPi7t/view) |

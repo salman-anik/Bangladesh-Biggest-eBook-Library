@@ -3,7 +3,7 @@
 [🏠 Home](../../../README.md) / [05_Authors_and_Scholars](../../README.md) / [Bangla Index](../README.md) / **ঈশ্বরচন্দ্র বিদ্যাসাগর**
 
 > **📂 Google Drive Author Folder:** [Open in Drive](https://drive.google.com/drive/folders/1YeN0z5I9TYCBZFd2D1rjlWzBYzA59Kko)  
-> **Total Books in Library:** **25 books** across 4 genres/series
+> **Total Books in Library:** **26 books** across 5 genres/series
 
 ---
 
@@ -33,22 +33,27 @@
 | 19 | **শকুন্তলা** | ঈশ্বরচন্দ্র বিদ্যাসাগর | — | PDF | 1.7 MB | [📖 Open Book](https://drive.google.com/file/d/14C6U4_bJcg7N1Eq-SC3BodARyuhYvdx7/view) |
 | 20 | **সীতার বনবাস** | ঈশ্বরচন্দ্র বিদ্যাসাগর | — | PDF | 4.3 MB | [📖 Open Book](https://drive.google.com/file/d/13HMBex9yh1RPVI0wVFPm33JxmD3yECX8/view) |
 
-### 📂 প্রবন্ধ (2 books)
-| # | Title | Author | Year | Format | Size | Google Drive |
-|---:|---|---|:---:|:---:|---:|:---:|
-| 1 | **বাঙ্গালার ইতিহাস** | ঈশ্বরচন্দ্র বিদ্যাসাগর | 2026 | EPUB | 136 KB | [📖 Open Book](https://drive.google.com/file/d/1IHkSfWmoiRjWIKJhkM9Gh4Pz4iCJCmYV/view) |
-| 2 | **বোধোদয়** | ঈশ্বরচন্দ্র বিদ্যাসাগর | — | PDF | 2.5 MB | [📖 Open Book](https://drive.google.com/file/d/1nMAdt7enrWW-LPCHQVU9w_y1O7vDD54w/view) |
-
 ### 📂 অন্যান্য (2 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **নিষ্‌কৃতিলাভপ্রয়াস** | ঈশ্বরচন্দ্র বিদ্যাসাগর | 2026 | EPUB | 483 KB | [📖 Open Book](https://drive.google.com/file/d/1TNhrfYuJObZBObYEqDBn_Mz_Xl9a1OLy/view) |
 | 2 | **বহুবিবাহ রহিত হওয়া উচিত কিনা এতদ্বিষয়ক বিচার** | ঈশ্বরচন্দ্র বিদ্যাসাগর | 2026 | EPUB | 115 KB | [📖 Open Book](https://drive.google.com/file/d/1cmAke1nM15Ma_8BgHbtF06hRR06Guflv/view) |
 
+### 📂 প্রবন্ধ (2 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **বাঙ্গালার ইতিহাস** | ঈশ্বরচন্দ্র বিদ্যাসাগর | 2026 | EPUB | 136 KB | [📖 Open Book](https://drive.google.com/file/d/1IHkSfWmoiRjWIKJhkM9Gh4Pz4iCJCmYV/view) |
+| 2 | **বোধোদয়** | ঈশ্বরচন্দ্র বিদ্যাসাগর | — | PDF | 2.5 MB | [📖 Open Book](https://drive.google.com/file/d/1nMAdt7enrWW-LPCHQVU9w_y1O7vDD54w/view) |
+
 ### 📂 গল্প ও ছোটগল্প (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **কথামালা** | ঈশ্বরচন্দ্র বিদ্যাসাগর | — | PDF | 3.8 MB | [📖 Open Book](https://drive.google.com/file/d/1HVO-0uZrPXIvYF1AU9rlzKv3oy6ETfn9/view) |
+
+### 📂 বাংলা বর্ণমালা/ঈশ্বরচন্দ্র বিদ্যাসাগর (1 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **ভ্রান্তিবিলাস ও শকুন্তলা** | ঈশ্বরচন্দ্র বিদ্যাসাগর | — | PDF | 3.7 MB | [📖 Open Book](https://drive.google.com/file/d/11DVlC3VuDbqe-3xi7ljRin0sPkACEcDE/view) |
 
 ---
 [⬅️ Back to Bangla Index](../README.md) | [🏠 Back to Library Home](../../../README.md)

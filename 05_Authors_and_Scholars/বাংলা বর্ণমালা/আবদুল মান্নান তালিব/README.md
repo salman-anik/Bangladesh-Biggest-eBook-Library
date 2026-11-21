@@ -9,14 +9,14 @@
 
 ## 📚 Collections & Genres
 
-### 📂 অন্যান্য (3 books)
+### 📂 Islamic_Books/অন্যান্য (3 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **কে রাজা** | আবদুল মান্নান তালিব | — | PDF | 10.8 MB | [📖 Open Book](https://drive.google.com/file/d/1C5FPN6-Zt30DcdIOZnrsgDt94DSDs8zQ/view) |
 | 2 | **বাংলাদেশে ইসলাম** | আবদুল মান্নান তালিব | — | PDF | 8.5 MB | [📖 Open Book](https://drive.google.com/file/d/1yDc9_UoGtH4toeQYUilJoTFUCTCFYDtO/view) |
 | 3 | **মানুষ এলো কোথায় থেকে** | আবদুল মান্নান তালিব | — | PDF | 7.3 MB | [📖 Open Book](https://drive.google.com/file/d/1Nq-M41Py3vqIYXoXS9uvBzSrOprY1WtM/view) |
 
-### 📂 কুরআন ও তাফসির (2 books)
+### 📂 Islamic_Books/কুরআন ও তাফসির (2 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **priyo nobir adorsho jibon** | আবদুল মান্নান তালিব | — | PDF | 1.3 MB | [📖 Open Book](https://drive.google.com/file/d/1iMKPOmu5GR5Y2M219x1tWBovaH6B76mT/view) |

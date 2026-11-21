@@ -3,11 +3,27 @@
 [🏠 Home](../../../README.md) / [05_Authors_and_Scholars](../../README.md) / [Bangla Index](../README.md) / **আহমদ ছফা**
 
 > **📂 Google Drive Author Folder:** [Open in Drive](https://drive.google.com/drive/folders/106a-Mx6c0bvI8HKpGHTC40jZrNSBAIrU)  
-> **Total Books in Library:** **27 books** across 6 genres/series
+> **Total Books in Library:** **40 books** across 8 genres/series
 
 ---
 
 ## 📚 Collections & Genres
+
+### 📂 বাংলা বর্ণমালা/আহমদ ছফা (12 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **Bangali Musolmaner Mon** | আহমদ ছফা | — | PDF | 11.0 MB | [📖 Open Book](https://drive.google.com/file/d/1hyPlcuhibB7JVLC6D-QZUh-oIV4I2ssT/view) |
+| 2 | **Buddhibrittir Natun Binyas** | আহমদ ছফা | — | PDF | 4.0 MB | [📖 Open Book](https://drive.google.com/file/d/1S1prcIMF4Z1z2qHm-m5F1TO-MXb5zIvf/view) |
+| 3 | **Gavi Bittanto** | আহমদ ছফা | — | PDF | 9.0 MB | [📖 Open Book](https://drive.google.com/file/d/1OkGIokjsr1M1Tl0Wkyxvw75PMIHoCfdS/view) |
+| 4 | **Harano Lekha** | আহমদ ছফা | — | PDF | 12.8 MB | [📖 Open Book](https://drive.google.com/file/d/18-fRIDWuT6v7RZk9X352fV2SvuzpGPoW/view) |
+| 5 | **Harano Lekha** | আহমদ ছফা | — | PDF | 12.8 MB | [📖 Open Book](https://drive.google.com/file/d/1tnbc2e3lzzRA-ABVunSbXm_xquOFK-79/view) |
+| 6 | **Joddopi Amar Guru** | আহমদ ছফা | — | PDF | 5.3 MB | [📖 Open Book](https://drive.google.com/file/d/1jRr7jkH4nuqN0WwEPp7FRbM-RpVHAarx/view) |
+| 7 | **Nihoto Nokkhotro** | আহমদ ছফা | — | PDF | 5.4 MB | [📖 Open Book](https://drive.google.com/file/d/1gbjc0v_tXt0AgIZCLNZHik5Gm6aKHzfY/view) |
+| 8 | **Onkar** | আহমদ ছফা | — | PDF | 337 KB | [📖 Open Book](https://drive.google.com/file/d/120LPi596y-axW83udHSSp4qgyaU28-xJ/view) |
+| 9 | **Ordhek Nari Ordhek Issori** | আহমদ ছফা | — | PDF | 4.6 MB | [📖 Open Book](https://drive.google.com/file/d/1Z2NMp-tGMUczj1XO8QY9O8AhBEu3LRH3/view) |
+| 10 | **Soto Borsher Ferrari Bankim Chandra Chattopadhyay** | আহমদ ছফা | — | PDF | 2.5 MB | [📖 Open Book](https://drive.google.com/file/d/1tBmeMr8w0r7VBKDx-Ol6g-afJ4ySA3PO/view) |
+| 11 | **Uttor Khondo** | আহমদ ছফা | — | PDF | 12.6 MB | [📖 Open Book](https://drive.google.com/file/d/1T8he6PZ0YIRz6b70RMRbDU323dWt77z2/view) |
+| 12 | **বাঙ্গালী মুসলমানের মন** | আহমদ ছফা | — | PDF | 11.0 MB | [📖 Open Book](https://drive.google.com/file/d/1NAsbnP-Xvb5fy5oEOcnp7nA6GW2NaBL0/view) |
 
 ### 📂 ইতিহাস (12 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
@@ -45,15 +61,20 @@
 | 1 | **উপন্যাসসমগ্র** | আহমদ ছফা | — | PDF | 31.5 MB | [📖 Open Book](https://drive.google.com/file/d/1MMoSNNxcukSkYV8vo7cVR2cc7_W3Y8a2/view) |
 | 2 | **সাম্প্রতিক বিবেচনা : বুদ্ধিবৃত্তির নতুন বিন্যাস** | আহমদ ছফা | — | PDF | 4.0 MB | [📖 Open Book](https://drive.google.com/file/d/1Hq0_xu5nidY7eOXoHDHYmy-4T7D4FUB_/view) |
 
-### 📂 কবিতা (1 books)
+### 📂 বাংলা বর্ণমালা/আহমদ ছফা/কবিতা (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
-| 1 | **কবিতা সমগ্র v1** | আহমদ ছফা | — | PDF | 86.1 MB | [📖 Open Book](https://drive.google.com/file/d/1R6X8mzv7Wx3VcmyC-V4GMZRotDpPCzsI/view) |
+| 1 | **Ahmed Chofar Srestho Kobita** | আহমদ ছফা | — | PDF | 10.5 MB | [📖 Open Book](https://drive.google.com/file/d/1HJ0eiBHrFr-rCWpyjAcKamTPNR40e0kH/view) |
 
 ### 📂 বিজ্ঞান ও প্রযুক্তি (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **ওঙ্কার** | আহমদ ছফা | — | PDF | 9.6 MB | [📖 Open Book](https://drive.google.com/file/d/1TeqnLlz2tpJdoGktF8kUajaregcZfvU1/view) |
+
+### 📂 কবিতা (1 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **কবিতা সমগ্র v1** | আহমদ ছফা | — | PDF | 86.1 MB | [📖 Open Book](https://drive.google.com/file/d/1R6X8mzv7Wx3VcmyC-V4GMZRotDpPCzsI/view) |
 
 ### 📂 জীবনী ও আত্মজীবনী (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |

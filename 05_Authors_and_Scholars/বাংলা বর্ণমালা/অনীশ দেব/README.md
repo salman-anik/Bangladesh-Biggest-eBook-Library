@@ -3,7 +3,7 @@
 [🏠 Home](../../../README.md) / [05_Authors_and_Scholars](../../README.md) / [Bangla Index](../README.md) / **অনীশ দেব**
 
 > **📂 Google Drive Author Folder:** [Open in Drive](https://drive.google.com/drive/folders/1hBZxNjWbNSjTJAzbVdhenQRjDecBRTiF)  
-> **Total Books in Library:** **15 books** across 2 genres/series
+> **Total Books in Library:** **18 books** across 4 genres/series
 
 ---
 
@@ -31,6 +31,17 @@
 | 5 | **বাড়িটায় কেউ যেয়ো না** | অনীশ দেব | 2023 | EPUB | 1.4 MB | [📖 Open Book](https://drive.google.com/file/d/1d2x_Zp-WEsLpVTjeQEHoQLgUb8dfH3Ly/view) |
 | 6 | **বারোটি রহস্য উপন্যাস** | অনীশ দেব | — | PDF | 2.4 MB | [📖 Open Book](https://drive.google.com/file/d/1cUoepMdu-V7gyY4R6ZI3ZjIfe99_ruSx/view) |
 | 7 | **ভূতনাথের ডায়েরি** | অনীশ দেব | 2023 | EPUB | 245 KB | [📖 Open Book](https://drive.google.com/file/d/1MDFbmnI6ULgOUf1EsVF0G0NidQAtMYYX/view) |
+
+### 📂 বাংলা বর্ণমালা/অনীশ দেব/উপন্যাস (2 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **শতবর্ষের সেরা রহস্য উপন্যাস** | অনীশ দেব | — | PDF | 18.6 MB | [📖 Open Book](https://drive.google.com/file/d/1gZwiVpA4QXGkzfqFTASDPAQR5DDTGzoa/view) |
+| 2 | **শতবর্ষের সেরা রহস্য উপন্যাস ০২** | অনীশ দেব | — | PDF | 19.1 MB | [📖 Open Book](https://drive.google.com/file/d/1xET58dMwVXBebor0PO-Y3TU4ErZ3DTCe/view) |
+
+### 📂 বাংলা বর্ণমালা/অনীশ দেব (1 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **বিশ্বের সেরা ভয়ঙ্কর ভূতের গল্প** | অনীশ দেব | — | PDF | 7.7 MB | [📖 Open Book](https://drive.google.com/file/d/1hJey2ixRrUBWDHC0l5FxGyNT30OrTgUr/view) |
 
 ---
 [⬅️ Back to Bangla Index](../README.md) | [🏠 Back to Library Home](../../../README.md)

@@ -20,7 +20,7 @@
 | 6 | **সোনার সিংহাসন** | অনিল ভৌমিক | 2023 | EPUB | 296 KB | [📖 Open Book](https://drive.google.com/file/d/1CzPKGFaYGX1KxyqYS49FF_SEWKYSS-za/view) |
 | 7 | **হীরক সিন্দুকের সন্ধানে** | অনিল ভৌমিক | 2023 | EPUB | 282 KB | [📖 Open Book](https://drive.google.com/file/d/1Q94aML3E_u6ZBWsKMVQ2dcD_TVklUCi0/view) |
 
-### 📂 অন্যান্য (1 books)
+### 📂 Islamic_Books/অন্যান্য (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **ফ্রান্সিস সমগ্র** | অনিল ভৌমিক | — | MOBI | 1.7 MB | [📖 Open Book](https://drive.google.com/file/d/1wEWDCrJjRAg6426dzHzA16yiV7cQV-wU/view) |

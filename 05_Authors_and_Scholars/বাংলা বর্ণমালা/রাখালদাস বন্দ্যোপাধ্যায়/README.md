@@ -3,13 +3,19 @@
 [🏠 Home](../../../README.md) / [05_Authors_and_Scholars](../../README.md) / [Bangla Index](../README.md) / **রাখালদাস বন্দ্যোপাধ্যায়**
 
 > **📂 Google Drive Author Folder:** [Open in Drive](https://drive.google.com/drive/folders/17HskIC22avgnYBCWnYLimNumBSG01UfH)  
-> **Total Books in Library:** **3 books** across 2 genres/series
+> **Total Books in Library:** **5 books** across 3 genres/series
 
 ---
 
 ## 📚 Collections & Genres
 
-### 📂 কুরআন ও তাফসির (2 books)
+### 📂 বাংলা বর্ণমালা/রাখালদাস বন্দ্যোপাধ্যায় (2 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **পল্লী-লক্ষ্মী** | রাখালদাস বন্দ্যোপাধ্যায় | — | PDF | 4.4 MB | [📖 Open Book](https://drive.google.com/file/d/1TGvJW4NHGyjxxluy0jkoWYBCz2Saip4p/view) |
+| 2 | **বাঙ্গালার ইতিহাস** | রাখালদাস বন্দ্যোপাধ্যায় | — | PDF | 17.6 MB | [📖 Open Book](https://drive.google.com/file/d/1wg-WZ3thMyQctlcetlIV1FwpW-2rIUwX/view) |
+
+### 📂 Islamic_Books/কুরআন ও তাফসির (2 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **রাখালদাস বন্দ্যোপাধ্যায় - পাষাণের কথা (১৯১৪)** | রাখালদাস বন্দ্যোপাধ্যায় | 1914 | EPUB | 278 KB | [📖 Open Book](https://drive.google.com/file/d/1xmI1-8W_75MT28_SuayJYZFLoLpnyv0l/view) |

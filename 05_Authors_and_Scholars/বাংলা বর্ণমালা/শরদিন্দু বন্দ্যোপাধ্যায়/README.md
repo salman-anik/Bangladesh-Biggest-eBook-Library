@@ -3,7 +3,7 @@
 [🏠 Home](../../../README.md) / [05_Authors_and_Scholars](../../README.md) / [Bangla Index](../README.md) / **শরদিন্দু বন্দ্যোপাধ্যায়**
 
 > **📂 Google Drive Author Folder:** [Open in Drive](https://drive.google.com/drive/folders/1Q0SRHzj9AjXBprk66FLWeerFAEycnQkT)  
-> **Total Books in Library:** **57 books** across 4 genres/series
+> **Total Books in Library:** **58 books** across 4 genres/series
 
 ---
 
@@ -70,12 +70,13 @@
 | 24 | **27 হেঁয়ালির ছন্দ** | শরদিন্দু বন্দ্যোপাধ্যায় | — | MOBI | 86 KB | [📖 Open Book](https://drive.google.com/file/d/1I3coNzoTgdkjnJAcYi8Xw8DSYWWGiRJb/view) |
 | 25 | **দুর্গরহস্য** | শরদিন্দু বন্দ্যোপাধ্যায় | 2023 | EPUB | 267 KB | [📖 Open Book](https://drive.google.com/file/d/1Mc77Xudsr4uFg7DzqoBoGTfQKn5oktr2/view) |
 
-### 📂 ব্যোমকেশ বক্সী সিরিজ (3 books)
+### 📂 ব্যোমকেশ বক্সী সিরিজ (4 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **10 ব্যোমকেশ ও বরদা** | শরদিন্দু বন্দ্যোপাধ্যায় | — | MOBI | 196 KB | [📖 Open Book](https://drive.google.com/file/d/1AFX-jFQc-CSEkLKjzZjqxo2eRVWGJyLX/view) |
 | 2 | **কহেন কবি কালিদাস (ব্যোমকেশ)** | শরদিন্দু বন্দ্যোপাধ্যায় | 2023 | EPUB | 231 KB | [📖 Open Book](https://drive.google.com/file/d/178LJqlW7RYvp00-14v6aUhH2Cg6Wdj23/view) |
 | 3 | **ব্যোমকেশ ও বরদা** | শরদিন্দু বন্দ্যোপাধ্যায় | 2023 | EPUB | 197 KB | [📖 Open Book](https://drive.google.com/file/d/1VXNS_Q3oBlxeVcalTu0rqgMFusHgLgpo/view) |
+| 4 | **ব্যোমকেশ সমগ্র ০১ খণ্ড** | শরদিন্দু বন্দ্যোপাধ্যায় | — | PDF | 38.8 MB | [📖 Open Book](https://drive.google.com/file/d/1zfaOl4zPP5B8uihjQT9kbgFKOxzshaFj/view) |
 
 ### 📂 গল্প ও ছোটগল্প (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |

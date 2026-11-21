@@ -3,7 +3,7 @@
 [🏠 Home](../../../README.md) / [05_Authors_and_Scholars](../../README.md) / [Bangla Index](../README.md) / **আশাপূর্ণা দেবী**
 
 > **📂 Google Drive Author Folder:** [Open in Drive](https://drive.google.com/drive/folders/1WwIh7U6fQmZO-1O4V50hu5rx-tZIPVVn)  
-> **Total Books in Library:** **54 books** across 2 genres/series
+> **Total Books in Library:** **95 books** across 3 genres/series
 
 ---
 
@@ -63,6 +63,51 @@
 | 49 | **সেরা ছয়টি উপন্যাস** | আশাপূর্ণা দেবী | — | PDF | 13.5 MB | [📖 Open Book](https://drive.google.com/file/d/1HbmBNvDpxM7CCG1lQVUe3JlTYlep2Dov/view) |
 | 50 | **স্বপ্ন, অথবা** | আশাপূর্ণা দেবী | — | PDF | 647 KB | [📖 Open Book](https://drive.google.com/file/d/1nDy0E4VtjM63WvHrnfgJG8nffsKn6y3N/view) |
 | 51 | **৫০টি প্রিয় গল্প** | আশাপূর্ণা দেবী | — | PDF | 17.4 MB | [📖 Open Book](https://drive.google.com/file/d/1Lw6XuDxGP2WkUClWkjalNZyt4KDrB2dH/view) |
+
+### 📂 বাংলা বর্ণমালা/আশাপূর্ণা দেবী (41 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **50 Priyo Golpo** | আশাপূর্ণা দেবী | — | PDF | 17.0 MB | [📖 Open Book](https://drive.google.com/file/d/1nCbRoHGNfUg2D3sBHIOvUDWvHfxPrG6I/view) |
+| 2 | **Aaar Ek Jhor** | আশাপূর্ণা দেবী | — | PDF | 5.1 MB | [📖 Open Book](https://drive.google.com/file/d/1CnkQGhC1Rrl19pF7LzjqYDx49fIhDvf6/view) |
+| 3 | **Agniparikha** | আশাপূর্ণা দেবী | — | PDF | 5.0 MB | [📖 Open Book](https://drive.google.com/file/d/1miBz87z0ujyPGuR37Ui4gUMFsByQecyD/view) |
+| 4 | **Aphuranta** | আশাপূর্ণা দেবী | — | PDF | 6.2 MB | [📖 Open Book](https://drive.google.com/file/d/1CUNx03auM5AlftpsZzDjTFSta_JyTa3Z/view) |
+| 5 | **Astitwa** | আশাপূর্ণা দেবী | — | PDF | 4.6 MB | [📖 Open Book](https://drive.google.com/file/d/1Kg10v-roBqDsREV4zlKuxy19Ba7lGTrl/view) |
+| 6 | **Biragi Pakhi** | আশাপূর্ণা দেবী | — | PDF | 2.9 MB | [📖 Open Book](https://drive.google.com/file/d/1Yle6pW4q1gCV2xOIx2-zQmhqwm-EvK2x/view) |
+| 7 | **Bokul Khotha** | আশাপূর্ণা দেবী | — | PDF | 10.1 MB | [📖 Open Book](https://drive.google.com/file/d/1NsyMFTEpoY3gVBDAhyygs7E_n-u9K4m7/view) |
+| 8 | **Bolber Moto Noi** | আশাপূর্ণা দেবী | — | PDF | 2.9 MB | [📖 Open Book](https://drive.google.com/file/d/1V8A1u9jXaxXLFRexL94DnwO6Uo_BqLak/view) |
+| 9 | **Dui Nayaka** | আশাপূর্ণা দেবী | — | PDF | 2.4 MB | [📖 Open Book](https://drive.google.com/file/d/1YjQ8KfD3dY5G1Si6dUpZjZBfX7F70GAd/view) |
+| 10 | **Ekhane Okhane Shakhane** | আশাপূর্ণা দেবী | — | PDF | 5.3 MB | [📖 Open Book](https://drive.google.com/file/d/1z4Y7Kks6HYrv9hW6wLWhBury_aBo66h3/view) |
+| 11 | **Gojo Ukiler Hatya Rohosyo** | আশাপূর্ণা দেবী | — | PDF | 13.9 MB | [📖 Open Book](https://drive.google.com/file/d/14HDizkFnYh-Dw9MdaCyWWxsjq9tL4O-3/view) |
+| 12 | **Golpo Samagro** | আশাপূর্ণা দেবী | — | PDF | 11.7 MB | [📖 Open Book](https://drive.google.com/file/d/1cn6oErzk0CeZq_xcOwCq0jsM46ZAeC6m/view) |
+| 13 | **Juganter Jobonika Pare** | আশাপূর্ণা দেবী | — | PDF | 5.7 MB | [📖 Open Book](https://drive.google.com/file/d/15k1eCFbi77iJlcjubTgsJ4RchT3zpunr/view) |
+| 14 | **Jugol Rotno Tiktiki Office** | আশাপূর্ণা দেবী | — | PDF | 1.5 MB | [📖 Open Book](https://drive.google.com/file/d/1ZjqcXf1DWkIGYDMQZDXZ3-ar78a_m0WC/view) |
+| 15 | **Kalyani** | আশাপূর্ণা দেবী | — | PDF | 8.2 MB | [📖 Open Book](https://drive.google.com/file/d/1Q_D6zIHl6Nj9KawYpj_UFQAqpEwR90M0/view) |
+| 16 | **Kanak Dwip** | আশাপূর্ণা দেবী | — | PDF | 4.0 MB | [📖 Open Book](https://drive.google.com/file/d/1ufggT0P5BewnxyjrI--rSKI9mLFu-63U/view) |
+| 17 | **Kokhono Kache Kokhono Dure** | আশাপূর্ণা দেবী | — | PDF | 6.1 MB | [📖 Open Book](https://drive.google.com/file/d/1avs0y77s7OWC9gCx-tNQf5s7n_YjU9EB/view) |
+| 18 | **Kumirer Ha** | আশাপূর্ণা দেবী | — | PDF | 2.1 MB | [📖 Open Book](https://drive.google.com/file/d/1cFMiT7RzfKoaw77DU0ZL5s_zIPQZdO08/view) |
+| 19 | **Mohini Maya** | আশাপূর্ণা দেবী | — | PDF | 2.6 MB | [📖 Open Book](https://drive.google.com/file/d/16Q0UAySZDwdTQmLq7bzJH9Ybydcw5W9K/view) |
+| 20 | **Nabajanma** | আশাপূর্ণা দেবী | — | PDF | 4.9 MB | [📖 Open Book](https://drive.google.com/file/d/1wO8g3deGw4oyF5XGB8PyHLfmC8QZY_jK/view) |
+| 21 | **Nije Bujhe Nin** | আশাপূর্ণা দেবী | — | PDF | 7.8 MB | [📖 Open Book](https://drive.google.com/file/d/1f6p5zG1THN9vchcGytP1CXIgO44cJEe-/view) |
+| 22 | **Notun Prohoson** | আশাপূর্ণা দেবী | — | PDF | 1.9 MB | [📖 Open Book](https://drive.google.com/file/d/1IBIvrhK5mkVspxJs0YN1Tk6QNR-Kf7WI/view) |
+| 23 | **Path Janahin** | আশাপূর্ণা দেবী | — | PDF | 6.2 MB | [📖 Open Book](https://drive.google.com/file/d/1aiVl4NXfvykFB9vbmMwUXouBr40uQuRB/view) |
+| 24 | **Paysa Diye Kena** | আশাপূর্ণা দেবী | — | PDF | 2.8 MB | [📖 Open Book](https://drive.google.com/file/d/1opT_YQu4M0xU5H-PdXifMak5nDMow5nK/view) |
+| 25 | **Pratham Pratisruti** | আশাপূর্ণা দেবী | — | PDF | 21.4 MB | [📖 Open Book](https://drive.google.com/file/d/13u7EMxXnWvKOghmezm1DwyzL0LBiYZAb/view) |
+| 26 | **Pratikshar Bagan** | আশাপূর্ণা দেবী | — | PDF | 6.1 MB | [📖 Open Book](https://drive.google.com/file/d/1p-SwpszSPfpENO6wuUPhEaXwrMHcn5MS/view) |
+| 27 | **Prem O Prayojan** | আশাপূর্ণা দেবী | — | PDF | 3.4 MB | [📖 Open Book](https://drive.google.com/file/d/1utyT4iyoj6OKIR4u3GFfZEX2mGW7CFJr/view) |
+| 28 | **Priyo Golpo** | আশাপূর্ণা দেবী | — | PDF | 9.1 MB | [📖 Open Book](https://drive.google.com/file/d/1EUmmCPuRSUKe4_T4yVMhhmwQCvkFNy59/view) |
+| 29 | **Rajkumarer Poshakay** | আশাপূর্ণা দেবী | — | PDF | 5.3 MB | [📖 Open Book](https://drive.google.com/file/d/12fnQhL2pMEGB__6YrCTsgU0e78kB5icf/view) |
+| 30 | **Rochonaboli 01** | আশাপূর্ণা দেবী | — | PDF | 19.2 MB | [📖 Open Book](https://drive.google.com/file/d/17-ywIMwNgJMPhIP7oMvK6siD-YaZsZPh/view) |
+| 31 | **Rochonaboli 05** | আশাপূর্ণা দেবী | — | PDF | 14.5 MB | [📖 Open Book](https://drive.google.com/file/d/17su-5-jCCONdp-5GC8NcanSzd-rNtpSG/view) |
+| 32 | **Sat Hasir Galpo** | আশাপূর্ণা দেবী | — | PDF | 4.3 MB | [📖 Open Book](https://drive.google.com/file/d/19F1nueADVbPd4jmogImEtAJe_QmzeMGe/view) |
+| 33 | **Sera 6 Uponash** | আশাপূর্ণা দেবী | — | PDF | 9.4 MB | [📖 Open Book](https://drive.google.com/file/d/1fEdxqgv5r2H1iT3PnsSqXwL8eLQL0IYx/view) |
+| 34 | **Shaday Kaloy Naksha** | আশাপূর্ণা দেবী | — | PDF | 4.0 MB | [📖 Open Book](https://drive.google.com/file/d/1-qgE3EmYhoP8xfkls_bSvE0xvKkrost4/view) |
+| 35 | **Shudhu Tara Dujon** | আশাপূর্ণা দেবী | — | PDF | 1.9 MB | [📖 Open Book](https://drive.google.com/file/d/1o98NGZ5Ds_IvhXZn4LiTybaA54pVzZCK/view) |
+| 36 | **SUBARNALATA** | আশাপূর্ণা দেবী | — | PDF | 16.0 MB | [📖 Open Book](https://drive.google.com/file/d/1fBadpSMN0dp0U41JGrurJPBMi8ZGibg-/view) |
+| 37 | **Tarangahin** | আশাপূর্ণা দেবী | — | PDF | 4.2 MB | [📖 Open Book](https://drive.google.com/file/d/1qcNTrsSZjrF3nOHQxPFisAPSAJgQVPeB/view) |
+| 38 | **Tin Bhubaner Kahinee** | আশাপূর্ণা দেবী | — | PDF | 5.8 MB | [📖 Open Book](https://drive.google.com/file/d/1_lE8xtZPp9fMDeXa-AfiNv7fsQEN5gjL/view) |
+| 39 | **Totodhik** | আশাপূর্ণা দেবী | — | PDF | 2.0 MB | [📖 Open Book](https://drive.google.com/file/d/17TKPfmMIlauQ6ftEO_lgni_zdJJ6wtLV/view) |
+| 40 | **Uttar Purush** | আশাপূর্ণা দেবী | — | PDF | 4.0 MB | [📖 Open Book](https://drive.google.com/file/d/1nYsRvDI_45pRpI6VmgEWfq0JPNvhDt41/view) |
+| 41 | **কিশোর অমনিবাস** | আশাপূর্ণা দেবী | — | PDF | 7.0 MB | [📖 Open Book](https://drive.google.com/file/d/1Zy-jSa9XfQ7uKyKyyd7_LASOtsMgj292/view) |
 
 ### 📂 গল্প ও ছোটগল্প (3 books)
 | # | Title | Author | Year | Format | Size | Google Drive |

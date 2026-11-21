@@ -9,18 +9,18 @@
 
 ## 📚 Collections & Genres
 
-### 📂 অন্যান্য (2 books)
+### 📂 Islamic_Books/অন্যান্য (2 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **ইসলামী আইন** | সাইয়েদ আবুল আলা মওদুদী | — | PDF | 8.8 MB | [📖 Open Book](https://drive.google.com/file/d/1qvmB5cCL6bmkkWrvgi8ipdrrLgmz2t9Q/view) |
 | 2 | **পর্দা ও ইসলাম** | সাইয়েদ আবুল আলা মওদুদী | — | PDF | 7.0 MB | [📖 Open Book](https://drive.google.com/file/d/1WZdRxFoYbr4Zr82n15YPcIyy9w53gAOL/view) |
 
-### 📂 ফিকহ (1 books)
+### 📂 Islamic_Books/ফিকহ (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **ইসলামী অর্থনীতি** | সাইয়েদ আবুল আলা মওদুদী | — | PDF | 9.1 MB | [📖 Open Book](https://drive.google.com/file/d/1IZrZI2mwn4O2fIbaM65o_iKYVjEsrcys/view) |
 
-### 📂 সীরাত (1 books)
+### 📂 Islamic_Books/সীরাত (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **সীরাতে সরওয়ারে আলম ৫ম খণ্ড** | সাইয়েদ আবুল আলা মওদুদী | — | PDF | 8.7 MB | [📖 Open Book](https://drive.google.com/file/d/1YgcULjz9VIdLkBiGHMvvtrvP3x65qavC/view) |

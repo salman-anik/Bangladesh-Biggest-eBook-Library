@@ -22,7 +22,7 @@
 | 1 | **অলাতচক্র** | তারাদাস বন্দ্যোপাধ্যায় | — | PDF | 2.4 MB | [📖 Open Book](https://drive.google.com/file/d/1A6doFmOsRLejHKQCsTVbRY0pSMnC2bPm/view) |
 | 2 | **তারানাথ তান্ত্রিক** | তারাদাস বন্দ্যোপাধ্যায় | 2023 | EPUB | 373 KB | [📖 Open Book](https://drive.google.com/file/d/1kM-ZGra-NNXsFl9g7ddqLyI3Tdis4zh3/view) |
 
-### 📂 অন্যান্য (2 books)
+### 📂 Islamic_Books/অন্যান্য (2 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **অলাতচক্র** | তারাদাস বন্দ্যোপাধ্যায় | — | MOBI | 815 KB | [📖 Open Book](https://drive.google.com/file/d/1pUDeJPuEL9ZYovhhXc9Tm8SrOm3pyAFs/view) |

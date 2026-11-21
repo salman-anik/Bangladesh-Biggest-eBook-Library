@@ -9,7 +9,7 @@
 
 ## 📚 Collections & Genres
 
-### 📂 অন্যান্য (3 books)
+### 📂 Islamic_Books/অন্যান্য (3 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **আবার তারানাথ** | ত্রিজিৎ কর | — | MOBI | 145 KB | [📖 Open Book](https://drive.google.com/file/d/1BFx_JWM78rpzOZDPEJzTqAgSa7DTJOct/view) |

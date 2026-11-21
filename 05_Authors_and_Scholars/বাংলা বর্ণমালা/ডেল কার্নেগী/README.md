@@ -9,7 +9,7 @@
 
 ## 📚 Collections & Genres
 
-### 📂 অন্যান্য (5 books)
+### 📂 Islamic_Books/অন্যান্য (5 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **দুশ্চিন্তামুক্ত নতুন জীবন** | ডেল কার্নেগী | 2020 | MOBI | 559 KB | [📖 Open Book](https://drive.google.com/file/d/1C2l-ST0-GTtKrl1Ns91kBsXjVQgi_mDo/view) |

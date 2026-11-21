@@ -9,13 +9,13 @@
 
 ## 📚 Collections & Genres
 
-### 📂 ফিকহ (2 books)
+### 📂 Islamic_Books/ফিকহ (2 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **ইসলামী ফিকাহ** | শায়খ মুহাম্মদ ইব্রাহীম আত-তুয়াইজিরী | — | PDF | 12.9 MB | [📖 Open Book](https://drive.google.com/file/d/1T9hdqXTW9rPIVwQiXoQiLrswGZaKYRgr/view) |
 | 2 | **ইসলামী ফিকাহ ২** | শায়খ মুহাম্মদ ইব্রাহীম আত-তুয়াইজিরী | — | PDF | 10.0 MB | [📖 Open Book](https://drive.google.com/file/d/1Id1KBZaLkc__0XmrOxvhNxo4Zhc4JUHs/view) |
 
-### 📂 অন্যান্য (1 books)
+### 📂 Islamic_Books/অন্যান্য (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **ইসলামী ফিকাহ প্রথম খণ্ড 01** | শায়খ মুহাম্মদ ইব্রাহীম আত-তুয়াইজিরী | — | PDF | 11.3 MB | [📖 Open Book](https://drive.google.com/file/d/1RBwiYQhRWYnumieAmSfc3NW3j4y82PTA/view) |

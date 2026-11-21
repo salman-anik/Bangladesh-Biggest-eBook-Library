@@ -9,20 +9,20 @@
 
 ## 📚 Collections & Genres
 
-### 📂 কুরআন ও তাফসির (1 books)
+### 📂 Islamic_Books/কুরআন ও তাফসির (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **তাসফিয়াহ ও তারবিয়াহ- আলবানী** | আলবানী | — | PDF | 728 KB | [📖 Open Book](https://drive.google.com/file/d/1t2rWvvgQ-MCwbwAG1cdEfJxW3iKdRrOr/view) |
 
-### 📂 হাদিস (1 books)
-| # | Title | Author | Year | Format | Size | Google Drive |
-|---:|---|---|:---:|:---:|---:|:---:|
-| 1 | **সহীহ হাদীসের পরিচয় ও হাদীস গ্রহণের মূলনীতি- আলবানী** | আলবানী | — | PDF | 3.3 MB | [📖 Open Book](https://drive.google.com/file/d/1wGl5H0W-FRHnu9YP2aYpberugjbaiDTA/view) |
-
-### 📂 অন্যান্য (1 books)
+### 📂 Islamic_Books/অন্যান্য (1 books)
 | # | Title | Author | Year | Format | Size | Google Drive |
 |---:|---|---|:---:|:---:|---:|:---:|
 | 1 | **ফিতনাতুত তাকফির- আলবানী** | আলবানী | — | PDF | 1.7 MB | [📖 Open Book](https://drive.google.com/file/d/1w_jPGks6SPCydY4ExhDqnF-LOuFjgvEY/view) |
+
+### 📂 Islamic_Books/হাদিস (1 books)
+| # | Title | Author | Year | Format | Size | Google Drive |
+|---:|---|---|:---:|:---:|---:|:---:|
+| 1 | **সহীহ হাদীসের পরিচয় ও হাদীস গ্রহণের মূলনীতি- আলবানী** | আলবানী | — | PDF | 3.3 MB | [📖 Open Book](https://drive.google.com/file/d/1wGl5H0W-FRHnu9YP2aYpberugjbaiDTA/view) |
 
 ---
 [⬅️ Back to Bangla Index](../README.md) | [🏠 Back to Library Home](../../../README.md)
