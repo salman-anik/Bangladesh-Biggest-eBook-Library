@@ -1,5 +1,5 @@
 {
-  "verified_at": "2026-11-20T19:51:20Z",
+  "verified_at": "2026-11-21T03:28:19Z",
   "qc_passed": true,
   "live_catalog_books": 12060,
   "live_catalog_bytes": 175681747188,
@@ -23,7 +23,7 @@
   "missing_books_count": 0,
   "missing_book_ids": [],
   "wrong_path_books_count": 0,
-  "total_shortcuts": 4289,
+  "total_shortcuts": 4272,
   "broken_shortcuts_count": 0,
   "quoted_active_folders_count": 0,
   "active_duplicate_md5_groups": 0,
