@@ -1,6 +1,6 @@
 # Bangladesh's Biggest eBook Library (বাংলাদেশের বৃহত্তম ই-বুক লাইব্রেরি)
 
-[Google Drive Library](https://drive.google.com/drive/folders/1fMsplDtUnpUhnNBJGKvYQ1sdZx0QVJWq) | [Master Catalog CSV](catalog/master_catalog.csv) | [Master Catalog JSON](catalog/master_catalog.json) | [Authors (2,994)](catalog/AUTHOR_INDEX.md) | [Categories (53)](catalog/CATEGORY_INDEX.md) | [Series (26)](catalog/SERIES_INDEX.md) | [Sources & Licenses](catalog/SOURCES_AND_LICENSES.md)
+[Google Drive Library](https://drive.google.com/drive/folders/1fMsplDtUnpUhnNBJGKvYQ1sdZx0QVJWq) | [📊 Master Navigator Spreadsheet (Excel)](https://drive.google.com/file/d/1PBHQfSIQvGCYinQkk6XvtjuGgixbHWbM/view) | [Master Spreadsheet (CSV)](catalog/Bangladesh_eBook_Library_Master_Navigator.csv) | [Master Catalog CSV](catalog/master_catalog.csv) | [Master Catalog JSON](catalog/master_catalog.json) | [Authors (2,900)](catalog/AUTHOR_INDEX.md) | [Categories (53)](catalog/CATEGORY_INDEX.md) | [Series (26)](catalog/SERIES_INDEX.md) | [Sources & Licenses](catalog/SOURCES_AND_LICENSES.md)
 
 **12,060 verified unique eBooks** (**175.68 GB**) professionally organized in Bangla and English across **9 clean top-level Drive folders**, with **4,289 Author & Series shortcuts** (zero duplicate physical copies).
 
