@@ -1,0 +1,264 @@
+{
+  "title": "Bangladesh Biggest eBook Library — Author Architecture Deduplication Dry-Run Plan",
+  "generated_at": "2026-11-21T08:24:00Z",
+  "statistics": {
+    "total_folders_scanned": 310,
+    "year_based_folders_to_merge": 27,
+    "year_books_shortcuts_moved": 209,
+    "volume_folders_to_dissolve": 17,
+    "volume_books_reassigned": 74,
+    "numbered_duplicate_folders_to_merge": 12,
+    "numbered_duplicate_books_consolidated": 57,
+    "uncertain_folders_to_review": 10,
+    "uncertain_books_count": 90,
+    "empty_folders_to_trash_after_merge": 56
+  },
+  "humayun_ahmed_plan": {
+    "canonical_folder": "05_Authors_and_Scholars/বাংলা বর্ণমালা/হুমায়ূন আহমেদ",
+    "canonical_folder_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+    "total_books_before_merge": 11,
+    "year_fragmented_folders": [
+      "হুমায়ূন আহমেদ [১৯৮৬]",
+      "হুমায়ূন আহমেদ [১৯৮৮]",
+      "হুমায়ূন আহমেদ [১৯৮৯]",
+      "হুমায়ূন আহমেদ [১৯৯০]",
+      "হুমায়ূন আহমেদ [১৯৯১]",
+      "হুমায়ূন আহমেদ [১৯৯২]",
+      "হুমায়ূন আহমেদ [১৯৯৩]",
+      "হুমায়ূন আহমেদ [১৯৯৪]",
+      "হুমায়ূন আহমেদ [১৯৯৫]",
+      "হুমায়ূন আহমেদ [১৯৯৬]",
+      "হুমায়ূন আহমেদ [১৯৯৭]",
+      "হুমায়ূন আহমেদ [১৯৯৮]",
+      "হুমায়ূন আহমেদ [১৯৯৯]",
+      "হুমায়ূন আহমেদ [২০০০]",
+      "হুমায়ূন আহমেদ [২০০১]",
+      "হুমায়ূন আহমেদ [২০০২]",
+      "হুমায়ূন আহমেদ [২০০৩]",
+      "হুমায়ূন আহমেদ [২০০৫]",
+      "হুমায়ূন আহমেদ [২০০৬]",
+      "হুমায়ূন আহমেদ [২০০৭]",
+      "হুমায়ূন আহমেদ [২০০৮]",
+      "হুমায়ূন আহমেদ [২০০৯]",
+      "হুমায়ূন আহমেদ [২০১০]",
+      "হুমায়ূন আহমেদ [২০১১]",
+      "হুমায়ূন আহমেদ [২০১২]"
+    ],
+    "shortcuts_to_move": 189,
+    "target_subfolder_distribution": {
+      "উপন্যাস": 141,
+      "হিমু সিরিজ": 19,
+      "মিসির আলি সিরিজ": 7,
+      "শুভ্র সিরিজ": 5,
+      "নাটক": 4,
+      "প্রবন্ধ": 7,
+      "গল্প": 5,
+      "শিশু-কিশোর সাহিত্য": 1
+    }
+  },
+  "numbered_duplicates_plan": [
+    {
+      "canonical_author": "কাজী নজরুল ইসলাম",
+      "canonical_id": "1QtCP6RCqau0nkEHnuZ84_iZ841yK4uM7",
+      "duplicate_folders": [
+        {
+          "name": "কাজী নজরুল ইসলাম (1)",
+          "id": "1hoqL-3DfPEviaU5GShmktQKi8KWYjKPV",
+          "item_count": 5
+        },
+        {
+          "name": "কাজী নজরুল ইসলাম (2)",
+          "id": "1WbLeHKMSkjbJXawSUinSjzf2UQm_dqyh",
+          "item_count": 3
+        }
+      ]
+    },
+    {
+      "canonical_author": "আশাপূর্ণা দেবী",
+      "canonical_id": "1WwIh7U6fQmZO-1O4V50hu5rx-tZIPVVn",
+      "duplicate_folders": [
+        {
+          "name": "আশাপূর্ণা দেবী (1)",
+          "id": "1BvHzQupkJTsWUepUptO0tVpHzjxPcaaB",
+          "item_count": 4
+        }
+      ]
+    },
+    {
+      "canonical_author": "বঙ্কিমচন্দ্র চট্টোপাধ্যায়",
+      "canonical_id": "12jk5DqM84vwFf61fNz85Pg0QFjbVns8L",
+      "duplicate_folders": [
+        {
+          "name": "বঙ্কিমচন্দ্র চট্টোপাধ্যায় (v1)",
+          "id": "1JWNHgd26QdRpriZNzSEZOqf4XYuZ72aa",
+          "item_count": 8
+        }
+      ]
+    },
+    {
+      "canonical_author": "বিভূতিভূষণ বন্দ্যোপাধ্যায়",
+      "canonical_id": "1PmIVrj58wUFF5gKYks1BTyWWt3XvMIff",
+      "duplicate_folders": [
+        {
+          "name": "বিভূতিভূষণ বন্দ্যোপাধ্যায় (2)",
+          "id": "1EIzrPzNqVHDfr4VcmAn1Lo0Mj6gA2jSH",
+          "item_count": 6
+        }
+      ]
+    },
+    {
+      "canonical_author": "বুদ্ধদেব গুহ",
+      "canonical_id": "18-tS32lwfbJ7o3KgLKMams6Rkh4C0nsH",
+      "duplicate_folders": [
+        {
+          "name": "বুদ্ধদেব গুহ (1)",
+          "id": "14jo-GhJbSHoddOXPTNHc2X99kpo_oDtQ",
+          "item_count": 12
+        }
+      ]
+    },
+    {
+      "canonical_author": "বুদ্ধদেব বসু",
+      "canonical_id": "1F_Wg-eWxep69YDqA2avpQz7vj4AzI7VS",
+      "duplicate_folders": [
+        {
+          "name": "বুদ্ধদেব বসু (1)",
+          "id": "1Ti95DrBMcSG-TQTuF6LtJ0q6Bcmsr6O0",
+          "item_count": 4
+        }
+      ]
+    },
+    {
+      "canonical_author": "হুমায়ূন আহমেদ",
+      "canonical_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "duplicate_folders": [
+        {
+          "name": "হুমায়ূন আহমেদ (2)",
+          "id": "1kZFH7jyB_VDWOgMk_IGieCdJySB68JZI",
+          "item_count": 1
+        }
+      ]
+    },
+    {
+      "canonical_author": "গোপাল হালদার",
+      "canonical_id": "1LpA4dXoWJ7rblXI6Svfxtonwf7AIr5KC",
+      "duplicate_folders": [
+        {
+          "name": "গোপাল হালদার সম্পাদিত",
+          "id": "1c1tzPHudCse0asTEHb07dTjrYNnvjMyb",
+          "item_count": 3
+        }
+      ]
+    },
+    {
+      "canonical_author": "আব্দুল হামীদ ফাইযী",
+      "canonical_id": "1Q5KGCKASF8Q0V-pbADBnQqvIHn51PaQu",
+      "duplicate_folders": [
+        {
+          "name": "আব্দুল হামীদ ফাইযী মাদানী",
+          "id": "1AAYo4DQbYULE53R6GqfUYN-d-ah5RJSp",
+          "item_count": 5
+        }
+      ]
+    },
+    {
+      "canonical_author": "সাইয়েদ আবুল আলা মওদুদী",
+      "canonical_id": "1ISYB2dOqRaXUhskCkSf3GG4MYDIBegO7",
+      "duplicate_folders": [
+        {
+          "name": "সাইয়্যেদ আবুল আলা মওদুদী",
+          "id": "1skMBfu5UkTRvZSeJdMAF4E55HxXxXHRk",
+          "item_count": 3
+        }
+      ]
+    },
+    {
+      "canonical_author": "কাজী আনোয়ার হোসেন",
+      "canonical_id": "19-D592u2bJQpH5A1isHsFsb4-Xwgk9y0",
+      "duplicate_folders": [
+        {
+          "name": "Qazi Anowar Hussain",
+          "id": "1LjI3w9kBIixcAbiXWVgtnMgFb0irOhJ3",
+          "item_count": 3
+        }
+      ]
+    }
+  ],
+  "volume_folders_plan": {
+    "dissolved_folders": [
+      "Choturth Khondo",
+      "Dwitij Khondo",
+      "Prothom Khondo",
+      "Tritij Khondo",
+      "১ম খন্ড",
+      "২য় খন্ড",
+      "৩য় খন্ড",
+      "৪র্থ খন্ড",
+      "৫ম খন্ড",
+      "৬ষ্ঠ খন্ড",
+      "অষ্টম খণ্ড",
+      "একাদশ খণ্ড",
+      "দশম খণ্ড",
+      "নবম খণ্ড",
+      "পঞ্চম খণ্ড",
+      "ষষ্ঠ খণ্ড",
+      "সপ্তম খণ্ড"
+    ],
+    "total_books": 74
+  },
+  "uncertain_authors_plan": {
+    "target_review_folder": "08_Review_and_Unclassified/Uncertain_Authors",
+    "folders": [
+      {
+        "name": "Chapter 1, 2, 3",
+        "reason": "Academic thesis chapters without author metadata",
+        "count": 9
+      },
+      {
+        "name": "Your User Name",
+        "reason": "Placeholder username folder containing Quran linguistic miracle notes",
+        "count": 22
+      },
+      {
+        "name": "bangla / islam / Islam",
+        "reason": "Category tag names mistakenly used as author folders",
+        "count": 11
+      },
+      {
+        "name": "MI MAX 2",
+        "reason": "Smartphone camera upload folder containing raw OCR docx files",
+        "count": 6
+      },
+      {
+        "name": "BD Tarajim",
+        "reason": "Web translation community group without individual author attribution",
+        "count": 4
+      },
+      {
+        "name": "Alokausar",
+        "reason": "Monthly Islamic journal articles (মাসিক আলকাউসার)",
+        "count": 3
+      },
+      {
+        "name": "Almodina.com",
+        "reason": "Website domain name used as author for Islamic treatises",
+        "count": 5
+      },
+      {
+        "name": "Najib office",
+        "reason": "Monthly At-Tahreek journal articles misattributed to office",
+        "count": 3
+      },
+      {
+        "name": "rah / Soh",
+        "reason": "Arabic honorific abbreviations (রহমাতুল্লাহি আলাইহি / সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম) treated as authors",
+        "count": 13
+      },
+      {
+        "name": "Arundhati Roy, Translated by Susmita Chakraborty",
+        "reason": "Mislabeled translation anthology folder containing unrelated books",
+        "count": 14
+      }
+    ]
+  }
+}
