@@ -4,19 +4,19 @@
 
 **12,060 verified unique eBooks** (**175.68 GB**) professionally organized in Bangla and English across **9 clean top-level Drive folders**, with **4,272 Author & Series shortcuts** (zero duplicate physical copies).
 
-## Google Drive Folder Architecture
+## Library Architecture & Navigators
 
-| Folder | Books | Size | Google Drive |
-|---|---:|---:|---|
-| `00_Library_Management/` | Management/Quarantine | — | [Open Folder](https://drive.google.com/drive/folders/1GkKPJ4-Xt8dx954uMhfVZkvYpivU7ukv) |
-| `01_Bangla_Books/` | 4,627 | 46.35 GB | [Open Folder](https://drive.google.com/drive/folders/12SSwDn9I1QPsFynHYuPVgIbStsL-S8gs) |
-| `02_English_Books/` | 1,194 | 28.80 GB | [Open Folder](https://drive.google.com/drive/folders/1T250ptAUwZnv80QxH34qFApKhRZ_s4d9) |
-| `03_Education_and_Textbooks/` | 1,438 | 62.48 GB | [Open Folder](https://drive.google.com/drive/folders/1Hoy8Zv0ObmQcGLrDUhmkGSYK_DDSK1BR) |
-| `04_Islamic_Books/` | 4,231 | 32.83 GB | [Open Folder](https://drive.google.com/drive/folders/1feCztJCCjKkLJJxJhkN7jyGhCMJiz2K8) |
-| `05_Authors_and_Scholars/` | Shortcuts | — | [Open Folder](https://drive.google.com/drive/folders/1HG9mZ-FGPOydiFc8h32iIDsKYGY-j9DB) |
-| `06_Series_and_Collections/` | Shortcuts | — | [Open Folder](https://drive.google.com/drive/folders/1_dHgKueL1AS_EbaXUO-XWCtrgal1JZ8m) |
-| `07_Reference_and_Research/` | 325 | 3.66 GB | [Open Folder](https://drive.google.com/drive/folders/1p2RgJYCjE1Z8uvIizVfMgKRYB3BFp57B) |
-| `08_Review_and_Unclassified/` | 245 | 1.56 GB | [Open Folder](https://drive.google.com/drive/folders/17xG7eM-GtkED3hWMfT1riucin9fnlI2t) |
+| Folder | Books | Size | GitHub Navigator | Google Drive |
+|---|---:|---:|:---:|:---:|
+| `00_Library_Management/` | Management & Catalogs | — | [Browse Section](00_Library_Management/README.md) | [Open in Drive](https://drive.google.com/drive/folders/1GkKPJ4-Xt8dx954uMhfVZkvYpivU7ukv) |
+| `01_Bangla_Books/` | 4,627 | 46.35 GB | [Browse Section](01_Bangla_Books/README.md) | [Open in Drive](https://drive.google.com/drive/folders/12SSwDn9I1QPsFynHYuPVgIbStsL-S8gs) |
+| `02_English_Books/` | 1,194 | 28.80 GB | [Browse Section](02_English_Books/README.md) | [Open in Drive](https://drive.google.com/drive/folders/1T250ptAUwZnv80QxH34qFApKhRZ_s4d9) |
+| `03_Education_and_Textbooks/` | 1,438 | 62.48 GB | [Browse Section](03_Education_and_Textbooks/README.md) | [Open in Drive](https://drive.google.com/drive/folders/1Hoy8Zv0ObmQcGLrDUhmkGSYK_DDSK1BR) |
+| `04_Islamic_Books/` | 4,231 | 32.83 GB | [Browse Section](04_Islamic_Books/README.md) | [Open in Drive](https://drive.google.com/drive/folders/1feCztJCCjKkLJJxJhkN7jyGhCMJiz2K8) |
+| `05_Authors_and_Scholars/` | Shortcuts (245 Authors) | — | [Browse Section](05_Authors_and_Scholars/README.md) | [Open in Drive](https://drive.google.com/drive/folders/1HG9mZ-FGPOydiFc8h32iIDsKYGY-j9DB) |
+| `06_Series_and_Collections/` | Shortcuts (18 Series) | — | [Browse Section](06_Series_and_Collections/README.md) | [Open in Drive](https://drive.google.com/drive/folders/1_dHgKueL1AS_EbaXUO-XWCtrgal1JZ8m) |
+| `07_Reference_and_Research/` | 325 | 3.66 GB | [Browse Section](07_Reference_and_Research/README.md) | [Open in Drive](https://drive.google.com/drive/folders/1p2RgJYCjE1Z8uvIizVfMgKRYB3BFp57B) |
+| `08_Review_and_Unclassified/` | 245 | 1.56 GB | [Browse Section](08_Review_and_Unclassified/README.md) | [Open in Drive](https://drive.google.com/drive/folders/17xG7eM-GtkED3hWMfT1riucin9fnlI2t) |
 
 ## Catalog, Naming & Automation
 
