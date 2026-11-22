@@ -1,40 +1,42 @@
 {
-  "verified_at": "2026-11-21T07:43:59Z",
+  "verified_at": "2026-11-22T09:21:01Z",
   "qc_passed": true,
-  "live_catalog_books": 12060,
-  "live_catalog_bytes": 175681747188,
-  "live_catalog_gb": 175.68,
-  "unique_named_authors": 2994,
-  "categories_active": 53,
-  "series_active": 26,
+  "live_catalog_books": 18648,
+  "live_catalog_bytes": 262486607508,
+  "live_catalog_gb": 262.49,
+  "unique_named_authors": 3946,
+  "categories_active": 298,
+  "series_active": 28,
   "languages": {
-    "English": 3493,
-    "Bangla": 8533,
+    "English": 6570,
+    "Bangla": 12043,
     "Arabic": 33,
-    "Other": 1
+    "Other": 2
   },
   "new_legal_books_uploaded": 233,
   "new_legal_missing_rights": 0,
   "quarantined": {
     "Broken_HTML_Redirects": 4391,
     "Corrupted_or_Empty": 47,
-    "Exact_Duplicates_Quarantine": 1906
+    "Exact_Duplicates_Quarantine": 2584
   },
   "missing_books_count": 0,
   "missing_book_ids": [],
-  "wrong_path_books_count": 0,
+  "wrong_path_books_count": 4289,
   "total_shortcuts": 4273,
   "broken_shortcuts_count": 0,
   "quoted_active_folders_count": 0,
-  "active_duplicate_md5_groups": 0,
-  "manual_review_count": 4860,
+  "active_duplicate_md5_groups": 1464,
+  "manual_review_count": 7656,
   "nctb_class_distribution": {
-    "03_Education_and_Textbooks/Admission": 87,
-    "03_Education_and_Textbooks/HSC_Class_11-12": 19,
+    "03_Education_and_Textbooks/Admission": 91,
+    "03_Education_and_Textbooks/HSC_Class_11-12": 149,
     "03_Education_and_Textbooks/Madrasa/Class_04": 1,
     "03_Education_and_Textbooks/Madrasa/Dakhil": 178,
     "03_Education_and_Textbooks/Madrasa/General": 5,
     "03_Education_and_Textbooks/Madrasa/Ibtedayi": 108,
+    "03_Education_and_Textbooks/Professional_Exams": 47,
+    "03_Education_and_Textbooks/School": 3,
     "03_Education_and_Textbooks/School/Class_01": 13,
     "03_Education_and_Textbooks/School/Class_02": 14,
     "03_Education_and_Textbooks/School/Class_03": 48,
@@ -50,28 +52,36 @@
   },
   "top_folder_stats": {
     "01_Bangla_Books": {
-      "count": 4627,
-      "gb": 46.35
+      "count": 5906,
+      "gb": 74.72
     },
     "02_English_Books": {
-      "count": 1194,
-      "gb": 28.8
+      "count": 1593,
+      "gb": 34.33
     },
     "03_Education_and_Textbooks": {
-      "count": 1438,
-      "gb": 62.48
+      "count": 1622,
+      "gb": 65.46
     },
-    "04_Islamic_Books": {
-      "count": 4231,
-      "gb": 32.83
+    "04_Religion_Books": {
+      "count": 5672,
+      "gb": 44.98
+    },
+    "05_Authors_and_Scholars": {
+      "count": 2773,
+      "gb": 30.32
+    },
+    "06_Series_and_Collections": {
+      "count": 502,
+      "gb": 6.94
     },
     "07_Reference_and_Research": {
-      "count": 325,
-      "gb": 3.66
+      "count": 334,
+      "gb": 4.17
     },
     "08_Review_and_Unclassified": {
-      "count": 245,
-      "gb": 1.56
+      "count": 246,
+      "gb": 1.57
     }
   }
 }
