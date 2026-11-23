@@ -1,0 +1,82 @@
+name: "Intelligent Book Identification, Cover Audit & Safe Renamer"
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_folder:
+        description: "Folder path under Drive root (e.g. 'Review & Unclassified/Pending Review', 'English Books', or 'ALL')"
+        required: true
+        default: "Review & Unclassified/Pending Review"
+        type: string
+      mode:
+        description: "dry_run = Stage A-C Report only | apply_verified = Stage D-E Rename + Website/App Sync"
+        required: true
+        default: "dry_run"
+        type: choice
+        options:
+          - dry_run
+          - apply_verified
+      max_files:
+        description: "Optional file limit for testing (0 = all files in target_folder)"
+        required: false
+        default: "0"
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: intelligent-book-renamer
+  cancel-in-progress: false
+
+jobs:
+  inspect-and-rename:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Tesseract OCR (Bengali, English, Arabic) & Python libraries
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-ben tesseract-ocr-eng tesseract-ocr-ara
+          pip install --quiet pymupdf pillow
+
+      - name: Run Intelligent Book Renamer (${{ inputs.mode }})
+        env:
+          GDRIVE_OAUTH_JSON: ${{ secrets.GDRIVE_OAUTH_JSON }}
+        run: |
+          python -u scripts/intelligent_book_renamer.py \
+            --target-folder "${{ inputs.target_folder }}" \
+            --mode "${{ inputs.mode }}" \
+            --max-files "${{ inputs.max_files }}" \
+            --workers 6 \
+            --repo-dir .
+
+      - name: Upload Stage C / E reports as workflow artifacts
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: book-renamer-reports-${{ inputs.mode }}
+          path: reports/renamer/
+          retention-days: 30
+
+      - name: Commit reports and synced website/app catalog (books.json)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add reports/renamer/ books.json visualize/public/books.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore(library): ${{ inputs.mode }} report & catalog sync for ${{ inputs.target_folder }}"
+            git pull --rebase origin main || true
+            git push
+          fi
