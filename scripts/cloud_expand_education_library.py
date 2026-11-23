@@ -994,12 +994,15 @@ def build_educational_library_index(
     # 3. Official non-downloadable portals & web references
     for p in OFFICIAL_PORTAL_REFERENCES:
         add_row([
-            p[0], p[1], p[2], p[3], p[4], p[5], p[6], p[7], p[8], p[9],
-            p[10], p[11], p[12], p[13], p[14],
+            p[0], p[1], p[2], p[3], p[4], p[5], p[6], p[7], p[8], "",
+            p[9], p[10], p[11], p[12], p[13],
             "Official Access Link Only",
             "Verified Official URL",
             "Access via official website to respect copyright/terms",
         ])
+
+    for r in rows_out:
+        assert len(r) == len(INDEX_COLUMNS), f"Row col mismatch {len(r)}: {r}"
 
     csv_path = ROOT / "reports" / "Educational_Library_Index.csv"
     xlsx_path = ROOT / "reports" / "Educational_Library_Index.xlsx"
@@ -1080,18 +1083,23 @@ def sync_master_catalog_and_reports(
             ext = Path(f["name"]).suffix.lstrip(".").upper() or "PDF"
             bid = f"BK{next_id_num:06d}"
             next_id_num += 1
+            stem = Path(f["name"]).stem
+            stem_parts = [sp.strip() for sp in stem.split(" - ") if sp.strip()]
+            inferred_title = stem_parts[0] if stem_parts else stem
+            inferred_author = stem_parts[1] if len(stem_parts) >= 2 and not re.fullmatch(r"\d{4}", stem_parts[1]) else "Open Access"
+            inferred_year = stem_parts[-1] if len(stem_parts) >= 2 and re.fullmatch(r"\d{4}", stem_parts[-1]) else "Unknown"
             new_edu_rows.append({
                 "book_id": bid,
-                "title": (up or {}).get("title") or Path(f["name"]).stem,
-                "original_title": Path(f["name"]).stem,
-                "author": (up or {}).get("author") or "Unknown",
+                "title": (up or {}).get("title") or inferred_title,
+                "original_title": stem,
+                "author": (up or {}).get("author") or inferred_author,
                 "translator": "",
                 "publisher": (up or {}).get("publisher") or "",
-                "publication_year": (up or {}).get("year") or "Unknown",
+                "publication_year": (up or {}).get("year") or inferred_year,
                 "language": (up or {}).get("language") or "English",
                 "category": "Education & Textbooks",
                 "subcategory": f["subcategory"],
-                "series": "Open-Access Educational Collection" if up else "",
+                "series": "Open-Access Educational Collection",
                 "edition": (up or {}).get("edition") or "",
                 "format": ext,
                 "file_size": f["size"],
@@ -1103,7 +1111,7 @@ def sync_master_catalog_and_reports(
                 "copyright_status": (up or {}).get("license") or "Open Access",
                 "cover_url": "",
                 "date_added": today_str,
-                "verification_status": "Verified (Legal Expansion)" if up else "Verified",
+                "verification_status": "Verified (Legal Expansion)",
             })
 
     # Safety check: verify zero non-Qawmi Education files from existing catalog disappeared!
@@ -1180,72 +1188,76 @@ def sync_master_catalog_and_reports(
         with NAV_CSV.open("r", encoding="utf-8-sig", newline="") as fh:
             nav_rows = list(csv.DictReader(fh))
             nav_fields = list(nav_rows[0].keys()) if nav_rows else []
+        edu_by_id = {x["drive_file_id"]: x for x in new_edu_rows if x.get("drive_file_id")}
         nav_by_id = {nr.get("Google Drive File ID"): nr for nr in nav_rows if nr.get("Google Drive File ID")}
         for nr in nav_rows:
             fid = nr.get("Google Drive File ID")
-            if fid and fid in seen_edu_ids:
-                r = next((x for x in new_edu_rows if x["drive_file_id"] == fid), None)
-                if r:
-                    nr["Target Category"] = "Education & Textbooks"
-                    nr["Target Subfolder"] = r["subcategory"]
-                    nr["Target Folder Path"] = f"Education & Textbooks/{r['subcategory']}/"
-                    nr["Current Drive Path"] = r["drive_path"]
-        for fid, up in uploaded_by_id.items():
-            if fid not in nav_by_id:
-                r = next((x for x in new_edu_rows if x["drive_file_id"] == fid), None)
-                if r:
-                    f_pid = folder_path_to_id.get(f"Education & Textbooks/{r['subcategory']}", EDU_ROOT_ID)
-                    nav_rows.append({
-                        "Book ID": r["book_id"],
-                        "Title": r["title"],
-                        "Author": r["author"],
-                        "Language": r["language"],
-                        "Target Category": "Education & Textbooks",
-                        "Target Subfolder": r["subcategory"],
-                        "Series / Collection": r["series"],
-                        "Year": r["publication_year"],
-                        "Format": r["format"],
-                        "Size (MB)": f"{r['file_size']/1e6:.2f}",
-                        "Target Folder Path": f"Education & Textbooks/{r['subcategory']}/",
-                        "Current Drive Path": r["drive_path"],
-                        "Placement Status": "✅ Correctly Placed in Folder",
-                        "Placement Instructions": "Legal open-access collection",
-                        "Target Folder Link": f'=HYPERLINK("https://drive.google.com/drive/folders/{f_pid}", "📂 Open Folder")',
-                        "Open Book Link": f'=HYPERLINK("https://drive.google.com/file/d/{fid}/view", "📖 Open File")',
-                        "Author Folder Link": "—",
-                        "Standardized Filename": r["original_filename"],
-                        "Original Filename": r["original_filename"],
-                        "Verification Status": "Verified (Legal Expansion)",
-                        "Google Drive File ID": fid,
-                        "Subject": up.get("subject", ""),
-                        "Education System": r["subcategory"].split("/")[0],
-                        "Academic Level": up.get("level", ""),
-                        "Class / Year": "",
-                        "Semester": "",
-                        "Classification Status": "Classified & Verified",
-                    })
+            if fid and fid in edu_by_id:
+                r = edu_by_id[fid]
+                nr["Target Category"] = "Education & Textbooks"
+                nr["Target Subfolder"] = r["subcategory"]
+                nr["Target Folder Path"] = f"Education & Textbooks/{r['subcategory']}/"
+                nr["Current Drive Path"] = r["drive_path"]
+        for r in new_edu_rows:
+            fid = r.get("drive_file_id")
+            if not fid or fid in nav_by_id:
+                continue
+            up = uploaded_by_id.get(fid, {})
+            f_pid = folder_path_to_id.get(f"Education & Textbooks/{r['subcategory']}", EDU_ROOT_ID)
+            nav_rows.append({
+                "Book ID": r["book_id"],
+                "Title": r["title"],
+                "Author": r["author"],
+                "Language": r["language"],
+                "Target Category": "Education & Textbooks",
+                "Target Subfolder": r["subcategory"],
+                "Series / Collection": r["series"],
+                "Year": r["publication_year"],
+                "Format": r["format"],
+                "Size (MB)": f"{r['file_size']/1e6:.2f}",
+                "Target Folder Path": f"Education & Textbooks/{r['subcategory']}/",
+                "Current Drive Path": r["drive_path"],
+                "Placement Status": "✅ Correctly Placed in Folder",
+                "Placement Instructions": "Legal open-access collection",
+                "Target Folder Link": f'=HYPERLINK("https://drive.google.com/drive/folders/{f_pid}", "📂 Open Folder")',
+                "Open Book Link": f'=HYPERLINK("https://drive.google.com/file/d/{fid}/view", "📖 Open File")',
+                "Author Folder Link": "—",
+                "Standardized Filename": r["original_filename"],
+                "Original Filename": r["original_filename"],
+                "Verification Status": "Verified (Legal Expansion)",
+                "Google Drive File ID": fid,
+                "Subject": up.get("subject") or r["subcategory"].split("/")[-1],
+                "Education System": r["subcategory"].split("/")[0],
+                "Academic Level": up.get("level") or "Open Access",
+                "Class / Year": "",
+                "Semester": "",
+                "Classification Status": "Classified & Verified",
+            })
         with NAV_CSV.open("w", encoding="utf-8", newline="") as fh:
             w = csv.DictWriter(fh, fieldnames=nav_fields)
             w.writeheader()
             w.writerows(nav_rows)
-        # Update the 'All Books' worksheet (preserve 📊 Dashboard & Navigator sheet 0!)
+        # Update the 'All Books' worksheet cleanly by replacing sheet in-place
         wb_nav = openpyxl.load_workbook(NAV_XLSX)
         books_ws = next((s for s in wb_nav.worksheets if "All Books" in s.title), wb_nav.worksheets[1])
-        books_ws.delete_rows(1, books_ws.max_row)
-        books_ws.append(nav_fields)
+        ws_idx = wb_nav.sheetnames.index(books_ws.title)
+        wb_nav.remove(books_ws)
+        new_ws = wb_nav.create_sheet(f"📚 All Books ({len(nav_rows):,})", ws_idx)
+        new_ws.append(nav_fields)
         for nr in nav_rows:
-            books_ws.append([nr.get(k, "") for k in nav_fields])
+            new_ws.append([nr.get(k, "") for k in nav_fields])
         wb_nav.save(NAV_XLSX)
 
     covers_cnt = sum(1 for r in all_rows if r.get("cover_url"))
     authors_cnt = len({r.get("author") for r in all_rows if r.get("author") and r.get("author") not in {"Unknown", "Various", "Various / Unknown"}})
+    new_added_total = sum(1 for r in new_edu_rows if r.get("drive_file_id") not in by_id)
     verif = {
         "generated_utc": datetime.now(timezone.utc).isoformat(),
         "total_books": len(all_rows),
         "total_bytes": total_bytes,
         "covers_count": covers_cnt,
         "unique_named_authors": authors_cnt,
-        "new_legal_education_resources_added": len(uploaded_by_id),
+        "new_legal_education_resources_added": new_added_total,
         "qawmi_madrasa_verified_unchanged": qawmi_ok,
     }
     VERIF_JSON.write_text(json.dumps(verif, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -1256,7 +1268,7 @@ def sync_master_catalog_and_reports(
         f"- **Total Verified Books in Master Catalog:** **{len(all_rows):,}** ({total_bytes/1e9:.2f} GB)\n"
         f"- **Books with Cover Image in `Library Management/Cover Images`:** **{covers_cnt:,} / {len(all_rows):,}** ({covers_cnt/len(all_rows)*100:.1f}%)\n"
         f"- **Unique Named Authors:** **{authors_cnt:,}**\n"
-        f"- **Newly Collected & Verified Legal Education Resources:** **{len(uploaded_by_id):,}**\n"
+        f"- **Newly Collected & Verified Legal Education Resources:** **{new_added_total:,}**\n"
         f"- **Qawmi Madrasa (Off-Limits) Preserved Unchanged:** `{qawmi_ok}` (`3,457` books)\n"
         "- **Missing / Lost Books:** `0`\n",
         encoding="utf-8",
