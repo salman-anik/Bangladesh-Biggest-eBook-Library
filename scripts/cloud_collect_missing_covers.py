@@ -310,6 +310,7 @@ def main() -> None:
     ap.add_argument("--num-shards", type=int, default=1)
     ap.add_argument("--workers", type=int, default=8)
     ap.add_argument("--skip-rokomari", action="store_true")
+    ap.add_argument("--only-book-ids", default="", help="Optional JSON list of drive_file_id to restrict processing")
     args = ap.parse_args()
 
     SHARDS_DIR.mkdir(parents=True, exist_ok=True)
@@ -342,7 +343,11 @@ def main() -> None:
                             url_by_norm.setdefault(norm(k.split(sep, 1)[0]), cu)
 
     # Group missing books by unique (target_folder, canonical_stem.casefold())
-    missing = [b for b in mc if b["drive_file_id"] not in covered]
+    only_ids = set(json.loads(Path(args.only_book_ids).read_text(encoding="utf-8"))) if args.only_book_ids else None
+    missing = [
+        b for b in mc
+        if b["drive_file_id"] not in covered and (only_ids is None or b["drive_file_id"] in only_ids)
+    ]
     groups: dict[tuple[str, str], list[dict]] = defaultdict(list)
     for b in missing:
         cat_folder = f"{b['category']}/{b['subcategory']}" if b.get("subcategory") else b["category"]
