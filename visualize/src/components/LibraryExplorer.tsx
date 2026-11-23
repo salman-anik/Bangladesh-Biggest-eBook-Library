@@ -2,56 +2,33 @@
 
 import React, { useEffect, useMemo, useState } from "react";
 import {
+  Bookmark,
   BookOpen,
-  Building2,
+  Download,
   ExternalLink,
-  FileText,
-  Filter,
-  FolderTree,
-  Github,
-  GraduationCap,
   HardDrive,
-  Layers,
-  Menu,
-  RotateCcw,
+  Loader2,
   Search,
-  Users,
+  Sparkles,
   X,
 } from "lucide-react";
 import {
-  BookRecord,
-  cleanCategoryLabel,
+  BookItem,
+  CompactCatalog,
   formatBytes,
+  getCoverUrl,
+  getDownloadUrl,
   getDriveFolderUrl,
-  TaxonomyData,
+  getPreviewUrl,
+  inflateCatalog,
+  LibrarySummary,
 } from "@/types/library";
-import { FolderTreeSidebar } from "./FolderTreeSidebar";
-import { FolderBrowserGrid } from "./FolderBrowserGrid";
-import { BookCard } from "./BookCard";
-import { PreviewModal } from "./PreviewModal";
 
-const PAGE_SIZE = 60;
+const PAGE_SIZE = 48;
+const SAVED_KEY = "anabook_saved_v1";
 
-type SortMode = "title" | "size_desc" | "size_asc" | "category";
-type ViewMode = "folder" | "author" | "series" | "format" | "nctb";
-type FormatFilter = "" | "pdf" | "epub" | "json" | "cover" | "complete";
-
-const SERIES_PRESETS: { label: string; keywords: string[] }[] = [
-  { label: "তিন গোয়েন্দা (Tin Goyenda)", keywords: ["তিন গোয়েন্দা", "tin goyenda"] },
-  { label: "মাসুদ রানা (Masud Rana)", keywords: ["মাসুদ রানা", "masud rana"] },
-  { label: "হিমু (Himu)", keywords: ["হিমু", "himu"] },
-  { label: "মিসির আলি (Misir Ali)", keywords: ["মিসির আলি", "misir ali"] },
-  { label: "ফেলুদা (Feluda)", keywords: ["ফেলুদা", "feluda"] },
-  { label: "কাকাবাবু (Kakababu)", keywords: ["কাকাবাবু", "kakababu"] },
-  { label: "প্রফেসর শঙ্কু (Shonku)", keywords: ["শঙ্কু", "shonku"] },
-  { label: "রবীন্দ্র রচনাবলী", keywords: ["রবীন্দ্র রচনাবলী", "গীতবিতান"] },
-  { label: "কুরআন ও তাফসীর", keywords: ["তাফসীর", "তাফসির", "কুরআন", "tafsir", "quran"] },
-  { label: "হাদীস ও সুন্নাহ", keywords: ["সহীহ", "বুখারী", "মুসলিম", "হাদীস", "হাদিস", "hadith"] },
-];
-
-const NCTB_ORDER = [
+const CLASS_CHIPS = [
   "Pre-Primary",
-  "Primary Education",
   "Class 1",
   "Class 2",
   "Class 3",
@@ -62,879 +39,474 @@ const NCTB_ORDER = [
   "Class 8",
   "Class 9",
   "Class 10",
-  "Higher Secondary",
+  "Class 12",
 ];
 
-export function LibraryExplorer() {
-  const [books, setBooks] = useState<BookRecord[]>([]);
-  const [taxonomy, setTaxonomy] = useState<TaxonomyData | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
+function CoverThumb({ book }: { book: BookItem }) {
+  const [stage, setStage] = useState<"primary" | "fallback" | "none">(
+    getCoverUrl(book, false) ? "primary" : "none"
+  );
 
-  const [activePath, setActivePath] = useState<string>("");
-  const [searchQuery, setSearchQuery] = useState<string>("");
-  const [selectedTopCategory, setSelectedTopCategory] = useState<string>("");
-  const [selectedLeafPath, setSelectedLeafPath] = useState<string>("");
-  const [selectedAuthor, setSelectedAuthor] = useState<string>("");
-  const [selectedPublication, setSelectedPublication] = useState<string>("");
-  const [viewMode, setViewMode] = useState<ViewMode>("folder");
-  const [selectedFormat, setSelectedFormat] = useState<FormatFilter>("");
-  const [selectedSeries, setSelectedSeries] = useState<string>("");
-  const [sortMode, setSortMode] = useState<SortMode>("title");
-  const [page, setPage] = useState<number>(1);
-  const [previewBook, setPreviewBook] = useState<BookRecord | null>(null);
-  const [mobileSidebarOpen, setMobileSidebarOpen] = useState<boolean>(false);
+  const src =
+    stage === "primary"
+      ? getCoverUrl(book, false)
+      : stage === "fallback"
+      ? getCoverUrl(book, true)
+      : "";
 
-  useEffect(() => {
-    let cancelled = false;
-    async function load() {
-      try {
-        const [booksRes, taxRes] = await Promise.all([
-          fetch("/books.json"),
-          fetch("/taxonomy.json"),
-        ]);
-        if (!booksRes.ok || !taxRes.ok) {
-          throw new Error("Failed to load library catalog JSON files.");
-        }
-        const [booksData, taxData] = await Promise.all([
-          booksRes.json() as Promise<BookRecord[]>,
-          taxRes.json() as Promise<TaxonomyData>,
-        ]);
-        if (!cancelled) {
-          setBooks(booksData);
-          setTaxonomy(taxData);
-          setLoading(false);
-        }
-      } catch (err) {
-        if (!cancelled) {
-          setError(err instanceof Error ? err.message : "Failed to load catalog");
-          setLoading(false);
-        }
-      }
-    }
-    load();
-    return () => {
-      cancelled = true;
-    };
-  }, []);
-
-  // Precompute stats & hierarchical folder counts
-  const {
-    totalSize,
-    pathCounts,
-    pathSizes,
-    subfoldersByLeaf,
-    topCategories,
-    leafOptions,
-    authorOptions,
-    publicationOptions,
-  } = useMemo(() => {
-    let sizeSum = 0;
-    const pCounts: Record<string, number> = {};
-    const pSizes: Record<string, number> = {};
-    const subMap: Record<string, Record<string, { count: number; size: number }>> = {};
-    const authors: Record<string, number> = {};
-    const pubs: Record<string, number> = {};
-    const leafMap: Record<string, { leaf_path: string; label: string; count: number }> = {};
-
-    for (const b of books) {
-      const sz = b.size || 0;
-      sizeSum += sz;
-
-      // Top category
-      pCounts[b.top_category] = (pCounts[b.top_category] || 0) + 1;
-      pSizes[b.top_category] = (pSizes[b.top_category] || 0) + sz;
-
-      // Intermediate path (e.g. 01_Religion_ধর্ম/Islam_ইসলাম)
-      const parts = b.leaf_path.split("/");
-      if (parts.length === 3) {
-        const midPath = `${parts[0]}/${parts[1]}`;
-        pCounts[midPath] = (pCounts[midPath] || 0) + 1;
-        pSizes[midPath] = (pSizes[midPath] || 0) + sz;
-      }
-
-      // Leaf path
-      pCounts[b.leaf_path] = (pCounts[b.leaf_path] || 0) + 1;
-      pSizes[b.leaf_path] = (pSizes[b.leaf_path] || 0) + sz;
-
-      if (!leafMap[b.leaf_path]) {
-        leafMap[b.leaf_path] = {
-          leaf_path: b.leaf_path,
-          label: cleanCategoryLabel(b.leaf_category),
-          count: 0,
-        };
-      }
-      leafMap[b.leaf_path].count += 1;
-
-      if (b.subfolder) {
-        const fullSub = `${b.leaf_path}/${b.subfolder}`;
-        pCounts[fullSub] = (pCounts[fullSub] || 0) + 1;
-        pSizes[fullSub] = (pSizes[fullSub] || 0) + sz;
-        if (!subMap[b.leaf_path]) subMap[b.leaf_path] = {};
-        if (!subMap[b.leaf_path][b.subfolder]) {
-          subMap[b.leaf_path][b.subfolder] = { count: 0, size: 0 };
-        }
-        subMap[b.leaf_path][b.subfolder].count += 1;
-        subMap[b.leaf_path][b.subfolder].size += sz;
-      }
-
-      if (b.author) authors[b.author] = (authors[b.author] || 0) + 1;
-      if (b.publication) pubs[b.publication] = (pubs[b.publication] || 0) + 1;
-    }
-
-    const sortedSubsByLeaf: Record<string, { name: string; count: number; size: number }[]> = {};
-    for (const [lp, map] of Object.entries(subMap)) {
-      sortedSubsByLeaf[lp] = Object.entries(map)
-        .map(([name, val]) => ({ name, count: val.count, size: val.size }))
-        .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
-    }
-
-    const tCats = taxonomy?.tree
-      ? Object.keys(taxonomy.tree)
-      : Object.keys(pCounts).filter((k) => !k.includes("/")).sort();
-    const lOpts = Object.values(leafMap).sort((a, b) => a.leaf_path.localeCompare(b.leaf_path));
-    const aOpts = Object.entries(authors)
-      .map(([name, count]) => ({ name, count }))
-      .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
-    const pubOpts = Object.entries(pubs)
-      .map(([name, count]) => ({ name, count }))
-      .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
-
-    return {
-      totalSize: sizeSum,
-      pathCounts: pCounts,
-      pathSizes: pSizes,
-      subfoldersByLeaf: sortedSubsByLeaf,
-      topCategories: tCats,
-      leafOptions: lOpts,
-      authorOptions: aOpts,
-      publicationOptions: pubOpts,
-    };
-  }, [books, taxonomy]);
-
-  const filteredLeafOptions = useMemo(() => {
-    if (!selectedTopCategory) return leafOptions;
-    return leafOptions.filter((l) => l.leaf_path.startsWith(`${selectedTopCategory}/`));
-  }, [leafOptions, selectedTopCategory]);
-
-  const formatCounts = useMemo(() => {
-    let pdf = 0;
-    let epub = 0;
-    let json = 0;
-    let cover = 0;
-    let complete = 0;
-    for (const b of books) {
-      const hasPdf = !!b.pdf_file_id;
-      const hasEpub = !!b.epub_file_id;
-      const hasJson = !!b.text_file_id;
-      const hasCov = !!(b.cover_file_id || b.cover_url);
-      if (hasPdf) pdf += 1;
-      if (hasEpub) epub += 1;
-      if (hasJson) json += 1;
-      if (hasCov) cover += 1;
-      if ((hasPdf || hasEpub) && hasJson && hasCov) complete += 1;
-    }
-    return { pdf, epub, json, cover, complete };
-  }, [books]);
-
-  const seriesCounts = useMemo(() => {
-    return SERIES_PRESETS.map((s) => {
-      const count = books.filter((b) => {
-        const hay = `${b.name} ${b.author}`.toLowerCase();
-        return s.keywords.some((kw) => hay.includes(kw));
-      }).length;
-      return { ...s, count };
-    });
-  }, [books]);
-
-  const nctbCards = useMemo(() => {
-    return NCTB_ORDER.map((cls) => {
-      const lp = `Education and Academics/${cls}`;
-      return {
-        label: cls,
-        leafPath: lp,
-        count: pathCounts[lp] || 0,
-      };
-    }).filter((c) => c.count > 0);
-  }, [pathCounts]);
-
-  // Reset page when filters change
-  useEffect(() => {
-    setPage(1);
-  }, [
-    activePath,
-    searchQuery,
-    selectedTopCategory,
-    selectedLeafPath,
-    selectedAuthor,
-    selectedPublication,
-    selectedFormat,
-    selectedSeries,
-    sortMode,
-  ]);
-
-  const filteredBooks = useMemo(() => {
-    const q = searchQuery.trim().toLowerCase();
-    const seriesObj = selectedSeries ? SERIES_PRESETS.find((s) => s.label === selectedSeries) : undefined;
-    const result = books.filter((b) => {
-      if (activePath) {
-        const bookFullPath = b.subfolder ? `${b.leaf_path}/${b.subfolder}` : b.leaf_path;
-        const matchesPath =
-          b.top_category === activePath ||
-          b.leaf_path === activePath ||
-          b.leaf_path.startsWith(`${activePath}/`) ||
-          bookFullPath === activePath;
-        if (!matchesPath) return false;
-      }
-      if (selectedTopCategory && b.top_category !== selectedTopCategory) return false;
-      if (selectedLeafPath && b.leaf_path !== selectedLeafPath) return false;
-      if (selectedAuthor && b.author !== selectedAuthor) return false;
-      if (selectedPublication && b.publication !== selectedPublication) return false;
-      if (selectedFormat) {
-        const hasPdf = !!b.pdf_file_id;
-        const hasEpub = !!b.epub_file_id;
-        const hasJson = !!b.text_file_id;
-        const hasCov = !!(b.cover_file_id || b.cover_url);
-        if (selectedFormat === "pdf" && !hasPdf) return false;
-        if (selectedFormat === "epub" && !hasEpub) return false;
-        if (selectedFormat === "json" && !hasJson) return false;
-        if (selectedFormat === "cover" && !hasCov) return false;
-        if (selectedFormat === "complete" && !((hasPdf || hasEpub) && hasJson && hasCov)) return false;
-      }
-      if (seriesObj) {
-        const hay = `${b.name} ${b.author}`.toLowerCase();
-        if (!seriesObj.keywords.some((kw) => hay.includes(kw))) return false;
-      }
-
-      if (q) {
-        const hay = `${b.name} ${b.author} ${b.publication} ${b.leaf_path} ${b.subfolder || ""}`.toLowerCase();
-        if (!hay.includes(q)) return false;
-      }
-      return true;
-    });
-
-    result.sort((a, b) => {
-      if (sortMode === "size_desc") return (b.size || 0) - (a.size || 0);
-      if (sortMode === "size_asc") return (a.size || 0) - (b.size || 0);
-      if (sortMode === "category") {
-        return a.leaf_path.localeCompare(b.leaf_path) || a.name.localeCompare(b.name);
-      }
-      return a.name.localeCompare(b.name);
-    });
-
-    return result;
-  }, [
-    books,
-    activePath,
-    searchQuery,
-    selectedTopCategory,
-    selectedLeafPath,
-    selectedAuthor,
-    selectedPublication,
-    selectedFormat,
-    selectedSeries,
-    sortMode,
-  ]);
-
-  const totalPages = Math.max(1, Math.ceil(filteredBooks.length / PAGE_SIZE));
-  const currentPage = Math.min(page, totalPages);
-  const pageItems = filteredBooks.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
-
-  const handleResetFilters = () => {
-    setActivePath("");
-    setSearchQuery("");
-    setSelectedTopCategory("");
-    setSelectedLeafPath("");
-    setSelectedAuthor("");
-    setSelectedPublication("");
-    setSelectedFormat("");
-    setSelectedSeries("");
-    setSortMode("title");
-    setPage(1);
-  };
-
-  const hasActiveFilters =
-    !!activePath ||
-    !!searchQuery ||
-    !!selectedTopCategory ||
-    !!selectedLeafPath ||
-    !!selectedAuthor ||
-    !!selectedPublication ||
-    !!selectedFormat ||
-    !!selectedSeries;
-
-  if (loading) {
+  if (!src) {
     return (
-      <div className="min-h-screen flex flex-col items-center justify-center gap-4 p-6 text-center">
-        <div className="w-12 h-12 rounded-full border-4 border-emerald-500/30 border-t-emerald-400 animate-spin" />
-        <div>
-          <h1 className="text-lg font-bold text-white">Loading Bangladesh&apos;s Biggest E-Book Library...</h1>
-          <p className="text-sm text-slate-400 mt-1">Indexing thousands of Bangla, NCTB, Islamic, Academic &amp; World e-books</p>
-        </div>
-      </div>
-    );
-  }
-
-  if (error || !taxonomy) {
-    return (
-      <div className="min-h-screen flex flex-col items-center justify-center gap-3 p-6 text-center">
-        <p className="text-rose-400 font-semibold">{error || "Unable to load catalog."}</p>
-        <button
-          type="button"
-          onClick={() => window.location.reload()}
-          className="px-4 py-2 rounded-lg bg-emerald-600 text-white text-sm font-semibold"
-        >
-          Retry
-        </button>
+      <div className="w-full h-full bg-[#F5F6F8] p-3 flex flex-col justify-between text-left">
+        <span className="text-[10px] font-bold uppercase tracking-wider text-[#5F6672] line-clamp-1">
+          {(book.sub || book.cat).split("/").pop()}
+        </span>
+        <span className="text-xs font-extrabold text-[#0F1115] line-clamp-4 leading-snug">
+          {book.title}
+        </span>
+        <span className="text-[10px] text-[#5F6672] line-clamp-1 border-t border-neutral-200 pt-1.5">
+          {book.author}
+        </span>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen flex flex-col">
-      {/* Header Banner */}
-      <header className="bg-gradient-to-br from-emerald-950/80 via-slate-900 to-slate-950 border-b border-slate-800">
-        <div className="max-w-[1480px] mx-auto px-4 sm:px-6 py-6">
-          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
-            <div>
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 text-xs font-semibold mb-2">
-                <BookOpen className="w-3.5 h-3.5" />
-                বাংলাদেশের বৃহত্তম ই-বুক লাইব্রেরি • 25 Clean Categories
-              </div>
-              <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-white">
-                Bangladesh&apos;s Biggest E-Book Library
-              </h1>
-              <p className="text-sm text-slate-300 mt-1 max-w-3xl">
-                Explore, preview, and download thousands of Bangla &amp; English PDF/EPUB books, NCTB textbooks (Class 1–12), Islamic classics, literature, science, engineering, and competitive exam resources directly from Google Drive.
-              </p>
-            </div>
+    <img
+      src={src}
+      alt={book.title}
+      loading="lazy"
+      className="w-full h-full object-cover"
+      onError={() => setStage((s) => (s === "primary" ? "fallback" : "none"))}
+    />
+  );
+}
 
-            <div className="flex flex-wrap items-center gap-2.5 shrink-0">
-              <a
-                href={getDriveFolderUrl(taxonomy.root_drive_id)}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs sm:text-sm font-semibold shadow-lg shadow-emerald-950/50 transition"
+export function LibraryExplorer() {
+  const [books, setBooks] = useState<BookItem[]>([]);
+  const [summary, setSummary] = useState<LibrarySummary | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  const [query, setQuery] = useState("");
+  const [selectedCat, setSelectedCat] = useState("ALL");
+  const [selectedClass, setSelectedClass] = useState("");
+  const [selectedFmt, setSelectedFmt] = useState("ALL");
+  const [sortMode, setSortMode] = useState<"covers" | "title" | "size">("covers");
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  const [savedIds, setSavedIds] = useState<string[]>([]);
+  const [previewBook, setPreviewBook] = useState<BookItem | null>(null);
+
+  useEffect(() => {
+    try {
+      const params = new URLSearchParams(window.location.search);
+      const q = params.get("q");
+      const cat = params.get("cat") || params.get("category");
+      if (q) setQuery(q);
+      if (cat) setSelectedCat(cat);
+      const stored = JSON.parse(localStorage.getItem(SAVED_KEY) || "[]");
+      if (Array.isArray(stored)) setSavedIds(stored);
+    } catch {
+      // Ignore URL/storage error
+    }
+  }, []);
+
+  useEffect(() => {
+    let cancelled = false;
+    fetch("/books.json")
+      .then((res) => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return res.json() as Promise<CompactCatalog>;
+      })
+      .then((raw) => {
+        if (cancelled) return;
+        const { books: inflated, summary: meta } = inflateCatalog(raw);
+        setBooks(inflated);
+        setSummary(meta);
+        setLoading(false);
+      })
+      .catch((err) => {
+        if (!cancelled) {
+          setError(err instanceof Error ? err.message : "Failed to load catalog");
+          setLoading(false);
+        }
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  const savedSet = useMemo(() => new Set(savedIds), [savedIds]);
+
+  const toggleSave = (id: string) => {
+    setSavedIds((prev) => {
+      const next = prev.includes(id) ? prev.filter((x) => x !== id) : [id, ...prev];
+      try {
+        localStorage.setItem(SAVED_KEY, JSON.stringify(next));
+      } catch {
+        // Ignore
+      }
+      return next;
+    });
+  };
+
+  const filtered = useMemo(() => {
+    const terms = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    const list = books.filter((b) => {
+      if (selectedCat === "SAVED" && !savedSet.has(b.id)) return false;
+      if (selectedCat !== "ALL" && selectedCat !== "SAVED" && b.cat !== selectedCat) return false;
+      if (selectedClass) {
+        const leaf = (b.sub || "").split("/").pop()?.toLowerCase() || "";
+        if (leaf !== selectedClass.toLowerCase()) return false;
+      }
+      if (selectedFmt !== "ALL" && b.fmt !== selectedFmt) return false;
+      for (const t of terms) {
+        if (!b.searchBlob.includes(t)) return false;
+      }
+      return true;
+    });
+
+    if (sortMode === "covers") {
+      list.sort((a, b) => Number(Boolean(b.coverId)) - Number(Boolean(a.coverId)) || a.title.localeCompare(b.title));
+    } else if (sortMode === "size") {
+      list.sort((a, b) => b.size - a.size);
+    } else {
+      list.sort((a, b) => a.title.localeCompare(b.title));
+    }
+    return list;
+  }, [books, query, selectedCat, selectedClass, selectedFmt, sortMode, savedSet]);
+
+  useEffect(() => {
+    setVisibleCount(PAGE_SIZE);
+  }, [query, selectedCat, selectedClass, selectedFmt, sortMode]);
+
+  const shown = filtered.slice(0, visibleCount);
+
+  const surpriseBook = () => {
+    const pool = filtered.filter((b) => Boolean(b.coverId));
+    const list = pool.length ? pool : filtered;
+    if (!list.length) return;
+    setPreviewBook(list[Math.floor(Math.random() * list.length)]);
+  };
+
+  if (loading) {
+    return (
+      <div className="min-h-[70vh] flex flex-col items-center justify-center gap-3 text-[#5F6672] bg-white">
+        <Loader2 className="w-8 h-8 animate-spin text-[#0F1115]" />
+        <p className="text-sm font-semibold">Loading AnaBook Online Library…</p>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="max-w-xl mx-auto px-4 py-20 text-center space-y-3">
+        <p className="text-lg font-bold text-[#0F1115]">Unable to load catalog</p>
+        <p className="text-sm text-[#5F6672]">{error}</p>
+      </div>
+    );
+  }
+
+  return (
+    <div className="max-w-6xl mx-auto px-5 sm:px-8 py-8 space-y-6 bg-white">
+      {/* Search + Filters Panel */}
+      <div className="rounded-3xl bg-[#F5F6F8] p-5 space-y-4">
+        <div className="flex flex-col md:flex-row gap-3">
+          <div className="relative flex-1">
+            <Search className="w-4 h-4 text-[#5F6672] absolute left-4 top-1/2 -translate-y-1/2" />
+            <input
+              type="text"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder="Search 22,166+ Bangla & English books, authors, Class 1–12…"
+              className="w-full pl-11 pr-9 py-3 rounded-full bg-white border border-neutral-200 text-sm text-[#0F1115] placeholder:text-[#5F6672] focus:outline-none focus:border-[#0F1115]"
+            />
+            {query ? (
+              <button
+                type="button"
+                onClick={() => setQuery("")}
+                className="absolute right-3.5 top-1/2 -translate-y-1/2 text-[#5F6672] hover:text-[#0F1115]"
               >
-                <HardDrive className="w-4 h-4" />
-                Google Drive Root
-                <ExternalLink className="w-3.5 h-3.5" />
-              </a>
-              <a
-                href="https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-100 text-xs sm:text-sm font-semibold border border-slate-700 transition"
-              >
-                <Github className="w-4 h-4" />
-                GitHub Repository
-                <ExternalLink className="w-3.5 h-3.5" />
-              </a>
-            </div>
+                <X className="w-4 h-4" />
+              </button>
+            ) : null}
           </div>
 
-          {/* Live Library Stats Pills */}
-          <div className="grid grid-cols-2 sm:grid-cols-5 gap-2.5 mt-5">
-            <div className="bg-slate-900/70 border border-slate-800 rounded-xl px-3.5 py-2.5 flex items-center gap-2.5">
-              <BookOpen className="w-4 h-4 text-emerald-400 shrink-0" />
-              <div>
-                <div className="text-base font-bold text-white leading-tight">{books.length.toLocaleString()}</div>
-                <div className="text-[11px] text-slate-400">Total Books</div>
-              </div>
-            </div>
-            <div className="bg-slate-900/70 border border-slate-800 rounded-xl px-3.5 py-2.5 flex items-center gap-2.5">
-              <HardDrive className="w-4 h-4 text-sky-400 shrink-0" />
-              <div>
-                <div className="text-base font-bold text-white leading-tight">{formatBytes(totalSize)}</div>
-                <div className="text-[11px] text-slate-400">Total Archive</div>
-              </div>
-            </div>
-            <div className="bg-slate-900/70 border border-slate-800 rounded-xl px-3.5 py-2.5 flex items-center gap-2.5">
-              <FolderTree className="w-4 h-4 text-amber-400 shrink-0" />
-              <div>
-                <div className="text-base font-bold text-white leading-tight">{topCategories.length}</div>
-                <div className="text-[11px] text-slate-400">Main Categories</div>
-              </div>
-            </div>
-            <div className="bg-slate-900/70 border border-slate-800 rounded-xl px-3.5 py-2.5 flex items-center gap-2.5">
-              <Users className="w-4 h-4 text-rose-400 shrink-0" />
-              <div>
-                <div className="text-base font-bold text-white leading-tight">{authorOptions.length.toLocaleString()}</div>
-                <div className="text-[11px] text-slate-400">Authors</div>
-              </div>
-            </div>
-            <div className="bg-slate-900/70 border border-slate-800 rounded-xl px-3.5 py-2.5 flex items-center gap-2.5 col-span-2 sm:col-span-1">
-              <Building2 className="w-4 h-4 text-purple-400 shrink-0" />
-              <div>
-                <div className="text-base font-bold text-white leading-tight">{publicationOptions.length.toLocaleString()}</div>
-                <div className="text-[11px] text-slate-400">Publications</div>
-              </div>
-            </div>
+          <div className="flex flex-wrap items-center gap-2">
+            <select
+              value={selectedFmt}
+              onChange={(e) => setSelectedFmt(e.target.value)}
+              className="px-3.5 py-2.5 rounded-full bg-white border border-neutral-200 text-xs font-bold text-[#0F1115] focus:outline-none"
+            >
+              <option value="ALL">All Formats</option>
+              <option value="PDF">PDF</option>
+              <option value="EPUB">EPUB</option>
+              <option value="MOBI">MOBI</option>
+              <option value="DOCX">DOCX</option>
+            </select>
+
+            <select
+              value={sortMode}
+              onChange={(e) => setSortMode(e.target.value as "covers" | "title" | "size")}
+              className="px-3.5 py-2.5 rounded-full bg-white border border-neutral-200 text-xs font-bold text-[#0F1115] focus:outline-none"
+            >
+              <option value="covers">Covers First</option>
+              <option value="title">Title A–Z</option>
+              <option value="size">Largest First</option>
+            </select>
+
+            <button
+              type="button"
+              onClick={surpriseBook}
+              className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-full bg-[#0F1115] hover:bg-neutral-800 text-white text-xs font-bold transition"
+            >
+              <Sparkles className="w-3.5 h-3.5 text-[#C6F353]" />
+              Surprise Me
+            </button>
+
+            <a
+              href={getDriveFolderUrl("1fMsplDtUnpUhnNBJGKvYQ1sdZx0QVJWq")}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-full bg-white border border-neutral-200 hover:border-[#0F1115] text-xs font-bold text-[#0F1115] transition"
+            >
+              <HardDrive className="w-3.5 h-3.5" />
+              Drive
+              <ExternalLink className="w-3 h-3" />
+            </a>
           </div>
         </div>
-      </header>
 
-      {/* Main Content Layout */}
-      <div className="max-w-[1480px] w-full mx-auto px-4 sm:px-6 py-5 flex-1 flex flex-col lg:flex-row gap-5">
-        {/* Mobile Sidebar Toggle */}
-        <div className="lg:hidden flex items-center justify-between bg-slate-900 border border-slate-800 rounded-xl p-3">
-          <span className="text-xs font-semibold text-slate-300 flex items-center gap-2">
-            <FolderTree className="w-4 h-4 text-emerald-400" />
-            Category Explorer
-          </span>
+        {/* Category Pills */}
+        <div className="flex flex-wrap items-center gap-2">
           <button
             type="button"
-            onClick={() => setMobileSidebarOpen((v) => !v)}
-            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-800 text-xs font-medium text-white border border-slate-700"
-          >
-            {mobileSidebarOpen ? <X className="w-4 h-4" /> : <Menu className="w-4 h-4" />}
-            {mobileSidebarOpen ? "Hide Tree" : "Browse Folders"}
-          </button>
-        </div>
-
-        {/* Left Sidebar Tree */}
-        <div className={`${mobileSidebarOpen ? "block" : "hidden"} lg:block lg:w-80 shrink-0`}>
-          <FolderTreeSidebar
-            taxonomy={taxonomy}
-            activePath={activePath}
-            onSelectPath={(p) => {
-              setActivePath(p);
-              setSelectedTopCategory("");
-              setSelectedLeafPath("");
+            onClick={() => {
+              setSelectedCat("ALL");
+              setSelectedClass("");
             }}
-            pathCounts={pathCounts}
-            subfoldersByLeaf={subfoldersByLeaf}
-          />
+            className={`px-3.5 py-1.5 rounded-full text-xs font-bold border transition ${
+              selectedCat === "ALL"
+                ? "bg-[#0F1115] text-white border-[#0F1115]"
+                : "bg-white text-[#0F1115] border-neutral-200 hover:border-[#0F1115]"
+            }`}
+          >
+            All ({books.length.toLocaleString()})
+          </button>
+
+          <button
+            type="button"
+            onClick={() => {
+              setSelectedCat("SAVED");
+              setSelectedClass("");
+            }}
+            className={`inline-flex items-center gap-1 px-3.5 py-1.5 rounded-full text-xs font-bold border transition ${
+              selectedCat === "SAVED"
+                ? "bg-[#C6F353] text-[#0F1115] border-[#0F1115]"
+                : "bg-white text-[#0F1115] border-neutral-200 hover:border-[#0F1115]"
+            }`}
+          >
+            <Bookmark className="w-3.5 h-3.5" />
+            Saved ({savedIds.length})
+          </button>
+
+          {(summary?.cats || []).map((c) => {
+            const active = selectedCat === c;
+            return (
+              <button
+                key={c}
+                type="button"
+                onClick={() => {
+                  setSelectedCat(c);
+                  if (c !== "Education & Textbooks") setSelectedClass("");
+                }}
+                className={`px-3.5 py-1.5 rounded-full text-xs font-bold border transition ${
+                  active
+                    ? "bg-[#0F1115] text-[#C6F353] border-[#0F1115]"
+                    : "bg-white text-[#5F6672] border-neutral-200 hover:text-[#0F1115]"
+                }`}
+              >
+                {c}
+              </button>
+            );
+          })}
         </div>
 
-        {/* Right Main Browser & Results */}
-        <main className="flex-1 min-w-0 space-y-4">
-          {/* Multi-Dimensional View Switcher */}
-          <div className="flex flex-wrap items-center gap-2 bg-slate-900/80 border border-slate-800 rounded-xl p-2">
-            {(
-              [
-                { id: "folder", label: "By Folder", icon: FolderTree },
-                { id: "author", label: "By Author", icon: Users },
-                { id: "series", label: "By Series", icon: Layers },
-                { id: "format", label: "By Format", icon: FileText },
-                { id: "nctb", label: "NCTB Classes", icon: GraduationCap },
-              ] as const
-            ).map((tab) => {
-              const Icon = tab.icon;
-              const active = viewMode === tab.id;
-              return (
-                <button
-                  key={tab.id}
-                  type="button"
-                  onClick={() => setViewMode(tab.id)}
-                  className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition cursor-pointer ${
-                    active
-                      ? "bg-emerald-600 text-white shadow"
-                      : "text-slate-300 hover:bg-slate-800"
-                  }`}
-                >
-                  <Icon className="w-3.5 h-3.5" />
-                  {tab.label}
-                </button>
-              );
-            })}
+        {/* 1-Tap Class 1-12 Chips */}
+        {selectedCat === "Education & Textbooks" ? (
+          <div className="flex flex-wrap items-center gap-1.5 pt-2 border-t border-neutral-200">
+            <button
+              type="button"
+              onClick={() => setSelectedClass("")}
+              className={`px-3 py-1 rounded-full text-[11px] font-bold border transition ${
+                !selectedClass
+                  ? "bg-[#0F1115] text-white border-[#0F1115]"
+                  : "bg-white text-[#5F6672] border-neutral-200"
+              }`}
+            >
+              All Education
+            </button>
+            {CLASS_CHIPS.map((cls) => (
+              <button
+                key={cls}
+                type="button"
+                onClick={() => setSelectedClass(selectedClass === cls ? "" : cls)}
+                className={`px-3 py-1 rounded-full text-[11px] font-bold border transition ${
+                  selectedClass === cls
+                    ? "bg-[#C6F353] text-[#0F1115] border-[#0F1115]"
+                    : "bg-white text-[#0F1115] border-neutral-200 hover:border-[#0F1115]"
+                }`}
+              >
+                {cls}
+              </button>
+            ))}
           </div>
-
-          {viewMode === "folder" && (
-            <FolderBrowserGrid
-              taxonomy={taxonomy}
-              activePath={activePath}
-              onSelectPath={(p) => {
-                setActivePath(p);
-                setSelectedTopCategory("");
-                setSelectedLeafPath("");
-              }}
-              pathCounts={pathCounts}
-              pathSizes={pathSizes}
-              subfoldersByLeaf={subfoldersByLeaf}
-            />
-          )}
-
-          {viewMode === "author" && (
-            <section className="bg-slate-900/80 border border-slate-800 rounded-xl p-4 space-y-3">
-              <div className="flex items-center justify-between">
-                <h2 className="text-sm font-bold text-white flex items-center gap-2">
-                  <Users className="w-4 h-4 text-rose-400" />
-                  Top Authors (লেখক অনুযায়ী)
-                </h2>
-                {selectedAuthor && (
-                  <button
-                    type="button"
-                    onClick={() => setSelectedAuthor("")}
-                    className="text-xs text-amber-300 hover:underline cursor-pointer"
-                  >
-                    Clear Author
-                  </button>
-                )}
-              </div>
-              <div className="flex flex-wrap gap-2 max-h-56 overflow-y-auto pr-1">
-                {authorOptions
-                  .filter((a) => !a.name.startsWith("Various") && a.count >= 5)
-                  .slice(0, 60)
-                  .map((a) => (
-                    <button
-                      key={a.name}
-                      type="button"
-                      onClick={() => setSelectedAuthor(selectedAuthor === a.name ? "" : a.name)}
-                      className={`px-2.5 py-1.5 rounded-lg text-xs font-medium border transition cursor-pointer ${
-                        selectedAuthor === a.name
-                          ? "bg-emerald-500/20 border-emerald-500 text-emerald-200"
-                          : "bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-600"
-                      }`}
-                    >
-                      {a.name}{" "}
-                      <span className="text-[10px] text-slate-400 ml-1">({a.count})</span>
-                    </button>
-                  ))}
-              </div>
-            </section>
-          )}
-
-          {viewMode === "series" && (
-            <section className="bg-slate-900/80 border border-slate-800 rounded-xl p-4 space-y-3">
-              <div className="flex items-center justify-between">
-                <h2 className="text-sm font-bold text-white flex items-center gap-2">
-                  <Layers className="w-4 h-4 text-amber-400" />
-                  Popular Series &amp; Collections
-                </h2>
-                {selectedSeries && (
-                  <button
-                    type="button"
-                    onClick={() => setSelectedSeries("")}
-                    className="text-xs text-amber-300 hover:underline cursor-pointer"
-                  >
-                    Clear Series
-                  </button>
-                )}
-              </div>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
-                {seriesCounts.map((s) => (
-                  <button
-                    key={s.label}
-                    type="button"
-                    onClick={() => setSelectedSeries(selectedSeries === s.label ? "" : s.label)}
-                    className={`flex items-center justify-between px-3 py-2 rounded-lg text-xs font-semibold border transition cursor-pointer ${
-                      selectedSeries === s.label
-                        ? "bg-emerald-500/20 border-emerald-500 text-emerald-200"
-                        : "bg-slate-950 border-slate-800 text-slate-200 hover:border-slate-600"
-                    }`}
-                  >
-                    <span className="truncate">{s.label}</span>
-                    <span className="text-[11px] px-1.5 py-0.5 rounded bg-slate-800 text-slate-300">
-                      {s.count.toLocaleString()}
-                    </span>
-                  </button>
-                ))}
-              </div>
-            </section>
-          )}
-
-          {viewMode === "format" && (
-            <section className="bg-slate-900/80 border border-slate-800 rounded-xl p-4 space-y-3">
-              <h2 className="text-sm font-bold text-white flex items-center gap-2">
-                <FileText className="w-4 h-4 text-sky-400" />
-                Browse by File Format &amp; Completeness
-              </h2>
-              <div className="grid grid-cols-2 sm:grid-cols-5 gap-2.5">
-                {(
-                  [
-                    { id: "pdf", label: "PDF Books", count: formatCounts.pdf },
-                    { id: "epub", label: "EPUB Books", count: formatCounts.epub },
-                    { id: "json", label: "Full-Text JSON", count: formatCounts.json },
-                    { id: "cover", label: "Has Cover", count: formatCounts.cover },
-                    { id: "complete", label: "Complete Bundle", count: formatCounts.complete },
-                  ] as const
-                ).map((fmt) => (
-                  <button
-                    key={fmt.id}
-                    type="button"
-                    onClick={() => setSelectedFormat(selectedFormat === fmt.id ? "" : fmt.id)}
-                    className={`p-3 rounded-xl border text-left transition cursor-pointer ${
-                      selectedFormat === fmt.id
-                        ? "bg-emerald-500/20 border-emerald-500 text-emerald-200"
-                        : "bg-slate-950 border-slate-800 text-slate-200 hover:border-slate-600"
-                    }`}
-                  >
-                    <div className="text-base font-bold">{fmt.count.toLocaleString()}</div>
-                    <div className="text-[11px] text-slate-400 mt-0.5">{fmt.label}</div>
-                  </button>
-                ))}
-              </div>
-            </section>
-          )}
-
-          {viewMode === "nctb" && (
-            <section className="bg-slate-900/80 border border-slate-800 rounded-xl p-4 space-y-3">
-              <div className="flex items-center justify-between">
-                <h2 className="text-sm font-bold text-white flex items-center gap-2">
-                  <GraduationCap className="w-4 h-4 text-emerald-400" />
-                  NCTB Textbooks &amp; Academic Classes (Pre-Primary to Class 12)
-                </h2>
-                {selectedLeafPath.startsWith("Education and Academics/") && (
-                  <button
-                    type="button"
-                    onClick={() => setSelectedLeafPath("")}
-                    className="text-xs text-amber-300 hover:underline cursor-pointer"
-                  >
-                    All Classes
-                  </button>
-                )}
-              </div>
-              <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-2">
-                {nctbCards.map((c) => (
-                  <button
-                    key={c.leafPath}
-                    type="button"
-                    onClick={() =>
-                      setSelectedLeafPath(selectedLeafPath === c.leafPath ? "" : c.leafPath)
-                    }
-                    className={`p-2.5 rounded-xl border text-left transition cursor-pointer ${
-                      selectedLeafPath === c.leafPath
-                        ? "bg-emerald-500/20 border-emerald-500 text-emerald-200"
-                        : "bg-slate-950 border-slate-800 text-slate-200 hover:border-slate-600"
-                    }`}
-                  >
-                    <div className="text-xs font-bold truncate">{c.label}</div>
-                    <div className="text-[11px] text-slate-400">{c.count.toLocaleString()} books</div>
-                  </button>
-                ))}
-              </div>
-            </section>
-          )}
-
-          {/* Search & Multi-Faceted Filter Bar */}
-          <section className="bg-slate-900/80 border border-slate-800 rounded-xl p-4 space-y-3">
-            <div className="flex flex-col sm:flex-row gap-3">
-              <div className="relative flex-1">
-                <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none" />
-                <input
-                  type="search"
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  placeholder="বই, লেখক, প্রকাশনী বা বিষয় লিখুন... (Search title, author, publication, NCTB, category)"
-                  className="w-full bg-slate-950 border border-slate-800 focus:border-emerald-500 rounded-xl pl-10 pr-4 py-2.5 text-sm text-slate-100 placeholder-slate-500 outline-none transition"
-                />
-              </div>
-
-              {hasActiveFilters && (
-                <button
-                  type="button"
-                  onClick={handleResetFilters}
-                  className="inline-flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-slate-200 border border-slate-700 transition shrink-0 cursor-pointer"
-                >
-                  <RotateCcw className="w-3.5 h-3.5 text-amber-400" />
-                  Reset Filters
-                </button>
-              )}
-            </div>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-5 gap-2.5">
-              {/* Top Category */}
-              <select
-                value={selectedTopCategory}
-                onChange={(e) => {
-                  setSelectedTopCategory(e.target.value);
-                  setSelectedLeafPath("");
-                }}
-                aria-label="Filter by top category"
-                className="bg-slate-950 border border-slate-800 rounded-lg px-3 py-2 text-xs text-slate-200 outline-none focus:border-emerald-500"
-              >
-                <option value="">All 25 Categories ({books.length.toLocaleString()})</option>
-                {topCategories.map((tc) => (
-                  <option key={tc} value={tc}>
-                    {cleanCategoryLabel(tc)} ({(pathCounts[tc] || 0).toLocaleString()})
-                  </option>
-                ))}
-              </select>
-
-              {/* Subcategory */}
-              <select
-                value={selectedLeafPath}
-                onChange={(e) => setSelectedLeafPath(e.target.value)}
-                aria-label="Filter by subcategory"
-                className="bg-slate-950 border border-slate-800 rounded-lg px-3 py-2 text-xs text-slate-200 outline-none focus:border-emerald-500"
-              >
-                <option value="">All Subcategories</option>
-                {filteredLeafOptions.map((lf) => (
-                  <option key={lf.leaf_path} value={lf.leaf_path}>
-                    {lf.label} ({lf.count.toLocaleString()})
-                  </option>
-                ))}
-              </select>
-
-              {/* Author */}
-              <select
-                value={selectedAuthor}
-                onChange={(e) => setSelectedAuthor(e.target.value)}
-                aria-label="Filter by author"
-                className="bg-slate-950 border border-slate-800 rounded-lg px-3 py-2 text-xs text-slate-200 outline-none focus:border-emerald-500"
-              >
-                <option value="">All Authors ({authorOptions.length.toLocaleString()})</option>
-                {authorOptions.map((a) => (
-                  <option key={a.name} value={a.name}>
-                    {a.name} ({a.count.toLocaleString()})
-                  </option>
-                ))}
-              </select>
-
-              {/* Publication */}
-              <select
-                value={selectedPublication}
-                onChange={(e) => setSelectedPublication(e.target.value)}
-                aria-label="Filter by publication"
-                className="bg-slate-950 border border-slate-800 rounded-lg px-3 py-2 text-xs text-slate-200 outline-none focus:border-emerald-500"
-              >
-                <option value="">All Publications ({publicationOptions.length.toLocaleString()})</option>
-                {publicationOptions.map((p) => (
-                  <option key={p.name} value={p.name}>
-                    {p.name} ({p.count.toLocaleString()})
-                  </option>
-                ))}
-              </select>
-
-              {/* Sort */}
-              <select
-                value={sortMode}
-                onChange={(e) => setSortMode(e.target.value as SortMode)}
-                aria-label="Sort books"
-                className="bg-slate-950 border border-slate-800 rounded-lg px-3 py-2 text-xs text-slate-200 outline-none focus:border-emerald-500"
-              >
-                <option value="title">Sort: Title (A–Z)</option>
-                <option value="size_desc">Sort: Size (Largest First)</option>
-                <option value="size_asc">Sort: Size (Smallest First)</option>
-                <option value="category">Sort: Category</option>
-              </select>
-            </div>
-
-            <div className="flex flex-wrap items-center justify-between gap-2 text-xs text-slate-400 pt-1">
-              <div className="flex items-center gap-1.5">
-                <Filter className="w-3.5 h-3.5 text-emerald-400" />
-                Showing <span className="font-bold text-slate-100">{filteredBooks.length.toLocaleString()}</span> matching books
-                {totalPages > 1 && (
-                  <span>
-                    • Page {currentPage} of {totalPages}
-                  </span>
-                )}
-              </div>
-              {selectedAuthor && (
-                <button
-                  type="button"
-                  onClick={() => setSelectedAuthor("")}
-                  className="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-amber-500/15 text-amber-300 border border-amber-500/30"
-                >
-                  Author: {selectedAuthor} <X className="w-3 h-3" />
-                </button>
-              )}
-              {selectedPublication && (
-                <button
-                  type="button"
-                  onClick={() => setSelectedPublication("")}
-                  className="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-purple-500/15 text-purple-300 border border-purple-500/30"
-                >
-                  Publication: {selectedPublication} <X className="w-3 h-3" />
-                </button>
-              )}
-              {selectedSeries && (
-                <button
-                  type="button"
-                  onClick={() => setSelectedSeries("")}
-                  className="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-emerald-500/15 text-emerald-300 border border-emerald-500/30"
-                >
-                  Series: {selectedSeries} <X className="w-3 h-3" />
-                </button>
-              )}
-              {selectedFormat && (
-                <button
-                  type="button"
-                  onClick={() => setSelectedFormat("")}
-                  className="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-sky-500/15 text-sky-300 border border-sky-500/30"
-                >
-                  Format: {selectedFormat.toUpperCase()} <X className="w-3 h-3" />
-                </button>
-              )}
-            </div>
-          </section>
-
-          {/* Books Grid */}
-          {pageItems.length === 0 ? (
-            <div className="bg-slate-900/60 border border-slate-800 rounded-xl p-10 text-center space-y-2">
-              <p className="text-slate-300 font-semibold">No books match your active search/filter criteria.</p>
-              <button
-                type="button"
-                onClick={handleResetFilters}
-                className="px-4 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-semibold cursor-pointer"
-              >
-                Show All Books
-              </button>
-            </div>
-          ) : (
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">
-              {pageItems.map((book) => (
-                <BookCard
-                  key={book.file_id}
-                  book={book}
-                  onPreview={setPreviewBook}
-                  onFilterAuthor={(author) => setSelectedAuthor(author)}
-                  onFilterPublication={(pub) => setSelectedPublication(pub)}
-                  onNavigatePath={(path) => {
-                    setActivePath(path);
-                    setSelectedTopCategory("");
-                    setSelectedLeafPath("");
-                  }}
-                />
-              ))}
-            </div>
-          )}
-
-          {/* Pagination */}
-          {totalPages > 1 && (
-            <div className="flex flex-wrap items-center justify-center gap-2 pt-2 pb-6">
-              <button
-                type="button"
-                disabled={currentPage <= 1}
-                onClick={() => setPage(1)}
-                className="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-xs font-semibold text-slate-300 disabled:opacity-40 hover:bg-slate-800 cursor-pointer"
-              >
-                First
-              </button>
-              <button
-                type="button"
-                disabled={currentPage <= 1}
-                onClick={() => setPage((p) => Math.max(1, p - 1))}
-                className="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-xs font-semibold text-slate-300 disabled:opacity-40 hover:bg-slate-800 cursor-pointer"
-              >
-                Previous
-              </button>
-              <span className="px-3 py-1.5 text-xs text-slate-400 font-medium">
-                Page <strong className="text-white">{currentPage}</strong> / {totalPages}
-              </span>
-              <button
-                type="button"
-                disabled={currentPage >= totalPages}
-                onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
-                className="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-xs font-semibold text-slate-300 disabled:opacity-40 hover:bg-slate-800 cursor-pointer"
-              >
-                Next
-              </button>
-              <button
-                type="button"
-                disabled={currentPage >= totalPages}
-                onClick={() => setPage(totalPages)}
-                className="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-xs font-semibold text-slate-300 disabled:opacity-40 hover:bg-slate-800 cursor-pointer"
-              >
-                Last
-              </button>
-            </div>
-          )}
-        </main>
+        ) : null}
       </div>
 
-      <PreviewModal book={previewBook} onClose={() => setPreviewBook(null)} />
+      {/* Results Count */}
+      <div className="flex items-center justify-between text-xs text-[#5F6672] px-1">
+        <span>
+          Showing <strong className="text-[#0F1115]">{shown.length.toLocaleString()}</strong> of{" "}
+          <strong className="text-[#0F1115]">{filtered.length.toLocaleString()}</strong> books
+        </span>
+        {summary ? <span>Archive: {formatBytes(summary.totalBytes)}</span> : null}
+      </div>
+
+      {/* Book Grid */}
+      {shown.length === 0 ? (
+        <div className="rounded-3xl bg-[#F5F6F8] py-16 text-center space-y-2">
+          <p className="text-base font-bold text-[#0F1115]">No matching books found</p>
+          <p className="text-xs text-[#5F6672]">Try clearing a filter or searching another keyword.</p>
+        </div>
+      ) : (
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+          {shown.map((book) => {
+            const isSaved = savedSet.has(book.id);
+            return (
+              <div
+                key={book.id}
+                className="group rounded-2xl bg-white border border-neutral-200 hover:border-[#0F1115] overflow-hidden flex flex-col transition shadow-xs"
+              >
+                <button
+                  type="button"
+                  onClick={() => setPreviewBook(book)}
+                  className="aspect-[2/3] w-full bg-[#F5F6F8] overflow-hidden relative"
+                >
+                  <CoverThumb book={book} />
+                  <span className="absolute top-2 left-2 px-2 py-0.5 rounded-full bg-[#0F1115]/85 text-[10px] font-bold text-white">
+                    {book.fmt}
+                  </span>
+                </button>
+
+                <div className="p-3 flex-1 flex flex-col justify-between gap-2">
+                  <div>
+                    <h3
+                      className="text-xs font-extrabold text-[#0F1115] line-clamp-2 leading-snug"
+                      title={book.title}
+                    >
+                      {book.title}
+                    </h3>
+                    <p className="text-[11px] text-[#5F6672] line-clamp-1 mt-0.5">{book.author}</p>
+                  </div>
+
+                  <div className="flex items-center gap-1.5 pt-1">
+                    <button
+                      type="button"
+                      onClick={() => setPreviewBook(book)}
+                      className="flex-1 inline-flex items-center justify-center gap-1 py-1.5 rounded-full bg-[#0F1115] hover:bg-neutral-800 text-white text-[11px] font-bold transition"
+                    >
+                      <BookOpen className="w-3.5 h-3.5 text-[#C6F353]" />
+                      Read
+                    </button>
+
+                    <a
+                      href={getDownloadUrl(book.id)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title={`Download (${formatBytes(book.size)})`}
+                      className="w-7 h-7 rounded-full bg-[#F5F6F8] hover:bg-[#C6F353] text-[#0F1115] flex items-center justify-center transition"
+                    >
+                      <Download className="w-3.5 h-3.5" />
+                    </a>
+
+                    <button
+                      type="button"
+                      onClick={() => toggleSave(book.id)}
+                      title={isSaved ? "Remove bookmark" : "Bookmark"}
+                      className={`w-7 h-7 rounded-full flex items-center justify-center transition ${
+                        isSaved
+                          ? "bg-[#C6F353] text-[#0F1115]"
+                          : "bg-[#F5F6F8] text-[#5F6672] hover:text-[#0F1115]"
+                      }`}
+                    >
+                      <Bookmark className="w-3.5 h-3.5" fill={isSaved ? "currentColor" : "none"} />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      )}
+
+      {/* Load More */}
+      {visibleCount < filtered.length ? (
+        <div className="flex justify-center pt-4">
+          <button
+            type="button"
+            onClick={() => setVisibleCount((c) => c + PAGE_SIZE)}
+            className="px-6 py-3 rounded-full bg-[#0F1115] hover:bg-neutral-800 text-sm font-bold text-white transition"
+          >
+            Load More Books ({(filtered.length - visibleCount).toLocaleString()} remaining)
+          </button>
+        </div>
+      ) : null}
+
+      {/* In-Page Reader Preview Modal */}
+      {previewBook ? (
+        <div
+          className="fixed inset-0 z-50 bg-black/75 backdrop-blur-sm flex items-center justify-center p-3 sm:p-6"
+          onClick={() => setPreviewBook(null)}
+        >
+          <div
+            className="w-full max-w-5xl h-[88vh] rounded-3xl bg-white border border-neutral-200 overflow-hidden flex flex-col shadow-2xl"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="px-5 py-3.5 border-b border-neutral-200 flex items-center justify-between gap-3 bg-white">
+              <div className="min-w-0">
+                <h3 className="text-sm font-extrabold text-[#0F1115] truncate">{previewBook.title}</h3>
+                <p className="text-[11px] text-[#5F6672] truncate">
+                  {previewBook.author} · {previewBook.fmt} · {formatBytes(previewBook.size)}
+                </p>
+              </div>
+              <div className="flex items-center gap-2 shrink-0">
+                <a
+                  href={getDownloadUrl(previewBook.id)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-[#0F1115] text-white text-xs font-bold"
+                >
+                  <Download className="w-3.5 h-3.5 text-[#C6F353]" />
+                  Download
+                </a>
+                <button
+                  type="button"
+                  onClick={() => setPreviewBook(null)}
+                  className="w-8 h-8 rounded-full bg-[#F5F6F8] text-[#0F1115] flex items-center justify-center"
+                >
+                  <X className="w-4 h-4" />
+                </button>
+              </div>
+            </div>
+            <iframe
+              src={getPreviewUrl(previewBook.id)}
+              title={previewBook.title}
+              className="flex-1 w-full bg-[#F5F6F8]"
+              allow="autoplay"
+            />
+          </div>
+        </div>
+      ) : null}
     </div>
   );
 }

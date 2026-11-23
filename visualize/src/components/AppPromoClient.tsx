@@ -5,21 +5,17 @@ import Link from "next/link";
 import {
   ArrowRight,
   BookOpen,
-  CheckCircle2,
   Download,
   Github,
   Globe,
   Layers,
   Lock,
   Mail,
-  Moon,
-  Palette,
-  SlidersHorizontal,
+  ShieldCheck,
   Smartphone,
-  Sparkles,
-  Sun,
-  Users,
+  Star,
   WifiOff,
+  Zap,
 } from "lucide-react";
 
 const APK_URL =
@@ -27,437 +23,376 @@ const APK_URL =
 const REPO_URL =
   "https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library";
 
-type PresetId = "espresso" | "matcha" | "midnight" | "sepia" | "rosewood";
+type ThemeChoice = "espresso" | "matcha" | "midnight" | "sepia" | "rosewood";
 
-const THEME_PRESETS: Record<
-  PresetId,
-  {
-    label: string;
-    subtitle: string;
-    dark: { bg: string; card: string; accent: string; ink: string; muted: string; border: string };
-    light: { bg: string; card: string; accent: string; ink: string; muted: string; border: string };
-    swatches: [string, string, string];
-  }
-> = {
-  espresso: {
-    label: "Espresso",
-    subtitle: "Obsidian & Terracotta",
-    swatches: ["#11100F", "#2D2826", "#C6927A"],
-    dark: { bg: "#11100F", card: "#2D2826", accent: "#C6927A", ink: "#F7F3EE", muted: "#9E9590", border: "#3D3532" },
-    light: { bg: "#FAF7F4", card: "#FFFFFF", accent: "#B56E52", ink: "#171412", muted: "#6E6560", border: "#E5DDD5" },
-  },
-  matcha: {
-    label: "Matcha",
-    subtitle: "Japanese Book Café",
-    swatches: ["#0F1613", "#1E2B24", "#8DB596"],
-    dark: { bg: "#0F1613", card: "#1E2B24", accent: "#8DB596", ink: "#F3F7F2", muted: "#8FA396", border: "#2D3F35" },
-    light: { bg: "#F5F8F4", card: "#FFFFFF", accent: "#4C7A5B", ink: "#142018", muted: "#5D6E62", border: "#D4E0D2" },
-  },
-  midnight: {
-    label: "Midnight",
-    subtitle: "Indigo & Soft Gold",
-    swatches: ["#0C101C", "#1B2236", "#D8B26E"],
-    dark: { bg: "#0C101C", card: "#1B2236", accent: "#D8B26E", ink: "#F5F7FC", muted: "#8E99B5", border: "#2B3552" },
-    light: { bg: "#F4F6FC", card: "#FFFFFF", accent: "#4A5D9E", ink: "#12182B", muted: "#5D6782", border: "#D5DDF0" },
-  },
-  sepia: {
-    label: "Sepia",
-    subtitle: "Leather & Parchment",
-    swatches: ["#17120E", "#2C2119", "#D49B54"],
-    dark: { bg: "#17120E", card: "#2C2119", accent: "#D49B54", ink: "#F9F1E4", muted: "#A89886", border: "#423327" },
-    light: { bg: "#F7EFE2", card: "#FFFBF3", accent: "#8B5A2B", ink: "#241A10", muted: "#756352", border: "#DECBB0" },
-  },
-  rosewood: {
-    label: "Rosewood",
-    subtitle: "Plum & Dusty Rose",
-    swatches: ["#161014", "#2A1F26", "#D48E9B"],
-    dark: { bg: "#161014", card: "#2A1F26", accent: "#D48E9B", ink: "#FAF2F4", muted: "#A38F96", border: "#403039" },
-    light: { bg: "#FBF5F7", card: "#FFFFFF", accent: "#A65568", ink: "#24171C", muted: "#78626A", border: "#E6D3DA" },
-  },
+const THEMES: Record<ThemeChoice, { name: string; swatch: string; accent: string }> = {
+  espresso: { name: "Espresso", swatch: "#2D2826", accent: "#C6927A" },
+  matcha: { name: "Matcha", swatch: "#1E2B24", accent: "#8DB596" },
+  midnight: { name: "Midnight", swatch: "#1B2236", accent: "#D8B26E" },
+  sepia: { name: "Sepia", swatch: "#2C2119", accent: "#D49B54" },
+  rosewood: { name: "Rosewood", swatch: "#2A1F26", accent: "#D48E9B" },
 };
 
-const FEATURES = [
-  {
-    icon: WifiOff,
-    title: "100% Offline After Sync",
-    desc: "Caches all 22,166+ books locally, plus 1-tap single-book or full-section offline downloads (e.g. entire Class 7 or Humayun Ahmed).",
-  },
-  {
-    icon: Layers,
-    title: "Quick Class 1–12 & 3D Icons",
-    desc: "Instant 1-tap Class 1–12 pills inside Education & Textbooks paired with 30 custom 3D category icons hosted on Google Drive.",
-  },
-  {
-    icon: Lock,
-    title: "Full-Screen Lock & Side Scroll Rail",
-    desc: "Drag the right-edge scroll rail to jump anywhere in a book, and tap Lock to block accidental mistouches while scrolling.",
-  },
-  {
-    icon: Palette,
-    title: "5 Themes · Dark & White Modes",
-    desc: "Switch live across Espresso, Matcha, Midnight, Sepia, and Rosewood palettes in both Dark and White modes with custom font sizes.",
-  },
-  {
-    icon: Users,
-    title: "131+ Author Portraits & Avatars",
-    desc: "Explore Bangladeshi and international writers with Drive-hosted portraits and minimalist Pinterest-inspired illustrated avatars.",
-  },
-  {
-    icon: Sparkles,
-    title: "Suggested For You & Reading Stats",
-    desc: "Personalized book suggestions on Home alongside reading streaks, completed books, pages logged, and live app storage usage.",
-  },
-];
-
 export function AppPromoClient() {
-  const [preset, setPreset] = useState<PresetId>("espresso");
-  const [mode, setMode] = useState<"dark" | "light">("dark");
-  const activeColors = THEME_PRESETS[preset][mode];
+  const [selectedTheme, setSelectedTheme] = useState<ThemeChoice>("espresso");
 
   return (
-    <div className="min-h-screen bg-[#11100F] text-[#F7F3EE]">
+    <div className="min-h-screen bg-white text-[#0F1115]">
       {/* Hero Section */}
-      <section className="relative overflow-hidden border-b border-[#26211F]">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-14 sm:py-20 grid lg:grid-cols-12 gap-12 items-center">
-          <div className="lg:col-span-7 space-y-6">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#C6927A]/15 border border-[#C6927A]/40 text-[#C6927A] text-xs font-bold tracking-wide">
-              <Smartphone className="w-3.5 h-3.5" />
-              ANDROID OFFLINE READER · v1.0.0 · 23.7 MB APK
-            </div>
-
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.07] text-[#F7F3EE]">
-              22,166+ Bangla &amp; Academic Books.{" "}
-              <span className="text-[#C6927A]">Read Anywhere Offline.</span>
+      <section className="max-w-6xl mx-auto px-5 sm:px-8 pt-12 pb-16 sm:pt-16 sm:pb-20">
+        <div className="grid lg:grid-cols-12 gap-12 items-center">
+          {/* Left Copy + Dual Black Pill Badges */}
+          <div className="lg:col-span-6 space-y-6">
+            <h1 className="text-4xl sm:text-5xl lg:text-[54px] font-extrabold tracking-tight leading-[1.08] text-[#0F1115]">
+              Read your favorite books easily with AnaBook.
             </h1>
 
-            <p className="text-base sm:text-lg text-[#9E9590] max-w-2xl leading-relaxed">
-              The official offline-first Android app for Bangladesh&apos;s Biggest eBook Library — featuring Class 1–12 NCTB textbooks, university courses, Bangla classics, 1-tap full-section downloads, and distraction-free reading.
+            <p className="text-base sm:text-lg text-[#5F6672] max-w-md leading-relaxed">
+              Carry 22,166+ Bangla, English &amp; NCTB Class 1–12 books in your pocket with the cleanest offline mobile library.
             </p>
 
-            <div className="flex flex-wrap items-center gap-3 pt-1">
+            <div className="flex flex-wrap items-center gap-3 pt-2">
               <a
                 href={APK_URL}
-                className="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-2xl bg-[#F2ECE6] hover:bg-white text-[#171412] font-extrabold text-sm sm:text-base shadow-xl transition"
+                className="inline-flex items-center gap-3 px-5 py-3 rounded-full bg-[#0F1115] hover:bg-neutral-800 text-white transition shadow-md"
               >
-                <Download className="w-5 h-5" />
-                Download Android APK
+                <Smartphone className="w-5 h-5 text-[#C6F353]" />
+                <div className="text-left leading-tight">
+                  <span className="block text-[10px] text-neutral-300 font-medium">Download for</span>
+                  <span className="block text-sm font-bold">Android APK</span>
+                </div>
               </a>
+
               <Link
                 href="/library"
-                className="inline-flex items-center gap-2 px-6 py-3.5 rounded-2xl bg-[#2D2826] hover:bg-[#3A3330] border border-[#3D3532] text-[#F7F3EE] font-bold text-sm sm:text-base transition"
+                className="inline-flex items-center gap-3 px-5 py-3 rounded-full bg-[#0F1115] hover:bg-neutral-800 text-white transition shadow-md"
               >
-                <BookOpen className="w-5 h-5 text-[#C6927A]" />
-                Open Online Library
-                <ArrowRight className="w-4 h-4" />
+                <Globe className="w-5 h-5 text-[#C6F353]" />
+                <div className="text-left leading-tight">
+                  <span className="block text-[10px] text-neutral-300 font-medium">Browse in browser</span>
+                  <span className="block text-sm font-bold">Online Library</span>
+                </div>
               </Link>
-            </div>
-
-            <div className="grid grid-cols-3 gap-4 pt-4 border-t border-[#26211F] max-w-lg">
-              <div>
-                <div className="text-2xl font-black text-[#F7F3EE]">22,166+</div>
-                <div className="text-xs text-[#9E9590]">Books &amp; Textbooks</div>
-              </div>
-              <div>
-                <div className="text-2xl font-black text-[#C6927A]">316.8 GB</div>
-                <div className="text-xs text-[#9E9590]">Open Drive Archive</div>
-              </div>
-              <div>
-                <div className="text-2xl font-black text-[#5F7A6F]">23.7 MB</div>
-                <div className="text-xs text-[#9E9590]">Lightweight APK</div>
-              </div>
             </div>
           </div>
 
-          {/* Live Interactive Theme-Switchable Phone Preview */}
-          <div className="lg:col-span-5 flex flex-col items-center gap-4">
-            <div
-              className="w-full max-w-[332px] rounded-[36px] border-2 p-4 shadow-2xl space-y-3.5 transition-colors duration-300"
-              style={{
-                backgroundColor: activeColors.bg,
-                borderColor: activeColors.border,
-                color: activeColors.ink,
-              }}
-            >
-              <div className="flex items-center justify-between px-1">
-                <span className="text-xs font-extrabold tracking-wider">BANGLA LIBRARY</span>
-                <span
-                  className="text-[10px] font-bold px-2.5 py-0.5 rounded-full border"
-                  style={{
-                    backgroundColor: activeColors.card,
-                    borderColor: activeColors.border,
-                    color: activeColors.accent,
-                  }}
-                >
-                  {THEME_PRESETS[preset].label}
-                </span>
-              </div>
+          {/* Right Phone Mockup with Subtle Circular Halo & Lime-Green Header */}
+          <div className="lg:col-span-6 flex justify-center relative">
+            {/* Subtle circular halo behind phone */}
+            <div className="relative flex items-center justify-center">
+              <div className="absolute w-[310px] h-[310px] sm:w-[350px] sm:h-[350px] rounded-full border-[14px] border-dashed border-[#F3F4F6]" />
+              <div className="absolute w-[260px] h-[260px] sm:w-[295px] sm:h-[295px] rounded-full border border-[#ECEEF2]" />
 
-              <div
-                className="rounded-2xl border p-4 space-y-2.5"
-                style={{ backgroundColor: activeColors.card, borderColor: activeColors.border }}
-              >
-                <div
-                  className="text-[10px] font-extrabold uppercase tracking-wider"
-                  style={{ color: activeColors.accent }}
-                >
-                  CONTINUE READING
-                </div>
-                <div className="text-sm font-extrabold leading-snug">
-                  সঞ্চয়িতা · রবীন্দ্রনাথ ঠাকুর
-                </div>
-                <div className="flex items-center justify-between pt-1">
-                  <div className="flex items-center gap-2">
-                    <span
-                      className="w-9 h-9 rounded-full border-2 flex items-center justify-center text-[11px] font-bold"
-                      style={{ borderColor: activeColors.accent }}
-                    >
-                      72%
-                    </span>
-                    <span
-                      className="px-3 py-1.5 rounded-xl text-xs font-extrabold"
-                      style={{
-                        backgroundColor: activeColors.accent,
-                        color: mode === "dark" ? "#171412" : "#FFFFFF",
-                      }}
-                    >
-                      Read Offline
-                    </span>
+              {/* Phone Frame */}
+              <div className="relative z-10 w-[248px] sm:w-[266px] rounded-[36px] border-[7px] border-[#0F1115] bg-white shadow-2xl overflow-hidden">
+                {/* Notch */}
+                <div className="bg-[#C6F353] pt-3 pb-4 px-4">
+                  <div className="w-16 h-3.5 bg-[#0F1115] rounded-full mx-auto mb-3" />
+                  <p className="text-[11px] font-bold text-[#0F1115]/80 mb-2">
+                    Your offline library is ready.
+                  </p>
+
+                  {/* Dark Featured Book Card inside Lime Header */}
+                  <div className="rounded-2xl bg-[#111214] text-white p-3.5 space-y-2.5 shadow-lg">
+                    <div className="flex items-center justify-between">
+                      <span className="text-[10px] font-bold text-[#C6F353] uppercase tracking-wider">
+                        Continue Reading
+                      </span>
+                      <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-white/15">
+                        72%
+                      </span>
+                    </div>
+                    <div className="text-sm font-extrabold leading-snug">
+                      সঞ্চয়িতা · রবীন্দ্রনাথ ঠাকুর
+                    </div>
+                    <div className="flex items-center justify-between text-[10px] text-neutral-400">
+                      <span>Bangla Classics · PDF</span>
+                      <span className="text-[#C6F353] font-bold">Saved Offline</span>
+                    </div>
                   </div>
-                  <span className="text-[10px] font-bold px-2 py-1 rounded-md bg-[#5F7A6F] text-white">
-                    OFFLINE
-                  </span>
                 </div>
-              </div>
 
-              <div className="space-y-2">
-                <div className="text-xs font-bold px-1">Quick Class Access</div>
-                <div className="flex gap-1.5 overflow-hidden">
-                  {["Class 1", "Class 3", "Class 7", "Class 10", "HSC"].map((c, idx) => (
-                    <span
-                      key={c}
-                      className="px-2.5 py-1 rounded-lg text-[10px] font-bold whitespace-nowrap border"
-                      style={
-                        idx === 2
-                          ? {
-                              backgroundColor: activeColors.accent,
-                              borderColor: activeColors.accent,
-                              color: mode === "dark" ? "#171412" : "#FFFFFF",
-                            }
-                          : {
-                              backgroundColor: activeColors.card,
-                              borderColor: activeColors.border,
-                              color: activeColors.ink,
-                            }
-                      }
-                    >
-                      {c}
-                    </span>
+                {/* Clean White List Below */}
+                <div className="p-4 space-y-2.5 bg-white">
+                  <div className="flex items-center justify-between text-[11px] font-bold text-[#0F1115]">
+                    <span>Quick Classes</span>
+                    <span className="text-[#5F6672] font-medium">NCTB 1–12</span>
+                  </div>
+
+                  {[
+                    { name: "Class 1 – Class 5", meta: "Primary · 209 books", pct: "w-3/4" },
+                    { name: "Class 6 – Class 10", meta: "Secondary · 813 books", pct: "w-5/6" },
+                    { name: "Humayun Ahmed", meta: "Author · 325 books", pct: "w-2/3" },
+                  ].map((row) => (
+                    <div key={row.name} className="space-y-1">
+                      <div className="flex items-center justify-between text-[11px]">
+                        <span className="font-bold text-[#0F1115]">{row.name}</span>
+                        <span className="text-[10px] text-[#5F6672]">{row.meta.split("·")[1]}</span>
+                      </div>
+                      <div className="h-1.5 rounded-full bg-[#F1F2F5] overflow-hidden">
+                        <div className={`h-full rounded-full bg-[#0F1115] ${row.pct}`} />
+                      </div>
+                    </div>
                   ))}
                 </div>
               </div>
-
-              <div
-                className="grid grid-cols-5 items-center pt-2.5 border-t text-center text-[10px]"
-                style={{ borderColor: activeColors.border, color: activeColors.muted }}
-              >
-                <span style={{ color: activeColors.ink, fontWeight: 800 }}>Home</span>
-                <span>Library</span>
-                <span
-                  className="mx-auto w-9 h-9 rounded-full flex items-center justify-center font-black text-sm"
-                  style={{
-                    backgroundColor: activeColors.accent,
-                    color: mode === "dark" ? "#171412" : "#FFFFFF",
-                  }}
-                >
-                  ⊞
-                </span>
-                <span>Stats</span>
-                <span>Settings</span>
-              </div>
-            </div>
-
-            {/* Interactive Mode + Theme Preview Controls */}
-            <div className="flex flex-wrap items-center justify-center gap-2">
-              <button
-                type="button"
-                onClick={() => setMode((m) => (m === "dark" ? "light" : "dark"))}
-                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#2D2826] border border-[#3D3532] text-xs font-bold text-[#F2ECE6] hover:border-[#C6927A] transition"
-              >
-                {mode === "dark" ? <Sun className="w-3.5 h-3.5 text-[#C6927A]" /> : <Moon className="w-3.5 h-3.5 text-[#C6927A]" />}
-                {mode === "dark" ? "Preview White" : "Preview Dark"}
-              </button>
-
-              {(Object.keys(THEME_PRESETS) as PresetId[]).map((key) => {
-                const p = THEME_PRESETS[key];
-                const selected = preset === key;
-                return (
-                  <button
-                    key={key}
-                    type="button"
-                    onClick={() => setPreset(key)}
-                    className={`inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl border text-xs font-bold transition ${
-                      selected
-                        ? "bg-[#C6927A]/20 border-[#C6927A] text-[#F7F3EE]"
-                        : "bg-[#1D1A18] border-[#3D3532] text-[#9E9590] hover:text-[#F7F3EE]"
-                    }`}
-                  >
-                    <span className="w-2.5 h-2.5 rounded-full" style={{ backgroundColor: p.swatches[2] }} />
-                    {p.label}
-                  </button>
-                );
-              })}
             </div>
           </div>
         </div>
       </section>
 
-      {/* Features Grid */}
-      <section id="features" className="max-w-6xl mx-auto px-4 sm:px-6 py-16 space-y-8">
-        <div className="space-y-2">
-          <span className="text-xs font-extrabold uppercase tracking-widest text-[#C6927A]">
-            APP HIGHLIGHTS
-          </span>
-          <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F7F3EE]">
-            Built for Effortless Offline Study &amp; Reading
-          </h2>
-        </div>
+      {/* Soft Light-Gray 3-Column Metrics Strip */}
+      <section className="max-w-5xl mx-auto px-5 sm:px-8 pb-16">
+        <div className="rounded-3xl bg-[#F5F6F8] px-6 py-8 grid sm:grid-cols-3 gap-8 text-center">
+          <div className="space-y-1.5">
+            <div className="flex items-center justify-center gap-0.5 text-amber-500">
+              {Array.from({ length: 5 }).map((_, i) => (
+                <Star key={i} className="w-4 h-4 fill-current" />
+              ))}
+            </div>
+            <p className="text-xs font-medium text-[#5F6672]">22,166+ Verified Resources</p>
+            <p className="text-lg font-extrabold text-[#0F1115]">Bangla &amp; English</p>
+          </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {FEATURES.map((feat) => {
-            const Icon = feat.icon;
-            return (
-              <div
-                key={feat.title}
-                className="rounded-2xl bg-[#1D1A18] border border-[#3D3532] p-5 space-y-3 hover:border-[#C6927A]/60 transition"
-              >
-                <div className="w-10 h-10 rounded-xl bg-[#C6927A]/15 text-[#C6927A] flex items-center justify-center">
-                  <Icon className="w-5 h-5" />
-                </div>
-                <h3 className="font-extrabold text-base text-[#F7F3EE]">{feat.title}</h3>
-                <p className="text-sm text-[#9E9590] leading-relaxed">{feat.desc}</p>
-              </div>
-            );
-          })}
+          <div className="space-y-1.5">
+            <div className="flex items-center justify-center gap-0.5 text-amber-500">
+              {Array.from({ length: 5 }).map((_, i) => (
+                <Star key={i} className="w-4 h-4 fill-current" />
+              ))}
+            </div>
+            <p className="text-xs font-medium text-[#5F6672]">316.8 GB Open Drive Archive</p>
+            <p className="text-lg font-extrabold text-[#0F1115]">Class 1–12 &amp; Univ</p>
+          </div>
+
+          <div className="space-y-1.5">
+            <div className="flex items-center justify-center gap-0.5 text-amber-500">
+              {Array.from({ length: 5 }).map((_, i) => (
+                <Star key={i} className="w-4 h-4 fill-current" />
+              ))}
+            </div>
+            <p className="text-xs font-medium text-[#5F6672]">100% Free · 23.7 MB APK</p>
+            <p className="text-lg font-extrabold text-[#0F1115]">Offline Ready</p>
+          </div>
         </div>
       </section>
 
-      {/* Download Steps + Developer Section */}
-      <section className="border-t border-[#26211F] bg-[#1D1A18]/40">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-16 grid lg:grid-cols-12 gap-8 items-start">
-          <div className="lg:col-span-7 rounded-3xl bg-[#2D2826] border border-[#3D3532] p-7 sm:p-8 space-y-5">
-            <div className="inline-flex items-center gap-2 text-xs font-extrabold uppercase tracking-widest text-[#C6927A]">
-              <SlidersHorizontal className="w-4 h-4" />
-              QUICK INSTALL GUIDE
+      {/* Signature 3 Pastel Feature Cards Section */}
+      <section id="features" className="max-w-5xl mx-auto px-5 sm:px-8 py-12 space-y-12">
+        <div className="text-center max-w-xl mx-auto space-y-2">
+          <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[#0F1115] leading-tight">
+            Unleash the true potential for offline reading.
+          </h2>
+        </div>
+
+        <div className="grid md:grid-cols-3 gap-6">
+          {/* Card 1: Pastel Yellow */}
+          <div className="rounded-3xl bg-[#FFE98A] p-7 flex flex-col justify-between gap-8 min-h-[280px]">
+            <div className="space-y-4">
+              <div className="w-11 h-11 rounded-full bg-white text-[#0F1115] flex items-center justify-center shadow-sm">
+                <WifiOff className="w-5 h-5" />
+              </div>
+              <div className="space-y-2">
+                <h3 className="text-lg font-extrabold text-[#0F1115]">100% Offline Reader</h3>
+                <p className="text-sm text-[#0F1115]/75 leading-relaxed">
+                  Caches all 22,166+ books locally, plus 1-tap full-section downloads for any class or author.
+                </p>
+              </div>
             </div>
-            <h2 className="text-2xl font-black text-[#F7F3EE]">
-              Install on Any Android Device in Seconds
-            </h2>
-            <ul className="space-y-3 text-sm text-[#F2ECE6]/90">
-              <li className="flex items-start gap-2.5">
-                <CheckCircle2 className="w-4 h-4 text-[#C6927A] shrink-0 mt-0.5" />
-                <span>
-                  Tap <strong>Download Android APK</strong> to save <code>Bangladesh-eBook-Library.apk</code> (23.7 MB).
-                </span>
-              </li>
-              <li className="flex items-start gap-2.5">
-                <CheckCircle2 className="w-4 h-4 text-[#C6927A] shrink-0 mt-0.5" />
-                <span>
-                  Open the APK file and allow installation from your browser if prompted.
-                </span>
-              </li>
-              <li className="flex items-start gap-2.5">
-                <CheckCircle2 className="w-4 h-4 text-[#C6927A] shrink-0 mt-0.5" />
-                <span>
-                  Launch the app once online to cache all 22,166+ books — or use the{" "}
-                  <Link href="/library" className="text-[#C6927A] underline font-bold">
-                    Online Library
-                  </Link>{" "}
-                  directly in your browser.
-                </span>
-              </li>
-            </ul>
-            <div className="flex flex-wrap gap-3 pt-2">
-              <a
-                href={APK_URL}
-                className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-[#C6927A] hover:bg-[#d5a38c] text-[#171412] font-extrabold text-sm transition"
-              >
-                <Download className="w-4 h-4" />
-                Download APK (23.7 MB)
-              </a>
+            <div>
               <Link
                 href="/library"
-                className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-[#11100F] hover:bg-[#1D1A18] border border-[#3D3532] text-[#F7F3EE] font-bold text-sm transition"
+                className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-full bg-[#0F1115] hover:bg-neutral-800 text-white text-xs font-bold transition"
               >
-                <Globe className="w-4 h-4 text-[#C6927A]" />
-                Open Online Library
+                Explore Library
+                <ArrowRight className="w-3.5 h-3.5" />
               </Link>
             </div>
           </div>
 
-          <div className="lg:col-span-5 rounded-3xl bg-[#1D1A18] border border-[#3D3532] p-7 space-y-4">
-            <span className="text-xs font-extrabold uppercase tracking-widest text-[#C6927A]">
-              DEVELOPER &amp; CURATOR
-            </span>
-            <div className="flex items-center gap-4">
-              <img
-                src="/developer-profile.png"
-                alt="Salman Anik"
-                className="w-16 h-16 rounded-full object-cover border-2 border-[#C6927A]"
-              />
-              <div>
-                <h3 className="text-lg font-extrabold text-[#F7F3EE]">Salman Anik</h3>
-                <p className="text-xs text-[#9E9590]">
-                  CSE Student · East West University, Dhaka
+          {/* Card 2: Pastel Lavender */}
+          <div className="rounded-3xl bg-[#C7BEFF] p-7 flex flex-col justify-between gap-8 min-h-[280px]">
+            <div className="space-y-4">
+              <div className="w-11 h-11 rounded-full bg-white text-[#0F1115] flex items-center justify-center shadow-sm">
+                <Zap className="w-5 h-5" />
+              </div>
+              <div className="space-y-2">
+                <h3 className="text-lg font-extrabold text-[#0F1115]">Class 1–12 &amp; Authors</h3>
+                <p className="text-sm text-[#0F1115]/75 leading-relaxed">
+                  Instant NCTB class chips, 30 custom 3D category icons, and 131+ Drive-hosted author portraits.
                 </p>
               </div>
             </div>
-            <p className="text-sm text-[#9E9590] leading-relaxed">
-              Computer Science &amp; Engineering student focused on Python, Data Science, and building practical open-source projects — including Bangladesh&apos;s Biggest eBook Library and AnaPharm.
-            </p>
-            <div className="flex flex-wrap gap-2 pt-1">
-              <a
-                href="https://salmananik.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-[#C6927A] text-[#171412] text-xs font-extrabold transition hover:bg-[#d5a38c]"
+            <div>
+              <Link
+                href="/library?cat=Education%20%26%20Textbooks"
+                className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-full bg-[#0F1115] hover:bg-neutral-800 text-white text-xs font-bold transition"
               >
-                <Globe className="w-3.5 h-3.5" />
-                Portfolio
-              </a>
+                Browse Classes
+                <ArrowRight className="w-3.5 h-3.5" />
+              </Link>
+            </div>
+          </div>
+
+          {/* Card 3: Pastel Peach */}
+          <div className="rounded-3xl bg-[#FFD2C6] p-7 flex flex-col justify-between gap-8 min-h-[280px]">
+            <div className="space-y-4">
+              <div className="w-11 h-11 rounded-full bg-white text-[#0F1115] flex items-center justify-center shadow-sm">
+                <ShieldCheck className="w-5 h-5" />
+              </div>
+              <div className="space-y-2">
+                <h3 className="text-lg font-extrabold text-[#0F1115]">Full-Screen Mistouch Lock</h3>
+                <p className="text-sm text-[#0F1115]/75 leading-relaxed">
+                  Fast right-edge scroll rail paired with a lock toggle that blocks accidental taps while reading.
+                </p>
+              </div>
+            </div>
+            <div>
               <a
-                href="https://github.com/salman-anik"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-[#2D2826] border border-[#3D3532] text-[#F2ECE6] text-xs font-bold hover:border-[#C6927A] transition"
+                href={APK_URL}
+                className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-full bg-[#0F1115] hover:bg-neutral-800 text-white text-xs font-bold transition"
               >
-                <Github className="w-3.5 h-3.5" />
-                GitHub
-              </a>
-              <a
-                href="mailto:salmananik.bd@gmail.com"
-                className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-[#2D2826] border border-[#3D3532] text-[#F2ECE6] text-xs font-bold hover:border-[#C6927A] transition"
-              >
-                <Mail className="w-3.5 h-3.5" />
-                Email
+                Download APK
+                <Download className="w-3.5 h-3.5" />
               </a>
             </div>
           </div>
         </div>
       </section>
 
-      <footer className="border-t border-[#26211F] py-7">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#9E9590]">
-          <span>
-            Bangladesh&apos;s Biggest eBook Library · Built by Salman Anik
-          </span>
+      {/* Split Feature Showcase (Mirrors Lower Section of Reference) */}
+      <section className="max-w-5xl mx-auto px-5 sm:px-8 py-14">
+        <div className="grid md:grid-cols-12 gap-10 items-center">
+          {/* Left Soft Gray Phone Box */}
+          <div className="md:col-span-6 rounded-3xl bg-[#F5F6F8] p-8 flex justify-center">
+            <div className="w-[238px] rounded-[32px] border-[6px] border-[#0F1115] bg-white shadow-xl overflow-hidden">
+              <div
+                className="p-4 text-white space-y-2 transition-colors duration-300"
+                style={{ backgroundColor: THEMES[selectedTheme].swatch }}
+              >
+                <div className="flex items-center justify-between text-[10px] font-bold">
+                  <span style={{ color: THEMES[selectedTheme].accent }}>ANABOOK READER</span>
+                  <Lock className="w-3.5 h-3.5" style={{ color: THEMES[selectedTheme].accent }} />
+                </div>
+                <p className="text-xs font-bold leading-relaxed">
+                  5 curated book themes in both Light &amp; Dark modes, with live font scaling and app storage tracking.
+                </p>
+              </div>
+              <div className="p-4 space-y-3">
+                <div className="text-[11px] font-bold text-[#0F1115]">Pick a Theme</div>
+                <div className="flex flex-wrap gap-1.5">
+                  {(Object.keys(THEMES) as ThemeChoice[]).map((k) => (
+                    <button
+                      key={k}
+                      type="button"
+                      onClick={() => setSelectedTheme(k)}
+                      className={`px-2.5 py-1 rounded-full text-[10px] font-bold border transition ${
+                        selectedTheme === k
+                          ? "bg-[#0F1115] text-white border-[#0F1115]"
+                          : "bg-[#F5F6F8] text-[#0F1115] border-transparent hover:border-neutral-300"
+                      }`}
+                    >
+                      {THEMES[k].name}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Right Clean Copy */}
+          <div className="md:col-span-6 space-y-5">
+            <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[#0F1115] leading-tight">
+              Personalized reading, themes &amp; stats in one place.
+            </h2>
+            <p className="text-sm sm:text-base text-[#5F6672] leading-relaxed">
+              Track your daily reading streak, completed books, pages read, and exact local storage usage. Switch between Espresso, Matcha, Midnight, Sepia, and Rosewood themes in Light or Dark mode.
+            </p>
+            <div className="flex flex-wrap items-center gap-3 pt-1">
+              <a
+                href={APK_URL}
+                className="inline-flex items-center gap-2.5 pl-5 pr-2 py-2 rounded-full bg-[#0F1115] hover:bg-neutral-800 text-white text-sm font-semibold transition"
+              >
+                <span>Download AnaBook APK</span>
+                <span className="w-7 h-7 rounded-full bg-[#C6F353] text-[#0F1115] flex items-center justify-center">
+                  <Download className="w-3.5 h-3.5 stroke-[2.5]" />
+                </span>
+              </a>
+              <Link
+                href="/library"
+                className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-full bg-[#F5F6F8] hover:bg-neutral-200 text-[#0F1115] text-sm font-bold transition"
+              >
+                <Layers className="w-4 h-4" />
+                Online Library
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* About Developer Band */}
+      <section id="about" className="max-w-5xl mx-auto px-5 sm:px-8 py-12">
+        <div className="rounded-3xl bg-[#F5F6F8] p-7 sm:p-9 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
           <div className="flex items-center gap-4">
-            <Link href="/library" className="hover:text-[#F7F3EE]">
+            <img
+              src="/developer-profile.png"
+              alt="Salman Anik"
+              className="w-16 h-16 rounded-full object-cover border-2 border-[#0F1115]"
+            />
+            <div>
+              <span className="text-[11px] font-bold uppercase tracking-wider text-[#5F6672]">
+                Built &amp; Curated By
+              </span>
+              <h3 className="text-xl font-extrabold text-[#0F1115]">Salman Anik</h3>
+              <p className="text-xs sm:text-sm text-[#5F6672]">
+                CSE Student at East West University, Dhaka · Creator of AnaBook &amp; AnaPharm
+              </p>
+            </div>
+          </div>
+
+          <div className="flex flex-wrap items-center gap-2">
+            <a
+              href="https://salmananik.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-[#0F1115] text-white text-xs font-bold hover:bg-neutral-800 transition"
+            >
+              <Globe className="w-3.5 h-3.5 text-[#C6F353]" />
+              Portfolio
+            </a>
+            <a
+              href="https://github.com/salman-anik"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-white border border-neutral-200 text-[#0F1115] text-xs font-bold hover:border-neutral-400 transition"
+            >
+              <Github className="w-3.5 h-3.5" />
+              GitHub
+            </a>
+            <a
+              href="mailto:salmananik.bd@gmail.com"
+              className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-white border border-neutral-200 text-[#0F1115] text-xs font-bold hover:border-neutral-400 transition"
+            >
+              <Mail className="w-3.5 h-3.5" />
+              Email
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Clean White Footer */}
+      <footer className="border-t border-neutral-100 py-8 mt-4">
+        <div className="max-w-6xl mx-auto px-5 sm:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#5F6672]">
+          <span className="font-semibold text-[#0F1115]">
+            AnaBook · Bangladesh&apos;s Biggest eBook Library
+          </span>
+          <div className="flex items-center gap-5 font-medium">
+            <Link href="/library" className="hover:text-[#0F1115]">
               Online Library
             </Link>
-            <a href={APK_URL} className="text-[#C6927A] font-semibold hover:underline">
+            <a href={APK_URL} className="hover:text-[#0F1115]">
               Download APK
             </a>
-            <a href={REPO_URL} target="_blank" rel="noopener noreferrer" className="hover:text-[#F7F3EE]">
+            <a href={REPO_URL} target="_blank" rel="noopener noreferrer" className="hover:text-[#0F1115]">
               GitHub
             </a>
           </div>

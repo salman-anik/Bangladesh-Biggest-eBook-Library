@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Bangladesh eBook Library",
-    "slug": "BangladeshEBookApp",
+    "name": "AnaBook",
+    "slug": "AnaBook",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

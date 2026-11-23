@@ -2,13 +2,14 @@ import type { Metadata } from "next";
 import { TopNavbar } from "@/components/TopNavbar";
 import "./globals.css";
 
-const SITE_URL = "https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/";
+const SITE_URL = "https://anabook.vercel.app/";
 
 export const metadata: Metadata = {
-  title: "Bangladesh eBook Library | Offline-First Android App & Online Library",
+  title: "AnaBook — Read 22,166+ Bangla & Academic Books Offline",
   description:
-    "Download the Bangladesh eBook Library Android App (APK) to read 22,166+ Bangla, English & Arabic eBooks, NCTB Class 1–12 textbooks, and classics offline, or browse the Online Library.",
+    "AnaBook is a free offline-first Android eBook reader and Online Library with 22,166+ Bangla & English books, Class 1–12 NCTB textbooks, 131+ author portraits, and full-screen mistouch lock.",
   keywords: [
+    "AnaBook",
     "Bangladesh Biggest Ebook Library",
     "Bangla PDF Books App",
     "NCTB Class 1-12 App",
@@ -19,11 +20,11 @@ export const metadata: Metadata = {
     canonical: SITE_URL,
   },
   openGraph: {
-    title: "Bangladesh eBook Library — Offline Android App & Online Library",
+    title: "AnaBook — Offline Android eBook App & Online Library",
     description:
-      "22,166+ categorized books, Class 1–12 NCTB textbooks, 5 Pinterest-inspired reading themes, 131+ author portraits, batch section offline downloads & full-screen mistouch lock.",
+      "22,166+ categorized books, Class 1–12 NCTB textbooks, 5 reading themes, 131+ author portraits, batch offline downloads & full-screen mistouch lock.",
     url: SITE_URL,
-    siteName: "Bangladesh eBook Library",
+    siteName: "AnaBook",
     type: "website",
     locale: "bn_BD",
   },
@@ -39,8 +40,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="bn" className="dark">
-      <body className="min-h-screen antialiased bg-[#11100F] text-[#F7F3EE]">
+    <html lang="bn">
+      <body className="min-h-screen antialiased bg-white text-[#0F1115]">
         <TopNavbar />
         {children}
       </body>

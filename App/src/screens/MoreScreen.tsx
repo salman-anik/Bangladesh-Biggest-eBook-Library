@@ -454,7 +454,7 @@ export function MoreScreen({
             <Text style={[styles.devBio, { color: theme.muted, fontSize: fs(12.5) }]}>
               Computer Science &amp; Engineering student at East West University, Dhaka, focused on
               Python, SQL, Data Science, and building practical open-source projects—including
-              Bangladesh&apos;s Biggest eBook Library and AnaPharm.
+              AnaBook (Bangladesh&apos;s Biggest eBook Library) and AnaPharm.
             </Text>
 
             <View style={[styles.devMetaBox, { backgroundColor: theme.surfaceAlt, borderColor: theme.borderSubtle }]}>

@@ -2,77 +2,69 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Download, Github, Globe, Smartphone } from "lucide-react";
+import { BookOpen, Download } from "lucide-react";
 
 const APK_URL =
   "https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/raw/main/App/Bangladesh-eBook-Library.apk";
-const REPO_URL =
-  "https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library";
 
 export function TopNavbar() {
   const pathname = usePathname();
   const isLibrary = pathname?.startsWith("/library");
 
   return (
-    <header className="sticky top-0 z-50 border-b border-[#3D3532]/85 bg-[#11100F]/95 backdrop-blur-md">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-4">
-        <Link href="/" className="flex items-center gap-3">
-          <div className="w-9 h-9 rounded-xl bg-[#C6927A] text-[#171412] font-black text-sm flex items-center justify-center shadow-lg shadow-[#C6927A]/20">
-            BL
+    <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-neutral-100">
+      <div className="max-w-6xl mx-auto px-5 sm:px-8 h-20 flex items-center justify-between gap-4">
+        {/* Minimalist Brand Logo */}
+        <Link href="/" className="flex items-center gap-2.5 group">
+          <div className="w-8 h-8 rounded-lg bg-[#0F1115] text-[#C6F353] flex items-center justify-center group-hover:scale-105 transition">
+            <BookOpen className="w-4 h-4 stroke-[2.5]" />
           </div>
-          <div>
-            <span className="font-extrabold text-sm sm:text-base tracking-tight text-[#F7F3EE] block leading-none">
-              Bangladesh eBook Library
-            </span>
-            <span className="text-[11px] text-[#C6927A] font-medium">
-              বাংলাদেশের বৃহত্তম ই-বুক লাইব্রেরি
-            </span>
-          </div>
+          <span className="font-extrabold text-lg tracking-tight text-[#0F1115]">
+            AnaBook
+          </span>
         </Link>
 
-        <nav className="flex items-center gap-1.5 sm:gap-2">
+        {/* Clean Centered Nav Links */}
+        <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-[#5F6672]">
           <Link
             href="/"
-            className={`inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs sm:text-sm font-bold transition ${
-              !isLibrary
-                ? "bg-[#2D2826] text-[#F7F3EE] border border-[#C6927A]/60"
-                : "text-[#9E9590] hover:text-[#F7F3EE] hover:bg-[#1D1A18]"
-            }`}
+            className={`transition hover:text-[#0F1115] ${!isLibrary ? "text-[#0F1115] font-semibold" : ""}`}
           >
-            <Smartphone className="w-4 h-4 text-[#C6927A]" />
-            <span className="hidden xs:inline">App</span>
+            Home
           </Link>
-
           <Link
             href="/library"
-            className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs sm:text-sm font-bold transition ${
-              isLibrary
-                ? "bg-[#C6927A] text-[#171412]"
-                : "bg-[#2D2826] hover:bg-[#3A3330] text-[#F2ECE6] border border-[#3D3532]"
-            }`}
+            className={`transition hover:text-[#0F1115] ${isLibrary ? "text-[#0F1115] font-semibold" : ""}`}
           >
-            <Globe className={`w-4 h-4 ${isLibrary ? "text-[#171412]" : "text-[#C6927A]"}`} />
+            Online Library
+          </Link>
+          <a href="/#features" className="transition hover:text-[#0F1115]">
+            Features
+          </a>
+          <a href="/#about" className="transition hover:text-[#0F1115]">
+            About
+          </a>
+        </nav>
+
+        {/* Right Actions: Online Library (mobile) + Signature Black Pill with Lime Icon */}
+        <div className="flex items-center gap-2.5">
+          <Link
+            href="/library"
+            className="md:hidden inline-flex items-center px-3.5 py-2 rounded-full bg-[#F5F6F8] text-[#0F1115] text-xs font-bold"
+          >
             Online Library
           </Link>
 
           <a
             href={APK_URL}
-            className="hidden sm:inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-[#F2ECE6] hover:bg-white text-[#171412] text-xs sm:text-sm font-extrabold transition"
+            className="inline-flex items-center gap-2.5 pl-4 pr-1.5 py-1.5 rounded-full bg-[#0F1115] hover:bg-neutral-800 text-white text-xs sm:text-sm font-semibold transition shadow-sm"
           >
-            <Download className="w-4 h-4" />
-            Download APK
+            <span>Download Now</span>
+            <span className="w-7 h-7 rounded-full bg-[#C6F353] text-[#0F1115] flex items-center justify-center">
+              <Download className="w-3.5 h-3.5 stroke-[2.5]" />
+            </span>
           </a>
-
-          <a
-            href={REPO_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="GitHub Repository"
-            className="hidden md:inline-flex items-center justify-center w-9 h-9 rounded-xl bg-[#1D1A18] hover:bg-[#2D2826] border border-[#3D3532] text-[#F2ECE6] transition"
-          >
-            <Github className="w-4 h-4" />
-          </a>
-        </nav>
+        </div>
       </div>
     </header>
   );

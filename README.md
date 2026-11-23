@@ -1,6 +1,6 @@
-# Bangladesh's Biggest eBook Library (বাংলাদেশের বৃহত্তম ই-বুক লাইব্রেরি)
+# AnaBook — Bangladesh's Biggest eBook Library (বাংলাদেশের বৃহত্তম ই-বুক লাইব্রেরি)
 
-[📱 Android App Showcase](https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/) | [🌐 Online Library](https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/library.html) | [⬇ Download Android APK](App/Bangladesh-eBook-Library.apk) | [📂 Google Drive Library](https://drive.google.com/drive/folders/1fMsplDtUnpUhnNBJGKvYQ1sdZx0QVJWq) | [📖 START HERE Guide](https://docs.google.com/document/d/1dEMPkGWXWvx3vSHu708KTfpKwS7IG0Ar_ffKtA4-QDM/edit)
+[📱 AnaBook Website](https://anabook.vercel.app/) | [🌐 Online Library](https://anabook.vercel.app/library) | [⬇ Download AnaBook APK](App/Bangladesh-eBook-Library.apk) | [📂 Google Drive Library](https://drive.google.com/drive/folders/1fMsplDtUnpUhnNBJGKvYQ1sdZx0QVJWq) | [📖 START HERE Guide](https://docs.google.com/document/d/1dEMPkGWXWvx3vSHu708KTfpKwS7IG0Ar_ffKtA4-QDM/edit)
 
 **22,166 verified eBooks** (**316.87 GB**) with **21,627 book covers (97.6%)** organized across **9 clean top-level folders** mirrored 1:1 with Google Drive, paired with an offline-first **Android App (`App/`)** and an interactive **Web Portal (`visualize/` & GitHub Pages)**.
 

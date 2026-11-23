@@ -204,7 +204,7 @@ export function HomeScreen({
       {/* Single Clean Masthead Row */}
       <View style={styles.headerRow}>
         <Text style={[styles.heading, { color: theme.ink, fontSize: fs(21) }]} numberOfLines={1}>
-          BANGLA LIBRARY
+          ANABOOK
         </Text>
         <View style={[styles.datePill, { backgroundColor: theme.surface, borderColor: theme.border }]}>
           <Text style={[styles.dateText, { color: theme.accent, fontSize: fs(11) }]}>{dateLabel}</Text>

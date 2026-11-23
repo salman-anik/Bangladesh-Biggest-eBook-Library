@@ -1,12 +1,12 @@
-# Bangladesh eBook Library — Android App (Expo / React Native)
+# AnaBook — Android App (Expo / React Native)
 
-An offline-first Android mobile reader for **Bangladesh's Biggest eBook Library** (`22,166+` Bangla, English & Arabic eBooks and NCTB Class 1–12 textbooks).
+An offline-first Android mobile reader for **AnaBook (Bangladesh's Biggest eBook Library)** (`22,166+` Bangla, English & Arabic eBooks and NCTB Class 1–12 textbooks).
 
 ## Direct APK Download
 
 - **Android APK:** [`Bangladesh-eBook-Library.apk`](./Bangladesh-eBook-Library.apk)
-- **Web App Showcase:** [App Promo Landing Page](https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/)
-- **Web Online Library:** [Browse Online](https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/library.html)
+- **AnaBook Website:** [anabook.vercel.app](https://anabook.vercel.app/)
+- **Online Library:** [anabook.vercel.app/library](https://anabook.vercel.app/library)
 
 ## Key Features
 
