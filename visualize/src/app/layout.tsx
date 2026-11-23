@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
+import { TopNavbar } from "@/components/TopNavbar";
 import "./globals.css";
 
 const SITE_URL = "https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/";
 
 export const metadata: Metadata = {
-  title: "Bangladesh eBook Library | Offline-First Android App & Online Archive",
+  title: "Bangladesh eBook Library | Offline-First Android App & Online Library",
   description:
-    "Read 22,166+ Bangla, English & Arabic eBooks, NCTB Class 1–12 textbooks, university courses, and classics offline with the Bangladesh eBook Library Android App, or browse the complete Online Library.",
+    "Download the Bangladesh eBook Library Android App (APK) to read 22,166+ Bangla, English & Arabic eBooks, NCTB Class 1–12 textbooks, and classics offline, or browse the Online Library.",
   keywords: [
     "Bangladesh Biggest Ebook Library",
     "Bangla PDF Books App",
@@ -40,6 +41,7 @@ export default function RootLayout({
   return (
     <html lang="bn" className="dark">
       <body className="min-h-screen antialiased bg-[#11100F] text-[#F7F3EE]">
+        <TopNavbar />
         {children}
       </body>
     </html>
