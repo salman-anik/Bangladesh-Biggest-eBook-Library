@@ -84,6 +84,7 @@ SUMMARY_FILE = REPORTS_DIR / "qawmimadrasa_summary.json"
 XLSX_NAME = "00_Qawmi_Madrasa_Category_Map_and_Book_Catalog.xlsx"
 CSV_NAME = "00_Qawmi_Madrasa_Category_Map_and_Book_Catalog.csv"
 COVERS_FOLDER_PATH = "00_Covers_&_Thumbnails (বইয়ের কভার ও থাম্বনেইল)"
+MGMT_COVERS_FOLDER_ID = "1QZtIEr8QjA8OSg0WsITp5kgeFOK4HiCj"
 
 GDRIVE_CMD = shutil.which("gdrive") or "gdrive"
 LOCK = threading.Lock()
@@ -431,7 +432,12 @@ def ensure_folders() -> dict[str, str]:
             }
         return children_cache[pid]
 
+    folders[COVERS_FOLDER_PATH] = MGMT_COVERS_FOLDER_ID
+
     for rel_path in FOLDER_PATHS:
+        if rel_path == COVERS_FOLDER_PATH:
+            folders[rel_path] = MGMT_COVERS_FOLDER_ID
+            continue
         parts = rel_path.split("/")
         cur_parent = QAWMI_ROOT_ID
         acc_parts: list[str] = []
