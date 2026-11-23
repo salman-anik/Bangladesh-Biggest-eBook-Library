@@ -1,0 +1,85 @@
+name: Phase 2 - Collect & Upload All Missing Covers (16 Parallel Shards)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install PyMuPDF & BeautifulSoup4
+        run: pip install --quiet pymupdf beautifulsoup4
+
+      - name: Collect & upload missing covers (Shard ${{ matrix.shard }})
+        env:
+          GDRIVE_OAUTH_JSON: ${{ secrets.GDRIVE_OAUTH_JSON }}
+        run: python -u scripts/cloud_collect_missing_covers.py --skip-rokomari --shard-index ${{ matrix.shard }} --num-shards 16 --workers 6
+
+      - name: Upload shard result artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cover-shard-${{ matrix.shard }}
+          path: data/cover_shards/shard_*.json
+          if-no-files-found: ignore
+
+  merge:
+    needs: collect
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download all shard artifacts
+        uses: actions/download-artifact@v4
+        with:
+          pattern: cover-shard-*
+          path: data/cover_shards
+          merge-multiple: true
+
+      - name: Merge shard results
+        run: |
+          python -c "
+          import json
+          from pathlib import Path
+          from collections import Counter
+          shards = sorted(Path('data/cover_shards').glob('shard_*.json'))
+          all_items = []
+          totals = Counter()
+          for s in shards:
+              d = json.loads(s.read_text(encoding='utf-8'))
+              all_items.extend(d.get('items') or [])
+              for k, v in (d.get('stats') or {}).items():
+                  totals[k] += v
+          out = {'shards_merged': len(shards), 'stats': dict(totals), 'items': all_items}
+          Path('data/collected_covers_merged.json').write_text(json.dumps(out, ensure_ascii=False), encoding='utf-8')
+          print('Merged shards:', len(shards), 'Stats:', dict(totals))
+          "
+
+      - name: Commit merged cover collection results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/collected_covers_merged.json 2>/dev/null || true
+          if ! git diff --staged --quiet; then
+            git commit -m "chore(covers): merge 16-shard missing cover collection results"
+            git pull --rebase origin main && git push
+          fi
