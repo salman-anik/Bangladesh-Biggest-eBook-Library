@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { BookOpen, Download } from "lucide-react";
+import { Download } from "lucide-react";
 
 const APK_URL =
   "https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/raw/main/App/Bangladesh-eBook-Library.apk";
@@ -14,11 +14,13 @@ export function TopNavbar() {
   return (
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-neutral-100">
       <div className="max-w-6xl mx-auto px-5 sm:px-8 h-20 flex items-center justify-between gap-4">
-        {/* Minimalist Brand Logo */}
+        {/* AnaBook Brand Logo */}
         <Link href="/" className="flex items-center gap-2.5 group">
-          <div className="w-8 h-8 rounded-lg bg-[#0F1115] text-[#C6F353] flex items-center justify-center group-hover:scale-105 transition">
-            <BookOpen className="w-4 h-4 stroke-[2.5]" />
-          </div>
+          <img
+            src="/logo.png"
+            alt="AnaBook Logo"
+            className="w-9 h-9 rounded-xl object-cover shadow-xs group-hover:scale-105 transition"
+          />
           <span className="font-extrabold text-lg tracking-tight text-[#0F1115]">
             AnaBook
           </span>

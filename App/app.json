@@ -13,7 +13,7 @@
       "package": "com.salmananik.bangladeshebooklibrary",
       "versionCode": 1,
       "adaptiveIcon": {
-        "backgroundColor": "#11100F",
+        "backgroundColor": "#060507",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"

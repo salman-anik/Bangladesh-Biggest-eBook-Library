@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react';
-import { ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { Image, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 import { AuthorAvatar } from '../components/AuthorAvatar';
 import { BookCover } from '../components/BookCover';
@@ -203,9 +203,12 @@ export function HomeScreen({
     >
       {/* Single Clean Masthead Row */}
       <View style={styles.headerRow}>
-        <Text style={[styles.heading, { color: theme.ink, fontSize: fs(21) }]} numberOfLines={1}>
-          ANABOOK
-        </Text>
+        <View style={styles.brandRow}>
+          <Image source={require('../../assets/icon.png')} style={styles.brandLogo} />
+          <Text style={[styles.heading, { color: theme.ink, fontSize: fs(21) }]} numberOfLines={1}>
+            ANABOOK
+          </Text>
+        </View>
         <View style={[styles.datePill, { backgroundColor: theme.surface, borderColor: theme.border }]}>
           <Text style={[styles.dateText, { color: theme.accent, fontSize: fs(11) }]}>{dateLabel}</Text>
         </View>
@@ -468,7 +471,9 @@ const styles = StyleSheet.create({
   root: { flex: 1 },
   content: { paddingHorizontal: 18, paddingTop: 12, paddingBottom: 112, gap: 20 },
   headerRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: 10 },
-  heading: { fontWeight: '800', letterSpacing: 0.3, flex: 1 },
+  brandRow: { flexDirection: 'row', alignItems: 'center', gap: 10, flex: 1 },
+  brandLogo: { width: 32, height: 32, borderRadius: 9 },
+  heading: { fontWeight: '800', letterSpacing: 0.3 },
   datePill: {
     borderWidth: 1,
     borderRadius: 12,
