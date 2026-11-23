@@ -47,6 +47,11 @@ import cloud_organize_education as org  # noqa: E402
 import drive_api as dapi  # noqa: E402
 
 UA = "BangladeshBiggestEBookLibraryBot/1.0 (+https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library)"
+BROWSER_UA = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+)
+MAX_PHASE4_SECONDS = 720
 
 EDU_ROOT_ID = "1Hoy8Zv0ObmQcGLrDUhmkGSYK_DDSK1BR"
 GEN_EDU_ID = "1vFzQc7tNQk0JquTutgpRLBZWjgaP-412"
@@ -126,26 +131,36 @@ def clean_filename(title: str, author: str = "", year: str = "", ext: str = "pdf
     return f"{stem}.{ext.lower()}"
 
 
-def http_get(url: str, timeout: int = 30, retries: int = 3) -> bytes:
+def http_get(url: str, timeout: int = 12, retries: int = 1, ua: str = UA) -> bytes:
     last_err: Exception | None = None
-    for attempt in range(retries):
+    for attempt in range(max(1, retries)):
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            req = urllib.request.Request(url, headers={"User-Agent": ua})
             with urllib.request.urlopen(req, timeout=timeout) as r:
                 return r.read()
         except Exception as exc:
             last_err = exc
-            time.sleep(1.5 * (attempt + 1))
+            if attempt < retries - 1:
+                time.sleep(1.5 * (attempt + 1))
     raise RuntimeError(f"GET {url} failed: {last_err}")
 
 
-def download_to_file(url: str, dest: Path, max_mb: int = 85) -> tuple[int, str]:
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
+def download_to_file(
+    url: str,
+    dest: Path,
+    max_mb: int = 85,
+    timeout_sec: int = 30,
+    ua: str = UA,
+) -> tuple[int, str]:
+    req = urllib.request.Request(url, headers={"User-Agent": ua})
     h = hashlib.md5()
     total = 0
     max_bytes = max_mb * 1024 * 1024
-    with urllib.request.urlopen(req, timeout=60) as resp, open(dest, "wb") as out:
+    started = time.monotonic()
+    with urllib.request.urlopen(req, timeout=20) as resp, open(dest, "wb") as out:
         while True:
+            if time.monotonic() - started > timeout_sec:
+                raise TimeoutError(f"Download exceeded {timeout_sec}s wall-clock cap")
             chunk = resp.read(131072)
             if not chunk:
                 break
@@ -396,147 +411,126 @@ def collect_arxiv_candidates(seen_keys: set[str]) -> list[dict[str, Any]]:
     return out
 
 
-def collect_doab_candidates(seen_keys: set[str]) -> list[dict[str, Any]]:
+def collect_doaj_open_journals(seen_keys: set[str]) -> list[dict[str, Any]]:
+    """Collect open-access peer-reviewed PDFs via official DOAJ Search API (using Chrome UA)."""
     queries = [
-        ("programming python", "Programming", ["University Education", "Computer Science & IT", "Programming", "Python"]),
-        ("database systems", "Database Systems", ["University Education", "Computer Science & IT", "Database Systems"]),
-        ("operating systems networks", "Computer Networks", ["University Education", "Computer Science & IT", "Computer Networks"]),
-        ("electrical engineering circuits", "Electrical & Electronic Engineering", ["University Education", "Engineering & Technology", "Electrical & Electronic Engineering"]),
-        ("civil engineering structural", "Civil Engineering", ["University Education", "Engineering & Technology", "Civil Engineering"]),
-        ("textile engineering", "Textile Engineering", ["University Education", "Engineering & Technology", "Textile Engineering"]),
-        ("environmental science biochemistry", "Environmental Science", ["University Education", "Science & Mathematics", "Environmental Science"]),
-        ("economics finance", "Economics", ["University Education", "Business & Economics", "Economics"]),
-        ("bangladesh education", "History & Social Sciences", ["University Education", "Arts & Humanities", "Political Science"]),
+        ("science technology computer", "Science & Technology", ["Academic Resources", "Academic Journals", "Science & Technology"]),
+        ("medical health bangladesh", "Medical & Health", ["Academic Resources", "Academic Journals", "Medical & Health"]),
+        ("social sciences education", "Social Sciences", ["Academic Resources", "Academic Journals", "Social Sciences"]),
+        ("business economics finance", "Business & Economics", ["Academic Resources", "Academic Journals", "Business & Economics"]),
+        ("arts humanities literature", "Arts & Humanities", ["Academic Resources", "Academic Journals", "Arts & Humanities"]),
     ]
     out: list[dict[str, Any]] = []
     for q, subject, dest in queries:
-        url = f"https://directory.doabooks.org/rest/search?query={urllib.parse.quote(q)}&expand=metadata,bitstreams"
+        url = f"https://doaj.org/api/search/articles/{urllib.parse.quote(q)}?pageSize=8"
         try:
-            raw = http_get(url, timeout=25).decode("utf-8", "replace")
-            items = json.loads(raw)
+            data = json.loads(http_get(url, timeout=12, retries=1, ua=BROWSER_UA).decode("utf-8", "replace"))
+            results = data.get("results") or []
         except Exception as exc:
-            print(f"[doab {q}] skipped: {exc}")
-            continue
-        if not isinstance(items, list):
+            print(f"[doaj {subject}] skipped: {exc}")
             continue
         added = 0
-        for item in items:
+        for item in results:
             if added >= 3:
                 break
-            meta = {m.get("key"): m.get("value") for m in (item.get("metadata") or []) if isinstance(m, dict)}
-            title = (meta.get("dc.title") or item.get("name") or "").strip()
-            author = (meta.get("dc.contributor.author") or meta.get("dc.contributor.editor") or "DOAB Open Author").strip()
-            lic = (meta.get("dc.rights") or meta.get("oapen.relation.license") or "").strip()
-            lang = (meta.get("dc.language.iso") or "English").strip()
-            year = (meta.get("dc.date.issued") or "")[:4]
-            handle = item.get("handle") or ""
+            bib = item.get("bibjson") or {}
+            title = (bib.get("title") or "").strip()
             if not title or norm_key(title) in seen_keys:
                 continue
-            if "eng" not in lang.lower() and "en" != lang.lower() and "bn" not in lang.lower():
-                continue
-            pdf_url = ""
-            for bs in (item.get("bitstreams") or []):
-                if (bs.get("mimeType") == "application/pdf" or (bs.get("name") or "").lower().endswith(".pdf")) and bs.get("retrieveLink"):
-                    pdf_url = "https://directory.doabooks.org" + bs["retrieveLink"]
-                    break
+            links = bib.get("link") or []
+            pdf_url = next(
+                (
+                    lk.get("url", "")
+                    for lk in links
+                    if lk.get("url", "").lower().endswith(".pdf")
+                    or (lk.get("content_type") or "").lower() == "application/pdf"
+                ),
+                "",
+            )
             if not pdf_url:
                 continue
+            authors = [a.get("name", "") for a in (bib.get("author") or []) if isinstance(a, dict)]
+            author = ", ".join(a for a in authors[:2] if a) or "DOAJ Author"
+            journal = ((bib.get("journal") or {}).get("title") or "DOAJ Journal").strip()
+            lic_list = (bib.get("journal") or {}).get("license") or []
+            lic = (lic_list[0].get("type") if lic_list and isinstance(lic_list[0], dict) else "") or "Creative Commons (DOAJ Open Access)"
+            src_url = next((lk.get("url", "") for lk in links if lk.get("type") == "fulltext"), pdf_url)
             out.append({
                 "title": title[:140],
                 "author": author[:80],
-                "publisher": "Directory of Open Access Books (DOAB)",
+                "publisher": journal[:80],
                 "subject": subject,
-                "level": "University / Undergraduate & Postgraduate",
-                "type": "Open-Access Academic Book",
-                "year": year,
+                "level": "University / Journal Research",
+                "type": "Journal Article",
+                "year": str(bib.get("year") or "")[:4],
                 "exam_year": "",
                 "edition": "",
                 "format": "PDF",
                 "language": "English",
-                "license": lic or "Open Access (DOAB)",
-                "source_url": f"https://directory.doabooks.org/handle/{handle}" if handle else pdf_url,
+                "license": lic,
+                "source_url": src_url,
                 "download_url": pdf_url,
                 "dest_parts": dest,
-                "notes": "Verified open-access academic book from DOAB",
+                "ua": BROWSER_UA,
+                "notes": "Open-access peer-reviewed article via DOAJ API",
             })
             added += 1
     return out
 
 
-def collect_gutenberg_educational(seen_keys: set[str]) -> list[dict[str, Any]]:
-    topics = [
-        ("bhagavad gita", "Bhagavad Gita", ["Academic Resources", "Religious Scriptures & Literature", "Hinduism", "Bhagavad Gita"], "Scripture"),
-        ("upanishads", "Upanishads", ["Academic Resources", "Religious Scriptures & Literature", "Hinduism", "Upanishads"], "Scripture"),
-        ("ramayana", "Ramayana", ["Academic Resources", "Religious Scriptures & Literature", "Hinduism", "Ramayana"], "Scripture"),
-        ("dhammapada", "Buddhism", ["Academic Resources", "Religious Scriptures & Literature", "Buddhism", "Buddhist Literature"], "Scripture"),
-        ("king james bible", "Christianity", ["Academic Resources", "Religious Scriptures & Literature", "Christianity", "Bible"], "Scripture"),
-        ("english dictionary", "English Dictionary", ["Academic Resources", "Dictionaries & Encyclopedias", "English Dictionaries"], "Dictionary"),
-        ("english grammar", "English Grammar & Vocabulary", ["Academic Resources", "Reference Books", "Grammar & Vocabulary"], "Reference Book"),
-        ("encyclopedia", "Encyclopedia", ["Academic Resources", "Dictionaries & Encyclopedias", "Encyclopedias"], "Encyclopedia"),
+def collect_openalex_oa_papers(seen_keys: set[str]) -> list[dict[str, Any]]:
+    """Collect open-access textbooks, theses & engineering/humanities PDFs via OpenAlex API."""
+    queries = [
+        ("bangladesh education curriculum", "Bangladesh Education Research", ["Academic Resources", "Research & Publications", "Research Papers"], "Research Paper"),
+        ("computer engineering architecture", "Computer Engineering", ["University Education", "Engineering & Technology", "Computer Engineering"], "Lecture Notes / Research"),
+        ("civil engineering structural mechanics", "Civil Engineering", ["University Education", "Engineering & Technology", "Civil Engineering"], "Academic Study"),
+        ("biochemistry molecular biology", "Biochemistry", ["University Education", "Science & Mathematics", "Biochemistry"], "Academic Study"),
+        ("constitutional law international relations", "Law & International Relations", ["University Education", "Arts & Humanities", "Law"], "Academic Study"),
     ]
     out: list[dict[str, Any]] = []
-    for q, subject, dest, rtype in topics:
-        url = f"https://gutendex.com/books?search={urllib.parse.quote(q)}"
+    for q, subject, dest, rtype in queries:
+        url = (
+            "https://api.openalex.org/works?search="
+            + urllib.parse.quote(q)
+            + "&filter=open_access.is_oa:true,has_fulltext:true&per-page=6"
+        )
         try:
-            data = json.loads(http_get(url, timeout=25).decode("utf-8", "replace"))
-            results = data.get("results") or []
+            works = json.loads(http_get(url, timeout=12, retries=1, ua=BROWSER_UA).decode("utf-8", "replace")).get("results") or []
         except Exception as exc:
-            print(f"[gutenberg {q}] skipped: {exc}")
+            print(f"[openalex {subject}] skipped: {exc}")
             continue
         added = 0
-        for b in results:
-            if added >= 2:
+        for w in works:
+            if added >= 3:
                 break
-            title = (b.get("title") or "").split(";")[0].strip()
-            if not title or norm_key(title) in seen_keys:
+            title = (w.get("title") or "").strip()
+            loc = w.get("best_oa_location") or {}
+            pdf_url = loc.get("pdf_url") or ""
+            if not title or not pdf_url or norm_key(title) in seen_keys:
                 continue
-            authors = [a.get("name", "") for a in (b.get("authors") or [])]
-            author = authors[0] if authors else "Public Domain"
-            fmts = b.get("formats") or {}
-            # Collect both EPUB and clean UTF-8 TXT for multi-format diversity
-            epub_url = fmts.get("application/epub+zip")
-            txt_url = fmts.get("text/plain; charset=utf-8") or fmts.get("text/plain; charset=us-ascii")
-            chosen_fmt, chosen_url = ("EPUB", epub_url) if epub_url else ("TXT", txt_url)
-            if not chosen_url:
-                continue
+            auths = [((a.get("author") or {}).get("display_name") or "") for a in (w.get("authorships") or [])]
+            author = ", ".join(a for a in auths[:2] if a) or "OpenAlex Author"
+            src_name = (((loc.get("source") or {}).get("display_name")) or "OpenAlex OA Repository").strip()
+            lic = loc.get("license") or "Open Access (OpenAlex)"
             out.append({
                 "title": title[:140],
                 "author": author[:80],
-                "publisher": "Project Gutenberg",
+                "publisher": src_name[:80],
                 "subject": subject,
-                "level": "General / Academic Reference",
+                "level": "University / Research",
                 "type": rtype,
-                "year": "",
+                "year": str(w.get("publication_year") or "")[:4],
                 "exam_year": "",
-                "edition": "Public Domain Edition",
-                "format": chosen_fmt,
+                "edition": "",
+                "format": "PDF",
                 "language": "English",
-                "license": "Public Domain (Project Gutenberg)",
-                "source_url": f"https://www.gutenberg.org/ebooks/{b['id']}",
-                "download_url": chosen_url,
+                "license": lic,
+                "source_url": w.get("id") or pdf_url,
+                "download_url": pdf_url,
                 "dest_parts": dest,
-                "notes": "Public-domain edition from Project Gutenberg",
+                "ua": BROWSER_UA,
+                "notes": f"Open-access PDF via OpenAlex ({src_name})",
             })
-            # Also add companion TXT for dictionaries/grammar if both exist
-            if epub_url and txt_url and rtype in ("Dictionary", "Reference Book") and added == 0:
-                out.append({
-                    "title": f"{title[:120]} (Plain Text)",
-                    "author": author[:80],
-                    "publisher": "Project Gutenberg",
-                    "subject": subject,
-                    "level": "General / Academic Reference",
-                    "type": rtype,
-                    "year": "",
-                    "exam_year": "",
-                    "edition": "Public Domain Text",
-                    "format": "TXT",
-                    "language": "English",
-                    "license": "Public Domain (Project Gutenberg)",
-                    "source_url": f"https://www.gutenberg.org/ebooks/{b['id']}",
-                    "download_url": txt_url,
-                    "dest_parts": dest,
-                    "notes": "Searchable UTF-8 text version from Project Gutenberg",
-                })
             added += 1
     return out
 
@@ -612,7 +606,9 @@ def collect_wikimedia_educational_images(seen_keys: set[str]) -> list[dict[str, 
 def collect_archive_pd_education(seen_keys: set[str]) -> list[dict[str, Any]]:
     queries = [
         ("subject:\"mit opencourseware\" AND mediatype:texts AND licenseurl:*creativecommons*", "MIT OpenCourseWare Notes", ["University Education", "Computer Science & IT", "Data Structures & Algorithms"], "Lecture Notes / Exam"),
-        ("(title:\"bengali dictionary\" OR title:\"bangla dictionary\" OR title:\"sanskrit dictionary\") AND mediatype:texts AND (licenseurl:*publicdomain* OR licenseurl:*creativecommons*)", "Bangla & Multilingual Dictionaries", ["Academic Resources", "Dictionaries & Encyclopedias", "Bangla Dictionaries"], "Dictionary"),
+        ("(title:\"bengali dictionary\" OR title:\"bangla dictionary\" OR title:\"english dictionary\") AND mediatype:texts AND (licenseurl:*publicdomain* OR licenseurl:*creativecommons*)", "Dictionaries", ["Academic Resources", "Dictionaries & Encyclopedias", "English Dictionaries"], "Dictionary"),
+        ("(title:\"bhagavad gita\" OR title:\"upanishads\") AND mediatype:texts AND (licenseurl:*publicdomain* OR licenseurl:*creativecommons*)", "Hindu Scriptures", ["Academic Resources", "Religious Scriptures & Literature", "Hinduism", "Bhagavad Gita"], "Scripture"),
+        ("title:\"dhammapada\" AND mediatype:texts AND (licenseurl:*publicdomain* OR licenseurl:*creativecommons*)", "Buddhist Literature", ["Academic Resources", "Religious Scriptures & Literature", "Buddhism", "Buddhist Literature"], "Scripture"),
         ("mediatype:texts AND language:ben AND (title:গণিত OR title:ব্যাকরণ OR title:বিজ্ঞান OR title:ইতিহাস) AND (licenseurl:*publicdomain* OR licenseurl:*creativecommons*)", "Bangla Reference & Textbooks", ["General Education", "Subject-wise Books", "Bangla"], "Textbook / Reference"),
     ]
     out: list[dict[str, Any]] = []
@@ -620,16 +616,16 @@ def collect_archive_pd_education(seen_keys: set[str]) -> list[dict[str, Any]]:
         url = (
             "https://archive.org/advancedsearch.php?q="
             + urllib.parse.quote(q)
-            + "&fl[]=identifier,title,creator,year,licenseurl&sort[]=downloads+desc&rows=10&page=1&output=json"
+            + "&fl[]=identifier,title,creator,year,licenseurl&sort[]=downloads+desc&rows=6&page=1&output=json"
         )
         try:
-            docs = json.loads(http_get(url, timeout=25).decode("utf-8", "replace")).get("response", {}).get("docs", [])
+            docs = json.loads(http_get(url, timeout=10, retries=1).decode("utf-8", "replace")).get("response", {}).get("docs", [])
         except Exception as exc:
             print(f"[archive {subject}] skipped: {exc}")
             continue
         added = 0
         for doc in docs:
-            if added >= 4:
+            if added >= 3:
                 break
             ident = doc.get("identifier", "")
             lic = str(doc.get("licenseurl") or "")
@@ -644,19 +640,19 @@ def collect_archive_pd_education(seen_keys: set[str]) -> list[dict[str, Any]]:
             title = str(title or ident).strip()
             if not title or norm_key(title) in seen_keys:
                 continue
-            # Inspect actual file list so we never hit a 404 guessed PDF
             try:
-                meta = json.loads(http_get(f"https://archive.org/metadata/{ident}/files", timeout=20).decode("utf-8", "replace"))
+                meta = json.loads(http_get(f"https://archive.org/metadata/{ident}/files", timeout=10, retries=1).decode("utf-8", "replace"))
                 files = meta.get("result") or []
-                pdf_file = next(
-                    (f for f in files if str(f.get("name", "")).lower().endswith(".pdf") and 10000 < int(f.get("size") or 0) < 75_000_000),
+                pick = next(
+                    (f for f in files if str(f.get("name", "")).lower().endswith((".pdf", ".epub")) and 10000 < int(f.get("size") or 0) < 60_000_000),
                     None,
                 )
             except Exception:
-                pdf_file = None
-            if not pdf_file:
+                pick = None
+            if not pick:
                 continue
-            dl_url = f"https://archive.org/download/{ident}/{urllib.parse.quote(pdf_file['name'])}"
+            fmt = "EPUB" if str(pick["name"]).lower().endswith(".epub") else "PDF"
+            dl_url = f"https://archive.org/download/{ident}/{urllib.parse.quote(pick['name'])}"
             out.append({
                 "title": title[:140],
                 "author": str(creator or "Internet Archive").strip()[:80],
@@ -667,13 +663,13 @@ def collect_archive_pd_education(seen_keys: set[str]) -> list[dict[str, Any]]:
                 "year": str(doc.get("year") or "")[:4],
                 "exam_year": "",
                 "edition": "",
-                "format": "PDF",
+                "format": fmt,
                 "language": "Bangla" if "language:ben" in q else "English",
                 "license": lic,
                 "source_url": f"https://archive.org/details/{ident}",
                 "download_url": dl_url,
                 "dest_parts": dest,
-                "notes": "Verified Public Domain / CC PDF via Internet Archive",
+                "notes": f"Verified Public Domain / CC {fmt} via Internet Archive",
             })
             added += 1
     return out
@@ -810,10 +806,13 @@ def download_and_upload_candidates(
         "Academic Resources": acad_res_id,
     }
 
+    phase4_start = time.monotonic()
     with tempfile.TemporaryDirectory(prefix="edu_expand_") as tmp_str:
         tmp_dir = Path(tmp_str)
 
         def process_one(idx: int, cand: dict[str, Any]) -> None:
+            if time.monotonic() - phase4_start > MAX_PHASE4_SECONDS:
+                return
             nk = norm_key(cand["title"])
             if nk in seen_keys:
                 return
@@ -821,7 +820,13 @@ def download_and_upload_candidates(
             fname = clean_filename(cand["title"], cand["author"], cand.get("year", ""), fmt)
             local_path = tmp_dir / f"{idx:04d}_{fname}"
             try:
-                size, md5 = download_to_file(cand["download_url"], local_path, max_mb=85)
+                size, md5 = download_to_file(
+                    cand["download_url"],
+                    local_path,
+                    max_mb=85,
+                    timeout_sec=35,
+                    ua=cand.get("ua", UA),
+                )
                 if not validate_downloaded_file(local_path, fmt):
                     raise ValueError(f"Failed format/magic validation ({fmt})")
             except Exception as exc:
@@ -864,7 +869,7 @@ def download_and_upload_candidates(
                 except Exception:
                     pass
 
-        with cf.ThreadPoolExecutor(max_workers=4) as ex:
+        with cf.ThreadPoolExecutor(max_workers=6) as ex:
             futs = [ex.submit(process_one, i, c) for i, c in enumerate(candidates)]
             for fut in cf.as_completed(futs):
                 fut.result()
@@ -1299,8 +1304,8 @@ def main() -> None:
         ("NCTB", lambda: collect_nctb_candidates(seen_keys)),
         ("OpenStax", lambda: collect_openstax_candidates(seen_keys)),
         ("arXiv", lambda: collect_arxiv_candidates(seen_keys)),
-        ("DOAB", lambda: collect_doab_candidates(seen_keys)),
-        ("Gutenberg", lambda: collect_gutenberg_educational(seen_keys)),
+        ("DOAJ", lambda: collect_doaj_open_journals(seen_keys)),
+        ("OpenAlex", lambda: collect_openalex_oa_papers(seen_keys)),
         ("WikimediaImages", lambda: collect_wikimedia_educational_images(seen_keys)),
         ("ArchivePD", lambda: collect_archive_pd_education(seen_keys)),
     ]:

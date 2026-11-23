@@ -2,6 +2,12 @@ name: "Education & Textbooks Master Organization & Legal Expansion"
 
 on:
   workflow_dispatch:
+    inputs:
+      skip_reorg:
+        description: "Skip Phase 1-2 reorg if already completed on Drive"
+        type: boolean
+        required: false
+        default: false
 
 permissions:
   contents: write
@@ -27,6 +33,7 @@ jobs:
         run: python -m pip install --upgrade pip openpyxl Pillow
 
       - name: Phase 1-2 — Organize existing Education & Textbooks (Qawmi Madrasa off-limits)
+        if: ${{ inputs.skip_reorg != true }}
         env:
           GDRIVE_OAUTH_JSON: ${{ secrets.GDRIVE_OAUTH_JSON }}
         run: python -u scripts/cloud_organize_education.py
