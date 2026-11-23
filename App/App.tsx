@@ -66,7 +66,7 @@ function MainApp() {
   const [detailBook, setDetailBook] = useState<Book | null>(null);
   const [readerBook, setReaderBook] = useState<Book | null>(null);
 
-  const themeMode: ThemeMode = appState.themeMode === 'light' ? 'light' : 'dark';
+  const themeMode: ThemeMode = appState.themeMode === 'dark' ? 'dark' : 'light';
   const themePreset: ThemePresetKey =
     appState.themePreset && THEME_PRESETS[appState.themePreset] ? appState.themePreset : 'espresso';
   const fontScale: FontScaleKey = appState.fontScale || 'normal';

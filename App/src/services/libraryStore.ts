@@ -203,6 +203,9 @@ export function getDefaultState(): AppPersistedState {
       lastReadDate: new Date().toISOString().slice(0, 10),
       weekDaysActive: [todayIdx],
     },
+    themeMode: 'light',
+    themePreset: 'espresso',
+    fontScale: 'normal',
   };
 }
 
@@ -230,6 +233,9 @@ export async function loadPersistedState(): Promise<AppPersistedState> {
       offlineById: verifiedOffline,
       savedIds: Array.isArray(parsed.savedIds) ? parsed.savedIds : [],
       streak: parsed.streak ?? def.streak,
+      themeMode: parsed.themeMode ?? 'light',
+      themePreset: parsed.themePreset ?? 'espresso',
+      fontScale: parsed.fontScale ?? 'normal',
     };
   } catch {
     return getDefaultState();

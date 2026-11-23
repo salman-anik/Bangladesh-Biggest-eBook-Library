@@ -3,6 +3,7 @@ import React, { createContext, useContext, useMemo } from 'react';
 import {
   DARK_THEME,
   FONT_SCALE_MULT,
+  LIGHT_THEME,
   THEME_PRESETS,
   type ThemeTokens,
 } from '../theme';
@@ -21,8 +22,8 @@ interface ThemeContextValue {
 }
 
 const ThemeContext = createContext<ThemeContextValue>({
-  theme: DARK_THEME,
-  mode: 'dark',
+  theme: LIGHT_THEME,
+  mode: 'light',
   preset: 'espresso',
   fontScale: 'normal',
   fontMult: 1.0,
