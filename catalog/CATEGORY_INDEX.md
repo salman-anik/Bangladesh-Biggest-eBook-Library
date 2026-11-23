@@ -243,10 +243,10 @@ Total organized unique valid eBooks: **22,099** (**316.46 GB**)
 | `Bangla Books/Translated & Foreign Literature (অনুবাদ সাহিত্য)` | 184 | 1.59 GB | [Open](https://drive.google.com/drive/folders/1j9-sZF30TVD90S6dA6xE9_jbmwZjFDN8) |
 | `Bangla Books/Travel & Geography (ভ্রমণ)` | 18 | 48.6 MB | [Open](https://drive.google.com/drive/folders/1_Kt20sIAgzvp8JcPEwsBmNwH8bcdInFq) |
 | `Education & Textbooks/Alia Madrasa` | 4 | 64.9 MB | [Open](https://drive.google.com/drive/folders/1_kES2hSESWdRgkbAib9EfOgKx4lIizPH) |
-| `Education & Textbooks/Alia Madrasa/Dakhil` | 178 | 7.61 GB | [Open](https://drive.google.com/drive/folders/12zo0KsCpeuFomj4ZnMCUyjwLdn9HL3sK) |
-| `Education & Textbooks/Alia Madrasa/Ebtedayee` | 108 | 3.08 GB | [Open](https://drive.google.com/drive/folders/1aA4qAiVXCHUBFpMK9i-sPCVf1Rn3TUUJ) |
-| `Education & Textbooks/Alia Madrasa/Ebtedayee/Class 4` | 1 | 50.2 MB | [Open](https://drive.google.com/drive/folders/1TqQOU4-gvnGoLkxD7WoPla-TPn6W04f6) |
-| `Education & Textbooks/Alia Madrasa/General` | 5 | 22.3 MB | [Open](https://drive.google.com/drive/folders/1T6YBUBeRpUUaaIEWSK5EMOw6ptu5uJ4n) |
+| `Education & Textbooks/Madrasa/Alia Madrasa/Dakhil` | 178 | 7.61 GB | [Open](https://drive.google.com/drive/folders/12zo0KsCpeuFomj4ZnMCUyjwLdn9HL3sK) |
+| `Education & Textbooks/Madrasa/Alia Madrasa/Ebtedayee` | 108 | 3.08 GB | [Open](https://drive.google.com/drive/folders/1aA4qAiVXCHUBFpMK9i-sPCVf1Rn3TUUJ) |
+| `Education & Textbooks/Madrasa/Alia Madrasa/Ebtedayee/Class 4` | 1 | 50.2 MB | [Open](https://drive.google.com/drive/folders/1TqQOU4-gvnGoLkxD7WoPla-TPn6W04f6) |
+| `Education & Textbooks/Madrasa/Alia Madrasa/General` | 5 | 22.3 MB | [Open](https://drive.google.com/drive/folders/1T6YBUBeRpUUaaIEWSK5EMOw6ptu5uJ4n) |
 | `Education & Textbooks/General Education/Admission & Entrance Preparation/Agriculture Admission/Agricultural Universities` | 1 | 10.8 MB | [Open](https://drive.google.com/drive/folders/19qZQhNoALvTHWILkUf2iYyMsE94Ua9MS) |
 | `Education & Textbooks/General Education/Admission & Entrance Preparation/Agriculture Admission/Combined Agriculture Admission` | 5 | 485.3 MB | [Open](https://drive.google.com/drive/folders/1PNRRbGJWS0JZlhy7PX-RFZsy67Q-XHaQ) |
 | `Education & Textbooks/General Education/Admission & Entrance Preparation/Agriculture Admission/Model Tests & Solutions` | 1 | 64.2 MB | [Open](https://drive.google.com/drive/folders/1-BttLTYIF8zros22KeoeW2YohaMvWv_C) |
@@ -301,52 +301,52 @@ Total organized unique valid eBooks: **22,099** (**316.46 GB**)
 | `Education & Textbooks/General Education/Secondary Education/Class 8` | 129 | 3.21 GB | [Open](https://drive.google.com/drive/folders/1dInh1BOzS1zYuG3nqBvFypVWOVGcyYKO) |
 | `Education & Textbooks/General Education/Secondary Education/Class 9` | 182 | 7.62 GB | [Open](https://drive.google.com/drive/folders/12L6IB1efzhW4KafVYkf5FLDKupz5VgYH) |
 | `Education & Textbooks/Qawmi Madrasa` | 6 | 79.6 MB | [Open](https://drive.google.com/drive/folders/1oACGk9Yf70kBJGRdsNMVPBkFLhZNJ02O) |
-| `Education & Textbooks/Qawmi Madrasa/Common & Reference Books/Aqeedah & Beliefs` | 43 | 538.6 MB | [Open](https://drive.google.com/drive/folders/1sczlKyC4iOHC_yqZ51YcwUIJJKNBhGxc) |
-| `Education & Textbooks/Qawmi Madrasa/Common & Reference Books/Arabic Reference Library` | 20 | 254.3 MB | [Open](https://drive.google.com/drive/folders/1eNMzSuYSz0rcb1Wn0llp4_EKq0MqfUKZ) |
-| `Education & Textbooks/Qawmi Madrasa/Common & Reference Books/Dawah, Tabligh & Bayan` | 61 | 774.9 MB | [Open](https://drive.google.com/drive/folders/130EQKcSOKLD533pPCek_rnotw1_HXGwc) |
-| `Education & Textbooks/Qawmi Madrasa/Common & Reference Books/Dictionaries & Lexicons` | 49 | 2.75 GB | [Open](https://drive.google.com/drive/folders/1OPNuLiZ9A46DZGh5ucP7yIeMv6aT9itv) |
-| `Education & Textbooks/Qawmi Madrasa/Common & Reference Books/Fiqh & Madhhab` | 50 | 653.4 MB | [Open](https://drive.google.com/drive/folders/1NX3BAyO2up23e9FAWX4Q_XvTsXsE-i7N) |
-| `Education & Textbooks/Qawmi Madrasa/Common & Reference Books/Hadith & Sunnah` | 166 | 3.99 GB | [Open](https://drive.google.com/drive/folders/1AoyW40fHN850qRgx78CHjwkiwlel5cFv) |
-| `Education & Textbooks/Qawmi Madrasa/Common & Reference Books/Seerah, Akabir Biographies & Islamic History` | 249 | 4.62 GB | [Open](https://drive.google.com/drive/folders/1DzrpIU4--eEGjILJ_ZvwFnutFUrMn9j5) |
-| `Education & Textbooks/Qawmi Madrasa/Common & Reference Books/Tafseer & Al-Quran` | 108 | 2.15 GB | [Open](https://drive.google.com/drive/folders/1KatzNhFzR4gmIZGojFwiQj0tzj_Es_jz) |
-| `Education & Textbooks/Qawmi Madrasa/Common & Reference Books/Tasawwuf, Akhlaq & Dua` | 74 | 706.4 MB | [Open](https://drive.google.com/drive/folders/1kBV95L4pAhP66-1kl8e3EWDQ9PWGMfWP) |
-| `Education & Textbooks/Qawmi Madrasa/Fazilat/Aqeedah & Beliefs` | 9 | 66.1 MB | [Open](https://drive.google.com/drive/folders/1OZ-nmvyTA3WLlQX_-j3KoEqPKE_nJS7r) |
-| `Education & Textbooks/Qawmi Madrasa/Fazilat/Arabic Literature & Balaghat` | 30 | 337.2 MB | [Open](https://drive.google.com/drive/folders/1e7s_ck0qnR6z4Sd2_g7C8Dbx-ek9cxpm) |
-| `Education & Textbooks/Qawmi Madrasa/Fazilat/Fiqh & Usulul Fiqh` | 19 | 225.5 MB | [Open](https://drive.google.com/drive/folders/1xEnlHFgAlJj7BXXDwUfDKeZabXkP0m3K) |
-| `Education & Textbooks/Qawmi Madrasa/Fazilat/General / Other Subjects` | 50 | 932.5 MB | [Open](https://drive.google.com/drive/folders/1XyzgvZsDnwLQemYW9pqRFaVBxIGKLwgb) |
-| `Education & Textbooks/Qawmi Madrasa/Fazilat/Hadith & Usulul Hadith` | 151 | 2.72 GB | [Open](https://drive.google.com/drive/folders/1ZZVPqGHpjH6OcY7lHITVLhQ8_ifnAqWD) |
-| `Education & Textbooks/Qawmi Madrasa/Fazilat/Mantiq, Falsafa & Kalam` | 4 | 18.8 MB | [Open](https://drive.google.com/drive/folders/1W2SuEKl6jhU2LLvbn_vgy3aPAJREDb8T) |
-| `Education & Textbooks/Qawmi Madrasa/Fazilat/Seerah & Islamic History` | 1 | 16.9 MB | [Open](https://drive.google.com/drive/folders/1X1rWsDOeNeE_cnk7XeIawjZuL6UP_yOF) |
-| `Education & Textbooks/Qawmi Madrasa/Fazilat/Tafseer & Ulumul Quran` | 116 | 1.60 GB | [Open](https://drive.google.com/drive/folders/1x37RoZMyrbZ3EIzz1GebQayHo7R4Oxpo) |
-| `Education & Textbooks/Qawmi Madrasa/Ibtidaiyah/Arabic Language & Literature` | 9 | 79.3 MB | [Open](https://drive.google.com/drive/folders/1B9ISSakV-141lJXaKhpo4QzpqeGJwqKu) |
-| `Education & Textbooks/Qawmi Madrasa/Ibtidaiyah/Fiqh & Madhhab` | 3 | 39.0 MB | [Open](https://drive.google.com/drive/folders/1wir06SyLPpPn3gVCBCwOKEzZynbaJ_zV) |
-| `Education & Textbooks/Qawmi Madrasa/Ibtidaiyah/General / Other Subjects` | 5 | 40.3 MB | [Open](https://drive.google.com/drive/folders/1Z63KYTjeXAlliRRrL0Y-pktKBAlNg1AB) |
-| `Education & Textbooks/Qawmi Madrasa/Ibtidaiyah/Mantiq & Falsafa` | 1 | 1.2 MB | [Open](https://drive.google.com/drive/folders/16tkQ3hNrWqRCj9lvj9c5QEUOJ_6P3Uu6) |
-| `Education & Textbooks/Qawmi Madrasa/Mutawassitah/Arabic Language & Literature` | 198 | 1.67 GB | [Open](https://drive.google.com/drive/folders/1BcKKHyuKc1sOteC2krpagJaBJJ0TAWK2) |
-| `Education & Textbooks/Qawmi Madrasa/Mutawassitah/Fiqh & Madhhab` | 22 | 422.4 MB | [Open](https://drive.google.com/drive/folders/1Yc0WNkwc7rnvBvKfYJ5bvsPiO3gIWhuM) |
-| `Education & Textbooks/Qawmi Madrasa/Mutawassitah/General / Other Subjects` | 174 | 1.87 GB | [Open](https://drive.google.com/drive/folders/1kV_4J2lO4lKRZLjTovqWq_TB0wooi3S3) |
-| `Education & Textbooks/Qawmi Madrasa/Mutawassitah/Mantiq & Falsafa` | 13 | 66.5 MB | [Open](https://drive.google.com/drive/folders/12hxBwPVsZrXTDCxLpIYKKJ6EmVldeHK_) |
-| `Education & Textbooks/Qawmi Madrasa/Mutawassitah/Seerah & Islamic History` | 2 | 6.7 MB | [Open](https://drive.google.com/drive/folders/1g2X8PjMggJZji_Du3jOIG2VasNYJE6v9) |
-| `Education & Textbooks/Qawmi Madrasa/Mutawassitah/Tafseer & Al-Quran` | 20 | 159.2 MB | [Open](https://drive.google.com/drive/folders/1inWeT1Tmpt4pvxKbYSzEmm7Tw9NPLq6E) |
-| `Education & Textbooks/Qawmi Madrasa/Review & Unclassified (Qawmi)/General Islamic Literature & Misc (Level Unspecified)` | 615 | 6.48 GB | [Open](https://drive.google.com/drive/folders/1x44IFWbIauj-228uDJd6riHIY7k0Jqn0) |
-| `Education & Textbooks/Qawmi Madrasa/Sanabiyah/Aqeedah & Beliefs` | 29 | 360.0 MB | [Open](https://drive.google.com/drive/folders/1aeDKJXwaqKPgF0FPoC5139gwv_CY7kWX) |
-| `Education & Textbooks/Qawmi Madrasa/Sanabiyah/Arabic Language & Literature` | 81 | 1.01 GB | [Open](https://drive.google.com/drive/folders/1R6B6vGTYVS4wPqlFSh3tr-XoNXKMtxMI) |
-| `Education & Textbooks/Qawmi Madrasa/Sanabiyah/Fiqh & Madhhab` | 30 | 470.0 MB | [Open](https://drive.google.com/drive/folders/1V_SWzYBV7d6SVUD0nGo55LIxXaAP17iG) |
-| `Education & Textbooks/Qawmi Madrasa/Sanabiyah/General / Other Subjects` | 207 | 3.43 GB | [Open](https://drive.google.com/drive/folders/1LKZJHtphhPX-2jpAKoyFZ-472viocakP) |
-| `Education & Textbooks/Qawmi Madrasa/Sanabiyah/Hadith & Sunnah` | 15 | 127.3 MB | [Open](https://drive.google.com/drive/folders/1LcLhnuR7OTLUTOYZJyxLGanNhkPQuWsg) |
-| `Education & Textbooks/Qawmi Madrasa/Sanabiyah/Mantiq & Falsafa` | 76 | 724.4 MB | [Open](https://drive.google.com/drive/folders/1X0tCbGmKKzGdtKW0BXMNcdA9ZyB8rmtT) |
-| `Education & Textbooks/Qawmi Madrasa/Sanabiyah/Tafseer & Al-Quran` | 17 | 785.4 MB | [Open](https://drive.google.com/drive/folders/1-WfegGn9Rn74tSwpK3PcGQX3QzYMbVJX) |
-| `Education & Textbooks/Qawmi Madrasa/Takhassus/Aqeedah, Kalam & Comparative Study` | 14 | 118.7 MB | [Open](https://drive.google.com/drive/folders/1FGDeZKqdaU_Jtn3iOQdPaUIAoXQJPbba) |
-| `Education & Textbooks/Qawmi Madrasa/Takhassus/Arabic Literature & Balaghat` | 9 | 56.2 MB | [Open](https://drive.google.com/drive/folders/1ZnYv_B2_cmHTqb5PiyiS-FVdOrOfvg7V) |
-| `Education & Textbooks/Qawmi Madrasa/Takhassus/Fiqh, Ifta & Fatawa` | 9 | 130.0 MB | [Open](https://drive.google.com/drive/folders/1dQilXan_8EqWZj5BmW-O8T0XxRrKEMpH) |
-| `Education & Textbooks/Qawmi Madrasa/Takhassus/Tafseer & Ulumul Quran` | 28 | 722.1 MB | [Open](https://drive.google.com/drive/folders/1KsgolygN6EzWwGq0azM2qIk3qNo051xc) |
-| `Education & Textbooks/Qawmi Madrasa/Takhassus/Ulumul Hadith & Jarh wa Tadil` | 5 | 85.6 MB | [Open](https://drive.google.com/drive/folders/1NjbpPvjsTdBp5Cq1DMoFxBpT8RA_E4fT) |
-| `Education & Textbooks/Qawmi Madrasa/Takmil (Dawra-e-Hadith)/Dawra-e-Hadith Combined & General` | 163 | 2.60 GB | [Open](https://drive.google.com/drive/folders/1geIq_xB0o79Ot0kapWO6JOyVyNHrPtPi) |
-| `Education & Textbooks/Qawmi Madrasa/Takmil (Dawra-e-Hadith)/Jami At-Tirmidhi & Shuruh` | 130 | 2.21 GB | [Open](https://drive.google.com/drive/folders/1oqKkNXw9OHWk0GhCkbOWvWxj_wSqX-H0) |
-| `Education & Textbooks/Qawmi Madrasa/Takmil (Dawra-e-Hadith)/Nasai, Ibn Majah, Tahawi & Muwatta` | 33 | 622.7 MB | [Open](https://drive.google.com/drive/folders/10dB-JC4ab6bYJirDbARzJg0D9QEA2Qaq) |
-| `Education & Textbooks/Qawmi Madrasa/Takmil (Dawra-e-Hadith)/Sahih Al-Bukhari & Shuruh` | 257 | 5.64 GB | [Open](https://drive.google.com/drive/folders/11MiijOU2WUkyQrf3cp7jvXS31L8bKfrx) |
-| `Education & Textbooks/Qawmi Madrasa/Takmil (Dawra-e-Hadith)/Sahih Muslim & Shuruh` | 75 | 1.49 GB | [Open](https://drive.google.com/drive/folders/1nZzEgKzwI8Moq6wwW2hyyvkrpLQM6fnj) |
-| `Education & Textbooks/Qawmi Madrasa/Takmil (Dawra-e-Hadith)/Sunan Abi Dawud & Shuruh` | 11 | 207.1 MB | [Open](https://drive.google.com/drive/folders/1M08PeyzsmI7mvhfPcNszyRQfwDPElOVs) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Common & Reference Books/Aqeedah & Beliefs` | 43 | 538.6 MB | [Open](https://drive.google.com/drive/folders/1sczlKyC4iOHC_yqZ51YcwUIJJKNBhGxc) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Common & Reference Books/Arabic Reference Library` | 20 | 254.3 MB | [Open](https://drive.google.com/drive/folders/1eNMzSuYSz0rcb1Wn0llp4_EKq0MqfUKZ) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Common & Reference Books/Dawah, Tabligh & Bayan` | 61 | 774.9 MB | [Open](https://drive.google.com/drive/folders/130EQKcSOKLD533pPCek_rnotw1_HXGwc) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Common & Reference Books/Dictionaries & Lexicons` | 49 | 2.75 GB | [Open](https://drive.google.com/drive/folders/1OPNuLiZ9A46DZGh5ucP7yIeMv6aT9itv) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Common & Reference Books/Fiqh & Madhhab` | 50 | 653.4 MB | [Open](https://drive.google.com/drive/folders/1NX3BAyO2up23e9FAWX4Q_XvTsXsE-i7N) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Common & Reference Books/Hadith & Sunnah` | 166 | 3.99 GB | [Open](https://drive.google.com/drive/folders/1AoyW40fHN850qRgx78CHjwkiwlel5cFv) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Common & Reference Books/Seerah, Akabir Biographies & Islamic History` | 249 | 4.62 GB | [Open](https://drive.google.com/drive/folders/1DzrpIU4--eEGjILJ_ZvwFnutFUrMn9j5) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Common & Reference Books/Tafseer & Al-Quran` | 108 | 2.15 GB | [Open](https://drive.google.com/drive/folders/1KatzNhFzR4gmIZGojFwiQj0tzj_Es_jz) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Common & Reference Books/Tasawwuf, Akhlaq & Dua` | 74 | 706.4 MB | [Open](https://drive.google.com/drive/folders/1kBV95L4pAhP66-1kl8e3EWDQ9PWGMfWP) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Fazilat/Aqeedah & Beliefs` | 9 | 66.1 MB | [Open](https://drive.google.com/drive/folders/1OZ-nmvyTA3WLlQX_-j3KoEqPKE_nJS7r) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Fazilat/Arabic Literature & Balaghat` | 30 | 337.2 MB | [Open](https://drive.google.com/drive/folders/1e7s_ck0qnR6z4Sd2_g7C8Dbx-ek9cxpm) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Fazilat/Fiqh & Usulul Fiqh` | 19 | 225.5 MB | [Open](https://drive.google.com/drive/folders/1xEnlHFgAlJj7BXXDwUfDKeZabXkP0m3K) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Fazilat/General / Other Subjects` | 50 | 932.5 MB | [Open](https://drive.google.com/drive/folders/1XyzgvZsDnwLQemYW9pqRFaVBxIGKLwgb) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Fazilat/Hadith & Usulul Hadith` | 151 | 2.72 GB | [Open](https://drive.google.com/drive/folders/1ZZVPqGHpjH6OcY7lHITVLhQ8_ifnAqWD) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Fazilat/Mantiq, Falsafa & Kalam` | 4 | 18.8 MB | [Open](https://drive.google.com/drive/folders/1W2SuEKl6jhU2LLvbn_vgy3aPAJREDb8T) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Fazilat/Seerah & Islamic History` | 1 | 16.9 MB | [Open](https://drive.google.com/drive/folders/1X1rWsDOeNeE_cnk7XeIawjZuL6UP_yOF) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Fazilat/Tafseer & Ulumul Quran` | 116 | 1.60 GB | [Open](https://drive.google.com/drive/folders/1x37RoZMyrbZ3EIzz1GebQayHo7R4Oxpo) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Ibtidaiyah/Arabic Language & Literature` | 9 | 79.3 MB | [Open](https://drive.google.com/drive/folders/1B9ISSakV-141lJXaKhpo4QzpqeGJwqKu) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Ibtidaiyah/Fiqh & Madhhab` | 3 | 39.0 MB | [Open](https://drive.google.com/drive/folders/1wir06SyLPpPn3gVCBCwOKEzZynbaJ_zV) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Ibtidaiyah/General / Other Subjects` | 5 | 40.3 MB | [Open](https://drive.google.com/drive/folders/1Z63KYTjeXAlliRRrL0Y-pktKBAlNg1AB) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Ibtidaiyah/Mantiq & Falsafa` | 1 | 1.2 MB | [Open](https://drive.google.com/drive/folders/16tkQ3hNrWqRCj9lvj9c5QEUOJ_6P3Uu6) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Mutawassitah/Arabic Language & Literature` | 198 | 1.67 GB | [Open](https://drive.google.com/drive/folders/1BcKKHyuKc1sOteC2krpagJaBJJ0TAWK2) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Mutawassitah/Fiqh & Madhhab` | 22 | 422.4 MB | [Open](https://drive.google.com/drive/folders/1Yc0WNkwc7rnvBvKfYJ5bvsPiO3gIWhuM) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Mutawassitah/General / Other Subjects` | 174 | 1.87 GB | [Open](https://drive.google.com/drive/folders/1kV_4J2lO4lKRZLjTovqWq_TB0wooi3S3) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Mutawassitah/Mantiq & Falsafa` | 13 | 66.5 MB | [Open](https://drive.google.com/drive/folders/12hxBwPVsZrXTDCxLpIYKKJ6EmVldeHK_) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Mutawassitah/Seerah & Islamic History` | 2 | 6.7 MB | [Open](https://drive.google.com/drive/folders/1g2X8PjMggJZji_Du3jOIG2VasNYJE6v9) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Mutawassitah/Tafseer & Al-Quran` | 20 | 159.2 MB | [Open](https://drive.google.com/drive/folders/1inWeT1Tmpt4pvxKbYSzEmm7Tw9NPLq6E) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Review & Unclassified (Qawmi)/General Islamic Literature & Misc (Level Unspecified)` | 615 | 6.48 GB | [Open](https://drive.google.com/drive/folders/1x44IFWbIauj-228uDJd6riHIY7k0Jqn0) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Sanabiyah/Aqeedah & Beliefs` | 29 | 360.0 MB | [Open](https://drive.google.com/drive/folders/1aeDKJXwaqKPgF0FPoC5139gwv_CY7kWX) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Sanabiyah/Arabic Language & Literature` | 81 | 1.01 GB | [Open](https://drive.google.com/drive/folders/1R6B6vGTYVS4wPqlFSh3tr-XoNXKMtxMI) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Sanabiyah/Fiqh & Madhhab` | 30 | 470.0 MB | [Open](https://drive.google.com/drive/folders/1V_SWzYBV7d6SVUD0nGo55LIxXaAP17iG) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Sanabiyah/General / Other Subjects` | 207 | 3.43 GB | [Open](https://drive.google.com/drive/folders/1LKZJHtphhPX-2jpAKoyFZ-472viocakP) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Sanabiyah/Hadith & Sunnah` | 15 | 127.3 MB | [Open](https://drive.google.com/drive/folders/1LcLhnuR7OTLUTOYZJyxLGanNhkPQuWsg) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Sanabiyah/Mantiq & Falsafa` | 76 | 724.4 MB | [Open](https://drive.google.com/drive/folders/1X0tCbGmKKzGdtKW0BXMNcdA9ZyB8rmtT) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Sanabiyah/Tafseer & Al-Quran` | 17 | 785.4 MB | [Open](https://drive.google.com/drive/folders/1-WfegGn9Rn74tSwpK3PcGQX3QzYMbVJX) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Takhassus/Aqeedah, Kalam & Comparative Study` | 14 | 118.7 MB | [Open](https://drive.google.com/drive/folders/1FGDeZKqdaU_Jtn3iOQdPaUIAoXQJPbba) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Takhassus/Arabic Literature & Balaghat` | 9 | 56.2 MB | [Open](https://drive.google.com/drive/folders/1ZnYv_B2_cmHTqb5PiyiS-FVdOrOfvg7V) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Takhassus/Fiqh, Ifta & Fatawa` | 9 | 130.0 MB | [Open](https://drive.google.com/drive/folders/1dQilXan_8EqWZj5BmW-O8T0XxRrKEMpH) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Takhassus/Tafseer & Ulumul Quran` | 28 | 722.1 MB | [Open](https://drive.google.com/drive/folders/1KsgolygN6EzWwGq0azM2qIk3qNo051xc) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Takhassus/Ulumul Hadith & Jarh wa Tadil` | 5 | 85.6 MB | [Open](https://drive.google.com/drive/folders/1NjbpPvjsTdBp5Cq1DMoFxBpT8RA_E4fT) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Takmil (Dawra-e-Hadith)/Dawra-e-Hadith Combined & General` | 163 | 2.60 GB | [Open](https://drive.google.com/drive/folders/1geIq_xB0o79Ot0kapWO6JOyVyNHrPtPi) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Takmil (Dawra-e-Hadith)/Jami At-Tirmidhi & Shuruh` | 130 | 2.21 GB | [Open](https://drive.google.com/drive/folders/1oqKkNXw9OHWk0GhCkbOWvWxj_wSqX-H0) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Takmil (Dawra-e-Hadith)/Nasai, Ibn Majah, Tahawi & Muwatta` | 33 | 622.7 MB | [Open](https://drive.google.com/drive/folders/10dB-JC4ab6bYJirDbARzJg0D9QEA2Qaq) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Takmil (Dawra-e-Hadith)/Sahih Al-Bukhari & Shuruh` | 257 | 5.64 GB | [Open](https://drive.google.com/drive/folders/11MiijOU2WUkyQrf3cp7jvXS31L8bKfrx) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Takmil (Dawra-e-Hadith)/Sahih Muslim & Shuruh` | 75 | 1.49 GB | [Open](https://drive.google.com/drive/folders/1nZzEgKzwI8Moq6wwW2hyyvkrpLQM6fnj) |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa/Takmil (Dawra-e-Hadith)/Sunan Abi Dawud & Shuruh` | 11 | 207.1 MB | [Open](https://drive.google.com/drive/folders/1M08PeyzsmI7mvhfPcNszyRQfwDPElOVs) |
 | `Education & Textbooks/University Education` | 119 | 10.07 GB | [Open](https://drive.google.com/drive/folders/1nmyPDZNogp78QSMioB8Jm8N9qpcum8hP) |
 | `English Books/Biography & Memoirs` | 1 | 334.5 KB | [Open](https://drive.google.com/drive/folders/1FMsxAa8L4BrBbENZSKEW1F7sDWo19oue) |
 | `English Books/Computer Science` | 21 | 617.4 MB | [Open](https://drive.google.com/drive/folders/1w9uktrcbnXmEV77APF7BBA26eVJ_IUuQ) |

@@ -1,0 +1,22 @@
+# প্রফেসর শঙ্কু সিরিজ
+
+[🏠 Library Home](../../../README.md) / [Series & Collections](../../README.md) / [Book Series](../README.md) / **প্রফেসর শঙ্কু সিরিজ**
+
+**Books:** `11` | **Total Size:** `116.90 MB` | **Covers:** `11` | [📂 Open Root in Google Drive](https://drive.google.com/drive/folders/1_dHgKueL1AS_EbaXUO-XWCtrgal1JZ8m) | [🌐 Browse in Web Explorer](https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/?category=Series%20%26%20Collections&sub=Book%20Series/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AB%E0%A7%87%E0%A6%B8%E0%A6%B0%20%E0%A6%B6%E0%A6%99%E0%A7%8D%E0%A6%95%E0%A7%81%20%E0%A6%B8%E0%A6%BF%E0%A6%B0%E0%A6%BF%E0%A6%9C)
+
+## Books (11)
+
+| # | Title | Author | Format | Size | Actions |
+|---:|---|---|---|---:|---|
+| 1 | Mahasankatey Shonku By Satyajit Ray | BDeBooks.Com | PDF | 4.65 MB | [📖 Read](https://drive.google.com/file/d/1zV_15I3nuyZx2g3iq_1JApTFjnsQKSZx/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=1zV_15I3nuyZx2g3iq_1JApTFjnsQKSZx) · [🖼️ Cover](https://drive.google.com/file/d/1v_gbLdd5k7vkxuQcNnOx5J7BuN1-zzta/view) |
+| 2 | Professor Shonku By Satyajit Ray | BDeBooks.Com | PDF | 7.56 MB | [📖 Read](https://drive.google.com/file/d/1zZrAPBeF5DjS9IZkDYnwmIobYfQ76Z8m/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=1zZrAPBeF5DjS9IZkDYnwmIobYfQ76Z8m) · [🖼️ Cover](https://drive.google.com/file/d/1SQ71cs5BTVICzLpMYNlpIaVRPnCg8Tjb/view) |
+| 3 | Professor Shonkur Diary By Satyajit Roy | BDeBooks.Com | PDF | 13.14 MB | [📖 Read](https://drive.google.com/file/d/1FbdaKAsWX86cP2m2VlWNxOKJUtlWoRAc/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=1FbdaKAsWX86cP2m2VlWNxOKJUtlWoRAc) · [🖼️ Cover](https://drive.google.com/file/d/1eOmBAbG3r4z9stMGQV6Gv7IpGO5M8hIf/view) |
+| 4 | Professor Shonkur Kandokarkhana By Satyajit Ray | BDeBooks.Com | PDF | 6.45 MB | [📖 Read](https://drive.google.com/file/d/1Jy1x4m6VJ1tcx-ZqVM13w7uiIZXBz654/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=1Jy1x4m6VJ1tcx-ZqVM13w7uiIZXBz654) · [🖼️ Cover](https://drive.google.com/file/d/1O88NEKu9HrsjA3xZLhaGObBe9vrK108L/view) |
+| 5 | Punashcha Professor Shonku By Satyajit Ray | BDeBooks.Com | PDF | 5.73 MB | [📖 Read](https://drive.google.com/file/d/1Jg_gtYc4VI79MBKGsPGygIFgDrOZ8vxF/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=1Jg_gtYc4VI79MBKGsPGygIFgDrOZ8vxF) · [🖼️ Cover](https://drive.google.com/file/d/1uNEMwe30mKjJNQjnfyDNaHmmiWJKNHov/view) |
+| 6 | Selam Professor Shonku By Satyajit Ray | BDeBooks.Com | PDF | 6.11 MB | [📖 Read](https://drive.google.com/file/d/1UrcpHfrncxis5xaF0dHazlpCiVdPRsaE/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=1UrcpHfrncxis5xaF0dHazlpCiVdPRsaE) · [🖼️ Cover](https://drive.google.com/file/d/1pTkoV_2pcnVag9TfMz1oz1pneY-zxTSp/view) |
+| 7 | Shabash Professor Shonku By Satyajit Ray | BDeBooks.Com | PDF | 5.51 MB | [📖 Read](https://drive.google.com/file/d/1O1bEcU1IwgH--L_SHTnW5kLnFr60o53B/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=1O1bEcU1IwgH--L_SHTnW5kLnFr60o53B) · [🖼️ Cover](https://drive.google.com/file/d/1XHGEETmQhsR3FltLbdaUC7lcI584Gb7z/view) |
+| 8 | Shonku Ekai Aksho By Satyajit Ray | BDeBooks.Com | PDF | 8.86 MB | [📖 Read](https://drive.google.com/file/d/1T0qaRe7Jefd5wvYpzpT-pA5l1IZpYHLo/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=1T0qaRe7Jefd5wvYpzpT-pA5l1IZpYHLo) · [🖼️ Cover](https://drive.google.com/file/d/1ndfwfkdp2qp8qgDFqd7H-LFiZiedd3Kx/view) |
+| 9 | Shonku Samagra By Satyajit Ray | BDeBooks.Com | PDF | 48.73 MB | [📖 Read](https://drive.google.com/file/d/1srGicWH34bc0dfx8SSYMATKk0aeEcJIY/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=1srGicWH34bc0dfx8SSYMATKk0aeEcJIY) · [🖼️ Cover](https://drive.google.com/file/d/1LKVB17rsFoVvnmYEznUH-p-XDhzl6R-A/view) |
+| 10 | Swayang Professor Shonku By Satyajit Ray | BDeBooks.Com | PDF | 6.31 MB | [📖 Read](https://drive.google.com/file/d/1VeQhPgHrorJrGeZ-rDAB7PCBu8C5_Uwd/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=1VeQhPgHrorJrGeZ-rDAB7PCBu8C5_Uwd) · [🖼️ Cover](https://drive.google.com/file/d/10MKedH4qov-99u5nMpvo_3UYo6Fyald8/view) |
+| 11 | সেলাম প্রফেসর শঙ্কু | সুকুমার রায় | PDF | 3.85 MB | [📖 Read](https://drive.google.com/file/d/1sJ0RKxs-kuaQfxJsJGd3zNLqq7mzYSs7/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=1sJ0RKxs-kuaQfxJsJGd3zNLqq7mzYSs7) · [🖼️ Cover](https://drive.google.com/file/d/1FwJBZUsp5xkocC00b06-hfKW0yOKAqYF/view) |
+

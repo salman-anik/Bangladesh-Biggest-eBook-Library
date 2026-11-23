@@ -1,0 +1,24 @@
+# Other Subjects
+
+[🏠 Library Home](../../README.md) / [English Books](../README.md) / **Other Subjects**
+
+**Books:** `13` | **Total Size:** `287.56 MB` | **Covers:** `13` | [📂 Open Root in Google Drive](https://drive.google.com/drive/folders/1T250ptAUwZnv80QxH34qFApKhRZ_s4d9) | [🌐 Browse in Web Explorer](https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/?category=English%20Books&sub=Other%20Subjects)
+
+## Books (13)
+
+| # | Title | Author | Format | Size | Actions |
+|---:|---|---|---|---:|---|
+| 1 | 550+ Synonyms and Antonyms | Unknown | PDF | 6.63 MB | [📖 Read](https://drive.google.com/file/d/10EqEQtWKkpwRsrD2NCAzXJIQn_7qZcUp/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=10EqEQtWKkpwRsrD2NCAzXJIQn_7qZcUp) · [🖼️ Cover](https://drive.google.com/file/d/1zM4v_wzTrRU3F0WCshcCARwUMAUg4WnW/view) |
+| 2 | A passage to the English | Ch 4,5 | PDF | 7.38 MB | [📖 Read](https://drive.google.com/file/d/1Oi3Z_LC2pb_tLolE_h0zTQyBnE6_NsoJ/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=1Oi3Z_LC2pb_tLolE_h0zTQyBnE6_NsoJ) · [🖼️ Cover](https://drive.google.com/file/d/1fGndLPa663pzLOYXhrdxaLBytNJYz6j0/view) |
+| 3 | A Tale of Two Jackets | Really Learn English | PDF | 2.53 MB | [📖 Read](https://drive.google.com/file/d/1A-SElVjN7xLwqizKIsVIDMiqsUJPNUxJ/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=1A-SElVjN7xLwqizKIsVIDMiqsUJPNUxJ) · [🖼️ Cover](https://drive.google.com/file/d/1cvvHy3vwtQvGYbIDJ1h2YiemXSN-pJ6M/view) |
+| 4 | Advanced Learners Functional English | book.exambd.net | PDF | 11.91 MB | [📖 Read](https://drive.google.com/file/d/1l4Wvb1BzEgRC-ZGjjaW1DUQJc9dL-uTk/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=1l4Wvb1BzEgRC-ZGjjaW1DUQJc9dL-uTk) · [🖼️ Cover](https://drive.google.com/file/d/1DOqapSJFxrKa4l_Mzgv3-IDcmFH2jUP0/view) |
+| 5 | b dialogues everyday conversations english lo 0 | Unknown | PDF | 20.56 MB | [📖 Read](https://drive.google.com/file/d/1Qes4_mhMNq0ka8UtrV91OWu1CDm25pCR/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=1Qes4_mhMNq0ka8UtrV91OWu1CDm25pCR) · [🖼️ Cover](https://drive.google.com/file/d/1MLxgr06oklh9EHCeawZp318QfexQiqa1/view) |
+| 6 | english-066 | Unknown | PDF | 2.35 MB | [📖 Read](https://drive.google.com/file/d/1y4sEv5uoCMFW3PxDbRGgXrihQFXCsBDk/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=1y4sEv5uoCMFW3PxDbRGgXrihQFXCsBDk) · [🖼️ Cover](https://drive.google.com/file/d/1CNwSIKtE_Yl12BLkvP2mvL0avXwSh1_4/view) |
+| 7 | Everyday Conversations Learning American English | learnenglishteam.com | PDF | 20.83 MB | [📖 Read](https://drive.google.com/file/d/1gxKJ6NqlKrT7_x14CJd55R2dQzXT0aEZ/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=1gxKJ6NqlKrT7_x14CJd55R2dQzXT0aEZ) · [🖼️ Cover](https://drive.google.com/file/d/1vsjOu-OEEf7YgMPleSqpPFG_Ty9r8ISQ/view) |
+| 8 | Learn English pdf book free download-converted (2) | Unknown | PDF | 1.79 MB | [📖 Read](https://drive.google.com/file/d/11gAgpi3urt_svOLuNS76lxnH-KsLKl0Y/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=11gAgpi3urt_svOLuNS76lxnH-KsLKl0Y) · [🖼️ Cover](https://drive.google.com/file/d/1D90P6HGNtOQh6RM3gz3yyZb9wu3MxxV0/view) |
+| 9 | MaasirAl-umara english vol | umara english vol.2 | PDF | 48.54 MB | [📖 Read](https://drive.google.com/file/d/1CQWa-q56w0Hz1TNuCbfwP09u_gO6ezcM/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=1CQWa-q56w0Hz1TNuCbfwP09u_gO6ezcM) · [🖼️ Cover](https://drive.google.com/file/d/1tcKkB8BN4hY6PDBJm6ZTkVN3B0kZm1gk/view) |
+| 10 | S@ifurs English Zero | Hero (studyplanbd.com) | PDF | 66.91 MB | [📖 Read](https://drive.google.com/file/d/1b1jOauhwDM6vGZR5bBmY8k6k3P7FP4ZR/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=1b1jOauhwDM6vGZR5bBmY8k6k3P7FP4ZR) · [🖼️ Cover](https://drive.google.com/file/d/1aT01GQ-PMHod5sfGsDSwPj4F8Mog5JcN/view) |
+| 11 | The Anatomy of English Sentence | Unknown | PDF | 86.45 MB | [📖 Read](https://drive.google.com/file/d/1b22xB1trGgsM6z_YG0jKBOg8tEUWG2oM/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=1b22xB1trGgsM6z_YG0jKBOg8tEUWG2oM) · [🖼️ Cover](https://drive.google.com/file/d/1pfY9fl5sF0bUBoqPWG3G-MSm-ipU4eak/view) |
+| 12 | The Smart Way Of Learning English Volume 2 m1-18 | Unknown | PDF | 3.69 MB | [📖 Read](https://drive.google.com/file/d/1AsZFAh3z4pyGaG6M4Ii7PyeDKwU74iYG/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=1AsZFAh3z4pyGaG6M4Ii7PyeDKwU74iYG) · [🖼️ Cover](https://drive.google.com/file/d/1QgKo5QLmZ3XFylYXPs-zyDYuPMIaJ-rY/view) |
+| 13 | Word smart part 1& 2 | Unknown | PDF | 8.01 MB | [📖 Read](https://drive.google.com/file/d/1c6N_CRPzK1vbgxODm59fe1zLGiaJcxm0/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=1c6N_CRPzK1vbgxODm59fe1zLGiaJcxm0) · [🖼️ Cover](https://drive.google.com/file/d/1odUgX5BE1QYwWKj8MVvweANkwyueQr6f/view) |
+

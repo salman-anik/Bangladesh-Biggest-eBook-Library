@@ -1,0 +1,22 @@
+# প্রেমেন্দ্র মিত্র
+
+[🏠 Library Home](../../../README.md) / [Authors & Scholars](../../README.md) / [Bangladeshi Authors](../README.md) / **প্রেমেন্দ্র মিত্র**
+
+**Books:** `11` | **Total Size:** `208.65 MB` | **Covers:** `11` | [📂 Open Root in Google Drive](https://drive.google.com/drive/folders/1HG9mZ-FGPOydiFc8h32iIDsKYGY-j9DB) | [🌐 Browse in Web Explorer](https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/?category=Authors%20%26%20Scholars&sub=Bangladeshi%20Authors/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AE%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D%E0%A6%B0%20%E0%A6%AE%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%B0)
+
+## Books (11)
+
+| # | Title | Author | Format | Size | Actions |
+|---:|---|---|---|---:|---|
+| 1 | Bandhabi by Premendra Mitra | (BdeBooks.Com) | PDF | 4.73 MB | [📖 Read](https://drive.google.com/file/d/1RBkaBfaX7kirBV4L_Rr388JY-i7IWLQt/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=1RBkaBfaX7kirBV4L_Rr388JY-i7IWLQt) · [🖼️ Cover](https://drive.google.com/file/d/1jtfmRSl5Ya-DNhYUy8E0eNzsaxqK2DZm/view) |
+| 2 | Chirodiner Itihas by Premendra Mitra | (BdeBooks.Com) | PDF | 431 KB | [📖 Read](https://drive.google.com/file/d/1si5RbUkpGb409OP-00YgtC8hCn65NWvh/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=1si5RbUkpGb409OP-00YgtC8hCn65NWvh) · [🖼️ Cover](https://drive.google.com/file/d/1virTkCsDhfyxGKrv12-rKO1odv8sZzWW/view) |
+| 3 | Ghonada By Kaanch | (BdeBooks.Com) | PDF | 13.61 MB | [📖 Read](https://drive.google.com/file/d/12ZikHgpCPaPG2FOUPEL9UESTeSk8dxmy/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=12ZikHgpCPaPG2FOUPEL9UESTeSk8dxmy) · [🖼️ Cover](https://drive.google.com/file/d/1Ob-cqQmq_fAZfv-_nWtKgbnry4kpEILP/view) |
+| 4 | Hasir Galpo by Premendra Mitra | bdebooks.com | PDF | 10.49 MB | [📖 Read](https://drive.google.com/file/d/1bRVYzWtnMttIqxDoqEQJ-lc2GGjlje_I/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=1bRVYzWtnMttIqxDoqEQJ-lc2GGjlje_I) · [🖼️ Cover](https://drive.google.com/file/d/11oiEntAZJ07VJhSZz_Hqg1Oud8I3iiRP/view) |
+| 5 | Kishore Sahitya Sambhar by Premendra Mitra | (BdeBooks.Com) | PDF | 9.24 MB | [📖 Read](https://drive.google.com/file/d/1y09ghSRF_DzOr2rru5N_Sbc9QT_Yn2B_/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=1y09ghSRF_DzOr2rru5N_Sbc9QT_Yn2B_) · [🖼️ Cover](https://drive.google.com/file/d/1cQR9j6dkU047DazhOO5UljzJjdkYW7Nk/view) |
+| 6 | ORA THAKE ODHARE | bdebooks.com | PDF | 1.92 MB | [📖 Read](https://drive.google.com/file/d/1-V6916mscT8xNUNoyiIv0sELr-wYqdK6/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=1-V6916mscT8xNUNoyiIv0sELr-wYqdK6) · [🖼️ Cover](https://drive.google.com/file/d/1UyHBEOJkA9qbuS8k5upPTXDjvitpICoC/view) |
+| 7 | Parashar Samagra | bdebooks.com | PDF | 73.64 MB | [📖 Read](https://drive.google.com/file/d/1JFDLRmPOllV33o1D64QUmXtJLHbFNX_t/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=1JFDLRmPOllV33o1D64QUmXtJLHbFNX_t) · [🖼️ Cover](https://drive.google.com/file/d/1fJrBg45HkrY1ulb5zjMHpDIG8VPsMAMP/view) |
+| 8 | Porashor Ebar Johuri by Premendra Mitra | (BdeBooks.Com) | PDF | 4.22 MB | [📖 Read](https://drive.google.com/file/d/1WDz3gxzV9PKcTPxnl3UxyUf08Sq3lGGy/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=1WDz3gxzV9PKcTPxnl3UxyUf08Sq3lGGy) · [🖼️ Cover](https://drive.google.com/file/d/1BAgZGDXxIrrt9TPGnxcQwxzjv_CEqIFq/view) |
+| 9 | Sagor Theke Fera by Premendra Mitra | (BdeBooks.Com) | PDF | 9.85 MB | [📖 Read](https://drive.google.com/file/d/17w8SodpCteL780mpRz5Dhqwp95wfH8cI/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=17w8SodpCteL780mpRz5Dhqwp95wfH8cI) · [🖼️ Cover](https://drive.google.com/file/d/15znT0QGfsPWdfktC0dC0LDygkfRJ-6CD/view) |
+| 10 | Vut Shikari Mejo Korta | bdebooks.com | PDF | 6.77 MB | [📖 Read](https://drive.google.com/file/d/1Tq9Sy9baTrEwx9L4kFBDqVGIKU4io237/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=1Tq9Sy9baTrEwx9L4kFBDqVGIKU4io237) · [🖼️ Cover](https://drive.google.com/file/d/1vTRz-ZVKfOfWrFRJARDtdX7ckm-iLnm0/view) |
+| 11 | সিনেমার সব উপন্যাস | প্রেমেন্দ্র মিত্র | PDF | 73.75 MB | [📖 Read](https://drive.google.com/file/d/18gnUPyPTZy4Vg3gslRoRvNHYvaZ9icKv/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=18gnUPyPTZy4Vg3gslRoRvNHYvaZ9icKv) · [🖼️ Cover](https://drive.google.com/file/d/1vRFk-zIuzU_lVkrbeow51EWdXCn1opvC/view) |
+
