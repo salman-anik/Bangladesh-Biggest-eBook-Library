@@ -1,0 +1,54 @@
+name: Phase 1 - Rename & Arrange 8020 Existing Covers + Test Rokomari Access
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  arrange-existing:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Quick Rokomari & OpenLibrary reachability test from GitHub Actions
+        run: |
+          python -c "
+          import urllib.request, urllib.parse
+          for name, u in [
+              ('Rokomari', 'https://www.rokomari.com/search?term=' + urllib.parse.quote('হিমু')),
+              ('OpenLibrary', 'https://openlibrary.org/search.json?title=Clean+Code&limit=1'),
+              ('ArchiveOrg', 'https://archive.org/advancedsearch.php?q=Clean+Code&rows=1&output=json'),
+          ]:
+              try:
+                  req = urllib.request.Request(u, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124.0 Safari/537.36'})
+                  with urllib.request.urlopen(req, timeout=15) as r:
+                      body = r.read().decode('utf-8', 'replace')
+                      print(name, 'HTTP', r.status, 'len:', len(body), 'has_rokbucket:', ('rokbucket' in body or 'ProductNew' in body))
+              except Exception as e:
+                  print(name, 'ERR:', e)
+          "
+
+      - name: Create Cover Images category folders and rename/move 8020 covers
+        env:
+          GDRIVE_OAUTH_JSON: ${{ secrets.GDRIVE_OAUTH_JSON }}
+        run: python -u scripts/cloud_arrange_existing_covers.py
+
+      - name: Commit cover folder IDs and Phase 1 result
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/cover_folder_ids.json data/cloud_arrange_existing_covers_result.json 2>/dev/null || true
+          if ! git diff --staged --quiet; then
+            git commit -m "chore(covers): arrange & rename 8020 existing covers into category folders"
+            git pull --rebase origin main && git push
+          fi
