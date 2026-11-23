@@ -5,8 +5,8 @@ An offline-first Android mobile reader for **AnaBook (Bangladesh's Biggest eBook
 ## Direct APK Download
 
 - **Android APK:** [`Bangladesh-eBook-Library.apk`](./Bangladesh-eBook-Library.apk)
-- **AnaBook Website:** [anabook.vercel.app](https://anabook.vercel.app/)
-- **Online Library:** [anabook.vercel.app/library](https://anabook.vercel.app/library)
+- **AnaBook Website:** [anabook-bd.vercel.app](https://anabook-bd.vercel.app/)
+- **Online Library:** [anabook-bd.vercel.app/library](https://anabook-bd.vercel.app/library)
 
 ## Key Features
 

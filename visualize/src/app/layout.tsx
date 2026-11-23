@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { TopNavbar } from "@/components/TopNavbar";
 import "./globals.css";
 
-const SITE_URL = "https://anabook.vercel.app/";
+const SITE_URL = "https://anabook-bd.vercel.app/";
 
 export const metadata: Metadata = {
   title: "AnaBook — Read 22,166+ Bangla & Academic Books Offline",
