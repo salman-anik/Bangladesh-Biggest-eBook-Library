@@ -1,5 +1,5 @@
 {
-  "verified_at": "2026-11-23T08:23:12Z",
+  "verified_at": "2026-11-23T10:54:17Z",
   "qc_passed": true,
   "live_catalog_books": 22099,
   "live_catalog_bytes": 316462885471,
@@ -179,5 +179,15 @@
       "count": 511,
       "gb": 7.1
     }
+  },
+  "books_with_cover": 21627,
+  "books_without_cover": 472,
+  "cover_sources": {
+    "existing_organized": 5295,
+    "pdf_page1": 13782,
+    "openlibrary_or_archive": 1901,
+    "local_catalog_url": 343,
+    "epub_embedded": 304,
+    "existing": 2
   }
 }
