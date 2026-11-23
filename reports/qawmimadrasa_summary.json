@@ -1,0 +1,16 @@
+{
+  "total_catalog_items": 5401,
+  "processed_items": 4,
+  "remaining_items": 5397,
+  "total_uploaded_files": 3,
+  "total_uploaded_mb": 85.08,
+  "last_run_stats": {
+    "added": 1,
+    "skipped_existing": 0,
+    "no_file_found": 0,
+    "not_found_404": 0,
+    "error": 0,
+    "time_limit": 0
+  },
+  "updated_at": "2026-11-23T05:57:15Z"
+}

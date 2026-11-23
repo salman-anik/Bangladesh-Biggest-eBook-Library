@@ -1,0 +1,53 @@
+{
+  "prod_37227": {
+    "key": "prod_37227",
+    "title": "ছোটদের আরবী শিক্ষা",
+    "url": "https://qawmimadrasa.com/product/%e0%a6%9b%e0%a7%8b%e0%a6%9f%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%86%e0%a6%b0%e0%a6%ac%e0%a7%80-%e0%a6%b6%e0%a6%bf%e0%a6%95%e0%a7%8d%e0%a6%b7%e0%a6%be/",
+    "status": "no_file_found"
+  },
+  "prod_35921": {
+    "key": "prod_35921",
+    "status": "added",
+    "folder": "06_Takmeel_Dawra-e-Hadith_Masters/Urdu_8th_Year_Dawra (دورہ حدیث)",
+    "folder_id": "1ydIgC4_Cwk3uo3q9Pej-g310_Y0pPPCH",
+    "files": [
+      {
+        "id": "13gFIzzqMMNTd1NuJtqBUX0SjUGZy2yVG",
+        "name": "Inamat Rahmani Urdu Sharh Tirmizi Jild 2 انعامات رحمانی اردو شرح ترمذی ثانی.pdf",
+        "size": 29275582,
+        "cover_id": "1Hk7JP3ddqXqHBA8QrWs_hxZEfYd_gUpw"
+      }
+    ],
+    "errors": []
+  },
+  "prod_35918": {
+    "key": "prod_35918",
+    "status": "added",
+    "folder": "06_Takmeel_Dawra-e-Hadith_Masters/Urdu_8th_Year_Dawra (دورہ حدیث)",
+    "folder_id": "1ydIgC4_Cwk3uo3q9Pej-g310_Y0pPPCH",
+    "files": [
+      {
+        "id": "162NN3TlAquwufLhhheqgKNTzCVSOEdW0",
+        "name": "Inamat ul Munim Urdu Sharh Sahih ul Muslim انعامات المنعم لطالبات المسلم.pdf",
+        "size": 34989400,
+        "cover_id": "1zk5Mqm3i9E_7UUISfBt85EYZgE1l88vN"
+      }
+    ],
+    "errors": []
+  },
+  "prod_35910": {
+    "key": "prod_35910",
+    "status": "added",
+    "folder": "06_Takmeel_Dawra-e-Hadith_Masters/Urdu_8th_Year_Dawra (دورہ حدیث)",
+    "folder_id": "1ydIgC4_Cwk3uo3q9Pej-g310_Y0pPPCH",
+    "files": [
+      {
+        "id": "1NoJKOC7R7VQnK9z2xsMkSZvGyS3YQpDV",
+        "name": "Inam ul Mabood Urdu Sharh Abu Dawood انعام المعبود اردو شرح ابو داؤد.pdf",
+        "size": 24951764,
+        "cover_id": "1RhQFfZGvLlbcgvLqK-c32Ofmx7Txl1Do"
+      }
+    ],
+    "errors": []
+  }
+}
