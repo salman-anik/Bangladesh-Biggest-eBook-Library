@@ -1,6 +1,6 @@
 # 🌐 Bangladesh's Biggest eBook Library — Web Search Explorer
 
-A fast, zero-dependency bilingual web application served via GitHub Pages at [https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/](https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/) for discovering, previewing, and downloading **22,099+ free eBooks** (**316.46 GB**) mirrored directly from the 9-folder Google Drive architecture.
+A fast, zero-dependency bilingual web application served via GitHub Pages at [https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/](https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/) for discovering, previewing, and downloading **22,166+ free eBooks** (**316.87 GB**) mirrored directly from the 9-folder Google Drive architecture.
 
 ## Key Features
 

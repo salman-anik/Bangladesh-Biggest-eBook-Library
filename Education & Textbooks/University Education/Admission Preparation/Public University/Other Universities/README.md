@@ -1,0 +1,20 @@
+# Other Universities
+
+[🏠 Library Home](../../../../../README.md) / [Education & Textbooks](../../../../README.md) / [University Education](../../../README.md) / [Admission Preparation](../../README.md) / [Public University](../README.md) / **Other Universities**
+
+**Books:** `9` | **Total Size:** `2.12 GB` | **Covers:** `9` | [📂 Open Root in Google Drive](https://drive.google.com/drive/folders/1Hoy8Zv0ObmQcGLrDUhmkGSYK_DDSK1BR) | [🌐 Browse in Web Explorer](https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/?category=Education%20%26%20Textbooks&sub=University%20Education/Admission%20Preparation/Public%20University/Other%20Universities)
+
+## Books (9)
+
+| # | Title | Author | Format | Size | Actions |
+|---:|---|---|---|---:|---|
+| 1 | BUP FST Question Bank and Answer Book | Expert Admission Preparation Panel | PDF | 50.89 MB | [📖 Read](https://drive.google.com/file/d/18jVJ2Tf_mEfPmB8cQWtdUkkGe3tG18mN/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=18jVJ2Tf_mEfPmB8cQWtdUkkGe3tG18mN) · [🖼️ Cover](https://drive.google.com/file/d/1r1Nvj6SVnSt80UN2DfDLNIw-2O06wsY_/view) |
+| 2 | Joykoli BUP FST Unit Question Bank and Model Test Book | Experienced Teachers and Meritorious Students | PDF | 274.40 MB | [📖 Read](https://drive.google.com/file/d/15JgBxrsi3YX7YrumpXECMGfjG4hKfZ6a/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=15JgBxrsi3YX7YrumpXECMGfjG4hKfZ6a) · [🖼️ Cover](https://drive.google.com/file/d/1GEQmbn4RB0nX-0XQ4ya9vpG3YMPK5eXh/view) |
+| 3 | Joykoly SUST Science Unit Question Bank and Model Test | Unknown | PDF | 641.16 MB | [📖 Read](https://drive.google.com/file/d/12mVWIbDOSL3Kg-ukqJ9lc4w-2PXccupu/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=12mVWIbDOSL3Kg-ukqJ9lc4w-2PXccupu) · [🖼️ Cover](https://drive.google.com/file/d/1DjUnQYv9DTtefvXtFB9uLA6dP4KpSE5B/view) |
+| 4 | Udvash Varsity 'A' Master Question Bank Biology (2026-2027 Edition) | Unknown | PDF | 184.60 MB | [📖 Read](https://drive.google.com/file/d/1TDcZyWmhBkcNLSvoLCh-Tso8vwvZeHuf/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=1TDcZyWmhBkcNLSvoLCh-Tso8vwvZeHuf) · [🖼️ Cover](https://drive.google.com/file/d/15md_w5EdNFw-mkro3Ai2nS4X5tPxqMZF/view) |
+| 5 | Udvash Varsity 'A' Master Question Bank Chemistry | Unknown | PDF | 129.72 MB | [📖 Read](https://drive.google.com/file/d/1FqctUevg3TpzS-hFP6PQ2vemdmb731CB/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=1FqctUevg3TpzS-hFP6PQ2vemdmb731CB) · [🖼️ Cover](https://drive.google.com/file/d/16PEPwHEkPg4EDwW7hZHQ6IVlHmw-fXqK/view) |
+| 6 | Udvash Varsity 'A' Master Question Bank Higher Math | Unknown | PDF | 195.57 MB | [📖 Read](https://drive.google.com/file/d/1scDxYKS7_LjKqgw7vlLmg766CaLE27q1/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=1scDxYKS7_LjKqgw7vlLmg766CaLE27q1) · [🖼️ Cover](https://drive.google.com/file/d/1m0DGmysEO7PR1FPLi8kmEGQz1XlBvYEs/view) |
+| 7 | Udvash Varsity 'A' Master Question Bank Physics | Unknown | PDF | 163.83 MB | [📖 Read](https://drive.google.com/file/d/1hq86ooo2SXL23jcyq6kefNpEQKnLjKyK/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=1hq86ooo2SXL23jcyq6kefNpEQKnLjKyK) · [🖼️ Cover](https://drive.google.com/file/d/1_LZ8w2luR1bMiZxb9wFN4VtkKlonrXEp/view) |
+| 8 | Udvash Varsity A Unit Bangla Compact Book | Unknown | PDF | 382.11 MB | [📖 Read](https://drive.google.com/file/d/1rmx1zzsZC86MTDHTPVNrAbDcRCWp5zJB/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=1rmx1zzsZC86MTDHTPVNrAbDcRCWp5zJB) · [🖼️ Cover](https://drive.google.com/file/d/1OvPwpyrE-auIY5QxYUpPeJYf4PqBXKk3/view) |
+| 9 | Udvash Varsity A Unit English Compact Book | Unknown | PDF | 101.48 MB | [📖 Read](https://drive.google.com/file/d/1EBLCsJEOz72Xpm0TVeqv1Nu3PyG5fAGN/preview) · [⬇️ Download](https://drive.google.com/uc?export=download&id=1EBLCsJEOz72Xpm0TVeqv1Nu3PyG5fAGN) · [🖼️ Cover](https://drive.google.com/file/d/132er8_1zmGjAfE5-gw9Jy1E811Q6K5aF/view) |
+

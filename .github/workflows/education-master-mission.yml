@@ -48,7 +48,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A "Education & Textbooks" "Bangla Books" "English Books" "Religion Books" "Authors & Scholars" "Series & Collections" "Reference & Research" "Review & Unclassified" "Library Management"
-          git add catalog/ reports/Educational_Library_Index.csv reports/Educational_Library_Index.xlsx reports/education_reorg_report.json reports/education_expansion_report.json reports/verification_report.md reports/verification_report.json README.md website/README.md sitemap.xml books.json
+          for f in catalog/ reports/Educational_Library_Index.csv reports/Educational_Library_Index.xlsx reports/education_reorg_report.json reports/education_expansion_report.json reports/verification_report.md reports/verification_report.json README.md website/README.md sitemap.xml books.json; do
+            [ -e "$f" ] && git add "$f"
+          done
           if git diff --cached --quiet; then
             echo "No repository changes to commit."
             exit 0

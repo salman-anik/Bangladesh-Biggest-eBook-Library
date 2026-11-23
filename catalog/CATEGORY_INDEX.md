@@ -1,6 +1,6 @@
 # Category & Folder Index — Bangladesh Biggest eBook Library
 
-Total organized unique valid eBooks: **22,099** (**316.46 GB**)
+Total organized unique valid eBooks: **22,166** (**316.87 GB**)
 
 | Folder Path | Books | Size | Drive Folder |
 |---|---:|---:|---|
@@ -233,7 +233,7 @@ Total organized unique valid eBooks: **22,099** (**316.46 GB**)
 | `Bangla Books/Essays & Articles (প্রবন্ধ)` | 266 | 5.00 GB | [Open](https://drive.google.com/drive/folders/1g50MapBuYOwP9WeDsAcbLQWGOUyQ130d) |
 | `Bangla Books/History & Culture (ইতিহাস)` | 493 | 7.37 GB | [Open](https://drive.google.com/drive/folders/18HUvQielYQYgSwFbO0l0aPtTF5lJP08C) |
 | `Bangla Books/Language & Grammar (ভাষা ও ব্যাকরণ)` | 341 | 6.33 GB | [Open](https://drive.google.com/drive/folders/1nTMARTYoJBDCMDlHESVUXphGeF5E_ZFr) |
-| `Bangla Books/Literature & Novels (উপন্যাস)` | 2,417 | 22.73 GB | [Open](https://drive.google.com/drive/folders/1gspK5vbbS8QiUESrWzxbJAawg0MXE3hR) |
+| `Bangla Books/Literature & Novels (উপন্যাস)` | 2417 | 22.73 GB | [Open](https://drive.google.com/drive/folders/1gspK5vbbS8QiUESrWzxbJAawg0MXE3hR) |
 | `Bangla Books/Other Books (অন্যান্য)` | 999 | 17.84 GB | [Open](https://drive.google.com/drive/folders/1bLcZCmBlrcc67qf7ljDrz-_m2iPy2rw-) |
 | `Bangla Books/Philosophy & Thought (দর্শন ও চিন্তাধারা)` | 131 | 3.13 GB | [Open](https://drive.google.com/drive/folders/13y1m9omvd8MExWPCUE10NxSXFPWwDPPn) |
 | `Bangla Books/Poetry (কবিতা)` | 235 | 2.43 GB | [Open](https://drive.google.com/drive/folders/1a0pE3-KsawMhamKBVI-4Tp299x-cIlXs) |
@@ -242,65 +242,76 @@ Total organized unique valid eBooks: **22,099** (**316.46 GB**)
 | `Bangla Books/Thriller, Mystery & Detective (থ্রিলার ও গোয়েন্দা)` | 626 | 4.66 GB | [Open](https://drive.google.com/drive/folders/11Uih6M8ow5sLpclFRBuedlfxyAhozZ4e) |
 | `Bangla Books/Translated & Foreign Literature (অনুবাদ সাহিত্য)` | 184 | 1.59 GB | [Open](https://drive.google.com/drive/folders/1j9-sZF30TVD90S6dA6xE9_jbmwZjFDN8) |
 | `Bangla Books/Travel & Geography (ভ্রমণ)` | 18 | 48.6 MB | [Open](https://drive.google.com/drive/folders/1_Kt20sIAgzvp8JcPEwsBmNwH8bcdInFq) |
-| `Education & Textbooks/Alia Madrasa` | 4 | 64.9 MB | [Open](https://drive.google.com/drive/folders/1_kES2hSESWdRgkbAib9EfOgKx4lIizPH) |
-| `Education & Textbooks/Madrasa/Alia Madrasa/Dakhil` | 178 | 7.61 GB | [Open](https://drive.google.com/drive/folders/12zo0KsCpeuFomj4ZnMCUyjwLdn9HL3sK) |
-| `Education & Textbooks/Madrasa/Alia Madrasa/Ebtedayee` | 108 | 3.08 GB | [Open](https://drive.google.com/drive/folders/1aA4qAiVXCHUBFpMK9i-sPCVf1Rn3TUUJ) |
-| `Education & Textbooks/Madrasa/Alia Madrasa/Ebtedayee/Class 4` | 1 | 50.2 MB | [Open](https://drive.google.com/drive/folders/1TqQOU4-gvnGoLkxD7WoPla-TPn6W04f6) |
-| `Education & Textbooks/Madrasa/Alia Madrasa/General` | 5 | 22.3 MB | [Open](https://drive.google.com/drive/folders/1T6YBUBeRpUUaaIEWSK5EMOw6ptu5uJ4n) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/Agriculture Admission/Agricultural Universities` | 1 | 10.8 MB | [Open](https://drive.google.com/drive/folders/19qZQhNoALvTHWILkUf2iYyMsE94Ua9MS) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/Agriculture Admission/Combined Agriculture Admission` | 5 | 485.3 MB | [Open](https://drive.google.com/drive/folders/1PNRRbGJWS0JZlhy7PX-RFZsy67Q-XHaQ) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/Agriculture Admission/Model Tests & Solutions` | 1 | 64.2 MB | [Open](https://drive.google.com/drive/folders/1-BttLTYIF8zros22KeoeW2YohaMvWv_C) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/Engineering & Technology Admission/CUET` | 1 | 30.3 MB | [Open](https://drive.google.com/drive/folders/1j-6bJoLxnyL4-yJMdpTXLeL_o-Xkvgyd) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/Engineering & Technology Admission/KUET` | 1 | 42.4 MB | [Open](https://drive.google.com/drive/folders/1e1eOq0SZa5VQFJyq1icx6c_2PU9szVjU) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/Engineering & Technology Admission/Model Tests & Solutions` | 1 | 18.5 MB | [Open](https://drive.google.com/drive/folders/11_efIGiu75L4UgI2b3dPZGTI5jiHCqv_) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/Engineering & Technology Admission/Other Engineering Universities` | 1 | 353.0 MB | [Open](https://drive.google.com/drive/folders/1AD0d-ZglmQRkoD5mYtG8QyWOojrYXtue) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/Engineering & Technology Admission/RUET` | 1 | 34.9 MB | [Open](https://drive.google.com/drive/folders/1oqtUzRvFDfafqAOpBdTzBCvtI7HuuW_x) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/General Competitive Exams/English Proficiency` | 3 | 198.4 MB | [Open](https://drive.google.com/drive/folders/1ZSDnRGb2t5JRNNTDkGNlpHs-pVnlqWC6) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/General Competitive Exams/Government Jobs` | 1 | 7.6 MB | [Open](https://drive.google.com/drive/folders/1QsJZgvU3X8ZPr194IX4XKq01_-9qrtuC) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/General Competitive Exams/IQ & Analytical Reasoning` | 1 | 9.4 MB | [Open](https://drive.google.com/drive/folders/1RQ_cgIfjEeYckty7dQaxd1NmLNpvIV8L) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/General Competitive Exams/Nursing` | 1 | 22.2 MB | [Open](https://drive.google.com/drive/folders/16fa71RVMRm0TRISJEvmaxKGkIYSBYEX-) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/HSC & Academic Preparation/Board Questions` | 17 | 1.39 GB | [Open](https://drive.google.com/drive/folders/1FgxbshdIThIyLB-2Ja0eYxrx2GyOxDQ-) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/HSC & Academic Preparation/Business Studies` | 2 | 62.7 MB | [Open](https://drive.google.com/drive/folders/1O7PdWIOPvZrvOCXsWg8qTPHGPr-gXBFg) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/HSC & Academic Preparation/Humanities` | 5 | 183.1 MB | [Open](https://drive.google.com/drive/folders/1IEVB73q_-UOULYDXnSRwt-uDEB6vRV8K) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/HSC & Academic Preparation/Science/Biology` | 4 | 622.8 MB | [Open](https://drive.google.com/drive/folders/1swPBLCGhVJtoWP_tmQbRloAkwZYw2eal) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/HSC & Academic Preparation/Science/Chemistry` | 5 | 613.8 MB | [Open](https://drive.google.com/drive/folders/1tcQ88J5_4FP9usC6WVAtKQQDFjezSggJ) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/HSC & Academic Preparation/Science/Higher Mathematics` | 6 | 673.4 MB | [Open](https://drive.google.com/drive/folders/1lrMAZiIm9c2A451UP79FN1nbu9KUX1gE) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/HSC & Academic Preparation/Science/Physics` | 5 | 668.9 MB | [Open](https://drive.google.com/drive/folders/1VIVf3T2mdO0V3kk90A5DuHVOv5Vctsuh) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/Medical & Dental Admission/Medical Admission` | 2 | 142.8 MB | [Open](https://drive.google.com/drive/folders/19Ww1Edp6t_tbqxF8WxNFHYnUp-EuKbtC) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/Medical & Dental Admission/Model Tests` | 1 | 91.4 MB | [Open](https://drive.google.com/drive/folders/1y-DnwRHhHlPHw_GYp9Iz8XC-RBovW8e8) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/Medical & Dental Admission/Previous Year Questions` | 1 | 3.9 MB | [Open](https://drive.google.com/drive/folders/1lhJs6itw3UoVJjqy_wdxl4sgNFvH_X4U) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/Medical & Dental Admission/Question Banks` | 1 | 225.6 MB | [Open](https://drive.google.com/drive/folders/1wj9Md0x_dcE-i36tjjtMmq26M_WaENsb) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/Medical & Dental Admission/Solutions & Explanations` | 4 | 150.0 MB | [Open](https://drive.google.com/drive/folders/1amgc-f9neigYQ_sxdSADf4Hw3SLkqjHv) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/Medical & Dental Admission/Subject-wise Preparation/Biology` | 8 | 2.01 GB | [Open](https://drive.google.com/drive/folders/1pmW2uPUWieWuHchHfbJnpcDQErBwhgNF) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/Medical & Dental Admission/Subject-wise Preparation/Chemistry` | 2 | 340.1 MB | [Open](https://drive.google.com/drive/folders/1wj4fOiXIXREXmAlXjBD6lCZ6vKPfSvmD) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/Medical & Dental Admission/Subject-wise Preparation/English` | 2 | 537.6 MB | [Open](https://drive.google.com/drive/folders/1scMZNt7HqFEGfXAGjzkzcLFuiiBWCnCu) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/Medical & Dental Admission/Subject-wise Preparation/General Knowledge` | 5 | 557.9 MB | [Open](https://drive.google.com/drive/folders/1449TG2jkaTuXdp8dnXZNQKsMiiY2g6C-) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/Medical & Dental Admission/Subject-wise Preparation/Physics` | 3 | 783.4 MB | [Open](https://drive.google.com/drive/folders/1FWk7__Jijx_HjH9vQNgnRXLJ1Jgf8i0H) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/University Admission/GST Admission/A Unit` | 4 | 552.3 MB | [Open](https://drive.google.com/drive/folders/1PVO-0PW-_kVoMu03Z16ABBDH81rsBizi) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/University Admission/Model Tests & Solutions` | 6 | 336.3 MB | [Open](https://drive.google.com/drive/folders/1ZJY-GjvsanXJicWrGh0kn1M0WPBTy89f) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/University Admission/Private Universities` | 1 | 166.3 MB | [Open](https://drive.google.com/drive/folders/1CxQ5hVWTMwB3wZrcBr3gAwUwi5PbFrFE) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/University Admission/Public Universities/Jahangirnagar University (JU)` | 4 | 1.11 GB | [Open](https://drive.google.com/drive/folders/1tsl_bjDvFHT4WzpsZPiXDPqwFHDAuFY8) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/University Admission/Public Universities/Other Universities` | 9 | 2.12 GB | [Open](https://drive.google.com/drive/folders/11HOAVSzVd4uCB2Ia2bG6fMGFLLXRDrst) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/University Admission/Public Universities/University of Chittagong (CU)` | 2 | 667.1 MB | [Open](https://drive.google.com/drive/folders/1zPYHgRXD_8Uk5m6FV25t43fik_DgMgMl) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/University Admission/Public Universities/University of Dhaka (DU)` | 3 | 402.1 MB | [Open](https://drive.google.com/drive/folders/16CFSZ8p6MBSwWgYMaryJvmtSimrp0nAb) |
-| `Education & Textbooks/General Education/Admission & Entrance Preparation/University Admission/Public Universities/University of Rajshahi (RU)` | 2 | 839.4 MB | [Open](https://drive.google.com/drive/folders/1zkUBplGLLk5p5ZxQKgfU5SXS2Pl2Ea3F) |
-| `Education & Textbooks/General Education/Higher Secondary (Class 11-12)` | 189 | 7.25 GB | [Open](https://drive.google.com/drive/folders/1eLoOJlVOTm_z1Jd9PgJ2o4pYJ_JeUFPU) |
-| `Education & Textbooks/General Education/Other School Resources` | 3 | 68.0 MB | [Open](https://drive.google.com/drive/folders/1ri9HaWFnWfOl36miTJOVmIMJqbeHZnN0) |
-| `Education & Textbooks/General Education/Primary Education` | 78 | 2.48 GB | [Open](https://drive.google.com/drive/folders/1-EaZBohJwsOiaMy4-Udlcfx35vicb6p9) |
-| `Education & Textbooks/General Education/Primary Education/Class 1` | 13 | 653.7 MB | [Open](https://drive.google.com/drive/folders/1wF5gC6GFnV5KGAV-qQoezNAqYjkBE5Lx) |
-| `Education & Textbooks/General Education/Primary Education/Class 2` | 14 | 201.0 MB | [Open](https://drive.google.com/drive/folders/1TDaqOlrmFVi9FF6NGhqPpjJUSJIPV0Ms) |
-| `Education & Textbooks/General Education/Primary Education/Class 3` | 48 | 964.2 MB | [Open](https://drive.google.com/drive/folders/1fBmgkHbC3efyGDWzj_lXicaFKPaXmJVq) |
-| `Education & Textbooks/General Education/Primary Education/Class 4` | 48 | 1.27 GB | [Open](https://drive.google.com/drive/folders/17DbM63VD7z5kxZ_lYA8Q8zwCATmXVJie) |
-| `Education & Textbooks/General Education/Primary Education/Class 5` | 64 | 2.27 GB | [Open](https://drive.google.com/drive/folders/1P0XOFqi8Er01S-udvnSVqPqiXa_fwEKe) |
+| `Education & Textbooks/Academic Resources/Academic Journals/Science & Technology` | 2 | 1.9 MB | — |
+| `Education & Textbooks/Academic Resources/Academic Journals/Social Sciences` | 1 | 1.4 MB | — |
+| `Education & Textbooks/Academic Resources/Coaching & Training Center Materials/Coaching Center Collections/Saifur's` | 2 | 39.6 MB | — |
+| `Education & Textbooks/Academic Resources/Coaching & Training Center Materials/Job Preparation Coaching/BCS` | 9 | 170.3 MB | — |
+| `Education & Textbooks/Academic Resources/Coaching & Training Center Materials/Job Preparation Coaching/Bank Jobs` | 6 | 144.2 MB | — |
+| `Education & Textbooks/Academic Resources/Coaching & Training Center Materials/Job Preparation Coaching/Government Jobs` | 4 | 118.4 MB | — |
+| `Education & Textbooks/Academic Resources/Coaching & Training Center Materials/Job Preparation Coaching/Other Competitive Exams` | 35 | 910.6 MB | — |
+| `Education & Textbooks/Academic Resources/Dictionaries & Encyclopedias/English Dictionaries` | 2 | 24.9 MB | — |
+| `Education & Textbooks/Academic Resources/Reference Books/Atlases & Maps` | 2 | 4.7 MB | — |
+| `Education & Textbooks/Academic Resources/Reference Books/Formula & Tables` | 3 | 4.1 MB | — |
+| `Education & Textbooks/Academic Resources/Religious Scriptures & Literature/Buddhism/Buddhist Literature` | 3 | 42.4 MB | — |
+| `Education & Textbooks/Academic Resources/Religious Scriptures & Literature/Hinduism/Bhagavad Gita` | 3 | 26.9 MB | — |
+| `Education & Textbooks/Academic Resources/Research & Publications/Research Papers` | 8 | 12.0 MB | — |
+| `Education & Textbooks/Academic Resources/Study Guides/Competitive Exams/English Proficiency` | 3 | 198.4 MB | — |
+| `Education & Textbooks/Academic Resources/Study Guides/Competitive Exams/Government Jobs` | 1 | 7.6 MB | — |
+| `Education & Textbooks/Academic Resources/Study Guides/Competitive Exams/IQ & Analytical Reasoning` | 1 | 9.4 MB | — |
+| `Education & Textbooks/Academic Resources/Study Guides/Competitive Exams/Nursing` | 1 | 22.2 MB | — |
+| `Education & Textbooks/General Education/Board Examination/HSC/Business Studies` | 2 | 62.7 MB | — |
+| `Education & Textbooks/General Education/Board Examination/HSC/Humanities` | 5 | 183.1 MB | — |
+| `Education & Textbooks/General Education/Board Examination/HSC/Previous Year Questions` | 17 | 1.39 GB | — |
+| `Education & Textbooks/General Education/Board Examination/HSC/Science` | 2 | 699.9 MB | — |
+| `Education & Textbooks/General Education/Board Examination/HSC/Science/Biology` | 4 | 622.8 MB | — |
+| `Education & Textbooks/General Education/Board Examination/HSC/Science/Chemistry` | 5 | 613.8 MB | — |
+| `Education & Textbooks/General Education/Board Examination/HSC/Science/Higher Mathematics` | 6 | 673.4 MB | — |
+| `Education & Textbooks/General Education/Board Examination/HSC/Science/Physics` | 5 | 668.9 MB | — |
+| `Education & Textbooks/General Education/Board Examination/SSC/Science` | 1 | 57.0 MB | — |
+| `Education & Textbooks/General Education/Higher Secondary Education/Business Studies` | 8 | 21.9 MB | — |
+| `Education & Textbooks/General Education/Higher Secondary Education/Class 12` | 1 | 15.3 MB | — |
+| `Education & Textbooks/General Education/Higher Secondary Education/Humanities` | 6 | 967.0 KB | — |
+| `Education & Textbooks/General Education/Higher Secondary Education/Science` | 78 | 639.6 MB | — |
+| `Education & Textbooks/General Education/NCTB Textbooks/Higher Secondary` | 16 | 2.66 GB | — |
+| `Education & Textbooks/General Education/NCTB Textbooks/Primary` | 57 | 2.41 GB | — |
+| `Education & Textbooks/General Education/NCTB Textbooks/Secondary` | 1 | 5.8 MB | — |
+| `Education & Textbooks/General Education/Other School Resources` | 1 | 7.3 MB | [Open](https://drive.google.com/drive/folders/1ri9HaWFnWfOl36miTJOVmIMJqbeHZnN0) |
+| `Education & Textbooks/General Education/Primary Education/Class 1` | 17 | 678.3 MB | [Open](https://drive.google.com/drive/folders/1wF5gC6GFnV5KGAV-qQoezNAqYjkBE5Lx) |
+| `Education & Textbooks/General Education/Primary Education/Class 2` | 18 | 218.4 MB | [Open](https://drive.google.com/drive/folders/1TDaqOlrmFVi9FF6NGhqPpjJUSJIPV0Ms) |
+| `Education & Textbooks/General Education/Primary Education/Class 3` | 53 | 995.7 MB | [Open](https://drive.google.com/drive/folders/1fBmgkHbC3efyGDWzj_lXicaFKPaXmJVq) |
+| `Education & Textbooks/General Education/Primary Education/Class 4` | 55 | 1.32 GB | [Open](https://drive.google.com/drive/folders/17DbM63VD7z5kxZ_lYA8Q8zwCATmXVJie) |
+| `Education & Textbooks/General Education/Primary Education/Class 5` | 66 | 2.27 GB | [Open](https://drive.google.com/drive/folders/1P0XOFqi8Er01S-udvnSVqPqiXa_fwEKe) |
 | `Education & Textbooks/General Education/Primary Education/Pre-Primary` | 39 | 1.23 GB | [Open](https://drive.google.com/drive/folders/15QuPK3CGpKQfPyqXd-oAiAIekh5zC2rX) |
-| `Education & Textbooks/General Education/Professional & Job Exams (BCS)` | 60 | 1.38 GB | [Open](https://drive.google.com/drive/folders/1N4WBU0dH2vHCvQ_2LmKRTTHiqeqEVD6x) |
-| `Education & Textbooks/General Education/Secondary Education` | 8 | 527.8 MB | [Open](https://drive.google.com/drive/folders/1WU2EH838pfxibXEEnc1f8h4_EI8PQglO) |
 | `Education & Textbooks/General Education/Secondary Education/Class 10` | 232 | 12.16 GB | [Open](https://drive.google.com/drive/folders/1oKmYtpNxBervZ1KBDFBQD0O0YeEVkQ6t) |
-| `Education & Textbooks/General Education/Secondary Education/Class 6` | 135 | 2.83 GB | [Open](https://drive.google.com/drive/folders/1j_QPMsibKj9K63xSO8n0IXjY17_BzGKp) |
+| `Education & Textbooks/General Education/Secondary Education/Class 6` | 139 | 3.24 GB | [Open](https://drive.google.com/drive/folders/1j_QPMsibKj9K63xSO8n0IXjY17_BzGKp) |
 | `Education & Textbooks/General Education/Secondary Education/Class 7` | 130 | 4.02 GB | [Open](https://drive.google.com/drive/folders/1yflyGEghZU6E88CWW8VfcnlzGy-bQ81z) |
 | `Education & Textbooks/General Education/Secondary Education/Class 8` | 129 | 3.21 GB | [Open](https://drive.google.com/drive/folders/1dInh1BOzS1zYuG3nqBvFypVWOVGcyYKO) |
-| `Education & Textbooks/General Education/Secondary Education/Class 9` | 182 | 7.62 GB | [Open](https://drive.google.com/drive/folders/12L6IB1efzhW4KafVYkf5FLDKupz5VgYH) |
-| `Education & Textbooks/Qawmi Madrasa` | 6 | 79.6 MB | [Open](https://drive.google.com/drive/folders/1oACGk9Yf70kBJGRdsNMVPBkFLhZNJ02O) |
+| `Education & Textbooks/General Education/Secondary Education/Class 9` | 183 | 7.65 GB | [Open](https://drive.google.com/drive/folders/12L6IB1efzhW4KafVYkf5FLDKupz5VgYH) |
+| `Education & Textbooks/General Education/Subject-wise Books/Accounting` | 2 | 241.9 KB | — |
+| `Education & Textbooks/General Education/Subject-wise Books/Bangla` | 16 | 606.6 MB | — |
+| `Education & Textbooks/General Education/Subject-wise Books/Biology` | 9 | 414.8 MB | — |
+| `Education & Textbooks/General Education/Subject-wise Books/Chemistry` | 8 | 242.9 MB | — |
+| `Education & Textbooks/General Education/Subject-wise Books/Civics & Good Governance` | 4 | 137.5 MB | — |
+| `Education & Textbooks/General Education/Subject-wise Books/Economics` | 4 | 135.3 MB | — |
+| `Education & Textbooks/General Education/Subject-wise Books/English` | 7 | 175.8 MB | — |
+| `Education & Textbooks/General Education/Subject-wise Books/Finance & Banking` | 2 | 637.2 MB | — |
+| `Education & Textbooks/General Education/Subject-wise Books/Geography` | 2 | 454.3 KB | — |
+| `Education & Textbooks/General Education/Subject-wise Books/History` | 6 | 29.4 MB | — |
+| `Education & Textbooks/General Education/Subject-wise Books/ICT` | 5 | 155.0 MB | — |
+| `Education & Textbooks/General Education/Subject-wise Books/Mathematics` | 6 | 96.6 MB | — |
+| `Education & Textbooks/General Education/Subject-wise Books/Physics` | 16 | 613.0 MB | — |
+| `Education & Textbooks/Madrasa/Alia Madrasa/Dakhil/Class 6` | 46 | 1.71 GB | — |
+| `Education & Textbooks/Madrasa/Alia Madrasa/Dakhil/Class 7` | 46 | 1.82 GB | — |
+| `Education & Textbooks/Madrasa/Alia Madrasa/Dakhil/Class 8` | 39 | 1.32 GB | — |
+| `Education & Textbooks/Madrasa/Alia Madrasa/Dakhil/Class 9` | 48 | 2.78 GB | — |
+| `Education & Textbooks/Madrasa/Alia Madrasa/Ebtedayee/Class 1` | 18 | 236.4 MB | — |
+| `Education & Textbooks/Madrasa/Alia Madrasa/Ebtedayee/Class 2` | 18 | 339.7 MB | — |
+| `Education & Textbooks/Madrasa/Alia Madrasa/Ebtedayee/Class 3` | 24 | 498.7 MB | — |
+| `Education & Textbooks/Madrasa/Alia Madrasa/Ebtedayee/Class 4` | 27 | 1.17 GB | [Open](https://drive.google.com/drive/folders/1TqQOU4-gvnGoLkxD7WoPla-TPn6W04f6) |
+| `Education & Textbooks/Madrasa/Alia Madrasa/Ebtedayee/Class 5` | 24 | 904.1 MB | — |
+| `Education & Textbooks/Madrasa/Alia Madrasa/Fazil/First Year` | 1 | 23.9 MB | — |
+| `Education & Textbooks/Madrasa/Alia Madrasa/Subject-wise Books/Islamic Studies` | 5 | 22.3 MB | — |
+| `Education & Textbooks/Madrasa/Qawmi Madrasa` | 6 | 79.6 MB | — |
 | `Education & Textbooks/Madrasa/Qawmi Madrasa/Common & Reference Books/Aqeedah & Beliefs` | 43 | 538.6 MB | [Open](https://drive.google.com/drive/folders/1sczlKyC4iOHC_yqZ51YcwUIJJKNBhGxc) |
 | `Education & Textbooks/Madrasa/Qawmi Madrasa/Common & Reference Books/Arabic Reference Library` | 20 | 254.3 MB | [Open](https://drive.google.com/drive/folders/1eNMzSuYSz0rcb1Wn0llp4_EKq0MqfUKZ) |
 | `Education & Textbooks/Madrasa/Qawmi Madrasa/Common & Reference Books/Dawah, Tabligh & Bayan` | 61 | 774.9 MB | [Open](https://drive.google.com/drive/folders/130EQKcSOKLD533pPCek_rnotw1_HXGwc) |
@@ -347,7 +358,61 @@ Total organized unique valid eBooks: **22,099** (**316.46 GB**)
 | `Education & Textbooks/Madrasa/Qawmi Madrasa/Takmil (Dawra-e-Hadith)/Sahih Al-Bukhari & Shuruh` | 257 | 5.64 GB | [Open](https://drive.google.com/drive/folders/11MiijOU2WUkyQrf3cp7jvXS31L8bKfrx) |
 | `Education & Textbooks/Madrasa/Qawmi Madrasa/Takmil (Dawra-e-Hadith)/Sahih Muslim & Shuruh` | 75 | 1.49 GB | [Open](https://drive.google.com/drive/folders/1nZzEgKzwI8Moq6wwW2hyyvkrpLQM6fnj) |
 | `Education & Textbooks/Madrasa/Qawmi Madrasa/Takmil (Dawra-e-Hadith)/Sunan Abi Dawud & Shuruh` | 11 | 207.1 MB | [Open](https://drive.google.com/drive/folders/1M08PeyzsmI7mvhfPcNszyRQfwDPElOVs) |
-| `Education & Textbooks/University Education` | 119 | 10.07 GB | [Open](https://drive.google.com/drive/folders/1nmyPDZNogp78QSMioB8Jm8N9qpcum8hP) |
+| `Education & Textbooks/University Education/Admission Preparation/Agricultural University/Agricultural Universities` | 1 | 10.8 MB | — |
+| `Education & Textbooks/University Education/Admission Preparation/Agricultural University/Combined Agriculture Admission` | 5 | 485.3 MB | — |
+| `Education & Textbooks/University Education/Admission Preparation/Agricultural University/Model Tests & Solutions` | 1 | 64.2 MB | — |
+| `Education & Textbooks/University Education/Admission Preparation/Engineering University/CUET` | 1 | 30.3 MB | — |
+| `Education & Textbooks/University Education/Admission Preparation/Engineering University/KUET` | 1 | 42.4 MB | — |
+| `Education & Textbooks/University Education/Admission Preparation/Engineering University/Model Tests & Solutions` | 1 | 18.5 MB | — |
+| `Education & Textbooks/University Education/Admission Preparation/Engineering University/Other Engineering Universities` | 1 | 353.0 MB | — |
+| `Education & Textbooks/University Education/Admission Preparation/Engineering University/RUET` | 1 | 34.9 MB | — |
+| `Education & Textbooks/University Education/Admission Preparation/GST Admission/A Unit` | 4 | 552.3 MB | — |
+| `Education & Textbooks/University Education/Admission Preparation/Medical & Dental/Medical Admission` | 2 | 142.8 MB | — |
+| `Education & Textbooks/University Education/Admission Preparation/Medical & Dental/Model Tests` | 1 | 91.4 MB | — |
+| `Education & Textbooks/University Education/Admission Preparation/Medical & Dental/Previous Year Questions` | 1 | 3.9 MB | — |
+| `Education & Textbooks/University Education/Admission Preparation/Medical & Dental/Question Banks` | 1 | 225.6 MB | — |
+| `Education & Textbooks/University Education/Admission Preparation/Medical & Dental/Solutions & Explanations` | 4 | 150.0 MB | — |
+| `Education & Textbooks/University Education/Admission Preparation/Medical & Dental/Subject-wise Preparation/Biology` | 8 | 2.01 GB | — |
+| `Education & Textbooks/University Education/Admission Preparation/Medical & Dental/Subject-wise Preparation/Chemistry` | 2 | 340.1 MB | — |
+| `Education & Textbooks/University Education/Admission Preparation/Medical & Dental/Subject-wise Preparation/English` | 2 | 537.6 MB | — |
+| `Education & Textbooks/University Education/Admission Preparation/Medical & Dental/Subject-wise Preparation/General Knowledge` | 5 | 557.9 MB | — |
+| `Education & Textbooks/University Education/Admission Preparation/Medical & Dental/Subject-wise Preparation/Physics` | 3 | 783.4 MB | — |
+| `Education & Textbooks/University Education/Admission Preparation/Model Tests & Solutions` | 6 | 336.3 MB | — |
+| `Education & Textbooks/University Education/Admission Preparation/Private University` | 1 | 166.3 MB | — |
+| `Education & Textbooks/University Education/Admission Preparation/Public University` | 1 | 7.8 MB | — |
+| `Education & Textbooks/University Education/Admission Preparation/Public University/Jahangirnagar University (JU)` | 4 | 1.11 GB | — |
+| `Education & Textbooks/University Education/Admission Preparation/Public University/Other Universities` | 9 | 2.12 GB | — |
+| `Education & Textbooks/University Education/Admission Preparation/Public University/University of Chittagong (CU)` | 2 | 667.1 MB | — |
+| `Education & Textbooks/University Education/Admission Preparation/Public University/University of Dhaka (DU)` | 3 | 402.1 MB | — |
+| `Education & Textbooks/University Education/Admission Preparation/Public University/University of Rajshahi (RU)` | 2 | 839.4 MB | — |
+| `Education & Textbooks/University Education/Arts & Humanities/English Literature` | 1 | 63.5 MB | — |
+| `Education & Textbooks/University Education/Arts & Humanities/History` | 7 | 1.09 GB | — |
+| `Education & Textbooks/University Education/Arts & Humanities/Law` | 2 | 554.9 KB | — |
+| `Education & Textbooks/University Education/Arts & Humanities/Philosophy` | 1 | 48.1 MB | — |
+| `Education & Textbooks/University Education/Arts & Humanities/Psychology` | 3 | 168.1 MB | — |
+| `Education & Textbooks/University Education/Arts & Humanities/Sociology` | 2 | 87.7 MB | — |
+| `Education & Textbooks/University Education/Business & Economics/Accounting` | 2 | 256.8 MB | — |
+| `Education & Textbooks/University Education/Business & Economics/Economics` | 13 | 583.7 MB | — |
+| `Education & Textbooks/University Education/Business & Economics/Finance` | 2 | 62.8 MB | — |
+| `Education & Textbooks/University Education/Business & Economics/Management` | 4 | 292.6 MB | — |
+| `Education & Textbooks/University Education/Business & Economics/Marketing` | 1 | 62.5 MB | — |
+| `Education & Textbooks/University Education/Computer Science & IT/Artificial Intelligence` | 4 | 3.1 MB | — |
+| `Education & Textbooks/University Education/Computer Science & IT/Cybersecurity` | 1 | 1.3 MB | — |
+| `Education & Textbooks/University Education/Computer Science & IT/Data Science` | 1 | 37.3 MB | — |
+| `Education & Textbooks/University Education/Computer Science & IT/Data Structures & Algorithms` | 6 | 7.4 MB | — |
+| `Education & Textbooks/University Education/Computer Science & IT/Machine Learning` | 6 | 21.8 MB | — |
+| `Education & Textbooks/University Education/Computer Science & IT/Programming/Python` | 1 | 10.0 MB | — |
+| `Education & Textbooks/University Education/Computer Science & IT/Software Engineering` | 1 | 56.3 MB | — |
+| `Education & Textbooks/University Education/Engineering & Technology/Civil Engineering` | 4 | 2.0 MB | — |
+| `Education & Textbooks/University Education/Engineering & Technology/Computer Engineering` | 1 | 2.7 MB | — |
+| `Education & Textbooks/University Education/Engineering & Technology/Electrical & Electronic Engineering` | 6 | 14.7 MB | — |
+| `Education & Textbooks/University Education/Engineering & Technology/Mechanical Engineering` | 5 | 59.5 MB | — |
+| `Education & Textbooks/University Education/Science & Mathematics/Biology` | 8 | 1.80 GB | — |
+| `Education & Textbooks/University Education/Science & Mathematics/Chemistry` | 4 | 861.8 MB | — |
+| `Education & Textbooks/University Education/Science & Mathematics/Mathematics` | 21 | 1.49 GB | — |
+| `Education & Textbooks/University Education/Science & Mathematics/Physics` | 13 | 1.48 GB | — |
+| `Education & Textbooks/University Education/Science & Mathematics/Statistics` | 11 | 136.5 MB | — |
+| `Education & Textbooks/University Education/Undergraduate/Honours & Degree Books` | 27 | 1.65 GB | — |
 | `English Books/Biography & Memoirs` | 1 | 334.5 KB | [Open](https://drive.google.com/drive/folders/1FMsxAa8L4BrBbENZSKEW1F7sDWo19oue) |
 | `English Books/Computer Science` | 21 | 617.4 MB | [Open](https://drive.google.com/drive/folders/1w9uktrcbnXmEV77APF7BBA26eVJ_IUuQ) |
 | `English Books/Fiction & Literature` | 45 | 271.0 MB | [Open](https://drive.google.com/drive/folders/1JKijQSbz_srzkN1PG4FFW5FtTEzDOyMf) |
@@ -361,12 +426,12 @@ Total organized unique valid eBooks: **22,099** (**316.46 GB**)
 | `Reference & Research/Reference Materials & Periodicals/Journals` | 2 | 12.8 MB | [Open](https://drive.google.com/drive/folders/1MUCf4Hrepb6J2U1PgoMYIyIAs41mR7zo) |
 | `Reference & Research/Reference Materials & Periodicals/Magazines` | 275 | 1.53 GB | [Open](https://drive.google.com/drive/folders/1WYJaARccZNYoTJTugTJ-jNdpGk-RrmzG) |
 | `Religion Books/Islam/Aqidah & Theology (আকিদা)` | 342 | 1.77 GB | [Open](https://drive.google.com/drive/folders/1q68y2UApr-7oMmTtrSs5g7HrYjnOmieC) |
-| `Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)` | 2,157 | 11.78 GB | [Open](https://drive.google.com/drive/folders/1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y) |
+| `Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)` | 2157 | 11.78 GB | [Open](https://drive.google.com/drive/folders/1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y) |
 | `Religion Books/Islam/Fiqh & Islamic Jurisprudence (ফিকহ)` | 318 | 1.76 GB | [Open](https://drive.google.com/drive/folders/1xK37NQeU39vFSbfeN_J4QvESOHdOT2rQ) |
 | `Religion Books/Islam/Hadith & Hadith Sciences (হাদিস)` | 426 | 4.53 GB | [Open](https://drive.google.com/drive/folders/19at4GraCvp2lAns1K9u3V3HCqF24ZWsc) |
 | `Religion Books/Islam/Islamic History (ইসলামিক ইতিহাস)` | 224 | 2.02 GB | [Open](https://drive.google.com/drive/folders/1V3i-Q1vN3Cuyr-qr88EofDdN9rbaRsL5) |
 | `Religion Books/Islam/Islamic Literature & Spirituality (ইসলামিক সাহিত্য)` | 189 | 1.13 GB | [Open](https://drive.google.com/drive/folders/1asu4w2aKv1tVyXtnyTMhWarlvqLHpQRh) |
-| `Religion Books/Islam/Quran & Tafsir (কুরআন ও তাফসির)` | 1,812 | 20.54 GB | [Open](https://drive.google.com/drive/folders/1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx) |
+| `Religion Books/Islam/Quran & Tafsir (কুরআন ও তাফসির)` | 1812 | 20.54 GB | [Open](https://drive.google.com/drive/folders/1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx) |
 | `Religion Books/Islam/Seerah & Biography (সীরাত)` | 175 | 1.97 GB | [Open](https://drive.google.com/drive/folders/13s4loEhY_R7wMVG9SOw41F-pOc4L_3qu) |
 | `Religion Books/Other Religions/Buddhism` | 61 | 487.8 MB | [Open](https://drive.google.com/drive/folders/14fMgkLUSnBRWKFILNmoik70ZY6KcEQob) |
 | `Religion Books/Other Religions/Christianity` | 6 | 52.2 MB | [Open](https://drive.google.com/drive/folders/1YD-Pj6k_2YWNF4nDTJTz7i_5XZWITL9M) |
