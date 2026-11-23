@@ -239,20 +239,35 @@ def walk_inventory(folder_id: str, prefix: str, include_qawmi: bool = False) -> 
 # ---------------------------------------------------------------------------
 # Stage B: Cover Image Audit + PDF/EPUB Metadata & OCR Inspection
 # ---------------------------------------------------------------------------
-def ocr_image_pil(img: Image.Image) -> str:
+ARABIC_HINT_RE = re.compile(
+    r"(?:arabic|urdu|quran|hadith|tafsir|fiqh|seerah|কুরআন|হাদিস|তাফসীর|উর্দু|আরবি|ইসলাম)",
+    re.I,
+)
+
+
+def pick_ocr_langs(rec: dict[str, Any]) -> str:
+    hint = f"{rec.get('folder', '')} {rec.get('name', '')}"
+    return "ben+eng+ara" if ARABIC_HINT_RE.search(hint) else "ben+eng"
+
+
+def ocr_image_pil(img: Image.Image, langs: str = "ben+eng") -> str:
     if not shutil.which("tesseract"):
         return ""
     with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as tf:
         tmp_path = tf.name
     try:
-        img.convert("RGB").save(tmp_path, format="PNG")
+        work = img.convert("RGB")
+        if max(work.size) > 1200:
+            work.thumbnail((1200, 1200), Image.Resampling.LANCZOS)
+        work.save(tmp_path, format="PNG")
         res = subprocess.run(
-            ["tesseract", tmp_path, "stdout", "-l", "ben+eng+ara", "--psm", "6"],
+            ["tesseract", tmp_path, "stdout", "-l", langs, "--oem", "1", "--psm", "6"],
             capture_output=True,
             text=True,
             encoding="utf-8",
             errors="replace",
-            timeout=25,
+            env={**os.environ, "OMP_THREAD_LIMIT": "1"},
+            timeout=15,
         )
         return res.stdout.strip() if res.returncode == 0 else ""
     except Exception:
@@ -264,10 +279,10 @@ def ocr_image_pil(img: Image.Image) -> str:
             pass
 
 
-def inspect_cover_thumbnail(file_rec: dict[str, Any]) -> dict[str, Any]:
-    """Fetch Drive cover thumbnail, audit quality/blankness, and OCR cover text."""
+def inspect_cover_thumbnail(file_rec: dict[str, Any]) -> tuple[dict[str, Any], bytes | None]:
+    """Fetch Drive cover thumbnail and audit dimensions & blankness (lazy OCR later if needed)."""
     fid = file_rec["id"]
-    url = f"https://drive.google.com/thumbnail?id={fid}&sz=w1000"
+    url = f"https://drive.google.com/thumbnail?id={fid}&sz=w600"
     info = {"cover_status": "MISSING", "cover_width": 0, "cover_height": 0, "cover_ocr": ""}
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
@@ -275,7 +290,7 @@ def inspect_cover_thumbnail(file_rec: dict[str, Any]) -> dict[str, Any]:
             data = resp.read()
             ctype = resp.headers.get("Content-Type", "")
             if "image" not in ctype or len(data) < 500:
-                return info
+                return info, None
         img = Image.open(io.BytesIO(data))
         w, h = img.size
         info["cover_width"] = w
@@ -288,10 +303,9 @@ def inspect_cover_thumbnail(file_rec: dict[str, Any]) -> dict[str, Any]:
             info["cover_status"] = "LOW_RES"
         else:
             info["cover_status"] = "OK"
-        info["cover_ocr"] = ocr_image_pil(img)[:1200]
+        return info, data
     except Exception:
-        pass
-    return info
+        return info, None
 
 
 def download_drive_file_head(file_id: str, dest_path: str, max_bytes: int | None = None) -> bool:
@@ -309,7 +323,7 @@ def download_drive_file_head(file_id: str, dest_path: str, max_bytes: int | None
         return False
 
 
-def inspect_pdf_content(pdf_path: str) -> dict[str, Any]:
+def inspect_pdf_content(pdf_path: str, ocr_langs: str = "ben+eng") -> dict[str, Any]:
     out: dict[str, Any] = {
         "pdf_title": "",
         "pdf_author": "",
@@ -343,15 +357,20 @@ def inspect_pdf_content(pdf_path: str) -> dict[str, Any]:
         joined = "\n".join(chunks).strip()
         out["text_sample"] = joined[:3000]
 
-        if len(joined) < 60 and len(doc) > 0:
+        if len(joined) < 120 and len(doc) > 0:
             out["is_scanned"] = True
             ocr_chunks: list[str] = []
-            for pno in range(min(2, len(doc))):
-                pix = doc[pno].get_pixmap(dpi=160)
-                pil = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
-                t = ocr_image_pil(pil)
-                if t:
-                    ocr_chunks.append(t)
+            pix1 = doc[0].get_pixmap(dpi=130)
+            pil1 = Image.frombytes("RGB", [pix1.width, pix1.height], pix1.samples)
+            t1 = ocr_image_pil(pil1, langs=ocr_langs)
+            if t1:
+                ocr_chunks.append(t1)
+            if len(t1.strip()) < 30 and len(doc) > 1:
+                pix2 = doc[1].get_pixmap(dpi=130)
+                pil2 = Image.frombytes("RGB", [pix2.width, pix2.height], pix2.samples)
+                t2 = ocr_image_pil(pil2, langs=ocr_langs)
+                if t2:
+                    ocr_chunks.append(t2)
             out["page1_ocr"] = "\n".join(ocr_chunks)[:2000]
     except Exception as e:
         out["access_error"] = f"pdf_read_error: {str(e)[:120]}"
@@ -648,16 +667,18 @@ def propose_name(rec: dict[str, Any], signals: dict[str, Any]) -> dict[str, Any]
 
 def inspect_single_file(rec: dict[str, Any], tmp_root: str) -> dict[str, Any]:
     """Run Stage B inspection on one file (cover thumbnail + PDF/EPUB metadata/pages)."""
-    cov = inspect_cover_thumbnail(rec)
+    ocr_langs = pick_ocr_langs(rec)
+    cov, cov_bytes = inspect_cover_thumbnail(rec)
     signals: dict[str, Any] = {**cov}
     ext = rec["ext"]
     local_p = os.path.join(tmp_root, f"{rec['id']}{ext}")
 
     try:
         if ext == ".pdf":
-            ok = download_drive_file_head(rec["id"], local_p, max_bytes=None if rec["size"] <= 120 * 1024 * 1024 else 40 * 1024 * 1024)
+            cap = None if rec["size"] <= 35 * 1024 * 1024 else 15 * 1024 * 1024
+            ok = download_drive_file_head(rec["id"], local_p, max_bytes=cap)
             if ok:
-                signals.update(inspect_pdf_content(local_p))
+                signals.update(inspect_pdf_content(local_p, ocr_langs=ocr_langs))
             else:
                 signals["access_error"] = "download_failed"
         elif ext == ".epub":
@@ -676,6 +697,17 @@ def inspect_single_file(rec: dict[str, Any], tmp_root: str) -> dict[str, Any]:
             if os.path.exists(local_p):
                 os.remove(local_p)
         except OSError:
+            pass
+
+    if (
+        len((signals.get("text_sample") or "").strip()) < 120
+        and len((signals.get("page1_ocr") or "").strip()) < 30
+        and cov.get("cover_status") == "OK"
+        and cov_bytes
+    ):
+        try:
+            signals["cover_ocr"] = ocr_image_pil(Image.open(io.BytesIO(cov_bytes)), langs=ocr_langs)[:1200]
+        except Exception:
             pass
 
     proposal = propose_name(rec, signals)
@@ -954,14 +986,15 @@ def main() -> int:
         files = files[: args.max_files]
 
     print(f"[Stage B] Inspecting covers, PDF/EPUB metadata & OCR with {args.workers} workers...", flush=True)
+    t0 = time.time()
     results: list[dict[str, Any]] = []
     with tempfile.TemporaryDirectory(prefix="anabook_inspect_") as tmp_root:
         with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as ex:
             futs = [ex.submit(inspect_single_file, rec, tmp_root) for rec in files]
             for idx, fut in enumerate(concurrent.futures.as_completed(futs), 1):
                 results.append(fut.result())
-                if idx % 25 == 0 or idx == len(files):
-                    print(f"  inspected {idx}/{len(files)} files...", flush=True)
+                if idx % 50 == 0 or idx == len(files):
+                    print(f"  inspected {idx}/{len(files)} files ({time.time() - t0:.1f}s)...", flush=True)
 
     results.sort(key=lambda x: (x["folder"].lower(), x["name"].lower()))
     duplicates = detect_duplicates(results, repo_dir)

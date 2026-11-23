@@ -52,12 +52,13 @@ jobs:
       - name: Run Intelligent Book Renamer (${{ inputs.mode }})
         env:
           GDRIVE_OAUTH_JSON: ${{ secrets.GDRIVE_OAUTH_JSON }}
+          OMP_THREAD_LIMIT: "1"
         run: |
           python -u scripts/intelligent_book_renamer.py \
             --target-folder "${{ inputs.target_folder }}" \
             --mode "${{ inputs.mode }}" \
             --max-files "${{ inputs.max_files }}" \
-            --workers 6 \
+            --workers 4 \
             --repo-dir .
 
       - name: Upload Stage C / E reports as workflow artifacts
