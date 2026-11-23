@@ -20,6 +20,7 @@ import csv
 import datetime as dt
 import io
 import json
+import math
 import os
 import re
 import shutil
@@ -27,6 +28,7 @@ import subprocess
 import tempfile
 import threading
 import time
+import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -54,7 +56,6 @@ NOISE_PATTERNS = [
     re.compile(r"(?:^|\s)@[A-Za-z0-9_]+(?:\s|$)"),
     re.compile(r"\b(?:fivedownload|boierpathshala|bengaliebook|pdfbooks|ebookbd|amarboi|banglabook)\b", re.I),
     re.compile(r"\s*[-—–]\s*Copy(?:\s*\(\d+\))?$", re.I),
-    re.compile(r"\s*\(\d+\)\s*$"),
     re.compile(r"(?:^|\s)unicode$", re.I),
 ]
 
@@ -433,32 +434,148 @@ def strip_filename_noise(stem: str) -> str:
     return clean_text(s)
 
 
-def is_meaningful_meta(val: str) -> bool:
-    if not val or len(val.strip()) < 2:
+CAMELCASE_ALLOWLIST = {
+    "javascript", "typescript", "mcgraw", "macmillan", "mcdonald", "latex", "phd",
+    "openai", "ios", "macos", "iphone", "ipad", "youtube", "github", "linkedin",
+    "ebook", "ebooks", "wifi", "defi", "devops", "nosql", "postgresql", "pytorch",
+    "tensorflow", "autocad", "wordpress", "mysql", "jquery", "fastapi", "nextjs",
+    "graphql", "dubois", "mccarthy", "leguin", "deitel", "mcquail",
+}
+
+BIJOY_GLYPH_RE = re.compile(
+    r"[\x00-\x1f\x7f-\x9f\ufffd¨¬¶‡†±÷×¾©®°µ¹²³¼½¿^~|`¡¢£¤¥¦§ª«¯´·¸º»ÀÂÃÄÅÆÈÊËÌÎÏÐÒÔÕÖØÙÛÜÝÞßãåæìðòõøþ]"
+)
+
+URL_DOMAIN_STAMP_RE = re.compile(
+    r"(?:https?://|www\.|@|"
+    r"(?:^|[\s(\[-])[a-z0-9-]+\.(?:com|org|net|info|bd|edu|gov|io|co|uk|in|pk|biz|me|blogspot|wordpress)(?:\.[a-z]{2,3})?(?:$|[\s)\],.;:-])|"
+    r"\b(?:amarboi|grontho|banglainternet|banglabook|banglakitab|icsbook|quraneralo|durjoybook|"
+    r"exambd|sikshanmandir|besturdubooks|waytojannah|tanbircox|fivedownload|boierpathshala|"
+    r"bengaliebook|pdfbooks|ebookbd|students\.bd|educationblog24|"
+    r"uploaded\s+by|this\s+book\s+is\s+from|downloaded\s+from|pdf\s+creator|converted\s+by|scanned\s+by|compiled\s+by)\b)",
+    re.I,
+)
+
+
+def norm_unicode(s: str) -> str:
+    return unicodedata.normalize("NFKC", s or "")
+
+
+def is_bijoy_or_mojibake(val: str) -> bool:
+    s = val or ""
+    if not s:
         return False
-    low = val.strip().lower()
+    if BIJOY_GLYPH_RE.search(s):
+        return True
+    # Multiple accented Latin-1 chars rarely occur in genuine English/Bengali/Arabic titles
+    if len(re.findall(r"[\u00C0-\u00FF]", s)) >= 2:
+        return True
+    for tok in re.findall(r"[A-Za-z']+", s):
+        low = tok.lower()
+        if low in CAMELCASE_ALLOWLIST or len(tok) < 3:
+            continue
+        if re.match(r"^(?:Ma?c|De|La|Le|Di|Du|Van|Von|O')[A-Z][a-z]+$", tok):
+            continue
+        if (
+            re.match(r"^[a-z]{1,3}[A-Z][A-Za-z]*$", tok)
+            or re.search(r"[a-z][A-Z]{2,}", tok)
+            or re.match(r"^(?:Av[a-z]{2,}|Iqv|kv[A-Z]|evsj|wZb|bv[A-Z])", tok)
+        ):
+            return True
+    return False
+
+
+def contains_url_or_domain(val: str) -> bool:
+    s = (val or "").strip()
+    if not s:
+        return False
+    if re.fullmatch(r"(?:com|org|net|info|bd|edu|gov|www|http|https)", s, re.I):
+        return True
+    return bool(URL_DOMAIN_STAMP_RE.search(s))
+
+
+def is_valid_meta_title(val: str) -> bool:
+    s = clean_text(val)
+    if len(s) < 3 or is_bijoy_or_mojibake(s) or contains_url_or_domain(s):
+        return False
+    if "/" in s or "\\" in s:
+        return False
+    low = s.lower()
     bad_exact = {
-        "untitled", "unknown", "document", "microsoft word", "adobe", "pdf", "scan",
-        "camscanner", "wps", "admin", "user", "hp", "dell", "lenovo", "asus", "pc",
-        "owner", "author", "writer", "default", "noname", "book", "ebook", "cover",
-        "chapter 1", "contents", "preface", "title", "calibre",
+        "untitled", "unknown", "unknown author", "document", "microsoft word", "microsoft powerpoint",
+        "microsoft excel", "adobe", "pdf", "scan", "camscanner", "wps", "wps office", "admin",
+        "administrator", "user", "hp", "dell", "lenovo", "asus", "acer", "samsung", "pc",
+        "owner", "guest", "laptop", "desktop", "author", "writer", "default", "noname",
+        "book", "ebook", "cover", "chapter 1", "chapter", "contents", "preface", "title",
+        "index", "introduction", "part 1", "calibre",
     }
-    bad_prefixes = (
-        "microsoft word", "camscanner", "adobe ", "scan", "img_", "doc", "http",
-        "layout ", "ilovepdf", "smallpdf", "indesign", "coreldraw", "quark",
+    bad_substrings = (
+        "microsoft word", "microsoft powerpoint", "microsoft excel", "[compatibility mode]",
+        "untitled art", "camscanner", "ilovepdf", "smallpdf", "pdf creator", "coreldraw",
+        "adobe acrobat", "adobe indesign",
     )
-    bad_exts = (".pdf", ".doc", ".docx", ".pmd", ".indd", ".cdr", ".txt", ".qxd", ".psd", ".html", ".htm")
-    if low in bad_exact or any(low.startswith(p) for p in bad_prefixes) or any(low.endswith(e) for e in bad_exts):
+    bad_prefixes = ("untitled", "layout ", "slide ", "scan", "img_", "doc ", "adobe ", "indesign", "quark", "presentation")
+    bad_exts = (".pdf", ".doc", ".docx", ".ppt", ".pptx", ".xls", ".xlsx", ".pmd", ".indd", ".cdr", ".txt", ".qxd", ".psd", ".html", ".htm", ".rar", ".zip", ".exe")
+    if (
+        low in bad_exact
+        or any(sub in low for sub in bad_substrings)
+        or any(low.startswith(p) for p in bad_prefixes)
+        or any(low.endswith(e) for e in bad_exts)
+    ):
         return False
-    if "/" in val or "\\" in val or re.search(r"[\^~‡†±÷]", val):
+    if re.fullmatch(r"[\d\W_]+", low) or re.fullmatch(r"[A-Za-z]?\d{2,6}", s):
         return False
-    if re.fullmatch(r"[\d\W_]+", low):
+    # Reject raw unformatted slugs like he_provu_ami_upostit or multi-hyphen web slugs without spaces
+    if ("_" in s and " " not in s) or (s.count("-") >= 2 and " " not in s):
         return False
     return True
 
 
+def is_valid_meta_author(val: str, body_content: str = "") -> bool:
+    s = clean_text(val)
+    if not s or not is_valid_meta_title(s):
+        return False
+    low = s.lower()
+    extra_bad = {
+        "administrator", "admin", "user", "owner", "guest", "pc", "laptop", "desktop",
+        "default", "unknown", "unknown author", "author", "writer", "editor", "publisher",
+        "calibre", "nitro", "foxit", "wps", "hp", "dell", "lenovo", "asus", "acer",
+        "samsung", "microsoft",
+    }
+    if low in extra_bad or re.search(r"[@]|(?:[-_]pc\b)", low):
+        return False
+    # Single-token ASCII handle/username (no whitespace) must actually appear in book body
+    if re.fullmatch(r"[A-Za-z0-9._-]{2,25}", s):
+        return len(body_content) > 0 and corroborated_in_body(s, body_content)
+    return True
+
+
+def extract_tokens(phrase: str) -> list[str]:
+    norm = norm_unicode(phrase).lower()
+    raw_tokens = re.findall(r"[\w\u0980-\u09FF\u0600-\u06FF\u0900-\u097F\u0D00-\u0D7F]+", norm)
+    tokens: list[str] = []
+    for tok in raw_tokens:
+        is_latin = bool(re.fullmatch(r"[a-z0-9]+", tok))
+        min_len = 3 if is_latin else 2
+        if len(tok) >= min_len:
+            tokens.append(tok)
+    return tokens
+
+
+def corroborated_in_body(phrase: str, body_content: str) -> bool:
+    if not phrase or not body_content:
+        return False
+    tokens = extract_tokens(phrase)
+    if not tokens:
+        return False
+    body_low = norm_unicode(body_content).lower()
+    hits = sum(1 for t in tokens if t in body_low)
+    needed = max(1, math.ceil(len(tokens) * 0.5))
+    return hits >= needed
+
+
 def detect_category(combined_text: str, filename: str) -> str:
-    t = f"{filename}\n{combined_text}".lower()
+    t = norm_unicode(f"{filename}\n{combined_text}").lower()
     if any(k in t for k in ("question paper", "প্রশ্নপত্র", "board question", "past paper", "model test")):
         return "Question Papers"
     if any(k in t for k in ("admission", "ভর্তি পরীক্ষা", "medical admission", "buet", "du admission", "গুচ্ছ")):
@@ -473,7 +590,9 @@ def detect_category(combined_text: str, filename: str) -> str:
         return "College Textbooks"
     if any(k in t for k in ("dictionary", "অভিধান", "encyclopedia", "বিশ্বকোষ", "lexicon")):
         return "Dictionaries & Encyclopedias"
-    if any(k in t for k in ("quran", "কুরআন", "কোরআন", "hadith", "হাদিস", "বুখারী", "মুসলিম শরীফ", "তাফসীর", "tafsir", "bible", "gita", "বেদ")):
+    if any(k in t for k in ("quran", "কুরআন", "কোরআন", "hadith", "হাদিস", "বুখারী", "সহীহ বুখারী",
+                            "সহীহ মুসলিম", "সহিহ মুসলিম", "sahih muslim", "sahih bukhari", "মুসলিম শরীফ",
+                            "তাফসীর", "তফসীর", "tafsir", "হিসনুল মুসলিম", "hisnul muslim", "bible", "gita", "বেদ")):
         return "Religious Scriptures"
     if any(k in t for k in ("ইসলাম", "islam", "ফিকহ", "fiqh", "সীরাত", "seerah", "নামাজ", "রোজা", "আকীদা", "aqeedah", "দাওয়াহ")):
         return "Religious Studies"
@@ -526,11 +645,17 @@ def extract_edition(text: str) -> str:
     return m.group(1) if m else ""
 
 
+EMBEDDED_ATTRIBUTION_RE = re.compile(
+    r"(?:কুরআন|হাদিস|সহীহ|সহিহ|বুখারী|মুসলিম|তাফসীর|তফসীর|হিসনুল|বিশ্বকোষ|"
+    r"quran|qur'an|hadith|sahih|tafsir|bukhari|muslim|ibn\s+ka(?:s|th)ir|hisnul)",
+    re.I,
+)
+
+
 def propose_name(rec: dict[str, Any], signals: dict[str, Any]) -> dict[str, Any]:
     """
     Combine filename + PDF/EPUB metadata + cover OCR + inner text.
-    Only returns HIGH confidence when title (and author/level where applicable)
-    is corroborated by actual content/metadata — never guesses.
+    Never trusts metadata alone; strictly marks any uncertainty as REQUIRES REVIEW.
     """
     orig_name = rec["name"]
     stem, ext = os.path.splitext(orig_name)
@@ -542,14 +667,15 @@ def propose_name(rec: dict[str, Any], signals: dict[str, Any]) -> dict[str, Any]
     cover_ocr = clean_text(signals.get("cover_ocr", ""))
     text_sample = clean_text(signals.get("text_sample", ""))
     page1_ocr = clean_text(signals.get("page1_ocr", ""))
-    combined_content = "\n".join(x for x in [meta_title, meta_author, cover_ocr, text_sample, page1_ocr] if x)
+    body_content = "\n".join(x for x in [cover_ocr, text_sample, page1_ocr] if x)
 
-    category = detect_category(combined_content, orig_name)
+    has_meta_title = is_valid_meta_title(meta_title)
+    has_meta_author = is_valid_meta_author(meta_author, body_content)
+
+    safe_meta_for_cat = "\n".join(x for x in ([meta_title] if has_meta_title else []) + ([meta_author] if has_meta_author else []))
+    category = detect_category(f"{body_content}\n{safe_meta_for_cat}", orig_name)
     year = extract_year(f"{orig_name} {signals.get('pdf_subject', '')} {text_sample[:800]} {cover_ocr[:400]}")
     edition = extract_edition(f"{orig_name} {text_sample[:800]} {cover_ocr[:400]}")
-
-    has_meta_title = is_meaningful_meta(meta_title)
-    has_meta_author = is_meaningful_meta(meta_author)
 
     fn_title, fn_author = "", ""
     if not is_gibberish and cleaned_stem:
@@ -561,6 +687,7 @@ def propose_name(rec: dict[str, Any], signals: dict[str, Any]) -> dict[str, Any]
             fn_title, fn_author = clean_text(m_dash.group(1)), clean_text(m_dash.group(2))
         else:
             fn_title = cleaned_stem
+    valid_fn_author = fn_author if is_valid_meta_author(fn_author, body_content) else ""
 
     title = ""
     author = ""
@@ -576,24 +703,39 @@ def propose_name(rec: dict[str, Any], signals: dict[str, Any]) -> dict[str, Any]
             "reason": signals["access_error"],
         }
 
-    if has_meta_title and (len(text_sample) > 40 or len(cover_ocr) > 20):
+    # Case A: Clean PDF/EPUB metadata title genuinely corroborated inside body/cover text
+    if has_meta_title and corroborated_in_body(meta_title, body_content):
         title = meta_title
-        author = meta_author if has_meta_author else fn_author
-        if author:
+        if has_meta_author and corroborated_in_body(meta_author, body_content):
+            author = meta_author
             confidence = "HIGH"
-            reason = "verified_metadata_and_content"
-        elif not is_gibberish and fn_title and fn_title.lower() in combined_content.lower():
+            reason = "verified_metadata_corroborated_in_body"
+        elif valid_fn_author and corroborated_in_body(valid_fn_author, body_content):
+            author = valid_fn_author
             confidence = "HIGH"
-            reason = "verified_metadata_title_in_content"
+            reason = "verified_meta_title_and_fn_author"
+        elif category in ("Religious Scriptures", "Religious Studies") and EMBEDDED_ATTRIBUTION_RE.search(title):
+            author = ""
+            confidence = "HIGH"
+            reason = "verified_scripture_title_in_body"
+        elif category in ("School Textbooks", "College Textbooks", "Question Papers") and year:
+            author = ""
+            confidence = "HIGH"
+            reason = "academic_meta_corroborated_with_year"
         else:
+            author = meta_author if has_meta_author else valid_fn_author
             confidence = "REQUIRES REVIEW"
-            reason = "metadata_title_without_author"
+            reason = "metadata_author_missing_or_uncorroborated"
 
+    # Case B: Gibberish / random ID filename — keep OCR clue for manual review, never auto-rename
     elif is_gibberish:
         candidate_lines = [
             clean_text(ln)
             for ln in (signals.get("text_sample", "") + "\n" + signals.get("cover_ocr", "") + "\n" + signals.get("page1_ocr", "")).splitlines()
-            if len(clean_text(ln)) >= 4 and not re.fullmatch(r"[\d\W_]+", clean_text(ln))
+            if len(clean_text(ln)) >= 4
+            and not re.fullmatch(r"[\d\W_]+", clean_text(ln))
+            and not is_bijoy_or_mojibake(ln)
+            and not contains_url_or_domain(ln)
         ]
         if candidate_lines:
             title = candidate_lines[0][:100]
@@ -608,26 +750,39 @@ def propose_name(rec: dict[str, Any], signals: dict[str, Any]) -> dict[str, Any]
                 "reason": "gibberish_filename_no_text",
             }
 
+    # Case C: Non-gibberish filename corroborated in actual cover/body text (plus verified author)
     else:
         title = fn_title
-        author = meta_author if has_meta_author else fn_author
-        tokens = [w for w in re.split(r"\W+", title.lower()) if len(w) >= 3]
-        content_low = combined_content.lower()
-        overlap = sum(1 for w in tokens if w in content_low) if tokens else 0
-        corroborated = (len(tokens) > 0 and overlap >= max(1, len(tokens) // 2))
-
-        if corroborated and author:
-            confidence = "HIGH"
-            reason = "filename_corroborated_by_cover_or_content"
-        elif corroborated and category in ("School Textbooks", "College Textbooks", "Question Papers") and year:
-            confidence = "HIGH"
-            reason = "academic_corroborated_with_year"
-        elif corroborated:
+        cand_author = meta_author if has_meta_author else valid_fn_author
+        if is_bijoy_or_mojibake(fn_title) or contains_url_or_domain(fn_title):
             confidence = "REQUIRES REVIEW"
-            reason = "title_corroborated_author_missing"
+            reason = "bijoy_or_unreliable_title"
+        elif is_valid_meta_title(fn_title) and corroborated_in_body(fn_title, body_content):
+            if cand_author and corroborated_in_body(cand_author, body_content):
+                author = cand_author
+                confidence = "HIGH"
+                reason = "verified_filename_and_author_in_body"
+            elif category in ("School Textbooks", "College Textbooks", "Question Papers") and year:
+                author = ""
+                confidence = "HIGH"
+                reason = "academic_filename_corroborated_with_year"
+            else:
+                author = cand_author
+                confidence = "REQUIRES REVIEW"
+                reason = "filename_corroborated_author_missing_or_unverified"
         else:
+            author = cand_author
             confidence = "REQUIRES REVIEW"
             reason = "insufficient_content_corroboration"
+
+    # Final safety gate before ever permitting HIGH confidence
+    if confidence == "HIGH" and (
+        not title
+        or not is_valid_meta_title(title)
+        or (author and not is_valid_meta_author(author, body_content))
+    ):
+        confidence = "REQUIRES REVIEW"
+        reason = "final_safety_gate_triggered"
 
     parts = [title]
     if category in ("University Textbooks", "Computer Science & IT", "Academic Reference Books"):
@@ -644,14 +799,14 @@ def propose_name(rec: dict[str, Any], signals: dict[str, Any]) -> dict[str, Any]
         if author and author.lower() not in title.lower():
             parts.append(author)
 
-    proposed = sanitize_filename(" - ".join(p for p in parts if p), ext)
+    proposed = sanitize_filename(" - ".join(p for p in parts if p), ext) if title else ""
     identified_desc = " — ".join(p for p in [title, author, edition, year] if p)
 
     if confidence != "HIGH":
         return {
             "identified_book": identified_desc or cleaned_stem or orig_name,
             "category": category,
-            "proposed_filename": f"REQUIRES REVIEW (candidate: {proposed})" if title else "REQUIRES REVIEW",
+            "proposed_filename": f"REQUIRES REVIEW (candidate: {proposed})" if title and not is_bijoy_or_mojibake(title) else "REQUIRES REVIEW",
             "confidence": "REQUIRES REVIEW",
             "reason": reason,
         }
@@ -725,23 +880,51 @@ def inspect_single_file(rec: dict[str, Any], tmp_root: str) -> dict[str, Any]:
 
 
 def detect_duplicates(results: list[dict[str, Any]], repo_dir: Path) -> dict[str, list[dict[str, Any]]]:
-    """Detect exact MD5 duplicates, same-book-different-filename groups, and cross-catalog byte-size matches."""
+    """Detect exact MD5 duplicates, multi-volume sets, same-book groups, proposed collisions, and cross-catalog matches."""
     by_md5: dict[str, list[dict]] = collections.defaultdict(list)
     by_norm_title: dict[str, list[dict]] = collections.defaultdict(list)
+    by_proposed_name: dict[str, list[dict]] = collections.defaultdict(list)
+    series_groups: dict[str, list[dict]] = collections.defaultdict(list)
+
+    series_pattern = re.compile(
+        r"^(.*?)(?:[\s_-]+(?:part|vol|volume|খন্ড|খণ্ড|পর্ব|issue|no|edition|[\(\[])\s*([0-9ivx০-৯]+)[\)\]]?)(.*)$",
+        re.I,
+    )
+
     for r in results:
         if r.get("md5"):
             by_md5[r["md5"]].append(r)
+
+        raw_name = r.get("name", "")
+        m_ser = series_pattern.match(os.path.splitext(raw_name)[0])
+        if m_ser:
+            base_prefix = re.sub(r"[\W_]+", "", m_ser.group(1).lower())
+            if len(base_prefix) >= 4:
+                series_groups[base_prefix].append(r)
+
         norm = re.sub(r"[\W_]+", "", r.get("identified_book", "").lower())
         if len(norm) >= 6 and norm != "unaccessible":
             by_norm_title[norm].append(r)
+
+        prop = r.get("proposed_filename", "")
+        if prop and not prop.startswith("REQUIRES REVIEW") and r.get("confidence") == "HIGH":
+            by_proposed_name[prop.lower()].append(r)
 
     exact_md5 = [
         {"md5": k, "count": len(v), "files": [{"id": x["id"], "name": x["name"], "folder": x["folder"]} for x in v]}
         for k, v in by_md5.items() if len(v) > 1
     ]
+    multi_volume = [
+        {"series_base": k, "count": len(v), "files": [{"id": x["id"], "name": x["name"], "folder": x["folder"]} for x in v]}
+        for k, v in series_groups.items() if len(v) > 1
+    ]
     same_book = [
         {"key": k, "count": len(v), "files": [{"id": x["id"], "name": x["name"], "folder": x["folder"], "size": x["size"]} for x in v]}
         for k, v in by_norm_title.items() if len(v) > 1
+    ]
+    proposed_collisions = [
+        {"proposed_filename": v[0]["proposed_filename"], "count": len(v), "files": [{"id": x["id"], "name": x["name"], "folder": x["folder"]} for x in v]}
+        for k, v in by_proposed_name.items() if len(v) > 1
     ]
 
     cross_catalog: list[dict] = []
@@ -759,7 +942,9 @@ def detect_duplicates(results: list[dict[str, Any]], repo_dir: Path) -> dict[str
 
     return {
         "exact_md5_duplicates": exact_md5,
+        "multi_volume_series": multi_volume,
         "same_book_different_filename": same_book,
+        "proposed_filename_collisions": proposed_collisions,
         "cross_catalog_size_matches": cross_catalog,
     }
 
@@ -820,7 +1005,7 @@ def write_stage_c_reports(
         f"- **Marked `REQUIRES REVIEW`:** `{len(review)}` (untouched on Drive)",
         f"- **Unaccessible / Read errors:** `{len(unaccessible)}`",
         f"- **Cover Image Audit:** `{covers_ok}` OK · `{covers_missing}` Missing · `{covers_blank}` Blank/Low-res",
-        f"- **Duplicates Detected (not deleted):** `{len(duplicates['exact_md5_duplicates'])}` exact MD5 groups · `{len(duplicates['same_book_different_filename'])}` same-book groups · `{len(duplicates['cross_catalog_size_matches'])}` cross-catalog size matches",
+        f"- **Duplicates Detected (not deleted):** `{len(duplicates.get('exact_md5_duplicates', []))}` exact MD5 groups · `{len(duplicates.get('multi_volume_series', []))}` multi-volume/part series · `{len(duplicates.get('same_book_different_filename', []))}` same-book groups · `{len(duplicates.get('proposed_filename_collisions', []))}` proposed collisions · `{len(duplicates.get('cross_catalog_size_matches', []))}` cross-catalog size matches",
         "",
         "## Rename Table",
         "",
