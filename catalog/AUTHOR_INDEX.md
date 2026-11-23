@@ -2,7 +2,7 @@
 
 Total unique named authors: **3,946** (plus NCTB / এনসিটিবি textbooks and Unknown-author items flagged for review).
 
-Browse in Google Drive: [05_Authors_and_Scholars](https://drive.google.com/drive/folders/1HG9mZ-FGPOydiFc8h32iIDsKYGY-j9DB) | [বাংলা বর্ণমালা](https://drive.google.com/drive/folders/12hrCkJA6ABOYu5LlETm8cuOxu7ZkktGM) | [A-Z](https://drive.google.com/drive/folders/1t4sbTJRytV1btgWIJrqosHuXstIaEAtx)
+Browse in Google Drive: [Authors & Scholars](https://drive.google.com/drive/folders/1HG9mZ-FGPOydiFc8h32iIDsKYGY-j9DB) | [Bangladeshi Authors](https://drive.google.com/drive/folders/12hrCkJA6ABOYu5LlETm8cuOxu7ZkktGM) | [International Authors](https://drive.google.com/drive/folders/1EX7JwAS-ibFU23NKJiP2naMSZKJnH4D5) | [Islamic Scholars](https://drive.google.com/drive/folders/1G9U371ZCnX9mguUff95BeMV544fAau-U)
 
 | # | Author | Books | Drive Folder |
 |---:|---|---:|---|
@@ -71,7 +71,7 @@ Browse in Google Drive: [05_Authors_and_Scholars](https://drive.google.com/drive
 | 63 | উইলবার এডিসন স্মিথ | 13 | [Open Folder](https://drive.google.com/drive/folders/1CfFZ0qRcRB9JdsLz1FQlqqnNIHxoI_aI) |
 | 64 | এনায়তুল্লাহ আলতামাস | 13 | [Open Folder](https://drive.google.com/drive/folders/1cg1E_fHGhF4YWK4z_Wsx8CylK0enhk8e) |
 | 65 | শিবরাম চক্রবর্তী | 13 | [Open Folder](https://drive.google.com/drive/folders/131i_44tH4kvw5AOd-LXtUjKb3RoOVyWx) |
-| 66 | Mamun Babu | 13 | [Open Folder](https://drive.google.com/drive/folders/1ukCX1BGaDP5_I1PWtZtP1KWYMwST6sfQ) |
+| 66 | Mamun Babu | 13 | [Open Folder](https://drive.google.com/drive/folders/1QRrUR1sSs61WW_SjKXIALZS5XUkN-R6L) |
 | 67 | নারায়ণ গঙ্গোপাধ্যায় | 13 | [Open Folder](https://drive.google.com/drive/folders/1QSKP-eXVeojUsRUK53rXxY1fLxzY-owB) |
 | 68 | হুমায়ুন আজাদ | 13 | [Open Folder](https://drive.google.com/drive/folders/1zdj36rXDtIyrgtU43C0A_09_6asoR7NV) |
 | 69 | জেমস হ্যাডলি চেজ | 13 | [Open Folder](https://drive.google.com/drive/folders/1jCJGMXVtpb3ncc6yv-svlbuk2Xg7j_LE) |
@@ -354,7 +354,7 @@ Browse in Google Drive: [05_Authors_and_Scholars](https://drive.google.com/drive
 | 346 | Zubair Ali Zai | 3 | [Open Folder](https://drive.google.com/drive/folders/1fUKeJV83-P8WbqtSrVf1EXBZrJDKaj8Y) |
 | 347 | যোগীন্দ্রনাথ সরকার | 3 | [Open Folder](https://drive.google.com/drive/folders/19-D3z0cAWqELwCl26pV5ABC8XRzl-eQt) |
 | 348 | Humayum Ahmed | 3 | — |
-| 349 | সা. | 3 | [Open Folder](https://drive.google.com/drive/folders/1oJuHlMfGtodJSw35qjUOXsy0mSZd7cn6) |
+| 349 | সা. | 3 | — |
 | 350 | বেগম রোকেয়া | 3 | [Open Folder](https://drive.google.com/drive/folders/1xTgyOl8BEbRod-OGyhHInGDApJh5bwlZ) |
 | 351 | ইবনু উসাইমীন | 3 | [Open Folder](https://drive.google.com/drive/folders/1P2HpQ3xH0gl2lRpC5U-FwM0vtK23JZIB) |
 | 352 | ব্রজেন্দ্রনাথ বন্দ্যোপাধ্যায় | 3 | [Open Folder](https://drive.google.com/drive/folders/1eUDJvtSwlVmx88puayVB26HHLwn-XpGD) |

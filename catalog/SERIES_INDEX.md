@@ -1,6 +1,6 @@
 # Series & Collections Index
 
-Total series/collections: **28** | Drive Folder: [06_Series_and_Collections](https://drive.google.com/drive/folders/1_dHgKueL1AS_EbaXUO-XWCtrgal1JZ8m)
+Total series/collections: **28** | Drive Folder: [Series & Collections](https://drive.google.com/drive/folders/1_dHgKueL1AS_EbaXUO-XWCtrgal1JZ8m)
 
 | # | Series / Collection | Books | Drive Folder |
 |---:|---|---:|---|
