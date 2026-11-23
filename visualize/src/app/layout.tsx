@@ -4,38 +4,27 @@ import "./globals.css";
 const SITE_URL = "https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/";
 
 export const metadata: Metadata = {
-  title: "Bangladesh's Biggest E-Book Library | বাংলাদেশের বৃহত্তম ই-বুক লাইব্রেরি",
+  title: "Bangladesh eBook Library | Offline-First Android App & Online Archive",
   description:
-    "Bangladesh's Biggest E-Book Library (বাংলাদেশের বৃহত্তম ই-বুক লাইব্রেরি): Browse, search, preview, and download thousands of Bangla & English PDF/EPUB e-books, NCTB textbooks (Class 1–12), Islamic books, Bengali literature, science, engineering, and BCS preparation books on Google Drive.",
+    "Read 22,166+ Bangla, English & Arabic eBooks, NCTB Class 1–12 textbooks, university courses, and classics offline with the Bangladesh eBook Library Android App, or browse the complete Online Library.",
   keywords: [
     "Bangladesh Biggest Ebook Library",
-    "Bangla PDF Books",
-    "বাংলা বই পিডিএফ",
-    "NCTB Textbooks PDF",
-    "ইসলামিক বই পিডিএফ",
-    "Humayun Ahmed Books PDF",
-    "Rabindranath Tagore Books",
-    "BCS Preparation Books PDF",
-    "Bengali Literature Ebooks",
-    "Free Bangla Ebooks Google Drive",
+    "Bangla PDF Books App",
+    "NCTB Class 1-12 App",
+    "বাংলা বই পিডিএফ অ্যাপ",
+    "Offline eBook Reader Android",
   ],
   alternates: {
     canonical: SITE_URL,
   },
   openGraph: {
-    title: "Bangladesh's Biggest E-Book Library | বাংলাদেশের বৃহত্তম ই-বুক লাইব্রেরি",
+    title: "Bangladesh eBook Library — Offline Android App & Online Library",
     description:
-      "Searchable bilingual library of Bangla & English e-books, NCTB Class 1–12 textbooks, Quran, Hadith, Bengali literature, Science & Technology across 25 categories with Google Drive links.",
+      "22,166+ categorized books, Class 1–12 NCTB textbooks, 5 Pinterest-inspired reading themes, 131+ author portraits, batch section offline downloads & full-screen mistouch lock.",
     url: SITE_URL,
-    siteName: "Bangladesh's Biggest E-Book Library",
+    siteName: "Bangladesh eBook Library",
     type: "website",
     locale: "bn_BD",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Bangladesh's Biggest E-Book Library (বাংলাদেশের বৃহত্তম ই-বুক লাইব্রেরি)",
-    description:
-      "Search & download thousands of Bangla PDF books, NCTB textbooks, Islamic books, Literature, Science & BCS resources directly from Google Drive.",
   },
   robots: {
     index: true,
@@ -50,7 +39,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="bn" className="dark">
-      <body className="min-h-screen antialiased bg-[#090d16] text-slate-100">
+      <body className="min-h-screen antialiased bg-[#11100F] text-[#F7F3EE]">
         {children}
       </body>
     </html>

@@ -5,26 +5,26 @@
 }
 
 body {
-  background-color: #090d16;
-  color: #f1f5f9;
+  background-color: #11100F;
+  color: #F7F3EE;
   font-family: var(--font-sans), system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans Bengali", sans-serif;
 }
 
-/* Subtle custom scrollbars for sidebar tree */
+/* Subtle custom scrollbars */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #0f172a;
+  background: #1D1A18;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #334155;
+  background: #3D3532;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #475569;
+  background: #C6927A;
 }

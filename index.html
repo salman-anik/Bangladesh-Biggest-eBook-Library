@@ -1,368 +1,286 @@
 <!DOCTYPE html>
-<html lang="bn" data-theme="dark">
+<html lang="bn">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bangladesh's Biggest eBook Library | বাংলাদেশের বৃহত্তম ই-বুক লাইব্রেরি — Scroll &amp; Discover Archive</title>
-  <meta name="description" content="Bangladesh's Biggest eBook Library (বাংলাদেশের বৃহত্তম ই-বুক লাইব্রেরি) — Pure monochrome Scroll &amp; Discover catalog, interactive analytics dashboard, cover gallery, in-page reader, and direct download for 22,000+ free Bangla, English &amp; Arabic eBooks, NCTB &amp; Madrasa textbooks, university courses, question banks, and educational resources." />
-  <meta name="keywords" content="Bangladesh Biggest eBook Library, Bangla PDF books, Free Bangla eBooks, NCTB books PDF, University Textbooks PDF, Qawmi Alia Madrasa books, Admission Question Bank PDF, বাংলাদেশের বৃহত্তম ই-বুক লাইব্রেরি" />
-  <meta name="author" content="Salman Anik (salman-anik)" />
-  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
-  <link rel="canonical" href="https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Bangladesh's Biggest eBook Library — Scroll &amp; Discover Digital Archive" />
-  <meta property="og:description" content="Monochrome editorial archive &amp; analytics dashboard for 22,000+ categorized eBooks with cover previews, in-page reader &amp; one-click download." />
-  <meta property="og:url" content="https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/" />
-  <meta property="og:site_name" content="Bangladesh-Biggest-eBook-Library" />
-
+  <title>Bangladesh eBook Library | Android App &amp; Online Library Archive</title>
+  <meta name="description" content="Download the Bangladesh eBook Library Android App (APK) for offline reading of 22,166+ Bangla & English books, NCTB Class 1–12 textbooks, and classics — or open the Online Library." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Bengali:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebSite",
-        "name": "Bangladesh's Biggest eBook Library",
-        "alternateName": "বাংলাদেশের বৃহত্তম ই-বুক লাইব্রেরি",
-        "url": "https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/",
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": "https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/?q={search_term_string}",
-          "query-input": "required name=search_term_string"
-        }
-      },
-      {
-        "@type": "CollectionPage",
-        "name": "Bangladesh-Biggest-eBook-Library",
-        "description": "Categorized digital library & analytics archive of Bangla, English & Arabic eBooks, NCTB & University textbooks, question banks, and open-access educational resources hosted on Google Drive.",
-        "url": "https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/",
-        "isBasedOn": "https://drive.google.com/drive/folders/1fMsplDtUnpUhnNBJGKvYQ1sdZx0QVJWq",
-        "sameAs": [
-          "https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library"
-        ],
-        "inLanguage": ["bn", "en", "ar"]
-      }
-    ]
-  }
-  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Noto+Sans+Bengali:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #11100F;
+      --surface: #2D2826;
+      --surface-alt: #1D1A18;
+      --accent: #C6927A;
+      --cream: #F2ECE6;
+      --ink: #F7F3EE;
+      --muted: #9E9590;
+      --sage: #5F7A6F;
+      --border: #3D3532;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', 'Noto Sans Bengali', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: inherit; text-decoration: none; }
+    .container { max-width: 1120px; margin: 0 auto; padding: 0 20px; }
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      border-bottom: 1px solid var(--border);
+      background: rgba(17, 16, 15, 0.92);
+      backdrop-filter: blur(10px);
+    }
+    .nav {
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+    }
+    .brand { display: flex; align-items: center; gap: 11px; }
+    .logo {
+      width: 36px; height: 36px; border-radius: 11px;
+      background: var(--accent); color: #171412;
+      font-weight: 900; font-size: 14px;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .brand-title { font-weight: 800; font-size: 15px; display: block; line-height: 1.1; }
+    .brand-sub { font-size: 11px; color: var(--accent); font-weight: 600; }
+    .nav-links { display: flex; align-items: center; gap: 20px; font-size: 13px; font-weight: 600; color: var(--muted); }
+    .nav-links a:hover { color: var(--ink); }
+    .nav-actions { display: flex; align-items: center; gap: 10px; }
+    .btn {
+      display: inline-flex; align-items: center; gap: 7px;
+      padding: 9px 15px; border-radius: 12px; font-size: 13px; font-weight: 700;
+      border: 1px solid var(--border); background: var(--surface); color: var(--cream);
+      transition: 0.15s ease;
+    }
+    .btn:hover { border-color: var(--accent); }
+    .btn-primary {
+      background: var(--accent); color: #171412; border-color: var(--accent); font-weight: 800;
+    }
+    .btn-cream {
+      background: var(--cream); color: #171412; border-color: var(--cream); font-weight: 800; padding: 13px 22px; font-size: 15px;
+    }
+    .btn-lg { padding: 13px 22px; font-size: 15px; }
+    .hero {
+      padding: 64px 0;
+      border-bottom: 1px solid #26211F;
+    }
+    .hero-grid {
+      display: grid; grid-template-columns: 1.25fr 0.9fr; gap: 40px; align-items: center;
+    }
+    .badge {
+      display: inline-flex; align-items: center; gap: 7px;
+      padding: 5px 12px; border-radius: 999px; font-size: 11px; font-weight: 800;
+      background: rgba(198,146,122,0.16); border: 1px solid rgba(198,146,122,0.4); color: var(--accent);
+      margin-bottom: 16px;
+    }
+    h1 { font-size: clamp(32px, 5vw, 52px); font-weight: 900; line-height: 1.08; letter-spacing: -0.02em; margin-bottom: 16px; }
+    h1 span { color: var(--accent); }
+    .lead { font-size: 16px; color: var(--muted); max-width: 580px; margin-bottom: 24px; }
+    .cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 28px; }
+    .stats-row {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;
+      border-top: 1px solid #26211F; padding-top: 18px; max-width: 480px;
+    }
+    .stat-num { font-size: 22px; font-weight: 900; }
+    .stat-lbl { font-size: 12px; color: var(--muted); }
+    .phone {
+      max-width: 330px; margin: 0 auto;
+      background: var(--surface-alt); border: 2px solid var(--border);
+      border-radius: 34px; padding: 16px; display: flex; flex-direction: column; gap: 14px;
+      box-shadow: 0 24px 60px rgba(0,0,0,0.6);
+    }
+    .phone-top { display: flex; justify-content: space-between; align-items: center; font-size: 12px; font-weight: 800; }
+    .pill-mini { padding: 3px 9px; border-radius: 999px; background: var(--surface); border: 1px solid var(--border); color: var(--accent); font-size: 10px; }
+    .hero-card { background: var(--surface); border: 1px solid var(--border); border-radius: 20px; padding: 15px; display: flex; flex-direction: column; gap: 8px; }
+    .hero-card-eyebrow { font-size: 10px; font-weight: 800; color: var(--accent); letter-spacing: 0.7px; }
+    .hero-card-title { font-size: 15px; font-weight: 800; }
+    .hero-card-foot { display: flex; justify-content: space-between; align-items: center; margin-top: 4px; }
+    .chip-row { display: flex; gap: 6px; overflow: hidden; }
+    .chip { padding: 5px 10px; border-radius: 10px; background: var(--surface); border: 1px solid var(--border); font-size: 11px; font-weight: 700; white-space: nowrap; }
+    .chip.active { background: var(--accent); border-color: var(--accent); color: #171412; }
+    .section { padding: 56px 0; }
+    .eyebrow { font-size: 11px; font-weight: 800; letter-spacing: 1px; color: var(--accent); text-transform: uppercase; }
+    h2 { font-size: 28px; font-weight: 800; margin: 6px 0 24px; }
+    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .card {
+      background: var(--surface-alt); border: 1px solid var(--border); border-radius: 20px; padding: 20px;
+      display: flex; flex-direction: column; gap: 8px;
+    }
+    .card h3 { font-size: 16px; font-weight: 800; }
+    .card p { font-size: 13.5px; color: var(--muted); }
+    .themes-band { background: rgba(29,26,24,0.6); border-top: 1px solid #26211F; border-bottom: 1px solid #26211F; }
+    .grid-5 { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; }
+    .theme-card { background: var(--bg); border: 1px solid var(--border); border-radius: 16px; padding: 14px; }
+    .swatches { display: flex; gap: 6px; margin-bottom: 10px; }
+    .dot { width: 18px; height: 18px; border-radius: 999px; border: 1px solid var(--border); }
+    footer { border-top: 1px solid #26211F; padding: 28px 0; font-size: 12px; color: var(--muted); }
+    .foot-flex { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+    @media (max-width: 860px) {
+      .hero-grid, .grid-3, .grid-5 { grid-template-columns: 1fr; }
+      .nav-links { display: none; }
+    }
+  </style>
 </head>
 <body>
-  <header class="site-header">
-    <nav class="topbar">
-      <div class="brand-group">
-        <button id="mobileMenuBtn" class="bw-btn bw-btn-icon" type="button" aria-label="Toggle folder tree" title="Browse Drive Tree">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
-        </button>
-        <a href="./" class="brand-link">
-          <span class="brand-monogram" aria-hidden="true">BL</span>
-          <div>
-            <h1 class="brand-title">Bangladesh's Biggest eBook Library</h1>
-            <p class="brand-sub">বাংলাদেশের বৃহত্তম ই-বুক লাইব্রেরি · Scroll &amp; Discover Edition</p>
-          </div>
-        </a>
-      </div>
+  <header>
+    <div class="container nav">
+      <a href="./" class="brand">
+        <div class="logo">BL</div>
+        <div>
+          <span class="brand-title">Bangladesh eBook Library</span>
+          <span class="brand-sub">বাংলাদেশের বৃহত্তম ই-বুক লাইব্রেরি</span>
+        </div>
+      </a>
 
-      <div class="top-actions">
-        <button id="toggleDashboardBtn" class="bw-btn" type="button" title="Show/Hide Analytics Dashboard">
-          <span>▥</span><span class="hide-sm">Dashboard</span>
-        </button>
-        <button id="surpriseMeBtn" class="bw-btn" type="button" title="Discover a Random Featured Book">
-          <span>✦</span><span class="hide-sm">Surprise Me</span>
-        </button>
-        <button id="openSavedBtn" class="bw-btn" type="button" title="Saved Reading List">
-          <span>♥</span><span class="hide-sm">Saved</span>
-          <span id="savedCountBadge" class="bw-count">0</span>
-        </button>
-        <a class="bw-btn hide-md" href="https://drive.google.com/drive/folders/1fMsplDtUnpUhnNBJGKvYQ1sdZx0QVJWq" target="_blank" rel="noopener noreferrer" title="Google Drive Library">
-          <span>Drive ↗</span>
-        </a>
-        <a class="bw-btn hide-md" href="https://docs.google.com/document/d/1dEMPkGWXWvx3vSHu708KTfpKwS7IG0Ar_ffKtA4-QDM/edit" target="_blank" rel="noopener noreferrer" title="START HERE Guide">
-          <span>Guide ↗</span>
-        </a>
-        <a class="bw-btn hide-md" href="https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library" target="_blank" rel="noopener noreferrer" title="GitHub Repository">
-          <span>GitHub ↗</span>
-        </a>
-        <button id="themeToggleBtn" class="bw-btn bw-btn-icon" type="button" aria-label="Switch Noir/Paper theme" title="Toggle Black / White Theme">
-          <span id="themeIcon">◐</span>
-        </button>
+      <nav class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#themes">Themes</a>
+        <a href="https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="./library.html" class="btn">🌐 Online Library</a>
+        <a href="./App/Bangladesh-eBook-Library.apk" class="btn btn-primary">⬇ Get APK</a>
       </div>
-    </nav>
+    </div>
   </header>
 
-  <div class="app-shell">
-    <div id="sidebarBackdrop" class="backdrop hidden" aria-hidden="true"></div>
-
-    <aside id="folderSidebar" class="sidebar" aria-label="Google Drive Folder Tree">
-      <div class="sidebar-head">
-        <span class="eyebrow">DRIVE ARCHITECTURE</span>
-        <button id="closeSidebarBtn" class="bw-btn bw-btn-icon mobile-only" type="button" aria-label="Close sidebar">✕</button>
-      </div>
-
-      <div class="sidebar-tools">
-        <button id="allBooksBtn" class="tree-all-btn active" type="button">
-          <span>All Resources</span>
-          <span id="allBooksCount" class="mono-chip">—</span>
-        </button>
-        <input id="folderSearchInput" class="bw-input folder-search" type="search" placeholder="Filter folders…" aria-label="Filter folder tree" />
-      </div>
-
-      <nav id="folderTree" class="folder-tree" aria-label="Drive Categories & Subcategories"></nav>
-
-      <div class="sidebar-footer-card">
-        <div class="eyebrow">MANAGEMENT &amp; INDEXES</div>
-        <div class="sidebar-links">
-          <a href="https://drive.google.com/drive/folders/1QZtIEr8QjA8OSg0WsITp5kgeFOK4HiCj" target="_blank" rel="noopener noreferrer">Cover Images Archive ↗</a>
-          <a href="https://drive.google.com/file/d/1PBHQfSIQvGCYinQkk6XvtjuGgixbHWbM/view" target="_blank" rel="noopener noreferrer">Master Navigator (.xlsx) ↗</a>
-          <a href="https://drive.google.com/file/d/1B-Or8excxaX7QO-TYNHjZkYRpWC6ajyY/view" target="_blank" rel="noopener noreferrer">Qawmi Catalog (.xlsx) ↗</a>
-        </div>
-      </div>
-    </aside>
-
-    <main class="main-stage">
-      <!-- Monochrome Library Intelligence Dashboard -->
-      <section id="analyticsDashboard" class="dashboard" aria-label="Library Analytics Dashboard">
-        <div class="section-head">
-          <div>
-            <span class="eyebrow">LIBRARY INTELLIGENCE DASHBOARD</span>
-            <h2 class="section-title">What's Inside the Archive</h2>
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="badge">📱 ANDROID OFFLINE READER · v1.0.0 APK</div>
+          <h1>22,166+ Bangla &amp; Academic Books. <span>In Your Pocket.</span></h1>
+          <p class="lead">
+            An offline-first mobile library built for Bangladeshi readers and students — Class 1–12 NCTB textbooks, university courses, Bangla literature, 1-tap full-section downloads, and distraction-free reading.
+          </p>
+          <div class="cta-row">
+            <a href="./App/Bangladesh-eBook-Library.apk" class="btn btn-cream">⬇ Download Android APK</a>
+            <a href="./library.html" class="btn btn-lg">📖 Open Online Library →</a>
           </div>
-          <span id="dashboardUpdatedAt" class="mono-muted">Loading telemetry…</span>
-        </div>
-
-        <div class="kpi-grid">
-          <div class="kpi-card">
-            <span class="kpi-label">TOTAL VERIFIED BOOKS</span>
-            <strong id="kpiTotalBooks" class="kpi-val">—</strong>
-            <span class="kpi-sub">Deduplicated Drive catalog</span>
-          </div>
-          <div class="kpi-card">
-            <span class="kpi-label">ARCHIVE VOLUME</span>
-            <strong id="kpiTotalSize" class="kpi-val">—</strong>
-            <span class="kpi-sub">Direct preview &amp; download</span>
-          </div>
-          <div class="kpi-card">
-            <span class="kpi-label">COVER COVERAGE</span>
-            <strong id="kpiCoversPct" class="kpi-val">—</strong>
-            <div class="kpi-progress"><div id="kpiCoversBar" class="kpi-progress-fill" style="width:0%"></div></div>
-            <span id="kpiCoversCount" class="kpi-sub">— books with cover art</span>
-          </div>
-          <button id="kpiEduBtn" class="kpi-card kpi-interactive" type="button" title="Click to filter Education &amp; Textbooks">
-            <span class="kpi-label">EDUCATION &amp; TEXTBOOKS ↗</span>
-            <strong id="kpiEduCount" class="kpi-val">—</strong>
-            <span class="kpi-sub">General · Univ · Madrasa · Acad</span>
-          </button>
-          <div class="kpi-card">
-            <span class="kpi-label">NAMED AUTHORS</span>
-            <strong id="kpiAuthors" class="kpi-val">—</strong>
-            <span class="kpi-sub">Bangla, English &amp; Islamic</span>
-          </div>
-          <div class="kpi-card">
-            <span class="kpi-label">TAXONOMY DEPTH</span>
-            <strong id="kpiSubcats" class="kpi-val">—</strong>
-            <span class="kpi-sub">Active Drive subcategories</span>
-          </div>
-        </div>
-
-        <div class="charts-grid">
-          <article class="chart-card">
-            <div class="chart-head">
-              <h3>Root Categories</h3>
-              <span class="mono-muted">Click bar to filter</span>
+          <div class="stats-row">
+            <div>
+              <div class="stat-num">22,166+</div>
+              <div class="stat-lbl">Books &amp; Textbooks</div>
             </div>
-            <div id="chartCategories" class="bar-chart"></div>
-          </article>
-
-          <article class="chart-card">
-            <div class="chart-head">
-              <h3>Education &amp; Textbooks Breakdown</h3>
-              <span class="mono-muted">Click to explore</span>
+            <div>
+              <div class="stat-num" style="color: var(--accent)">316+ GB</div>
+              <div class="stat-lbl">Open Drive Archive</div>
             </div>
-            <div id="chartEducation" class="bar-chart"></div>
-          </article>
-
-          <article class="chart-card">
-            <div class="chart-head">
-              <h3>Format Distribution</h3>
-              <span class="mono-muted">Multi-format index</span>
+            <div>
+              <div class="stat-num" style="color: var(--sage)">100%</div>
+              <div class="stat-lbl">Offline Search &amp; Read</div>
             </div>
-            <div class="donut-layout">
-              <svg id="chartFormatsSvg" class="donut-svg" viewBox="0 0 120 120" aria-label="Formats donut chart"></svg>
-              <div id="chartFormatsLegend" class="donut-legend"></div>
-            </div>
-          </article>
-
-          <article class="chart-card">
-            <div class="chart-head">
-              <h3>Top Languages</h3>
-              <span class="mono-muted">Click bar to filter</span>
-            </div>
-            <div id="chartLanguages" class="bar-chart"></div>
-          </article>
-        </div>
-      </section>
-
-      <!-- Curated Scroll & Discover Rails -->
-      <section id="discoverSection" class="discover-section" aria-label="Scroll and Discover Curated Shelves">
-        <div class="section-head">
-          <div>
-            <span class="eyebrow">SCROLL &amp; DISCOVER</span>
-            <h2 class="section-title">Curated Shelves</h2>
-          </div>
-          <button id="toggleDiscoverBtn" class="bw-btn" type="button">Hide Shelves</button>
-        </div>
-        <div id="discoverRails" class="discover-rails"></div>
-      </section>
-
-      <!-- Sticky Monochrome Search & Filter Bar -->
-      <section class="toolbar" aria-label="Search and Filters">
-        <div class="search-row">
-          <div class="search-wrap">
-            <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-            <input id="searchInput" class="bw-input" type="search" placeholder="Search 22,000+ books by title, author, subject, or series (বাংলা / English / العربية)…  [/]" aria-label="Search books" autocomplete="off" />
-            <button id="clearSearchBtn" class="clear-search hidden" type="button" aria-label="Clear search">✕</button>
           </div>
         </div>
 
-        <div id="quickChips" class="quick-chips" role="group" aria-label="Quick category filters"></div>
-
-        <div class="filter-controls">
-          <select id="formatFilter" class="bw-select" aria-label="Filter by format">
-            <option value="">All Formats</option>
-          </select>
-
-          <select id="languageFilter" class="bw-select" aria-label="Filter by language">
-            <option value="">All Languages</option>
-          </select>
-
-          <select id="sortSelect" class="bw-select" aria-label="Sort books">
-            <option value="covers">Featured (Covers First)</option>
-            <option value="title">Title (A → Z)</option>
-            <option value="size_desc">Largest First</option>
-            <option value="size_asc">Smallest First</option>
-          </select>
-
-          <label class="bw-toggle">
-            <input id="coversOnlyToggle" type="checkbox" />
-            <span>With Cover Art</span>
-          </label>
-
-          <div class="view-switch" role="group" aria-label="Layout toggle">
-            <button id="gridViewBtn" class="view-btn active" type="button" title="Grid View">⊞ Grid</button>
-            <button id="listViewBtn" class="view-btn" type="button" title="List View">☰ List</button>
+        <div class="phone">
+          <div class="phone-top">
+            <span>BANGLA LIBRARY</span>
+            <span class="pill-mini">5 THEMES</span>
           </div>
-
-          <button id="resetFiltersBtn" class="bw-btn hidden" type="button">Reset All</button>
+          <div class="hero-card">
+            <span class="hero-card-eyebrow">CONTINUE READING</span>
+            <span class="hero-card-title">সঞ্চয়িতা · রবীন্দ্রনাথ ঠাকুর</span>
+            <div class="hero-card-foot">
+              <span class="pill-mini" style="background: var(--cream); color: #171412; border: none;">72% · Read Offline</span>
+              <span class="pill-mini" style="background: var(--sage); color: #F7F3EE; border: none;">OFFLINE</span>
+            </div>
+          </div>
+          <div class="chip-row">
+            <span class="chip">Class 1</span>
+            <span class="chip">Class 6</span>
+            <span class="chip active">Class 7</span>
+            <span class="chip">Class 10</span>
+            <span class="chip">HSC</span>
+          </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Active Breadcrumb & Drive Action Bar -->
-      <div class="status-bar">
-        <div id="breadcrumbTrail" class="breadcrumb">All Resources</div>
-        <div class="status-meta">
-          <span id="resultCount" class="mono-muted">Loading catalog…</span>
-          <a id="openDriveFolderBtn" class="bw-btn" href="https://drive.google.com/drive/folders/1fMsplDtUnpUhnNBJGKvYQ1sdZx0QVJWq" target="_blank" rel="noopener noreferrer">
-            Open Drive Folder ↗
-          </a>
+    <section id="features" class="section">
+      <div class="container">
+        <span class="eyebrow">DESIGNED FOR READERS</span>
+        <h2>Built for Effortless Offline Study &amp; Reading</h2>
+        <div class="grid-3">
+          <div class="card">
+            <h3>100% Offline After Sync</h3>
+            <p>Caches the entire 22,166+ book catalog locally, plus single-book or 1-tap full-section downloads for Airplane Mode reading.</p>
+          </div>
+          <div class="card">
+            <h3>Class 1–12 &amp; 3D Category Icons</h3>
+            <p>Instant quick-class pills and 3D icons across Primary, Secondary, HSC, NCTB, University, Madrasa, and Literature collections.</p>
+          </div>
+          <div class="card">
+            <h3>Full-Screen Lock &amp; Side Scrollbar</h3>
+            <p>Slide the rapid right-side scroll rail to jump anywhere, and tap Lock to block accidental taps while reading fullscreen.</p>
+          </div>
+          <div class="card">
+            <h3>5 Themes · Dark &amp; White Modes</h3>
+            <p>Switch cleanly across Espresso, Matcha, Midnight, Sepia, and Rosewood themes with adjustable Small, Normal &amp; Large typography.</p>
+          </div>
+          <div class="card">
+            <h3>131+ Author Portraits</h3>
+            <p>Explore Bangladeshi and international writers with Drive-hosted author portraits and clean editorial avatars.</p>
+          </div>
+          <div class="card">
+            <h3>Suggested For You &amp; Stats</h3>
+            <p>Personalized recommendations on Home paired with reading streaks, completed count, pages logged, and live app storage usage.</p>
+          </div>
         </div>
       </div>
+    </section>
 
-      <!-- Loading Skeletons -->
-      <div id="loadingState" class="books-grid" aria-live="polite">
-        <div class="skeleton-card"></div>
-        <div class="skeleton-card"></div>
-        <div class="skeleton-card"></div>
-        <div class="skeleton-card"></div>
-        <div class="skeleton-card"></div>
-        <div class="skeleton-card"></div>
-        <div class="skeleton-card"></div>
-        <div class="skeleton-card"></div>
+    <section id="themes" class="section themes-band">
+      <div class="container">
+        <span class="eyebrow">MODE &amp; THEMES</span>
+        <h2>Five Curated Book Palettes</h2>
+        <div class="grid-5">
+          <div class="theme-card">
+            <div class="swatches"><span class="dot" style="background:#11100F"></span><span class="dot" style="background:#2D2826"></span><span class="dot" style="background:#C6927A"></span></div>
+            <strong>Espresso</strong><p style="font-size:12px;color:var(--muted)">Obsidian &amp; Terracotta</p>
+          </div>
+          <div class="theme-card">
+            <div class="swatches"><span class="dot" style="background:#0F1613"></span><span class="dot" style="background:#1E2B24"></span><span class="dot" style="background:#8DB596"></span></div>
+            <strong>Matcha</strong><p style="font-size:12px;color:var(--muted)">Japanese Book Café</p>
+          </div>
+          <div class="theme-card">
+            <div class="swatches"><span class="dot" style="background:#0C101C"></span><span class="dot" style="background:#1B2236"></span><span class="dot" style="background:#D8B26E"></span></div>
+            <strong>Midnight</strong><p style="font-size:12px;color:var(--muted)">Indigo &amp; Soft Gold</p>
+          </div>
+          <div class="theme-card">
+            <div class="swatches"><span class="dot" style="background:#17120E"></span><span class="dot" style="background:#2C2119"></span><span class="dot" style="background:#D49B54"></span></div>
+            <strong>Sepia</strong><p style="font-size:12px;color:var(--muted)">Leather &amp; Parchment</p>
+          </div>
+          <div class="theme-card">
+            <div class="swatches"><span class="dot" style="background:#161014"></span><span class="dot" style="background:#2A1F26"></span><span class="dot" style="background:#D48E9B"></span></div>
+            <strong>Rosewood</strong><p style="font-size:12px;color:var(--muted)">Plum &amp; Dusty Rose</p>
+          </div>
+        </div>
       </div>
+    </section>
+  </main>
 
-      <!-- Scroll & Discover Infinite Feed -->
-      <div id="booksGrid" class="books-grid hidden"></div>
-
-      <!-- Empty State -->
-      <div id="emptyState" class="empty-state hidden">
-        <div class="empty-glyph">∅</div>
-        <h3>No Matching Resources</h3>
-        <p>Try a broader term, clear format/language filters, or browse another Drive folder.</p>
-        <button id="emptyResetBtn" class="bw-btn bw-btn-solid" type="button">Reset All Filters</button>
-      </div>
-
-      <!-- Infinite Scroll Sentinel & Load More Fallback -->
-      <div id="scrollFooter" class="scroll-footer hidden">
-        <span id="scrollProgressText" class="mono-muted"></span>
-        <button id="loadMoreBtn" class="bw-btn" type="button">Load 36 More Books</button>
-      </div>
-      <div id="scrollSentinel" style="height: 2px;"></div>
-    </main>
-  </div>
-
-  <button id="backToTopBtn" class="back-to-top hidden" type="button" aria-label="Scroll to top">↑ Top</button>
-
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <div>
-        <strong>Bangladesh's Biggest eBook Library</strong> · Curated by <strong>Salman Anik (সালমান অনীক)</strong>
-        <div class="mono-muted">Non-commercial educational, academic &amp; research digital archive · Qawmi Madrasa taxonomy preserved intact.</div>
-      </div>
-      <div class="footer-links">
-        <a href="mailto:salmananik.bd@gmail.com">salmananik.bd@gmail.com</a>
+  <footer>
+    <div class="container foot-flex">
+      <span>Built by <a href="https://salmananik.vercel.app/" target="_blank" rel="noopener noreferrer" style="color:var(--ink);font-weight:700">Salman Anik</a> · East West University, Dhaka</span>
+      <div style="display:flex;gap:16px">
+        <a href="./library.html">Online Library</a>
+        <a href="./App/Bangladesh-eBook-Library.apk" style="color:var(--accent);font-weight:700">Download APK</a>
         <a href="https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a href="https://drive.google.com/drive/folders/1fMsplDtUnpUhnNBJGKvYQ1sdZx0QVJWq" target="_blank" rel="noopener noreferrer">Google Drive</a>
-        <a href="https://docs.google.com/document/d/1dEMPkGWXWvx3vSHu708KTfpKwS7IG0Ar_ffKtA4-QDM/edit" target="_blank" rel="noopener noreferrer">START HERE Guide</a>
       </div>
     </div>
   </footer>
-
-  <!-- In-Page Reader & Details Modal -->
-  <div id="readerModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
-    <div id="modalBackdrop" class="modal-backdrop"></div>
-    <div class="modal-dialog">
-      <div class="modal-header">
-        <div class="modal-title-group">
-          <h2 id="modalTitle">Book Title</h2>
-          <div id="modalMeta" class="mono-muted"></div>
-        </div>
-        <div class="modal-actions">
-          <button id="modalSaveBtn" class="bw-btn" type="button">♡ Save</button>
-          <a id="modalDownloadBtn" class="bw-btn bw-btn-solid" href="#" target="_blank" rel="noopener noreferrer">⬇ Download</a>
-          <a id="modalDriveBtn" class="bw-btn" href="#" target="_blank" rel="noopener noreferrer">Drive ↗</a>
-          <button id="modalCopyBtn" class="bw-btn" type="button">Copy Link</button>
-          <button id="modalCloseBtn" class="bw-btn bw-btn-icon" type="button" aria-label="Close reader">✕</button>
-        </div>
-      </div>
-      <div class="modal-body">
-        <div id="readerSpinner" class="reader-spinner">
-          <div class="bw-spinner"></div>
-          <p class="mono-muted">Loading Google Drive preview…</p>
-        </div>
-        <iframe id="readerIframe" title="Book Preview Reader" allow="autoplay" sandbox="allow-scripts allow-same-origin allow-popups allow-forms"></iframe>
-      </div>
-      <div class="modal-footer-note mono-muted">
-        If preview is unavailable for large EPUB/MOBI or image files, click <strong>Download</strong> or <strong>Drive ↗</strong> above.
-      </div>
-    </div>
-  </div>
-
-  <!-- Saved / Liked Books Drawer -->
-  <aside id="savedDrawer" class="drawer hidden" aria-label="Saved Reading List">
-    <div class="drawer-header">
-      <h2>Saved Books (<span id="drawerSavedCount">0</span>)</h2>
-      <div class="drawer-head-actions">
-        <button id="clearSavedBtn" class="bw-btn" type="button">Clear</button>
-        <button id="closeSavedBtn" class="bw-btn bw-btn-icon" type="button" aria-label="Close Saved Books">✕</button>
-      </div>
-    </div>
-    <div id="savedList" class="saved-list"></div>
-  </aside>
-
-  <div id="toastContainer" class="toast-container" aria-live="polite"></div>
-
-  <script src="app.js" defer></script>
 </body>
 </html>
