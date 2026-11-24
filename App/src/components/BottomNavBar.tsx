@@ -19,13 +19,13 @@ interface TabIconProps {
 function HomeIcon({ color, active }: TabIconProps) {
   return (
     <Svg
-      width={22}
-      height={22}
+      width={active ? 20 : 19}
+      height={active ? 20 : 19}
       viewBox="0 0 24 24"
       fill={active ? color : 'none'}
-      fillOpacity={active ? 0.22 : 0}
+      fillOpacity={active ? 0.2 : 0}
       stroke={color}
-      strokeWidth={active ? 2.5 : 2.15}
+      strokeWidth={active ? 2.35 : 1.95}
       strokeLinecap="round"
       strokeLinejoin="round"
     >
@@ -37,13 +37,13 @@ function HomeIcon({ color, active }: TabIconProps) {
 function LibraryNavIcon({ color, active }: TabIconProps) {
   return (
     <Svg
-      width={22}
-      height={22}
+      width={active ? 20 : 19}
+      height={active ? 20 : 19}
       viewBox="0 0 24 24"
       fill={active ? color : 'none'}
-      fillOpacity={active ? 0.28 : 0}
+      fillOpacity={active ? 0.24 : 0}
       stroke={color}
-      strokeWidth={active ? 2.5 : 2.15}
+      strokeWidth={active ? 2.35 : 1.95}
       strokeLinecap="round"
       strokeLinejoin="round"
     >
@@ -55,13 +55,13 @@ function LibraryNavIcon({ color, active }: TabIconProps) {
 function ExploreGridIcon({ color, active }: TabIconProps) {
   return (
     <Svg
-      width={22}
-      height={22}
+      width={active ? 20 : 19}
+      height={active ? 20 : 19}
       viewBox="0 0 24 24"
       fill={active ? color : 'none'}
-      fillOpacity={active ? 0.24 : 0}
+      fillOpacity={active ? 0.22 : 0}
       stroke={color}
-      strokeWidth={active ? 2.5 : 2.15}
+      strokeWidth={active ? 2.35 : 1.95}
       strokeLinecap="round"
       strokeLinejoin="round"
     >
@@ -76,13 +76,13 @@ function ExploreGridIcon({ color, active }: TabIconProps) {
 function SearchNavIcon({ color, active }: TabIconProps) {
   return (
     <Svg
-      width={22}
-      height={22}
+      width={active ? 20 : 19}
+      height={active ? 20 : 19}
       viewBox="0 0 24 24"
       fill={active ? color : 'none'}
-      fillOpacity={active ? 0.18 : 0}
+      fillOpacity={active ? 0.16 : 0}
       stroke={color}
-      strokeWidth={active ? 2.65 : 2.2}
+      strokeWidth={active ? 2.45 : 2.0}
       strokeLinecap="round"
       strokeLinejoin="round"
     >
@@ -95,13 +95,13 @@ function SearchNavIcon({ color, active }: TabIconProps) {
 function SettingsNavIcon({ color, active }: TabIconProps) {
   return (
     <Svg
-      width={22}
-      height={22}
+      width={active ? 20 : 19}
+      height={active ? 20 : 19}
       viewBox="0 0 24 24"
       fill={active ? color : 'none'}
-      fillOpacity={active ? 0.2 : 0}
+      fillOpacity={active ? 0.18 : 0}
       stroke={color}
-      strokeWidth={active ? 2.45 : 2.1}
+      strokeWidth={active ? 2.3 : 1.95}
       strokeLinecap="round"
       strokeLinejoin="round"
     >
@@ -142,33 +142,26 @@ export function BottomNavBar({ activeTab, onSelectTab, bottomInset = 10 }: Props
       >
         {TABS.map(({ key, label, Icon }) => {
           const active = activeTab === key;
-          const iconColor = active ? theme.creamInk : theme.muted;
+          const tint = active ? theme.creamInk : theme.muted;
 
           return (
             <TouchableOpacity
               key={key}
-              style={styles.tabBtn}
+              style={[
+                styles.tabPill,
+                active && [styles.tabPillActive, { backgroundColor: theme.accent }],
+              ]}
               onPress={() => onSelectTab(key)}
-              activeOpacity={0.78}
+              activeOpacity={0.82}
               accessibilityRole="tab"
               accessibilityState={{ selected: active }}
               accessibilityLabel={label}
             >
-              <View
-                style={[
-                  styles.indicatorCapsule,
-                  active && [
-                    styles.indicatorCapsuleActive,
-                    { backgroundColor: theme.accent, borderColor: theme.cream },
-                  ],
-                ]}
-              >
-                <Icon color={iconColor} active={active} />
-              </View>
+              <Icon color={tint} active={active} />
               <Text
                 style={[
                   styles.tabLabel,
-                  { color: active ? theme.ink : theme.muted },
+                  { color: tint },
                   active && styles.tabLabelActive,
                 ]}
                 numberOfLines={1}
@@ -186,53 +179,47 @@ export function BottomNavBar({ activeTab, onSelectTab, bottomInset = 10 }: Props
 const styles = StyleSheet.create({
   outerWrap: {
     position: 'absolute',
-    left: 10,
-    right: 10,
+    left: 12,
+    right: 12,
     bottom: 0,
     alignItems: 'center',
   },
   dockBar: {
     width: '100%',
-    height: 74,
-    borderRadius: 26,
-    borderWidth: 2,
+    height: 66,
+    borderRadius: 33,
+    borderWidth: 1.5,
+    padding: 5,
     flexDirection: 'row',
     alignItems: 'center',
-    paddingHorizontal: 6,
+    gap: 2,
     shadowColor: '#000',
-    shadowOffset: { width: 0, height: 10 },
-    shadowOpacity: 0.38,
-    shadowRadius: 22,
-    elevation: 18,
+    shadowOffset: { width: 0, height: 8 },
+    shadowOpacity: 0.32,
+    shadowRadius: 18,
+    elevation: 14,
   },
-  tabBtn: {
+  tabPill: {
     flex: 1,
+    height: '100%',
+    borderRadius: 28,
     alignItems: 'center',
     justifyContent: 'center',
-    paddingVertical: 5,
-    gap: 4,
+    gap: 2,
   },
-  indicatorCapsule: {
-    width: 54,
-    height: 34,
-    borderRadius: 17,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  indicatorCapsuleActive: {
+  tabPillActive: {
     shadowColor: '#000',
-    shadowOffset: { width: 0, height: 3 },
-    shadowOpacity: 0.28,
-    shadowRadius: 6,
-    elevation: 5,
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.24,
+    shadowRadius: 5,
+    elevation: 4,
   },
   tabLabel: {
-    fontSize: 11,
+    fontSize: 10.5,
     fontWeight: '700',
-    letterSpacing: 0.2,
+    letterSpacing: 0.15,
   },
   tabLabelActive: {
-    fontSize: 11.5,
     fontWeight: '800',
   },
 });
