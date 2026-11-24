@@ -1,0 +1,104 @@
+name: "Intelligent Book Renamer — Full Library Batch (Stage A-C)"
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "dry_run = Stage A-C Report only | apply_verified = Stage D-E Rename + Website/App Sync"
+        required: true
+        default: "dry_run"
+        type: choice
+        options:
+          - dry_run
+          - apply_verified
+      include_qawmi:
+        description: "Include Qawmi Madrasa subfolders in inspection"
+        required: false
+        default: true
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: intelligent-book-renamer-batch
+  cancel-in-progress: false
+
+jobs:
+  batch-inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        folder:
+          - "English Books"
+          - "Reference & Research"
+          - "Series & Collections"
+          - "Authors & Scholars"
+          - "Education & Textbooks"
+          - "Religion Books"
+          - "Bangla Books"
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Tesseract OCR (Bengali, English, Arabic) & Python libraries
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-ben tesseract-ocr-eng tesseract-ocr-ara
+          pip install --quiet pymupdf pillow
+
+      - name: Run Intelligent Book Renamer (${{ inputs.mode }} — ${{ matrix.folder }})
+        env:
+          GDRIVE_OAUTH_JSON: ${{ secrets.GDRIVE_OAUTH_JSON }}
+          OMP_THREAD_LIMIT: "1"
+        run: |
+          EXTRA_FLAGS=""
+          if [ "${{ inputs.include_qawmi }}" = "true" ]; then
+            EXTRA_FLAGS="--include-qawmi"
+          fi
+          python -u scripts/intelligent_book_renamer.py \
+            --target-folder "${{ matrix.folder }}" \
+            --mode "${{ inputs.mode }}" \
+            --max-files 0 \
+            --workers 4 \
+            --repo-dir . \
+            $EXTRA_FLAGS
+
+      - name: Upload Stage C / E reports as workflow artifacts
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: book-renamer-reports-${{ inputs.mode }}-${{ strategy.job-index }}
+          path: reports/renamer/
+          retention-days: 30
+
+      - name: Commit reports and synced website/app catalog (books.json)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add reports/renamer/ books.json visualize/public/books.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore(library): ${{ inputs.mode }} report & catalog sync for ${{ matrix.folder }}"
+            for attempt in 1 2 3 4 5; do
+              if git pull --rebase origin main && git push; then
+                break
+              fi
+              echo "Push attempt $attempt failed; retrying in 5s..."
+              sleep 5
+              if [ "$attempt" -eq 5 ]; then
+                echo "Failed to push after 5 attempts"
+                exit 1
+              fi
+            done
+          fi
