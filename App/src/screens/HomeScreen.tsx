@@ -16,6 +16,7 @@ import { useAppTheme } from '../context/ThemeContext';
 import { formatBytes } from '../services/libraryStore';
 import { QUOTES } from '../theme';
 import type { Book, BookProgress, OfflineBookEntry, ReadingStreak } from '../types';
+import { useHorizontalScrollLock } from '../utils/horizontalScrollLock';
 
 interface Props {
   books: Book[];
@@ -54,21 +55,7 @@ export const HomeScreen = React.memo(function HomeScreen({
 }: Props) {
   const { theme, fs } = useAppTheme();
   const [quoteIdx, setQuoteIdx] = useState(0);
-  const hLockProps = useMemo(
-    () =>
-      onHorizontalTouchLock
-        ? {
-            nestedScrollEnabled: true,
-            onTouchStart: () => onHorizontalTouchLock(true),
-            onTouchEnd: () => onHorizontalTouchLock(false),
-            onTouchCancel: () => onHorizontalTouchLock(false),
-            onScrollBeginDrag: () => onHorizontalTouchLock(true),
-            onScrollEndDrag: () => onHorizontalTouchLock(false),
-            onMomentumScrollEnd: () => onHorizontalTouchLock(false),
-          }
-        : { nestedScrollEnabled: true },
-    [onHorizontalTouchLock]
-  );
+  const hLockProps = useHorizontalScrollLock(onHorizontalTouchLock);
 
   const dateLabel = useMemo(() => {
     try {

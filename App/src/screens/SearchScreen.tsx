@@ -26,6 +26,7 @@ import {
 import { useAppTheme } from '../context/ThemeContext';
 import { formatBytes } from '../services/libraryStore';
 import type { Book, OfflineBookEntry } from '../types';
+import { useHorizontalScrollLock } from '../utils/horizontalScrollLock';
 
 type SearchScope = 'all' | 'books' | 'authors' | 'categories';
 
@@ -89,21 +90,7 @@ export const SearchScreen = React.memo(function SearchScreen({
   onHorizontalTouchLock,
 }: Props) {
   const { theme, fs } = useAppTheme();
-  const hLockProps = useMemo(
-    () =>
-      onHorizontalTouchLock
-        ? {
-            nestedScrollEnabled: true,
-            onTouchStart: () => onHorizontalTouchLock(true),
-            onTouchEnd: () => onHorizontalTouchLock(false),
-            onTouchCancel: () => onHorizontalTouchLock(false),
-            onScrollBeginDrag: () => onHorizontalTouchLock(true),
-            onScrollEndDrag: () => onHorizontalTouchLock(false),
-            onMomentumScrollEnd: () => onHorizontalTouchLock(false),
-          }
-        : { nestedScrollEnabled: true },
-    [onHorizontalTouchLock]
-  );
+  const hLockProps = useHorizontalScrollLock(onHorizontalTouchLock);
   const [query, setQuery] = useState('');
   const [scope, setScope] = useState<SearchScope>('all');
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('list');

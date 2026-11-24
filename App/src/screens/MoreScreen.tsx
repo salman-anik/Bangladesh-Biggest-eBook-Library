@@ -40,6 +40,7 @@ import type {
 } from '../types';
 import { DeveloperScreen } from './DeveloperScreen';
 import { StatsScreen } from './StatsScreen';
+import { useHorizontalScrollLock } from '../utils/horizontalScrollLock';
 
 interface Props {
   books: Book[];
@@ -56,6 +57,7 @@ interface Props {
   onCheckUpdate: () => void;
   onSelectCategory: (cat: string) => void;
   onOpenBookDetail: (book: Book) => void;
+  onHorizontalTouchLock?: (locked: boolean) => void;
 }
 
 const FONT_OPTIONS: { key: FontScaleKey; label: string }[] = [
@@ -81,9 +83,11 @@ export const MoreScreen = React.memo(function MoreScreen({
   onCheckUpdate,
   onSelectCategory,
   onOpenBookDetail,
+  onHorizontalTouchLock,
 }: Props) {
   const { theme, mode, preset, fontScale, fs, setThemeMode, setThemePreset, setFontScale } =
     useAppTheme();
+  const hLockProps = useHorizontalScrollLock(onHorizontalTouchLock);
   const [devModalOpen, setDevModalOpen] = useState(false);
   const [statsModalOpen, setStatsModalOpen] = useState(false);
   const [storage, setStorage] = useState<AppStorageUsage>({
@@ -184,7 +188,7 @@ export const MoreScreen = React.memo(function MoreScreen({
           {/* Theme (5 Pinterest Book App Palettes) */}
           <View style={styles.settingBlock}>
             <Text style={[styles.settingLabel, { color: theme.muted, fontSize: fs(11) }]}>Theme</Text>
-            <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.themeScroll}>
+            <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.themeScroll} {...hLockProps}>
               {PRESET_KEYS.map((key) => {
                 const p = THEME_PRESETS[key];
                 const active = preset === key;

@@ -25,6 +25,7 @@ import {
 } from '../components/Icons';
 import { useAppTheme } from '../context/ThemeContext';
 import type { BatchDownloadStatus, Book, OfflineBookEntry, ThemeMode } from '../types';
+import { useHorizontalScrollLock } from '../utils/horizontalScrollLock';
 
 const SECTION_PAGE_SIZE = 24;
 
@@ -60,6 +61,7 @@ interface Props {
   onDownloadFolderOffline: (folderName: string, folderBooks: Book[]) => void;
   onCancelBatchDownload: () => void;
   onBrowseFiltered: (cat: string, sub: string) => void;
+  onHorizontalTouchLock?: (locked: boolean) => void;
 }
 
 interface TreeNode {
@@ -191,8 +193,10 @@ export const ExploreScreen = React.memo(function ExploreScreen({
   onDownloadFolderOffline,
   onCancelBatchDownload,
   onBrowseFiltered,
+  onHorizontalTouchLock,
 }: Props) {
   const { theme, mode, fs } = useAppTheme();
+  const hLockProps = useHorizontalScrollLock(onHorizontalTouchLock);
   const [filterText, setFilterText] = useState('');
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
   const [visibleSectionCount, setVisibleSectionCount] = useState(SECTION_PAGE_SIZE);
@@ -575,7 +579,7 @@ export const ExploreScreen = React.memo(function ExploreScreen({
       {/* Minimal Breadcrumbs when >= 2 levels deep */}
       {path.length >= 2 ? (
         <View style={styles.crumbOuter}>
-          <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.crumbScroll}>
+          <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.crumbScroll} {...hLockProps}>
             <TouchableOpacity
               style={[styles.crumbChip, { backgroundColor: theme.surfaceAlt, borderColor: theme.border }]}
               onPress={() => updatePath([])}

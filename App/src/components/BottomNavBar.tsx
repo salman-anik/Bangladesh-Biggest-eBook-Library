@@ -33,8 +33,8 @@ interface TabIconProps {
 
 const CIRCLE_SIZE = 52;
 const TOP_OVERHANG = 15;
-const BAR_BASE_HEIGHT = 54;
-const NOTCH_DEPTH = 36;
+const BAR_BASE_HEIGHT = 58;
+const NOTCH_DEPTH = 50;
 
 const ORB_GRADIENTS: Record<ThemePresetKey, [string, string]> = {
   espresso: ['#E0A084', '#7E4431'],
@@ -193,7 +193,7 @@ function buildDockedNotchPath(width: number, totalHeight: number, cx: number): s
   const w = Math.max(width, 240);
   const h = totalHeight;
   const tabW = w / TABS.length;
-  const halfW = Math.min(39, tabW * 0.49);
+  const halfW = Math.min(48, tabW * 0.62);
   const d = NOTCH_DEPTH;
 
   const leftS = Math.max(0, cx - halfW);
@@ -204,8 +204,8 @@ function buildDockedNotchPath(width: number, totalHeight: number, cx: number): s
   return [
     'M 0 0',
     leftS > 0.5 ? `L ${leftS.toFixed(2)} 0` : '',
-    `C ${(leftS + lSpan * 0.44).toFixed(2)} 0 ${(cx - lSpan * 0.62).toFixed(2)} ${d} ${cx.toFixed(2)} ${d}`,
-    `C ${(cx + rSpan * 0.62).toFixed(2)} ${d} ${(rightS - rSpan * 0.44).toFixed(2)} 0 ${rightS.toFixed(2)} 0`,
+    `C ${(leftS + lSpan * 0.42).toFixed(2)} 0 ${(cx - lSpan * 0.56).toFixed(2)} ${d} ${cx.toFixed(2)} ${d}`,
+    `C ${(cx + rSpan * 0.56).toFixed(2)} ${d} ${(rightS - rSpan * 0.42).toFixed(2)} 0 ${rightS.toFixed(2)} 0`,
     rightS < w - 0.5 ? `L ${w.toFixed(2)} 0` : '',
     `L ${w} ${h}`,
     `L 0 ${h}`,

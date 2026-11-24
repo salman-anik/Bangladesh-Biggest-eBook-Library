@@ -64,6 +64,10 @@ function MainApp() {
   const [activeTab, setActiveTab] = useState<TabKey>('home');
   const [visitedTabs, setVisitedTabs] = useState<TabKey[]>(['home', 'library']);
   const [pagerLocked, setPagerLocked] = useState(false);
+  const handleHorizontalTouchLock = useCallback((locked: boolean) => {
+    pagerRef.current?.setNativeProps({ scrollEnabled: !locked });
+    setPagerLocked(locked);
+  }, []);
   const [books, setBooks] = useState<Book[]>([]);
   const [catalogMeta, setCatalogMeta] = useState<CatalogMeta>({
     source: 'starter',
@@ -671,7 +675,7 @@ function MainApp() {
               onExplorePath={handleExplorePath}
               onBrowseLibrary={handleBrowseLibrary}
               onRemoveFromReading={handleRemoveFromReading}
-              onHorizontalTouchLock={setPagerLocked}
+              onHorizontalTouchLock={handleHorizontalTouchLock}
             />
           </View>
 
@@ -716,6 +720,7 @@ function MainApp() {
                 onDownloadFolderOffline={handleDownloadFolderOffline}
                 onCancelBatchDownload={handleCancelBatchDownload}
                 onBrowseFiltered={handleBrowseFiltered}
+                onHorizontalTouchLock={handleHorizontalTouchLock}
               />
             ) : null}
           </View>
@@ -733,7 +738,7 @@ function MainApp() {
                 onMakeOffline={handleMakeOffline}
                 onToggleSave={handleToggleSave}
                 onSelectPath={handleExplorePath}
-                onHorizontalTouchLock={setPagerLocked}
+                onHorizontalTouchLock={handleHorizontalTouchLock}
               />
             ) : null}
           </View>
@@ -755,6 +760,7 @@ function MainApp() {
                 onCheckUpdate={handleCheckUpdateManual}
                 onSelectCategory={handleSelectCategory}
                 onOpenBookDetail={handleOpenDetail}
+                onHorizontalTouchLock={handleHorizontalTouchLock}
               />
             ) : null}
           </View>
