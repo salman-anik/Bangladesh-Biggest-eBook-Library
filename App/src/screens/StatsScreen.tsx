@@ -13,6 +13,7 @@ interface Props {
   savedIds: string[];
   offlineById: Record<string, OfflineBookEntry>;
   streak: ReadingStreak;
+  hideHeader?: boolean;
   onSelectCategory: (cat: string) => void;
   onOpenBookDetail: (book: Book) => void;
 }
@@ -25,6 +26,7 @@ export function StatsScreen({
   savedIds,
   offlineById,
   streak,
+  hideHeader = false,
   onSelectCategory,
   onOpenBookDetail,
 }: Props) {
@@ -98,7 +100,9 @@ export function StatsScreen({
       showsVerticalScrollIndicator={false}
     >
       {/* Single Clean Header (No second subtitle) */}
-      <Text style={[styles.heading, { color: theme.ink, fontSize: fs(24) }]}>STATS</Text>
+      {!hideHeader ? (
+        <Text style={[styles.heading, { color: theme.ink, fontSize: fs(24) }]}>STATS</Text>
+      ) : null}
 
       {/* Reading Streak & Weekly Activity Card */}
       <View style={[styles.streakCard, { backgroundColor: theme.surface, borderColor: theme.border }]}>

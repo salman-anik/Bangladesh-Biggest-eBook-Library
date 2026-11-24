@@ -138,11 +138,6 @@ export function LibraryScreen({
     });
   }, [offlineById, booksById]);
 
-  const totalOfflineBytes = useMemo(
-    () => offlineItems.reduce((sum, item) => sum + (item.entry.size || 0), 0),
-    [offlineItems]
-  );
-
   const isSearchMode = Boolean(query.trim() || subFilter || catFilter);
 
   const searchResults = useMemo(() => {
@@ -667,31 +662,9 @@ export function LibraryScreen({
             )
           ) : null}
 
-          {/* Offline Tab — Storage Meter + Downloaded Books */}
+          {/* Offline Tab — Downloaded Books */}
           {shelfTab === 'offline' ? (
             <View style={styles.sectionBlock}>
-              <View style={[styles.storageBanner, { backgroundColor: theme.surfaceAlt, borderColor: theme.border }]}>
-                <View style={styles.storageTop}>
-                  <Text style={[styles.storageTitle, { color: theme.ink, fontSize: fs(12.5) }]}>
-                    Device Storage
-                  </Text>
-                  <Text style={[styles.storageMeta, { color: theme.accent, fontSize: fs(12) }]}>
-                    {offlineItems.length} books downloaded · {formatBytes(totalOfflineBytes)} used on device
-                  </Text>
-                </View>
-                <View style={[styles.progTrack, { backgroundColor: theme.surface }]}>
-                  <View
-                    style={[
-                      styles.progFill,
-                      {
-                        width: `${offlineItems.length > 0 ? Math.min(100, Math.max(8, offlineItems.length * 6)) : 0}%`,
-                        backgroundColor: theme.sage,
-                      },
-                    ]}
-                  />
-                </View>
-              </View>
-
               {offlineItems.length > 0 ? (
                 offlineItems.map(({ book, entry }) => (
                   <TouchableOpacity
@@ -1016,15 +989,6 @@ const styles = StyleSheet.create({
     paddingVertical: 4,
   },
   savedRemoveText: { fontWeight: '600' },
-  storageBanner: {
-    borderRadius: 16,
-    borderWidth: 1,
-    padding: 12,
-    gap: 8,
-  },
-  storageTop: { gap: 3 },
-  storageTitle: { fontWeight: '800' },
-  storageMeta: { fontWeight: '600' },
   offlineBtnsRow: {
     flexDirection: 'row',
     alignItems: 'center',

@@ -76,5 +76,18 @@
     "new_name": "Sustho Deho Proshanto Mon - Quantum Foundation.pdf",
     "category": "Unclassified / General",
     "drive_url": "https://drive.google.com/file/d/1fgMIcGpfCAoeZVgXPpy2oD1nWZtWdmv8/view"
+  },
+  {
+    "batch_id": "batch_20261124_020417",
+    "timestamp": "2026-11-24T02:04:17+00:00",
+    "action": "create_folder",
+    "id": "1dPpdEiVDudsKdE6VS2u0kdkZxveFSjxJ",
+    "folder": "Library Management",
+    "old_parent_id": "",
+    "new_parent_id": "1GkKPJ4-Xt8dx954uMhfVZkvYpivU7ukv",
+    "old_name": "",
+    "new_name": "Author Details",
+    "category": "Library Management",
+    "drive_url": "https://drive.google.com/drive/folders/1dPpdEiVDudsKdE6VS2u0kdkZxveFSjxJ"
   }
 ]

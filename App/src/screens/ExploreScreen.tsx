@@ -11,6 +11,7 @@ import {
 } from 'react-native';
 
 import { AuthorAvatar } from '../components/AuthorAvatar';
+import { AuthorDetailModal } from '../components/AuthorDetailModal';
 import { BookCover } from '../components/BookCover';
 import { CategoryIcon } from '../components/CategoryIcon';
 import {
@@ -26,6 +27,24 @@ import { useAppTheme } from '../context/ThemeContext';
 import type { BatchDownloadStatus, Book, OfflineBookEntry, ThemeMode } from '../types';
 
 const SECTION_PAGE_SIZE = 24;
+
+interface AuthorDetailRecord {
+  name?: string;
+  group?: string;
+  shortDesc?: string;
+  bio?: string;
+  wikiUrl?: string;
+}
+
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const AUTHOR_DETAILS: Record<string, AuthorDetailRecord> = require('../../assets/author_details.json');
+
+function lookupAuthorDetail(name: string): AuthorDetailRecord | undefined {
+  const raw = (name || '').trim().toLowerCase();
+  if (!raw) return undefined;
+  if (AUTHOR_DETAILS[raw]) return AUTHOR_DETAILS[raw];
+  return AUTHOR_DETAILS[raw.normalize('NFC')];
+}
 
 interface Props {
   books: Book[];
@@ -177,11 +196,16 @@ export function ExploreScreen({
   const [filterText, setFilterText] = useState('');
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
   const [visibleSectionCount, setVisibleSectionCount] = useState(SECTION_PAGE_SIZE);
+  const [authorModalOpen, setAuthorModalOpen] = useState(false);
 
   const pathKey = path.join('/');
   useEffect(() => {
     setVisibleSectionCount(SECTION_PAGE_SIZE);
   }, [pathKey, filterText]);
+
+  useEffect(() => {
+    setAuthorModalOpen(false);
+  }, [pathKey]);
 
   const updatePath = (next: string[]) => {
     setFilterText('');
@@ -229,8 +253,13 @@ export function ExploreScreen({
       }
       let curr = catNode;
       if (book.sub) {
-        const parts = book.sub.split('/').filter(Boolean);
-        let acc = '';
+        const rawParts = book.sub.split('/').filter(Boolean);
+        const promoteOtherReligion =
+          book.cat === 'Religion Books' &&
+          rawParts[0] === 'Other Religions' &&
+          rawParts.length >= 2;
+        const parts = promoteOtherReligion ? rawParts.slice(1) : rawParts;
+        let acc = promoteOtherReligion ? 'Other Religions' : '';
         for (const p of parts) {
           acc = acc ? `${acc}/${p}` : p;
           let child = curr.children.get(p);
@@ -313,8 +342,6 @@ export function ExploreScreen({
     [childSections, visibleSectionCount]
   );
 
-  const hasMoreSections = childSections.length > visibleSectionCount;
-
   const loadMoreSections = useCallback(() => {
     setVisibleSectionCount((n) => (n < childSections.length ? Math.min(childSections.length, n + SECTION_PAGE_SIZE) : n));
   }, [childSections.length]);
@@ -395,6 +422,47 @@ export function ExploreScreen({
     [offlineById, isAuthorsLeafGrid, theme, fs, path, mode]
   );
 
+  const isViewingAuthor = Boolean(
+    path[0] === 'Authors & Scholars' &&
+      ((path[1] !== 'Islamic Scholars' && path.length === 3) ||
+        (path[1] === 'Islamic Scholars' && path.length === 4))
+  );
+
+  const authorDetail = useMemo(
+    () => (isViewingAuthor ? lookupAuthorDetail(currentNode.name) : undefined),
+    [isViewingAuthor, currentNode.name]
+  );
+
+  const authorProfileBanner = isViewingAuthor ? (
+    <TouchableOpacity
+      style={[styles.authorBannerCard, { backgroundColor: theme.surface, borderColor: theme.border }]}
+      onPress={() => setAuthorModalOpen(true)}
+      activeOpacity={0.86}
+    >
+      <View style={styles.authorBannerTop}>
+        <AuthorAvatar name={currentNode.name} size={52} />
+        <View style={styles.authorBannerInfo}>
+          <Text style={[styles.authorBannerName, { color: theme.ink, fontSize: fs(15.5) }]} numberOfLines={1}>
+            {currentNode.name}
+          </Text>
+          <Text style={[styles.authorBannerSub, { color: theme.accent, fontSize: fs(11.5) }]} numberOfLines={1}>
+            {authorDetail?.shortDesc || path[1] || 'Author'} · {currentNode.totalCount.toLocaleString()} books
+          </Text>
+        </View>
+        <View style={[styles.authorDetailsBtn, { backgroundColor: theme.accentSoft, borderColor: theme.accent }]}>
+          <Text style={[styles.authorDetailsBtnText, { color: theme.accent, fontSize: fs(11) }]}>
+            Author Details
+          </Text>
+        </View>
+      </View>
+      {authorDetail?.bio ? (
+        <Text style={[styles.authorBannerBio, { color: theme.muted, fontSize: fs(12) }]} numberOfLines={2}>
+          {authorDetail.bio}
+        </Text>
+      ) : null}
+    </TouchableOpacity>
+  ) : undefined;
+
   const batchPct =
     batchDownload && batchDownload.total > 0
       ? Math.min(100, Math.round(((batchDownload.completed + batchDownload.failed) / batchDownload.total) * 100))
@@ -419,9 +487,7 @@ export function ExploreScreen({
             </TouchableOpacity>
           ) : null}
 
-          {path[0] === 'Authors & Scholars' &&
-          ((path[1] !== 'Islamic Scholars' && path.length === 3) ||
-            (path[1] === 'Islamic Scholars' && path.length === 4)) ? (
+          {isViewingAuthor ? (
             <AuthorAvatar name={currentNode.name} size={36} />
           ) : !isRoot ? (
             <CategoryIcon name={currentNode.name} size={28} />
@@ -646,22 +712,9 @@ export function ExploreScreen({
           contentContainerStyle={styles.drillContent}
           showsVerticalScrollIndicator={false}
           onEndReached={loadMoreSections}
-          onEndReachedThreshold={0.4}
+          onEndReachedThreshold={0.7}
+          ListHeaderComponent={authorProfileBanner}
           renderItem={({ item }) => renderSectionCard(item)}
-          ListFooterComponent={
-            hasMoreSections ? (
-              <TouchableOpacity
-                style={[styles.loadMoreBanner, { backgroundColor: theme.surfaceAlt, borderColor: theme.border }]}
-                onPress={loadMoreSections}
-                activeOpacity={0.82}
-              >
-                <ActivityIndicator size="small" color={theme.accent} />
-                <Text style={[styles.loadMoreText, { color: theme.ink, fontSize: fs(12) }]}>
-                  Showing {visibleChildSections.length} of {childSections.length} · Scroll or tap to load more
-                </Text>
-              </TouchableOpacity>
-            ) : undefined
-          }
         />
       ) : (
         <FlatList
@@ -677,25 +730,13 @@ export function ExploreScreen({
           contentContainerStyle={styles.drillContent}
           showsVerticalScrollIndicator={false}
           ListHeaderComponent={
-            childSections.length > 0 || directBooksFiltered.length > 0 ? (
+            authorProfileBanner || childSections.length > 0 || directBooksFiltered.length > 0 ? (
               <View>
+                {authorProfileBanner}
                 {childSections.length > 0 ? (
-                  <>
-                    <View style={isAuthorsLeafGrid ? styles.authorsGrid : styles.bentoSubGrid}>
-                      {visibleChildSections.map((subNode) => renderSectionCard(subNode))}
-                    </View>
-                    {hasMoreSections ? (
-                      <TouchableOpacity
-                        style={[styles.loadMoreBanner, { backgroundColor: theme.surfaceAlt, borderColor: theme.border }]}
-                        onPress={loadMoreSections}
-                        activeOpacity={0.82}
-                      >
-                        <Text style={[styles.loadMoreText, { color: theme.accent, fontSize: fs(12) }]}>
-                          Load more sections ({childSections.length - visibleChildSections.length} remaining)
-                        </Text>
-                      </TouchableOpacity>
-                    ) : null}
-                  </>
+                  <View style={isAuthorsLeafGrid ? styles.authorsGrid : styles.bentoSubGrid}>
+                    {childSections.map((subNode) => renderSectionCard(subNode))}
+                  </View>
                 ) : null}
 
                 {directBooksFiltered.length > 0 ? (
@@ -824,6 +865,18 @@ export function ExploreScreen({
           }}
         />
       )}
+
+      <AuthorDetailModal
+        visible={authorModalOpen}
+        authorName={currentNode.name}
+        group={authorDetail?.group || path[1] || 'Authors & Scholars'}
+        bookCount={currentNode.totalCount}
+        subfolderCount={currentNode.children.size}
+        shortDesc={authorDetail?.shortDesc}
+        bio={authorDetail?.bio}
+        wikiUrl={authorDetail?.wikiUrl}
+        onClose={() => setAuthorModalOpen(false)}
+      />
     </View>
   );
 }
@@ -995,19 +1048,6 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     marginBottom: 2,
   },
-  loadMoreBanner: {
-    marginTop: 6,
-    marginBottom: 8,
-    borderRadius: 14,
-    borderWidth: 1,
-    paddingHorizontal: 14,
-    paddingVertical: 10,
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'center',
-    gap: 8,
-  },
-  loadMoreText: { fontWeight: '700' },
   authorsGrid: {
     flexDirection: 'row',
     flexWrap: 'wrap',
@@ -1156,4 +1196,38 @@ const styles = StyleSheet.create({
   },
   emptyBox: { paddingVertical: 40, alignItems: 'center' },
   emptyText: {},
+  authorBannerCard: {
+    borderRadius: 18,
+    borderWidth: 1,
+    padding: 13,
+    gap: 8,
+    marginBottom: 8,
+  },
+  authorBannerTop: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 11,
+  },
+  authorBannerInfo: {
+    flex: 1,
+    gap: 2,
+  },
+  authorBannerName: {
+    fontWeight: '800',
+  },
+  authorBannerSub: {
+    fontWeight: '600',
+  },
+  authorDetailsBtn: {
+    borderWidth: 1,
+    borderRadius: 12,
+    paddingHorizontal: 10,
+    paddingVertical: 6,
+  },
+  authorDetailsBtnText: {
+    fontWeight: '800',
+  },
+  authorBannerBio: {
+    lineHeight: 17.5,
+  },
 });

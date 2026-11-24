@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import {
   ActivityIndicator,
   Image,
@@ -10,14 +10,12 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
-import { BookCover } from '../components/BookCover';
 import {
-  BookOpenIcon,
+  ChevronRightIcon,
   CloseIcon,
-  GithubIcon,
-  GlobeIcon,
-  MailIcon,
+  FlameIcon,
   MoonIcon,
   RefreshIcon,
   SunIcon,
@@ -33,20 +31,32 @@ import {
 } from '../services/libraryStore';
 import { CURRENT_APP_VERSION, type AppUpdateInfo } from '../services/updateService';
 import { THEME_PRESETS } from '../theme';
-import type { Book, FontScaleKey, OfflineBookEntry, ThemePresetKey } from '../types';
+import type {
+  Book,
+  BookProgress,
+  FontScaleKey,
+  OfflineBookEntry,
+  ReadingStreak,
+  ThemePresetKey,
+} from '../types';
+import { DeveloperScreen } from './DeveloperScreen';
+import { StatsScreen } from './StatsScreen';
 
 interface Props {
   books: Book[];
   catalogMeta: CatalogMeta;
   syncingCatalog: boolean;
   offlineById: Record<string, OfflineBookEntry>;
+  progressById: Record<string, BookProgress>;
+  savedIds: string[];
+  streak: ReadingStreak;
   updateInfo: AppUpdateInfo | null;
   checkingUpdate: boolean;
   onSyncCatalog: () => void;
   onClearCatalogCache: () => void;
   onCheckUpdate: () => void;
-  onOpenOfflineBook: (entry: OfflineBookEntry) => void;
-  onRemoveOfflineBook: (bookId: string) => void;
+  onSelectCategory: (cat: string) => void;
+  onOpenBookDetail: (book: Book) => void;
 }
 
 const FONT_OPTIONS: { key: FontScaleKey; label: string }[] = [
@@ -62,17 +72,21 @@ export function MoreScreen({
   catalogMeta,
   syncingCatalog,
   offlineById,
+  progressById,
+  savedIds,
+  streak,
   updateInfo,
   checkingUpdate,
   onSyncCatalog,
   onClearCatalogCache,
   onCheckUpdate,
-  onOpenOfflineBook,
-  onRemoveOfflineBook,
+  onSelectCategory,
+  onOpenBookDetail,
 }: Props) {
   const { theme, mode, preset, fontScale, fs, setThemeMode, setThemePreset, setFontScale } =
     useAppTheme();
   const [devModalOpen, setDevModalOpen] = useState(false);
+  const [statsModalOpen, setStatsModalOpen] = useState(false);
   const [storage, setStorage] = useState<AppStorageUsage>({
     totalBytes: 0,
     catalogBytes: 0,
@@ -81,7 +95,16 @@ export function MoreScreen({
   });
 
   const offlineEntries = Object.values(offlineById);
-  const byId = new Map(books.map((b) => [b.id, b]));
+
+  const readingSummary = useMemo(() => {
+    let completedCount = 0;
+    let inProgressCount = 0;
+    for (const p of Object.values(progressById)) {
+      if (p.progressPct >= 100) completedCount++;
+      else if (p.progressPct > 0 || p.currentPage > 0) inProgressCount++;
+    }
+    return { completedCount, inProgressCount };
+  }, [progressById]);
 
   useEffect(() => {
     let mounted = true;
@@ -253,6 +276,44 @@ export function MoreScreen({
           </View>
         </View>
 
+        {/* Reading Stats Card */}
+        <TouchableOpacity
+          style={[styles.card, { backgroundColor: theme.surface, borderColor: theme.border }]}
+          onPress={() => setStatsModalOpen(true)}
+          activeOpacity={0.84}
+        >
+          <View style={styles.cardHeadRow}>
+            <Text style={[styles.cardTitle, { color: theme.ink, fontSize: fs(15) }]}>Reading Stats</Text>
+            <View style={styles.statsLinkRow}>
+              <Text style={[styles.statsLinkText, { color: theme.accent, fontSize: fs(12) }]}>
+                View Full Stats
+              </Text>
+              <ChevronRightIcon size={16} color={theme.accent} />
+            </View>
+          </View>
+
+          <View style={styles.statsPillsRow}>
+            <View style={[styles.statPill, { backgroundColor: theme.surfaceAlt, borderColor: theme.borderSubtle }]}>
+              <FlameIcon size={14} color={theme.accent} />
+              <Text style={[styles.statPillVal, { color: theme.ink, fontSize: fs(12) }]}>
+                {streak.days}d streak
+              </Text>
+            </View>
+
+            <View style={[styles.statPill, { backgroundColor: theme.surfaceAlt, borderColor: theme.borderSubtle }]}>
+              <Text style={[styles.statPillVal, { color: theme.ink, fontSize: fs(12) }]}>
+                {readingSummary.inProgressCount} active · {readingSummary.completedCount} done
+              </Text>
+            </View>
+
+            <View style={[styles.statPill, { backgroundColor: theme.surfaceAlt, borderColor: theme.borderSubtle }]}>
+              <Text style={[styles.statPillVal, { color: theme.cream, fontSize: fs(12) }]}>
+                {savedIds.length} saved
+              </Text>
+            </View>
+          </View>
+        </TouchableOpacity>
+
         {/* App Memory / Local Storage Usage Card */}
         <View style={[styles.card, { backgroundColor: theme.surface, borderColor: theme.border }]}>
           <View style={styles.cardHeadRow}>
@@ -397,163 +458,67 @@ export function MoreScreen({
           ) : null}
         </View>
 
-        {/* Downloaded Offline Books */}
-        <View style={[styles.card, { backgroundColor: theme.surface, borderColor: theme.border }]}>
+        {/* Developer, Privacy Policy & Copyright Card */}
+        <TouchableOpacity
+          style={[styles.card, { backgroundColor: theme.surface, borderColor: theme.border }]}
+          onPress={() => setDevModalOpen(true)}
+          activeOpacity={0.84}
+        >
           <View style={styles.cardHeadRow}>
-            <Text style={[styles.cardTitle, { color: theme.ink, fontSize: fs(15) }]}>
-              Offline Books ({offlineEntries.length})
-            </Text>
-            <Text style={[styles.cardSize, { color: theme.accent, fontSize: fs(12) }]}>
-              {storage.offlineBooksBytes > 0 ? formatBytes(storage.offlineBooksBytes) : ''}
-            </Text>
-          </View>
-
-          {offlineEntries.length === 0 ? (
-            <Text style={[styles.cardHint, { color: theme.muted, fontSize: fs(12) }]}>
-              Tap download on any book or category to save for offline reading.
-            </Text>
-          ) : (
-            <View style={styles.offlineList}>
-              {offlineEntries.map((entry) => {
-                const book: Book = byId.get(entry.bookId) || {
-                  id: entry.bookId,
-                  title: entry.title,
-                  author: entry.author,
-                  cat: entry.cat,
-                  sub: entry.sub,
-                  lang: 'Unknown',
-                  fmt: entry.fmt,
-                  size: entry.size,
-                  coverId: '',
-                  series: '',
-                  searchBlob: '',
-                };
-                return (
-                  <View
-                    key={entry.bookId}
-                    style={[
-                      styles.offlineItem,
-                      { backgroundColor: theme.surfaceAlt, borderColor: theme.borderSubtle },
-                    ]}
-                  >
-                    <BookCover
-                      book={book}
-                      localCoverUri={entry.coverLocalUri}
-                      width={44}
-                      height={64}
-                      borderRadius={6}
-                    />
-                    <View style={styles.offlineInfo}>
-                      <Text style={[styles.offlineTitle, { color: theme.ink, fontSize: fs(13) }]} numberOfLines={2}>
-                        {entry.title}
-                      </Text>
-                      <Text style={[styles.offlineMeta, { color: theme.muted, fontSize: fs(11) }]}>
-                        {entry.fmt} · {formatBytes(entry.size)}
-                      </Text>
-                    </View>
-                    <TouchableOpacity
-                      style={[styles.circleSmallBtn, { backgroundColor: theme.cream }]}
-                      onPress={() => onOpenOfflineBook(entry)}
-                      accessibilityLabel="Open offline book"
-                    >
-                      <BookOpenIcon size={15} color={theme.creamInk} />
-                    </TouchableOpacity>
-                    <TouchableOpacity
-                      style={[styles.circleSmallBtn, { backgroundColor: theme.surface, borderWidth: 1, borderColor: theme.border }]}
-                      onPress={() => onRemoveOfflineBook(entry.bookId)}
-                      accessibilityLabel="Remove offline book"
-                    >
-                      <TrashIcon size={14} color={theme.danger} />
-                    </TouchableOpacity>
-                  </View>
-                );
-              })}
+            <View style={{ flex: 1, gap: 2 }}>
+              <Text style={[styles.cardTitle, { color: theme.ink, fontSize: fs(15) }]}>
+                Developer, Privacy Policy &amp; Copyright
+              </Text>
+              <Text style={[styles.cardSub, { color: theme.muted, fontSize: fs(11.5) }]}>
+                Salman Anik · Data policy, DMCA &amp; license notice
+              </Text>
             </View>
-          )}
-        </View>
+            <ChevronRightIcon size={18} color={theme.accent} />
+          </View>
+        </TouchableOpacity>
       </ScrollView>
 
-      {/* Developer Info & About Me Modal */}
+      {/* Full Reading Stats Modal */}
       <Modal
-        visible={devModalOpen}
-        animationType="fade"
-        transparent
-        onRequestClose={() => setDevModalOpen(false)}
+        visible={statsModalOpen}
+        animationType="slide"
+        onRequestClose={() => setStatsModalOpen(false)}
       >
-        <View style={styles.modalBackdrop}>
-          <View style={[styles.modalCard, { backgroundColor: theme.surface, borderColor: theme.border }]}>
-            <View style={styles.modalTopRow}>
-              <Text style={[styles.sectionEyebrow, { color: theme.accent }]}>DEVELOPER &amp; ABOUT ME</Text>
-              <TouchableOpacity
-                style={[styles.closeCircle, { backgroundColor: theme.surfaceAlt, borderColor: theme.border }]}
-                onPress={() => setDevModalOpen(false)}
-              >
-                <CloseIcon size={16} color={theme.ink} />
-              </TouchableOpacity>
-            </View>
-
-            <View style={styles.devProfileRow}>
-              <Image
-                source={require('../../assets/developer-profile.png')}
-                style={[styles.devAvatar, { borderColor: theme.accent, backgroundColor: theme.surfaceAlt }]}
-                resizeMode="cover"
-              />
-              <View style={styles.devIdentity}>
-                <Text style={[styles.devName, { color: theme.ink, fontSize: fs(19) }]}>Salman Anik</Text>
-                <Text style={[styles.devTagline, { color: theme.cream, fontSize: fs(12) }]}>
-                  CSE Student · Data Science Enthusiast · Python Developer
-                </Text>
-              </View>
-            </View>
-
-            <Text style={[styles.devBio, { color: theme.muted, fontSize: fs(12.5) }]}>
-              Computer Science &amp; Engineering student at East West University, Dhaka, focused on
-              Python, SQL, Data Science, and building practical open-source projects—including
-              AnaBook (Bangladesh&apos;s Biggest eBook Library) and AnaPharm.
+        <SafeAreaView style={[styles.statsModalRoot, { backgroundColor: theme.bg }]} edges={['top', 'bottom']}>
+          <View style={[styles.statsModalHeader, { borderBottomColor: theme.border }]}>
+            <Text style={[styles.statsModalTitle, { color: theme.ink, fontSize: fs(20) }]}>
+              Reading Stats
             </Text>
-
-            <View style={[styles.devMetaBox, { backgroundColor: theme.surfaceAlt, borderColor: theme.borderSubtle }]}>
-              <View style={styles.devMetaRow}>
-                <Text style={[styles.devMetaLabel, { color: theme.muted }]}>University</Text>
-                <Text style={[styles.devMetaValue, { color: theme.ink }]}>East West University (B.Sc. in CSE)</Text>
-              </View>
-              <View style={[styles.devMetaDivider, { backgroundColor: theme.border }]} />
-              <View style={styles.devMetaRow}>
-                <Text style={[styles.devMetaLabel, { color: theme.muted }]}>Location</Text>
-                <Text style={[styles.devMetaValue, { color: theme.ink }]}>Dhaka, Bangladesh</Text>
-              </View>
-            </View>
-
-            <View style={styles.devLinksRow}>
-              <TouchableOpacity
-                style={[styles.devLinkPrimary, { backgroundColor: theme.accent }]}
-                onPress={() => void Linking.openURL('https://salmananik.vercel.app/')}
-                activeOpacity={0.85}
-              >
-                <GlobeIcon size={16} color={theme.creamInk} />
-                <Text style={[styles.devLinkPrimaryText, { color: theme.creamInk }]}>Portfolio</Text>
-              </TouchableOpacity>
-
-              <TouchableOpacity
-                style={[styles.devLinkSecondary, { backgroundColor: theme.surfaceAlt, borderColor: theme.border }]}
-                onPress={() => void Linking.openURL('https://github.com/salman-anik')}
-                activeOpacity={0.85}
-              >
-                <GithubIcon size={16} color={theme.cream} />
-                <Text style={[styles.devLinkSecondaryText, { color: theme.cream }]}>GitHub</Text>
-              </TouchableOpacity>
-
-              <TouchableOpacity
-                style={[styles.devLinkSecondary, { backgroundColor: theme.surfaceAlt, borderColor: theme.border }]}
-                onPress={() => void Linking.openURL('mailto:salmananik.bd@gmail.com')}
-                activeOpacity={0.85}
-              >
-                <MailIcon size={16} color={theme.cream} />
-              </TouchableOpacity>
-            </View>
+            <TouchableOpacity
+              style={[styles.closeCircle, { backgroundColor: theme.surfaceAlt, borderColor: theme.border }]}
+              onPress={() => setStatsModalOpen(false)}
+              accessibilityLabel="Close reading stats"
+            >
+              <CloseIcon size={16} color={theme.ink} />
+            </TouchableOpacity>
           </View>
-        </View>
+
+          <StatsScreen
+            books={books}
+            progressById={progressById}
+            savedIds={savedIds}
+            offlineById={offlineById}
+            streak={streak}
+            hideHeader
+            onSelectCategory={(cat) => {
+              setStatsModalOpen(false);
+              onSelectCategory(cat);
+            }}
+            onOpenBookDetail={(b) => {
+              setStatsModalOpen(false);
+              onOpenBookDetail(b);
+            }}
+          />
+        </SafeAreaView>
       </Modal>
+
+      {/* Developer Info, Privacy Policy & Copyright Screen */}
+      <DeveloperScreen visible={devModalOpen} onClose={() => setDevModalOpen(false)} />
     </View>
   );
 }
@@ -581,7 +546,19 @@ const styles = StyleSheet.create({
   },
   cardHeadRow: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', gap: 10 },
   cardTitle: { fontWeight: '800' },
-  cardSize: { fontWeight: '700' },
+  statsLinkRow: { flexDirection: 'row', alignItems: 'center', gap: 3 },
+  statsLinkText: { fontWeight: '700' },
+  statsPillsRow: { flexDirection: 'row', flexWrap: 'wrap', gap: 8 },
+  statPill: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 5,
+    borderRadius: 12,
+    borderWidth: 1,
+    paddingHorizontal: 10,
+    paddingVertical: 6,
+  },
+  statPillVal: { fontWeight: '700' },
   cardSub: { fontWeight: '600', marginTop: 2 },
   cardHint: { lineHeight: 18 },
   settingBlock: { gap: 7 },
@@ -659,47 +636,16 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   updateNowText: { fontWeight: '800' },
-  offlineList: { gap: 9 },
-  offlineItem: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 10,
-    borderRadius: 12,
-    padding: 9,
-    borderWidth: 1,
-  },
-  offlineInfo: { flex: 1, gap: 2 },
-  offlineTitle: { fontWeight: '700' },
-  offlineMeta: {},
-  circleSmallBtn: {
-    width: 32,
-    height: 32,
-    borderRadius: 16,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  modalBackdrop: {
-    flex: 1,
-    backgroundColor: 'rgba(0,0,0,0.68)',
-    justifyContent: 'center',
-    paddingHorizontal: 20,
-  },
-  modalCard: {
-    borderRadius: 24,
-    borderWidth: 1,
-    padding: 18,
-    gap: 14,
-  },
-  modalTopRow: {
+  statsModalRoot: { flex: 1 },
+  statsModalHeader: {
+    paddingHorizontal: 18,
+    paddingVertical: 12,
+    borderBottomWidth: StyleSheet.hairlineWidth,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
   },
-  sectionEyebrow: {
-    fontSize: 10.5,
-    fontWeight: '800',
-    letterSpacing: 0.9,
-  },
+  statsModalTitle: { fontWeight: '800' },
   closeCircle: {
     width: 32,
     height: 32,
@@ -708,57 +654,4 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  devProfileRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 14,
-  },
-  devAvatar: {
-    width: 68,
-    height: 68,
-    borderRadius: 34,
-    borderWidth: 2,
-  },
-  devIdentity: { flex: 1, gap: 3 },
-  devName: { fontWeight: '800' },
-  devTagline: { fontWeight: '600', lineHeight: 17 },
-  devBio: { lineHeight: 19 },
-  devMetaBox: {
-    borderRadius: 14,
-    borderWidth: 1,
-    paddingHorizontal: 12,
-    paddingVertical: 8,
-    gap: 7,
-  },
-  devMetaRow: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    gap: 8,
-  },
-  devMetaLabel: { fontSize: 11, fontWeight: '700' },
-  devMetaValue: { fontSize: 11.5, fontWeight: '700', flexShrink: 1, textAlign: 'right' },
-  devMetaDivider: { height: StyleSheet.hairlineWidth },
-  devLinksRow: { flexDirection: 'row', gap: 8 },
-  devLinkPrimary: {
-    flex: 1.4,
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'center',
-    gap: 6,
-    borderRadius: 14,
-    paddingVertical: 11,
-  },
-  devLinkPrimaryText: { fontSize: 12.5, fontWeight: '800' },
-  devLinkSecondary: {
-    flex: 1,
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'center',
-    gap: 6,
-    borderWidth: 1,
-    borderRadius: 14,
-    paddingVertical: 11,
-  },
-  devLinkSecondaryText: { fontSize: 12, fontWeight: '700' },
 });

@@ -1,10 +1,10 @@
 import React from 'react';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-import Svg, { Circle, Line, Path, Rect } from 'react-native-svg';
+import Svg, { Path, Rect } from 'react-native-svg';
 
 import { useAppTheme } from '../context/ThemeContext';
 import type { TabKey } from '../types';
-import { SettingsGearIcon } from './Icons';
+import { SettingsGearIcon, UsersIcon } from './Icons';
 
 interface Props {
   activeTab: TabKey;
@@ -31,14 +31,8 @@ function CategoriesGridIcon({ color }: { color: string }) {
   );
 }
 
-function StatsIcon({ color }: { color: string }) {
-  return (
-    <Svg width={20} height={20} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={1.9}>
-      <Line x1="6" y1="20" x2="6" y2="10" />
-      <Line x1="12" y1="20" x2="12" y2="4" />
-      <Line x1="18" y1="20" x2="18" y2="14" />
-    </Svg>
-  );
+function AuthorsNavIcon({ color }: { color: string }) {
+  return <UsersIcon size={20} color={color} />;
 }
 
 function LibraryNavIcon({ color }: { color: string }) {
@@ -112,7 +106,7 @@ export function BottomNavBar({ activeTab, onSelectTab, bottomInset = 10 }: Props
           </View>
         </TouchableOpacity>
 
-        {renderTab('stats', 'Stats', StatsIcon)}
+        {renderTab('authors', 'Authors', AuthorsNavIcon)}
         {renderTab('more', 'Settings', SettingsNavIcon)}
       </View>
     </View>

@@ -8,11 +8,11 @@ import { BottomNavBar } from './src/components/BottomNavBar';
 import { CloseIcon } from './src/components/Icons';
 import { ReaderModal } from './src/components/ReaderModal';
 import { ThemeProvider } from './src/context/ThemeContext';
+import { AuthorsScreen } from './src/screens/AuthorsScreen';
 import { ExploreScreen } from './src/screens/ExploreScreen';
 import { HomeScreen } from './src/screens/HomeScreen';
 import { LibraryScreen } from './src/screens/LibraryScreen';
 import { MoreScreen } from './src/screens/MoreScreen';
-import { StatsScreen } from './src/screens/StatsScreen';
 import {
   bumpDailyStreak,
   type CatalogMeta,
@@ -583,18 +583,14 @@ function MainApp() {
                 setActiveTab('library');
               }}
             />
-          ) : activeTab === 'stats' ? (
-            <StatsScreen
+          ) : activeTab === 'authors' ? (
+            <AuthorsScreen
               books={books}
-              progressById={appState.progressById}
-              savedIds={appState.savedIds}
               offlineById={appState.offlineById}
-              streak={appState.streak}
-              onSelectCategory={(cat) => {
-                setExplorePath([cat]);
+              onSelectAuthor={(authorPath) => {
+                setExplorePath(authorPath);
                 setActiveTab('explore');
               }}
-              onOpenBookDetail={(b) => setDetailBook(b)}
             />
           ) : (
             <MoreScreen
@@ -602,28 +598,19 @@ function MainApp() {
               catalogMeta={catalogMeta}
               syncingCatalog={syncingCatalog}
               offlineById={appState.offlineById}
+              progressById={appState.progressById}
+              savedIds={appState.savedIds}
+              streak={appState.streak}
               updateInfo={updateInfo}
               checkingUpdate={checkingUpdate}
               onSyncCatalog={handleManualSync}
               onClearCatalogCache={handleClearCache}
               onCheckUpdate={() => void handleCheckUpdate(true)}
-              onOpenOfflineBook={(entry) => {
-                const b = books.find((x) => x.id === entry.bookId) || {
-                  id: entry.bookId,
-                  title: entry.title,
-                  author: entry.author,
-                  cat: entry.cat,
-                  sub: entry.sub,
-                  lang: 'Unknown',
-                  fmt: entry.fmt,
-                  size: entry.size,
-                  coverId: '',
-                  series: '',
-                  searchBlob: '',
-                };
-                void handleOpenOffline(b, entry);
+              onSelectCategory={(cat) => {
+                setExplorePath([cat]);
+                setActiveTab('explore');
               }}
-              onRemoveOfflineBook={handleRemoveOffline}
+              onOpenBookDetail={(b) => setDetailBook(b)}
             />
           )}
         </View>
@@ -631,7 +618,7 @@ function MainApp() {
         <BottomNavBar
           activeTab={activeTab}
           onSelectTab={(t) => {
-            if (t === 'explore') {
+            if (t === 'explore' && activeTab === 'explore') {
               setExplorePath([]);
             }
             setActiveTab(t);
