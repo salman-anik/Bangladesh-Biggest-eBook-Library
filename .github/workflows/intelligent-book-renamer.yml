@@ -83,7 +83,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add reports/renamer/ books.json visualize/public/books.json
+          git add reports/renamer/ books.json visualize/public/books.json "Library Management/Reports/"
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else

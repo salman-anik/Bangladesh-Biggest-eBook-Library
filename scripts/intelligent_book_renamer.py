@@ -41,6 +41,7 @@ import fitz  # PyMuPDF
 from PIL import Image, ImageStat
 
 ROOT_ID = os.environ.get("LIBRARY_ROOT_ID", "1fMsplDtUnpUhnNBJGKvYQ1sdZx0QVJWq")
+DRIVE_REPORTS_FOLDER_ID = os.environ.get("DRIVE_REPORTS_FOLDER_ID", "1jdKRqfUfxyv78EfCZnv8A_CTQnDN_Lp_")
 DRIVE_API = "https://www.googleapis.com/drive/v3"
 FOLDER_MIME = "application/vnd.google-apps.folder"
 SHORTCUT_MIME = "application/vnd.google-apps.shortcut"
@@ -1026,6 +1027,172 @@ def write_stage_c_reports(
 # ---------------------------------------------------------------------------
 # Stage D (Safe Rename) + Stage E (Verification) + Website/App Catalog Sync
 # ---------------------------------------------------------------------------
+def upsert_drive_text_file(
+    folder_id: str,
+    filename: str,
+    content_bytes: bytes,
+    mime_type: str = "text/plain; charset=utf-8",
+    retries: int = 5,
+) -> str:
+    """Create or update a file in a specific Google Drive folder without creating folders."""
+    existing = next(
+        (it for it in list_children(folder_id) if it.get("name") == filename and it.get("mimeType") != FOLDER_MIME),
+        None,
+    )
+    if existing:
+        file_id = existing["id"]
+        url = f"https://www.googleapis.com/upload/drive/v3/files/{file_id}?uploadType=media&supportsAllDrives=true&fields=id,name"
+        method = "PATCH"
+        content_type = mime_type
+        payload = content_bytes
+    else:
+        boundary = f"anabook_upload_{int(time.time() * 1000)}"
+        meta_bytes = json.dumps({"name": filename, "parents": [folder_id]}, ensure_ascii=False).encode("utf-8")
+        payload = (
+            f"--{boundary}\r\nContent-Type: application/json; charset=UTF-8\r\n\r\n".encode("utf-8")
+            + meta_bytes
+            + f"\r\n--{boundary}\r\nContent-Type: {mime_type}\r\n\r\n".encode("utf-8")
+            + content_bytes
+            + f"\r\n--{boundary}--\r\n".encode("utf-8")
+        )
+        url = "https://www.googleapis.com/upload/drive/v3/files?uploadType=multipart&supportsAllDrives=true&fields=id,name"
+        method = "POST"
+        content_type = f"multipart/related; boundary={boundary}"
+
+    for attempt in range(retries):
+        headers = {
+            "Authorization": f"Bearer {get_access_token()}",
+            "Content-Type": content_type,
+        }
+        req = urllib.request.Request(url, data=payload, headers=headers, method=method)
+        try:
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                data = json.loads(resp.read() or b"{}")
+                return data.get("id", existing["id"] if existing else "")
+        except urllib.error.HTTPError as e:
+            msg = e.read()[:300].decode("utf-8", "replace")
+            if e.code == 401:
+                global _tok_val
+                with _tok_lock:
+                    _tok_val = None
+            retryable = e.code in (401, 408, 429, 500, 502, 503, 504) or (
+                e.code == 403 and any(k in msg for k in ("rateLimit", "userRateLimitExceeded", "quotaExceeded"))
+            )
+            if not retryable or attempt == retries - 1:
+                raise RuntimeError(f"Drive upload {method} {filename} -> {e.code}: {msg}") from None
+            time.sleep(min(2 ** attempt, 15))
+        except Exception:
+            if attempt == retries - 1:
+                raise
+            time.sleep(min(2 ** attempt, 10))
+    return ""
+
+
+def update_rename_changelog(
+    repo_dir: Path,
+    new_entries: list[dict[str, Any]],
+    applied_at: str,
+    sync_drive: bool = False,
+) -> dict[str, Any]:
+    """Append verified renames into persistent Library Management/Reports changelog files (and optionally Drive)."""
+    reports_dir = repo_dir / "Library Management" / "Reports"
+    reports_dir.mkdir(parents=True, exist_ok=True)
+    json_path = reports_dir / "rename_changelog.json"
+    csv_path = reports_dir / "rename_changelog.csv"
+    md_path = reports_dir / "RENAME_CHANGELOG.md"
+
+    existing: list[dict[str, Any]] = []
+    if json_path.exists():
+        try:
+            loaded = json.loads(json_path.read_text(encoding="utf-8"))
+            if isinstance(loaded, list):
+                existing = loaded
+        except Exception:
+            existing = []
+
+    seen = {(e.get("id"), e.get("old_name"), e.get("new_name")) for e in existing}
+    added = 0
+    for e in new_entries:
+        key = (e.get("id"), e.get("old_name"), e.get("new_name"))
+        if key in seen:
+            continue
+        seen.add(key)
+        existing.append(
+            {
+                "timestamp": e.get("timestamp") or applied_at,
+                "id": e["id"],
+                "folder": e.get("folder", ""),
+                "old_name": e["old_name"],
+                "new_name": e["new_name"],
+                "category": e.get("category", ""),
+                "drive_url": f"https://drive.google.com/file/d/{e['id']}/view",
+            }
+        )
+        added += 1
+
+    json_path.write_text(json.dumps(existing, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    csv_buf = io.StringIO()
+    w = csv.writer(csv_buf)
+    w.writerow(["Timestamp (UTC)", "File ID", "Folder", "Previous Filename", "New Filename", "Category", "Drive Link"])
+    for item in existing:
+        w.writerow(
+            [
+                item.get("timestamp", ""),
+                item.get("id", ""),
+                item.get("folder", ""),
+                item.get("old_name", ""),
+                item.get("new_name", ""),
+                item.get("category", ""),
+                item.get("drive_url", ""),
+            ]
+        )
+    csv_bytes = csv_buf.getvalue().encode("utf-8-sig")
+    csv_path.write_bytes(csv_bytes)
+
+    def _esc(s: str) -> str:
+        return (s or "").replace("|", "\\|").replace("\n", " ")
+
+    md_lines = [
+        "# Library Rename Changelog",
+        "",
+        "[🏠 Library Home](../../README.md) / [Library Management](../README.md) / [Reports](README.md) / **Rename Changelog**",
+        "",
+        f"> Permanent audit log preserving original filenames before Stage D renames. Machine-readable copies: [rename_changelog.csv](rename_changelog.csv) · [rename_changelog.json](rename_changelog.json)",
+        "",
+        f"- **Last Updated (UTC):** `{applied_at}`",
+        f"- **Total Renamed Files Recorded:** `{len(existing)}`",
+        "",
+        "| Timestamp (UTC) | Folder | Previous Filename | New Filename | Category | File Link |",
+        "|---|---|---|---|---|---|",
+    ]
+    for item in existing:
+        fid = item.get("id", "")
+        url = item.get("drive_url") or f"https://drive.google.com/file/d/{fid}/view"
+        md_lines.append(
+            f"| `{_esc(item.get('timestamp', ''))}` | `{_esc(item.get('folder', ''))}` | {_esc(item.get('old_name', ''))} | {_esc(item.get('new_name', ''))} | {_esc(item.get('category', ''))} | [Open on Drive]({url}) |"
+        )
+    md_text = "\n".join(md_lines) + "\n"
+    md_path.write_text(md_text, encoding="utf-8")
+
+    drive_ids: dict[str, str] = {}
+    if sync_drive and DRIVE_REPORTS_FOLDER_ID:
+        for fname, data_bytes, mime in (
+            ("rename_changelog.csv", csv_bytes, "text/csv; charset=utf-8"),
+            ("RENAME_CHANGELOG.md", md_text.encode("utf-8"), "text/markdown; charset=utf-8"),
+        ):
+            try:
+                drive_ids[fname] = upsert_drive_text_file(DRIVE_REPORTS_FOLDER_ID, fname, data_bytes, mime)
+            except Exception as exc:
+                print(f"[Changelog] Warning: failed to sync {fname} to Drive: {exc}", flush=True)
+
+    return {
+        "total_entries": len(existing),
+        "added_entries": added,
+        "drive_synced_files": drive_ids,
+    }
+
+
 def apply_and_verify_renames(report_json_path: Path, repo_dir: Path, slug: str) -> dict[str, Any]:
     data = json.loads(report_json_path.read_text(encoding="utf-8"))
     results: list[dict[str, Any]] = data["results"]
@@ -1126,14 +1293,21 @@ def apply_and_verify_renames(report_json_path: Path, repo_dir: Path, slug: str) 
                 p.write_text(json.dumps(cat, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
                 catalog_updated_count = max(catalog_updated_count, updated_here)
 
+    applied_at = dt.datetime.now(dt.timezone.utc).isoformat()
+    changelog_total_entries = 0
+    if rename_log:
+        cl_info = update_rename_changelog(repo_dir, rename_log, applied_at, sync_drive=True)
+        changelog_total_entries = cl_info["total_entries"]
+
     summary = {
-        "applied_at": dt.datetime.now(dt.timezone.utc).isoformat(),
+        "applied_at": applied_at,
         "renamed_count": len(rename_log),
         "verified_count": verified,
         "verification_failures": len(verification_failures),
         "skipped_collisions": len(skipped_collisions),
         "errors": len(errors),
         "website_and_app_catalog_entries_synced": catalog_updated_count,
+        "changelog_total_entries": changelog_total_entries,
         "rename_log": rename_log,
         "collision_details": skipped_collisions,
         "error_details": errors,
