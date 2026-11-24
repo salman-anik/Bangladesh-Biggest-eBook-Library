@@ -1,6 +1,6 @@
 {
-  "latestVersion": "1.1.0",
-  "versionCode": 2,
+  "latestVersion": "1.1.1",
+  "versionCode": 3,
   "downloadUrl": "https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/releases/latest",
-  "releaseNotes": "AnaBook v1.1.0 — Universal Search tab, Pinterest floating curved navbar, swipe navigation, unified Offline Shelf, and new AnaBook icon."
+  "releaseNotes": "AnaBook v1.1.1 — Synchronized newly categorized Series & Collections offline starter cache, and enhanced mobile responsiveness across web library & navbar."
 }

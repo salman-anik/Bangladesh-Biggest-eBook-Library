@@ -208,9 +208,9 @@ export function LibraryExplorer() {
   }
 
   return (
-    <div className="max-w-6xl mx-auto px-5 sm:px-8 py-8 space-y-6 bg-white">
+    <div className="max-w-6xl mx-auto px-4 sm:px-8 py-6 sm:py-8 space-y-5 sm:space-y-6 bg-white">
       {/* Search + Filters Panel */}
-      <div className="rounded-3xl bg-[#F5F6F8] p-5 space-y-4">
+      <div className="rounded-2xl sm:rounded-3xl bg-[#F5F6F8] p-4 sm:p-5 space-y-3.5 sm:space-y-4">
         <div className="flex flex-col md:flex-row gap-3">
           <div className="relative flex-1">
             <Search className="w-4 h-4 text-[#5F6672] absolute left-4 top-1/2 -translate-y-1/2" />
@@ -219,7 +219,7 @@ export function LibraryExplorer() {
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               placeholder="Search 22,166+ Bangla & English books, authors, Class 1–12…"
-              className="w-full pl-11 pr-9 py-3 rounded-full bg-white border border-neutral-200 text-sm text-[#0F1115] placeholder:text-[#5F6672] focus:outline-none focus:border-[#0F1115]"
+              className="w-full pl-11 pr-9 py-2.5 sm:py-3 rounded-full bg-white border border-neutral-200 text-xs sm:text-sm text-[#0F1115] placeholder:text-[#5F6672] focus:outline-none focus:border-[#0F1115]"
             />
             {query ? (
               <button
@@ -236,7 +236,7 @@ export function LibraryExplorer() {
             <select
               value={selectedFmt}
               onChange={(e) => setSelectedFmt(e.target.value)}
-              className="px-3.5 py-2.5 rounded-full bg-white border border-neutral-200 text-xs font-bold text-[#0F1115] focus:outline-none"
+              className="px-3 py-2 rounded-full bg-white border border-neutral-200 text-xs font-bold text-[#0F1115] focus:outline-none"
             >
               <option value="ALL">All Formats</option>
               <option value="PDF">PDF</option>
@@ -248,7 +248,7 @@ export function LibraryExplorer() {
             <select
               value={sortMode}
               onChange={(e) => setSortMode(e.target.value as "covers" | "title" | "size")}
-              className="px-3.5 py-2.5 rounded-full bg-white border border-neutral-200 text-xs font-bold text-[#0F1115] focus:outline-none"
+              className="px-3 py-2 rounded-full bg-white border border-neutral-200 text-xs font-bold text-[#0F1115] focus:outline-none"
             >
               <option value="covers">Covers First</option>
               <option value="title">Title A–Z</option>
@@ -258,7 +258,7 @@ export function LibraryExplorer() {
             <button
               type="button"
               onClick={surpriseBook}
-              className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-full bg-[#0F1115] hover:bg-neutral-800 text-white text-xs font-bold transition"
+              className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full bg-[#0F1115] hover:bg-neutral-800 text-white text-xs font-bold transition"
             >
               <Sparkles className="w-3.5 h-3.5 text-[#C6F353]" />
               Surprise Me
@@ -268,7 +268,7 @@ export function LibraryExplorer() {
               href={getDriveFolderUrl("1fMsplDtUnpUhnNBJGKvYQ1sdZx0QVJWq")}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-full bg-white border border-neutral-200 hover:border-[#0F1115] text-xs font-bold text-[#0F1115] transition"
+              className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full bg-white border border-neutral-200 hover:border-[#0F1115] text-xs font-bold text-[#0F1115] transition"
             >
               <HardDrive className="w-3.5 h-3.5" />
               Drive
@@ -277,15 +277,15 @@ export function LibraryExplorer() {
           </div>
         </div>
 
-        {/* Category Pills */}
-        <div className="flex flex-wrap items-center gap-2">
+        {/* Category Pills with horizontal scroll on small screens */}
+        <div className="flex items-center gap-2 overflow-x-auto pb-1.5 pt-0.5 no-scrollbar flex-nowrap sm:flex-wrap">
           <button
             type="button"
             onClick={() => {
               setSelectedCat("ALL");
               setSelectedClass("");
             }}
-            className={`px-3.5 py-1.5 rounded-full text-xs font-bold border transition ${
+            className={`px-3.5 py-1.5 rounded-full text-xs font-bold border transition shrink-0 ${
               selectedCat === "ALL"
                 ? "bg-[#0F1115] text-white border-[#0F1115]"
                 : "bg-white text-[#0F1115] border-neutral-200 hover:border-[#0F1115]"
@@ -300,7 +300,7 @@ export function LibraryExplorer() {
               setSelectedCat("SAVED");
               setSelectedClass("");
             }}
-            className={`inline-flex items-center gap-1 px-3.5 py-1.5 rounded-full text-xs font-bold border transition ${
+            className={`inline-flex items-center gap-1 px-3.5 py-1.5 rounded-full text-xs font-bold border transition shrink-0 ${
               selectedCat === "SAVED"
                 ? "bg-[#C6F353] text-[#0F1115] border-[#0F1115]"
                 : "bg-white text-[#0F1115] border-neutral-200 hover:border-[#0F1115]"
@@ -320,7 +320,7 @@ export function LibraryExplorer() {
                   setSelectedCat(c);
                   if (c !== "Education & Textbooks") setSelectedClass("");
                 }}
-                className={`px-3.5 py-1.5 rounded-full text-xs font-bold border transition ${
+                className={`px-3.5 py-1.5 rounded-full text-xs font-bold border transition shrink-0 ${
                   active
                     ? "bg-[#0F1115] text-[#C6F353] border-[#0F1115]"
                     : "bg-white text-[#5F6672] border-neutral-200 hover:text-[#0F1115]"
@@ -332,13 +332,13 @@ export function LibraryExplorer() {
           })}
         </div>
 
-        {/* 1-Tap Class 1-12 Chips */}
+        {/* 1-Tap Class 1-12 Chips with horizontal scroll */}
         {selectedCat === "Education & Textbooks" ? (
-          <div className="flex flex-wrap items-center gap-1.5 pt-2 border-t border-neutral-200">
+          <div className="flex items-center gap-1.5 pt-2 border-t border-neutral-200 overflow-x-auto pb-1 no-scrollbar flex-nowrap sm:flex-wrap">
             <button
               type="button"
               onClick={() => setSelectedClass("")}
-              className={`px-3 py-1 rounded-full text-[11px] font-bold border transition ${
+              className={`px-3 py-1 rounded-full text-[11px] font-bold border transition shrink-0 ${
                 !selectedClass
                   ? "bg-[#0F1115] text-white border-[#0F1115]"
                   : "bg-white text-[#5F6672] border-neutral-200"
@@ -351,7 +351,7 @@ export function LibraryExplorer() {
                 key={cls}
                 type="button"
                 onClick={() => setSelectedClass(selectedClass === cls ? "" : cls)}
-                className={`px-3 py-1 rounded-full text-[11px] font-bold border transition ${
+                className={`px-3 py-1 rounded-full text-[11px] font-bold border transition shrink-0 ${
                   selectedClass === cls
                     ? "bg-[#C6F353] text-[#0F1115] border-[#0F1115]"
                     : "bg-white text-[#0F1115] border-neutral-200 hover:border-[#0F1115]"
@@ -380,7 +380,7 @@ export function LibraryExplorer() {
           <p className="text-xs text-[#5F6672]">Try clearing a filter or searching another keyword.</p>
         </div>
       ) : (
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4">
           {shown.map((book) => {
             const isSaved = savedSet.has(book.id);
             return (
@@ -394,12 +394,12 @@ export function LibraryExplorer() {
                   className="aspect-[2/3] w-full bg-[#F5F6F8] overflow-hidden relative"
                 >
                   <CoverThumb book={book} />
-                  <span className="absolute top-2 left-2 px-2 py-0.5 rounded-full bg-[#0F1115]/85 text-[10px] font-bold text-white">
+                  <span className="absolute top-2 left-2 px-2 py-0.5 rounded-full bg-[#0F1115]/85 text-[9px] sm:text-[10px] font-bold text-white">
                     {book.fmt}
                   </span>
                 </button>
 
-                <div className="p-3 flex-1 flex flex-col justify-between gap-2">
+                <div className="p-2.5 sm:p-3 flex-1 flex flex-col justify-between gap-1.5 sm:gap-2">
                   <div>
                     <h3
                       className="text-xs font-extrabold text-[#0F1115] line-clamp-2 leading-snug"
@@ -407,16 +407,16 @@ export function LibraryExplorer() {
                     >
                       {book.title}
                     </h3>
-                    <p className="text-[11px] text-[#5F6672] line-clamp-1 mt-0.5">{book.author}</p>
+                    <p className="text-[10px] sm:text-[11px] text-[#5F6672] line-clamp-1 mt-0.5">{book.author}</p>
                   </div>
 
-                  <div className="flex items-center gap-1.5 pt-1">
+                  <div className="flex items-center gap-1 sm:gap-1.5 pt-1">
                     <button
                       type="button"
                       onClick={() => setPreviewBook(book)}
-                      className="flex-1 inline-flex items-center justify-center gap-1 py-1.5 rounded-full bg-[#0F1115] hover:bg-neutral-800 text-white text-[11px] font-bold transition"
+                      className="flex-1 inline-flex items-center justify-center gap-1 py-1 sm:py-1.5 rounded-full bg-[#0F1115] hover:bg-neutral-800 text-white text-[10px] sm:text-[11px] font-bold transition"
                     >
-                      <BookOpen className="w-3.5 h-3.5 text-[#C6F353]" />
+                      <BookOpen className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-[#C6F353]" />
                       Read
                     </button>
 
@@ -425,22 +425,22 @@ export function LibraryExplorer() {
                       target="_blank"
                       rel="noopener noreferrer"
                       title={`Download (${formatBytes(book.size)})`}
-                      className="w-7 h-7 rounded-full bg-[#F5F6F8] hover:bg-[#C6F353] text-[#0F1115] flex items-center justify-center transition"
+                      className="w-6 h-6 sm:w-7 sm:h-7 rounded-full bg-[#F5F6F8] hover:bg-[#C6F353] text-[#0F1115] flex items-center justify-center transition shrink-0"
                     >
-                      <Download className="w-3.5 h-3.5" />
+                      <Download className="w-3 h-3 sm:w-3.5 sm:h-3.5" />
                     </a>
 
                     <button
                       type="button"
                       onClick={() => toggleSave(book.id)}
                       title={isSaved ? "Remove bookmark" : "Bookmark"}
-                      className={`w-7 h-7 rounded-full flex items-center justify-center transition ${
+                      className={`w-6 h-6 sm:w-7 sm:h-7 rounded-full flex items-center justify-center transition shrink-0 ${
                         isSaved
                           ? "bg-[#C6F353] text-[#0F1115]"
                           : "bg-[#F5F6F8] text-[#5F6672] hover:text-[#0F1115]"
                       }`}
                     >
-                      <Bookmark className="w-3.5 h-3.5" fill={isSaved ? "currentColor" : "none"} />
+                      <Bookmark className="w-3 h-3 sm:w-3.5 sm:h-3.5" fill={isSaved ? "currentColor" : "none"} />
                     </button>
                   </div>
                 </div>
@@ -456,7 +456,7 @@ export function LibraryExplorer() {
           <button
             type="button"
             onClick={() => setVisibleCount((c) => c + PAGE_SIZE)}
-            className="px-6 py-3 rounded-full bg-[#0F1115] hover:bg-neutral-800 text-sm font-bold text-white transition"
+            className="w-full sm:w-auto px-6 py-2.5 sm:py-3 rounded-full bg-[#0F1115] hover:bg-neutral-800 text-xs sm:text-sm font-bold text-white transition text-center"
           >
             Load More Books ({(filtered.length - visibleCount).toLocaleString()} remaining)
           </button>
@@ -466,36 +466,36 @@ export function LibraryExplorer() {
       {/* In-Page Reader Preview Modal */}
       {previewBook ? (
         <div
-          className="fixed inset-0 z-50 bg-black/75 backdrop-blur-sm flex items-center justify-center p-3 sm:p-6"
+          className="fixed inset-0 z-50 bg-black/75 backdrop-blur-sm flex items-center justify-center p-2 sm:p-6"
           onClick={() => setPreviewBook(null)}
         >
           <div
-            className="w-full max-w-5xl h-[88vh] rounded-3xl bg-white border border-neutral-200 overflow-hidden flex flex-col shadow-2xl"
+            className="w-full max-w-5xl h-[92vh] sm:h-[88vh] rounded-2xl sm:rounded-3xl bg-white border border-neutral-200 overflow-hidden flex flex-col shadow-2xl"
             onClick={(e) => e.stopPropagation()}
           >
-            <div className="px-5 py-3.5 border-b border-neutral-200 flex items-center justify-between gap-3 bg-white">
-              <div className="min-w-0">
-                <h3 className="text-sm font-extrabold text-[#0F1115] truncate">{previewBook.title}</h3>
-                <p className="text-[11px] text-[#5F6672] truncate">
+            <div className="px-4 sm:px-5 py-3 sm:py-3.5 border-b border-neutral-200 flex items-center justify-between gap-2.5 bg-white">
+              <div className="min-w-0 flex-1">
+                <h3 className="text-xs sm:text-sm font-extrabold text-[#0F1115] truncate">{previewBook.title}</h3>
+                <p className="text-[10px] sm:text-[11px] text-[#5F6672] truncate">
                   {previewBook.author} · {previewBook.fmt} · {formatBytes(previewBook.size)}
                 </p>
               </div>
-              <div className="flex items-center gap-2 shrink-0">
+              <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
                 <a
                   href={getDownloadUrl(previewBook.id)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-[#0F1115] text-white text-xs font-bold"
+                  className="inline-flex items-center gap-1 sm:gap-1.5 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full bg-[#0F1115] text-white text-[11px] sm:text-xs font-bold"
                 >
-                  <Download className="w-3.5 h-3.5 text-[#C6F353]" />
+                  <Download className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-[#C6F353]" />
                   Download
                 </a>
                 <button
                   type="button"
                   onClick={() => setPreviewBook(null)}
-                  className="w-8 h-8 rounded-full bg-[#F5F6F8] text-[#0F1115] flex items-center justify-center"
+                  className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-[#F5F6F8] text-[#0F1115] flex items-center justify-center hover:bg-neutral-200"
                 >
-                  <X className="w-4 h-4" />
+                  <X className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
                 </button>
               </div>
             </div>

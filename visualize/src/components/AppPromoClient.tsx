@@ -64,38 +64,38 @@ export function AppPromoClient() {
   return (
     <div className="min-h-screen bg-white text-[#0F1115]">
       {/* Hero Section */}
-      <section className="max-w-6xl mx-auto px-5 sm:px-8 pt-12 pb-16 sm:pt-16 sm:pb-20">
-        <div className="grid lg:grid-cols-12 gap-12 items-center">
+      <section className="max-w-6xl mx-auto px-4 sm:px-8 pt-8 pb-12 sm:pt-16 sm:pb-20">
+        <div className="grid lg:grid-cols-12 gap-8 lg:gap-12 items-center">
           {/* Left Copy + Dual Black Pill Badges */}
-          <div className="lg:col-span-6 space-y-6">
-            <h1 className="text-4xl sm:text-5xl lg:text-[54px] font-extrabold tracking-tight leading-[1.08] text-[#0F1115]">
+          <div className="lg:col-span-6 space-y-4 sm:space-y-6 text-center lg:text-left">
+            <h1 className="text-3xl sm:text-5xl lg:text-[54px] font-extrabold tracking-tight leading-[1.12] text-[#0F1115]">
               Read your favorite books easily with AnaBook.
             </h1>
 
-            <p className="text-base sm:text-lg text-[#5F6672] max-w-md leading-relaxed">
+            <p className="text-sm sm:text-lg text-[#5F6672] max-w-md mx-auto lg:mx-0 leading-relaxed">
               Carry 22,166+ Bangla, English &amp; NCTB Class 1–12 books in your pocket with the cleanest offline mobile library.
             </p>
 
-            <div className="flex flex-wrap items-center gap-3 pt-2">
+            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-2.5 sm:gap-3 pt-2">
               <a
                 href={APK_URL}
-                className="inline-flex items-center gap-3 px-5 py-3 rounded-full bg-[#0F1115] hover:bg-neutral-800 text-white transition shadow-md"
+                className="inline-flex items-center gap-2.5 sm:gap-3 px-4 sm:px-5 py-2.5 sm:py-3 rounded-full bg-[#0F1115] hover:bg-neutral-800 text-white transition shadow-md"
               >
-                <Smartphone className="w-5 h-5 text-[#C6F353]" />
+                <Smartphone className="w-4 h-4 sm:w-5 sm:h-5 text-[#C6F353]" />
                 <div className="text-left leading-tight">
-                  <span className="block text-[10px] text-neutral-300 font-medium">Download for</span>
-                  <span className="block text-sm font-bold">Android APK</span>
+                  <span className="block text-[9px] sm:text-[10px] text-neutral-300 font-medium">Download for</span>
+                  <span className="block text-xs sm:text-sm font-bold">Android APK</span>
                 </div>
               </a>
 
               <Link
                 href="/library"
-                className="inline-flex items-center gap-3 px-5 py-3 rounded-full bg-[#0F1115] hover:bg-neutral-800 text-white transition shadow-md"
+                className="inline-flex items-center gap-2.5 sm:gap-3 px-4 sm:px-5 py-2.5 sm:py-3 rounded-full bg-[#0F1115] hover:bg-neutral-800 text-white transition shadow-md"
               >
-                <Globe className="w-5 h-5 text-[#C6F353]" />
+                <Globe className="w-4 h-4 sm:w-5 sm:h-5 text-[#C6F353]" />
                 <div className="text-left leading-tight">
-                  <span className="block text-[10px] text-neutral-300 font-medium">Browse in browser</span>
-                  <span className="block text-sm font-bold">Online Library</span>
+                  <span className="block text-[9px] sm:text-[10px] text-neutral-300 font-medium">Browse in browser</span>
+                  <span className="block text-xs sm:text-sm font-bold">Online Library</span>
                 </div>
               </Link>
             </div>
@@ -213,8 +213,8 @@ export function AppPromoClient() {
       </section>
 
       {/* Soft Light-Gray 3-Column Metrics Strip */}
-      <section className="max-w-5xl mx-auto px-5 sm:px-8 pb-16">
-        <div className="rounded-3xl bg-[#F5F6F8] px-6 py-8 grid sm:grid-cols-3 gap-8 text-center">
+      <section className="max-w-5xl mx-auto px-4 sm:px-8 pb-12 sm:pb-16">
+        <div className="rounded-3xl bg-[#F5F6F8] px-4 sm:px-6 py-6 sm:py-8 grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 text-center">
           <div className="space-y-1.5">
             <div className="flex items-center justify-center gap-0.5 text-amber-500">
               {Array.from({ length: 5 }).map((_, i) => (
@@ -248,23 +248,23 @@ export function AppPromoClient() {
       </section>
 
       {/* Signature 3 Pastel Feature Cards Section */}
-      <section id="features" className="max-w-5xl mx-auto px-5 sm:px-8 py-12 space-y-12">
+      <section id="features" className="max-w-5xl mx-auto px-4 sm:px-8 py-8 sm:py-12 space-y-8 sm:space-y-12">
         <div className="text-center max-w-xl mx-auto space-y-2">
-          <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[#0F1115] leading-tight">
+          <h2 className="text-2xl sm:text-4xl font-extrabold tracking-tight text-[#0F1115] leading-tight">
             Unleash the true potential for offline reading.
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 sm:gap-6">
           {/* Card 1: Pastel Yellow */}
-          <div className="rounded-3xl bg-[#FFE98A] p-7 flex flex-col justify-between gap-8 min-h-[280px]">
+          <div className="rounded-3xl bg-[#FFE98A] p-6 sm:p-7 flex flex-col justify-between gap-6 sm:gap-8 min-h-[250px] sm:min-h-[280px]">
             <div className="space-y-4">
               <div className="w-11 h-11 rounded-full bg-white text-[#0F1115] flex items-center justify-center shadow-sm">
                 <WifiOff className="w-5 h-5" />
               </div>
               <div className="space-y-2">
-                <h3 className="text-lg font-extrabold text-[#0F1115]">100% Offline Reader</h3>
-                <p className="text-sm text-[#0F1115]/75 leading-relaxed">
+                <h3 className="text-base sm:text-lg font-extrabold text-[#0F1115]">100% Offline Reader</h3>
+                <p className="text-xs sm:text-sm text-[#0F1115]/75 leading-relaxed">
                   Caches all 22,166+ books locally, plus 1-tap full-section downloads for any class or author.
                 </p>
               </div>
@@ -272,7 +272,7 @@ export function AppPromoClient() {
             <div>
               <Link
                 href="/library"
-                className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-full bg-[#0F1115] hover:bg-neutral-800 text-white text-xs font-bold transition"
+                className="inline-flex items-center gap-1.5 px-4 sm:px-5 py-2 sm:py-2.5 rounded-full bg-[#0F1115] hover:bg-neutral-800 text-white text-xs font-bold transition"
               >
                 Explore Library
                 <ArrowRight className="w-3.5 h-3.5" />
@@ -281,14 +281,14 @@ export function AppPromoClient() {
           </div>
 
           {/* Card 2: Pastel Lavender */}
-          <div className="rounded-3xl bg-[#C7BEFF] p-7 flex flex-col justify-between gap-8 min-h-[280px]">
+          <div className="rounded-3xl bg-[#C7BEFF] p-6 sm:p-7 flex flex-col justify-between gap-6 sm:gap-8 min-h-[250px] sm:min-h-[280px]">
             <div className="space-y-4">
               <div className="w-11 h-11 rounded-full bg-white text-[#0F1115] flex items-center justify-center shadow-sm">
                 <Zap className="w-5 h-5" />
               </div>
               <div className="space-y-2">
-                <h3 className="text-lg font-extrabold text-[#0F1115]">Class 1–12 &amp; Authors</h3>
-                <p className="text-sm text-[#0F1115]/75 leading-relaxed">
+                <h3 className="text-base sm:text-lg font-extrabold text-[#0F1115]">Class 1–12 &amp; Authors</h3>
+                <p className="text-xs sm:text-sm text-[#0F1115]/75 leading-relaxed">
                   Instant NCTB class chips, 30 custom 3D category icons, and 131+ Drive-hosted author portraits.
                 </p>
               </div>
@@ -296,7 +296,7 @@ export function AppPromoClient() {
             <div>
               <Link
                 href="/library?cat=Education%20%26%20Textbooks"
-                className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-full bg-[#0F1115] hover:bg-neutral-800 text-white text-xs font-bold transition"
+                className="inline-flex items-center gap-1.5 px-4 sm:px-5 py-2 sm:py-2.5 rounded-full bg-[#0F1115] hover:bg-neutral-800 text-white text-xs font-bold transition"
               >
                 Browse Classes
                 <ArrowRight className="w-3.5 h-3.5" />
@@ -305,14 +305,14 @@ export function AppPromoClient() {
           </div>
 
           {/* Card 3: Pastel Peach */}
-          <div className="rounded-3xl bg-[#FFD2C6] p-7 flex flex-col justify-between gap-8 min-h-[280px]">
+          <div className="rounded-3xl bg-[#FFD2C6] p-6 sm:p-7 flex flex-col justify-between gap-6 sm:gap-8 min-h-[250px] sm:min-h-[280px]">
             <div className="space-y-4">
               <div className="w-11 h-11 rounded-full bg-white text-[#0F1115] flex items-center justify-center shadow-sm">
                 <ShieldCheck className="w-5 h-5" />
               </div>
               <div className="space-y-2">
-                <h3 className="text-lg font-extrabold text-[#0F1115]">Full-Screen Mistouch Lock</h3>
-                <p className="text-sm text-[#0F1115]/75 leading-relaxed">
+                <h3 className="text-base sm:text-lg font-extrabold text-[#0F1115]">Full-Screen Mistouch Lock</h3>
+                <p className="text-xs sm:text-sm text-[#0F1115]/75 leading-relaxed">
                   Fast right-edge scroll rail paired with a lock toggle that blocks accidental taps while reading.
                 </p>
               </div>
@@ -320,7 +320,7 @@ export function AppPromoClient() {
             <div>
               <a
                 href={APK_URL}
-                className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-full bg-[#0F1115] hover:bg-neutral-800 text-white text-xs font-bold transition"
+                className="inline-flex items-center gap-1.5 px-4 sm:px-5 py-2 sm:py-2.5 rounded-full bg-[#0F1115] hover:bg-neutral-800 text-white text-xs font-bold transition"
               >
                 Download APK
                 <Download className="w-3.5 h-3.5" />
@@ -331,10 +331,10 @@ export function AppPromoClient() {
       </section>
 
       {/* Split Feature Showcase (Mirrors Lower Section of Reference) */}
-      <section className="max-w-5xl mx-auto px-5 sm:px-8 py-14">
-        <div className="grid md:grid-cols-12 gap-10 items-center">
+      <section className="max-w-5xl mx-auto px-4 sm:px-8 py-10 sm:py-14">
+        <div className="grid md:grid-cols-12 gap-8 sm:gap-10 items-center">
           {/* Left Interactive Theme Studio Card (No Phone Frame) */}
-          <div className="md:col-span-6 rounded-3xl bg-[#F5F6F8] p-6 sm:p-7 space-y-5">
+          <div className="md:col-span-6 rounded-3xl bg-[#F5F6F8] p-5 sm:p-7 space-y-4 sm:space-y-5">
             {/* Top Row: Studio Heading + Light / Dark Segmented Pill Toggle */}
             <div className="flex items-center justify-between gap-3">
               <span className="text-sm font-extrabold text-[#0F1115]">
@@ -473,28 +473,28 @@ export function AppPromoClient() {
           </div>
 
           {/* Right Clean Copy */}
-          <div className="md:col-span-6 space-y-5">
-            <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[#0F1115] leading-tight">
+          <div className="md:col-span-6 space-y-4 sm:space-y-5 text-center md:text-left">
+            <h2 className="text-2xl sm:text-4xl font-extrabold tracking-tight text-[#0F1115] leading-tight">
               Personalized reading, themes &amp; stats in one place.
             </h2>
-            <p className="text-sm sm:text-base text-[#5F6672] leading-relaxed">
+            <p className="text-xs sm:text-base text-[#5F6672] leading-relaxed">
               Track your daily reading streak, completed books, pages read, and exact local storage usage. Switch between Espresso, Matcha, Midnight, Sepia, and Rosewood themes in Light or Dark mode.
             </p>
-            <div className="flex flex-wrap items-center gap-3 pt-1">
+            <div className="flex flex-wrap items-center justify-center md:justify-start gap-2.5 sm:gap-3 pt-1">
               <a
                 href={APK_URL}
-                className="inline-flex items-center gap-2.5 pl-5 pr-2 py-2 rounded-full bg-[#0F1115] hover:bg-neutral-800 text-white text-sm font-semibold transition"
+                className="inline-flex items-center gap-2 sm:gap-2.5 pl-4 sm:pl-5 pr-1.5 sm:pr-2 py-1.5 sm:py-2 rounded-full bg-[#0F1115] hover:bg-neutral-800 text-white text-xs sm:text-sm font-semibold transition"
               >
                 <span>Download AnaBook APK</span>
-                <span className="w-7 h-7 rounded-full bg-[#C6F353] text-[#0F1115] flex items-center justify-center">
-                  <Download className="w-3.5 h-3.5 stroke-[2.5]" />
+                <span className="w-6 h-6 sm:w-7 sm:h-7 rounded-full bg-[#C6F353] text-[#0F1115] flex items-center justify-center shrink-0">
+                  <Download className="w-3 h-3 sm:w-3.5 sm:h-3.5 stroke-[2.5]" />
                 </span>
               </a>
               <Link
                 href="/library"
-                className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-full bg-[#F5F6F8] hover:bg-neutral-200 text-[#0F1115] text-sm font-bold transition"
+                className="inline-flex items-center gap-1.5 px-4 sm:px-5 py-2 sm:py-2.5 rounded-full bg-[#F5F6F8] hover:bg-neutral-200 text-[#0F1115] text-xs sm:text-sm font-bold transition"
               >
-                <Layers className="w-4 h-4" />
+                <Layers className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
                 Online Library
               </Link>
             </div>
@@ -503,31 +503,31 @@ export function AppPromoClient() {
       </section>
 
       {/* About Developer Band */}
-      <section id="about" className="max-w-5xl mx-auto px-5 sm:px-8 py-12">
-        <div className="rounded-3xl bg-[#F5F6F8] p-7 sm:p-9 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
-          <div className="flex items-center gap-4">
+      <section id="about" className="max-w-5xl mx-auto px-4 sm:px-8 py-8 sm:py-12">
+        <div className="rounded-3xl bg-[#F5F6F8] p-6 sm:p-9 flex flex-col sm:flex-row items-center sm:items-center justify-between gap-6 text-center sm:text-left">
+          <div className="flex flex-col sm:flex-row items-center gap-3.5 sm:gap-4">
             <img
               src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/developer-profile.png`}
               alt="Salman Anik"
-              className="w-16 h-16 rounded-full object-cover border-2 border-[#0F1115]"
+              className="w-16 h-16 rounded-full object-cover border-2 border-[#0F1115] shrink-0"
             />
             <div>
               <span className="text-[11px] font-bold uppercase tracking-wider text-[#5F6672]">
                 Built &amp; Curated By
               </span>
-              <h3 className="text-xl font-extrabold text-[#0F1115]">Salman Anik</h3>
+              <h3 className="text-lg sm:text-xl font-extrabold text-[#0F1115]">Salman Anik</h3>
               <p className="text-xs sm:text-sm text-[#5F6672]">
                 CSE Student at East West University, Dhaka · Creator of AnaBook &amp; AnaPharm
               </p>
             </div>
           </div>
 
-          <div className="flex flex-wrap items-center gap-2">
+          <div className="flex flex-wrap items-center justify-center sm:justify-end gap-2">
             <a
               href="https://salmananik.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-[#0F1115] text-white text-xs font-bold hover:bg-neutral-800 transition"
+              className="inline-flex items-center gap-1.5 px-3.5 sm:px-4 py-2 rounded-full bg-[#0F1115] text-white text-xs font-bold hover:bg-neutral-800 transition"
             >
               <Globe className="w-3.5 h-3.5 text-[#C6F353]" />
               Portfolio
@@ -536,14 +536,14 @@ export function AppPromoClient() {
               href="https://github.com/salman-anik"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-white border border-neutral-200 text-[#0F1115] text-xs font-bold hover:border-neutral-400 transition"
+              className="inline-flex items-center gap-1.5 px-3.5 sm:px-4 py-2 rounded-full bg-white border border-neutral-200 text-[#0F1115] text-xs font-bold hover:border-neutral-400 transition"
             >
               <Github className="w-3.5 h-3.5" />
               GitHub
             </a>
             <a
               href="mailto:salmananik.bd@gmail.com"
-              className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-white border border-neutral-200 text-[#0F1115] text-xs font-bold hover:border-neutral-400 transition"
+              className="inline-flex items-center gap-1.5 px-3.5 sm:px-4 py-2 rounded-full bg-white border border-neutral-200 text-[#0F1115] text-xs font-bold hover:border-neutral-400 transition"
             >
               <Mail className="w-3.5 h-3.5" />
               Email
@@ -553,17 +553,17 @@ export function AppPromoClient() {
       </section>
 
       {/* Clean White Footer */}
-      <footer className="border-t border-neutral-100 py-8 mt-4">
-        <div className="max-w-6xl mx-auto px-5 sm:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#5F6672]">
+      <footer className="border-t border-neutral-100 py-6 sm:py-8 mt-4">
+        <div className="max-w-6xl mx-auto px-4 sm:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#5F6672] text-center sm:text-left">
           <span className="inline-flex items-center gap-2 font-semibold text-[#0F1115]">
             <img
               src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/logo.png`}
               alt="AnaBook Logo"
-              className="w-6 h-6 rounded-lg object-cover"
+              className="w-5 h-5 sm:w-6 sm:h-6 rounded-lg object-cover"
             />
             AnaBook · Bangladesh&apos;s Biggest eBook Library
           </span>
-          <div className="flex items-center gap-5 font-medium">
+          <div className="flex flex-wrap justify-center items-center gap-4 sm:gap-5 font-medium">
             <Link href="/library" className="hover:text-[#0F1115]">
               Online Library
             </Link>
