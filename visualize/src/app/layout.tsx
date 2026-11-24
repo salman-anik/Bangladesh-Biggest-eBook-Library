@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     locale: "bn_BD",
     images: [
       {
-        url: "/logo.png",
+        url: `${process.env.NEXT_PUBLIC_BASE_PATH || ""}/logo.png`,
         width: 1024,
         height: 1024,
         alt: "AnaBook Logo",

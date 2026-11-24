@@ -6,6 +6,7 @@ import { Download } from "lucide-react";
 
 const APK_URL =
   "https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/raw/main/App/Bangladesh-eBook-Library.apk";
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 export function TopNavbar() {
   const pathname = usePathname();
@@ -17,7 +18,7 @@ export function TopNavbar() {
         {/* AnaBook Brand Logo */}
         <Link href="/" className="flex items-center gap-2.5 group">
           <img
-            src="/logo.png"
+            src={`${BASE_PATH}/logo.png`}
             alt="AnaBook Logo"
             className="w-9 h-9 rounded-xl object-cover shadow-xs group-hover:scale-105 transition"
           />
@@ -40,12 +41,12 @@ export function TopNavbar() {
           >
             Online Library
           </Link>
-          <a href="/#features" className="transition hover:text-[#0F1115]">
+          <Link href="/#features" className="transition hover:text-[#0F1115]">
             Features
-          </a>
-          <a href="/#about" className="transition hover:text-[#0F1115]">
+          </Link>
+          <Link href="/#about" className="transition hover:text-[#0F1115]">
             About
-          </a>
+          </Link>
         </nav>
 
         {/* Right Actions: Online Library (mobile) + Signature Black Pill with Lime Icon */}

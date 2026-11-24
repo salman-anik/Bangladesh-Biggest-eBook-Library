@@ -112,7 +112,8 @@ export function LibraryExplorer() {
 
   useEffect(() => {
     let cancelled = false;
-    fetch("/books.json")
+    const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+    fetch(`${basePath}/books.json`)
       .then((res) => {
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         return res.json() as Promise<CompactCatalog>;

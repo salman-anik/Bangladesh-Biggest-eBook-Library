@@ -507,7 +507,7 @@ export function AppPromoClient() {
         <div className="rounded-3xl bg-[#F5F6F8] p-7 sm:p-9 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
           <div className="flex items-center gap-4">
             <img
-              src="/developer-profile.png"
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/developer-profile.png`}
               alt="Salman Anik"
               className="w-16 h-16 rounded-full object-cover border-2 border-[#0F1115]"
             />
