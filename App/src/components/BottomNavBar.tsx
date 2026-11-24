@@ -4,7 +4,7 @@ import Svg, { Circle, Line, Path, Rect } from 'react-native-svg';
 
 import { useAppTheme } from '../context/ThemeContext';
 import type { TabKey } from '../types';
-import { BookOpenIcon, SettingsGearIcon } from './Icons';
+import { SettingsGearIcon } from './Icons';
 
 interface Props {
   activeTab: TabKey;
@@ -42,7 +42,11 @@ function StatsIcon({ color }: { color: string }) {
 }
 
 function LibraryNavIcon({ color }: { color: string }) {
-  return <BookOpenIcon size={20} color={color} />;
+  return (
+    <Svg width={20} height={20} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={1.9} strokeLinecap="round" strokeLinejoin="round">
+      <Path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+    </Svg>
+  );
 }
 
 function SettingsNavIcon({ color }: { color: string }) {
@@ -87,7 +91,7 @@ export function BottomNavBar({ activeTab, onSelectTab, bottomInset = 10 }: Props
         ]}
       >
         {renderTab('home', 'Home', HomeIcon)}
-        {renderTab('library', 'Library', LibraryNavIcon)}
+        {renderTab('library', 'Shelf', LibraryNavIcon)}
 
         <TouchableOpacity
           style={styles.fabWrap}

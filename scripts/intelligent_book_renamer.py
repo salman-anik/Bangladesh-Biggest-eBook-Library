@@ -1088,18 +1088,32 @@ def upsert_drive_text_file(
     return ""
 
 
+def make_batch_id(applied_at: str, prefix: str = "batch") -> str:
+    """Create a sortable batch identifier like batch_20261124_004315 from an ISO timestamp."""
+    try:
+        parsed = dt.datetime.fromisoformat(applied_at.replace("Z", "+00:00"))
+        parsed_utc = parsed.astimezone(dt.timezone.utc)
+    except Exception:
+        parsed_utc = dt.datetime.now(dt.timezone.utc)
+    return f"{prefix}_{parsed_utc.strftime('%Y%m%d_%H%M%S')}"
+
+
 def update_rename_changelog(
     repo_dir: Path,
     new_entries: list[dict[str, Any]],
     applied_at: str,
     sync_drive: bool = False,
+    batch_id: str | None = None,
+    default_action: str = "rename",
 ) -> dict[str, Any]:
-    """Append verified renames into persistent Library Management/Reports changelog files (and optionally Drive)."""
+    """Append verified Drive changes into persistent, rollback-capable Library Management/Reports files (and Drive)."""
     reports_dir = repo_dir / "Library Management" / "Reports"
     reports_dir.mkdir(parents=True, exist_ok=True)
     json_path = reports_dir / "rename_changelog.json"
     csv_path = reports_dir / "rename_changelog.csv"
     md_path = reports_dir / "RENAME_CHANGELOG.md"
+
+    batch_tag = batch_id or make_batch_id(applied_at)
 
     existing: list[dict[str, Any]] = []
     if json_path.exists():
@@ -1110,37 +1124,78 @@ def update_rename_changelog(
         except Exception:
             existing = []
 
-    seen = {(e.get("id"), e.get("old_name"), e.get("new_name")) for e in existing}
+    def _norm_key(item: dict[str, Any]) -> tuple[str, str, str, str, str, str, str]:
+        return (
+            str(item.get("batch_id") or ""),
+            str(item.get("action") or "rename"),
+            str(item.get("id") or ""),
+            str(item.get("old_parent_id") or ""),
+            str(item.get("new_parent_id") or ""),
+            str(item.get("old_name") or ""),
+            str(item.get("new_name") or ""),
+        )
+
+    seen = {_norm_key(item) for item in existing}
     added = 0
     for e in new_entries:
-        key = (e.get("id"), e.get("old_name"), e.get("new_name"))
+        act = e.get("action") or default_action
+        old_p = e.get("old_parent_id") or e.get("parentId") or ""
+        new_p = e.get("new_parent_id") or e.get("parentId") or old_p
+        url = e.get("drive_url") or (
+            f"https://drive.google.com/drive/folders/{e['id']}"
+            if act == "create_folder"
+            else f"https://drive.google.com/file/d/{e['id']}/view"
+        )
+        record = {
+            "batch_id": e.get("batch_id") or batch_tag,
+            "timestamp": e.get("timestamp") or applied_at,
+            "action": act,
+            "id": e["id"],
+            "folder": e.get("folder", ""),
+            "old_parent_id": old_p,
+            "new_parent_id": new_p,
+            "old_name": e.get("old_name", ""),
+            "new_name": e.get("new_name", ""),
+            "category": e.get("category", ""),
+            "drive_url": url,
+        }
+        key = _norm_key(record)
         if key in seen:
             continue
         seen.add(key)
-        existing.append(
-            {
-                "timestamp": e.get("timestamp") or applied_at,
-                "id": e["id"],
-                "folder": e.get("folder", ""),
-                "old_name": e["old_name"],
-                "new_name": e["new_name"],
-                "category": e.get("category", ""),
-                "drive_url": f"https://drive.google.com/file/d/{e['id']}/view",
-            }
-        )
+        existing.append(record)
         added += 1
 
-    json_path.write_text(json.dumps(existing, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    json_text = json.dumps(existing, ensure_ascii=False, indent=2) + "\n"
+    json_path.write_text(json_text, encoding="utf-8")
 
     csv_buf = io.StringIO()
     w = csv.writer(csv_buf)
-    w.writerow(["Timestamp (UTC)", "File ID", "Folder", "Previous Filename", "New Filename", "Category", "Drive Link"])
+    w.writerow(
+        [
+            "Batch ID",
+            "Timestamp (UTC)",
+            "Action",
+            "File ID",
+            "Folder",
+            "Old Parent ID",
+            "New Parent ID",
+            "Previous Filename",
+            "New Filename",
+            "Category",
+            "Drive Link",
+        ]
+    )
     for item in existing:
         w.writerow(
             [
+                item.get("batch_id", ""),
                 item.get("timestamp", ""),
+                item.get("action", "rename"),
                 item.get("id", ""),
                 item.get("folder", ""),
+                item.get("old_parent_id", ""),
+                item.get("new_parent_id", ""),
                 item.get("old_name", ""),
                 item.get("new_name", ""),
                 item.get("category", ""),
@@ -1154,23 +1209,23 @@ def update_rename_changelog(
         return (s or "").replace("|", "\\|").replace("\n", " ")
 
     md_lines = [
-        "# Library Rename Changelog",
+        "# Library Drive Change & Rename Changelog",
         "",
         "[🏠 Library Home](../../README.md) / [Library Management](../README.md) / [Reports](README.md) / **Rename Changelog**",
         "",
-        f"> Permanent audit log preserving original filenames before Stage D renames. Machine-readable copies: [rename_changelog.csv](rename_changelog.csv) · [rename_changelog.json](rename_changelog.json)",
+        f"> Versioned, rollback-capable audit log preserving every original filename & folder parent ID before changes on Google Drive. Revert any batch with `python scripts/rollback_drive_changes.py --batch <BATCH_ID> --apply`. Machine-readable copies: [rename_changelog.csv](rename_changelog.csv) · [rename_changelog.json](rename_changelog.json)",
         "",
         f"- **Last Updated (UTC):** `{applied_at}`",
-        f"- **Total Renamed Files Recorded:** `{len(existing)}`",
+        f"- **Total Drive Changes Recorded:** `{len(existing)}`",
         "",
-        "| Timestamp (UTC) | Folder | Previous Filename | New Filename | Category | File Link |",
-        "|---|---|---|---|---|---|",
+        "| Batch ID | Timestamp (UTC) | Action | Folder | Previous Filename | New Filename | Category | File Link |",
+        "|---|---|---|---|---|---|---|---|",
     ]
     for item in existing:
         fid = item.get("id", "")
         url = item.get("drive_url") or f"https://drive.google.com/file/d/{fid}/view"
         md_lines.append(
-            f"| `{_esc(item.get('timestamp', ''))}` | `{_esc(item.get('folder', ''))}` | {_esc(item.get('old_name', ''))} | {_esc(item.get('new_name', ''))} | {_esc(item.get('category', ''))} | [Open on Drive]({url}) |"
+            f"| `{_esc(item.get('batch_id', ''))}` | `{_esc(item.get('timestamp', ''))}` | `{_esc(item.get('action', 'rename'))}` | `{_esc(item.get('folder', ''))}` | {_esc(item.get('old_name', ''))} | {_esc(item.get('new_name', ''))} | {_esc(item.get('category', ''))} | [Open on Drive]({url}) |"
         )
     md_text = "\n".join(md_lines) + "\n"
     md_path.write_text(md_text, encoding="utf-8")
@@ -1178,6 +1233,7 @@ def update_rename_changelog(
     drive_ids: dict[str, str] = {}
     if sync_drive and DRIVE_REPORTS_FOLDER_ID:
         for fname, data_bytes, mime in (
+            ("rename_changelog.json", json_text.encode("utf-8"), "application/json; charset=utf-8"),
             ("rename_changelog.csv", csv_bytes, "text/csv; charset=utf-8"),
             ("RENAME_CHANGELOG.md", md_text.encode("utf-8"), "text/markdown; charset=utf-8"),
         ):
@@ -1187,6 +1243,7 @@ def update_rename_changelog(
                 print(f"[Changelog] Warning: failed to sync {fname} to Drive: {exc}", flush=True)
 
     return {
+        "batch_id": batch_tag,
         "total_entries": len(existing),
         "added_entries": added,
         "drive_synced_files": drive_ids,
@@ -1230,8 +1287,11 @@ def apply_and_verify_renames(report_json_path: Path, repo_dir: Path, slug: str) 
             rename_log.append(
                 {
                     "id": r["id"],
+                    "action": "rename",
                     "folder": r["folder"],
                     "parentId": r["parentId"],
+                    "old_parent_id": r["parentId"],
+                    "new_parent_id": r["parentId"],
                     "old_name": old_name,
                     "new_name": new_name,
                     "identified_book": r["identified_book"],
@@ -1295,12 +1355,15 @@ def apply_and_verify_renames(report_json_path: Path, repo_dir: Path, slug: str) 
 
     applied_at = dt.datetime.now(dt.timezone.utc).isoformat()
     changelog_total_entries = 0
+    changelog_batch_id = ""
     if rename_log:
         cl_info = update_rename_changelog(repo_dir, rename_log, applied_at, sync_drive=True)
         changelog_total_entries = cl_info["total_entries"]
+        changelog_batch_id = cl_info["batch_id"]
 
     summary = {
         "applied_at": applied_at,
+        "batch_id": changelog_batch_id,
         "renamed_count": len(rename_log),
         "verified_count": verified,
         "verification_failures": len(verification_failures),

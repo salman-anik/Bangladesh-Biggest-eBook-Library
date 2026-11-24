@@ -3,12 +3,11 @@ import { Image, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'rea
 
 import { AuthorAvatar } from '../components/AuthorAvatar';
 import { BookCover } from '../components/BookCover';
-import { CircularProgress } from '../components/CircularProgress';
-import { DotPatternBackground } from '../components/DotPatternBackground';
 import {
   BookOpenIcon,
   CheckCircleIcon,
   ChevronRightIcon,
+  CloseIcon,
   DownloadIcon,
   FlameIcon,
   SparklesIcon,
@@ -31,6 +30,7 @@ interface Props {
   onMakeOffline: (book: Book) => void;
   onExplorePath: (path: string[]) => void;
   onBrowseLibrary: () => void;
+  onRemoveFromReading: (bookId: string) => void;
 }
 
 const WEEK_LETTERS = ['M', 'T', 'W', 'T', 'F', 'S', 'S'];
@@ -48,6 +48,7 @@ export function HomeScreen({
   onMakeOffline,
   onExplorePath,
   onBrowseLibrary,
+  onRemoveFromReading,
 }: Props) {
   const { theme, fs } = useAppTheme();
   const [quoteIdx, setQuoteIdx] = useState(0);
@@ -65,10 +66,7 @@ export function HomeScreen({
   }, []);
 
   const offlineCount = Object.keys(offlineById).length;
-  const featuredBook = useMemo(() => {
-    if (currentlyReading) return currentlyReading;
-    return books.find((b) => Boolean(b.coverId)) || books[0] || null;
-  }, [currentlyReading, books]);
+  const featuredBook = currentlyReading;
 
   const featuredProg = featuredBook ? progressById[featuredBook.id] : undefined;
   const featuredOffline = featuredBook ? offlineById[featuredBook.id] : undefined;
@@ -215,81 +213,106 @@ export function HomeScreen({
       </View>
 
       {/* Featured / Continue Reading Card */}
-      <View style={styles.sectionBlock}>
-        <View style={styles.sectionHead}>
-          <Text style={[styles.sectionTitle, { color: theme.ink, fontSize: fs(17) }]}>Continue reading</Text>
-          <TouchableOpacity style={styles.moreLinkBtn} onPress={onBrowseLibrary}>
-            <Text style={[styles.sectionAction, { color: theme.accent, fontSize: fs(12) }]}>All</Text>
-            <ChevronRightIcon size={15} color={theme.accent} />
-          </TouchableOpacity>
-        </View>
+      {featuredBook ? (
+        <View style={styles.sectionBlock}>
+          <View style={styles.sectionHead}>
+            <Text style={[styles.sectionTitle, { color: theme.ink, fontSize: fs(17) }]}>Continue reading</Text>
+            <TouchableOpacity style={styles.moreLinkBtn} onPress={onBrowseLibrary}>
+              <Text style={[styles.sectionAction, { color: theme.accent, fontSize: fs(12) }]}>All</Text>
+              <ChevronRightIcon size={15} color={theme.accent} />
+            </TouchableOpacity>
+          </View>
 
-        {featuredBook ? (
           <View style={[styles.heroCard, { backgroundColor: theme.surface, borderColor: theme.border }]}>
-            <DotPatternBackground />
-            <View style={styles.heroLeft}>
-              <Text style={[styles.heroCategory, { color: theme.accent, fontSize: fs(10) }]} numberOfLines={1}>
-                {(featuredBook.sub || featuredBook.cat).split('/').pop()}
-              </Text>
-              <Text style={[styles.heroTitle, { color: theme.ink, fontSize: fs(16) }]} numberOfLines={2}>
-                {featuredBook.title}
-              </Text>
-              <Text style={[styles.heroAuthor, { color: theme.muted, fontSize: fs(11) }]} numberOfLines={1}>
-                {featuredBook.author} · {featuredBook.fmt}
-              </Text>
-
-              <View style={styles.heroMetaRow}>
-                <CircularProgress percentage={featuredPct} size={54} strokeWidth={5} />
-                <View style={styles.heroBtnRow}>
-                  <TouchableOpacity
-                    style={[styles.continueBtn, { backgroundColor: theme.cream }]}
-                    onPress={() => onContinueReading(featuredBook)}
-                    activeOpacity={0.88}
-                  >
-                    <BookOpenIcon size={15} color={theme.creamInk} />
-                    <Text style={[styles.continueBtnText, { color: theme.creamInk, fontSize: fs(12) }]}>
-                      {featuredOffline ? 'Offline' : 'Read'}
-                    </Text>
-                  </TouchableOpacity>
-
-                  {featuredOffline ? (
-                    <View style={[styles.heroIconBtn, { backgroundColor: theme.sage, borderColor: theme.sage }]}>
-                      <CheckCircleIcon size={16} color={theme.ink} />
-                    </View>
-                  ) : featuredDlPct !== undefined ? (
-                    <View style={[styles.heroIconBtn, { borderColor: theme.accent }]}>
-                      <Text style={[styles.dlPctSmall, { color: theme.accent }]}>{featuredDlPct}%</Text>
-                    </View>
-                  ) : (
-                    <TouchableOpacity
-                      style={[styles.heroIconBtn, { borderColor: theme.accent }]}
-                      onPress={() => onMakeOffline(featuredBook)}
-                      accessibilityLabel="Download offline"
-                    >
-                      <DownloadIcon size={16} color={theme.accent} />
-                    </TouchableOpacity>
-                  )}
-                </View>
-              </View>
-            </View>
-
             <TouchableOpacity
-              style={styles.heroRight}
               onPress={() => onOpenBookDetail(featuredBook)}
-              activeOpacity={0.85}
+              activeOpacity={0.88}
             >
               <BookCover
                 book={featuredBook}
                 localCoverUri={featuredOffline?.coverLocalUri}
-                width={92}
-                height={138}
+                width={102}
+                height={150}
                 borderRadius={10}
                 isOffline={Boolean(featuredOffline)}
               />
             </TouchableOpacity>
+
+            <View style={styles.heroDetails}>
+              <View style={styles.heroTopMetaRow}>
+                <View style={[styles.heroCatPill, { backgroundColor: theme.accentSoft }]}>
+                  <Text style={[styles.heroCategory, { color: theme.accent, fontSize: fs(10) }]} numberOfLines={1}>
+                    {(featuredBook.sub || featuredBook.cat).split('/').pop()}
+                  </Text>
+                </View>
+
+                <TouchableOpacity
+                  style={[styles.heroDismissBtn, { backgroundColor: theme.surfaceAlt, borderColor: theme.border }]}
+                  onPress={() => onRemoveFromReading(featuredBook.id)}
+                  accessibilityLabel="Remove from Continue Reading"
+                >
+                  <CloseIcon size={13} color={theme.muted} />
+                </TouchableOpacity>
+              </View>
+
+              <TouchableOpacity onPress={() => onOpenBookDetail(featuredBook)} activeOpacity={0.85}>
+                <Text style={[styles.heroTitle, { color: theme.ink, fontSize: fs(17) }]} numberOfLines={2}>
+                  {featuredBook.title}
+                </Text>
+              </TouchableOpacity>
+
+              <Text style={[styles.heroAuthor, { color: theme.muted, fontSize: fs(11.5) }]} numberOfLines={1}>
+                {featuredBook.author} · {featuredBook.fmt}
+              </Text>
+
+              <View style={styles.heroProgWrap}>
+                <View style={[styles.heroProgTrack, { backgroundColor: theme.surfaceAlt }]}>
+                  <View
+                    style={[
+                      styles.heroProgFill,
+                      { width: `${Math.max(featuredPct > 0 ? 5 : 2, Math.min(100, Math.round(featuredPct)))}%`, backgroundColor: theme.accent },
+                    ]}
+                  />
+                </View>
+                <Text style={[styles.heroProgPct, { color: theme.accent, fontSize: fs(11) }]}>
+                  {Math.round(featuredPct)}%
+                </Text>
+              </View>
+
+              <View style={styles.heroBtnRow}>
+                <TouchableOpacity
+                  style={[styles.continueBtn, { backgroundColor: theme.cream }]}
+                  onPress={() => onContinueReading(featuredBook)}
+                  activeOpacity={0.88}
+                >
+                  <BookOpenIcon size={15} color={theme.creamInk} />
+                  <Text style={[styles.continueBtnText, { color: theme.creamInk, fontSize: fs(12) }]}>
+                    {featuredOffline ? 'Read Offline' : 'Continue'}
+                  </Text>
+                </TouchableOpacity>
+
+                {featuredOffline ? (
+                  <View style={[styles.heroIconBtn, { backgroundColor: theme.sage, borderColor: theme.sage }]}>
+                    <CheckCircleIcon size={16} color={theme.ink} />
+                  </View>
+                ) : featuredDlPct !== undefined ? (
+                  <View style={[styles.heroIconBtn, { borderColor: theme.accent }]}>
+                    <Text style={[styles.dlPctSmall, { color: theme.accent }]}>{featuredDlPct}%</Text>
+                  </View>
+                ) : (
+                  <TouchableOpacity
+                    style={[styles.heroIconBtn, { borderColor: theme.accent }]}
+                    onPress={() => onMakeOffline(featuredBook)}
+                    accessibilityLabel="Download offline"
+                  >
+                    <DownloadIcon size={16} color={theme.accent} />
+                  </TouchableOpacity>
+                )}
+              </View>
+            </View>
           </View>
-        ) : null}
-      </View>
+        </View>
+      ) : null}
 
       {/* Personalized "Suggested For You" Section */}
       {suggestedBooks.length > 0 ? (
@@ -380,43 +403,45 @@ export function HomeScreen({
         </View>
       ) : null}
 
-      {/* Discover & Offline Shelf */}
+      {/* Discover & Offline 3-Column Visual Bookshelf Grid */}
       <View style={styles.sectionBlock}>
-        <Text style={[styles.sectionTitle, { color: theme.ink, fontSize: fs(17) }]}>
-          {offlineCount > 0 ? 'Offline & Recent' : 'Discover'}
-        </Text>
-        <ScrollView
-          horizontal
-          showsHorizontalScrollIndicator={false}
-          contentContainerStyle={styles.shelfScroll}
-        >
-          {shelfBooks.map((item) => {
+        <View style={styles.sectionHead}>
+          <Text style={[styles.sectionTitle, { color: theme.ink, fontSize: fs(17) }]}>
+            {offlineCount > 0 ? 'Offline & Recent' : 'Discover'}
+          </Text>
+          <TouchableOpacity style={styles.moreLinkBtn} onPress={onBrowseLibrary}>
+            <Text style={[styles.sectionAction, { color: theme.accent, fontSize: fs(12) }]}>Shelf</Text>
+            <ChevronRightIcon size={15} color={theme.accent} />
+          </TouchableOpacity>
+        </View>
+        <View style={styles.discoverGrid}>
+          {shelfBooks.slice(0, 9).map((item) => {
             const offline = offlineById[item.id];
             return (
               <TouchableOpacity
                 key={item.id}
-                style={styles.shelfItem}
+                style={styles.discoverTile}
                 onPress={() => onOpenBookDetail(item)}
-                activeOpacity={0.85}
+                activeOpacity={0.86}
               >
                 <BookCover
                   book={item}
                   localCoverUri={offline?.coverLocalUri}
-                  width={92}
-                  height={138}
+                  width={96}
+                  height={140}
                   borderRadius={9}
                   isOffline={Boolean(offline)}
                 />
-                <Text style={[styles.shelfTitle, { color: theme.ink, fontSize: fs(11) }]} numberOfLines={2}>
+                <Text style={[styles.discoverTitle, { color: theme.ink, fontSize: fs(11.5) }]} numberOfLines={2}>
                   {item.title}
                 </Text>
-                <Text style={[styles.shelfMeta, { color: theme.muted, fontSize: fs(10) }]} numberOfLines={1}>
-                  {item.fmt} · {formatBytes(item.size)}
+                <Text style={[styles.discoverAuthor, { color: theme.muted, fontSize: fs(10) }]} numberOfLines={1}>
+                  {item.author}
                 </Text>
               </TouchableOpacity>
             );
           })}
-        </ScrollView>
+        </View>
       </View>
 
       {/* Compact Streak + Quote Companion Card */}
@@ -489,27 +514,53 @@ const styles = StyleSheet.create({
   sectionAction: { fontWeight: '700' },
   heroCard: {
     borderRadius: 22,
-    padding: 16,
+    padding: 15,
+    flexDirection: 'row',
+    alignItems: 'center',
+    borderWidth: 1,
+    gap: 14,
+  },
+  heroDetails: { flex: 1, gap: 5 },
+  heroTopMetaRow: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    overflow: 'hidden',
-    borderWidth: 1,
-    gap: 12,
+    gap: 8,
   },
-  heroLeft: { flex: 1, gap: 5 },
+  heroCatPill: {
+    borderRadius: 8,
+    paddingHorizontal: 8,
+    paddingVertical: 3,
+    flexShrink: 1,
+  },
+  heroDismissBtn: {
+    width: 26,
+    height: 26,
+    borderRadius: 13,
+    borderWidth: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
   heroCategory: { fontWeight: '800', textTransform: 'uppercase', letterSpacing: 0.6 },
-  heroTitle: { fontWeight: '800', lineHeight: 21 },
+  heroTitle: { fontWeight: '800', lineHeight: 22 },
   heroAuthor: {},
-  heroMetaRow: { flexDirection: 'row', alignItems: 'center', gap: 10, marginTop: 8 },
-  heroBtnRow: { flex: 1, flexDirection: 'row', alignItems: 'center', gap: 8 },
+  heroProgWrap: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+    marginTop: 3,
+  },
+  heroProgTrack: { flex: 1, height: 6, borderRadius: 3, overflow: 'hidden' },
+  heroProgFill: { height: '100%', borderRadius: 3 },
+  heroProgPct: { fontWeight: '800', minWidth: 30, textAlign: 'right' },
+  heroBtnRow: { flexDirection: 'row', alignItems: 'center', gap: 8, marginTop: 6 },
   continueBtn: {
     flex: 1,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
     gap: 6,
-    borderRadius: 20,
+    borderRadius: 16,
     paddingHorizontal: 12,
     paddingVertical: 9,
   },
@@ -523,7 +574,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   dlPctSmall: { fontSize: 10, fontWeight: '800' },
-  heroRight: { alignItems: 'center' },
   recScroll: { gap: 12, paddingRight: 8 },
   recCard: {
     width: 126,
@@ -546,10 +596,26 @@ const styles = StyleSheet.create({
   authorItem: { width: 82, alignItems: 'center', gap: 5 },
   authorChipName: { fontWeight: '700', textAlign: 'center', lineHeight: 14 },
   authorChipCount: { fontWeight: '600' },
-  shelfScroll: { gap: 12, paddingRight: 8 },
-  shelfItem: { width: 96, gap: 5 },
-  shelfTitle: { fontWeight: '700', lineHeight: 15 },
-  shelfMeta: {},
+  discoverGrid: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'flex-start',
+    gap: 10,
+    rowGap: 16,
+  },
+  discoverTile: {
+    width: '31%',
+    alignItems: 'center',
+    gap: 6,
+  },
+  discoverTitle: {
+    fontWeight: '700',
+    lineHeight: 15.5,
+    alignSelf: 'stretch',
+  },
+  discoverAuthor: {
+    alignSelf: 'stretch',
+  },
   companionCard: {
     borderRadius: 20,
     padding: 16,

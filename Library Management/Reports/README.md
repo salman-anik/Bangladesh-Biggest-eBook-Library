@@ -24,4 +24,5 @@ Cumulative audit log preserving original filenames before any Stage D rename:
 - **Google Drive (`Library Management/Library Statistics & Reports`):**
   - [RENAME_CHANGELOG.md on Drive](https://drive.google.com/file/d/1DCLPeemxaDP64EIwnUudj-DSHuQJzEGT/view)
   - [rename_changelog.csv on Drive](https://drive.google.com/file/d/1mcwBxTXwDflXvlNCrV_wPfYxh9HoyHz2/view)
+  - [rename_changelog.json on Drive](https://drive.google.com/file/d/1KDe50rE7ZRWM4qVlPdb2jfC-yxlhBYWB/view)
   - [Open Reports Folder on Drive](https://drive.google.com/drive/folders/1jdKRqfUfxyv78EfCZnv8A_CTQnDN_Lp_)

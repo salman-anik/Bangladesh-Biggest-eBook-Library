@@ -1,10 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { ActivityIndicator, Alert, BackHandler, StyleSheet, Text, View } from 'react-native';
+import { ActivityIndicator, Alert, BackHandler, Linking, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { SafeAreaProvider, SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { BookDetailModal } from './src/components/BookDetailModal';
 import { BottomNavBar } from './src/components/BottomNavBar';
+import { CloseIcon } from './src/components/Icons';
 import { ReaderModal } from './src/components/ReaderModal';
 import { ThemeProvider } from './src/context/ThemeContext';
 import { ExploreScreen } from './src/screens/ExploreScreen';
@@ -27,6 +28,7 @@ import {
   syncRemoteCatalog,
   updateProgressMap,
 } from './src/services/libraryStore';
+import { type AppUpdateInfo, checkForAppUpdate } from './src/services/updateService';
 import { THEME_PRESETS } from './src/theme';
 import type {
   AppPersistedState,
@@ -65,6 +67,9 @@ function MainApp() {
   const [explorePath, setExplorePath] = useState<string[]>([]);
   const [detailBook, setDetailBook] = useState<Book | null>(null);
   const [readerBook, setReaderBook] = useState<Book | null>(null);
+  const [updateInfo, setUpdateInfo] = useState<AppUpdateInfo | null>(null);
+  const [checkingUpdate, setCheckingUpdate] = useState(false);
+  const [updateBannerDismissed, setUpdateBannerDismissed] = useState(false);
 
   const themeMode: ThemeMode = appState.themeMode === 'dark' ? 'dark' : 'light';
   const themePreset: ThemePresetKey =
@@ -136,12 +141,8 @@ function MainApp() {
   }, []);
 
   const currentlyReading = useMemo(() => {
-    if (!books.length) return null;
-    if (appState.currentlyReadingId) {
-      const found = books.find((b) => b.id === appState.currentlyReadingId);
-      if (found) return found;
-    }
-    return books.find((b) => Boolean(b.coverId)) || books[0];
+    if (!books.length || !appState.currentlyReadingId) return null;
+    return books.find((b) => b.id === appState.currentlyReadingId) || null;
   }, [books, appState.currentlyReadingId]);
 
   const markReadActivity = useCallback(
@@ -356,6 +357,63 @@ function MainApp() {
     [persist]
   );
 
+  const handleRemoveFromReading = useCallback(
+    (bookId: string) => {
+      persist((prev) => {
+        const nextProgress = { ...prev.progressById };
+        delete nextProgress[bookId];
+        let nextCurrent = prev.currentlyReadingId;
+        if (prev.currentlyReadingId === bookId) {
+          const remaining = Object.values(nextProgress).sort((a, b) =>
+            (b.updatedAt || '').localeCompare(a.updatedAt || '')
+          );
+          nextCurrent = remaining[0]?.bookId || null;
+        }
+        return {
+          ...prev,
+          currentlyReadingId: nextCurrent,
+          progressById: nextProgress,
+        };
+      });
+    },
+    [persist]
+  );
+
+  const handleCheckUpdate = useCallback(async (manual: boolean) => {
+    setCheckingUpdate(true);
+    try {
+      const info = await checkForAppUpdate();
+      setUpdateInfo(info);
+      if (info.hasUpdate) {
+        setUpdateBannerDismissed(false);
+        if (manual) {
+          Alert.alert(
+            `Update Available (v${info.latestVersion})`,
+            info.releaseNotes || 'A new version of AnaBook is available.',
+            [
+              { text: 'Later', style: 'cancel' },
+              { text: 'Update Now', onPress: () => void Linking.openURL(info.downloadUrl) },
+            ]
+          );
+        }
+      } else if (manual) {
+        if (info.error) {
+          Alert.alert('Update Check Failed', info.error);
+        } else {
+          Alert.alert('Up to Date', `You are running the latest version (v${info.currentVersion}).`);
+        }
+      }
+    } finally {
+      setCheckingUpdate(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (!booting) {
+      void handleCheckUpdate(false);
+    }
+  }, [booting, handleCheckUpdate]);
+
   const handleManualSync = useCallback(async () => {
     setSyncingCatalog(true);
     try {
@@ -423,6 +481,42 @@ function MainApp() {
       <SafeAreaView style={[styles.root, { backgroundColor: activeTheme.bg }]} edges={['top']}>
         <StatusBar style={themeMode === 'dark' ? 'light' : 'dark'} />
 
+        {updateInfo?.hasUpdate && !updateBannerDismissed ? (
+          <View
+            style={[
+              styles.updateBanner,
+              { backgroundColor: activeTheme.surface, borderColor: activeTheme.accent },
+            ]}
+          >
+            <View style={styles.updateBannerInfo}>
+              <Text style={[styles.updateBannerTitle, { color: activeTheme.ink }]} numberOfLines={1}>
+                Update Available (v{updateInfo.latestVersion})
+              </Text>
+              {updateInfo.releaseNotes ? (
+                <Text style={[styles.updateBannerSub, { color: activeTheme.muted }]} numberOfLines={1}>
+                  {updateInfo.releaseNotes}
+                </Text>
+              ) : null}
+            </View>
+            <TouchableOpacity
+              style={[styles.updateBannerBtn, { backgroundColor: activeTheme.accent }]}
+              onPress={() => void Linking.openURL(updateInfo.downloadUrl)}
+              activeOpacity={0.86}
+            >
+              <Text style={[styles.updateBannerBtnText, { color: activeTheme.creamInk }]}>
+                Update Now
+              </Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={styles.updateBannerClose}
+              onPress={() => setUpdateBannerDismissed(true)}
+              accessibilityLabel="Dismiss update notice"
+            >
+              <CloseIcon size={15} color={activeTheme.muted} />
+            </TouchableOpacity>
+          </View>
+        ) : null}
+
         <View style={styles.stage}>
           {activeTab === 'home' ? (
             <HomeScreen
@@ -441,19 +535,33 @@ function MainApp() {
                 setActiveTab('explore');
               }}
               onBrowseLibrary={() => setActiveTab('library')}
+              onRemoveFromReading={handleRemoveFromReading}
             />
           ) : activeTab === 'library' ? (
             <LibraryScreen
               books={books}
               categories={catalogMeta.cats}
+              currentlyReading={currentlyReading}
+              progressById={appState.progressById}
+              savedIds={appState.savedIds}
               offlineById={appState.offlineById}
               downloadingMap={downloadingMap}
               initialCategory={selectedCategory}
               initialSubcategory={selectedSubcategory}
-              onClearSubcategory={() => setSelectedSubcategory('')}
+              onClearSubcategory={() => {
+                setSelectedCategory('');
+                setSelectedSubcategory('');
+              }}
               onOpenDetail={(b) => setDetailBook(b)}
               onQuickRead={handleQuickRead}
               onMakeOffline={handleMakeOffline}
+              onToggleSave={handleToggleSave}
+              onRemoveOffline={handleRemoveOffline}
+              onRemoveFromReading={handleRemoveFromReading}
+              onExploreCategories={() => {
+                setExplorePath([]);
+                setActiveTab('explore');
+              }}
             />
           ) : activeTab === 'explore' ? (
             <ExploreScreen
@@ -494,8 +602,11 @@ function MainApp() {
               catalogMeta={catalogMeta}
               syncingCatalog={syncingCatalog}
               offlineById={appState.offlineById}
+              updateInfo={updateInfo}
+              checkingUpdate={checkingUpdate}
               onSyncCatalog={handleManualSync}
               onClearCatalogCache={handleClearCache}
+              onCheckUpdate={() => void handleCheckUpdate(true)}
               onOpenOfflineBook={(entry) => {
                 const b = books.find((x) => x.id === entry.bookId) || {
                   id: entry.bookId,
@@ -520,7 +631,7 @@ function MainApp() {
         <BottomNavBar
           activeTab={activeTab}
           onSelectTab={(t) => {
-            if (t === 'explore' && activeTab !== 'explore') {
+            if (t === 'explore') {
               setExplorePath([]);
             }
             setActiveTab(t);
@@ -579,4 +690,25 @@ const styles = StyleSheet.create({
     fontSize: 15,
     fontWeight: '600',
   },
+  updateBanner: {
+    marginHorizontal: 14,
+    marginTop: 6,
+    borderRadius: 14,
+    borderWidth: 1,
+    paddingHorizontal: 12,
+    paddingVertical: 9,
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+  },
+  updateBannerInfo: { flex: 1, gap: 1 },
+  updateBannerTitle: { fontSize: 12.5, fontWeight: '800' },
+  updateBannerSub: { fontSize: 11 },
+  updateBannerBtn: {
+    borderRadius: 10,
+    paddingHorizontal: 10,
+    paddingVertical: 6,
+  },
+  updateBannerBtnText: { fontSize: 11.5, fontWeight: '800' },
+  updateBannerClose: { padding: 4 },
 });

@@ -31,6 +31,7 @@ import {
   formatBytes,
   getAppStorageUsage,
 } from '../services/libraryStore';
+import { CURRENT_APP_VERSION, type AppUpdateInfo } from '../services/updateService';
 import { THEME_PRESETS } from '../theme';
 import type { Book, FontScaleKey, OfflineBookEntry, ThemePresetKey } from '../types';
 
@@ -39,8 +40,11 @@ interface Props {
   catalogMeta: CatalogMeta;
   syncingCatalog: boolean;
   offlineById: Record<string, OfflineBookEntry>;
+  updateInfo: AppUpdateInfo | null;
+  checkingUpdate: boolean;
   onSyncCatalog: () => void;
   onClearCatalogCache: () => void;
+  onCheckUpdate: () => void;
   onOpenOfflineBook: (entry: OfflineBookEntry) => void;
   onRemoveOfflineBook: (bookId: string) => void;
 }
@@ -58,8 +62,11 @@ export function MoreScreen({
   catalogMeta,
   syncingCatalog,
   offlineById,
+  updateInfo,
+  checkingUpdate,
   onSyncCatalog,
   onClearCatalogCache,
+  onCheckUpdate,
   onOpenOfflineBook,
   onRemoveOfflineBook,
 }: Props) {
@@ -342,6 +349,54 @@ export function MoreScreen({
           </View>
         </View>
 
+        {/* App Updates Card */}
+        <View style={[styles.card, { backgroundColor: theme.surface, borderColor: updateInfo?.hasUpdate ? theme.accent : theme.border }]}>
+          <View style={styles.cardHeadRow}>
+            <View style={{ flex: 1, gap: 2 }}>
+              <Text style={[styles.cardTitle, { color: theme.ink, fontSize: fs(15) }]}>App Updates</Text>
+              <Text style={[styles.cardSub, { color: updateInfo?.hasUpdate ? theme.accent : theme.muted, fontSize: fs(11.5) }]}>
+                {updateInfo?.hasUpdate
+                  ? `New version v${updateInfo.latestVersion} available!`
+                  : `Installed: v${CURRENT_APP_VERSION} · ${updateInfo?.error ? 'Check unavailable' : 'Up to date'}`}
+              </Text>
+            </View>
+
+            <View style={styles.updateBtnsRow}>
+              <TouchableOpacity
+                style={[styles.checkUpdateBtn, { backgroundColor: theme.surfaceAlt, borderColor: theme.border }]}
+                onPress={onCheckUpdate}
+                disabled={checkingUpdate}
+                activeOpacity={0.82}
+              >
+                {checkingUpdate ? (
+                  <ActivityIndicator size="small" color={theme.accent} />
+                ) : (
+                  <Text style={[styles.checkUpdateText, { color: theme.ink, fontSize: fs(11.5) }]}>
+                    Check for Updates
+                  </Text>
+                )}
+              </TouchableOpacity>
+
+              {updateInfo?.hasUpdate ? (
+                <TouchableOpacity
+                  style={[styles.updateNowBtn, { backgroundColor: theme.accent }]}
+                  onPress={() => void Linking.openURL(updateInfo.downloadUrl)}
+                  activeOpacity={0.85}
+                >
+                  <Text style={[styles.updateNowText, { color: theme.creamInk, fontSize: fs(11.5) }]}>
+                    Update Now
+                  </Text>
+                </TouchableOpacity>
+              ) : null}
+            </View>
+          </View>
+          {updateInfo?.hasUpdate && updateInfo.releaseNotes ? (
+            <Text style={[styles.cardHint, { color: theme.muted, fontSize: fs(11.5) }]}>
+              {updateInfo.releaseNotes}
+            </Text>
+          ) : null}
+        </View>
+
         {/* Downloaded Offline Books */}
         <View style={[styles.card, { backgroundColor: theme.surface, borderColor: theme.border }]}>
           <View style={styles.cardHeadRow}>
@@ -585,6 +640,25 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  updateBtnsRow: { flexDirection: 'row', alignItems: 'center', gap: 8 },
+  checkUpdateBtn: {
+    borderWidth: 1,
+    borderRadius: 12,
+    paddingHorizontal: 11,
+    paddingVertical: 7,
+    minWidth: 118,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  checkUpdateText: { fontWeight: '700' },
+  updateNowBtn: {
+    borderRadius: 12,
+    paddingHorizontal: 11,
+    paddingVertical: 7,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  updateNowText: { fontWeight: '800' },
   offlineList: { gap: 9 },
   offlineItem: {
     flexDirection: 'row',
