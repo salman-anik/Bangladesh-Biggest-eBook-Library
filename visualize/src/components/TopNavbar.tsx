@@ -102,7 +102,7 @@ export function TopNavbar() {
               isLibrary ? "text-[#0F1115]" : "text-[#5F6672]"
             }`}
           >
-            Online Library (22,166+ Books)
+            Online Library (29,178+ Books)
           </Link>
           <Link
             href="/#features"

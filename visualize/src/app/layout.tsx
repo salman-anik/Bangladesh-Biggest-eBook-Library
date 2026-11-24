@@ -6,9 +6,9 @@ const SITE_URL = "https://anabook-bd.vercel.app/";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "AnaBook — Read 22,166+ Bangla & Academic Books Offline",
+  title: "AnaBook — Read 29,178+ Bangla & Academic Books Offline",
   description:
-    "AnaBook is a free offline-first Android eBook reader and Online Library with 22,166+ Bangla & English books, Class 1–12 NCTB textbooks, 131+ author portraits, and full-screen mistouch lock.",
+    "AnaBook is a free offline-first Android eBook reader and Online Library with 29,178+ Bangla & English books, Class 1–12 NCTB textbooks, 131+ author portraits, and full-screen mistouch lock.",
   keywords: [
     "AnaBook",
     "Bangladesh Biggest Ebook Library",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "AnaBook — Offline Android eBook App & Online Library",
     description:
-      "22,166+ categorized books, Class 1–12 NCTB textbooks, 5 reading themes, 131+ author portraits, batch offline downloads & full-screen mistouch lock.",
+      "29,178+ categorized books, Class 1–12 NCTB textbooks, 5 reading themes, 131+ author portraits, batch offline downloads & full-screen mistouch lock.",
     url: SITE_URL,
     siteName: "AnaBook",
     type: "website",

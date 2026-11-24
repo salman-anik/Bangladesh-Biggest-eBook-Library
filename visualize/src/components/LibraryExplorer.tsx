@@ -252,7 +252,7 @@ export function LibraryExplorer() {
               type="text"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder="Search 22,166+ Bangla & English books, authors, Class 1–12…"
+              placeholder="Search 29,178+ Bangla & English books, authors, Class 1–12…"
               className="w-full pl-11 pr-9 py-2.5 sm:py-3 rounded-full bg-white border border-neutral-200 text-xs sm:text-sm text-[#0F1115] placeholder:text-[#5F6672] focus:outline-none focus:border-[#0F1115]"
             />
             {query ? (

@@ -73,7 +73,7 @@ export function AppPromoClient() {
             </h1>
 
             <p className="text-sm sm:text-lg text-[#5F6672] max-w-md mx-auto lg:mx-0 leading-relaxed">
-              Carry 22,166+ Bangla, English &amp; NCTB Class 1–12 books in your pocket with the cleanest offline mobile library.
+              Carry 29,178+ Bangla, English &amp; NCTB Class 1–12 books in your pocket with the cleanest offline mobile library.
             </p>
 
             <div className="flex flex-wrap items-center justify-center lg:justify-start gap-2.5 sm:gap-3 pt-2">
@@ -115,7 +115,7 @@ export function AppPromoClient() {
                     Live Open Library
                   </span>
                   <span className="inline-flex items-center gap-1 text-xs font-extrabold text-[#0F1115] group-hover:translate-x-0.5 transition-transform">
-                    22,166+ Books
+                    29,178+ Books
                     <ArrowRight className="w-3.5 h-3.5" />
                   </span>
                 </div>
@@ -221,7 +221,7 @@ export function AppPromoClient() {
                 <Star key={i} className="w-4 h-4 fill-current" />
               ))}
             </div>
-            <p className="text-xs font-medium text-[#5F6672]">22,166+ Verified Resources</p>
+            <p className="text-xs font-medium text-[#5F6672]">29,178+ Verified Resources</p>
             <p className="text-lg font-extrabold text-[#0F1115]">Bangla &amp; English</p>
           </div>
 
@@ -265,7 +265,7 @@ export function AppPromoClient() {
               <div className="space-y-2">
                 <h3 className="text-base sm:text-lg font-extrabold text-[#0F1115]">100% Offline Reader</h3>
                 <p className="text-xs sm:text-sm text-[#0F1115]/75 leading-relaxed">
-                  Caches all 22,166+ books locally, plus 1-tap full-section downloads for any class or author.
+                  Caches all 29,178+ books locally, plus 1-tap full-section downloads for any class or author.
                 </p>
               </div>
             </div>
