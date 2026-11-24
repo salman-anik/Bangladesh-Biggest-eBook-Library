@@ -26,6 +26,11 @@ import {
 
 const PAGE_SIZE = 48;
 const SAVED_KEY = "anabook_saved_v1";
+const SUBCAT_CATEGORIES = new Set([
+  "Bangla Books",
+  "English Books",
+  "Religion Books",
+]);
 
 const CLASS_CHIPS = [
   "Pre-Primary",
@@ -41,6 +46,40 @@ const CLASS_CHIPS = [
   "Class 10",
   "Class 12",
 ];
+
+function getTopSubFolders(books: BookItem[], category: string): string[] {
+  const set = new Set<string>();
+  for (const b of books) {
+    if (b.cat === category && b.sub) {
+      const top = b.sub.split("/")[0]?.trim();
+      if (top) set.add(top);
+    }
+    if (b.extraPaths) {
+      for (const ep of b.extraPaths) {
+        if (ep.cat === category && ep.sub) {
+          const top = ep.sub.split("/")[0]?.trim();
+          if (top) set.add(top);
+        }
+      }
+    }
+  }
+  return Array.from(set).sort((a, b) => a.localeCompare(b));
+}
+
+function bookMatchesSubPrefix(
+  book: BookItem,
+  category: string,
+  prefix: string
+): boolean {
+  if (book.cat === category && book.sub.split("/")[0]?.trim() === prefix) {
+    return true;
+  }
+  return Boolean(
+    book.extraPaths?.some(
+      (p) => p.cat === category && p.sub.split("/")[0]?.trim() === prefix
+    )
+  );
+}
 
 function CoverThumb({ book }: { book: BookItem }) {
   const [stage, setStage] = useState<"primary" | "fallback" | "none">(
@@ -91,11 +130,13 @@ export function LibraryExplorer() {
   const [selectedCat, setSelectedCat] = useState("ALL");
   const [selectedClass, setSelectedClass] = useState("");
   const [selectedSeries, setSelectedSeries] = useState("");
+  const [selectedSub, setSelectedSub] = useState("");
   const [selectedFmt, setSelectedFmt] = useState("ALL");
   const [sortMode, setSortMode] = useState<"covers" | "title" | "size">("covers");
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const [savedIds, setSavedIds] = useState<string[]>([]);
   const [previewBook, setPreviewBook] = useState<BookItem | null>(null);
+  const [hydrated, setHydrated] = useState(false);
 
   useEffect(() => {
     try {
@@ -108,8 +149,55 @@ export function LibraryExplorer() {
       if (Array.isArray(stored)) setSavedIds(stored);
     } catch {
       // Ignore URL/storage error
+    } finally {
+      setHydrated(true);
     }
   }, []);
+
+  useEffect(() => {
+    if (!hydrated) return;
+    const trimmedQuery = query.trim();
+    if (trimmedQuery) {
+      document.title = `"${trimmedQuery}" — AnaBook | Bangladesh's Biggest eLibrary & PDF Library`;
+    } else if (selectedCat !== "ALL") {
+      const label = selectedCat === "SAVED" ? "Saved Books" : selectedCat;
+      document.title = `${label} — AnaBook | Bangladesh's Biggest eLibrary & PDF Library`;
+    } else {
+      document.title =
+        "Online Library — Bangladesh's Biggest PDF Library & eBook Library (29,178+ Books) | AnaBook — Bangladesh's Biggest eLibrary";
+    }
+
+    try {
+      const url = new URL(window.location.href);
+      if (trimmedQuery) {
+        url.searchParams.set("q", trimmedQuery);
+      } else {
+        url.searchParams.delete("q");
+      }
+      if (selectedCat !== "ALL") {
+        url.searchParams.set("cat", selectedCat);
+      } else {
+        url.searchParams.delete("cat");
+      }
+      url.searchParams.delete("category");
+      window.history.replaceState(
+        null,
+        "",
+        `${url.pathname}${url.search}${url.hash}`
+      );
+    } catch {
+      // Ignore history API error
+    }
+  }, [hydrated, query, selectedCat]);
+
+  useEffect(() => {
+    if (!previewBook) return;
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setPreviewBook(null);
+    };
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, [previewBook]);
 
   useEffect(() => {
     let cancelled = false;
@@ -151,24 +239,18 @@ export function LibraryExplorer() {
     });
   };
 
-  const seriesFolders = useMemo(() => {
-    const set = new Set<string>();
-    for (const b of books) {
-      if (b.cat === "Series & Collections" && b.sub) {
-        const top = b.sub.split("/")[0]?.trim();
-        if (top) set.add(top);
-      }
-      if (b.extraPaths) {
-        for (const ep of b.extraPaths) {
-          if (ep.cat === "Series & Collections" && ep.sub) {
-            const top = ep.sub.split("/")[0]?.trim();
-            if (top) set.add(top);
-          }
-        }
-      }
-    }
-    return Array.from(set).sort((a, b) => a.localeCompare(b));
-  }, [books]);
+  const seriesFolders = useMemo(
+    () => getTopSubFolders(books, "Series & Collections"),
+    [books]
+  );
+
+  const categorySubFolders = useMemo(
+    () =>
+      SUBCAT_CATEGORIES.has(selectedCat)
+        ? getTopSubFolders(books, selectedCat)
+        : [],
+    [books, selectedCat]
+  );
 
   const filtered = useMemo(() => {
     const terms = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
@@ -179,15 +261,19 @@ export function LibraryExplorer() {
         const matchesExtra = Boolean(b.extraPaths?.some((p) => p.cat === selectedCat));
         if (!matchesPrimary && !matchesExtra) return false;
       }
-      if (selectedCat === "Series & Collections" && selectedSeries) {
-        const matchPrimary =
-          b.cat === "Series & Collections" && b.sub.split("/")[0]?.trim() === selectedSeries;
-        const matchExtra = Boolean(
-          b.extraPaths?.some(
-            (p) => p.cat === "Series & Collections" && p.sub.split("/")[0]?.trim() === selectedSeries
-          )
-        );
-        if (!matchPrimary && !matchExtra) return false;
+      if (
+        selectedCat === "Series & Collections" &&
+        selectedSeries &&
+        !bookMatchesSubPrefix(b, "Series & Collections", selectedSeries)
+      ) {
+        return false;
+      }
+      if (
+        SUBCAT_CATEGORIES.has(selectedCat) &&
+        selectedSub &&
+        !bookMatchesSubPrefix(b, selectedCat, selectedSub)
+      ) {
+        return false;
       }
       if (selectedClass) {
         const leaf = (b.sub || "").split("/").pop()?.toLowerCase() || "";
@@ -208,11 +294,11 @@ export function LibraryExplorer() {
       list.sort((a, b) => a.title.localeCompare(b.title));
     }
     return list;
-  }, [books, query, selectedCat, selectedClass, selectedSeries, selectedFmt, sortMode, savedSet]);
+  }, [books, query, selectedCat, selectedClass, selectedSeries, selectedSub, selectedFmt, sortMode, savedSet]);
 
   useEffect(() => {
     setVisibleCount(PAGE_SIZE);
-  }, [query, selectedCat, selectedClass, selectedSeries, selectedFmt, sortMode]);
+  }, [query, selectedCat, selectedClass, selectedSeries, selectedSub, selectedFmt, sortMode]);
 
   const shown = filtered.slice(0, visibleCount);
 
@@ -243,6 +329,21 @@ export function LibraryExplorer() {
 
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-8 py-6 sm:py-8 space-y-5 sm:space-y-6 bg-white">
+      {/* Compact Editorial SEO Header */}
+      <section className="flex flex-col sm:flex-row sm:items-end justify-between gap-2 px-1">
+        <div className="space-y-1">
+          <h1 className="text-xl sm:text-2xl font-extrabold tracking-tight text-[#0F1115]">
+            Bangladesh’s Biggest eLibrary &amp; PDF Book Library
+          </h1>
+          <p className="text-xs sm:text-sm text-[#5F6672]">
+            Search, read online, and download {books.length.toLocaleString()}+ Bangla &amp; English PDF/EPUB books, Class 1–12 NCTB textbooks &amp; series collections.
+          </p>
+        </div>
+        <span className="inline-flex items-center self-start sm:self-auto px-3 py-1 rounded-full bg-[#F5F6F8] border border-neutral-200 text-[11px] font-bold text-[#0F1115] shrink-0">
+          {books.length.toLocaleString()} Books · {summary?.cats.length ?? 8} Categories
+        </span>
+      </section>
+
       {/* Search + Filters Panel */}
       <div className="rounded-2xl sm:rounded-3xl bg-[#F5F6F8] p-4 sm:p-5 space-y-3.5 sm:space-y-4">
         <div className="flex flex-col md:flex-row gap-3">
@@ -319,6 +420,7 @@ export function LibraryExplorer() {
               setSelectedCat("ALL");
               setSelectedClass("");
               setSelectedSeries("");
+              setSelectedSub("");
             }}
             className={`px-3.5 py-1.5 rounded-full text-xs font-bold border transition shrink-0 ${
               selectedCat === "ALL"
@@ -335,6 +437,7 @@ export function LibraryExplorer() {
               setSelectedCat("SAVED");
               setSelectedClass("");
               setSelectedSeries("");
+              setSelectedSub("");
             }}
             className={`inline-flex items-center gap-1 px-3.5 py-1.5 rounded-full text-xs font-bold border transition shrink-0 ${
               selectedCat === "SAVED"
@@ -356,6 +459,7 @@ export function LibraryExplorer() {
                   setSelectedCat(c);
                   if (c !== "Education & Textbooks") setSelectedClass("");
                   if (c !== "Series & Collections") setSelectedSeries("");
+                  setSelectedSub("");
                 }}
                 className={`px-3.5 py-1.5 rounded-full text-xs font-bold border transition shrink-0 ${
                   active
@@ -426,6 +530,37 @@ export function LibraryExplorer() {
                 }`}
               >
                 {sf}
+              </button>
+            ))}
+          </div>
+        ) : null}
+
+        {/* 1-Tap Bangla, English & Religion Subcategory Chips */}
+        {SUBCAT_CATEGORIES.has(selectedCat) && categorySubFolders.length > 0 ? (
+          <div className="flex items-center gap-1.5 pt-2 border-t border-neutral-200 overflow-x-auto pb-1 no-scrollbar flex-nowrap sm:flex-wrap">
+            <button
+              type="button"
+              onClick={() => setSelectedSub("")}
+              className={`px-3 py-1 rounded-full text-[11px] font-bold border transition shrink-0 ${
+                !selectedSub
+                  ? "bg-[#0F1115] text-white border-[#0F1115]"
+                  : "bg-white text-[#5F6672] border-neutral-200"
+              }`}
+            >
+              All {selectedCat}
+            </button>
+            {categorySubFolders.map((sub) => (
+              <button
+                key={sub}
+                type="button"
+                onClick={() => setSelectedSub(selectedSub === sub ? "" : sub)}
+                className={`px-3 py-1 rounded-full text-[11px] font-bold border transition shrink-0 ${
+                  selectedSub === sub
+                    ? "bg-[#C6F353] text-[#0F1115] border-[#0F1115]"
+                    : "bg-white text-[#0F1115] border-neutral-200 hover:border-[#0F1115]"
+                }`}
+              >
+                {sub}
               </button>
             ))}
           </div>
@@ -530,6 +665,49 @@ export function LibraryExplorer() {
           </button>
         </div>
       ) : null}
+
+      {/* Minimal SEO Footer */}
+      <footer className="border-t border-neutral-100 mt-10 pt-8 pb-4 space-y-4">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+          <div>
+            <h2 className="text-sm font-extrabold text-[#0F1115]">
+              AnaBook — Bangladesh’s Biggest Online eLibrary &amp; PDF Archive
+            </h2>
+            <p className="text-xs text-[#5F6672] mt-0.5">
+              {books.length.toLocaleString()} books ·{" "}
+              {summary?.authorsCount.toLocaleString() ?? "4,575"} authors ·{" "}
+              {savedIds.length.toLocaleString()} saved · Archive{" "}
+              {summary ? formatBytes(summary.totalBytes) : "—"}
+            </p>
+          </div>
+          <span className="text-xs text-[#5F6672]">
+            PDF · EPUB · MOBI · DOCX · NCTB Class 1–12
+          </span>
+        </div>
+
+        <p className="text-xs text-[#5F6672] leading-relaxed max-w-3xl">
+          Browse Bangladesh’s biggest free eLibrary, PDF library, and eBook library. Explore categorized Bangla books, English literature, Pre-Primary to Class 12 NCTB textbooks, Islamic &amp; comparative religion books, authors &amp; scholars, and multi-volume series with direct browser reading and offline Google Drive downloads.
+        </p>
+
+        <div className="flex flex-wrap items-center gap-2">
+          {(summary?.cats || []).map((c) => (
+            <button
+              key={c}
+              type="button"
+              onClick={() => {
+                setSelectedCat(c);
+                if (c !== "Education & Textbooks") setSelectedClass("");
+                if (c !== "Series & Collections") setSelectedSeries("");
+                setSelectedSub("");
+                window.scrollTo({ top: 0, behavior: "smooth" });
+              }}
+              className="px-3 py-1 rounded-full bg-[#F5F6F8] hover:bg-[#0F1115] text-[#5F6672] hover:text-[#C6F353] text-xs font-semibold transition"
+            >
+              {c}
+            </button>
+          ))}
+        </div>
+      </footer>
 
       {/* In-Page Reader Preview Modal */}
       {previewBook ? (
