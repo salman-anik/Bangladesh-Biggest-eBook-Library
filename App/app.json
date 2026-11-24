@@ -2,7 +2,7 @@
   "expo": {
     "name": "AnaBook",
     "slug": "AnaBook",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -16,7 +16,7 @@
     },
     "android": {
       "package": "com.salmananik.bangladeshebooklibrary",
-      "versionCode": 3,
+      "versionCode": 4,
       "adaptiveIcon": {
         "backgroundColor": "#FBFBF3",
         "foregroundImage": "./assets/android-icon-foreground.png",

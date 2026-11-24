@@ -21,6 +21,7 @@ import { BookDetailModal } from './src/components/BookDetailModal';
 import { BottomNavBar } from './src/components/BottomNavBar';
 import { CloseIcon } from './src/components/Icons';
 import { ReaderModal } from './src/components/ReaderModal';
+import { AppUpdateModal } from './src/components/AppUpdateModal';
 import { ThemeProvider } from './src/context/ThemeContext';
 import { ExploreScreen } from './src/screens/ExploreScreen';
 import { HomeScreen } from './src/screens/HomeScreen';
@@ -92,6 +93,7 @@ function MainApp() {
   const [detailBook, setDetailBook] = useState<Book | null>(null);
   const [readerBook, setReaderBook] = useState<Book | null>(null);
   const [updateInfo, setUpdateInfo] = useState<AppUpdateInfo | null>(null);
+  const [updateModalOpen, setUpdateModalOpen] = useState(false);
   const [checkingUpdate, setCheckingUpdate] = useState(false);
   const [updateBannerDismissed, setUpdateBannerDismissed] = useState(false);
 
@@ -463,14 +465,7 @@ function MainApp() {
       if (info.hasUpdate) {
         setUpdateBannerDismissed(false);
         if (manual) {
-          Alert.alert(
-            `Update Available (v${info.latestVersion})`,
-            info.releaseNotes || 'A new version of AnaBook is available.',
-            [
-              { text: 'Later', style: 'cancel' },
-              { text: 'Update Now', onPress: () => void Linking.openURL(info.downloadUrl) },
-            ]
-          );
+          setUpdateModalOpen(true);
         }
       } else if (manual) {
         if (info.error) {
@@ -629,7 +624,7 @@ function MainApp() {
             </View>
             <TouchableOpacity
               style={[styles.updateBannerBtn, { backgroundColor: activeTheme.accent }]}
-              onPress={() => void Linking.openURL(updateInfo.downloadUrl)}
+              onPress={() => setUpdateModalOpen(true)}
               activeOpacity={0.86}
             >
               <Text style={[styles.updateBannerBtnText, { color: activeTheme.creamInk }]}>
@@ -758,6 +753,7 @@ function MainApp() {
                 onSyncCatalog={handleManualSync}
                 onClearCatalogCache={handleClearCache}
                 onCheckUpdate={handleCheckUpdateManual}
+                onOpenUpdateModal={() => setUpdateModalOpen(true)}
                 onSelectCategory={handleSelectCategory}
                 onOpenBookDetail={handleOpenDetail}
                 onHorizontalTouchLock={handleHorizontalTouchLock}
@@ -796,6 +792,12 @@ function MainApp() {
           onClose={() => setReaderBook(null)}
           onMakeOffline={handleMakeOffline}
           onOpenOfflineExternal={handleOpenOffline}
+        />
+
+        <AppUpdateModal
+          visible={updateModalOpen}
+          updateInfo={updateInfo}
+          onClose={() => setUpdateModalOpen(false)}
         />
       </SafeAreaView>
     </ThemeProvider>

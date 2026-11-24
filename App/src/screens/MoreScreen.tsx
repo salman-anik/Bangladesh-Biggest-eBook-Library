@@ -55,6 +55,7 @@ interface Props {
   onSyncCatalog: () => void;
   onClearCatalogCache: () => void;
   onCheckUpdate: () => void;
+  onOpenUpdateModal?: () => void;
   onSelectCategory: (cat: string) => void;
   onOpenBookDetail: (book: Book) => void;
   onHorizontalTouchLock?: (locked: boolean) => void;
@@ -81,6 +82,7 @@ export const MoreScreen = React.memo(function MoreScreen({
   onSyncCatalog,
   onClearCatalogCache,
   onCheckUpdate,
+  onOpenUpdateModal,
   onSelectCategory,
   onOpenBookDetail,
   onHorizontalTouchLock,
@@ -429,7 +431,7 @@ export const MoreScreen = React.memo(function MoreScreen({
               {updateInfo?.hasUpdate ? (
                 <TouchableOpacity
                   style={[styles.updateNowBtn, { backgroundColor: theme.accent }]}
-                  onPress={() => void Linking.openURL(updateInfo.downloadUrl)}
+                  onPress={onOpenUpdateModal ? onOpenUpdateModal : () => void Linking.openURL(updateInfo.downloadUrl)}
                   activeOpacity={0.85}
                 >
                   <Text style={[styles.updateNowText, { color: theme.creamInk, fontSize: fs(11.5) }]}>

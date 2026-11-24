@@ -1,6 +1,6 @@
 {
-  "latestVersion": "1.1.1",
-  "versionCode": 3,
+  "latestVersion": "1.1.2",
+  "versionCode": 4,
   "downloadUrl": "https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/releases/latest",
-  "releaseNotes": "AnaBook v1.1.1 — Synchronized newly categorized Series & Collections offline starter cache, and enhanced mobile responsiveness across web library & navbar."
+  "releaseNotes": "AnaBook v1.1.2 — In-App Updater with live APK progress download, automatic package installer launch, and post-installation cache cleanup."
 }
