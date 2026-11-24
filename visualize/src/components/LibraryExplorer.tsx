@@ -2,206 +2,216 @@
 
 import React, { useEffect, useMemo, useState } from "react";
 import {
+  ArrowLeft,
   Bookmark,
   BookOpen,
-  Download,
+  ChevronRight,
+  Compass,
   ExternalLink,
   HardDrive,
+  Library,
   Loader2,
+  Moon,
+  RefreshCw,
   Search,
   Sparkles,
+  Sun,
+  Users,
   X,
 } from "lucide-react";
+import {
+  AuthorDetailRecord,
+  BookProgress,
+  getCategoryPalette,
+  QUOTES,
+  THEME_PRESETS,
+  ThemeMode,
+  ThemePresetKey,
+} from "@/lib/anabookTheme";
+import {
+  AuthorGroup,
+  buildLibraryTree,
+  collectNodeBooks,
+  extractAuthorDirectory,
+  FEATURED_AUTHOR_SHORTCUTS,
+  NCTB_CLASS_SHORTCUTS,
+  TreeNode,
+} from "@/lib/libraryTree";
 import {
   BookItem,
   CompactCatalog,
   formatBytes,
-  getCoverUrl,
-  getDownloadUrl,
   getDriveFolderUrl,
-  getPreviewUrl,
   inflateCatalog,
   LibrarySummary,
 } from "@/types/library";
+import { AuthorAvatar } from "./library/AuthorAvatar";
+import { AuthorDetailModal } from "./library/AuthorDetailModal";
+import { BookCollectionView } from "./library/BookCollectionView";
+import { BookCover } from "./library/BookCover";
+import { BookDetailModal } from "./library/BookDetailModal";
+import { CategoryIcon } from "./library/CategoryIcon";
+import { ReaderPreviewModal } from "./library/ReaderPreviewModal";
 
-const PAGE_SIZE = 48;
+type ActiveTab = "explore" | "search" | "authors" | "shelf";
+type AuthorFilter = "all" | AuthorGroup;
+
 const SAVED_KEY = "anabook_saved_v1";
-const SUBCAT_CATEGORIES = new Set([
-  "Bangla Books",
-  "English Books",
-  "Religion Books",
-]);
+const THEME_KEY = "anabook_web_theme_v1";
+const PROGRESS_KEY = "anabook_progress_v1";
+const CURRENT_READ_KEY = "anabook_current_read_v1";
+const AUTHORS_PAGE_SIZE = 36;
+const SECTIONS_PAGE_SIZE = 48;
 
-const CLASS_CHIPS = [
-  "Pre-Primary",
-  "Class 1",
-  "Class 2",
-  "Class 3",
-  "Class 4",
-  "Class 5",
-  "Class 6",
-  "Class 7",
-  "Class 8",
-  "Class 9",
-  "Class 10",
-  "Class 12",
+const AUTHOR_GROUP_FILTERS: { key: AuthorFilter; label: string }[] = [
+  { key: "all", label: "All Authors" },
+  { key: "Bangladeshi Authors", label: "Bangladeshi" },
+  { key: "International Authors", label: "International" },
+  { key: "Islamic Scholars", label: "Islamic Scholars" },
 ];
 
-function getTopSubFolders(books: BookItem[], category: string): string[] {
-  const set = new Set<string>();
-  for (const b of books) {
-    if (b.cat === category && b.sub) {
-      const top = b.sub.split("/")[0]?.trim();
-      if (top) set.add(top);
-    }
-    if (b.extraPaths) {
-      for (const ep of b.extraPaths) {
-        if (ep.cat === category && ep.sub) {
-          const top = ep.sub.split("/")[0]?.trim();
-          if (top) set.add(top);
-        }
-      }
-    }
-  }
-  return Array.from(set).sort((a, b) => a.localeCompare(b));
-}
+const THEME_KEYS: ThemePresetKey[] = [
+  "espresso",
+  "matcha",
+  "midnight",
+  "sepia",
+  "rosewood",
+];
 
-function bookMatchesSubPrefix(
-  book: BookItem,
-  category: string,
-  prefix: string
-): boolean {
-  if (book.cat === category && book.sub.split("/")[0]?.trim() === prefix) {
-    return true;
-  }
-  return Boolean(
-    book.extraPaths?.some(
-      (p) => p.cat === category && p.sub.split("/")[0]?.trim() === prefix
-    )
-  );
-}
-
-function CoverThumb({ book }: { book: BookItem }) {
-  const [stage, setStage] = useState<"primary" | "fallback" | "none">(
-    getCoverUrl(book, false) ? "primary" : "none"
-  );
-
-  const src =
-    stage === "primary"
-      ? getCoverUrl(book, false)
-      : stage === "fallback"
-      ? getCoverUrl(book, true)
-      : "";
-
-  if (!src) {
-    return (
-      <div className="w-full h-full bg-[#F5F6F8] p-3 flex flex-col justify-between text-left">
-        <span className="text-[10px] font-bold uppercase tracking-wider text-[#5F6672] line-clamp-1">
-          {(book.sub || book.cat).split("/").pop()}
-        </span>
-        <span className="text-xs font-extrabold text-[#0F1115] line-clamp-4 leading-snug">
-          {book.title}
-        </span>
-        <span className="text-[10px] text-[#5F6672] line-clamp-1 border-t border-neutral-200 pt-1.5">
-          {book.author}
-        </span>
-      </div>
-    );
-  }
-
-  return (
-    <img
-      src={src}
-      alt={book.title}
-      loading="lazy"
-      className="w-full h-full object-cover"
-      onError={() => setStage((s) => (s === "primary" ? "fallback" : "none"))}
-    />
-  );
+function lookupAuthorDetail(
+  detailsMap: Record<string, AuthorDetailRecord>,
+  name: string
+): AuthorDetailRecord | undefined {
+  const raw = (name || "").trim().toLowerCase();
+  if (!raw) return undefined;
+  return detailsMap[raw] || detailsMap[raw.normalize("NFC")];
 }
 
 export function LibraryExplorer() {
   const [books, setBooks] = useState<BookItem[]>([]);
   const [summary, setSummary] = useState<LibrarySummary | null>(null);
+  const [authorDetails, setAuthorDetails] = useState<
+    Record<string, AuthorDetailRecord>
+  >({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
+  // Theme state (matching AnaBook's 5 presets + Light/Dark mode)
+  const [presetKey, setPresetKey] = useState<ThemePresetKey>("espresso");
+  const [themeMode, setThemeMode] = useState<ThemeMode>("light");
+
+  // Navigation & filtering state
+  const [activeTab, setActiveTab] = useState<ActiveTab>("explore");
+  const [explorePath, setExplorePath] = useState<string[]>([]);
+  const [folderFilter, setFolderFilter] = useState("");
+  const [visibleSectionCount, setVisibleSectionCount] =
+    useState(SECTIONS_PAGE_SIZE);
+
+  // Global search state (All Books tab)
   const [query, setQuery] = useState("");
-  const [selectedCat, setSelectedCat] = useState("ALL");
-  const [selectedClass, setSelectedClass] = useState("");
-  const [selectedSeries, setSelectedSeries] = useState("");
-  const [selectedSub, setSelectedSub] = useState("");
-  const [selectedFmt, setSelectedFmt] = useState("ALL");
-  const [sortMode, setSortMode] = useState<"covers" | "title" | "size">("covers");
-  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  const [searchCat, setSearchCat] = useState("ALL");
+
+  // Authors directory state
+  const [authorQuery, setAuthorQuery] = useState("");
+  const [authorGroup, setAuthorGroup] = useState<AuthorFilter>("all");
+  const [visibleAuthorCount, setVisibleAuthorCount] =
+    useState(AUTHORS_PAGE_SIZE);
+
+  // User shelf & modals state
   const [savedIds, setSavedIds] = useState<string[]>([]);
+  const [progressById, setProgressById] = useState<
+    Record<string, BookProgress>
+  >({});
+  const [currentReadId, setCurrentReadId] = useState<string | null>(null);
+  const [detailBook, setDetailBook] = useState<BookItem | null>(null);
   const [previewBook, setPreviewBook] = useState<BookItem | null>(null);
+  const [authorModalOpen, setAuthorModalOpen] = useState(false);
+  const [quoteIdx, setQuoteIdx] = useState(0);
   const [hydrated, setHydrated] = useState(false);
 
+  const theme = useMemo(() => {
+    const preset = THEME_PRESETS[presetKey] || THEME_PRESETS.espresso;
+    return preset[themeMode];
+  }, [presetKey, themeMode]);
+
+  // Hydrate user preferences, saved shelf, and URL params on mount
   useEffect(() => {
     try {
+      const storedTheme = JSON.parse(
+        localStorage.getItem(THEME_KEY) || "null"
+      );
+      if (storedTheme && typeof storedTheme === "object") {
+        if (storedTheme.preset && THEME_PRESETS[storedTheme.preset as ThemePresetKey]) {
+          setPresetKey(storedTheme.preset as ThemePresetKey);
+        }
+        if (storedTheme.mode === "light" || storedTheme.mode === "dark") {
+          setThemeMode(storedTheme.mode);
+        }
+      }
+
+      const storedSaved = JSON.parse(localStorage.getItem(SAVED_KEY) || "[]");
+      if (Array.isArray(storedSaved)) setSavedIds(storedSaved);
+
+      const storedProgress = JSON.parse(
+        localStorage.getItem(PROGRESS_KEY) || "{}"
+      );
+      if (storedProgress && typeof storedProgress === "object") {
+        setProgressById(storedProgress);
+      }
+
+      const storedCurrent = localStorage.getItem(CURRENT_READ_KEY);
+      if (storedCurrent) setCurrentReadId(storedCurrent);
+
       const params = new URLSearchParams(window.location.search);
       const q = params.get("q");
-      const cat = params.get("cat") || params.get("category");
-      if (q) setQuery(q);
-      if (cat) setSelectedCat(cat);
-      const stored = JSON.parse(localStorage.getItem(SAVED_KEY) || "[]");
-      if (Array.isArray(stored)) setSavedIds(stored);
+      const pathParam = params.get("path");
+      const catParam = params.get("cat") || params.get("category");
+
+      if (q) {
+        setQuery(q);
+        setActiveTab("search");
+        if (catParam && catParam !== "ALL" && catParam !== "SAVED") {
+          setSearchCat(catParam);
+        }
+      } else if (pathParam) {
+        const segs = pathParam.split("/").filter(Boolean);
+        if (segs.length > 0) {
+          setExplorePath(segs);
+          setActiveTab("explore");
+        }
+      } else if (catParam) {
+        if (catParam === "SAVED") {
+          setActiveTab("shelf");
+        } else if (catParam !== "ALL") {
+          setExplorePath([catParam]);
+          setActiveTab("explore");
+        }
+      }
     } catch {
-      // Ignore URL/storage error
+      // Ignore URL/storage parse error
     } finally {
       setHydrated(true);
     }
   }, []);
 
+  // Persist theme changes
   useEffect(() => {
     if (!hydrated) return;
-    const trimmedQuery = query.trim();
-    if (trimmedQuery) {
-      document.title = `"${trimmedQuery}" — AnaBook | Bangladesh's Biggest eLibrary & PDF Library`;
-    } else if (selectedCat !== "ALL") {
-      const label = selectedCat === "SAVED" ? "Saved Books" : selectedCat;
-      document.title = `${label} — AnaBook | Bangladesh's Biggest eLibrary & PDF Library`;
-    } else {
-      document.title =
-        "Online Library — Bangladesh's Biggest PDF Library & eBook Library (29,178+ Books) | AnaBook — Bangladesh's Biggest eLibrary";
-    }
-
     try {
-      const url = new URL(window.location.href);
-      if (trimmedQuery) {
-        url.searchParams.set("q", trimmedQuery);
-      } else {
-        url.searchParams.delete("q");
-      }
-      if (selectedCat !== "ALL") {
-        url.searchParams.set("cat", selectedCat);
-      } else {
-        url.searchParams.delete("cat");
-      }
-      url.searchParams.delete("category");
-      window.history.replaceState(
-        null,
-        "",
-        `${url.pathname}${url.search}${url.hash}`
+      localStorage.setItem(
+        THEME_KEY,
+        JSON.stringify({ preset: presetKey, mode: themeMode })
       );
     } catch {
-      // Ignore history API error
+      // Ignore storage write error
     }
-  }, [hydrated, query, selectedCat]);
+  }, [hydrated, presetKey, themeMode]);
 
-  useEffect(() => {
-    if (!previewBook) return;
-    const onKeyDown = (e: KeyboardEvent) => {
-      if (e.key === "Escape") setPreviewBook(null);
-    };
-    window.addEventListener("keydown", onKeyDown);
-    return () => window.removeEventListener("keydown", onKeyDown);
-  }, [previewBook]);
-
+  // Fetch main 29,178-book catalog + lazy author details
   useEffect(() => {
     let cancelled = false;
     const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
     fetch(`${basePath}/books.json`)
       .then((res) => {
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -216,20 +226,91 @@ export function LibraryExplorer() {
       })
       .catch((err) => {
         if (!cancelled) {
-          setError(err instanceof Error ? err.message : "Failed to load catalog");
+          setError(
+            err instanceof Error ? err.message : "Failed to load catalog"
+          );
           setLoading(false);
         }
       });
+
+    fetch(`${basePath}/author_details.json`)
+      .then((res) => (res.ok ? res.json() : {}))
+      .then((data) => {
+        if (!cancelled && data && typeof data === "object") {
+          setAuthorDetails(data as Record<string, AuthorDetailRecord>);
+        }
+      })
+      .catch(() => {
+        // Optional enrichment; ignore errors silently
+      });
+
     return () => {
       cancelled = true;
     };
   }, []);
 
+  // Sync URL query params and document.title dynamically for SEO & shareability
+  useEffect(() => {
+    if (!hydrated) return;
+
+    const trimmedQuery = query.trim();
+    if (activeTab === "search" && trimmedQuery) {
+      document.title = `"${trimmedQuery}" — AnaBook | Bangladesh's Biggest eLibrary & PDF Library`;
+    } else if (activeTab === "explore" && explorePath.length > 0) {
+      const label = explorePath[explorePath.length - 1];
+      document.title = `${label} — AnaBook | Bangladesh's Biggest eLibrary & PDF Library`;
+    } else if (activeTab === "authors") {
+      document.title =
+        "Authors & Scholars — AnaBook | Bangladesh's Biggest eLibrary & PDF Library";
+    } else if (activeTab === "shelf") {
+      document.title =
+        "My Shelf & Saved Books — AnaBook | Bangladesh's Biggest eLibrary & PDF Library";
+    } else {
+      document.title =
+        "Online Library — Bangladesh's Biggest PDF Library & eBook Library (29,178+ Books) | AnaBook — Bangladesh's Biggest eLibrary";
+    }
+
+    try {
+      const url = new URL(window.location.href);
+      url.searchParams.delete("q");
+      url.searchParams.delete("cat");
+      url.searchParams.delete("category");
+      url.searchParams.delete("path");
+
+      if (activeTab === "search" && trimmedQuery) {
+        url.searchParams.set("q", trimmedQuery);
+        if (searchCat !== "ALL") url.searchParams.set("cat", searchCat);
+      } else if (activeTab === "explore" && explorePath.length === 1) {
+        url.searchParams.set("cat", explorePath[0]);
+      } else if (activeTab === "explore" && explorePath.length > 1) {
+        url.searchParams.set("path", explorePath.join("/"));
+      } else if (activeTab === "shelf") {
+        url.searchParams.set("cat", "SAVED");
+      }
+
+      window.history.replaceState(
+        null,
+        "",
+        `${url.pathname}${url.search}${url.hash}`
+      );
+    } catch {
+      // Ignore history API errors
+    }
+  }, [hydrated, activeTab, explorePath, query, searchCat]);
+
   const savedSet = useMemo(() => new Set(savedIds), [savedIds]);
+
+  const booksById = useMemo(() => {
+    const map = new Map<string, BookItem>();
+    for (const b of books) map.set(b.id, b);
+    return map;
+  }, [books]);
 
   const toggleSave = (id: string) => {
     setSavedIds((prev) => {
-      const next = prev.includes(id) ? prev.filter((x) => x !== id) : [id, ...prev];
+      const next = prev.includes(id)
+        ? prev.filter((x) => x !== id)
+        : [id, ...prev];
       try {
         localStorage.setItem(SAVED_KEY, JSON.stringify(next));
       } catch {
@@ -239,521 +320,1793 @@ export function LibraryExplorer() {
     });
   };
 
-  const seriesFolders = useMemo(
-    () => getTopSubFolders(books, "Series & Collections"),
-    [books]
+  const handleSetCurrentlyReading = (bookId: string) => {
+    setCurrentReadId(bookId);
+    try {
+      localStorage.setItem(CURRENT_READ_KEY, bookId);
+    } catch {
+      // Ignore
+    }
+  };
+
+  const handleUpdateProgress = (
+    bookId: string,
+    currentPage: number,
+    totalPages: number
+  ) => {
+    const safeTotal = Math.max(1, totalPages);
+    const safeCurr = Math.min(safeTotal, Math.max(0, currentPage));
+    const progressPct = Math.round((safeCurr / safeTotal) * 100);
+    setCurrentReadId(bookId);
+    setProgressById((prev) => {
+      const next: Record<string, BookProgress> = {
+        ...prev,
+        [bookId]: {
+          bookId,
+          currentPage: safeCurr,
+          totalPages: safeTotal,
+          progressPct,
+          updatedAt: new Date().toISOString(),
+        },
+      };
+      try {
+        localStorage.setItem(PROGRESS_KEY, JSON.stringify(next));
+        localStorage.setItem(CURRENT_READ_KEY, bookId);
+      } catch {
+        // Ignore
+      }
+      return next;
+    });
+  };
+
+  const handleOpenReader = (book: BookItem) => {
+    handleSetCurrentlyReading(book.id);
+    setPreviewBook(book);
+  };
+
+  // Hierarchical Category Tree (Explore Tab)
+  const rootTree = useMemo(
+    () => buildLibraryTree(books, summary?.cats || []),
+    [books, summary?.cats]
   );
 
-  const categorySubFolders = useMemo(
+  const currentNode = useMemo(() => {
+    let curr: TreeNode = rootTree;
+    for (const seg of explorePath) {
+      const next = curr.children.get(seg);
+      if (!next) break;
+      curr = next;
+    }
+    return curr;
+  }, [rootTree, explorePath]);
+
+  const pathKey = explorePath.join("/");
+  useEffect(() => {
+    setVisibleSectionCount(SECTIONS_PAGE_SIZE);
+    setAuthorModalOpen(false);
+  }, [pathKey, folderFilter]);
+
+  const isRootExplore = explorePath.length === 0;
+
+  const childSections = useMemo(() => {
+    const q = folderFilter.trim().toLowerCase();
+    const list = Array.from(currentNode.children.values()).filter(
+      (n) => n.totalCount > 0
+    );
+    if (explorePath.length > 0) {
+      list.sort((a, b) =>
+        a.name.localeCompare(b.name, undefined, {
+          numeric: true,
+          sensitivity: "base",
+        })
+      );
+    }
+    return q ? list.filter((n) => n.name.toLowerCase().includes(q)) : list;
+  }, [currentNode, folderFilter, explorePath.length]);
+
+  // Quick-jump folder matches when filtering from Root Categories view
+  const rootFolderMatches = useMemo(() => {
+    const q = folderFilter.trim().toLowerCase();
+    if (!isRootExplore || q.length < 2) return [] as { label: string; path: string[]; count: number }[];
+    const matches: { label: string; path: string[]; count: number }[] = [];
+    const walk = (node: TreeNode, trail: string[]) => {
+      for (const child of node.children.values()) {
+        const nextTrail = [...trail, child.name];
+        if (nextTrail.length >= 2 && child.name.toLowerCase().includes(q)) {
+          matches.push({
+            label: nextTrail.join(" / "),
+            path: nextTrail,
+            count: child.totalCount,
+          });
+        }
+        if (matches.length < 18) walk(child, nextTrail);
+      }
+    };
+    walk(rootTree, []);
+    return matches.slice(0, 14);
+  }, [isRootExplore, folderFilter, rootTree]);
+
+  const isAuthorsLeafGrid = useMemo(() => {
+    if (explorePath[0] !== "Authors & Scholars" || childSections.length === 0)
+      return false;
+    return (
+      ((explorePath[1] === "Bangladeshi Authors" ||
+        explorePath[1] === "International Authors") &&
+        explorePath.length === 2) ||
+      (explorePath[1] === "Islamic Scholars" && explorePath.length === 3)
+    );
+  }, [explorePath, childSections.length]);
+
+  const isViewingAuthor = Boolean(
+    explorePath[0] === "Authors & Scholars" &&
+      ((explorePath[1] !== "Islamic Scholars" && explorePath.length === 3) ||
+        (explorePath[1] === "Islamic Scholars" && explorePath.length === 4))
+  );
+
+  const authorDetail = useMemo(
     () =>
-      SUBCAT_CATEGORIES.has(selectedCat)
-        ? getTopSubFolders(books, selectedCat)
-        : [],
-    [books, selectedCat]
+      isViewingAuthor
+        ? lookupAuthorDetail(authorDetails, currentNode.name)
+        : undefined,
+    [isViewingAuthor, authorDetails, currentNode.name]
   );
 
-  const filtered = useMemo(() => {
+  const directBooksFiltered = useMemo(() => {
+    const q = folderFilter.trim().toLowerCase();
+    const list = currentNode.directBooks;
+    if (!q) return list;
+    return list.filter((b) => b.searchBlob.includes(q));
+  }, [currentNode, folderFilter]);
+
+  const folderAllBooksFiltered = useMemo(() => {
+    if (isRootExplore) return [];
+    const all = collectNodeBooks(currentNode);
+    const q = folderFilter.trim().toLowerCase();
+    if (!q) return all;
+    return all.filter((b) => b.searchBlob.includes(q));
+  }, [isRootExplore, currentNode, folderFilter]);
+
+  const navigateExplorePath = (nextPath: string[]) => {
+    setFolderFilter("");
+    setExplorePath(nextPath);
+    setActiveTab("explore");
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  // Author Directory (Authors Tab + Search Quick Author Chips)
+  const authorDirectory = useMemo(
+    () => extractAuthorDirectory(books, savedSet),
+    [books, savedSet]
+  );
+
+  const filteredAuthors = useMemo(() => {
+    const q = authorQuery.trim().toLowerCase();
+    return authorDirectory.filter((item) => {
+      if (authorGroup !== "all" && item.group !== authorGroup) return false;
+      if (q && !item.name.toLowerCase().includes(q)) return false;
+      return true;
+    });
+  }, [authorDirectory, authorQuery, authorGroup]);
+
+  useEffect(() => {
+    setVisibleAuthorCount(AUTHORS_PAGE_SIZE);
+  }, [authorQuery, authorGroup]);
+
+  // Global Search Tab filtering
+  const searchResults = useMemo(() => {
     const terms = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
-    const list = books.filter((b) => {
-      if (selectedCat === "SAVED" && !savedSet.has(b.id)) return false;
-      if (selectedCat !== "ALL" && selectedCat !== "SAVED") {
-        const matchesPrimary = b.cat === selectedCat;
-        const matchesExtra = Boolean(b.extraPaths?.some((p) => p.cat === selectedCat));
+    return books.filter((b) => {
+      if (searchCat === "SAVED" && !savedSet.has(b.id)) return false;
+      if (searchCat !== "ALL" && searchCat !== "SAVED") {
+        const matchesPrimary = b.cat === searchCat;
+        const matchesExtra = Boolean(
+          b.extraPaths?.some((p) => p.cat === searchCat)
+        );
         if (!matchesPrimary && !matchesExtra) return false;
       }
-      if (
-        selectedCat === "Series & Collections" &&
-        selectedSeries &&
-        !bookMatchesSubPrefix(b, "Series & Collections", selectedSeries)
-      ) {
-        return false;
-      }
-      if (
-        SUBCAT_CATEGORIES.has(selectedCat) &&
-        selectedSub &&
-        !bookMatchesSubPrefix(b, selectedCat, selectedSub)
-      ) {
-        return false;
-      }
-      if (selectedClass) {
-        const leaf = (b.sub || "").split("/").pop()?.toLowerCase() || "";
-        if (leaf !== selectedClass.toLowerCase()) return false;
-      }
-      if (selectedFmt !== "ALL" && b.fmt !== selectedFmt) return false;
       for (const t of terms) {
         if (!b.searchBlob.includes(t)) return false;
       }
       return true;
     });
+  }, [books, query, searchCat, savedSet]);
 
-    if (sortMode === "covers") {
-      list.sort((a, b) => Number(Boolean(b.coverId)) - Number(Boolean(a.coverId)) || a.title.localeCompare(b.title));
-    } else if (sortMode === "size") {
-      list.sort((a, b) => b.size - a.size);
-    } else {
-      list.sort((a, b) => a.title.localeCompare(b.title));
+  const searchMatchingAuthors = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    if (q.length < 2) return [];
+    return authorDirectory
+      .filter((a) => a.name.toLowerCase().includes(q))
+      .slice(0, 10);
+  }, [authorDirectory, query]);
+
+  const searchMatchingFolders = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    if (q.length < 2) return [] as { name: string; path: string[]; count: number }[];
+    const out: { name: string; path: string[]; count: number }[] = [];
+    const walk = (node: TreeNode, trail: string[]) => {
+      for (const child of node.children.values()) {
+        const nextTrail = [...trail, child.name];
+        if (child.name.toLowerCase().includes(q)) {
+          out.push({
+            name: child.name,
+            path: nextTrail,
+            count: child.totalCount,
+          });
+        }
+        if (out.length < 12) walk(child, nextTrail);
+      }
+    };
+    walk(rootTree, []);
+    return out.slice(0, 10);
+  }, [rootTree, query]);
+
+  // My Shelf Tab items
+  const readingShelfItems = useMemo(() => {
+    const seen = new Set<string>();
+    const list: { book: BookItem; progress?: BookProgress }[] = [];
+    const tracked = Object.values(progressById).sort((a, b) =>
+      (b.updatedAt || "").localeCompare(a.updatedAt || "")
+    );
+    for (const prog of tracked) {
+      const b = booksById.get(prog.bookId);
+      if (b && !seen.has(b.id)) {
+        seen.add(b.id);
+        list.push({ book: b, progress: prog });
+      }
+    }
+    if (currentReadId && !seen.has(currentReadId)) {
+      const b = booksById.get(currentReadId);
+      if (b) {
+        seen.add(b.id);
+        list.push({ book: b, progress: progressById[b.id] });
+      }
     }
     return list;
-  }, [books, query, selectedCat, selectedClass, selectedSeries, selectedSub, selectedFmt, sortMode, savedSet]);
+  }, [progressById, currentReadId, booksById]);
 
-  useEffect(() => {
-    setVisibleCount(PAGE_SIZE);
-  }, [query, selectedCat, selectedClass, selectedSeries, selectedSub, selectedFmt, sortMode]);
+  const savedBooks = useMemo(() => {
+    const list: BookItem[] = [];
+    for (const id of savedIds) {
+      const b = booksById.get(id);
+      if (b) list.push(b);
+    }
+    return list;
+  }, [savedIds, booksById]);
 
-  const shown = filtered.slice(0, visibleCount);
-
-  const surpriseBook = () => {
-    const pool = filtered.filter((b) => Boolean(b.coverId));
-    const list = pool.length ? pool : filtered;
-    if (!list.length) return;
-    setPreviewBook(list[Math.floor(Math.random() * list.length)]);
+  const handleSurpriseMe = () => {
+    const source =
+      activeTab === "search" && searchResults.length > 0
+        ? searchResults
+        : !isRootExplore && folderAllBooksFiltered.length > 0
+          ? folderAllBooksFiltered
+          : books;
+    const withCovers = source.filter((b) => Boolean(b.coverId));
+    const pool = withCovers.length > 0 ? withCovers : source;
+    if (pool.length === 0) return;
+    setDetailBook(pool[Math.floor(Math.random() * pool.length)]);
   };
+
+  const handleJumpAuthorFromBook = (authorName: string) => {
+    const exact = authorDirectory.find(
+      (a) => a.name.toLowerCase() === authorName.trim().toLowerCase()
+    );
+    if (exact) {
+      navigateExplorePath(exact.path);
+    } else {
+      setQuery(authorName);
+      setSearchCat("ALL");
+      setActiveTab("search");
+    }
+  };
+
+  const activeQuote = QUOTES[quoteIdx % QUOTES.length];
 
   if (loading) {
     return (
-      <div className="min-h-[70vh] flex flex-col items-center justify-center gap-3 text-[#5F6672] bg-white">
-        <Loader2 className="w-8 h-8 animate-spin text-[#0F1115]" />
-        <p className="text-sm font-semibold">Loading AnaBook Online Library…</p>
+      <div
+        className="min-h-[75vh] flex flex-col items-center justify-center gap-3"
+        style={{ backgroundColor: theme.bg, color: theme.muted }}
+      >
+        <Loader2
+          className="w-8 h-8 animate-spin"
+          style={{ color: theme.accent }}
+        />
+        <p className="text-sm font-semibold">
+          Loading AnaBook Online Library…
+        </p>
       </div>
     );
   }
 
   if (error) {
     return (
-      <div className="max-w-xl mx-auto px-4 py-20 text-center space-y-3">
-        <p className="text-lg font-bold text-[#0F1115]">Unable to load catalog</p>
-        <p className="text-sm text-[#5F6672]">{error}</p>
+      <div
+        className="min-h-[60vh] flex flex-col items-center justify-center px-4 py-20 text-center space-y-3"
+        style={{ backgroundColor: theme.bg, color: theme.ink }}
+      >
+        <p className="text-lg font-extrabold">Unable to load catalog</p>
+        <p className="text-sm" style={{ color: theme.muted }}>
+          {error}
+        </p>
       </div>
     );
   }
 
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-8 py-6 sm:py-8 space-y-5 sm:space-y-6 bg-white">
-      {/* Compact Editorial SEO Header */}
-      <section className="flex flex-col sm:flex-row sm:items-end justify-between gap-2 px-1">
-        <div className="space-y-1">
-          <h1 className="text-xl sm:text-2xl font-extrabold tracking-tight text-[#0F1115]">
-            Bangladesh’s Biggest eLibrary &amp; PDF Book Library
-          </h1>
-          <p className="text-xs sm:text-sm text-[#5F6672]">
-            Search, read online, and download {books.length.toLocaleString()}+ Bangla &amp; English PDF/EPUB books, Class 1–12 NCTB textbooks &amp; series collections.
-          </p>
-        </div>
-        <span className="inline-flex items-center self-start sm:self-auto px-3 py-1 rounded-full bg-[#F5F6F8] border border-neutral-200 text-[11px] font-bold text-[#0F1115] shrink-0">
-          {books.length.toLocaleString()} Books · {summary?.cats.length ?? 8} Categories
-        </span>
-      </section>
-
-      {/* Search + Filters Panel */}
-      <div className="rounded-2xl sm:rounded-3xl bg-[#F5F6F8] p-4 sm:p-5 space-y-3.5 sm:space-y-4">
-        <div className="flex flex-col md:flex-row gap-3">
-          <div className="relative flex-1">
-            <Search className="w-4 h-4 text-[#5F6672] absolute left-4 top-1/2 -translate-y-1/2" />
-            <input
-              type="text"
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              placeholder="Search 29,178+ Bangla & English books, authors, Class 1–12…"
-              className="w-full pl-11 pr-9 py-2.5 sm:py-3 rounded-full bg-white border border-neutral-200 text-xs sm:text-sm text-[#0F1115] placeholder:text-[#5F6672] focus:outline-none focus:border-[#0F1115]"
-            />
-            {query ? (
-              <button
-                type="button"
-                onClick={() => setQuery("")}
-                className="absolute right-3.5 top-1/2 -translate-y-1/2 text-[#5F6672] hover:text-[#0F1115]"
-              >
-                <X className="w-4 h-4" />
-              </button>
-            ) : null}
+    <div
+      className="min-h-[calc(100vh-5rem)] transition-colors duration-200"
+      style={{ backgroundColor: theme.bg, color: theme.ink }}
+    >
+      <div className="max-w-7xl mx-auto px-4 sm:px-8 py-6 sm:py-8 space-y-6">
+        {/* Top App-Style Header + Theme Switcher */}
+        <section className="flex flex-col lg:flex-row lg:items-center justify-between gap-4">
+          <div className="space-y-1">
+            <h1 className="text-xl sm:text-2xl lg:text-[26px] font-extrabold tracking-tight">
+              Bangladesh’s Biggest eLibrary &amp; PDF Book Library
+            </h1>
+            <p className="text-xs sm:text-sm" style={{ color: theme.muted }}>
+              {books.length.toLocaleString()}+ Bangla &amp; English books · Class
+              1–12 NCTB ·{" "}
+              {summary?.authorsCount.toLocaleString() ?? "4,575"}+ authors ·
+              Archive {summary ? formatBytes(summary.totalBytes) : "—"}
+            </p>
           </div>
 
           <div className="flex flex-wrap items-center gap-2">
-            <select
-              value={selectedFmt}
-              onChange={(e) => setSelectedFmt(e.target.value)}
-              className="px-3 py-2 rounded-full bg-white border border-neutral-200 text-xs font-bold text-[#0F1115] focus:outline-none"
+            {/* 5 AnaBook Theme Preset Swatches */}
+            <div
+              className="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-full border"
+              style={{
+                backgroundColor: theme.surface,
+                borderColor: theme.border,
+              }}
+              role="group"
+              aria-label="AnaBook reading themes"
             >
-              <option value="ALL">All Formats</option>
-              <option value="PDF">PDF</option>
-              <option value="EPUB">EPUB</option>
-              <option value="MOBI">MOBI</option>
-              <option value="DOCX">DOCX</option>
-            </select>
+              {THEME_KEYS.map((key) => {
+                const def = THEME_PRESETS[key];
+                const active = key === presetKey;
+                return (
+                  <button
+                    key={key}
+                    type="button"
+                    onClick={() => setPresetKey(key)}
+                    title={`${def.label} Theme`}
+                    aria-label={`${def.label} Theme`}
+                    className={`w-5 h-5 rounded-full border transition cursor-pointer ${
+                      active
+                        ? "scale-110 ring-2 ring-offset-1"
+                        : "opacity-80 hover:opacity-100"
+                    }`}
+                    style={{
+                      backgroundColor: def.swatches[2],
+                      borderColor: theme.border,
+                      boxShadow: active
+                        ? `0 0 0 2px ${theme.ink}`
+                        : undefined,
+                    }}
+                  />
+                );
+              })}
 
-            <select
-              value={sortMode}
-              onChange={(e) => setSortMode(e.target.value as "covers" | "title" | "size")}
-              className="px-3 py-2 rounded-full bg-white border border-neutral-200 text-xs font-bold text-[#0F1115] focus:outline-none"
-            >
-              <option value="covers">Covers First</option>
-              <option value="title">Title A–Z</option>
-              <option value="size">Largest First</option>
-            </select>
+              <span
+                className="w-px h-4 mx-0.5"
+                style={{ backgroundColor: theme.border }}
+              />
+
+              <button
+                type="button"
+                onClick={() =>
+                  setThemeMode((m) => (m === "light" ? "dark" : "light"))
+                }
+                title={
+                  themeMode === "light"
+                    ? "Switch to Dark Mode"
+                    : "Switch to Light Mode"
+                }
+                aria-label={
+                  themeMode === "light"
+                    ? "Switch to Dark Mode"
+                    : "Switch to Light Mode"
+                }
+                className="w-6 h-6 rounded-full flex items-center justify-center transition hover:opacity-80 cursor-pointer"
+                style={{
+                  backgroundColor: theme.surfaceAlt,
+                  color: theme.ink,
+                }}
+              >
+                {themeMode === "light" ? (
+                  <Moon className="w-3.5 h-3.5" />
+                ) : (
+                  <Sun className="w-3.5 h-3.5" />
+                )}
+              </button>
+            </div>
 
             <button
               type="button"
-              onClick={surpriseBook}
-              className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full bg-[#0F1115] hover:bg-neutral-800 text-white text-xs font-bold transition"
+              onClick={handleSurpriseMe}
+              className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full text-xs font-extrabold transition hover:opacity-90 cursor-pointer"
+              style={{
+                backgroundColor: theme.cream,
+                color: theme.creamInk,
+              }}
             >
-              <Sparkles className="w-3.5 h-3.5 text-[#C6F353]" />
-              Surprise Me
+              <Sparkles
+                className="w-3.5 h-3.5"
+                style={{ color: theme.accent }}
+              />
+              <span>Surprise Me</span>
             </button>
 
             <a
               href={getDriveFolderUrl("1fMsplDtUnpUhnNBJGKvYQ1sdZx0QVJWq")}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full bg-white border border-neutral-200 hover:border-[#0F1115] text-xs font-bold text-[#0F1115] transition"
+              className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full border text-xs font-bold transition hover:opacity-85"
+              style={{
+                backgroundColor: theme.surface,
+                borderColor: theme.border,
+                color: theme.ink,
+              }}
             >
               <HardDrive className="w-3.5 h-3.5" />
-              Drive
+              <span>Drive</span>
               <ExternalLink className="w-3 h-3" />
             </a>
           </div>
-        </div>
+        </section>
 
-        {/* Category Pills with horizontal scroll on small screens */}
-        <div className="flex items-center gap-2 overflow-x-auto pb-1.5 pt-0.5 no-scrollbar flex-nowrap sm:flex-wrap">
-          <button
-            type="button"
-            onClick={() => {
-              setSelectedCat("ALL");
-              setSelectedClass("");
-              setSelectedSeries("");
-              setSelectedSub("");
-            }}
-            className={`px-3.5 py-1.5 rounded-full text-xs font-bold border transition shrink-0 ${
-              selectedCat === "ALL"
-                ? "bg-[#0F1115] text-white border-[#0F1115]"
-                : "bg-white text-[#0F1115] border-neutral-200 hover:border-[#0F1115]"
-            }`}
-          >
-            All ({books.length.toLocaleString()})
-          </button>
-
-          <button
-            type="button"
-            onClick={() => {
-              setSelectedCat("SAVED");
-              setSelectedClass("");
-              setSelectedSeries("");
-              setSelectedSub("");
-            }}
-            className={`inline-flex items-center gap-1 px-3.5 py-1.5 rounded-full text-xs font-bold border transition shrink-0 ${
-              selectedCat === "SAVED"
-                ? "bg-[#C6F353] text-[#0F1115] border-[#0F1115]"
-                : "bg-white text-[#0F1115] border-neutral-200 hover:border-[#0F1115]"
-            }`}
-          >
-            <Bookmark className="w-3.5 h-3.5" />
-            Saved ({savedIds.length})
-          </button>
-
-          {(summary?.cats || []).map((c) => {
-            const active = selectedCat === c;
+        {/* 4 Segmented Navigation Tabs (Matching AnaBook App Tabs) */}
+        <nav
+          className="flex items-center gap-2 overflow-x-auto pb-1 no-scrollbar"
+          aria-label="Library sections"
+        >
+          {(
+            [
+              { key: "explore", label: "Categories", Icon: Compass },
+              { key: "search", label: "All Books", Icon: Search },
+              {
+                key: "authors",
+                label: `Authors (${authorDirectory.length.toLocaleString()})`,
+                Icon: Users,
+              },
+              {
+                key: "shelf",
+                label: `My Shelf (${savedIds.length})`,
+                Icon: Library,
+              },
+            ] as const
+          ).map(({ key, label, Icon }) => {
+            const active = activeTab === key;
             return (
+              <button
+                key={key}
+                type="button"
+                onClick={() => setActiveTab(key)}
+                className="inline-flex items-center gap-2 px-4 py-2.5 rounded-2xl border text-xs sm:text-sm font-extrabold transition shrink-0 cursor-pointer"
+                style={{
+                  backgroundColor: active ? theme.cream : theme.surface,
+                  borderColor: active ? theme.cream : theme.border,
+                  color: active ? theme.creamInk : theme.ink,
+                }}
+              >
+                <Icon
+                  className="w-4 h-4"
+                  style={{ color: active ? theme.accent : theme.muted }}
+                />
+                <span>{label}</span>
+              </button>
+            );
+          })}
+        </nav>
+
+        {/* ==================== TAB 1: CATEGORIES (EXPLORE BENTO) ==================== */}
+        {activeTab === "explore" && (
+          <div className="space-y-7">
+            {/* Drill-down Header + Breadcrumbs + Filter Input */}
+            {!isRootExplore ? (
+              <div
+                className="rounded-3xl border p-4 sm:p-5 space-y-3.5"
+                style={{
+                  backgroundColor: theme.surface,
+                  borderColor: theme.border,
+                }}
+              >
+                <div className="flex flex-wrap items-center justify-between gap-3">
+                  <div className="flex items-center gap-3 min-w-0 flex-1">
+                    <button
+                      type="button"
+                      onClick={() =>
+                        navigateExplorePath(explorePath.slice(0, -1))
+                      }
+                      aria-label="Back to parent category"
+                      className="w-9 h-9 rounded-full border flex items-center justify-center transition hover:opacity-80 shrink-0 cursor-pointer"
+                      style={{
+                        backgroundColor: theme.surfaceAlt,
+                        borderColor: theme.border,
+                        color: theme.ink,
+                      }}
+                    >
+                      <ArrowLeft className="w-4 h-4" />
+                    </button>
+
+                    {isViewingAuthor ? (
+                      <AuthorAvatar
+                        name={currentNode.name}
+                        size={38}
+                        theme={theme}
+                      />
+                    ) : (
+                      <CategoryIcon
+                        name={currentNode.name}
+                        size={30}
+                        accentColor={theme.accent}
+                      />
+                    )}
+
+                    <div className="min-w-0">
+                      <h2 className="text-lg sm:text-xl font-extrabold truncate">
+                        {currentNode.name}
+                      </h2>
+                      <p
+                        className="text-xs font-semibold"
+                        style={{ color: theme.accent }}
+                      >
+                        {currentNode.totalCount.toLocaleString()} books
+                        {childSections.length > 0
+                          ? ` · ${childSections.length} subsections`
+                          : ""}
+                      </p>
+                    </div>
+                  </div>
+
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setSearchCat(explorePath[0] || "ALL");
+                      setQuery(
+                        explorePath.length > 1
+                          ? explorePath[explorePath.length - 1]
+                          : ""
+                      );
+                      setActiveTab("search");
+                    }}
+                    className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full border text-xs font-bold transition hover:opacity-85 cursor-pointer"
+                    style={{
+                      backgroundColor: theme.surfaceAlt,
+                      borderColor: theme.border,
+                      color: theme.ink,
+                    }}
+                  >
+                    <Search className="w-3.5 h-3.5" />
+                    <span>Filter in All Books</span>
+                  </button>
+                </div>
+
+                {/* Breadcrumbs */}
+                <div className="flex items-center gap-1.5 overflow-x-auto pb-1 no-scrollbar">
+                  <button
+                    type="button"
+                    onClick={() => navigateExplorePath([])}
+                    className="px-3 py-1 rounded-full border text-[11px] font-bold shrink-0 transition cursor-pointer"
+                    style={{
+                      backgroundColor: theme.surfaceAlt,
+                      borderColor: theme.border,
+                      color: theme.ink,
+                    }}
+                  >
+                    All Categories
+                  </button>
+                  {explorePath.map((seg, idx) => {
+                    const last = idx === explorePath.length - 1;
+                    return (
+                      <React.Fragment key={`${seg}-${idx}`}>
+                        <ChevronRight
+                          className="w-3.5 h-3.5 shrink-0"
+                          style={{ color: theme.muted }}
+                        />
+                        <button
+                          type="button"
+                          onClick={() =>
+                            navigateExplorePath(explorePath.slice(0, idx + 1))
+                          }
+                          className="px-3 py-1 rounded-full border text-[11px] shrink-0 transition cursor-pointer"
+                          style={{
+                            backgroundColor: last
+                              ? theme.cream
+                              : theme.surfaceAlt,
+                            borderColor: last ? theme.cream : theme.border,
+                            color: last ? theme.creamInk : theme.ink,
+                            fontWeight: last ? 800 : 600,
+                          }}
+                        >
+                          {seg}
+                        </button>
+                      </React.Fragment>
+                    );
+                  })}
+                </div>
+
+                {/* Folder Search Box */}
+                <div className="relative">
+                  <Search
+                    className="w-4 h-4 absolute left-3.5 top-1/2 -translate-y-1/2"
+                    style={{ color: theme.muted }}
+                  />
+                  <input
+                    type="text"
+                    value={folderFilter}
+                    onChange={(e) => setFolderFilter(e.target.value)}
+                    placeholder={`Search inside ${currentNode.name}…`}
+                    className="w-full pl-10 pr-9 py-2.5 rounded-2xl border text-xs sm:text-sm focus:outline-none"
+                    style={{
+                      backgroundColor: theme.surfaceAlt,
+                      borderColor: theme.border,
+                      color: theme.ink,
+                    }}
+                  />
+                  {folderFilter && (
+                    <button
+                      type="button"
+                      onClick={() => setFolderFilter("")}
+                      aria-label="Clear folder search"
+                      className="absolute right-3 top-1/2 -translate-y-1/2 cursor-pointer"
+                      style={{ color: theme.muted }}
+                    >
+                      <X className="w-4 h-4" />
+                    </button>
+                  )}
+                </div>
+              </div>
+            ) : (
+              /* Root Search/Jump Box */
+              <div className="space-y-3">
+                <div className="relative">
+                  <Search
+                    className="w-4 h-4 absolute left-4 top-1/2 -translate-y-1/2"
+                    style={{ color: theme.muted }}
+                  />
+                  <input
+                    type="text"
+                    value={folderFilter}
+                    onChange={(e) => setFolderFilter(e.target.value)}
+                    placeholder="Filter categories or jump to any folder (e.g. Class 10, হুমায়ূন আহমেদ, Hadith)…"
+                    className="w-full pl-11 pr-10 py-3 rounded-2xl border text-xs sm:text-sm focus:outline-none"
+                    style={{
+                      backgroundColor: theme.surface,
+                      borderColor: theme.border,
+                      color: theme.ink,
+                    }}
+                  />
+                  {folderFilter && (
+                    <button
+                      type="button"
+                      onClick={() => setFolderFilter("")}
+                      aria-label="Clear category filter"
+                      className="absolute right-3.5 top-1/2 -translate-y-1/2 cursor-pointer"
+                      style={{ color: theme.muted }}
+                    >
+                      <X className="w-4 h-4" />
+                    </button>
+                  )}
+                </div>
+
+                {rootFolderMatches.length > 0 && (
+                  <div className="flex flex-wrap items-center gap-2">
+                    <span
+                      className="text-[11px] font-bold uppercase tracking-wider"
+                      style={{ color: theme.muted }}
+                    >
+                      Quick Jump:
+                    </span>
+                    {rootFolderMatches.map((m) => (
+                      <button
+                        key={m.label}
+                        type="button"
+                        onClick={() => navigateExplorePath(m.path)}
+                        className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full border text-xs font-bold transition hover:opacity-85 cursor-pointer"
+                        style={{
+                          backgroundColor: theme.surface,
+                          borderColor: theme.border,
+                          color: theme.ink,
+                        }}
+                      >
+                        <CategoryIcon
+                          name={m.path[m.path.length - 1]}
+                          size={15}
+                          accentColor={theme.accent}
+                        />
+                        <span>{m.label}</span>
+                        <span style={{ color: theme.accent }}>
+                          ({m.count.toLocaleString()})
+                        </span>
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </div>
+            )}
+
+            {/* Author Profile Banner (when viewing an individual author folder) */}
+            {isViewingAuthor && (
+              <div
+                className="rounded-3xl border p-4 sm:p-5 space-y-3"
+                style={{
+                  backgroundColor: theme.surface,
+                  borderColor: theme.border,
+                }}
+              >
+                <div className="flex flex-wrap items-center justify-between gap-3">
+                  <div className="flex items-center gap-3.5 min-w-0">
+                    <AuthorAvatar
+                      name={currentNode.name}
+                      size={58}
+                      theme={theme}
+                    />
+                    <div className="min-w-0">
+                      <h3 className="text-base sm:text-lg font-extrabold truncate">
+                        {currentNode.name}
+                      </h3>
+                      <p
+                        className="text-xs font-semibold truncate"
+                        style={{ color: theme.accent }}
+                      >
+                        {authorDetail?.shortDesc ||
+                          explorePath[1] ||
+                          "Author"}{" "}
+                        · {currentNode.totalCount.toLocaleString()} books
+                      </p>
+                    </div>
+                  </div>
+
+                  <button
+                    type="button"
+                    onClick={() => setAuthorModalOpen(true)}
+                    className="px-4 py-2 rounded-2xl border text-xs font-extrabold transition hover:opacity-85 cursor-pointer"
+                    style={{
+                      backgroundColor: theme.accentSoft,
+                      borderColor: theme.accent,
+                      color: theme.accent,
+                    }}
+                  >
+                    Author Details
+                  </button>
+                </div>
+
+                {authorDetail?.bio ? (
+                  <p
+                    className="text-xs sm:text-sm leading-relaxed line-clamp-2"
+                    style={{ color: theme.muted }}
+                  >
+                    {authorDetail.bio}
+                  </p>
+                ) : null}
+              </div>
+            )}
+
+            {/* ROOT BENTO GRID */}
+            {isRootExplore ? (
+              <>
+                <section className="space-y-3">
+                  <div className="flex items-center justify-between">
+                    <h2 className="text-sm sm:text-base font-extrabold tracking-tight">
+                      Explore All Categories
+                    </h2>
+                    <span
+                      className="text-xs font-bold"
+                      style={{ color: theme.accent }}
+                    >
+                      {childSections.length} categories
+                    </span>
+                  </div>
+
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5 sm:gap-4">
+                    {childSections.map((node) => {
+                      const pal = getCategoryPalette(node.name, themeMode);
+                      const coverFront = node.previews[0];
+                      const coverBack = node.previews[1];
+                      return (
+                        <button
+                          key={node.name}
+                          type="button"
+                          onClick={() => navigateExplorePath([node.name])}
+                          className="group relative h-[168px] rounded-[22px] border p-4 flex flex-col justify-between text-left overflow-hidden transition duration-200 hover:-translate-y-0.5 hover:shadow-lg cursor-pointer"
+                          style={{
+                            backgroundColor: pal.bg,
+                            borderColor: pal.border,
+                            color: theme.ink,
+                          }}
+                        >
+                          {/* Radial Corner Orb */}
+                          <span
+                            className="absolute -right-6 -bottom-7 w-28 h-28 rounded-full pointer-events-none"
+                            style={{ backgroundColor: pal.orb }}
+                            aria-hidden="true"
+                          />
+
+                          {/* Top Icon Badge + Title */}
+                          <div className="relative z-10 pr-8 space-y-2">
+                            <span
+                              className="w-9 h-9 rounded-xl inline-flex items-center justify-center"
+                              style={{ backgroundColor: pal.badgeBg }}
+                            >
+                              <CategoryIcon
+                                name={node.name}
+                                size={22}
+                                accentColor={pal.accent}
+                              />
+                            </span>
+                            <h3 className="text-[15px] font-extrabold leading-snug line-clamp-2">
+                              {node.name}
+                            </h3>
+                          </div>
+
+                          {/* Bottom-Left Count Pill */}
+                          <div className="relative z-10 max-w-[65%]">
+                            <span
+                              className="inline-flex items-center px-2.5 py-1 rounded-xl text-[11px] font-extrabold"
+                              style={{
+                                backgroundColor: pal.badgeBg,
+                                color: pal.accent,
+                              }}
+                            >
+                              {node.totalCount.toLocaleString()} books
+                            </span>
+                          </div>
+
+                          {/* Bottom-Right Tilted Dual BookCover Cluster */}
+                          {coverFront ? (
+                            <div
+                              className="absolute right-0 bottom-0 w-24 h-24 pointer-events-none"
+                              aria-hidden="true"
+                            >
+                              {coverBack ? (
+                                <div className="absolute right-6 -bottom-3 w-[52px] h-[76px] rotate-[4deg] opacity-80">
+                                  <BookCover
+                                    book={coverBack}
+                                    theme={theme}
+                                    compact
+                                    className="w-full h-full"
+                                  />
+                                </div>
+                              ) : null}
+                              <div className="absolute -right-1.5 -bottom-2.5 w-[60px] h-[88px] rotate-[14deg] group-hover:rotate-[11deg] group-hover:scale-105 transition-transform duration-300">
+                                <BookCover
+                                  book={coverFront}
+                                  theme={theme}
+                                  compact
+                                  className="w-full h-full"
+                                />
+                              </div>
+                            </div>
+                          ) : (
+                            <div
+                              className="absolute right-2 bottom-1 opacity-30 rotate-[12deg] pointer-events-none"
+                              aria-hidden="true"
+                            >
+                              <CategoryIcon
+                                name={node.name}
+                                size={54}
+                                accentColor={pal.accent}
+                              />
+                            </div>
+                          )}
+                        </button>
+                      );
+                    })}
+                  </div>
+                </section>
+
+                {/* NCTB Class 1-12 Quick Jump Strip */}
+                <section className="space-y-3">
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <h2 className="text-sm sm:text-base font-extrabold tracking-tight">
+                        NCTB Textbooks (Pre-Primary – Class 12)
+                      </h2>
+                      <p
+                        className="text-xs"
+                        style={{ color: theme.muted }}
+                      >
+                        1-tap jump to official Bangladesh board books by class
+                      </p>
+                    </div>
+                    <button
+                      type="button"
+                      onClick={() =>
+                        navigateExplorePath(["Education & Textbooks"])
+                      }
+                      className="text-xs font-extrabold hover:underline cursor-pointer"
+                      style={{ color: theme.accent }}
+                    >
+                      All Education →
+                    </button>
+                  </div>
+
+                  <div className="flex items-center gap-2.5 overflow-x-auto pb-1.5 no-scrollbar">
+                    {NCTB_CLASS_SHORTCUTS.map((item) => (
+                      <button
+                        key={item.label}
+                        type="button"
+                        onClick={() => navigateExplorePath(item.path)}
+                        className="shrink-0 rounded-2xl border px-3.5 py-2.5 flex items-center gap-2.5 text-left transition hover:-translate-y-0.5 cursor-pointer"
+                        style={{
+                          backgroundColor: theme.surface,
+                          borderColor: theme.border,
+                        }}
+                      >
+                        <CategoryIcon
+                          name={item.label}
+                          size={22}
+                          accentColor={theme.accent}
+                        />
+                        <div>
+                          <p className="text-xs font-extrabold">{item.label}</p>
+                          <p
+                            className="text-[10px]"
+                            style={{ color: theme.muted }}
+                          >
+                            {item.subtitle}
+                          </p>
+                        </div>
+                      </button>
+                    ))}
+                  </div>
+                </section>
+
+                {/* Featured Authors Strip */}
+                <section className="space-y-3">
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <h2 className="text-sm sm:text-base font-extrabold tracking-tight">
+                        Featured Authors &amp; Scholars
+                      </h2>
+                      <p
+                        className="text-xs"
+                        style={{ color: theme.muted }}
+                      >
+                        Explore curated shelves from{" "}
+                        {authorDirectory.length.toLocaleString()} writers
+                      </p>
+                    </div>
+                    <button
+                      type="button"
+                      onClick={() => setActiveTab("authors")}
+                      className="text-xs font-extrabold hover:underline cursor-pointer"
+                      style={{ color: theme.accent }}
+                    >
+                      Browse All Authors →
+                    </button>
+                  </div>
+
+                  <div className="flex items-stretch gap-3 overflow-x-auto pb-1.5 no-scrollbar">
+                    {FEATURED_AUTHOR_SHORTCUTS.map((item) => (
+                      <button
+                        key={item.label}
+                        type="button"
+                        onClick={() => navigateExplorePath(item.path)}
+                        className="w-32 shrink-0 rounded-2xl border p-3 flex flex-col items-center text-center gap-2 transition hover:-translate-y-0.5 cursor-pointer"
+                        style={{
+                          backgroundColor: theme.surface,
+                          borderColor: theme.border,
+                        }}
+                      >
+                        <AuthorAvatar
+                          name={item.label}
+                          size={52}
+                          theme={theme}
+                        />
+                        <span className="text-xs font-extrabold line-clamp-2 leading-snug">
+                          {item.label}
+                        </span>
+                        <span
+                          className="text-[10px] font-semibold line-clamp-1"
+                          style={{ color: theme.muted }}
+                        >
+                          {item.subtitle}
+                        </span>
+                      </button>
+                    ))}
+                  </div>
+                </section>
+
+                {/* Literary Quote Card */}
+                <section
+                  className="rounded-3xl border p-5 sm:p-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4"
+                  style={{
+                    backgroundColor: theme.surface,
+                    borderColor: theme.border,
+                  }}
+                >
+                  <div className="space-y-1.5 max-w-3xl">
+                    <p
+                      className="text-[10px] font-extrabold uppercase tracking-[0.12em]"
+                      style={{ color: theme.accent }}
+                    >
+                      Daily Literary Note
+                    </p>
+                    <p className="text-sm sm:text-base font-bold leading-relaxed">
+                      “{activeQuote.text}”
+                    </p>
+                    <p
+                      className="text-xs font-semibold"
+                      style={{ color: theme.muted }}
+                    >
+                      — {activeQuote.author}
+                    </p>
+                  </div>
+
+                  <button
+                    type="button"
+                    onClick={() => setQuoteIdx((i) => i + 1)}
+                    className="self-start sm:self-center inline-flex items-center gap-1.5 px-4 py-2 rounded-full border text-xs font-bold transition hover:opacity-85 shrink-0 cursor-pointer"
+                    style={{
+                      backgroundColor: theme.surfaceAlt,
+                      borderColor: theme.border,
+                      color: theme.ink,
+                    }}
+                  >
+                    <RefreshCw className="w-3.5 h-3.5" />
+                    <span>Next Quote</span>
+                  </button>
+                </section>
+              </>
+            ) : (
+              /* DRILL-DOWN SUBSECTIONS & BOOKS */
+              <div className="space-y-6">
+                {childSections.length > 0 && (
+                  <section className="space-y-3">
+                    {isAuthorsLeafGrid ? (
+                      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
+                        {childSections
+                          .slice(0, visibleSectionCount)
+                          .map((subNode) => (
+                            <button
+                              key={subNode.name}
+                              type="button"
+                              onClick={() =>
+                                navigateExplorePath([
+                                  ...explorePath,
+                                  subNode.name,
+                                ])
+                              }
+                              className="rounded-2xl border p-4 flex flex-col items-center text-center gap-2.5 transition hover:-translate-y-0.5 cursor-pointer"
+                              style={{
+                                backgroundColor: theme.surface,
+                                borderColor: theme.border,
+                              }}
+                            >
+                              <AuthorAvatar
+                                name={subNode.name}
+                                size={64}
+                                theme={theme}
+                              />
+                              <span className="text-xs sm:text-sm font-extrabold line-clamp-2 leading-snug">
+                                {subNode.name}
+                              </span>
+                              <span
+                                className="px-2.5 py-0.5 rounded-full border text-[11px] font-bold"
+                                style={{
+                                  backgroundColor: theme.surfaceAlt,
+                                  borderColor: theme.border,
+                                  color: theme.accent,
+                                }}
+                              >
+                                {subNode.totalCount.toLocaleString()} books
+                              </span>
+                            </button>
+                          ))}
+                      </div>
+                    ) : (
+                      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3.5">
+                        {childSections
+                          .slice(0, visibleSectionCount)
+                          .map((subNode) => {
+                            const pal = getCategoryPalette(
+                              subNode.name,
+                              themeMode
+                            );
+                            const subCover = subNode.previews[0];
+                            return (
+                              <button
+                                key={subNode.name}
+                                type="button"
+                                onClick={() =>
+                                  navigateExplorePath([
+                                    ...explorePath,
+                                    subNode.name,
+                                  ])
+                                }
+                                className="group relative min-h-[124px] rounded-[20px] border p-3.5 flex flex-col justify-between text-left overflow-hidden transition hover:-translate-y-0.5 hover:shadow-md cursor-pointer"
+                                style={{
+                                  backgroundColor: pal.bg,
+                                  borderColor: pal.border,
+                                  color: theme.ink,
+                                }}
+                              >
+                                <span
+                                  className="absolute -right-5 -bottom-6 w-24 h-24 rounded-full pointer-events-none"
+                                  style={{ backgroundColor: pal.orb }}
+                                  aria-hidden="true"
+                                />
+
+                                <h3 className="relative z-10 text-xs sm:text-[13px] font-extrabold leading-snug pr-12 line-clamp-2">
+                                  {subNode.name}
+                                </h3>
+
+                                <div className="relative z-10 max-w-[72%] mt-3">
+                                  <span
+                                    className="inline-flex items-center px-2.5 py-0.5 rounded-xl text-[10.5px] font-extrabold"
+                                    style={{
+                                      backgroundColor: pal.badgeBg,
+                                      color: pal.accent,
+                                    }}
+                                  >
+                                    {subNode.totalCount.toLocaleString()} books
+                                  </span>
+                                </div>
+
+                                {subCover ? (
+                                  <div
+                                    className="absolute -right-1.5 -bottom-2 w-[48px] h-[70px] rotate-[13deg] group-hover:rotate-[10deg] group-hover:scale-105 transition-transform pointer-events-none"
+                                    aria-hidden="true"
+                                  >
+                                    <BookCover
+                                      book={subCover}
+                                      theme={theme}
+                                      compact
+                                      className="w-full h-full"
+                                    />
+                                  </div>
+                                ) : (
+                                  <div
+                                    className="absolute right-2 bottom-1 opacity-30 rotate-[12deg] pointer-events-none"
+                                    aria-hidden="true"
+                                  >
+                                    <CategoryIcon
+                                      name={subNode.name}
+                                      size={38}
+                                      accentColor={pal.accent}
+                                    />
+                                  </div>
+                                )}
+                              </button>
+                            );
+                          })}
+                      </div>
+                    )}
+
+                    {visibleSectionCount < childSections.length && (
+                      <div className="flex justify-center pt-2">
+                        <button
+                          type="button"
+                          onClick={() =>
+                            setVisibleSectionCount(
+                              (c) => c + SECTIONS_PAGE_SIZE
+                            )
+                          }
+                          className="px-5 py-2 rounded-full border text-xs font-extrabold transition hover:opacity-85 cursor-pointer"
+                          style={{
+                            backgroundColor: theme.surface,
+                            borderColor: theme.border,
+                            color: theme.ink,
+                          }}
+                        >
+                          Show More Sections (
+                          {(
+                            childSections.length - visibleSectionCount
+                          ).toLocaleString()}{" "}
+                          remaining)
+                        </button>
+                      </div>
+                    )}
+                  </section>
+                )}
+
+                {/* Books inside current folder (direct books or all nested books) */}
+                {(directBooksFiltered.length > 0 ||
+                  folderAllBooksFiltered.length > 0) && (
+                  <section className="space-y-3 pt-1">
+                    <h3 className="text-sm sm:text-base font-extrabold">
+                      {currentNode.directBooks.length > 0
+                        ? `Books in ${currentNode.name}`
+                        : `Browse Books in ${currentNode.name}`}
+                    </h3>
+                    <BookCollectionView
+                      books={
+                        currentNode.directBooks.length > 0
+                          ? directBooksFiltered
+                          : folderAllBooksFiltered
+                      }
+                      savedSet={savedSet}
+                      theme={theme}
+                      progressById={progressById}
+                      emptyTitle="No books match this filter"
+                      emptySubtitle="Try clearing the folder search box above."
+                      onOpenDetail={setDetailBook}
+                      onQuickRead={handleOpenReader}
+                      onToggleSave={toggleSave}
+                    />
+                  </section>
+                )}
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* ==================== TAB 2: ALL BOOKS (GLOBAL SEARCH) ==================== */}
+        {activeTab === "search" && (
+          <div className="space-y-5">
+            <div
+              className="rounded-3xl border p-4 sm:p-5 space-y-3.5"
+              style={{
+                backgroundColor: theme.surface,
+                borderColor: theme.border,
+              }}
+            >
+              <div className="flex flex-col md:flex-row gap-3">
+                <div className="relative flex-1">
+                  <Search
+                    className="w-4 h-4 absolute left-4 top-1/2 -translate-y-1/2"
+                    style={{ color: theme.muted }}
+                  />
+                  <input
+                    type="text"
+                    value={query}
+                    onChange={(e) => setQuery(e.target.value)}
+                    placeholder="Search 29,178+ Bangla & English books, authors, Class 1–12…"
+                    className="w-full pl-11 pr-9 py-2.5 sm:py-3 rounded-full border text-xs sm:text-sm focus:outline-none"
+                    style={{
+                      backgroundColor: theme.surfaceAlt,
+                      borderColor: theme.border,
+                      color: theme.ink,
+                    }}
+                  />
+                  {query && (
+                    <button
+                      type="button"
+                      onClick={() => setQuery("")}
+                      aria-label="Clear search"
+                      className="absolute right-3.5 top-1/2 -translate-y-1/2 cursor-pointer"
+                      style={{ color: theme.muted }}
+                    >
+                      <X className="w-4 h-4" />
+                    </button>
+                  )}
+                </div>
+
+                <select
+                  value={searchCat}
+                  onChange={(e) => setSearchCat(e.target.value)}
+                  aria-label="Filter by category"
+                  className="px-4 py-2.5 rounded-full border text-xs font-bold focus:outline-none cursor-pointer"
+                  style={{
+                    backgroundColor: theme.surfaceAlt,
+                    borderColor: theme.border,
+                    color: theme.ink,
+                  }}
+                >
+                  <option value="ALL">
+                    All Categories ({books.length.toLocaleString()})
+                  </option>
+                  <option value="SAVED">Saved ({savedIds.length})</option>
+                  {(summary?.cats || []).map((c) => (
+                    <option key={c} value={c}>
+                      {c}
+                    </option>
+                  ))}
+                </select>
+              </div>
+
+              {/* Matching Authors & Folders from SearchScreen */}
+              {(searchMatchingAuthors.length > 0 ||
+                searchMatchingFolders.length > 0) && (
+                <div className="space-y-2.5 pt-1">
+                  {searchMatchingAuthors.length > 0 && (
+                    <div className="flex items-center gap-2 overflow-x-auto pb-1 no-scrollbar">
+                      <span
+                        className="text-[10px] font-extrabold uppercase tracking-wider shrink-0"
+                        style={{ color: theme.muted }}
+                      >
+                        Authors:
+                      </span>
+                      {searchMatchingAuthors.map((a) => (
+                        <button
+                          key={a.key}
+                          type="button"
+                          onClick={() => navigateExplorePath(a.path)}
+                          className="inline-flex items-center gap-2 px-3 py-1 rounded-full border text-xs font-bold shrink-0 transition hover:opacity-85 cursor-pointer"
+                          style={{
+                            backgroundColor: theme.surfaceAlt,
+                            borderColor: theme.border,
+                            color: theme.ink,
+                          }}
+                        >
+                          <AuthorAvatar
+                            name={a.name}
+                            size={20}
+                            theme={theme}
+                          />
+                          <span>{a.name}</span>
+                          <span style={{ color: theme.accent }}>
+                            ({a.count})
+                          </span>
+                        </button>
+                      ))}
+                    </div>
+                  )}
+
+                  {searchMatchingFolders.length > 0 && (
+                    <div className="flex items-center gap-2 overflow-x-auto pb-1 no-scrollbar">
+                      <span
+                        className="text-[10px] font-extrabold uppercase tracking-wider shrink-0"
+                        style={{ color: theme.muted }}
+                      >
+                        Folders:
+                      </span>
+                      {searchMatchingFolders.map((f) => (
+                        <button
+                          key={f.path.join("/")}
+                          type="button"
+                          onClick={() => navigateExplorePath(f.path)}
+                          className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full border text-xs font-bold shrink-0 transition hover:opacity-85 cursor-pointer"
+                          style={{
+                            backgroundColor: theme.surfaceAlt,
+                            borderColor: theme.border,
+                            color: theme.ink,
+                          }}
+                        >
+                          <CategoryIcon
+                            name={f.name}
+                            size={15}
+                            accentColor={theme.accent}
+                          />
+                          <span>{f.name}</span>
+                          <span style={{ color: theme.accent }}>
+                            ({f.count.toLocaleString()})
+                          </span>
+                        </button>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              )}
+            </div>
+
+            <BookCollectionView
+              books={searchResults}
+              savedSet={savedSet}
+              theme={theme}
+              progressById={progressById}
+              onOpenDetail={setDetailBook}
+              onQuickRead={handleOpenReader}
+              onToggleSave={toggleSave}
+            />
+          </div>
+        )}
+
+        {/* ==================== TAB 3: AUTHORS DIRECTORY ==================== */}
+        {activeTab === "authors" && (
+          <div className="space-y-5">
+            <div
+              className="rounded-3xl border p-4 sm:p-5 space-y-3.5"
+              style={{
+                backgroundColor: theme.surface,
+                borderColor: theme.border,
+              }}
+            >
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                <div className="relative flex-1">
+                  <Search
+                    className="w-4 h-4 absolute left-4 top-1/2 -translate-y-1/2"
+                    style={{ color: theme.muted }}
+                  />
+                  <input
+                    type="text"
+                    value={authorQuery}
+                    onChange={(e) => setAuthorQuery(e.target.value)}
+                    placeholder="Search authors & scholars…"
+                    className="w-full pl-11 pr-9 py-2.5 rounded-full border text-xs sm:text-sm focus:outline-none"
+                    style={{
+                      backgroundColor: theme.surfaceAlt,
+                      borderColor: theme.border,
+                      color: theme.ink,
+                    }}
+                  />
+                  {authorQuery && (
+                    <button
+                      type="button"
+                      onClick={() => setAuthorQuery("")}
+                      aria-label="Clear author search"
+                      className="absolute right-3.5 top-1/2 -translate-y-1/2 cursor-pointer"
+                      style={{ color: theme.muted }}
+                    >
+                      <X className="w-4 h-4" />
+                    </button>
+                  )}
+                </div>
+
+                <span
+                  className="self-start sm:self-auto px-3.5 py-1.5 rounded-full border text-xs font-extrabold"
+                  style={{
+                    backgroundColor: theme.surfaceAlt,
+                    borderColor: theme.border,
+                    color: theme.accent,
+                  }}
+                >
+                  {filteredAuthors.length.toLocaleString()} authors
+                </span>
+              </div>
+
+              <div className="flex items-center gap-2 overflow-x-auto pb-1 no-scrollbar">
+                {AUTHOR_GROUP_FILTERS.map((gf) => {
+                  const active = authorGroup === gf.key;
+                  return (
+                    <button
+                      key={gf.key}
+                      type="button"
+                      onClick={() => setAuthorGroup(gf.key)}
+                      className="px-3.5 py-1.5 rounded-full border text-xs font-bold shrink-0 transition cursor-pointer"
+                      style={{
+                        backgroundColor: active
+                          ? theme.cream
+                          : theme.surfaceAlt,
+                        borderColor: active ? theme.cream : theme.border,
+                        color: active ? theme.creamInk : theme.ink,
+                      }}
+                    >
+                      {gf.label}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+
+            {filteredAuthors.length === 0 ? (
+              <div
+                className="rounded-3xl border py-16 px-4 text-center space-y-2"
+                style={{
+                  backgroundColor: theme.surfaceAlt,
+                  borderColor: theme.borderSubtle,
+                }}
+              >
+                <p className="text-base font-extrabold">No authors found</p>
+                <p className="text-xs" style={{ color: theme.muted }}>
+                  Try a different spelling or switch to All Authors.
+                </p>
+              </div>
+            ) : (
+              <>
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3.5">
+                  {filteredAuthors
+                    .slice(0, visibleAuthorCount)
+                    .map((item) => (
+                      <button
+                        key={item.key}
+                        type="button"
+                        onClick={() => navigateExplorePath(item.path)}
+                        className="rounded-2xl border p-4 flex flex-col items-center text-center gap-2 transition hover:-translate-y-0.5 hover:shadow-md cursor-pointer"
+                        style={{
+                          backgroundColor: theme.surface,
+                          borderColor: theme.border,
+                        }}
+                      >
+                        <AuthorAvatar
+                          name={item.name}
+                          size={68}
+                          theme={theme}
+                        />
+                        <span className="text-xs sm:text-sm font-extrabold line-clamp-2 leading-snug">
+                          {item.name}
+                        </span>
+                        <div className="flex flex-wrap items-center justify-center gap-1">
+                          <span
+                            className="px-2 py-0.5 rounded-full border text-[10px] font-bold"
+                            style={{
+                              backgroundColor: theme.surfaceAlt,
+                              borderColor: theme.border,
+                              color: theme.accent,
+                            }}
+                          >
+                            {item.count.toLocaleString()}{" "}
+                            {item.count === 1 ? "book" : "books"}
+                          </span>
+                          {item.subfolderCount > 0 && (
+                            <span
+                              className="px-2 py-0.5 rounded-full border text-[10px] font-bold"
+                              style={{
+                                backgroundColor: theme.accentSoft,
+                                borderColor: theme.accent,
+                                color: theme.accent,
+                              }}
+                            >
+                              {item.subfolderCount} sec
+                            </span>
+                          )}
+                        </div>
+                      </button>
+                    ))}
+                </div>
+
+                {visibleAuthorCount < filteredAuthors.length && (
+                  <div className="flex justify-center pt-2">
+                    <button
+                      type="button"
+                      onClick={() =>
+                        setVisibleAuthorCount((c) => c + AUTHORS_PAGE_SIZE)
+                      }
+                      className="px-6 py-2.5 rounded-full text-xs sm:text-sm font-extrabold transition hover:opacity-90 cursor-pointer"
+                      style={{
+                        backgroundColor: theme.cream,
+                        color: theme.creamInk,
+                      }}
+                    >
+                      Load More Authors (
+                      {(
+                        filteredAuthors.length - visibleAuthorCount
+                      ).toLocaleString()}{" "}
+                      remaining)
+                    </button>
+                  </div>
+                )}
+              </>
+            )}
+          </div>
+        )}
+
+        {/* ==================== TAB 4: MY SHELF (READING & SAVED) ==================== */}
+        {activeTab === "shelf" && (
+          <div className="space-y-8">
+            {/* Reading Progress Section */}
+            <section className="space-y-3">
+              <div className="flex items-center justify-between">
+                <h2 className="text-sm sm:text-base font-extrabold">
+                  Currently Reading &amp; Progress ({readingShelfItems.length})
+                </h2>
+                {readingShelfItems.length === 0 && (
+                  <button
+                    type="button"
+                    onClick={() => setActiveTab("explore")}
+                    className="text-xs font-extrabold hover:underline cursor-pointer"
+                    style={{ color: theme.accent }}
+                  >
+                    Explore Books →
+                  </button>
+                )}
+              </div>
+
+              {readingShelfItems.length > 0 ? (
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3.5">
+                  {readingShelfItems.map(({ book, progress }) => {
+                    const pct = progress?.progressPct ?? 0;
+                    return (
+                      <div
+                        key={book.id}
+                        className="rounded-2xl border p-3.5 flex gap-3.5 items-center"
+                        style={{
+                          backgroundColor: theme.surface,
+                          borderColor: theme.border,
+                        }}
+                      >
+                        <button
+                          type="button"
+                          onClick={() => setDetailBook(book)}
+                          className="w-[62px] h-[92px] shrink-0 cursor-pointer"
+                        >
+                          <BookCover
+                            book={book}
+                            theme={theme}
+                            isSaved={savedSet.has(book.id)}
+                            compact
+                            className="w-full h-full"
+                          />
+                        </button>
+
+                        <div className="flex-1 min-w-0 space-y-2">
+                          <div>
+                            <h3 className="text-xs sm:text-sm font-extrabold line-clamp-2 leading-snug">
+                              {book.title}
+                            </h3>
+                            <p
+                              className="text-[11px] line-clamp-1"
+                              style={{ color: theme.muted }}
+                            >
+                              {book.author}
+                            </p>
+                          </div>
+
+                          <div className="space-y-1">
+                            <div className="flex items-center justify-between text-[10px] font-bold">
+                              <span style={{ color: theme.muted }}>
+                                {progress
+                                  ? `Page ${progress.currentPage} / ${progress.totalPages}`
+                                  : "Started reading"}
+                              </span>
+                              <span style={{ color: theme.accent }}>
+                                {pct}%
+                              </span>
+                            </div>
+                            <div
+                              className="h-1.5 rounded-full overflow-hidden"
+                              style={{ backgroundColor: theme.surfaceAlt }}
+                            >
+                              <div
+                                className="h-full rounded-full"
+                                style={{
+                                  width: `${Math.max(4, pct)}%`,
+                                  backgroundColor: theme.accent,
+                                }}
+                              />
+                            </div>
+                          </div>
+
+                          <div className="flex items-center gap-2">
+                            <button
+                              type="button"
+                              onClick={() => handleOpenReader(book)}
+                              className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-[11px] font-extrabold cursor-pointer"
+                              style={{
+                                backgroundColor: theme.cream,
+                                color: theme.creamInk,
+                              }}
+                            >
+                              <BookOpen className="w-3 h-3" />
+                              <span>Continue</span>
+                            </button>
+                            <button
+                              type="button"
+                              onClick={() => setDetailBook(book)}
+                              className="px-3 py-1 rounded-full border text-[11px] font-bold cursor-pointer"
+                              style={{
+                                backgroundColor: theme.surfaceAlt,
+                                borderColor: theme.border,
+                                color: theme.ink,
+                              }}
+                            >
+                              Progress
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              ) : (
+                <div
+                  className="rounded-2xl border p-5 text-xs"
+                  style={{
+                    backgroundColor: theme.surface,
+                    borderColor: theme.border,
+                    color: theme.muted,
+                  }}
+                >
+                  Open any book and click <strong>Read Online</strong> or{" "}
+                  <strong>Mark Current</strong> to track your reading progress
+                  here.
+                </div>
+              )}
+            </section>
+
+            {/* Saved Bookmarks Section */}
+            <section className="space-y-3">
+              <div className="flex items-center gap-2">
+                <Bookmark
+                  className="w-4 h-4"
+                  style={{ color: theme.accent }}
+                />
+                <h2 className="text-sm sm:text-base font-extrabold">
+                  Saved Bookmarks ({savedBooks.length})
+                </h2>
+              </div>
+
+              <BookCollectionView
+                books={savedBooks}
+                savedSet={savedSet}
+                theme={theme}
+                progressById={progressById}
+                emptyTitle="No saved books yet"
+                emptySubtitle="Tap the bookmark button on any book to save it to your shelf."
+                onOpenDetail={setDetailBook}
+                onQuickRead={handleOpenReader}
+                onToggleSave={toggleSave}
+              />
+            </section>
+          </div>
+        )}
+
+        {/* ==================== MINIMAL SEO FOOTER ==================== */}
+        <footer
+          className="border-t mt-10 pt-8 pb-4 space-y-4"
+          style={{ borderColor: theme.borderSubtle }}
+        >
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+            <div>
+              <h2 className="text-sm font-extrabold">
+                AnaBook — Bangladesh’s Biggest Online eLibrary &amp; PDF Archive
+              </h2>
+              <p className="text-xs mt-0.5" style={{ color: theme.muted }}>
+                {books.length.toLocaleString()} books ·{" "}
+                {summary?.authorsCount.toLocaleString() ?? "4,575"} authors ·{" "}
+                {savedIds.length.toLocaleString()} saved · Archive{" "}
+                {summary ? formatBytes(summary.totalBytes) : "—"}
+              </p>
+            </div>
+            <span className="text-xs" style={{ color: theme.muted }}>
+              PDF · EPUB · MOBI · DOCX · NCTB Class 1–12
+            </span>
+          </div>
+
+          <p
+            className="text-xs leading-relaxed max-w-3xl"
+            style={{ color: theme.muted }}
+          >
+            Browse Bangladesh’s biggest free eLibrary, PDF library, and eBook
+            library. Explore categorized Bangla books, English literature,
+            Pre-Primary to Class 12 NCTB textbooks, Islamic &amp; comparative
+            religion books, authors &amp; scholars, and multi-volume series with
+            direct browser reading and offline Google Drive downloads.
+          </p>
+
+          <div className="flex flex-wrap items-center gap-2">
+            {(summary?.cats || []).map((c) => (
               <button
                 key={c}
                 type="button"
-                onClick={() => {
-                  setSelectedCat(c);
-                  if (c !== "Education & Textbooks") setSelectedClass("");
-                  if (c !== "Series & Collections") setSelectedSeries("");
-                  setSelectedSub("");
+                onClick={() => navigateExplorePath([c])}
+                className="px-3 py-1 rounded-full border text-xs font-semibold transition hover:opacity-85 cursor-pointer"
+                style={{
+                  backgroundColor: theme.surface,
+                  borderColor: theme.border,
+                  color: theme.ink,
                 }}
-                className={`px-3.5 py-1.5 rounded-full text-xs font-bold border transition shrink-0 ${
-                  active
-                    ? "bg-[#0F1115] text-[#C6F353] border-[#0F1115]"
-                    : "bg-white text-[#5F6672] border-neutral-200 hover:text-[#0F1115]"
-                }`}
               >
                 {c}
               </button>
-            );
-          })}
-        </div>
-
-        {/* 1-Tap Class 1-12 Chips with horizontal scroll */}
-        {selectedCat === "Education & Textbooks" ? (
-          <div className="flex items-center gap-1.5 pt-2 border-t border-neutral-200 overflow-x-auto pb-1 no-scrollbar flex-nowrap sm:flex-wrap">
-            <button
-              type="button"
-              onClick={() => setSelectedClass("")}
-              className={`px-3 py-1 rounded-full text-[11px] font-bold border transition shrink-0 ${
-                !selectedClass
-                  ? "bg-[#0F1115] text-white border-[#0F1115]"
-                  : "bg-white text-[#5F6672] border-neutral-200"
-              }`}
-            >
-              All Education
-            </button>
-            {CLASS_CHIPS.map((cls) => (
-              <button
-                key={cls}
-                type="button"
-                onClick={() => setSelectedClass(selectedClass === cls ? "" : cls)}
-                className={`px-3 py-1 rounded-full text-[11px] font-bold border transition shrink-0 ${
-                  selectedClass === cls
-                    ? "bg-[#C6F353] text-[#0F1115] border-[#0F1115]"
-                    : "bg-white text-[#0F1115] border-neutral-200 hover:border-[#0F1115]"
-                }`}
-              >
-                {cls}
-              </button>
             ))}
           </div>
-        ) : null}
-
-        {/* 1-Tap Series & Collections Folder Chips */}
-        {selectedCat === "Series & Collections" && seriesFolders.length > 0 ? (
-          <div className="flex items-center gap-1.5 pt-2 border-t border-neutral-200 overflow-x-auto pb-1 no-scrollbar flex-nowrap sm:flex-wrap">
-            <button
-              type="button"
-              onClick={() => setSelectedSeries("")}
-              className={`px-3 py-1 rounded-full text-[11px] font-bold border transition shrink-0 ${
-                !selectedSeries
-                  ? "bg-[#0F1115] text-white border-[#0F1115]"
-                  : "bg-white text-[#5F6672] border-neutral-200"
-              }`}
-            >
-              All Series
-            </button>
-            {seriesFolders.map((sf) => (
-              <button
-                key={sf}
-                type="button"
-                onClick={() => setSelectedSeries(selectedSeries === sf ? "" : sf)}
-                className={`px-3 py-1 rounded-full text-[11px] font-bold border transition shrink-0 ${
-                  selectedSeries === sf
-                    ? "bg-[#C6F353] text-[#0F1115] border-[#0F1115]"
-                    : "bg-white text-[#0F1115] border-neutral-200 hover:border-[#0F1115]"
-                }`}
-              >
-                {sf}
-              </button>
-            ))}
-          </div>
-        ) : null}
-
-        {/* 1-Tap Bangla, English & Religion Subcategory Chips */}
-        {SUBCAT_CATEGORIES.has(selectedCat) && categorySubFolders.length > 0 ? (
-          <div className="flex items-center gap-1.5 pt-2 border-t border-neutral-200 overflow-x-auto pb-1 no-scrollbar flex-nowrap sm:flex-wrap">
-            <button
-              type="button"
-              onClick={() => setSelectedSub("")}
-              className={`px-3 py-1 rounded-full text-[11px] font-bold border transition shrink-0 ${
-                !selectedSub
-                  ? "bg-[#0F1115] text-white border-[#0F1115]"
-                  : "bg-white text-[#5F6672] border-neutral-200"
-              }`}
-            >
-              All {selectedCat}
-            </button>
-            {categorySubFolders.map((sub) => (
-              <button
-                key={sub}
-                type="button"
-                onClick={() => setSelectedSub(selectedSub === sub ? "" : sub)}
-                className={`px-3 py-1 rounded-full text-[11px] font-bold border transition shrink-0 ${
-                  selectedSub === sub
-                    ? "bg-[#C6F353] text-[#0F1115] border-[#0F1115]"
-                    : "bg-white text-[#0F1115] border-neutral-200 hover:border-[#0F1115]"
-                }`}
-              >
-                {sub}
-              </button>
-            ))}
-          </div>
-        ) : null}
+        </footer>
       </div>
 
-      {/* Results Count */}
-      <div className="flex items-center justify-between text-xs text-[#5F6672] px-1">
-        <span>
-          Showing <strong className="text-[#0F1115]">{shown.length.toLocaleString()}</strong> of{" "}
-          <strong className="text-[#0F1115]">{filtered.length.toLocaleString()}</strong> books
-        </span>
-        {summary ? <span>Archive: {formatBytes(summary.totalBytes)}</span> : null}
-      </div>
+      {/* Modals */}
+      <BookDetailModal
+        book={detailBook}
+        progress={detailBook ? progressById[detailBook.id] : undefined}
+        isCurrentRead={Boolean(detailBook && currentReadId === detailBook.id)}
+        isSaved={Boolean(detailBook && savedSet.has(detailBook.id))}
+        theme={theme}
+        onClose={() => setDetailBook(null)}
+        onReadOnline={(b) => {
+          setDetailBook(null);
+          handleOpenReader(b);
+        }}
+        onToggleSave={toggleSave}
+        onSetCurrentlyReading={handleSetCurrentlyReading}
+        onUpdateProgress={handleUpdateProgress}
+        onNavigateFolder={navigateExplorePath}
+        onFilterAuthor={handleJumpAuthorFromBook}
+      />
 
-      {/* Book Grid */}
-      {shown.length === 0 ? (
-        <div className="rounded-3xl bg-[#F5F6F8] py-16 text-center space-y-2">
-          <p className="text-base font-bold text-[#0F1115]">No matching books found</p>
-          <p className="text-xs text-[#5F6672]">Try clearing a filter or searching another keyword.</p>
-        </div>
-      ) : (
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4">
-          {shown.map((book) => {
-            const isSaved = savedSet.has(book.id);
-            return (
-              <div
-                key={book.id}
-                className="group rounded-2xl bg-white border border-neutral-200 hover:border-[#0F1115] overflow-hidden flex flex-col transition shadow-xs"
-              >
-                <button
-                  type="button"
-                  onClick={() => setPreviewBook(book)}
-                  className="aspect-[2/3] w-full bg-[#F5F6F8] overflow-hidden relative"
-                >
-                  <CoverThumb book={book} />
-                  <span className="absolute top-2 left-2 px-2 py-0.5 rounded-full bg-[#0F1115]/85 text-[9px] sm:text-[10px] font-bold text-white">
-                    {book.fmt}
-                  </span>
-                </button>
+      <ReaderPreviewModal
+        book={previewBook}
+        isSaved={Boolean(previewBook && savedSet.has(previewBook.id))}
+        theme={theme}
+        onToggleSave={toggleSave}
+        onClose={() => setPreviewBook(null)}
+      />
 
-                <div className="p-2.5 sm:p-3 flex-1 flex flex-col justify-between gap-1.5 sm:gap-2">
-                  <div>
-                    <h3
-                      className="text-xs font-extrabold text-[#0F1115] line-clamp-2 leading-snug"
-                      title={book.title}
-                    >
-                      {book.title}
-                    </h3>
-                    <p className="text-[10px] sm:text-[11px] text-[#5F6672] line-clamp-1 mt-0.5">{book.author}</p>
-                  </div>
-
-                  <div className="flex items-center gap-1 sm:gap-1.5 pt-1">
-                    <button
-                      type="button"
-                      onClick={() => setPreviewBook(book)}
-                      className="flex-1 inline-flex items-center justify-center gap-1 py-1 sm:py-1.5 rounded-full bg-[#0F1115] hover:bg-neutral-800 text-white text-[10px] sm:text-[11px] font-bold transition"
-                    >
-                      <BookOpen className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-[#C6F353]" />
-                      Read
-                    </button>
-
-                    <a
-                      href={getDownloadUrl(book.id)}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      title={`Download (${formatBytes(book.size)})`}
-                      className="w-6 h-6 sm:w-7 sm:h-7 rounded-full bg-[#F5F6F8] hover:bg-[#C6F353] text-[#0F1115] flex items-center justify-center transition shrink-0"
-                    >
-                      <Download className="w-3 h-3 sm:w-3.5 sm:h-3.5" />
-                    </a>
-
-                    <button
-                      type="button"
-                      onClick={() => toggleSave(book.id)}
-                      title={isSaved ? "Remove bookmark" : "Bookmark"}
-                      className={`w-6 h-6 sm:w-7 sm:h-7 rounded-full flex items-center justify-center transition shrink-0 ${
-                        isSaved
-                          ? "bg-[#C6F353] text-[#0F1115]"
-                          : "bg-[#F5F6F8] text-[#5F6672] hover:text-[#0F1115]"
-                      }`}
-                    >
-                      <Bookmark className="w-3 h-3 sm:w-3.5 sm:h-3.5" fill={isSaved ? "currentColor" : "none"} />
-                    </button>
-                  </div>
-                </div>
-              </div>
-            );
-          })}
-        </div>
-      )}
-
-      {/* Load More */}
-      {visibleCount < filtered.length ? (
-        <div className="flex justify-center pt-4">
-          <button
-            type="button"
-            onClick={() => setVisibleCount((c) => c + PAGE_SIZE)}
-            className="w-full sm:w-auto px-6 py-2.5 sm:py-3 rounded-full bg-[#0F1115] hover:bg-neutral-800 text-xs sm:text-sm font-bold text-white transition text-center"
-          >
-            Load More Books ({(filtered.length - visibleCount).toLocaleString()} remaining)
-          </button>
-        </div>
-      ) : null}
-
-      {/* Minimal SEO Footer */}
-      <footer className="border-t border-neutral-100 mt-10 pt-8 pb-4 space-y-4">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-          <div>
-            <h2 className="text-sm font-extrabold text-[#0F1115]">
-              AnaBook — Bangladesh’s Biggest Online eLibrary &amp; PDF Archive
-            </h2>
-            <p className="text-xs text-[#5F6672] mt-0.5">
-              {books.length.toLocaleString()} books ·{" "}
-              {summary?.authorsCount.toLocaleString() ?? "4,575"} authors ·{" "}
-              {savedIds.length.toLocaleString()} saved · Archive{" "}
-              {summary ? formatBytes(summary.totalBytes) : "—"}
-            </p>
-          </div>
-          <span className="text-xs text-[#5F6672]">
-            PDF · EPUB · MOBI · DOCX · NCTB Class 1–12
-          </span>
-        </div>
-
-        <p className="text-xs text-[#5F6672] leading-relaxed max-w-3xl">
-          Browse Bangladesh’s biggest free eLibrary, PDF library, and eBook library. Explore categorized Bangla books, English literature, Pre-Primary to Class 12 NCTB textbooks, Islamic &amp; comparative religion books, authors &amp; scholars, and multi-volume series with direct browser reading and offline Google Drive downloads.
-        </p>
-
-        <div className="flex flex-wrap items-center gap-2">
-          {(summary?.cats || []).map((c) => (
-            <button
-              key={c}
-              type="button"
-              onClick={() => {
-                setSelectedCat(c);
-                if (c !== "Education & Textbooks") setSelectedClass("");
-                if (c !== "Series & Collections") setSelectedSeries("");
-                setSelectedSub("");
-                window.scrollTo({ top: 0, behavior: "smooth" });
-              }}
-              className="px-3 py-1 rounded-full bg-[#F5F6F8] hover:bg-[#0F1115] text-[#5F6672] hover:text-[#C6F353] text-xs font-semibold transition"
-            >
-              {c}
-            </button>
-          ))}
-        </div>
-      </footer>
-
-      {/* In-Page Reader Preview Modal */}
-      {previewBook ? (
-        <div
-          className="fixed inset-0 z-50 bg-black/75 backdrop-blur-sm flex items-center justify-center p-2 sm:p-6"
-          onClick={() => setPreviewBook(null)}
-        >
-          <div
-            className="w-full max-w-5xl h-[92vh] sm:h-[88vh] rounded-2xl sm:rounded-3xl bg-white border border-neutral-200 overflow-hidden flex flex-col shadow-2xl"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <div className="px-4 sm:px-5 py-3 sm:py-3.5 border-b border-neutral-200 flex items-center justify-between gap-2.5 bg-white">
-              <div className="min-w-0 flex-1">
-                <h3 className="text-xs sm:text-sm font-extrabold text-[#0F1115] truncate">{previewBook.title}</h3>
-                <p className="text-[10px] sm:text-[11px] text-[#5F6672] truncate">
-                  {previewBook.author} · {previewBook.fmt} · {formatBytes(previewBook.size)}
-                </p>
-              </div>
-              <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
-                <a
-                  href={getDownloadUrl(previewBook.id)}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1 sm:gap-1.5 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full bg-[#0F1115] text-white text-[11px] sm:text-xs font-bold"
-                >
-                  <Download className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-[#C6F353]" />
-                  Download
-                </a>
-                <button
-                  type="button"
-                  onClick={() => setPreviewBook(null)}
-                  className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-[#F5F6F8] text-[#0F1115] flex items-center justify-center hover:bg-neutral-200"
-                >
-                  <X className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-                </button>
-              </div>
-            </div>
-            <iframe
-              src={getPreviewUrl(previewBook.id)}
-              title={previewBook.title}
-              className="flex-1 w-full bg-[#F5F6F8]"
-              allow="autoplay"
-            />
-          </div>
-        </div>
-      ) : null}
+      <AuthorDetailModal
+        visible={authorModalOpen}
+        authorName={currentNode.name}
+        group={authorDetail?.group || explorePath[1] || "Authors & Scholars"}
+        bookCount={currentNode.totalCount}
+        subfolderCount={currentNode.children.size}
+        shortDesc={authorDetail?.shortDesc}
+        bio={authorDetail?.bio}
+        wikiUrl={authorDetail?.wikiUrl}
+        theme={theme}
+        onClose={() => setAuthorModalOpen(false)}
+      />
     </div>
   );
 }
