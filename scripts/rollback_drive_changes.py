@@ -110,6 +110,9 @@ def run_rollback(
             if act == "create_folder":
                 print(f"  {idx}. [SKIP folder] {new_name} ({fid}) — folders are never auto-deleted")
                 continue
+            if act == "create_shortcut":
+                print(f"  {idx}. [TRASH shortcut only] {new_name} ({fid}) in parent {new_p}")
+                continue
             parts: list[str] = []
             if old_name and new_name and old_name != new_name:
                 parts.append(f"rename '{new_name}' -> '{old_name}'")
@@ -139,6 +142,44 @@ def run_rollback(
 
         if act == "create_folder":
             skipped.append({"id": fid, "reason": "create_folder_never_deleted", "name": new_name})
+            continue
+        if act == "create_shortcut":
+            try:
+                meta = ibr.drive_request(
+                    "GET",
+                    f"/files/{fid}",
+                    params={"supportsAllDrives": "true", "fields": "id,name,mimeType,trashed,parents"},
+                )
+                if meta.get("mimeType") != "application/vnd.google-apps.shortcut":
+                    skipped.append({"id": fid, "reason": "not_a_shortcut_refused_delete", "name": meta.get("name", "")})
+                    continue
+                if meta.get("trashed"):
+                    skipped.append({"id": fid, "reason": "shortcut_already_trashed"})
+                    continue
+                ibr.drive_request(
+                    "PATCH",
+                    f"/files/{fid}",
+                    params={"supportsAllDrives": "true", "fields": "id,trashed"},
+                    body={"trashed": True},
+                )
+                rollback_records.append(
+                    {
+                        "id": fid,
+                        "batch_id": rollback_batch_id,
+                        "timestamp": applied_at,
+                        "action": "rollback_shortcut",
+                        "folder": item.get("folder", ""),
+                        "old_parent_id": new_p,
+                        "new_parent_id": old_p,
+                        "old_name": new_name,
+                        "new_name": "[TRASHED SHORTCUT]",
+                        "restored_name": new_name,
+                        "category": item.get("category", ""),
+                    }
+                )
+                print(f"  Trashed shortcut {fid}: '{new_name}'")
+            except Exception as exc:
+                errors.append({"id": fid, "error": str(exc)[:250]})
             continue
 
         try:
