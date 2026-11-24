@@ -9,9 +9,9 @@ Creates categorized subfolders under `Series & Collections/`:
   - `Series & Collections/Islamic History & Seerah Series/`
   - `Series & Collections/Educational & Textbook Series/`
 
-Then collects all matching original (non-shortcut) files across the entire Drive,
+Collects all matching original (non-shortcut) book files across the entire Drive,
 deduplicates against existing shortcuts in each target folder, creates native
-Google Drive shortcuts (`application/vnd.google-apps.shortcut`) in batches,
+Google Drive shortcuts (`application/vnd.google-apps.shortcut`) in parallel batches,
 cleans up the known misplaced Byomkesh shortcut in `মিসির আলি সিরিজ`,
 and verifies all created folders and shortcut counts.
 """
@@ -23,7 +23,6 @@ import concurrent.futures
 import datetime as dt
 import json
 import sys
-import time
 from pathlib import Path
 from typing import Any
 
@@ -105,8 +104,8 @@ ALL_SERIES_DEFS: list[tuple[str, str, list[str]]] = [
 ]
 
 
-def match_series(name: str, path: str) -> list[tuple[str, str]]:
-    text = f"{name} {path}".lower()
+def match_series(name: str, folder: str) -> list[tuple[str, str]]:
+    text = f"{name} {folder}".lower()
     hits: list[tuple[str, str]] = []
     for cat_dir, series_dir, keywords in ALL_SERIES_DEFS:
         if any(kw in text for kw in keywords):
@@ -114,43 +113,106 @@ def match_series(name: str, path: str) -> list[tuple[str, str]]:
     return hits
 
 
-def run(dry_run: bool = False, workers: int = 8) -> dict[str, Any]:
-    service = du.get_drive_service()
-    print("[1/5] Crawling Google Drive (folders, original files, existing shortcuts)...")
-    crawl = du.crawl_drive(service, du.ROOT_FOLDER_ID)
-    folders = crawl["folders"]
-    files = crawl["files"]
-    shortcuts = crawl["shortcuts"]
-    path_to_folder_id = dict(crawl["path_to_folder_id"])
+def ensure_path_rest(
+    folders_by_path: dict[str, str],
+    children_by_folder: dict[str, list[dict[str, Any]]],
+    rel_path: str,
+    dry_run: bool = False,
+) -> tuple[str, int]:
+    """Ensure every segment of rel_path exists under du.ROOT_ID. Returns (folder_id, created_count)."""
+    if rel_path in folders_by_path:
+        return folders_by_path[rel_path], 0
+    parts = [p for p in rel_path.split("/") if p]
+    curr_id = du.ROOT_ID
+    curr_path = ""
+    created_cnt = 0
+    for seg in parts:
+        next_path = f"{curr_path}/{seg}" if curr_path else seg
+        if next_path in folders_by_path:
+            curr_id = folders_by_path[next_path]
+            curr_path = next_path
+            continue
+        if dry_run:
+            fake_id = f"DRY_{next_path}"
+            folders_by_path[next_path] = fake_id
+            curr_id = fake_id
+            curr_path = next_path
+            created_cnt += 1
+            continue
+        existing_children = children_by_folder.get(curr_id)
+        meta, created = du.find_or_create_folder(
+            curr_id, seg, existing_children=existing_children, parent_path=curr_path
+        )
+        curr_id = meta["id"]
+        folders_by_path[next_path] = curr_id
+        if curr_id not in children_by_folder:
+            children_by_folder[curr_id] = []
+        if created:
+            created_cnt += 1
+        curr_path = next_path
+    return curr_id, created_cnt
+
+
+def _create_single_shortcut(item: dict[str, Any]) -> dict[str, Any]:
+    body = {
+        "name": item["name"],
+        "mimeType": du.SHORTCUT_MIME,
+        "parents": [item["dest_id"]],
+        "shortcutDetails": {"targetId": item["target_id"]},
+    }
+    created = du.drive_request(
+        "POST",
+        "/files",
+        params={"supportsAllDrives": "true", "fields": "id,name,mimeType,parents,shortcutDetails"},
+        body=body,
+    )
+    chk = du.drive_request(
+        "GET",
+        f"/files/{created['id']}",
+        params={"supportsAllDrives": "true", "fields": "id,name,mimeType,parents,shortcutDetails,trashed"},
+    )
+    ok = (
+        chk.get("mimeType") == du.SHORTCUT_MIME
+        and (chk.get("shortcutDetails") or {}).get("targetId") == item["target_id"]
+        and item["dest_id"] in (chk.get("parents") or [])
+        and not chk.get("trashed", False)
+    )
+    return {
+        **item,
+        "shortcut_id": created.get("id", ""),
+        "verified_target_id": (chk.get("shortcutDetails") or {}).get("targetId", ""),
+        "verified": ok,
+    }
+
+
+def run(repo_dir: Path, dry_run: bool = False, workers: int = 8) -> dict[str, Any]:
+    print("[1/5] Crawling Google Drive (folders, original files, existing shortcuts)...", flush=True)
+    tree = du.walk_drive_tree(du.ROOT_ID, skip_top_folders=du.SKIP_TOP_FOLDERS)
+    folders_by_path = dict(tree["folders_by_path"])
+    children_by_folder = dict(tree["children_by_folder"])
+    files = tree["files"]
+    shortcuts = tree["shortcuts"]
 
     print(
-        f"  -> Folders: {len(folders)}, Original files: {len(files)}, Existing shortcuts: {len(shortcuts)}"
+        f"  -> Folders: {len(folders_by_path)}, Original files: {len(files)}, Existing shortcuts: {len(shortcuts)}",
+        flush=True,
     )
 
     series_root_path = "Series & Collections"
-    series_root_id = path_to_folder_id.get(series_root_path)
-    if not series_root_id:
-        series_root_id = du.ensure_folder_path(
-            service, path_to_folder_id, du.ROOT_FOLDER_ID, series_root_path, dry_run=dry_run
-        )
+    _, root_created = ensure_path_rest(folders_by_path, children_by_folder, series_root_path, dry_run=dry_run)
 
-    # [2/5] Ensure category & series subfolders exist
-    print("[2/5] Creating category and series subfolders under Series & Collections/...")
-    created_folders = 0
+    print("[2/5] Creating category and series subfolders under Series & Collections/...", flush=True)
+    created_folders = root_created
     dest_folder_ids: dict[tuple[str, str], str] = {}
     for cat_dir, series_dir, _ in ALL_SERIES_DEFS:
         full_path = f"{series_root_path}/{cat_dir}/{series_dir}"
-        existed = full_path in path_to_folder_id
-        fid = du.ensure_folder_path(
-            service, path_to_folder_id, du.ROOT_FOLDER_ID, full_path, dry_run=dry_run
-        )
-        if not existed and fid and not dry_run:
-            created_folders += 1
+        fid, c_cnt = ensure_path_rest(folders_by_path, children_by_folder, full_path, dry_run=dry_run)
+        created_folders += c_cnt
         dest_folder_ids[(cat_dir, series_dir)] = fid
 
     # Cleanup known misplaced Byomkesh shortcut in মিসির আলি সিরিজ
     removed_misplaced: list[dict[str, Any]] = []
-    misir_folder_id = path_to_folder_id.get("Series & Collections/Book Series/মিসির আলি সিরিজ")
+    misir_folder_id = folders_by_path.get("Series & Collections/Book Series/মিসির আলি সিরিজ")
     if misir_folder_id:
         for sc in shortcuts:
             if sc.get("parent_id") == misir_folder_id:
@@ -158,12 +220,15 @@ def run(dry_run: bool = False, workers: int = 8) -> dict[str, Any]:
                 if "কহেন কবি কালিদাস" in nm or "শরদিন্দু" in nm or "byomkesh" in nm:
                     if not dry_run:
                         try:
-                            du.execute_with_retry(
-                                service.files().delete(fileId=sc["id"], supportsAllDrives=True)
+                            du.drive_request(
+                                "PATCH",
+                                f"/files/{sc['id']}",
+                                params={"supportsAllDrives": "true"},
+                                body={"trashed": True},
                             )
                             removed_misplaced.append({"id": sc["id"], "name": sc["name"]})
                         except Exception as exc:
-                            print(f"  WARN could not delete misplaced shortcut {sc['name']}: {exc}")
+                            print(f"  WARN could not trash misplaced shortcut {sc['name']}: {exc}", flush=True)
                     else:
                         removed_misplaced.append({"id": sc["id"], "name": sc["name"], "dry_run": True})
 
@@ -178,23 +243,23 @@ def run(dry_run: bool = False, workers: int = 8) -> dict[str, Any]:
         if pid and sc.get("name"):
             existing_name_by_parent[pid].add(sc["name"].strip().lower())
 
-    # [3/5] Collect file IDs & deduplicate
-    print("[3/5] Collecting matching files and deduplicating shortcuts...")
+    print("[3/5] Collecting matching files and deduplicating shortcuts...", flush=True)
     planned: list[dict[str, Any]] = []
     series_match_counts: dict[str, int] = collections.Counter()
 
     for f in files:
+        if f.get("ext") not in du.BOOK_EXTS:
+            continue
         fid = f["id"]
         fname = f["name"]
-        fpath = f["path"]
-        hits = match_series(fname, fpath)
+        ffolder = f.get("folder", "")
+        hits = match_series(fname, ffolder)
         for cat_dir, series_dir in hits:
             series_key = f"{cat_dir}/{series_dir}"
             series_match_counts[series_key] += 1
             dest_id = dest_folder_ids.get((cat_dir, series_dir), "")
             if not dest_id:
                 continue
-            # Skip if file already lives directly inside this series folder
             if f.get("parent_id") == dest_id:
                 continue
             if fid in existing_target_by_parent[dest_id]:
@@ -212,78 +277,66 @@ def run(dry_run: bool = False, workers: int = 8) -> dict[str, Any]:
                     "dest_id": dest_id,
                     "target_id": fid,
                     "name": fname,
-                    "source_path": fpath,
+                    "source_path": f"{ffolder}/{fname}" if ffolder else fname,
                 }
             )
 
-    print(f"  -> Planned new shortcuts: {len(planned)}")
+    print(f"  -> Planned new shortcuts: {len(planned)}", flush=True)
 
-    # [4/5] Create Google Drive shortcuts in batches
-    print("[4/5] Creating Google Drive shortcuts in parallel batches...")
+    print("[4/5] Creating Google Drive shortcuts in parallel batches...", flush=True)
     created_entries: list[dict[str, Any]] = []
     errors: list[dict[str, Any]] = []
 
     if not dry_run and planned:
-        def _create(item: dict[str, Any]) -> dict[str, Any]:
-            tl_service = du.get_thread_local_service()
-            res = du.create_shortcut(tl_service, item["dest_id"], item["name"], item["target_id"])
-            sd = res.get("shortcutDetails") or {}
-            return {
-                **item,
-                "shortcut_id": res.get("id", ""),
-                "verified_target_id": sd.get("targetId", ""),
-                "verified": sd.get("targetId") == item["target_id"],
-            }
-
         with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as pool:
-            futs = [pool.submit(_create, p) for p in planned]
+            futs = [pool.submit(_create_single_shortcut, p) for p in planned]
             done = 0
             for fut in concurrent.futures.as_completed(futs):
                 done += 1
                 try:
-                    res = fut.result()
-                    created_entries.append(res)
+                    created_entries.append(fut.result())
                 except Exception as exc:
                     errors.append({"error": str(exc)})
                 if done % 200 == 0 or done == len(futs):
-                    print(f"  ... shortcuts {done}/{len(futs)} processed")
+                    print(f"  ... shortcuts {done}/{len(futs)} processed", flush=True)
 
-    # [5/5] Verify counts per folder on Drive
-    print("[5/5] Verifying created folders and shortcut counts...")
+    print("[5/5] Verifying created folders and shortcut counts...", flush=True)
     verified_counts: dict[str, int] = {}
     if not dry_run:
         for (cat_dir, series_dir), fid in dest_folder_ids.items():
-            if not fid:
+            if not fid or fid.startswith("DRY_"):
                 continue
-            children = du.list_folder_children(service, fid)
+            children = du.list_children(fid)
             verified_counts[f"{cat_dir}/{series_dir}"] = len(children)
 
-    batch_id = f"series_shortcuts_{dt.datetime.now(dt.timezone.utc).strftime('%Y%m%d_%H%M%S')}"
+    applied_at = dt.datetime.now(dt.timezone.utc).isoformat()
+    batch_id = du.make_batch_id(applied_at, "series_shortcuts")
     if not dry_run and created_entries:
         cl_entries = [
             {
                 "action": "create_shortcut",
-                "file_id": e["shortcut_id"],
+                "id": e["shortcut_id"],
                 "target_id": e["target_id"],
                 "old_name": e["name"],
                 "new_name": e["name"],
                 "old_path": e["source_path"],
                 "new_path": f"{e['dest_path']}/{e['name']}",
-                "dest_folder_id": e["dest_id"],
+                "new_parent_id": e["dest_id"],
                 "reason": f"Categorized series shortcut ({e['series_key']})",
             }
             for e in created_entries
         ]
-        du.append_changelog_batch(
-            service,
-            du.ROOT_FOLDER_ID,
+        du.update_rename_changelog(
+            repo_dir,
+            cl_entries,
+            applied_at=applied_at,
+            sync_drive=True,
             batch_id=batch_id,
-            stage="series_shortcuts",
-            entries=cl_entries,
+            default_action="create_shortcut",
         )
 
     summary = {
-        "applied_at": dt.datetime.now(dt.timezone.utc).isoformat(),
+        "applied_at": applied_at,
         "dry_run": dry_run,
         "batch_id": batch_id,
         "folders_created": created_folders,
@@ -298,8 +351,9 @@ def run(dry_run: bool = False, workers: int = 8) -> dict[str, Any]:
         "errors": errors[:50],
     }
 
-    du.REPORTS_DIR.mkdir(parents=True, exist_ok=True)
-    (du.REPORTS_DIR / "series_shortcuts_report.json").write_text(
+    reports_dir = repo_dir / "reports"
+    reports_dir.mkdir(parents=True, exist_ok=True)
+    (reports_dir / "series_shortcuts_report.json").write_text(
         json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8"
     )
 
@@ -325,19 +379,31 @@ def run(dry_run: bool = False, workers: int = 8) -> dict[str, Any]:
         live_cnt = verified_counts.get(key, 0)
         md_lines.append(f"| `{key}` | {matched} | {live_cnt} |")
 
-    (du.REPORTS_DIR / "series_shortcuts_report.md").write_text(
+    (reports_dir / "series_shortcuts_report.md").write_text(
         "\n".join(md_lines) + "\n", encoding="utf-8"
     )
-    print(json.dumps({k: v for k, v in summary.items() if k not in ("series_match_counts", "verified_folder_item_counts", "errors")}, ensure_ascii=False, indent=2))
+    print(
+        json.dumps(
+            {
+                k: v
+                for k, v in summary.items()
+                if k not in ("series_match_counts", "verified_folder_item_counts", "errors")
+            },
+            ensure_ascii=False,
+            indent=2,
+        ),
+        flush=True,
+    )
     return summary
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Categorized Series Shortcut Organizer")
+    parser.add_argument("--repo-dir", type=Path, default=Path("."))
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--workers", type=int, default=8)
     args = parser.parse_args()
-    run(dry_run=args.dry_run, workers=args.workers)
+    run(repo_dir=args.repo_dir.resolve(), dry_run=args.dry_run, workers=args.workers)
 
 
 if __name__ == "__main__":
