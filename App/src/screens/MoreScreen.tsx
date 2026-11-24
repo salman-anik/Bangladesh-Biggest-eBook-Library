@@ -1,7 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import {
   ActivityIndicator,
-  Image,
   Linking,
   Modal,
   ScrollView,
@@ -127,23 +126,8 @@ export function MoreScreen({
         contentContainerStyle={styles.content}
         showsVerticalScrollIndicator={false}
       >
-        {/* Single Header Row: SETTINGS left + Top-Right Circular Developer Icon */}
-        <View style={styles.headerRow}>
-          <Text style={[styles.heading, { color: theme.ink, fontSize: fs(24) }]}>SETTINGS</Text>
-
-          <TouchableOpacity
-            style={[styles.devIconBtn, { borderColor: theme.accent, backgroundColor: theme.surface }]}
-            onPress={() => setDevModalOpen(true)}
-            activeOpacity={0.82}
-            accessibilityLabel="Developer Info"
-          >
-            <Image
-              source={require('../../assets/developer-profile.png')}
-              style={styles.devTopPhoto}
-              resizeMode="cover"
-            />
-          </TouchableOpacity>
-        </View>
+        {/* Single Clean Header */}
+        <Text style={[styles.heading, { color: theme.ink, fontSize: fs(24) }]}>SETTINGS</Text>
 
         {/* Appearance Card: Mode + Book App Themes + Font Size */}
         <View style={[styles.card, { backgroundColor: theme.surface, borderColor: theme.border }]}>
@@ -526,18 +510,7 @@ export function MoreScreen({
 const styles = StyleSheet.create({
   root: { flex: 1 },
   content: { paddingHorizontal: 18, paddingTop: 12, paddingBottom: 112, gap: 15 },
-  headerRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
   heading: { fontWeight: '800' },
-  devIconBtn: {
-    width: 40,
-    height: 40,
-    borderRadius: 20,
-    borderWidth: 2,
-    overflow: 'hidden',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  devTopPhoto: { width: '100%', height: '100%' },
   card: {
     borderRadius: 20,
     padding: 16,
