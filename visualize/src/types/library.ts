@@ -10,6 +10,7 @@ export interface CompactCatalog {
   subs: string[];
   langs: string[];
   fmts: string[];
+  links?: [string, number, number][];
   books: [
     string, // 0: drive_file_id
     string, // 1: title
@@ -35,6 +36,7 @@ export interface BookItem {
   size: number;
   coverId: string;
   series: string;
+  extraPaths?: { cat: string; sub: string }[];
   searchBlob: string;
 }
 
@@ -52,7 +54,7 @@ export function inflateCatalog(data: CompactCatalog): {
   books: BookItem[];
   summary: LibrarySummary;
 } {
-  const { cats = [], subs = [], langs = [], fmts = [], books = [] } = data;
+  const { cats = [], subs = [], langs = [], fmts = [], books = [], links = [] } = data;
   const inflated: BookItem[] = books.map((r) => {
     const id = r[0] || "";
     const title = r[1] || "Untitled";
@@ -78,6 +80,21 @@ export function inflateCatalog(data: CompactCatalog): {
       searchBlob: `${title} ${author} ${cat} ${sub} ${series} ${fmt}`.toLowerCase(),
     };
   });
+
+  if (Array.isArray(links) && links.length > 0) {
+    const byId = new Map<string, BookItem>();
+    for (const b of inflated) byId.set(b.id, b);
+    for (const lnk of links) {
+      if (!Array.isArray(lnk) || lnk.length < 3) continue;
+      const b = byId.get(lnk[0]);
+      if (!b) continue;
+      const cat = cats[lnk[1]] || "Other";
+      const sub = subs[lnk[2]] || "";
+      if (!b.extraPaths) b.extraPaths = [];
+      b.extraPaths.push({ cat, sub });
+      b.searchBlob += ` ${cat} ${sub}`.toLowerCase();
+    }
+  }
 
   return {
     books: inflated,

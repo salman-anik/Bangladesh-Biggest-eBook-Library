@@ -90,6 +90,7 @@ export function LibraryExplorer() {
   const [query, setQuery] = useState("");
   const [selectedCat, setSelectedCat] = useState("ALL");
   const [selectedClass, setSelectedClass] = useState("");
+  const [selectedSeries, setSelectedSeries] = useState("");
   const [selectedFmt, setSelectedFmt] = useState("ALL");
   const [sortMode, setSortMode] = useState<"covers" | "title" | "size">("covers");
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
@@ -150,11 +151,44 @@ export function LibraryExplorer() {
     });
   };
 
+  const seriesFolders = useMemo(() => {
+    const set = new Set<string>();
+    for (const b of books) {
+      if (b.cat === "Series & Collections" && b.sub) {
+        const top = b.sub.split("/")[0]?.trim();
+        if (top) set.add(top);
+      }
+      if (b.extraPaths) {
+        for (const ep of b.extraPaths) {
+          if (ep.cat === "Series & Collections" && ep.sub) {
+            const top = ep.sub.split("/")[0]?.trim();
+            if (top) set.add(top);
+          }
+        }
+      }
+    }
+    return Array.from(set).sort((a, b) => a.localeCompare(b));
+  }, [books]);
+
   const filtered = useMemo(() => {
     const terms = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
     const list = books.filter((b) => {
       if (selectedCat === "SAVED" && !savedSet.has(b.id)) return false;
-      if (selectedCat !== "ALL" && selectedCat !== "SAVED" && b.cat !== selectedCat) return false;
+      if (selectedCat !== "ALL" && selectedCat !== "SAVED") {
+        const matchesPrimary = b.cat === selectedCat;
+        const matchesExtra = Boolean(b.extraPaths?.some((p) => p.cat === selectedCat));
+        if (!matchesPrimary && !matchesExtra) return false;
+      }
+      if (selectedCat === "Series & Collections" && selectedSeries) {
+        const matchPrimary =
+          b.cat === "Series & Collections" && b.sub.split("/")[0]?.trim() === selectedSeries;
+        const matchExtra = Boolean(
+          b.extraPaths?.some(
+            (p) => p.cat === "Series & Collections" && p.sub.split("/")[0]?.trim() === selectedSeries
+          )
+        );
+        if (!matchPrimary && !matchExtra) return false;
+      }
       if (selectedClass) {
         const leaf = (b.sub || "").split("/").pop()?.toLowerCase() || "";
         if (leaf !== selectedClass.toLowerCase()) return false;
@@ -174,11 +208,11 @@ export function LibraryExplorer() {
       list.sort((a, b) => a.title.localeCompare(b.title));
     }
     return list;
-  }, [books, query, selectedCat, selectedClass, selectedFmt, sortMode, savedSet]);
+  }, [books, query, selectedCat, selectedClass, selectedSeries, selectedFmt, sortMode, savedSet]);
 
   useEffect(() => {
     setVisibleCount(PAGE_SIZE);
-  }, [query, selectedCat, selectedClass, selectedFmt, sortMode]);
+  }, [query, selectedCat, selectedClass, selectedSeries, selectedFmt, sortMode]);
 
   const shown = filtered.slice(0, visibleCount);
 
@@ -284,6 +318,7 @@ export function LibraryExplorer() {
             onClick={() => {
               setSelectedCat("ALL");
               setSelectedClass("");
+              setSelectedSeries("");
             }}
             className={`px-3.5 py-1.5 rounded-full text-xs font-bold border transition shrink-0 ${
               selectedCat === "ALL"
@@ -299,6 +334,7 @@ export function LibraryExplorer() {
             onClick={() => {
               setSelectedCat("SAVED");
               setSelectedClass("");
+              setSelectedSeries("");
             }}
             className={`inline-flex items-center gap-1 px-3.5 py-1.5 rounded-full text-xs font-bold border transition shrink-0 ${
               selectedCat === "SAVED"
@@ -319,6 +355,7 @@ export function LibraryExplorer() {
                 onClick={() => {
                   setSelectedCat(c);
                   if (c !== "Education & Textbooks") setSelectedClass("");
+                  if (c !== "Series & Collections") setSelectedSeries("");
                 }}
                 className={`px-3.5 py-1.5 rounded-full text-xs font-bold border transition shrink-0 ${
                   active
@@ -358,6 +395,37 @@ export function LibraryExplorer() {
                 }`}
               >
                 {cls}
+              </button>
+            ))}
+          </div>
+        ) : null}
+
+        {/* 1-Tap Series & Collections Folder Chips */}
+        {selectedCat === "Series & Collections" && seriesFolders.length > 0 ? (
+          <div className="flex items-center gap-1.5 pt-2 border-t border-neutral-200 overflow-x-auto pb-1 no-scrollbar flex-nowrap sm:flex-wrap">
+            <button
+              type="button"
+              onClick={() => setSelectedSeries("")}
+              className={`px-3 py-1 rounded-full text-[11px] font-bold border transition shrink-0 ${
+                !selectedSeries
+                  ? "bg-[#0F1115] text-white border-[#0F1115]"
+                  : "bg-white text-[#5F6672] border-neutral-200"
+              }`}
+            >
+              All Series
+            </button>
+            {seriesFolders.map((sf) => (
+              <button
+                key={sf}
+                type="button"
+                onClick={() => setSelectedSeries(selectedSeries === sf ? "" : sf)}
+                className={`px-3 py-1 rounded-full text-[11px] font-bold border transition shrink-0 ${
+                  selectedSeries === sf
+                    ? "bg-[#C6F353] text-[#0F1115] border-[#0F1115]"
+                    : "bg-white text-[#0F1115] border-neutral-200 hover:border-[#0F1115]"
+                }`}
+              >
+                {sf}
               </button>
             ))}
           </div>

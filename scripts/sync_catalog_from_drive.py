@@ -166,6 +166,54 @@ def rebuild_catalog(repo_dir: Path) -> dict[str, Any]:
 
     compact_books.sort(key=lambda row: (row[3], row[4], row[1].lower()))
 
+    # Preserve Google Drive shortcuts (file & folder shortcuts such as Series & Collections)
+    # via compact `links` tuples [bookId, catIdx, subIdx] without double-counting books.
+    primary_loc: dict[str, tuple[int, int]] = {row[0]: (row[3], row[4]) for row in compact_books}
+    file_folder_by_id: dict[str, str] = {
+        f["id"]: f["folder"] for f in tree["files"] if f["ext"] in du.BOOK_EXTS
+    }
+    folder_id_to_path: dict[str, str] = {
+        fid: fp for fp, fid in tree["folders_by_path"].items() if fp
+    }
+    seen_links: set[tuple[str, int, int]] = set()
+
+    def _add_link(target_id: str, folder_path: str) -> None:
+        if target_id not in primary_loc:
+            return
+        parts = [p for p in (folder_path or "").split("/") if p]
+        if not parts:
+            return
+        c_idx = _idx(cats_list, parts[0])
+        s_idx = _idx(subs_list, "/".join(parts[1:]))
+        if (c_idx, s_idx) == primary_loc[target_id]:
+            return
+        seen_links.add((target_id, c_idx, s_idx))
+
+    for sc in tree.get("shortcuts", []):
+        tid = sc.get("target_id", "")
+        tmime = sc.get("target_mime", "")
+        sc_folder = sc.get("folder", "")
+        if tid in primary_loc:
+            _add_link(tid, sc_folder)
+        elif tmime == du.FOLDER_MIME and tid in folder_id_to_path:
+            target_fp = folder_id_to_path[tid]
+            prefix = f"{target_fp}/"
+            sc_name = sc.get("name", "")
+            base_sc = f"{sc_folder}/{sc_name}".strip("/") if sc_name else sc_folder
+            if not base_sc:
+                continue
+            for fid, f_folder in file_folder_by_id.items():
+                if f_folder == target_fp:
+                    _add_link(fid, base_sc)
+                elif f_folder.startswith(prefix):
+                    rel = f_folder[len(prefix):]
+                    _add_link(fid, f"{base_sc}/{rel}")
+
+    links: list[list[Any]] = [
+        [tid, c_idx, s_idx]
+        for tid, c_idx, s_idx in sorted(seen_links, key=lambda x: (x[1], x[2], x[0]))
+    ]
+
     today = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d")
     out_catalog = {
         "v": old_cat.get("v", 1),
@@ -180,6 +228,7 @@ def rebuild_catalog(repo_dir: Path) -> dict[str, Any]:
         "langs": langs_list,
         "fmts": fmts_list,
         "books": compact_books,
+        "links": links,
     }
 
     payload = json.dumps(out_catalog, ensure_ascii=False, separators=(",", ":"))
@@ -196,12 +245,15 @@ def rebuild_catalog(repo_dir: Path) -> dict[str, Any]:
         live_by_id = {b[0]: b for b in compact_books}
         starter_rows = [live_by_id[bid] for bid in starter_ids if bid in live_by_id]
         if starter_rows:
+            starter_id_set = {r[0] for r in starter_rows}
+            starter_links = [lnk for lnk in links if lnk[0] in starter_id_set]
             starter_out = {
                 **out_catalog,
                 "total": len(starter_rows),
                 "total_bytes": sum(r[7] for r in starter_rows),
                 "covers_count": sum(1 for r in starter_rows if r[8]),
                 "books": starter_rows,
+                "links": starter_links,
             }
             starter_path.write_text(json.dumps(starter_out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
@@ -209,6 +261,7 @@ def rebuild_catalog(repo_dir: Path) -> dict[str, Any]:
         "generated_at": today,
         "total_books": len(compact_books),
         "shortcuts_on_drive": len(tree["shortcuts"]),
+        "shortcut_links": len(links),
         "total_bytes": total_bytes,
         "covers_count": covers_count,
         "authors_count": len(unique_authors),
