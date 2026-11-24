@@ -31,10 +31,10 @@ interface TabIconProps {
   active: boolean;
 }
 
-const CIRCLE_SIZE = 52;
-const TOP_OVERHANG = 22;
-const BAR_BASE_HEIGHT = 60;
-const NOTCH_DEPTH = 33;
+const CIRCLE_SIZE = 58;
+const TOP_OVERHANG = 20;
+const BAR_BASE_HEIGHT = 62;
+const NOTCH_DEPTH = 38;
 
 const ORB_GRADIENTS: Record<ThemePresetKey, [string, string]> = {
   espresso: ['#E0A084', '#7E4431'],
@@ -193,7 +193,7 @@ function buildDockedNotchPath(width: number, totalHeight: number, cx: number): s
   const w = Math.max(width, 240);
   const h = totalHeight;
   const tabW = w / TABS.length;
-  const halfW = Math.min(39, tabW * 0.48);
+  const halfW = Math.min(43, tabW * 0.49);
   const d = NOTCH_DEPTH;
 
   const leftS = Math.max(0, cx - halfW);
@@ -368,7 +368,7 @@ const styles = StyleSheet.create({
   },
   orbOuter: {
     position: 'absolute',
-    top: 2,
+    top: 6,
     left: 0,
     width: CIRCLE_SIZE,
     height: CIRCLE_SIZE,
