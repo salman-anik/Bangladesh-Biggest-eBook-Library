@@ -1,0 +1,79 @@
+name: Build Android APK & GitHub Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      release_notes:
+        description: "Optional release notes"
+        required: false
+        default: "AnaBook v1.1.0 — Universal Search tab, Pinterest floating curved navbar, horizontal swipe navigation, unified Offline Shelf, and updated AnaBook logo."
+
+permissions:
+  contents: write
+
+jobs:
+  build-apk:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Setup Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: "temurin"
+          java-version: "17"
+
+      - name: Install App dependencies
+        working-directory: App
+        run: npm install --legacy-peer-deps
+
+      - name: TypeScript Check
+        working-directory: App
+        run: npx tsc --noEmit
+
+      - name: Prebuild Android native project
+        working-directory: App
+        run: npx expo prebuild --platform android --non-interactive
+
+      - name: Build Android Release APK
+        working-directory: App/android
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleRelease --no-daemon
+
+      - name: Prepare Release Assets & Tag
+        id: meta
+        run: |
+          VERSION=$(node -p "require('./App/app.json').expo.version")
+          TAG="v${VERSION}"
+          APK_SRC="App/android/app/build/outputs/apk/release/app-release.apk"
+          if [ ! -f "$APK_SRC" ]; then
+            echo "Release APK not found at $APK_SRC"
+            exit 1
+          fi
+          mkdir -p release_assets
+          cp "$APK_SRC" "release_assets/AnaBook.apk"
+          cp "$APK_SRC" "release_assets/AnaBook-${TAG}.apk"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+
+      - name: Publish GitHub Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: ${{ steps.meta.outputs.tag }}
+          VERSION: ${{ steps.meta.outputs.version }}
+          NOTES: ${{ github.event.inputs.release_notes }}
+        run: |
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" release_assets/AnaBook.apk "release_assets/AnaBook-${TAG}.apk" --clobber
+          else
+            gh release create "$TAG" release_assets/AnaBook.apk "release_assets/AnaBook-${TAG}.apk" \
+              --title "AnaBook ${TAG}" \
+              --notes "${NOTES}"
+          fi

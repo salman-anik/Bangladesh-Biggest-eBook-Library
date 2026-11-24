@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { Download } from "lucide-react";
 
 const APK_URL =
-  "https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/raw/main/App/Bangladesh-eBook-Library.apk";
+  "https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library/releases/latest/download/AnaBook.apk";
 const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 export function TopNavbar() {
