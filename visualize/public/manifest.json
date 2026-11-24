@@ -1,0 +1,18 @@
+{
+  "name": "AnaBook — Bangladesh's Biggest eLibrary",
+  "short_name": "AnaBook",
+  "description": "Read and download 29,178+ Bangla & English PDF/EPUB books, Class 1–12 NCTB textbooks, Religion Books, and Series Collections.",
+  "start_url": "/library/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FAF7F4",
+  "theme_color": "#11100F",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

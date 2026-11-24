@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
+import { CommandPalette } from "@/components/CommandPalette";
 import { TopNavbar } from "@/components/TopNavbar";
+import { WebThemeProvider } from "@/context/WebThemeContext";
 import "./globals.css";
 
 const SITE_URL = "https://anabook-bd.vercel.app/";
@@ -31,6 +33,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: SITE_URL,
   },
+  manifest: `${BASE_PATH}/manifest.json`,
   openGraph: {
     title:
       "AnaBook — Bangladesh's Biggest eLibrary, PDF Library & eBook Library",
@@ -148,8 +151,11 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
-        <TopNavbar />
-        {children}
+        <WebThemeProvider>
+          <TopNavbar />
+          {children}
+          <CommandPalette />
+        </WebThemeProvider>
       </body>
     </html>
   );

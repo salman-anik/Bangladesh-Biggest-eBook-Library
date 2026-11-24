@@ -1,33 +1,42 @@
 "use client";
 
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useCallback, useEffect, useMemo, useState } from "react";
 import {
   ArrowLeft,
+  ArrowUp,
+  BarChart3,
   Bookmark,
   BookOpen,
   ChevronRight,
   Compass,
   ExternalLink,
+  FolderPlus,
   HardDrive,
+  History,
   Library,
   Loader2,
   Moon,
+  NotebookPen,
+  Plus,
   RefreshCw,
   Search,
   Sparkles,
   Sun,
+  Trash2,
   Users,
   X,
 } from "lucide-react";
+import type { AnaBookNavDetail } from "@/components/CommandPalette";
+import { useWebTheme } from "@/context/WebThemeContext";
 import {
   AuthorDetailRecord,
   BookProgress,
   getCategoryPalette,
   QUOTES,
   THEME_PRESETS,
-  ThemeMode,
   ThemePresetKey,
 } from "@/lib/anabookTheme";
+import { loadAuthorDetailsOnce, loadCatalogOnce } from "@/lib/catalogClient";
 import {
   AuthorGroup,
   buildLibraryTree,
@@ -38,11 +47,21 @@ import {
   TreeNode,
 } from "@/lib/libraryTree";
 import {
+  BookNote,
+  CustomCollection,
+  DEFAULT_STREAK,
+  pushRecentBookId,
+  ReadingStreak,
+  recordReadingActivity,
+  safeReadJson,
+  safeWriteJson,
+  STORAGE_KEYS,
+  UserLibraryBackup,
+} from "@/lib/userLibraryStore";
+import {
   BookItem,
-  CompactCatalog,
   formatBytes,
   getDriveFolderUrl,
-  inflateCatalog,
   LibrarySummary,
 } from "@/types/library";
 import { AuthorAvatar } from "./library/AuthorAvatar";
@@ -52,14 +71,11 @@ import { BookCover } from "./library/BookCover";
 import { BookDetailModal } from "./library/BookDetailModal";
 import { CategoryIcon } from "./library/CategoryIcon";
 import { ReaderPreviewModal } from "./library/ReaderPreviewModal";
+import { StatsAndBackupView } from "./library/StatsAndBackupView";
 
-type ActiveTab = "explore" | "search" | "authors" | "shelf";
+type ActiveTab = "explore" | "search" | "authors" | "shelf" | "stats";
 type AuthorFilter = "all" | AuthorGroup;
 
-const SAVED_KEY = "anabook_saved_v1";
-const THEME_KEY = "anabook_web_theme_v1";
-const PROGRESS_KEY = "anabook_progress_v1";
-const CURRENT_READ_KEY = "anabook_current_read_v1";
 const AUTHORS_PAGE_SIZE = 36;
 const SECTIONS_PAGE_SIZE = 48;
 
@@ -88,6 +104,14 @@ function lookupAuthorDetail(
 }
 
 export function LibraryExplorer() {
+  const {
+    presetKey,
+    themeMode,
+    theme,
+    setPresetKey,
+    toggleThemeMode,
+  } = useWebTheme();
+
   const [books, setBooks] = useState<BookItem[]>([]);
   const [summary, setSummary] = useState<LibrarySummary | null>(null);
   const [authorDetails, setAuthorDetails] = useState<
@@ -95,10 +119,6 @@ export function LibraryExplorer() {
   >({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-
-  // Theme state (matching AnaBook's 5 presets + Light/Dark mode)
-  const [presetKey, setPresetKey] = useState<ThemePresetKey>("espresso");
-  const [themeMode, setThemeMode] = useState<ThemeMode>("light");
 
   // Navigation & filtering state
   const [activeTab, setActiveTab] = useState<ActiveTab>("explore");
@@ -117,55 +137,88 @@ export function LibraryExplorer() {
   const [visibleAuthorCount, setVisibleAuthorCount] =
     useState(AUTHORS_PAGE_SIZE);
 
-  // User shelf & modals state
+  // My Shelf filters
+  const [shelfFilter, setShelfFilter] = useState<string>("SAVED");
+  const [newListName, setNewListName] = useState("");
+
+  // User shelf, progress, notes, collections, streak & modals state
   const [savedIds, setSavedIds] = useState<string[]>([]);
   const [progressById, setProgressById] = useState<
     Record<string, BookProgress>
   >({});
   const [currentReadId, setCurrentReadId] = useState<string | null>(null);
+  const [recentIds, setRecentIds] = useState<string[]>([]);
+  const [notesById, setNotesById] = useState<Record<string, BookNote>>({});
+  const [collections, setCollections] = useState<CustomCollection[]>([]);
+  const [streak, setStreak] = useState<ReadingStreak>(DEFAULT_STREAK);
+  const [pendingBookId, setPendingBookId] = useState<string | null>(null);
+
   const [detailBook, setDetailBook] = useState<BookItem | null>(null);
   const [previewBook, setPreviewBook] = useState<BookItem | null>(null);
   const [authorModalOpen, setAuthorModalOpen] = useState(false);
   const [quoteIdx, setQuoteIdx] = useState(0);
+  const [showScrollTop, setShowScrollTop] = useState(false);
   const [hydrated, setHydrated] = useState(false);
 
-  const theme = useMemo(() => {
-    const preset = THEME_PRESETS[presetKey] || THEME_PRESETS.espresso;
-    return preset[themeMode];
-  }, [presetKey, themeMode]);
+  const applyNavDetail = useCallback((detail: AnaBookNavDetail) => {
+    if (detail.bookId) {
+      setPendingBookId(detail.bookId);
+    }
+    if (detail.tab) {
+      setActiveTab(detail.tab);
+    }
+    if (detail.path) {
+      setFolderFilter("");
+      setExplorePath(detail.path);
+      if (!detail.tab) setActiveTab("explore");
+    } else if (detail.cat) {
+      if (detail.cat === "SAVED") {
+        setActiveTab("shelf");
+      } else if (detail.tab === "search") {
+        setSearchCat(detail.cat);
+      } else if (detail.cat !== "ALL") {
+        setExplorePath([detail.cat]);
+        setActiveTab("explore");
+      }
+    }
+    if (detail.q !== undefined) {
+      setQuery(detail.q);
+      if (detail.q && !detail.tab) setActiveTab("search");
+    }
+  }, []);
 
-  // Hydrate user preferences, saved shelf, and URL params on mount
+  // Hydrate persisted user state & URL parameters on mount
   useEffect(() => {
+    setSavedIds(safeReadJson<string[]>(STORAGE_KEYS.SAVED, []));
+    setProgressById(
+      safeReadJson<Record<string, BookProgress>>(STORAGE_KEYS.PROGRESS, {})
+    );
+    setRecentIds(safeReadJson<string[]>(STORAGE_KEYS.RECENT, []));
+    setNotesById(safeReadJson<Record<string, BookNote>>(STORAGE_KEYS.NOTES, {}));
+    setCollections(
+      safeReadJson<CustomCollection[]>(STORAGE_KEYS.COLLECTIONS, [])
+    );
+    setStreak(safeReadJson<ReadingStreak>(STORAGE_KEYS.STREAK, DEFAULT_STREAK));
+
     try {
-      const storedTheme = JSON.parse(
-        localStorage.getItem(THEME_KEY) || "null"
-      );
-      if (storedTheme && typeof storedTheme === "object") {
-        if (storedTheme.preset && THEME_PRESETS[storedTheme.preset as ThemePresetKey]) {
-          setPresetKey(storedTheme.preset as ThemePresetKey);
-        }
-        if (storedTheme.mode === "light" || storedTheme.mode === "dark") {
-          setThemeMode(storedTheme.mode);
-        }
-      }
-
-      const storedSaved = JSON.parse(localStorage.getItem(SAVED_KEY) || "[]");
-      if (Array.isArray(storedSaved)) setSavedIds(storedSaved);
-
-      const storedProgress = JSON.parse(
-        localStorage.getItem(PROGRESS_KEY) || "{}"
-      );
-      if (storedProgress && typeof storedProgress === "object") {
-        setProgressById(storedProgress);
-      }
-
-      const storedCurrent = localStorage.getItem(CURRENT_READ_KEY);
+      const storedCurrent = localStorage.getItem(STORAGE_KEYS.CURRENT_READ);
       if (storedCurrent) setCurrentReadId(storedCurrent);
 
       const params = new URLSearchParams(window.location.search);
+      const bookParam = params.get("book");
+      const tabParam = params.get("tab") as ActiveTab | null;
       const q = params.get("q");
       const pathParam = params.get("path");
       const catParam = params.get("cat") || params.get("category");
+
+      if (bookParam) setPendingBookId(bookParam);
+
+      if (
+        tabParam &&
+        ["explore", "search", "authors", "shelf", "stats"].includes(tabParam)
+      ) {
+        setActiveTab(tabParam);
+      }
 
       if (q) {
         setQuery(q);
@@ -188,38 +241,35 @@ export function LibraryExplorer() {
         }
       }
     } catch {
-      // Ignore URL/storage parse error
+      // Ignore URL/storage error
     } finally {
       setHydrated(true);
     }
   }, []);
 
-  // Persist theme changes
+  // Listen for CommandPalette instant navigation events when already on /library
   useEffect(() => {
-    if (!hydrated) return;
-    try {
-      localStorage.setItem(
-        THEME_KEY,
-        JSON.stringify({ preset: presetKey, mode: themeMode })
-      );
-    } catch {
-      // Ignore storage write error
-    }
-  }, [hydrated, presetKey, themeMode]);
+    const handler = (e: Event) => {
+      const custom = e as CustomEvent<AnaBookNavDetail>;
+      if (custom.detail) applyNavDetail(custom.detail);
+    };
+    window.addEventListener("anabook:navigate", handler);
+    return () => window.removeEventListener("anabook:navigate", handler);
+  }, [applyNavDetail]);
 
-  // Fetch main 29,178-book catalog + lazy author details
+  // Back-to-top scroll listener
+  useEffect(() => {
+    const onScroll = () => setShowScrollTop(window.scrollY > 520);
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  // Fetch main 29,178-book catalog (cached singleton) + lazy author details
   useEffect(() => {
     let cancelled = false;
-    const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
-
-    fetch(`${basePath}/books.json`)
-      .then((res) => {
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        return res.json() as Promise<CompactCatalog>;
-      })
-      .then((raw) => {
+    loadCatalogOnce()
+      .then(({ books: inflated, summary: meta }) => {
         if (cancelled) return;
-        const { books: inflated, summary: meta } = inflateCatalog(raw);
         setBooks(inflated);
         setSummary(meta);
         setLoading(false);
@@ -233,28 +283,40 @@ export function LibraryExplorer() {
         }
       });
 
-    fetch(`${basePath}/author_details.json`)
-      .then((res) => (res.ok ? res.json() : {}))
-      .then((data) => {
-        if (!cancelled && data && typeof data === "object") {
-          setAuthorDetails(data as Record<string, AuthorDetailRecord>);
-        }
-      })
-      .catch(() => {
-        // Optional enrichment; ignore errors silently
-      });
+    loadAuthorDetailsOnce().then((details) => {
+      if (!cancelled) setAuthorDetails(details);
+    });
 
     return () => {
       cancelled = true;
     };
   }, []);
 
-  // Sync URL query params and document.title dynamically for SEO & shareability
+  const booksById = useMemo(() => {
+    const map = new Map<string, BookItem>();
+    for (const b of books) map.set(b.id, b);
+    return map;
+  }, [books]);
+
+  // Resolve ?book=<id> deep-link once catalog is ready
+  useEffect(() => {
+    if (!pendingBookId || booksById.size === 0) return;
+    const match = booksById.get(pendingBookId);
+    if (match) {
+      setDetailBook(match);
+      setRecentIds((prev) => pushRecentBookId(prev, match.id));
+    }
+    setPendingBookId(null);
+  }, [pendingBookId, booksById]);
+
+  // Sync URL query params and document.title dynamically for SEO & deep links
   useEffect(() => {
     if (!hydrated) return;
 
     const trimmedQuery = query.trim();
-    if (activeTab === "search" && trimmedQuery) {
+    if (detailBook) {
+      document.title = `${detailBook.title} — AnaBook | Bangladesh's Biggest eLibrary & PDF Library`;
+    } else if (activeTab === "search" && trimmedQuery) {
       document.title = `"${trimmedQuery}" — AnaBook | Bangladesh's Biggest eLibrary & PDF Library`;
     } else if (activeTab === "explore" && explorePath.length > 0) {
       const label = explorePath[explorePath.length - 1];
@@ -264,7 +326,10 @@ export function LibraryExplorer() {
         "Authors & Scholars — AnaBook | Bangladesh's Biggest eLibrary & PDF Library";
     } else if (activeTab === "shelf") {
       document.title =
-        "My Shelf & Saved Books — AnaBook | Bangladesh's Biggest eLibrary & PDF Library";
+        "My Shelf & Collections — AnaBook | Bangladesh's Biggest eLibrary & PDF Library";
+    } else if (activeTab === "stats") {
+      document.title =
+        "Reading Stats & Backup — AnaBook | Bangladesh's Biggest eLibrary & PDF Library";
     } else {
       document.title =
         "Online Library — Bangladesh's Biggest PDF Library & eBook Library (29,178+ Books) | AnaBook — Bangladesh's Biggest eLibrary";
@@ -276,9 +341,14 @@ export function LibraryExplorer() {
       url.searchParams.delete("cat");
       url.searchParams.delete("category");
       url.searchParams.delete("path");
+      url.searchParams.delete("tab");
+      url.searchParams.delete("book");
 
-      if (activeTab === "search" && trimmedQuery) {
-        url.searchParams.set("q", trimmedQuery);
+      if (detailBook) {
+        url.searchParams.set("book", detailBook.id);
+      } else if (activeTab === "search") {
+        url.searchParams.set("tab", "search");
+        if (trimmedQuery) url.searchParams.set("q", trimmedQuery);
         if (searchCat !== "ALL") url.searchParams.set("cat", searchCat);
       } else if (activeTab === "explore" && explorePath.length === 1) {
         url.searchParams.set("cat", explorePath[0]);
@@ -286,6 +356,8 @@ export function LibraryExplorer() {
         url.searchParams.set("path", explorePath.join("/"));
       } else if (activeTab === "shelf") {
         url.searchParams.set("cat", "SAVED");
+      } else if (activeTab === "authors" || activeTab === "stats") {
+        url.searchParams.set("tab", activeTab);
       }
 
       window.history.replaceState(
@@ -296,34 +368,25 @@ export function LibraryExplorer() {
     } catch {
       // Ignore history API errors
     }
-  }, [hydrated, activeTab, explorePath, query, searchCat]);
+  }, [hydrated, activeTab, explorePath, query, searchCat, detailBook]);
 
   const savedSet = useMemo(() => new Set(savedIds), [savedIds]);
-
-  const booksById = useMemo(() => {
-    const map = new Map<string, BookItem>();
-    for (const b of books) map.set(b.id, b);
-    return map;
-  }, [books]);
 
   const toggleSave = (id: string) => {
     setSavedIds((prev) => {
       const next = prev.includes(id)
         ? prev.filter((x) => x !== id)
         : [id, ...prev];
-      try {
-        localStorage.setItem(SAVED_KEY, JSON.stringify(next));
-      } catch {
-        // Ignore
-      }
+      safeWriteJson(STORAGE_KEYS.SAVED, next);
       return next;
     });
   };
 
   const handleSetCurrentlyReading = (bookId: string) => {
     setCurrentReadId(bookId);
+    setRecentIds((prev) => pushRecentBookId(prev, bookId));
     try {
-      localStorage.setItem(CURRENT_READ_KEY, bookId);
+      localStorage.setItem(STORAGE_KEYS.CURRENT_READ, bookId);
     } catch {
       // Ignore
     }
@@ -337,7 +400,8 @@ export function LibraryExplorer() {
     const safeTotal = Math.max(1, totalPages);
     const safeCurr = Math.min(safeTotal, Math.max(0, currentPage));
     const progressPct = Math.round((safeCurr / safeTotal) * 100);
-    setCurrentReadId(bookId);
+    handleSetCurrentlyReading(bookId);
+    setStreak((prev) => recordReadingActivity(prev, 0));
     setProgressById((prev) => {
       const next: Record<string, BookProgress> = {
         ...prev,
@@ -349,19 +413,93 @@ export function LibraryExplorer() {
           updatedAt: new Date().toISOString(),
         },
       };
-      try {
-        localStorage.setItem(PROGRESS_KEY, JSON.stringify(next));
-        localStorage.setItem(CURRENT_READ_KEY, bookId);
-      } catch {
-        // Ignore
-      }
+      safeWriteJson(STORAGE_KEYS.PROGRESS, next);
       return next;
     });
   };
 
+  const handleSaveNote = (bookId: string, text: string) => {
+    setNotesById((prev) => {
+      const next = { ...prev };
+      if (!text.trim()) {
+        delete next[bookId];
+      } else {
+        next[bookId] = {
+          text,
+          updatedAt: new Date().toISOString(),
+        };
+      }
+      safeWriteJson(STORAGE_KEYS.NOTES, next);
+      return next;
+    });
+  };
+
+  const handleCreateCollection = (name: string, initialBookId?: string) => {
+    const clean = name.trim();
+    if (!clean) return;
+    const newCol: CustomCollection = {
+      id: `col-${Date.now()}-${Math.random().toString(36).slice(2, 6)}`,
+      name: clean,
+      bookIds: initialBookId ? [initialBookId] : [],
+      createdAt: new Date().toISOString(),
+    };
+    setCollections((prev) => {
+      const next = [newCol, ...prev];
+      safeWriteJson(STORAGE_KEYS.COLLECTIONS, next);
+      return next;
+    });
+  };
+
+  const handleDeleteCollection = (collectionId: string) => {
+    setCollections((prev) => {
+      const next = prev.filter((c) => c.id !== collectionId);
+      safeWriteJson(STORAGE_KEYS.COLLECTIONS, next);
+      return next;
+    });
+    if (shelfFilter === collectionId) setShelfFilter("SAVED");
+  };
+
+  const handleToggleCollectionBook = (collectionId: string, bookId: string) => {
+    setCollections((prev) => {
+      const next = prev.map((col) => {
+        if (col.id !== collectionId) return col;
+        const exists = col.bookIds.includes(bookId);
+        return {
+          ...col,
+          bookIds: exists
+            ? col.bookIds.filter((id) => id !== bookId)
+            : [bookId, ...col.bookIds],
+        };
+      });
+      safeWriteJson(STORAGE_KEYS.COLLECTIONS, next);
+      return next;
+    });
+  };
+
+  const handleOpenDetail = (book: BookItem) => {
+    setRecentIds((prev) => pushRecentBookId(prev, book.id));
+    setDetailBook(book);
+  };
+
   const handleOpenReader = (book: BookItem) => {
     handleSetCurrentlyReading(book.id);
+    setStreak((prev) => recordReadingActivity(prev, 0));
     setPreviewBook(book);
+  };
+
+  const handleLogReadingMinute = useCallback(() => {
+    setStreak((prev) => recordReadingActivity(prev, 1));
+  }, []);
+
+  const handleRestoreBackup = (backup: UserLibraryBackup) => {
+    setSavedIds(backup.savedIds);
+    setProgressById(backup.progressById);
+    setCurrentReadId(backup.currentReadId);
+    setRecentIds(backup.recentIds);
+    setNotesById(backup.notesById);
+    setCollections(backup.collections);
+    setStreak(backup.streak);
+    if (backup.theme?.preset) setPresetKey(backup.theme.preset);
   };
 
   // Hierarchical Category Tree (Explore Tab)
@@ -404,10 +542,10 @@ export function LibraryExplorer() {
     return q ? list.filter((n) => n.name.toLowerCase().includes(q)) : list;
   }, [currentNode, folderFilter, explorePath.length]);
 
-  // Quick-jump folder matches when filtering from Root Categories view
   const rootFolderMatches = useMemo(() => {
     const q = folderFilter.trim().toLowerCase();
-    if (!isRootExplore || q.length < 2) return [] as { label: string; path: string[]; count: number }[];
+    if (!isRootExplore || q.length < 2)
+      return [] as { label: string; path: string[]; count: number }[];
     const matches: { label: string; path: string[]; count: number }[] = [];
     const walk = (node: TreeNode, trail: string[]) => {
       for (const child of node.children.values()) {
@@ -473,7 +611,92 @@ export function LibraryExplorer() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  // Author Directory (Authors Tab + Search Quick Author Chips)
+  // Personalized Suggested For You (ported from HomeScreen.tsx)
+  const suggestedBooks = useMemo(() => {
+    if (!books.length) return [] as { book: BookItem; reason: string }[];
+    const seedIds = new Set<string>([
+      ...(currentReadId ? [currentReadId] : []),
+      ...savedIds,
+      ...recentIds,
+      ...Object.keys(progressById),
+    ]);
+
+    const prefAuthors = new Map<string, number>();
+    const prefSubs = new Map<string, number>();
+    const prefCats = new Map<string, number>();
+
+    for (const id of seedIds) {
+      const sb = booksById.get(id);
+      if (!sb) continue;
+      if (sb.author && sb.author !== "Unknown") {
+        prefAuthors.set(sb.author, (prefAuthors.get(sb.author) || 0) + 4);
+      }
+      if (sb.sub) {
+        prefSubs.set(sb.sub, (prefSubs.get(sb.sub) || 0) + 3);
+      }
+      prefCats.set(sb.cat, (prefCats.get(sb.cat) || 0) + 1);
+    }
+
+    const candidates: { book: BookItem; score: number; reason: string }[] = [];
+    const seenCatMix = new Map<string, number>();
+
+    for (const b of books) {
+      if (currentReadId && b.id === currentReadId) continue;
+      if (progressById[b.id] && progressById[b.id].progressPct >= 100) continue;
+
+      let score = b.coverId ? 3 : 0;
+      let reason = (b.sub || b.cat).split("/").pop() || b.cat;
+
+      if (prefAuthors.has(b.author)) {
+        score += (prefAuthors.get(b.author) || 0) * 3;
+        reason = b.author;
+      } else if (b.sub && prefSubs.has(b.sub)) {
+        score += (prefSubs.get(b.sub) || 0) * 2;
+      } else if (prefCats.has(b.cat)) {
+        score += prefCats.get(b.cat) || 0;
+      }
+
+      if (score > 2) {
+        candidates.push({ book: b, score, reason });
+      }
+      if (candidates.length >= 280) break;
+    }
+
+    candidates.sort((a, b) => b.score - a.score);
+    const out: { book: BookItem; reason: string }[] = [];
+    const used = new Set<string>();
+
+    for (const c of candidates) {
+      const catCnt = seenCatMix.get(c.book.cat) || 0;
+      if (
+        out.length < 10 &&
+        !used.has(c.book.id) &&
+        (prefAuthors.size > 0 || catCnt < 3)
+      ) {
+        used.add(c.book.id);
+        seenCatMix.set(c.book.cat, catCnt + 1);
+        out.push({ book: c.book, reason: c.reason });
+      }
+      if (out.length >= 10) break;
+    }
+
+    return out;
+  }, [books, booksById, currentReadId, savedIds, recentIds, progressById]);
+
+  const currentReadBook = currentReadId
+    ? booksById.get(currentReadId) ?? null
+    : null;
+
+  const recentBooks = useMemo(
+    () =>
+      recentIds
+        .map((id) => booksById.get(id))
+        .filter((b): b is BookItem => Boolean(b))
+        .slice(0, 10),
+    [recentIds, booksById]
+  );
+
+  // Author Directory
   const authorDirectory = useMemo(
     () => extractAuthorDirectory(books, savedSet),
     [books, savedSet]
@@ -521,7 +744,8 @@ export function LibraryExplorer() {
 
   const searchMatchingFolders = useMemo(() => {
     const q = query.trim().toLowerCase();
-    if (q.length < 2) return [] as { name: string; path: string[]; count: number }[];
+    if (q.length < 2)
+      return [] as { name: string; path: string[]; count: number }[];
     const out: { name: string; path: string[]; count: number }[] = [];
     const walk = (node: TreeNode, trail: string[]) => {
       for (const child of node.children.values()) {
@@ -564,14 +788,35 @@ export function LibraryExplorer() {
     return list;
   }, [progressById, currentReadId, booksById]);
 
-  const savedBooks = useMemo(() => {
-    const list: BookItem[] = [];
-    for (const id of savedIds) {
-      const b = booksById.get(id);
-      if (b) list.push(b);
-    }
-    return list;
-  }, [savedIds, booksById]);
+  const savedBooks = useMemo(
+    () =>
+      savedIds
+        .map((id) => booksById.get(id))
+        .filter((b): b is BookItem => Boolean(b)),
+    [savedIds, booksById]
+  );
+
+  const notedBooks = useMemo(
+    () =>
+      Object.entries(notesById)
+        .filter(([, n]) => Boolean(n?.text?.trim()))
+        .sort((a, b) =>
+          (b[1].updatedAt || "").localeCompare(a[1].updatedAt || "")
+        )
+        .map(([id]) => booksById.get(id))
+        .filter((b): b is BookItem => Boolean(b)),
+    [notesById, booksById]
+  );
+
+  const shelfActiveBooks = useMemo(() => {
+    if (shelfFilter === "SAVED") return savedBooks;
+    if (shelfFilter === "NOTES") return notedBooks;
+    const col = collections.find((c) => c.id === shelfFilter);
+    if (!col) return savedBooks;
+    return col.bookIds
+      .map((id) => booksById.get(id))
+      .filter((b): b is BookItem => Boolean(b));
+  }, [shelfFilter, savedBooks, notedBooks, collections, booksById]);
 
   const handleSurpriseMe = () => {
     const source =
@@ -583,7 +828,7 @@ export function LibraryExplorer() {
     const withCovers = source.filter((b) => Boolean(b.coverId));
     const pool = withCovers.length > 0 ? withCovers : source;
     if (pool.length === 0) return;
-    setDetailBook(pool[Math.floor(Math.random() * pool.length)]);
+    handleOpenDetail(pool[Math.floor(Math.random() * pool.length)]);
   };
 
   const handleJumpAuthorFromBook = (authorName: string) => {
@@ -696,9 +941,7 @@ export function LibraryExplorer() {
 
               <button
                 type="button"
-                onClick={() =>
-                  setThemeMode((m) => (m === "light" ? "dark" : "light"))
-                }
+                onClick={toggleThemeMode}
                 title={
                   themeMode === "light"
                     ? "Switch to Dark Mode"
@@ -757,7 +1000,7 @@ export function LibraryExplorer() {
           </div>
         </section>
 
-        {/* 4 Segmented Navigation Tabs (Matching AnaBook App Tabs) */}
+        {/* 5 Segmented Navigation Tabs (Matching AnaBook App + Stats) */}
         <nav
           className="flex items-center gap-2 overflow-x-auto pb-1 no-scrollbar"
           aria-label="Library sections"
@@ -776,6 +1019,7 @@ export function LibraryExplorer() {
                 label: `My Shelf (${savedIds.length})`,
                 Icon: Library,
               },
+              { key: "stats", label: "Stats", Icon: BarChart3 },
             ] as const
           ).map(({ key, label, Icon }) => {
             const active = activeTab === key;
@@ -1028,7 +1272,7 @@ export function LibraryExplorer() {
               </div>
             )}
 
-            {/* Author Profile Banner (when viewing an individual author folder) */}
+            {/* Author Profile Banner */}
             {isViewingAuthor && (
               <div
                 className="rounded-3xl border p-4 sm:p-5 space-y-3"
@@ -1085,9 +1329,111 @@ export function LibraryExplorer() {
               </div>
             )}
 
-            {/* ROOT BENTO GRID */}
+            {/* ROOT BENTO GRID + PERSONALIZED HOME SHELVES */}
             {isRootExplore ? (
               <>
+                {/* Continue Reading Hero Card (if user has started reading) */}
+                {currentReadBook && (
+                  <section
+                    className="rounded-3xl border p-4 sm:p-5 flex flex-col sm:flex-row sm:items-center justify-between gap-4"
+                    style={{
+                      backgroundColor: theme.surface,
+                      borderColor: theme.border,
+                    }}
+                  >
+                    <div className="flex items-center gap-4 min-w-0">
+                      <button
+                        type="button"
+                        onClick={() => handleOpenDetail(currentReadBook)}
+                        className="w-[62px] h-[92px] shrink-0 cursor-pointer"
+                      >
+                        <BookCover
+                          book={currentReadBook}
+                          theme={theme}
+                          isSaved={savedSet.has(currentReadBook.id)}
+                          compact
+                          className="w-full h-full"
+                        />
+                      </button>
+
+                      <div className="min-w-0 space-y-1.5">
+                        <span
+                          className="text-[10px] font-extrabold uppercase tracking-[0.1em]"
+                          style={{ color: theme.accent }}
+                        >
+                          Continue Reading
+                        </span>
+                        <h2 className="text-sm sm:text-base font-extrabold line-clamp-1">
+                          {currentReadBook.title}
+                        </h2>
+                        <p
+                          className="text-xs line-clamp-1"
+                          style={{ color: theme.muted }}
+                        >
+                          {currentReadBook.author} · {currentReadBook.fmt} ·{" "}
+                          {formatBytes(currentReadBook.size)}
+                        </p>
+                        {progressById[currentReadBook.id] && (
+                          <div className="flex items-center gap-2 max-w-xs">
+                            <div
+                              className="flex-1 h-1.5 rounded-full overflow-hidden"
+                              style={{ backgroundColor: theme.surfaceAlt }}
+                            >
+                              <div
+                                className="h-full rounded-full"
+                                style={{
+                                  width: `${Math.max(
+                                    4,
+                                    progressById[currentReadBook.id].progressPct
+                                  )}%`,
+                                  backgroundColor: theme.accent,
+                                }}
+                              />
+                            </div>
+                            <span
+                              className="text-[11px] font-extrabold tabular-nums"
+                              style={{ color: theme.accent }}
+                            >
+                              {progressById[currentReadBook.id].progressPct}%
+                            </span>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+
+                    <div className="flex items-center gap-2 shrink-0">
+                      <button
+                        type="button"
+                        onClick={() => handleOpenReader(currentReadBook)}
+                        className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-full text-xs font-extrabold transition hover:opacity-90 cursor-pointer"
+                        style={{
+                          backgroundColor: theme.cream,
+                          color: theme.creamInk,
+                        }}
+                      >
+                        <BookOpen
+                          className="w-3.5 h-3.5"
+                          style={{ color: theme.accent }}
+                        />
+                        <span>Continue</span>
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => handleOpenDetail(currentReadBook)}
+                        className="px-4 py-2.5 rounded-full border text-xs font-bold transition hover:opacity-85 cursor-pointer"
+                        style={{
+                          backgroundColor: theme.surfaceAlt,
+                          borderColor: theme.border,
+                          color: theme.ink,
+                        }}
+                      >
+                        Details
+                      </button>
+                    </div>
+                  </section>
+                )}
+
+                {/* 8 Color-Tinted Bento Categories */}
                 <section className="space-y-3">
                   <div className="flex items-center justify-between">
                     <h2 className="text-sm sm:text-base font-extrabold tracking-tight">
@@ -1118,14 +1464,12 @@ export function LibraryExplorer() {
                             color: theme.ink,
                           }}
                         >
-                          {/* Radial Corner Orb */}
                           <span
                             className="absolute -right-6 -bottom-7 w-28 h-28 rounded-full pointer-events-none"
                             style={{ backgroundColor: pal.orb }}
                             aria-hidden="true"
                           />
 
-                          {/* Top Icon Badge + Title */}
                           <div className="relative z-10 pr-8 space-y-2">
                             <span
                               className="w-9 h-9 rounded-xl inline-flex items-center justify-center"
@@ -1142,7 +1486,6 @@ export function LibraryExplorer() {
                             </h3>
                           </div>
 
-                          {/* Bottom-Left Count Pill */}
                           <div className="relative z-10 max-w-[65%]">
                             <span
                               className="inline-flex items-center px-2.5 py-1 rounded-xl text-[11px] font-extrabold"
@@ -1155,7 +1498,6 @@ export function LibraryExplorer() {
                             </span>
                           </div>
 
-                          {/* Bottom-Right Tilted Dual BookCover Cluster */}
                           {coverFront ? (
                             <div
                               className="absolute right-0 bottom-0 w-24 h-24 pointer-events-none"
@@ -1205,10 +1547,7 @@ export function LibraryExplorer() {
                       <h2 className="text-sm sm:text-base font-extrabold tracking-tight">
                         NCTB Textbooks (Pre-Primary – Class 12)
                       </h2>
-                      <p
-                        className="text-xs"
-                        style={{ color: theme.muted }}
-                      >
+                      <p className="text-xs" style={{ color: theme.muted }}>
                         1-tap jump to official Bangladesh board books by class
                       </p>
                     </div>
@@ -1255,6 +1594,106 @@ export function LibraryExplorer() {
                   </div>
                 </section>
 
+                {/* Suggested For You Horizontal Shelf */}
+                {suggestedBooks.length > 0 && (
+                  <section className="space-y-3">
+                    <div className="flex items-center justify-between">
+                      <div>
+                        <h2 className="text-sm sm:text-base font-extrabold tracking-tight">
+                          Suggested For You
+                        </h2>
+                        <p className="text-xs" style={{ color: theme.muted }}>
+                          {savedIds.length > 0 || recentIds.length > 0
+                            ? "Personalized from your reading history & bookmarks"
+                            : "Curated highlighted editions across the archive"}
+                        </p>
+                      </div>
+                      <button
+                        type="button"
+                        onClick={() => setActiveTab("search")}
+                        className="text-xs font-extrabold hover:underline cursor-pointer"
+                        style={{ color: theme.accent }}
+                      >
+                        Browse All →
+                      </button>
+                    </div>
+
+                    <div className="flex items-stretch gap-3.5 overflow-x-auto pb-2 no-scrollbar">
+                      {suggestedBooks.map(({ book, reason }) => (
+                        <button
+                          key={book.id}
+                          type="button"
+                          onClick={() => handleOpenDetail(book)}
+                          className="w-36 shrink-0 rounded-2xl border p-2.5 text-left space-y-2 transition hover:-translate-y-0.5 cursor-pointer"
+                          style={{
+                            backgroundColor: theme.surface,
+                            borderColor: theme.border,
+                          }}
+                        >
+                          <BookCover
+                            book={book}
+                            theme={theme}
+                            isSaved={savedSet.has(book.id)}
+                            showFormatBadge
+                            className="w-full aspect-[2/3]"
+                          />
+                          <div>
+                            <p className="text-xs font-extrabold line-clamp-2 leading-snug">
+                              {book.title}
+                            </p>
+                            <p
+                              className="text-[10px] font-bold line-clamp-1 mt-0.5"
+                              style={{ color: theme.accent }}
+                            >
+                              {reason}
+                            </p>
+                          </div>
+                        </button>
+                      ))}
+                    </div>
+                  </section>
+                )}
+
+                {/* Recently Viewed Strip (when non-empty) */}
+                {recentBooks.length > 0 && (
+                  <section className="space-y-3">
+                    <div className="flex items-center gap-2">
+                      <History
+                        className="w-4 h-4"
+                        style={{ color: theme.accent }}
+                      />
+                      <h2 className="text-sm sm:text-base font-extrabold tracking-tight">
+                        Recently Viewed
+                      </h2>
+                    </div>
+
+                    <div className="flex items-stretch gap-3 overflow-x-auto pb-1.5 no-scrollbar">
+                      {recentBooks.map((book) => (
+                        <button
+                          key={book.id}
+                          type="button"
+                          onClick={() => handleOpenDetail(book)}
+                          className="w-32 shrink-0 rounded-2xl border p-2 text-left space-y-1.5 transition hover:-translate-y-0.5 cursor-pointer"
+                          style={{
+                            backgroundColor: theme.surface,
+                            borderColor: theme.border,
+                          }}
+                        >
+                          <BookCover
+                            book={book}
+                            theme={theme}
+                            compact
+                            className="w-full aspect-[2/3]"
+                          />
+                          <p className="text-[11px] font-extrabold line-clamp-2 leading-snug">
+                            {book.title}
+                          </p>
+                        </button>
+                      ))}
+                    </div>
+                  </section>
+                )}
+
                 {/* Featured Authors Strip */}
                 <section className="space-y-3">
                   <div className="flex items-center justify-between">
@@ -1262,10 +1701,7 @@ export function LibraryExplorer() {
                       <h2 className="text-sm sm:text-base font-extrabold tracking-tight">
                         Featured Authors &amp; Scholars
                       </h2>
-                      <p
-                        className="text-xs"
-                        style={{ color: theme.muted }}
-                      >
+                      <p className="text-xs" style={{ color: theme.muted }}>
                         Explore curated shelves from{" "}
                         {authorDirectory.length.toLocaleString()} writers
                       </p>
@@ -1504,7 +1940,6 @@ export function LibraryExplorer() {
                   </section>
                 )}
 
-                {/* Books inside current folder (direct books or all nested books) */}
                 {(directBooksFiltered.length > 0 ||
                   folderAllBooksFiltered.length > 0) && (
                   <section className="space-y-3 pt-1">
@@ -1524,7 +1959,7 @@ export function LibraryExplorer() {
                       progressById={progressById}
                       emptyTitle="No books match this filter"
                       emptySubtitle="Try clearing the folder search box above."
-                      onOpenDetail={setDetailBook}
+                      onOpenDetail={handleOpenDetail}
                       onQuickRead={handleOpenReader}
                       onToggleSave={toggleSave}
                     />
@@ -1599,7 +2034,6 @@ export function LibraryExplorer() {
                 </select>
               </div>
 
-              {/* Matching Authors & Folders from SearchScreen */}
               {(searchMatchingAuthors.length > 0 ||
                 searchMatchingFolders.length > 0) && (
                 <div className="space-y-2.5 pt-1">
@@ -1679,7 +2113,7 @@ export function LibraryExplorer() {
               savedSet={savedSet}
               theme={theme}
               progressById={progressById}
-              onOpenDetail={setDetailBook}
+              onOpenDetail={handleOpenDetail}
               onQuickRead={handleOpenReader}
               onToggleSave={toggleSave}
             />
@@ -1855,7 +2289,7 @@ export function LibraryExplorer() {
           </div>
         )}
 
-        {/* ==================== TAB 4: MY SHELF (READING & SAVED) ==================== */}
+        {/* ==================== TAB 4: MY SHELF (READING, COLLECTIONS & NOTES) ==================== */}
         {activeTab === "shelf" && (
           <div className="space-y-8">
             {/* Reading Progress Section */}
@@ -1891,7 +2325,7 @@ export function LibraryExplorer() {
                       >
                         <button
                           type="button"
-                          onClick={() => setDetailBook(book)}
+                          onClick={() => handleOpenDetail(book)}
                           className="w-[62px] h-[92px] shrink-0 cursor-pointer"
                         >
                           <BookCover
@@ -1956,7 +2390,7 @@ export function LibraryExplorer() {
                             </button>
                             <button
                               type="button"
-                              onClick={() => setDetailBook(book)}
+                              onClick={() => handleOpenDetail(book)}
                               className="px-3 py-1 rounded-full border text-[11px] font-bold cursor-pointer"
                               style={{
                                 backgroundColor: theme.surfaceAlt,
@@ -1964,7 +2398,7 @@ export function LibraryExplorer() {
                                 color: theme.ink,
                               }}
                             >
-                              Progress
+                              Details
                             </button>
                           </div>
                         </div>
@@ -1988,31 +2422,183 @@ export function LibraryExplorer() {
               )}
             </section>
 
-            {/* Saved Bookmarks Section */}
-            <section className="space-y-3">
-              <div className="flex items-center gap-2">
-                <Bookmark
-                  className="w-4 h-4"
-                  style={{ color: theme.accent }}
-                />
-                <h2 className="text-sm sm:text-base font-extrabold">
-                  Saved Bookmarks ({savedBooks.length})
-                </h2>
+            {/* Saved Bookmarks, Study Notes & Custom Reading Lists */}
+            <section className="space-y-4">
+              <div
+                className="rounded-3xl border p-4 sm:p-5 space-y-3.5"
+                style={{
+                  backgroundColor: theme.surface,
+                  borderColor: theme.border,
+                }}
+              >
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                  <div className="flex items-center gap-2">
+                    <FolderPlus
+                      className="w-4 h-4"
+                      style={{ color: theme.accent }}
+                    />
+                    <h2 className="text-sm sm:text-base font-extrabold">
+                      Bookmarks, Study Notes &amp; Reading Lists
+                    </h2>
+                  </div>
+
+                  <form
+                    onSubmit={(e) => {
+                      e.preventDefault();
+                      if (!newListName.trim()) return;
+                      handleCreateCollection(newListName);
+                      setNewListName("");
+                    }}
+                    className="flex items-center gap-2"
+                  >
+                    <input
+                      type="text"
+                      value={newListName}
+                      onChange={(e) => setNewListName(e.target.value)}
+                      placeholder="New reading list name…"
+                      className="px-3.5 py-1.5 rounded-full border text-xs focus:outline-none"
+                      style={{
+                        backgroundColor: theme.surfaceAlt,
+                        borderColor: theme.border,
+                        color: theme.ink,
+                      }}
+                    />
+                    <button
+                      type="submit"
+                      className="inline-flex items-center gap-1 px-3.5 py-1.5 rounded-full text-xs font-extrabold cursor-pointer"
+                      style={{
+                        backgroundColor: theme.cream,
+                        color: theme.creamInk,
+                      }}
+                    >
+                      <Plus className="w-3.5 h-3.5" />
+                      <span>Create</span>
+                    </button>
+                  </form>
+                </div>
+
+                {/* Filter Pills */}
+                <div className="flex items-center gap-2 overflow-x-auto pb-1 no-scrollbar">
+                  <button
+                    type="button"
+                    onClick={() => setShelfFilter("SAVED")}
+                    className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full border text-xs font-bold shrink-0 cursor-pointer"
+                    style={{
+                      backgroundColor:
+                        shelfFilter === "SAVED"
+                          ? theme.cream
+                          : theme.surfaceAlt,
+                      borderColor:
+                        shelfFilter === "SAVED" ? theme.cream : theme.border,
+                      color:
+                        shelfFilter === "SAVED" ? theme.creamInk : theme.ink,
+                    }}
+                  >
+                    <Bookmark className="w-3.5 h-3.5" />
+                    <span>Saved ({savedBooks.length})</span>
+                  </button>
+
+                  <button
+                    type="button"
+                    onClick={() => setShelfFilter("NOTES")}
+                    className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full border text-xs font-bold shrink-0 cursor-pointer"
+                    style={{
+                      backgroundColor:
+                        shelfFilter === "NOTES"
+                          ? theme.cream
+                          : theme.surfaceAlt,
+                      borderColor:
+                        shelfFilter === "NOTES" ? theme.cream : theme.border,
+                      color:
+                        shelfFilter === "NOTES" ? theme.creamInk : theme.ink,
+                    }}
+                  >
+                    <NotebookPen className="w-3.5 h-3.5" />
+                    <span>With Notes ({notedBooks.length})</span>
+                  </button>
+
+                  {collections.map((col) => {
+                    const active = shelfFilter === col.id;
+                    return (
+                      <div
+                        key={col.id}
+                        className="inline-flex items-center rounded-full border shrink-0 overflow-hidden"
+                        style={{
+                          backgroundColor: active
+                            ? theme.cream
+                            : theme.surfaceAlt,
+                          borderColor: active ? theme.cream : theme.border,
+                        }}
+                      >
+                        <button
+                          type="button"
+                          onClick={() => setShelfFilter(col.id)}
+                          className="pl-3.5 pr-2 py-1.5 text-xs font-bold cursor-pointer"
+                          style={{
+                            color: active ? theme.creamInk : theme.ink,
+                          }}
+                        >
+                          {col.name} ({col.bookIds.length})
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => handleDeleteCollection(col.id)}
+                          title={`Delete ${col.name}`}
+                          aria-label={`Delete ${col.name}`}
+                          className="pr-2.5 pl-1 py-1.5 hover:opacity-75 cursor-pointer"
+                          style={{
+                            color: active ? theme.creamInk : theme.muted,
+                          }}
+                        >
+                          <Trash2 className="w-3 h-3" />
+                        </button>
+                      </div>
+                    );
+                  })}
+                </div>
               </div>
 
               <BookCollectionView
-                books={savedBooks}
+                books={shelfActiveBooks}
                 savedSet={savedSet}
                 theme={theme}
                 progressById={progressById}
-                emptyTitle="No saved books yet"
-                emptySubtitle="Tap the bookmark button on any book to save it to your shelf."
-                onOpenDetail={setDetailBook}
+                emptyTitle={
+                  shelfFilter === "SAVED"
+                    ? "No saved books yet"
+                    : shelfFilter === "NOTES"
+                      ? "No study notes written yet"
+                      : "This reading list is empty"
+                }
+                emptySubtitle={
+                  shelfFilter === "SAVED"
+                    ? "Tap the bookmark button on any book to save it to your shelf."
+                    : shelfFilter === "NOTES"
+                      ? "Open any book and write a personal study note in Book Details or the Reader."
+                      : "Open any book's Overview and add it to this reading list."
+                }
+                onOpenDetail={handleOpenDetail}
                 onQuickRead={handleOpenReader}
                 onToggleSave={toggleSave}
               />
             </section>
           </div>
+        )}
+
+        {/* ==================== TAB 5: STATS & BACKUP ==================== */}
+        {activeTab === "stats" && (
+          <StatsAndBackupView
+            books={books}
+            savedIds={savedIds}
+            progressById={progressById}
+            notesById={notesById}
+            collections={collections}
+            streak={streak}
+            theme={theme}
+            onSelectCategory={(cat) => navigateExplorePath([cat])}
+            onOpenDetail={handleOpenDetail}
+            onRestoreBackup={handleRestoreBackup}
+          />
         )}
 
         {/* ==================== MINIMAL SEO FOOTER ==================== */}
@@ -2068,10 +2654,30 @@ export function LibraryExplorer() {
         </footer>
       </div>
 
+      {/* Floating Back to Top Button */}
+      {showScrollTop && (
+        <button
+          type="button"
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          aria-label="Back to top"
+          title="Back to top"
+          className="fixed bottom-5 right-5 z-40 w-11 h-11 rounded-full border shadow-lg flex items-center justify-center transition hover:scale-105 cursor-pointer"
+          style={{
+            backgroundColor: theme.cream,
+            borderColor: theme.border,
+            color: theme.creamInk,
+          }}
+        >
+          <ArrowUp className="w-4 h-4" />
+        </button>
+      )}
+
       {/* Modals */}
       <BookDetailModal
         book={detailBook}
         progress={detailBook ? progressById[detailBook.id] : undefined}
+        note={detailBook ? notesById[detailBook.id] : undefined}
+        collections={collections}
         isCurrentRead={Boolean(detailBook && currentReadId === detailBook.id)}
         isSaved={Boolean(detailBook && savedSet.has(detailBook.id))}
         theme={theme}
@@ -2083,6 +2689,9 @@ export function LibraryExplorer() {
         onToggleSave={toggleSave}
         onSetCurrentlyReading={handleSetCurrentlyReading}
         onUpdateProgress={handleUpdateProgress}
+        onSaveNote={handleSaveNote}
+        onToggleCollectionBook={handleToggleCollectionBook}
+        onCreateCollection={handleCreateCollection}
         onNavigateFolder={navigateExplorePath}
         onFilterAuthor={handleJumpAuthorFromBook}
       />
@@ -2090,8 +2699,13 @@ export function LibraryExplorer() {
       <ReaderPreviewModal
         book={previewBook}
         isSaved={Boolean(previewBook && savedSet.has(previewBook.id))}
+        progress={previewBook ? progressById[previewBook.id] : undefined}
+        note={previewBook ? notesById[previewBook.id] : undefined}
         theme={theme}
         onToggleSave={toggleSave}
+        onUpdateProgress={handleUpdateProgress}
+        onSaveNote={handleSaveNote}
+        onLogReadingMinute={handleLogReadingMinute}
         onClose={() => setPreviewBook(null)}
       />
 
