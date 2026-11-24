@@ -32,9 +32,9 @@ interface TabIconProps {
 }
 
 const CIRCLE_SIZE = 58;
-const TOP_OVERHANG = 20;
+const TOP_OVERHANG = 18;
 const BAR_BASE_HEIGHT = 62;
-const NOTCH_DEPTH = 38;
+const NOTCH_DEPTH = 41;
 
 const ORB_GRADIENTS: Record<ThemePresetKey, [string, string]> = {
   espresso: ['#E0A084', '#7E4431'],
@@ -368,7 +368,7 @@ const styles = StyleSheet.create({
   },
   orbOuter: {
     position: 'absolute',
-    top: 6,
+    top: 10,
     left: 0,
     width: CIRCLE_SIZE,
     height: CIRCLE_SIZE,
