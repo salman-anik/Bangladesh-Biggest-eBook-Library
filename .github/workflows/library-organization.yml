@@ -14,6 +14,7 @@ on:
           - banglish_renames
           - author_subfolders
           - cross_category_shortcuts
+          - series_shortcuts
           - move_non_pdf
           - sync_catalog
 
@@ -54,6 +55,10 @@ jobs:
           fi
           if [ "$STAGE" = "all" ] || [ "$STAGE" = "cross_category_shortcuts" ]; then
             python -u scripts/cross_category_shortcut_organizer.py --repo-dir .
+          fi
+          if [ "$STAGE" = "series_shortcuts" ]; then
+            python -u scripts/organize_all_series_shortcuts.py
+            python -u scripts/sync_catalog_from_drive.py --repo-dir .
           fi
           if [ "$STAGE" = "move_non_pdf" ]; then
             python -u scripts/move_non_pdf_to_unclassified.py --repo-dir .
