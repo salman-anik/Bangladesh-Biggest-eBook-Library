@@ -124,7 +124,7 @@ interface Props {
   size?: number;
 }
 
-export function AuthorAvatar({ name, size = 40 }: Props) {
+export const AuthorAvatar = React.memo(function AuthorAvatar({ name, size = 40 }: Props) {
   const { theme } = useAppTheme();
   const photoId = getAuthorPhotoId(name);
   const [stage, setStage] = useState<'primary' | 'fallback' | 'avatar'>(photoId ? 'primary' : 'avatar');
@@ -179,7 +179,7 @@ export function AuthorAvatar({ name, size = 40 }: Props) {
       ) : null}
     </View>
   );
-}
+});
 
 const styles = StyleSheet.create({
   wrap: {

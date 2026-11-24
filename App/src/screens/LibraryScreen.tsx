@@ -57,7 +57,7 @@ interface Props {
   onOpenCategoryPath?: (path: string[]) => void;
 }
 
-export function LibraryScreen({
+export const LibraryScreen = React.memo(function LibraryScreen({
   books,
   currentlyReading,
   progressById,
@@ -345,8 +345,9 @@ export function LibraryScreen({
             data={searchResults}
             keyExtractor={(item) => item.id}
             initialNumToRender={12}
-            maxToRenderPerBatch={14}
-            windowSize={7}
+            maxToRenderPerBatch={10}
+            windowSize={5}
+            removeClippedSubviews
             contentContainerStyle={styles.listContent}
             showsVerticalScrollIndicator={false}
             ListEmptyComponent={
@@ -812,7 +813,7 @@ export function LibraryScreen({
       )}
     </View>
   );
-}
+});
 
 const styles = StyleSheet.create({
   root: { flex: 1 },

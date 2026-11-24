@@ -66,7 +66,7 @@ const FONT_OPTIONS: { key: FontScaleKey; label: string }[] = [
 
 const PRESET_KEYS: ThemePresetKey[] = ['espresso', 'matcha', 'midnight', 'sepia', 'rosewood'];
 
-export function MoreScreen({
+export const MoreScreen = React.memo(function MoreScreen({
   books,
   catalogMeta,
   syncingCatalog,
@@ -505,7 +505,7 @@ export function MoreScreen({
       <DeveloperScreen visible={devModalOpen} onClose={() => setDevModalOpen(false)} />
     </View>
   );
-}
+});
 
 const styles = StyleSheet.create({
   root: { flex: 1 },

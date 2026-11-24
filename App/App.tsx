@@ -1,6 +1,20 @@
 import { StatusBar } from 'expo-status-bar';
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { ActivityIndicator, Alert, BackHandler, Image, Linking, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import {
+  ActivityIndicator,
+  Alert,
+  BackHandler,
+  Image,
+  Linking,
+  type NativeScrollEvent,
+  type NativeSyntheticEvent,
+  ScrollView,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  useWindowDimensions,
+  View,
+} from 'react-native';
 import { SafeAreaProvider, SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { BookDetailModal } from './src/components/BookDetailModal';
@@ -41,9 +55,14 @@ import type {
   ThemePresetKey,
 } from './src/types';
 
+const TAB_ORDER: TabKey[] = ['home', 'library', 'explore', 'search', 'more'];
+
 function MainApp() {
   const insets = useSafeAreaInsets();
+  const { width: windowWidth } = useWindowDimensions();
+  const pagerRef = useRef<React.ComponentRef<typeof ScrollView> | null>(null);
   const [activeTab, setActiveTab] = useState<TabKey>('home');
+  const [visitedTabs, setVisitedTabs] = useState<TabKey[]>(['home', 'library']);
   const [books, setBooks] = useState<Book[]>([]);
   const [catalogMeta, setCatalogMeta] = useState<CatalogMeta>({
     source: 'starter',
@@ -85,6 +104,58 @@ function MainApp() {
     });
   }, []);
 
+  const ensureTabVisited = useCallback((tab: TabKey) => {
+    const idx = TAB_ORDER.indexOf(tab);
+    const needed = [tab];
+    if (idx > 0) needed.push(TAB_ORDER[idx - 1]);
+    if (idx >= 0 && idx < TAB_ORDER.length - 1) needed.push(TAB_ORDER[idx + 1]);
+    setVisitedTabs((prev) => {
+      if (needed.every((t) => prev.includes(t))) return prev;
+      const merged = [...prev];
+      for (const t of needed) {
+        if (!merged.includes(t)) merged.push(t);
+      }
+      return merged;
+    });
+  }, []);
+
+  const navigateToTab = useCallback(
+    (nextTab: TabKey, resetExploreIfSame = false) => {
+      if (resetExploreIfSame && nextTab === 'explore' && activeTab === 'explore') {
+        setExplorePath([]);
+      }
+      setActiveTab(nextTab);
+      ensureTabVisited(nextTab);
+      const idx = TAB_ORDER.indexOf(nextTab);
+      if (idx >= 0) {
+        pagerRef.current?.scrollTo({ x: idx * windowWidth, animated: true });
+      }
+    },
+    [activeTab, ensureTabVisited, windowWidth]
+  );
+
+  useEffect(() => {
+    if (!booting) {
+      const idx = TAB_ORDER.indexOf(activeTab);
+      if (idx >= 0) {
+        pagerRef.current?.scrollTo({ x: idx * windowWidth, animated: false });
+      }
+    }
+  }, [windowWidth, booting]);
+
+  const handlePagerMomentumEnd = useCallback(
+    (e: NativeSyntheticEvent<NativeScrollEvent>) => {
+      const x = e.nativeEvent.contentOffset.x;
+      const idx = Math.max(0, Math.min(TAB_ORDER.length - 1, Math.round(x / Math.max(windowWidth, 1))));
+      const next = TAB_ORDER[idx];
+      if (next) {
+        setActiveTab(next);
+        ensureTabVisited(next);
+      }
+    },
+    [windowWidth, ensureTabVisited]
+  );
+
   useEffect(() => {
     const sub = BackHandler.addEventListener('hardwareBackPress', () => {
       if (readerBook) {
@@ -100,13 +171,13 @@ function MainApp() {
         return true;
       }
       if (activeTab !== 'home') {
-        setActiveTab('home');
+        navigateToTab('home');
         return true;
       }
       return false;
     });
     return () => sub.remove();
-  }, [readerBook, detailBook, activeTab, explorePath.length]);
+  }, [readerBook, detailBook, activeTab, explorePath.length, navigateToTab]);
 
   useEffect(() => {
     let mounted = true;
@@ -459,6 +530,58 @@ function MainApp() {
     [persist]
   );
 
+  const handleOpenDetail = useCallback((b: Book) => setDetailBook(b), []);
+
+  const handleExplorePath = useCallback(
+    (path: string[]) => {
+      setExplorePath(path);
+      navigateToTab('explore');
+    },
+    [navigateToTab]
+  );
+
+  const handleBrowseLibrary = useCallback(() => navigateToTab('library'), [navigateToTab]);
+
+  const handleClearSubcategory = useCallback(() => {
+    setSelectedCategory('');
+    setSelectedSubcategory('');
+  }, []);
+
+  const handleExploreCategories = useCallback(() => {
+    setExplorePath([]);
+    navigateToTab('explore');
+  }, [navigateToTab]);
+
+  const handleBrowseFiltered = useCallback(
+    (cat: string, sub: string) => {
+      setSelectedCategory(cat);
+      setSelectedSubcategory(sub);
+      navigateToTab('library');
+    },
+    [navigateToTab]
+  );
+
+  const handleSelectCategory = useCallback(
+    (cat: string) => {
+      setExplorePath([cat]);
+      navigateToTab('explore');
+    },
+    [navigateToTab]
+  );
+
+  const handleCheckUpdateManual = useCallback(() => {
+    void handleCheckUpdate(true);
+  }, [handleCheckUpdate]);
+
+  const handleSelectNavTab = useCallback(
+    (t: TabKey) => {
+      navigateToTab(t, true);
+    },
+    [navigateToTab]
+  );
+
+  const pageWidthStyle = useMemo(() => ({ width: windowWidth, flex: 1 }), [windowWidth]);
+
   if (booting) {
     return (
       <View style={[styles.splash, { backgroundColor: activeTheme.bg }]}>
@@ -518,8 +641,20 @@ function MainApp() {
           </View>
         ) : null}
 
-        <View style={styles.stage}>
-          {activeTab === 'home' ? (
+        <ScrollView
+          ref={pagerRef}
+          style={styles.stage}
+          horizontal
+          pagingEnabled
+          nestedScrollEnabled
+          directionalLockEnabled
+          showsHorizontalScrollIndicator={false}
+          bounces={false}
+          keyboardShouldPersistTaps="handled"
+          scrollEventThrottle={16}
+          onMomentumScrollEnd={handlePagerMomentumEnd}
+        >
+          <View style={pageWidthStyle}>
             <HomeScreen
               books={books}
               currentlyReading={currentlyReading}
@@ -529,112 +664,101 @@ function MainApp() {
               streak={appState.streak}
               downloadingMap={downloadingMap}
               onContinueReading={handleQuickRead}
-              onOpenBookDetail={(b) => setDetailBook(b)}
+              onOpenBookDetail={handleOpenDetail}
               onMakeOffline={handleMakeOffline}
-              onExplorePath={(path) => {
-                setExplorePath(path);
-                setActiveTab('explore');
-              }}
-              onBrowseLibrary={() => setActiveTab('library')}
+              onExplorePath={handleExplorePath}
+              onBrowseLibrary={handleBrowseLibrary}
               onRemoveFromReading={handleRemoveFromReading}
             />
-          ) : activeTab === 'library' ? (
-            <LibraryScreen
-              books={books}
-              categories={catalogMeta.cats}
-              currentlyReading={currentlyReading}
-              progressById={appState.progressById}
-              savedIds={appState.savedIds}
-              offlineById={appState.offlineById}
-              downloadingMap={downloadingMap}
-              initialCategory={selectedCategory}
-              initialSubcategory={selectedSubcategory}
-              onClearSubcategory={() => {
-                setSelectedCategory('');
-                setSelectedSubcategory('');
-              }}
-              onOpenDetail={(b) => setDetailBook(b)}
-              onQuickRead={handleQuickRead}
-              onMakeOffline={handleMakeOffline}
-              onToggleSave={handleToggleSave}
-              onRemoveOffline={handleRemoveOffline}
-              onRemoveFromReading={handleRemoveFromReading}
-              onExploreCategories={() => {
-                setExplorePath([]);
-                setActiveTab('explore');
-              }}
-              onOpenCategoryPath={(path) => {
-                setExplorePath(path);
-                setActiveTab('explore');
-              }}
-            />
-          ) : activeTab === 'explore' ? (
-            <ExploreScreen
-              books={books}
-              categories={catalogMeta.cats}
-              offlineById={appState.offlineById}
-              downloadingMap={downloadingMap}
-              path={explorePath}
-              onChangePath={setExplorePath}
-              batchDownload={batchDownload}
-              onOpenDetail={(b) => setDetailBook(b)}
-              onQuickRead={handleQuickRead}
-              onMakeOffline={handleMakeOffline}
-              onDownloadFolderOffline={handleDownloadFolderOffline}
-              onCancelBatchDownload={handleCancelBatchDownload}
-              onBrowseFiltered={(cat, sub) => {
-                setSelectedCategory(cat);
-                setSelectedSubcategory(sub);
-                setActiveTab('library');
-              }}
-            />
-          ) : activeTab === 'search' ? (
-            <SearchScreen
-              books={books}
-              categories={catalogMeta.cats}
-              offlineById={appState.offlineById}
-              downloadingMap={downloadingMap}
-              savedIds={appState.savedIds}
-              onOpenDetail={(b) => setDetailBook(b)}
-              onQuickRead={handleQuickRead}
-              onMakeOffline={handleMakeOffline}
-              onToggleSave={handleToggleSave}
-              onSelectPath={(path) => {
-                setExplorePath(path);
-                setActiveTab('explore');
-              }}
-            />
-          ) : (
-            <MoreScreen
-              books={books}
-              catalogMeta={catalogMeta}
-              syncingCatalog={syncingCatalog}
-              offlineById={appState.offlineById}
-              progressById={appState.progressById}
-              savedIds={appState.savedIds}
-              streak={appState.streak}
-              updateInfo={updateInfo}
-              checkingUpdate={checkingUpdate}
-              onSyncCatalog={handleManualSync}
-              onClearCatalogCache={handleClearCache}
-              onCheckUpdate={() => void handleCheckUpdate(true)}
-              onSelectCategory={(cat) => {
-                setExplorePath([cat]);
-                setActiveTab('explore');
-              }}
-              onOpenBookDetail={(b) => setDetailBook(b)}
-            />
-          )}
-        </View>
+          </View>
+
+          <View style={pageWidthStyle}>
+            {visitedTabs.includes('library') ? (
+              <LibraryScreen
+                books={books}
+                categories={catalogMeta.cats}
+                currentlyReading={currentlyReading}
+                progressById={appState.progressById}
+                savedIds={appState.savedIds}
+                offlineById={appState.offlineById}
+                downloadingMap={downloadingMap}
+                initialCategory={selectedCategory}
+                initialSubcategory={selectedSubcategory}
+                onClearSubcategory={handleClearSubcategory}
+                onOpenDetail={handleOpenDetail}
+                onQuickRead={handleQuickRead}
+                onMakeOffline={handleMakeOffline}
+                onToggleSave={handleToggleSave}
+                onRemoveOffline={handleRemoveOffline}
+                onRemoveFromReading={handleRemoveFromReading}
+                onExploreCategories={handleExploreCategories}
+                onOpenCategoryPath={handleExplorePath}
+              />
+            ) : null}
+          </View>
+
+          <View style={pageWidthStyle}>
+            {visitedTabs.includes('explore') ? (
+              <ExploreScreen
+                books={books}
+                categories={catalogMeta.cats}
+                offlineById={appState.offlineById}
+                downloadingMap={downloadingMap}
+                path={explorePath}
+                onChangePath={setExplorePath}
+                batchDownload={batchDownload}
+                onOpenDetail={handleOpenDetail}
+                onQuickRead={handleQuickRead}
+                onMakeOffline={handleMakeOffline}
+                onDownloadFolderOffline={handleDownloadFolderOffline}
+                onCancelBatchDownload={handleCancelBatchDownload}
+                onBrowseFiltered={handleBrowseFiltered}
+              />
+            ) : null}
+          </View>
+
+          <View style={pageWidthStyle}>
+            {visitedTabs.includes('search') ? (
+              <SearchScreen
+                books={books}
+                categories={catalogMeta.cats}
+                offlineById={appState.offlineById}
+                downloadingMap={downloadingMap}
+                savedIds={appState.savedIds}
+                onOpenDetail={handleOpenDetail}
+                onQuickRead={handleQuickRead}
+                onMakeOffline={handleMakeOffline}
+                onToggleSave={handleToggleSave}
+                onSelectPath={handleExplorePath}
+              />
+            ) : null}
+          </View>
+
+          <View style={pageWidthStyle}>
+            {visitedTabs.includes('more') ? (
+              <MoreScreen
+                books={books}
+                catalogMeta={catalogMeta}
+                syncingCatalog={syncingCatalog}
+                offlineById={appState.offlineById}
+                progressById={appState.progressById}
+                savedIds={appState.savedIds}
+                streak={appState.streak}
+                updateInfo={updateInfo}
+                checkingUpdate={checkingUpdate}
+                onSyncCatalog={handleManualSync}
+                onClearCatalogCache={handleClearCache}
+                onCheckUpdate={handleCheckUpdateManual}
+                onSelectCategory={handleSelectCategory}
+                onOpenBookDetail={handleOpenDetail}
+              />
+            ) : null}
+          </View>
+        </ScrollView>
 
         <BottomNavBar
           activeTab={activeTab}
-          onSelectTab={(t) => {
-            if (t === 'explore' && activeTab === 'explore') {
-              setExplorePath([]);
-            }
-            setActiveTab(t);
-          }}
+          onSelectTab={handleSelectNavTab}
           bottomInset={insets.bottom}
         />
 

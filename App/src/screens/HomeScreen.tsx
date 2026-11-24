@@ -35,7 +35,7 @@ interface Props {
 
 const WEEK_LETTERS = ['M', 'T', 'W', 'T', 'F', 'S', 'S'];
 
-export function HomeScreen({
+export const HomeScreen = React.memo(function HomeScreen({
   books,
   currentlyReading,
   progressById,
@@ -493,7 +493,7 @@ export function HomeScreen({
       </View>
     </ScrollView>
   );
-}
+});
 
 const styles = StyleSheet.create({
   root: { flex: 1 },

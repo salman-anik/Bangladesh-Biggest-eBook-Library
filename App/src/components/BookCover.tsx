@@ -33,7 +33,7 @@ interface Props {
   isOffline?: boolean;
 }
 
-export function BookCover({
+export const BookCover = React.memo(function BookCover({
   book,
   localCoverUri,
   width,
@@ -134,7 +134,7 @@ export function BookCover({
       </View>
     </View>
   );
-}
+});
 
 const styles = StyleSheet.create({
   shadowShell: {

@@ -177,7 +177,7 @@ function getCategoryPalette(name: string, mode: ThemeMode): CategoryPalette {
   return BENTO_PALETTES[key][mode];
 }
 
-export function ExploreScreen({
+export const ExploreScreen = React.memo(function ExploreScreen({
   books,
   categories,
   offlineById,
@@ -885,7 +885,7 @@ export function ExploreScreen({
       />
     </View>
   );
-}
+});
 
 const styles = StyleSheet.create({
   root: { flex: 1 },

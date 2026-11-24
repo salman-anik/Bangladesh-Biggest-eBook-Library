@@ -74,7 +74,7 @@ const SCOPE_OPTIONS: { key: SearchScope; label: string }[] = [
   { key: 'categories', label: 'Categories' },
 ];
 
-export function SearchScreen({
+export const SearchScreen = React.memo(function SearchScreen({
   books,
   categories,
   offlineById,
@@ -681,6 +681,10 @@ export function SearchScreen({
           contentContainerStyle={styles.listContent}
           showsVerticalScrollIndicator={false}
           keyboardShouldPersistTaps="handled"
+          initialNumToRender={12}
+          maxToRenderPerBatch={10}
+          windowSize={5}
+          removeClippedSubviews
           onEndReached={loadMoreBooks}
           onEndReachedThreshold={0.7}
           ListHeaderComponent={hasQuery && scope !== 'books' ? (renderResultsHeader() ?? undefined) : undefined}
@@ -809,7 +813,7 @@ export function SearchScreen({
       )}
     </View>
   );
-}
+});
 
 const styles = StyleSheet.create({
   container: {
