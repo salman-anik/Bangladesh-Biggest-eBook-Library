@@ -31,10 +31,10 @@ interface TabIconProps {
   active: boolean;
 }
 
-const CIRCLE_SIZE = 48;
-const TOP_OVERHANG = 14;
-const BAR_BASE_HEIGHT = 52;
-const NOTCH_DEPTH = 33;
+const CIRCLE_SIZE = 52;
+const TOP_OVERHANG = 15;
+const BAR_BASE_HEIGHT = 54;
+const NOTCH_DEPTH = 36;
 
 const ORB_GRADIENTS: Record<ThemePresetKey, [string, string]> = {
   espresso: ['#E0A084', '#7E4431'],
@@ -47,7 +47,7 @@ const ORB_GRADIENTS: Record<ThemePresetKey, [string, string]> = {
 function HomeIcon({ color, active }: TabIconProps) {
   if (active) {
     return (
-      <Svg width={20} height={20} viewBox="0 0 24 24" fill="#FFFFFF">
+      <Svg width={24} height={24} viewBox="0 0 24 24" fill="#FFFFFF">
         <Path d="M11.36 2.74a1 1 0 0 1 1.28 0l8.5 7.08A1 1 0 0 1 21.5 10.6V20a1.5 1.5 0 0 1-1.5 1.5h-5.25a.75.75 0 0 1-.75-.75V15a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v5.75a.75.75 0 0 1-.75.75H4A1.5 1.5 0 0 1 2.5 20v-9.4a1 1 0 0 1 .36-.78l8.5-7.08z" />
       </Svg>
     );
@@ -71,7 +71,7 @@ function HomeIcon({ color, active }: TabIconProps) {
 function LibraryNavIcon({ color, active }: TabIconProps) {
   if (active) {
     return (
-      <Svg width={20} height={20} viewBox="0 0 24 24" fill="#FFFFFF">
+      <Svg width={24} height={24} viewBox="0 0 24 24" fill="#FFFFFF">
         <Path d="M18.5 2.5h-13A1.5 1.5 0 0 0 4 4v17.2a.8.8 0 0 0 1.26.65L12 17.2l6.74 4.65A.8.8 0 0 0 20 21.2V4a1.5 1.5 0 0 0-1.5-1.5z" />
       </Svg>
     );
@@ -95,7 +95,7 @@ function LibraryNavIcon({ color, active }: TabIconProps) {
 function ExploreGridIcon({ color, active }: TabIconProps) {
   if (active) {
     return (
-      <Svg width={20} height={20} viewBox="0 0 24 24" fill="#FFFFFF">
+      <Svg width={24} height={24} viewBox="0 0 24 24" fill="#FFFFFF">
         <Rect x="3" y="3" width="8" height="8" rx="2.2" />
         <Rect x="13" y="3" width="8" height="8" rx="2.2" />
         <Rect x="3" y="13" width="8" height="8" rx="2.2" />
@@ -125,7 +125,7 @@ function ExploreGridIcon({ color, active }: TabIconProps) {
 function SearchNavIcon({ color, active }: TabIconProps) {
   if (active) {
     return (
-      <Svg width={20} height={20} viewBox="0 0 24 24" fill="none">
+      <Svg width={24} height={24} viewBox="0 0 24 24" fill="none">
         <Circle cx="10.5" cy="10.5" r="7" fill="#FFFFFF" fillOpacity={0.28} stroke="#FFFFFF" strokeWidth={2.5} />
         <Line x1="20.5" y1="20.5" x2="15.8" y2="15.8" stroke="#FFFFFF" strokeWidth={2.7} strokeLinecap="round" />
       </Svg>
@@ -151,7 +151,7 @@ function SearchNavIcon({ color, active }: TabIconProps) {
 function SettingsNavIcon({ color, active }: TabIconProps) {
   if (active) {
     return (
-      <Svg width={20} height={20} viewBox="0 0 24 24" fill="none">
+      <Svg width={24} height={24} viewBox="0 0 24 24" fill="none">
         <Path
           d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"
           fill="#FFFFFF"
@@ -193,7 +193,7 @@ function buildDockedNotchPath(width: number, totalHeight: number, cx: number): s
   const w = Math.max(width, 240);
   const h = totalHeight;
   const tabW = w / TABS.length;
-  const halfW = Math.min(36, tabW * 0.48);
+  const halfW = Math.min(39, tabW * 0.49);
   const d = NOTCH_DEPTH;
 
   const leftS = Math.max(0, cx - halfW);
@@ -368,7 +368,7 @@ const styles = StyleSheet.create({
   },
   orbOuter: {
     position: 'absolute',
-    top: 7,
+    top: 6,
     left: 0,
     width: CIRCLE_SIZE,
     height: CIRCLE_SIZE,

@@ -65,6 +65,7 @@ interface Props {
   onMakeOffline: (book: Book) => void;
   onToggleSave: (bookId: string) => void;
   onSelectPath: (path: string[]) => void;
+  onHorizontalTouchLock?: (locked: boolean) => void;
 }
 
 const SCOPE_OPTIONS: { key: SearchScope; label: string }[] = [
@@ -85,8 +86,24 @@ export const SearchScreen = React.memo(function SearchScreen({
   onMakeOffline,
   onToggleSave,
   onSelectPath,
+  onHorizontalTouchLock,
 }: Props) {
   const { theme, fs } = useAppTheme();
+  const hLockProps = useMemo(
+    () =>
+      onHorizontalTouchLock
+        ? {
+            nestedScrollEnabled: true,
+            onTouchStart: () => onHorizontalTouchLock(true),
+            onTouchEnd: () => onHorizontalTouchLock(false),
+            onTouchCancel: () => onHorizontalTouchLock(false),
+            onScrollBeginDrag: () => onHorizontalTouchLock(true),
+            onScrollEndDrag: () => onHorizontalTouchLock(false),
+            onMomentumScrollEnd: () => onHorizontalTouchLock(false),
+          }
+        : { nestedScrollEnabled: true },
+    [onHorizontalTouchLock]
+  );
   const [query, setQuery] = useState('');
   const [scope, setScope] = useState<SearchScope>('all');
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('list');
@@ -328,6 +345,7 @@ export const SearchScreen = React.memo(function SearchScreen({
         horizontal
         showsHorizontalScrollIndicator={false}
         contentContainerStyle={styles.authorHorizontalRow}
+        {...hLockProps}
       >
         {matchedAuthors.map((author) => (
           <TouchableOpacity
@@ -494,6 +512,7 @@ export const SearchScreen = React.memo(function SearchScreen({
               showsHorizontalScrollIndicator={false}
               contentContainerStyle={styles.authorHorizontalRow}
               keyboardShouldPersistTaps="handled"
+              {...hLockProps}
             >
               {matchedAuthors.map((author) => (
                 <TouchableOpacity
@@ -527,6 +546,7 @@ export const SearchScreen = React.memo(function SearchScreen({
               showsHorizontalScrollIndicator={false}
               contentContainerStyle={styles.authorHorizontalRow}
               keyboardShouldPersistTaps="handled"
+              {...hLockProps}
             >
               {matchedCategories.map((cat) => (
                 <TouchableOpacity
@@ -558,6 +578,7 @@ export const SearchScreen = React.memo(function SearchScreen({
               showsHorizontalScrollIndicator={false}
               contentContainerStyle={styles.authorHorizontalRow}
               keyboardShouldPersistTaps="handled"
+              {...hLockProps}
             >
               {matchedSeries.map((ser) => (
                 <TouchableOpacity

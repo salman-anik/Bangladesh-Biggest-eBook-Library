@@ -31,6 +31,7 @@ interface Props {
   onExplorePath: (path: string[]) => void;
   onBrowseLibrary: () => void;
   onRemoveFromReading: (bookId: string) => void;
+  onHorizontalTouchLock?: (locked: boolean) => void;
 }
 
 const WEEK_LETTERS = ['M', 'T', 'W', 'T', 'F', 'S', 'S'];
@@ -49,9 +50,25 @@ export const HomeScreen = React.memo(function HomeScreen({
   onExplorePath,
   onBrowseLibrary,
   onRemoveFromReading,
+  onHorizontalTouchLock,
 }: Props) {
   const { theme, fs } = useAppTheme();
   const [quoteIdx, setQuoteIdx] = useState(0);
+  const hLockProps = useMemo(
+    () =>
+      onHorizontalTouchLock
+        ? {
+            nestedScrollEnabled: true,
+            onTouchStart: () => onHorizontalTouchLock(true),
+            onTouchEnd: () => onHorizontalTouchLock(false),
+            onTouchCancel: () => onHorizontalTouchLock(false),
+            onScrollBeginDrag: () => onHorizontalTouchLock(true),
+            onScrollEndDrag: () => onHorizontalTouchLock(false),
+            onMomentumScrollEnd: () => onHorizontalTouchLock(false),
+          }
+        : { nestedScrollEnabled: true },
+    [onHorizontalTouchLock]
+  );
 
   const dateLabel = useMemo(() => {
     try {
@@ -335,6 +352,7 @@ export const HomeScreen = React.memo(function HomeScreen({
             horizontal
             showsHorizontalScrollIndicator={false}
             contentContainerStyle={styles.recScroll}
+            {...hLockProps}
           >
             {suggestedBooks.map(({ book, reason }) => {
               const offline = offlineById[book.id];
@@ -385,6 +403,7 @@ export const HomeScreen = React.memo(function HomeScreen({
             horizontal
             showsHorizontalScrollIndicator={false}
             contentContainerStyle={styles.authorsScroll}
+            {...hLockProps}
           >
             {popularAuthors.map((au) => (
               <TouchableOpacity

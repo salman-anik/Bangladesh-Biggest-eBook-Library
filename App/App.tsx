@@ -63,6 +63,7 @@ function MainApp() {
   const pagerRef = useRef<React.ComponentRef<typeof ScrollView> | null>(null);
   const [activeTab, setActiveTab] = useState<TabKey>('home');
   const [visitedTabs, setVisitedTabs] = useState<TabKey[]>(['home', 'library']);
+  const [pagerLocked, setPagerLocked] = useState(false);
   const [books, setBooks] = useState<Book[]>([]);
   const [catalogMeta, setCatalogMeta] = useState<CatalogMeta>({
     source: 'starter',
@@ -646,6 +647,7 @@ function MainApp() {
           style={styles.stage}
           horizontal
           pagingEnabled
+          scrollEnabled={!pagerLocked}
           nestedScrollEnabled
           directionalLockEnabled
           showsHorizontalScrollIndicator={false}
@@ -669,6 +671,7 @@ function MainApp() {
               onExplorePath={handleExplorePath}
               onBrowseLibrary={handleBrowseLibrary}
               onRemoveFromReading={handleRemoveFromReading}
+              onHorizontalTouchLock={setPagerLocked}
             />
           </View>
 
@@ -730,6 +733,7 @@ function MainApp() {
                 onMakeOffline={handleMakeOffline}
                 onToggleSave={handleToggleSave}
                 onSelectPath={handleExplorePath}
+                onHorizontalTouchLock={setPagerLocked}
               />
             ) : null}
           </View>
