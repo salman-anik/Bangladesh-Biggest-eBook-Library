@@ -1,4 +1,4 @@
-export type TabKey = 'home' | 'library' | 'explore' | 'authors' | 'more';
+export type TabKey = 'home' | 'library' | 'explore' | 'search' | 'more';
 
 export type ThemeMode = 'dark' | 'light';
 

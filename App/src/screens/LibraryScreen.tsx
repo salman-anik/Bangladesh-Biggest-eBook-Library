@@ -11,12 +11,14 @@ import {
 } from 'react-native';
 
 import { BookCover } from '../components/BookCover';
+import { CategoryIcon } from '../components/CategoryIcon';
 import {
   BookOpenIcon,
   BookmarkIcon,
-  CheckCircleIcon,
+  ChevronRightIcon,
   CloseIcon,
   DownloadIcon,
+  OfflineIcon,
   SearchIcon,
   TrashIcon,
 } from '../components/Icons';
@@ -24,7 +26,15 @@ import { useAppTheme } from '../context/ThemeContext';
 import { formatBytes } from '../services/libraryStore';
 import type { Book, BookProgress, OfflineBookEntry } from '../types';
 
-type ShelfTabKey = 'reading' | 'saved' | 'offline';
+type ShelfTabKey = 'reading' | 'saved';
+
+interface OfflineCategoryGroup {
+  key: string;
+  label: string;
+  parentLabel: string;
+  path: string[];
+  totalCount: number;
+}
 
 interface Props {
   books: Book[];
@@ -44,6 +54,7 @@ interface Props {
   onRemoveOffline: (bookId: string) => void;
   onRemoveFromReading: (bookId: string) => void;
   onExploreCategories: () => void;
+  onOpenCategoryPath?: (path: string[]) => void;
 }
 
 export function LibraryScreen({
@@ -63,6 +74,7 @@ export function LibraryScreen({
   onRemoveOffline,
   onRemoveFromReading,
   onExploreCategories,
+  onOpenCategoryPath,
 }: Props) {
   const { theme, fs } = useAppTheme();
   const [query, setQuery] = useState('');
@@ -138,6 +150,91 @@ export function LibraryScreen({
     });
   }, [offlineById, booksById]);
 
+  const offlineCategoryGroups = useMemo<OfflineCategoryGroup[]>(() => {
+    const catTotals = new Map<string, { total: number; offline: number }>();
+    const folderTotals = new Map<string, { label: string; parentLabel: string; path: string[]; total: number; offline: number }>();
+
+    for (const b of books) {
+      const isOff = Boolean(offlineById[b.id]);
+      if (b.cat) {
+        const c = catTotals.get(b.cat) || { total: 0, offline: 0 };
+        c.total += 1;
+        if (isOff) c.offline += 1;
+        catTotals.set(b.cat, c);
+      }
+      if (b.cat && b.sub) {
+        const parts = b.sub.split('/').filter(Boolean);
+        for (let i = 0; i < parts.length; i++) {
+          const p = [b.cat, ...parts.slice(0, i + 1)];
+          const k = p.join('/');
+          const f = folderTotals.get(k) || {
+            label: parts[i],
+            parentLabel: i === 0 ? b.cat : `${b.cat} › ${parts.slice(0, i).join(' › ')}`,
+            path: p,
+            total: 0,
+            offline: 0,
+          };
+          f.total += 1;
+          if (isOff) f.offline += 1;
+          folderTotals.set(k, f);
+        }
+      }
+    }
+
+    const completeCats = new Set<string>();
+    const groups: OfflineCategoryGroup[] = [];
+    for (const [cat, st] of catTotals.entries()) {
+      if (st.total > 0 && st.offline === st.total) {
+        completeCats.add(cat);
+        groups.push({
+          key: cat,
+          label: cat,
+          parentLabel: 'Full Category Offline',
+          path: [cat],
+          totalCount: st.total,
+        });
+      }
+    }
+
+    const completeFolders = [...folderTotals.values()]
+      .filter((f) => !completeCats.has(f.path[0]) && f.total >= 2 && f.offline === f.total)
+      .sort((a, b) => a.path.length - b.path.length || b.total - a.total);
+
+    const coveredPrefixes = new Set<string>();
+    for (const f of completeFolders) {
+      const k = f.path.join('/');
+      const hasCoveredAncestor = f.path.some((_, idx) => coveredPrefixes.has(f.path.slice(0, idx + 1).join('/')));
+      if (hasCoveredAncestor) continue;
+      coveredPrefixes.add(k);
+      groups.push({
+        key: k,
+        label: f.label,
+        parentLabel: f.parentLabel,
+        path: f.path,
+        totalCount: f.total,
+      });
+    }
+
+    return groups;
+  }, [books, offlineById]);
+
+  const unifiedShelfBooks = useMemo(() => {
+    const seen = new Set<string>();
+    const list: { book: Book; isSaved: boolean; offlineEntry?: OfflineBookEntry }[] = [];
+
+    for (const b of savedBooks) {
+      if (seen.has(b.id)) continue;
+      seen.add(b.id);
+      list.push({ book: b, isSaved: true, offlineEntry: offlineById[b.id] });
+    }
+    for (const { book, entry } of offlineItems) {
+      if (seen.has(book.id)) continue;
+      seen.add(book.id);
+      list.push({ book, isSaved: false, offlineEntry: entry });
+    }
+    return list;
+  }, [savedBooks, offlineItems, offlineById]);
+
   const isSearchMode = Boolean(query.trim() || subFilter || catFilter);
 
   const searchResults = useMemo(() => {
@@ -173,7 +270,8 @@ export function LibraryScreen({
         <Text style={[styles.title, { color: theme.ink, fontSize: fs(23) }]}>My Shelf</Text>
         <View style={[styles.summaryPill, { backgroundColor: theme.surfaceAlt, borderColor: theme.border }]}>
           <Text style={[styles.summaryPillText, { color: theme.accent, fontSize: fs(11.5) }]}>
-            {savedBooks.length} saved · {offlineItems.length} offline
+            {unifiedShelfBooks.length} on shelf
+            {offlineCategoryGroups.length > 0 ? ` · ${offlineCategoryGroups.length} folders` : ''}
           </Text>
         </View>
       </View>
@@ -343,8 +441,11 @@ export function LibraryScreen({
                       </TouchableOpacity>
 
                       {offline ? (
-                        <View style={[styles.actionCircle, { backgroundColor: theme.sage, borderColor: theme.sage }]}>
-                          <CheckCircleIcon size={15} color={theme.ink} />
+                        <View
+                          style={[styles.actionCircle, { backgroundColor: theme.sage, borderColor: theme.sage }]}
+                          accessibilityLabel="Available offline"
+                        >
+                          <OfflineIcon size={15} color={theme.ink} />
                         </View>
                       ) : dlPct !== undefined ? (
                         <View style={[styles.actionCircle, { borderColor: theme.accent }]}>
@@ -464,13 +565,12 @@ export function LibraryScreen({
             </TouchableOpacity>
           ) : null}
 
-          {/* 3-Tab Segmented Control: Reading | Saved | Offline */}
+          {/* 2-Tab Segmented Control: Reading | Shelf */}
           <View style={[styles.segmentedBar, { backgroundColor: theme.surfaceAlt, borderColor: theme.border }]}>
             {(
               [
                 { key: 'reading', label: 'Reading', count: readingItems.length },
-                { key: 'saved', label: 'Saved', count: savedBooks.length },
-                { key: 'offline', label: 'Offline', count: offlineItems.length },
+                { key: 'saved', label: 'Shelf', count: unifiedShelfBooks.length },
               ] as { key: ShelfTabKey; label: string; count: number }[]
             ).map((tab) => {
               const active = shelfTab === tab.key;
@@ -586,13 +686,44 @@ export function LibraryScreen({
             </View>
           ) : null}
 
-          {/* Saved Tab — 2-Column Visual Book Cover Grid */}
+          {/* Unified Shelf Tab — Offline Categories + Saved & Downloaded Books */}
           {shelfTab === 'saved' ? (
-            savedBooks.length > 0 ? (
-              <View style={styles.savedGrid}>
-                {savedBooks.map((sb) => {
-                  const offline = offlineById[sb.id];
-                  return (
+            <View style={styles.sectionBlock}>
+              {offlineCategoryGroups.length > 0 ? (
+                <View style={styles.offlineGroupsBlock}>
+                  <Text style={[styles.shelfSectionEyebrow, { color: theme.accent, fontSize: fs(10.5) }]}>
+                    OFFLINE CATEGORIES & FOLDERS ({offlineCategoryGroups.length})
+                  </Text>
+                  {offlineCategoryGroups.map((grp) => (
+                    <TouchableOpacity
+                      key={grp.key}
+                      style={[styles.offlineCatCard, { backgroundColor: theme.surface, borderColor: theme.border }]}
+                      onPress={() => (onOpenCategoryPath ? onOpenCategoryPath(grp.path) : onExploreCategories())}
+                      activeOpacity={0.85}
+                    >
+                      <View style={[styles.offlineCatIconWrap, { backgroundColor: theme.accentSoft }]}>
+                        <CategoryIcon name={grp.label} size={22} />
+                      </View>
+                      <View style={styles.offlineCatBody}>
+                        <Text style={[styles.bookTitle, { color: theme.ink, fontSize: fs(13.5) }]} numberOfLines={1}>
+                          {grp.label}
+                        </Text>
+                        <Text style={[styles.bookMeta, { color: theme.muted, fontSize: fs(11) }]} numberOfLines={1}>
+                          {grp.parentLabel} · All {grp.totalCount.toLocaleString()} books offline
+                        </Text>
+                      </View>
+                      <View style={[styles.actionCircle, { backgroundColor: theme.sage, borderColor: theme.sage }]}>
+                        <OfflineIcon size={15} color={theme.ink} />
+                      </View>
+                      <ChevronRightIcon size={16} color={theme.muted} />
+                    </TouchableOpacity>
+                  ))}
+                </View>
+              ) : null}
+
+              {unifiedShelfBooks.length > 0 ? (
+                <View style={styles.savedGrid}>
+                  {unifiedShelfBooks.map(({ book: sb, isSaved, offlineEntry }) => (
                     <TouchableOpacity
                       key={sb.id}
                       style={[styles.savedCard, { backgroundColor: theme.surface, borderColor: theme.border }]}
@@ -602,11 +733,11 @@ export function LibraryScreen({
                       <View style={styles.savedCoverCenter}>
                         <BookCover
                           book={sb}
-                          localCoverUri={offline?.coverLocalUri}
+                          localCoverUri={offlineEntry?.coverLocalUri}
                           width={94}
                           height={136}
                           borderRadius={9}
-                          isOffline={Boolean(offline)}
+                          isOffline={Boolean(offlineEntry)}
                         />
                       </View>
                       <Text style={[styles.savedBookTitle, { color: theme.ink, fontSize: fs(12.5) }]} numberOfLines={2}>
@@ -614,6 +745,7 @@ export function LibraryScreen({
                       </Text>
                       <Text style={[styles.savedBookAuthor, { color: theme.muted, fontSize: fs(11) }]} numberOfLines={1}>
                         {sb.author}
+                        {offlineEntry ? ` · ${formatBytes(offlineEntry.size)}` : ''}
                       </Text>
 
                       <View style={styles.savedActions}>
@@ -622,112 +754,46 @@ export function LibraryScreen({
                           onPress={() => onQuickRead(sb)}
                           activeOpacity={0.85}
                         >
-                          <BookOpenIcon size={13} color={theme.creamInk} />
+                          {offlineEntry ? (
+                            <OfflineIcon size={13} color={theme.creamInk} />
+                          ) : (
+                            <BookOpenIcon size={13} color={theme.creamInk} />
+                          )}
                           <Text style={[styles.savedReadText, { color: theme.creamInk, fontSize: fs(11) }]}>
-                            Read
+                            {offlineEntry ? 'Offline' : 'Read'}
                           </Text>
                         </TouchableOpacity>
 
-                        <TouchableOpacity
-                          style={[styles.savedRemovePill, { backgroundColor: theme.surfaceAlt, borderColor: theme.border }]}
-                          onPress={() => onToggleSave(sb.id)}
-                          activeOpacity={0.82}
-                        >
-                          <Text style={[styles.savedRemoveText, { color: theme.muted, fontSize: fs(10.5) }]}>
-                            Remove
-                          </Text>
-                        </TouchableOpacity>
+                        <View style={styles.shelfCardIcons}>
+                          {isSaved ? (
+                            <TouchableOpacity
+                              style={[styles.miniCircleBtn, { backgroundColor: theme.accentSoft, borderColor: theme.accent }]}
+                              onPress={() => onToggleSave(sb.id)}
+                              accessibilityLabel="Remove bookmark"
+                            >
+                              <BookmarkIcon size={13} color={theme.accent} filled />
+                            </TouchableOpacity>
+                          ) : null}
+                          {offlineEntry ? (
+                            <TouchableOpacity
+                              style={[styles.miniCircleBtn, { backgroundColor: theme.surfaceAlt, borderColor: theme.border }]}
+                              onPress={() => onRemoveOffline(sb.id)}
+                              accessibilityLabel="Remove offline copy"
+                            >
+                              <TrashIcon size={13} color={theme.danger} />
+                            </TouchableOpacity>
+                          ) : null}
+                        </View>
                       </View>
                     </TouchableOpacity>
-                  );
-                })}
-              </View>
-            ) : (
-              <View style={[styles.emptyShelfCard, { backgroundColor: theme.surface, borderColor: theme.border }]}>
-                <BookmarkIcon size={28} color={theme.accent} />
-                <Text style={[styles.emptyTitle, { color: theme.ink, fontSize: fs(15.5) }]}>No saved books yet</Text>
-                <Text style={[styles.emptySub, { color: theme.muted, fontSize: fs(12) }]}>
-                  Bookmark any book while browsing to keep it on your personal shelf.
-                </Text>
-                <TouchableOpacity
-                  style={[styles.ctaBtn, { backgroundColor: theme.cream }]}
-                  onPress={onExploreCategories}
-                  activeOpacity={0.85}
-                >
-                  <Text style={[styles.ctaBtnText, { color: theme.creamInk, fontSize: fs(12) }]}>
-                    Explore Categories
-                  </Text>
-                </TouchableOpacity>
-              </View>
-            )
-          ) : null}
-
-          {/* Offline Tab — Downloaded Books */}
-          {shelfTab === 'offline' ? (
-            <View style={styles.sectionBlock}>
-              {offlineItems.length > 0 ? (
-                offlineItems.map(({ book, entry }) => (
-                  <TouchableOpacity
-                    key={book.id}
-                    style={[styles.shelfRowCard, { backgroundColor: theme.surface, borderColor: theme.border }]}
-                    onPress={() => onOpenDetail(book)}
-                    activeOpacity={0.85}
-                  >
-                    <BookCover
-                      book={book}
-                      localCoverUri={entry.coverLocalUri}
-                      width={52}
-                      height={76}
-                      borderRadius={7}
-                      isOffline
-                    />
-
-                    <View style={styles.shelfRowBody}>
-                      <Text style={[styles.bookTitle, { color: theme.ink, fontSize: fs(13.5) }]} numberOfLines={2}>
-                        {book.title}
-                      </Text>
-                      <Text style={[styles.bookAuthor, { color: theme.muted, fontSize: fs(11.5) }]} numberOfLines={1}>
-                        {book.author}
-                      </Text>
-                      <Text style={[styles.bookMeta, { color: theme.accent, fontSize: fs(10.5) }]} numberOfLines={1}>
-                        {book.fmt} · {formatBytes(entry.size)}
-                      </Text>
-
-                      <View style={styles.offlineBtnsRow}>
-                        <TouchableOpacity
-                          style={[styles.readOfflinePill, { backgroundColor: theme.cream }]}
-                          onPress={() => onQuickRead(book)}
-                          activeOpacity={0.85}
-                        >
-                          <BookOpenIcon size={13} color={theme.creamInk} />
-                          <Text style={[styles.readBtnText, { color: theme.creamInk, fontSize: fs(11) }]}>
-                            Read Offline
-                          </Text>
-                        </TouchableOpacity>
-
-                        <TouchableOpacity
-                          style={[styles.removeOfflineBtn, { borderColor: theme.border, backgroundColor: theme.surfaceAlt }]}
-                          onPress={() => onRemoveOffline(book.id)}
-                          activeOpacity={0.82}
-                          accessibilityLabel="Remove offline copy"
-                        >
-                          <TrashIcon size={13} color={theme.danger} />
-                          <Text style={[styles.removeOfflineText, { color: theme.danger, fontSize: fs(11) }]}>
-                            Remove
-                          </Text>
-                        </TouchableOpacity>
-                      </View>
-                    </View>
-                  </TouchableOpacity>
-                ))
-              ) : (
+                  ))}
+                </View>
+              ) : offlineCategoryGroups.length === 0 ? (
                 <View style={[styles.emptyShelfCard, { backgroundColor: theme.surface, borderColor: theme.border }]}>
-                  <DownloadIcon size={28} color={theme.accent} />
-                  <Text style={[styles.emptyTitle, { color: theme.ink, fontSize: fs(15.5) }]}>
-                    No offline books yet
-                  </Text>
+                  <BookmarkIcon size={28} color={theme.accent} />
+                  <Text style={[styles.emptyTitle, { color: theme.ink, fontSize: fs(15.5) }]}>Your shelf is empty</Text>
                   <Text style={[styles.emptySub, { color: theme.muted, fontSize: fs(12) }]}>
-                    Download books or full categories for instant offline reading anywhere.
+                    Bookmark any book or download books and categories offline to keep them right on your shelf.
                   </Text>
                   <TouchableOpacity
                     style={[styles.ctaBtn, { backgroundColor: theme.cream }]}
@@ -739,7 +805,7 @@ export function LibraryScreen({
                     </Text>
                   </TouchableOpacity>
                 </View>
-              )}
+              ) : null}
             </View>
           ) : null}
         </ScrollView>
@@ -989,6 +1055,33 @@ const styles = StyleSheet.create({
     paddingVertical: 4,
   },
   savedRemoveText: { fontWeight: '600' },
+  offlineGroupsBlock: { gap: 8, marginBottom: 6 },
+  shelfSectionEyebrow: { fontWeight: '800', letterSpacing: 0.9, marginBottom: 2 },
+  offlineCatCard: {
+    borderRadius: 16,
+    borderWidth: 1,
+    padding: 12,
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 11,
+  },
+  offlineCatIconWrap: {
+    width: 40,
+    height: 40,
+    borderRadius: 11,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  offlineCatBody: { flex: 1, gap: 2 },
+  shelfCardIcons: { flexDirection: 'row', alignItems: 'center', gap: 5 },
+  miniCircleBtn: {
+    width: 26,
+    height: 26,
+    borderRadius: 13,
+    borderWidth: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
   offlineBtnsRow: {
     flexDirection: 'row',
     alignItems: 'center',

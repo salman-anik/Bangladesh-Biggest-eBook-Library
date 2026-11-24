@@ -5,11 +5,11 @@ import { AuthorAvatar } from '../components/AuthorAvatar';
 import { BookCover } from '../components/BookCover';
 import {
   BookOpenIcon,
-  CheckCircleIcon,
   ChevronRightIcon,
   CloseIcon,
   DownloadIcon,
   FlameIcon,
+  OfflineIcon,
   SparklesIcon,
 } from '../components/Icons';
 import { useAppTheme } from '../context/ThemeContext';
@@ -292,8 +292,11 @@ export function HomeScreen({
                 </TouchableOpacity>
 
                 {featuredOffline ? (
-                  <View style={[styles.heroIconBtn, { backgroundColor: theme.sage, borderColor: theme.sage }]}>
-                    <CheckCircleIcon size={16} color={theme.ink} />
+                  <View
+                    style={[styles.heroIconBtn, { backgroundColor: theme.sage, borderColor: theme.sage }]}
+                    accessibilityLabel="Available offline"
+                  >
+                    <OfflineIcon size={16} color={theme.ink} />
                   </View>
                 ) : featuredDlPct !== undefined ? (
                   <View style={[styles.heroIconBtn, { borderColor: theme.accent }]}>

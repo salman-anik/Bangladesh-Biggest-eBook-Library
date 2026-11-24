@@ -25,6 +25,16 @@ export function DownloadIcon({ size = 18, color = '#F7F3EE' }: IconProps) {
   );
 }
 
+export function OfflineIcon({ size = 18, color = '#F7F3EE' }: IconProps) {
+  return (
+    <Svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={2.2} strokeLinecap="round" strokeLinejoin="round">
+      <Path d="M21 15v3.5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V15" />
+      <Circle cx="12" cy="9" r="5.5" />
+      <Polyline points="9.5 9 11.3 10.8 14.8 7.2" />
+    </Svg>
+  );
+}
+
 export function CheckCircleIcon({ size = 18, color = '#F7F3EE' }: IconProps) {
   return (
     <Svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">

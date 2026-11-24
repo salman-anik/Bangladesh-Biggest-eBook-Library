@@ -119,7 +119,15 @@ export function DeveloperScreen({ visible, onClose }: Props) {
 
           {/* About AnaBook Card */}
           <View style={[styles.card, { backgroundColor: theme.surface, borderColor: theme.border }]}>
-            <Text style={[styles.eyebrow, { color: theme.accent }]}>ABOUT ANABOOK</Text>
+            <View style={styles.aboutBrandRow}>
+              <Image source={require('../../assets/icon.png')} style={styles.aboutLogo} resizeMode="cover" />
+              <View style={{ flex: 1 }}>
+                <Text style={[styles.eyebrow, { color: theme.accent }]}>ABOUT ANABOOK</Text>
+                <Text style={[styles.cardTitle, { color: theme.ink, fontSize: fs(15.5) }]}>
+                  AnaBook eBook Library
+                </Text>
+              </View>
+            </View>
             <View style={[styles.metaBox, { backgroundColor: theme.surfaceAlt, borderColor: theme.borderSubtle }]}>
               <View style={styles.metaRow}>
                 <Text style={[styles.metaLabel, { color: theme.muted }]}>Application</Text>
@@ -271,6 +279,16 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     gap: 8,
+  },
+  aboutBrandRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 12,
+  },
+  aboutLogo: {
+    width: 44,
+    height: 44,
+    borderRadius: 12,
   },
   cardTitle: { fontWeight: '800' },
   profileRow: {

@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { ActivityIndicator, Alert, BackHandler, Linking, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { ActivityIndicator, Alert, BackHandler, Image, Linking, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { SafeAreaProvider, SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { BookDetailModal } from './src/components/BookDetailModal';
@@ -8,11 +8,11 @@ import { BottomNavBar } from './src/components/BottomNavBar';
 import { CloseIcon } from './src/components/Icons';
 import { ReaderModal } from './src/components/ReaderModal';
 import { ThemeProvider } from './src/context/ThemeContext';
-import { AuthorsScreen } from './src/screens/AuthorsScreen';
 import { ExploreScreen } from './src/screens/ExploreScreen';
 import { HomeScreen } from './src/screens/HomeScreen';
 import { LibraryScreen } from './src/screens/LibraryScreen';
 import { MoreScreen } from './src/screens/MoreScreen';
+import { SearchScreen } from './src/screens/SearchScreen';
 import {
   bumpDailyStreak,
   type CatalogMeta,
@@ -463,6 +463,7 @@ function MainApp() {
     return (
       <View style={[styles.splash, { backgroundColor: activeTheme.bg }]}>
         <StatusBar style={themeMode === 'dark' ? 'light' : 'dark'} />
+        <Image source={require('./assets/icon.png')} style={styles.splashLogo} />
         <ActivityIndicator color={activeTheme.accent} size="large" />
         <Text style={[styles.splashText, { color: activeTheme.cream }]}>Loading Library…</Text>
       </View>
@@ -562,6 +563,10 @@ function MainApp() {
                 setExplorePath([]);
                 setActiveTab('explore');
               }}
+              onOpenCategoryPath={(path) => {
+                setExplorePath(path);
+                setActiveTab('explore');
+              }}
             />
           ) : activeTab === 'explore' ? (
             <ExploreScreen
@@ -583,12 +588,19 @@ function MainApp() {
                 setActiveTab('library');
               }}
             />
-          ) : activeTab === 'authors' ? (
-            <AuthorsScreen
+          ) : activeTab === 'search' ? (
+            <SearchScreen
               books={books}
+              categories={catalogMeta.cats}
               offlineById={appState.offlineById}
-              onSelectAuthor={(authorPath) => {
-                setExplorePath(authorPath);
+              downloadingMap={downloadingMap}
+              savedIds={appState.savedIds}
+              onOpenDetail={(b) => setDetailBook(b)}
+              onQuickRead={handleQuickRead}
+              onMakeOffline={handleMakeOffline}
+              onToggleSave={handleToggleSave}
+              onSelectPath={(path) => {
+                setExplorePath(path);
                 setActiveTab('explore');
               }}
             />
@@ -671,7 +683,12 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    gap: 12,
+    gap: 14,
+  },
+  splashLogo: {
+    width: 88,
+    height: 88,
+    borderRadius: 22,
   },
   splashText: {
     fontSize: 15,

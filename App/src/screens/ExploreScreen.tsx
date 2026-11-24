@@ -17,10 +17,10 @@ import { CategoryIcon } from '../components/CategoryIcon';
 import {
   ArrowLeftIcon,
   BookOpenIcon,
-  CheckCircleIcon,
   ChevronRightIcon,
   CloseIcon,
   DownloadIcon,
+  OfflineIcon,
   SearchIcon,
 } from '../components/Icons';
 import { useAppTheme } from '../context/ThemeContext';
@@ -397,7 +397,7 @@ export function ExploreScreen({
               <Text style={[styles.bentoCountText, { color: pal.accent, fontSize: fs(10) }]} numberOfLines={1}>
                 {subNode.totalCount.toLocaleString()} books
               </Text>
-              {subOffline > 0 ? <CheckCircleIcon size={12} color={theme.sage} /> : null}
+              {subOffline > 0 ? <OfflineIcon size={12} color={theme.sage} /> : null}
             </View>
           </View>
 
@@ -524,8 +524,11 @@ export function ExploreScreen({
                   <CloseIcon size={17} color={theme.creamInk} />
                 </TouchableOpacity>
               ) : remainingCount === 0 ? (
-                <View style={[styles.iconCircle, { backgroundColor: theme.sage, borderColor: theme.sage }]}>
-                  <CheckCircleIcon size={18} color={theme.ink} />
+                <View
+                  style={[styles.iconCircle, { backgroundColor: theme.sage, borderColor: theme.sage }]}
+                  accessibilityLabel="Full section available offline"
+                >
+                  <OfflineIcon size={18} color={theme.ink} />
                 </View>
               ) : (
                 <TouchableOpacity
@@ -842,8 +845,11 @@ export function ExploreScreen({
                     </TouchableOpacity>
 
                     {offline ? (
-                      <View style={[styles.actionIconBtn, { backgroundColor: theme.sage, borderColor: theme.sage }]}>
-                        <CheckCircleIcon size={15} color={theme.ink} />
+                      <View
+                        style={[styles.actionIconBtn, { backgroundColor: theme.sage, borderColor: theme.sage }]}
+                        accessibilityLabel="Available offline"
+                      >
+                        <OfflineIcon size={15} color={theme.ink} />
                       </View>
                     ) : dlPct !== undefined ? (
                       <View style={[styles.actionIconBtn, { borderColor: theme.accent }]}>

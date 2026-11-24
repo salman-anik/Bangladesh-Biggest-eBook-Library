@@ -21,6 +21,7 @@ import {
   CheckCircleIcon,
   CloseIcon,
   DownloadIcon,
+  OfflineIcon,
   TrashIcon,
 } from './Icons';
 
@@ -124,7 +125,7 @@ export function BookDetailModal({
                   onPress={() => onOpenOffline(book, offlineEntry)}
                   activeOpacity={0.85}
                 >
-                  <BookOpenIcon size={18} color={theme.creamInk} />
+                  <OfflineIcon size={18} color={theme.creamInk} />
                   <Text style={[styles.primaryBtnText, { color: theme.creamInk, fontSize: fs(14.5) }]}>
                     Open Offline ({book.fmt})
                   </Text>

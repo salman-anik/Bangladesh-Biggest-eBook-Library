@@ -555,7 +555,12 @@ export function AppPromoClient() {
       {/* Clean White Footer */}
       <footer className="border-t border-neutral-100 py-8 mt-4">
         <div className="max-w-6xl mx-auto px-5 sm:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#5F6672]">
-          <span className="font-semibold text-[#0F1115]">
+          <span className="inline-flex items-center gap-2 font-semibold text-[#0F1115]">
+            <img
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/logo.png`}
+              alt="AnaBook Logo"
+              className="w-6 h-6 rounded-lg object-cover"
+            />
             AnaBook · Bangladesh&apos;s Biggest eBook Library
           </span>
           <div className="flex items-center gap-5 font-medium">
