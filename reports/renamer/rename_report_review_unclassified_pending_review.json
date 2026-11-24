@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-23T19:00:06.935155+00:00",
+  "generated_at": "2026-11-24T00:41:40.935401+00:00",
   "target_folder": "Review & Unclassified/Pending Review",
   "summary": {
     "total_inspected": 468,
     "skipped_protected_or_non_book": 0,
-    "high_confidence_identified": 7,
-    "proposed_renames_high_confidence": 7,
-    "requires_review": 461,
+    "high_confidence_identified": 6,
+    "proposed_renames_high_confidence": 6,
+    "requires_review": 462,
     "unaccessible": 3,
     "covers_ok": 446,
     "covers_missing": 18,
@@ -3359,9 +3359,9 @@
       "access_error": "",
       "identified_book": "AirMax ppt — Ben Moore",
       "category": "Unclassified / General",
-      "proposed_filename": "AirMax ppt - Ben Moore.pdf",
-      "confidence": "HIGH",
-      "reason": "verified_filename_and_author_in_body"
+      "proposed_filename": "REQUIRES REVIEW (candidate: AirMax ppt - Ben Moore.pdf)",
+      "confidence": "REQUIRES REVIEW",
+      "reason": "excluded_powerpoint_deck"
     },
     {
       "id": "1mUN_pRQJzGu_lbrYq5HrF3oosSR1TH_5",

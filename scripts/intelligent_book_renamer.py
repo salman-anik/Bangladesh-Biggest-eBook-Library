@@ -521,6 +521,7 @@ def is_valid_meta_title(val: str) -> bool:
         or any(sub in low for sub in bad_substrings)
         or any(low.startswith(p) for p in bad_prefixes)
         or any(low.endswith(e) for e in bad_exts)
+        or re.search(r"\bpptx?\b", low)
     ):
         return False
     if re.fullmatch(r"[\d\W_]+", low) or re.fullmatch(r"[A-Za-z]?\d{2,6}", s):
@@ -1111,9 +1112,12 @@ def apply_and_verify_renames(report_json_path: Path, repo_dir: Path, slug: str) 
                     stem = os.path.splitext(renamed_map[bid]["new_name"])[0]
                     if " - " in stem:
                         t_part, a_part = stem.rsplit(" - ", 1)
-                        b[1] = t_part.strip()
-                        if a_part.strip() and b[2] == "Unknown":
-                            b[2] = a_part.strip()
+                        if re.search(r"(?:খন্ড|খণ্ড|পর্ব|\b(?:vol|volume|part|edition)\b)", a_part, re.I):
+                            b[1] = stem.strip()
+                        else:
+                            b[1] = t_part.strip()
+                            if a_part.strip() and b[2] in ("Unknown", "Unknown Author", ""):
+                                b[2] = a_part.strip()
                     else:
                         b[1] = stem.strip()
                     updated_here += 1

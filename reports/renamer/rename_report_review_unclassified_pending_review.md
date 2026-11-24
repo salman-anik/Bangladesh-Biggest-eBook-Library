@@ -1,9 +1,9 @@
 # Stage C Rename Report — `Review & Unclassified/Pending Review`
 
-- **Generated:** `2026-11-23T19:00:06.935155+00:00`
+- **Generated:** `2026-11-24T00:41:40.935401+00:00`
 - **Total files inspected:** `468`
-- **High-confidence verified:** `7` (`7` with cleaner proposed filenames)
-- **Marked `REQUIRES REVIEW`:** `461` (untouched on Drive)
+- **High-confidence verified:** `6` (`6` with cleaner proposed filenames)
+- **Marked `REQUIRES REVIEW`:** `462` (untouched on Drive)
 - **Unaccessible / Read errors:** `3`
 - **Cover Image Audit:** `446` OK · `18` Missing · `4` Blank/Low-res
 - **Duplicates Detected (not deleted):** `6` exact MD5 groups · `15` multi-volume/part series · `6` same-book groups · `0` proposed collisions · `49` cross-catalog size matches
@@ -68,7 +68,7 @@
 | adhar-rater-bondini-(fivedownload.com).pdf | adhar-rater-bondini — Ahmod Musa | Unclassified / General | REQUIRES REVIEW (candidate: adhar-rater-bondini - Ahmod Musa.pdf) | REQUIRES REVIEW | OK |
 | Afrikar Dulhan.pdf | Afrikar Dulhan | Unclassified / General | REQUIRES REVIEW (candidate: Afrikar Dulhan.pdf) | REQUIRES REVIEW | OK |
 | Ahmed Chofar Dairy.pdf | Ahmed Chofar Dairy | Poetry | REQUIRES REVIEW (candidate: Ahmed Chofar Dairy.pdf) | REQUIRES REVIEW | OK |
-| AirMax ppt.pdf | AirMax ppt — Ben Moore | Unclassified / General | AirMax ppt - Ben Moore.pdf | HIGH | OK |
+| AirMax ppt.pdf | AirMax ppt — Ben Moore | Unclassified / General | REQUIRES REVIEW (candidate: AirMax ppt - Ben Moore.pdf) | REQUIRES REVIEW | OK |
 | Alkhalla.pdf | Alkhalla | Unclassified / General | REQUIRES REVIEW (candidate: Alkhalla.pdf) | REQUIRES REVIEW | OK |
 | amar bandhu rashed.pdf | amar bandhu rashed | Unclassified / General | REQUIRES REVIEW (candidate: amar bandhu rashed.pdf) | REQUIRES REVIEW | OK |
 | amar-ache-jol-unicode.pdf | আমার আছে জল | Unclassified / General | REQUIRES REVIEW (candidate: আমার আছে জল.pdf) | REQUIRES REVIEW | OK |
