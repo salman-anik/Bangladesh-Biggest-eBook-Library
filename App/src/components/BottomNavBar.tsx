@@ -34,7 +34,9 @@ interface TabIconProps {
 const CIRCLE_SIZE = 52;
 const TOP_OVERHANG = 15;
 const BAR_BASE_HEIGHT = 58;
-const NOTCH_DEPTH = 50;
+const NOTCH_RADIUS = 33;
+const FILLET_RADIUS = 10;
+const ORB_CENTER_Y_IN_BAR = 6 + CIRCLE_SIZE / 2 - TOP_OVERHANG; // 17px
 
 const ORB_GRADIENTS: Record<ThemePresetKey, [string, string]> = {
   espresso: ['#E0A084', '#7E4431'],
@@ -192,27 +194,32 @@ const TABS: {
 function buildDockedNotchPath(width: number, totalHeight: number, cx: number): string {
   const w = Math.max(width, 240);
   const h = totalHeight;
-  const tabW = w / TABS.length;
-  const halfW = Math.min(48, tabW * 0.62);
-  const d = NOTCH_DEPTH;
+  const r = NOTCH_RADIUS;
+  const rf = FILLET_RADIUS;
+  const cy = ORB_CENTER_Y_IN_BAR;
 
-  const leftS = Math.max(0, cx - halfW);
-  const rightS = Math.min(w, cx + halfW);
-  const lSpan = cx - leftS;
-  const rSpan = rightS - cx;
+  const dy = cy - rf;
+  const sumR = r + rf;
+  const dx = Math.sqrt(Math.max(1, sumR * sumR - dy * dy));
+  const xt = dx * (r / sumR);
+  const yt = rf + dy * (rf / sumR);
+
+  const leftStart = cx - dx;
+  const leftJoinX = cx - xt;
+  const rightJoinX = cx + xt;
+  const rightEnd = cx + dx;
 
   return [
-    'M 0 0',
-    leftS > 0.5 ? `L ${leftS.toFixed(2)} 0` : '',
-    `C ${(leftS + lSpan * 0.42).toFixed(2)} 0 ${(cx - lSpan * 0.56).toFixed(2)} ${d} ${cx.toFixed(2)} ${d}`,
-    `C ${(cx + rSpan * 0.56).toFixed(2)} ${d} ${(rightS - rSpan * 0.42).toFixed(2)} 0 ${rightS.toFixed(2)} 0`,
-    rightS < w - 0.5 ? `L ${w.toFixed(2)} 0` : '',
-    `L ${w} ${h}`,
-    `L 0 ${h}`,
+    'M -24 0',
+    `L ${leftStart.toFixed(2)} 0`,
+    `A ${rf} ${rf} 0 0 1 ${leftJoinX.toFixed(2)} ${yt.toFixed(2)}`,
+    `A ${r} ${r} 0 0 0 ${rightJoinX.toFixed(2)} ${yt.toFixed(2)}`,
+    `A ${rf} ${rf} 0 0 1 ${rightEnd.toFixed(2)} 0`,
+    `L ${(w + 24).toFixed(2)} 0`,
+    `L ${(w + 24).toFixed(2)} ${h}`,
+    `L -24 ${h}`,
     'Z',
-  ]
-    .filter(Boolean)
-    .join(' ');
+  ].join(' ');
 }
 
 export const BottomNavBar = React.memo(function BottomNavBar({
