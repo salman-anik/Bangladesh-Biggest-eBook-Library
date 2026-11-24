@@ -1,0 +1,2635 @@
+{
+  "applied_at": "2026-11-24T06:12:21.042701+00:00",
+  "dry_run": false,
+  "planned_count": 262,
+  "renamed_count": 262,
+  "verified_count": 262,
+  "already_done": 0,
+  "missing_or_trashed": 0,
+  "collisions_skipped": 0,
+  "errors_count": 0,
+  "batch_id": "safe_20261124_061221",
+  "renames": [
+    {
+      "id": "13PHj7tZkvSUTGkxNeo-KN3lHCyFhZaLi",
+      "action": "rename",
+      "folder": "English Books/Computer Science",
+      "old_parent_id": "1w9uktrcbnXmEV77APF7BBA26eVJ_IUuQ",
+      "new_parent_id": "1w9uktrcbnXmEV77APF7BBA26eVJ_IUuQ",
+      "old_name": "The Postmortem of Cyber Security (part 1).pdf",
+      "new_name": "The Postmortem of Cyber Security (part 1) - Hassan Shahriar.pdf",
+      "category": "School Textbooks"
+    },
+    {
+      "id": "1ed2nkw8GiKY2I9kROBpIXeFPm_xrKUfk",
+      "action": "rename",
+      "folder": "English Books/Fiction & Literature",
+      "old_parent_id": "1JKijQSbz_srzkN1PG4FFW5FtTEzDOyMf",
+      "new_parent_id": "1JKijQSbz_srzkN1PG4FFW5FtTEzDOyMf",
+      "old_name": "Crown of Crystal Flame (ts series 5) by C. L. Wilson..pdf",
+      "new_name": "Crown of Crystal Flame (The Tairen Soul Book 5) - C. L. Wilson.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1MZkSfbhYGVbFr4gOzVpUP9tY59RHKuwT",
+      "action": "rename",
+      "folder": "English Books/Fiction & Literature",
+      "old_parent_id": "1JKijQSbz_srzkN1PG4FFW5FtTEzDOyMf",
+      "new_parent_id": "1JKijQSbz_srzkN1PG4FFW5FtTEzDOyMf",
+      "old_name": "The Fault In Our Stars by John Green.pdf",
+      "new_name": "The Fault in Our Stars - John Green.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1WDZ7-cyd5-Ix6GakczSzOqp6LLI93hjo",
+      "action": "rename",
+      "folder": "English Books/Fiction & Literature",
+      "old_parent_id": "1JKijQSbz_srzkN1PG4FFW5FtTEzDOyMf",
+      "new_parent_id": "1JKijQSbz_srzkN1PG4FFW5FtTEzDOyMf",
+      "old_name": "The-Winter-King.pdf",
+      "new_name": "The Winter King - C. L. Wilson.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1BrLoOAirZTioWzb3Uvj62dItrRshwwCP",
+      "action": "rename",
+      "folder": "English Books/Fiction & Literature",
+      "old_parent_id": "1JKijQSbz_srzkN1PG4FFW5FtTEzDOyMf",
+      "new_parent_id": "1JKijQSbz_srzkN1PG4FFW5FtTEzDOyMf",
+      "old_name": "Tiktiki by Dhrubo Esh[New Book 2009].pdf",
+      "new_name": "Tiktiki - Dhrubo Esh[New Book 2009].pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1LRGldLcyBlCtDDL9slqWTlSD6g_OQYSG",
+      "action": "rename",
+      "folder": "English Books/History",
+      "old_parent_id": "11wriQeCfwa8cqPfokhoMK0jwmCFf7BHr",
+      "new_parent_id": "11wriQeCfwa8cqPfokhoMK0jwmCFf7BHr",
+      "old_name": "The Discovery Of India by Jawahar Lal Nehru.pdf",
+      "new_name": "The Discovery Of India - Jawahar Lal Nehru.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1dOgbH3gNBtSPkNtaqqWvQ_k50XumnD89",
+      "action": "rename",
+      "folder": "English Books/Science & Technology",
+      "old_parent_id": "1PkcIj1wMG64n3HRdB8cUbg8fDgSO4p1e",
+      "new_parent_id": "1PkcIj1wMG64n3HRdB8cUbg8fDgSO4p1e",
+      "old_name": "Mohabissher Shorbokaler Sorbosheshto Mohamanob.pdf",
+      "new_name": "মহাবিশ্বের সর্বকালের সর্বশ্রেষ্ঠ মহামানব - ড. ঈসা মাহদী.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1iqXWXvW_MbFt4CTJ9jIoEsy1S5crAUNR",
+      "action": "rename",
+      "folder": "English Books/Self Development & Non-Fiction",
+      "old_parent_id": "11V1qGfvBW70rhE8d9VUb9znYFE5QIshv",
+      "new_parent_id": "11V1qGfvBW70rhE8d9VUb9znYFE5QIshv",
+      "old_name": "English- Start With Why.pdf",
+      "new_name": "Start With Why - Simon Sinek.pdf",
+      "category": "Law & Constitution"
+    },
+    {
+      "id": "15a0g0xz6tLyuLUJrPNVb22B-PAH9Z2Mm",
+      "action": "rename",
+      "folder": "English Books/Self Development & Non-Fiction",
+      "old_parent_id": "11V1qGfvBW70rhE8d9VUb9znYFE5QIshv",
+      "new_parent_id": "11V1qGfvBW70rhE8d9VUb9znYFE5QIshv",
+      "old_name": "THE ALMANACK OF NAVAL RAVIKANT.pdf",
+      "new_name": "THE ALMANACK OF NAVAL RAVIKANT - Eric Jorgenson.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "105QcUpJeAdWv_hcnz3Gg1MwnGfvFtLKV",
+      "action": "rename",
+      "folder": "Series & Collections/Book Series/মাসুদ রানা সিরিজ",
+      "old_parent_id": "11XzLLw5Bku-we5sVFKcVx9Zr18rAuLzy",
+      "new_parent_id": "11XzLLw5Bku-we5sVFKcVx9Zr18rAuLzy",
+      "old_name": "[284] Masud Rana - Moron Jatra (BDeBooks.Com).pdf",
+      "new_name": "[284] Masud Rana - Moron Jatra.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1Hp3j03NtrCwMG5lEd2SZQlSk18JIXe-T",
+      "action": "rename",
+      "folder": "Series & Collections/Book Series/মাসুদ রানা সিরিজ",
+      "old_parent_id": "11XzLLw5Bku-we5sVFKcVx9Zr18rAuLzy",
+      "new_parent_id": "11XzLLw5Bku-we5sVFKcVx9Zr18rAuLzy",
+      "old_name": "[349] Masud Rana - Kalnagini (BDeBooks.Com).pdf",
+      "new_name": "[349] Masud Rana - Kalnagini.pdf",
+      "category": "Novels"
+    },
+    {
+      "id": "1wgUiotEuQSrUDtxqOD9DsuQ0mE6jt62a",
+      "action": "rename",
+      "folder": "Series & Collections/Book Series/মিসির আলি সিরিজ",
+      "old_parent_id": "1Q4vXchITxeO25HGh74vj-a9AghEYbG7b",
+      "new_parent_id": "1Q4vXchITxeO25HGh74vj-a9AghEYbG7b",
+      "old_name": "Ami-ee Misir Ali By Humayun Ahmed.pdf",
+      "new_name": "Ami-ee Misir Ali - Humayun Ahmed.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1oWBlPKcv-T_dhC7pR9MsVWK7fnsWw8WA",
+      "action": "rename",
+      "folder": "Series & Collections/Book Series/মিসির আলি সিরিজ",
+      "old_parent_id": "1Q4vXchITxeO25HGh74vj-a9AghEYbG7b",
+      "new_parent_id": "1Q4vXchITxeO25HGh74vj-a9AghEYbG7b",
+      "old_name": "Baghbondi misir ali by humayon ahmed.pdf",
+      "new_name": "Baghbondi misir ali - humayon ahmed.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1rPEKOPZHXoAbYxrdZiSHk_M4nKcq1AyJ",
+      "action": "rename",
+      "folder": "Series & Collections/Book Series/মিসির আলি সিরিজ",
+      "old_parent_id": "1Q4vXchITxeO25HGh74vj-a9AghEYbG7b",
+      "new_parent_id": "1Q4vXchITxeO25HGh74vj-a9AghEYbG7b",
+      "old_name": "Misir ali apni kothay by humayun ahmed.pdf",
+      "new_name": "Misir ali apni kothay - humayun ahmed.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1MyIBlEGebiPCivoBaduXdCVxzjQj8PFl",
+      "action": "rename",
+      "folder": "Series & Collections/Book Series/হিমু সিরিজ",
+      "old_parent_id": "10q7YMuEnOzX2ZMLq4w45kzwztOhiKXDS",
+      "new_parent_id": "10q7YMuEnOzX2ZMLq4w45kzwztOhiKXDS",
+      "old_name": "Ekjon Himu Koekti Jhin Jhin Poka By Humayun Ahmed [1999] [BDeBooks.Com].pdf",
+      "new_name": "Ekjon Himu Koekti Jhin Jhin Poka - Humayun Ahmed [1999].pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "17UdY5xsNC_m0AUwWk76MW3T9YEYM-Bkk",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/আনিসুল হক",
+      "old_parent_id": "16flDVUyZvCKtS_5xtAb-Kct3Vtv30JuF",
+      "new_parent_id": "16flDVUyZvCKtS_5xtAb-Kct3Vtv30JuF",
+      "old_name": "Maa by Anisul Haque (BDeBooks.Com).pdf",
+      "new_name": "Maa - Anisul Haque.pdf",
+      "category": "Novels"
+    },
+    {
+      "id": "1b8Y2JL47CRv1UQ7uNWSAr4283dsa-dJw",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/কাজী নজরুল ইসলাম",
+      "old_parent_id": "1QtCP6RCqau0nkEHnuZ84_iZ841yK4uM7",
+      "new_parent_id": "1QtCP6RCqau0nkEHnuZ84_iZ841yK4uM7",
+      "old_name": "Agni Bina By Kazi Nazrul Islam (BDeBooks.Com).pdf",
+      "new_name": "Agni Bina - Kazi Nazrul Islam.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1bsJ8A_h3xkt1VbE1S5ygnt4J91Bl-iw3",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/নারায়ণ গঙ্গোপাধ্যায়",
+      "old_parent_id": "1QSKP-eXVeojUsRUK53rXxY1fLxzY-owB",
+      "new_parent_id": "1QSKP-eXVeojUsRUK53rXxY1fLxzY-owB",
+      "old_name": "Kombol Niruddesh by Naraya gangopadhyay - (BdeBooks.Com).pdf",
+      "new_name": "Kombol Niruddesh - Naraya gangopadhyay.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1Ye3xCd3GHzXx8lFeadMYhovqb77m6PZz",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/নারায়ণ গঙ্গোপাধ্যায়",
+      "old_parent_id": "1QSKP-eXVeojUsRUK53rXxY1fLxzY-owB",
+      "new_parent_id": "1QSKP-eXVeojUsRUK53rXxY1fLxzY-owB",
+      "old_name": "Obyrtha Lakkhobhed by Narayan Gangopadhyay - (BdeBooks.Com).pdf",
+      "new_name": "Obyrtha Lakkhobhed - Narayan Gangopadhyay.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1si5RbUkpGb409OP-00YgtC8hCn65NWvh",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/প্রেমেন্দ্র মিত্র",
+      "old_parent_id": "1omWgxolzrsGItddiqUKyooXzz1NUqKB7",
+      "new_parent_id": "1omWgxolzrsGItddiqUKyooXzz1NUqKB7",
+      "old_name": "Chirodiner Itihas by Premendra Mitra - (BdeBooks.Com).pdf",
+      "new_name": "Chirodiner Itihas - Premendra Mitra.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1m3jmkEgkNtV5Wh_PNZJco8XiI_3alz4E",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/বঙ্কিমচন্দ্র চট্টোপাধ্যায়",
+      "old_parent_id": "12jk5DqM84vwFf61fNz85Pg0QFjbVns8L",
+      "new_parent_id": "12jk5DqM84vwFf61fNz85Pg0QFjbVns8L",
+      "old_name": "Krishnakanter Will By Bankim Chandra Chattopadhyay (BDeBooks.Com).pdf",
+      "new_name": "Krishnakanter Will - Bankim Chandra Chattopadhyay.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1gEckzN1V689xPdgQq0FyqBRIY5iJ1Ulp",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/শিবরাম চক্রবর্তী",
+      "old_parent_id": "131i_44tH4kvw5AOd-LXtUjKb3RoOVyWx",
+      "new_parent_id": "131i_44tH4kvw5AOd-LXtUjKb3RoOVyWx",
+      "old_name": "Itur Theke Ityadi By Shibram Chakraborty (BDeBooks.Com).pdf",
+      "new_name": "Itur Theke Ityadi - Shibram Chakraborty.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1D4joDaNxNyeajpn0UEcrEIi-6k3qOUSu",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/শিবরাম চক্রবর্তী",
+      "old_parent_id": "131i_44tH4kvw5AOd-LXtUjKb3RoOVyWx",
+      "new_parent_id": "131i_44tH4kvw5AOd-LXtUjKb3RoOVyWx",
+      "old_name": "Praan Niye Tanatani By Shibram Chakraborty (BDeBooks.Com).pdf",
+      "new_name": "Praan Niye Tanatani - Shibram Chakraborty.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1GC9Z0qS3nuQNu2_QByMA-l-ynT4s9ViU",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/সমরেশ বসু",
+      "old_parent_id": "1AKEINYFbRh_EYZ82aJet_NXFdJsWJAyv",
+      "new_parent_id": "1AKEINYFbRh_EYZ82aJet_NXFdJsWJAyv",
+      "old_name": "Achinpurer Kathakata By Samaresh Basu (BDeBooks.Com).pdf",
+      "new_name": "Achinpurer Kathakata - Samaresh Basu.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1E5zkTR45RnfCh5y_Z2A3lE6iT0-OkyVB",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/সমরেশ মজুমদার",
+      "old_parent_id": "1PMUtXVzn3mJ-4r0DC-SeAa5ePN0XE9Fg",
+      "new_parent_id": "1PMUtXVzn3mJ-4r0DC-SeAa5ePN0XE9Fg",
+      "old_name": "Ei Ami Renu By Samaresh Majumdar (BDeBooks.Com).pdf",
+      "new_name": "Ei Ami Renu - Samaresh Majumdar.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1cgDwFBE4udvPnrdE_Y6Uz0dCObGmDOQj",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/সমরেশ মজুমদার",
+      "old_parent_id": "1PMUtXVzn3mJ-4r0DC-SeAa5ePN0XE9Fg",
+      "new_parent_id": "1PMUtXVzn3mJ-4r0DC-SeAa5ePN0XE9Fg",
+      "old_name": "Moner Moto Mon By Samaresh Majumdar (BDeBooks.Com).pdf",
+      "new_name": "Moner Moto Mon - Samaresh Majumdar.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1KXLchBhcGwrLq7h8h8RSkXV4z7Pn3QGZ",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/সুকুমার রায়",
+      "old_parent_id": "1TDw3j-0h4o-B57OVyCnjXRozKMvCo44b",
+      "new_parent_id": "1TDw3j-0h4o-B57OVyCnjXRozKMvCo44b",
+      "old_name": "Ek Dojon Sukumar By Sukumar Ray (BDeBooks.Com).pdf",
+      "new_name": "Ek Dojon Sukumar - Sukumar Ray.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1wU6dnCLqEX8iNBmn2sLqMzjluidqEv3F",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/সুচিত্রা ভট্টাচার্য",
+      "old_parent_id": "1SLaDtsUcB_bpPuSzZnnqK4S0gu-Kwpaa",
+      "new_parent_id": "1SLaDtsUcB_bpPuSzZnnqK4S0gu-Kwpaa",
+      "old_name": "Somporko By Suchitra Bhattacharya (BDeBooks.Com).pdf",
+      "new_name": "Somporko - Suchitra Bhattacharya.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1cjLvM67X9nAQ9Gbzi47IASgVouxG31R3",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/সুনীল গঙ্গোপাধ্যায়",
+      "old_parent_id": "1GGg3Za9N2muh7OPViwPupZPIzS5w5YF5",
+      "new_parent_id": "1GGg3Za9N2muh7OPViwPupZPIzS5w5YF5",
+      "old_name": "Bhalobasa Nao Hariye Jeo Na by Sunil Gangopadhyay.PDF",
+      "new_name": "Bhalobasa Nao Hariye Jeo Na - Sunil Gangopadhyay.PDF",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1d0PSz4ry3E4pWwaZYWbsnW_F6ZrcvUoe",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/সুমন্ত আসলাম",
+      "old_parent_id": "19f4s8RinzgnTW-vjR4gxLE0v6yuUHG9N",
+      "new_parent_id": "19f4s8RinzgnTW-vjR4gxLE0v6yuUHG9N",
+      "old_name": "Tobuo Ekdin By Sumanto Aslam (BDeBooks.Com).pdf",
+      "new_name": "Tobuo Ekdin - Sumanto Aslam.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "11ynLSWb-GOIyFA7K6gW1I7KBdSRhZJvv",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/সৈয়দ মুস্তাফা সিরাজ",
+      "old_parent_id": "1TsazlK8JsfdZtzLGW1YKFq_0RegIViEq",
+      "new_parent_id": "1TsazlK8JsfdZtzLGW1YKFq_0RegIViEq",
+      "old_name": "Abisshashya By Syed Mujtaba Ali (BDeBooks.Com).pdf",
+      "new_name": "Abisshashya - Syed Mujtaba Ali.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1oC9Cp1175yK-GbflmfUo967fe9mF-ocj",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/সৈয়দ মুস্তাফা সিরাজ",
+      "old_parent_id": "1TsazlK8JsfdZtzLGW1YKFq_0RegIViEq",
+      "new_parent_id": "1TsazlK8JsfdZtzLGW1YKFq_0RegIViEq",
+      "old_name": "Ashariri Jharh By Syed Mustafa Siraj (BDeBooks.Com) 2.pdf",
+      "new_name": "Ashariri Jharh - Syed Mustafa Siraj 2.pdf",
+      "category": "Novels"
+    },
+    {
+      "id": "1_tGLkLYC_n735JAJWHzluwvKuk2x1-7Q",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/সৈয়দ মুস্তাফা সিরাজ",
+      "old_parent_id": "1TsazlK8JsfdZtzLGW1YKFq_0RegIViEq",
+      "new_parent_id": "1TsazlK8JsfdZtzLGW1YKFq_0RegIViEq",
+      "old_name": "Ashariri Jharh By Syed Mustafa Siraj (BDeBooks.Com).pdf",
+      "new_name": "Ashariri Jharh - Syed Mustafa Siraj.pdf",
+      "category": "Novels"
+    },
+    {
+      "id": "1WFJ-qRtbZK73_hyiv2oT8_JNqQxtmEWx",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Aaj Ami Kothao Jabo Naa By Humayun Ahmed.pdf",
+      "new_name": "Aaj Ami Kothao Jabo Naa - Humayun Ahmed.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "11FJXQs9cftLhp-AMHFHZwfS54JiN6ED0",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Achinpur By Humayun Ahmed.pdf",
+      "new_name": "Achinpur - Humayun Ahmed.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1bxA2tQD97KiuIIbpY5VAug0Rxt-B6fCm",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Ami ebong amra by humayun ahmed.pdf",
+      "new_name": "Ami ebong amra - humayun ahmed.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1DdDb8q1UAMvBE-k0XhQBHSfh3yC5Xqnd",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Anyodin by Humayun Ahmed.pdf",
+      "new_name": "Anyodin - Humayun Ahmed.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "130awlSRMvufKtpikZlbsQqvh1tPWUhBI",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Ayna Ghor By Humayun Ahmed.pdf",
+      "new_name": "Ayna Ghor - Humayun Ahmed.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1EJnIfVd9IQPCTl6W3GM34Kve3MrPtG8H",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Badol Diner Dwitiyo Kodom Phul By Humayun Ahmed [2009].pdf",
+      "new_name": "Badol Diner Dwitiyo Kodom Phul - Humayun Ahmed [2009].pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1Lw7shTD0-aBMpj4xyGJZwIPcjOnOKHM1",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Bipod by humayun ahmed.pdf",
+      "new_name": "Bipod - humayun ahmed.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1M-43sNvuyWKHAMNIHOdTsxpwUkdCv5lm",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Bohubrihi By Humayun Ahmed.pdf",
+      "new_name": "Bohubrihi - Humayun Ahmed.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "14xO6pKVv-T7ynFhAGRmRS1WTTS_w8HCl",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Brihonnola by Humayun Ahmed.pdf",
+      "new_name": "Brihonnola - Humayun Ahmed.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "17R0onbch2-PqFpyyiVtb29Y1C2o64Yc5",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Brishti Bilash By Humayun Ahmed.pdf",
+      "new_name": "Brishti Bilash - Humayun Ahmed.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1DPuw_TcsfyfFqFnVVv_AAzPchpLO_FjU",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Chander Aloy Koekjon Jubok By Humayun Ahmed.pdf",
+      "new_name": "Chander Aloy Koekjon Jubok - Humayun Ahmed.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1P0K-Fj0urMlwP3BJCpbZGwuA0AabNVwM",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Chokkhe Amar Trishna By Humayun Ahmed [2009].pdf",
+      "new_name": "Chokkhe Amar Trishna - Humayun Ahmed [2009].pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "10dh8Y5rsfAxZDPTZJOOgtyVrgRebGHU8",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Chole Jay Bosonter Din By Humayun Ahmed [2002] [BDeBooks.Com].pdf",
+      "new_name": "Chole Jay Bosonter Din - Humayun Ahmed [2002].pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1BehsGZDIt-pXFB8l5iUmo6cgArlxvsgg",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Debi by Humayun Ahmed.pdf",
+      "new_name": "Debi - Humayun Ahmed.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1jKbGtZa-CrSaLj-tuAGT-yQFP8f-LRiX",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Dighir Jola Kaar Chayago By Humayun Ahmed [2009].pdf",
+      "new_name": "Dighir Jola Kaar Chayago - Humayun Ahmed [2009].pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1Cb7VslBYe6Zev8a_mz0xbz_RRrUp7l2y",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Dui Duari By Humayun Ahmed.pdf",
+      "new_name": "Dui Duari - Humayun Ahmed.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1dsmdle-z7opzO0ukOm-nPmyPBs4Cy2pj",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Ele-Bele.2 by Humayun Ahmed.PDF",
+      "new_name": "Ele-Bele.2 - Humayun Ahmed.PDF",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1I2ZETxaFkuNBCf2krBGmrmqXsz3JfHlN",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Gouripur Jongshon (Junction) By Humayun Ahmed.pdf",
+      "new_name": "Gouripur Jongshon (Junction) - Humayun Ahmed.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1PUgiaYP7oNeMx0GR3yCJVxJjEaEjuusm",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Hartan ishkapon by humayun ahmed.pdf",
+      "new_name": "Hartan ishkapon - humayun ahmed.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1zqy9551dh094J9WL8EJx1MrL0Kcoaqyw",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Kalo Jadukor by Humayun Ahmed.PDF",
+      "new_name": "Kalo Jadukor - Humayun Ahmed.PDF",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "19oiDus2t6gyvBnHksh8KNQBSrEVlEDSd",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Kichukkhan by Humayun Ahmed.pdf",
+      "new_name": "Kichukkhan - Humayun Ahmed.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1ukQqsS_OVR7frqzgb2ec34BDpmHl2ctJ",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Magic Munshi By Humayun Ahmed.pdf",
+      "new_name": "Magic Munshi - Humayun Ahmed.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1NRhQbMwtLaBRSon7vJvC5kDtwIb5nJa1",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Matal Haowa By Humayun Ahmed.pdf",
+      "new_name": "Matal Haowa - Humayun Ahmed.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1pbEpjdADHIy8tusC1vMxc5Ypw2-WvMFp",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Mojar Bhoot By Humayun Ahmed.pdf",
+      "new_name": "Mojar Bhoot - Humayun Ahmed.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1LxsNdqqr_6YQuJL0bLxxJ6vPKiJZsFyQ",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Mrinmoyee By Humayun Ahmed.pdf",
+      "new_name": "Mrinmoyee - Humayun Ahmed.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1tdzsBHuWQbP_Rzo5bJ8MLcaIs05RcwmA",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Nandito Noroke by Humayun Ahmed.pdf",
+      "new_name": "Nandito Noroke - Humayun Ahmed.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1qbhuBV9K-w6utZU-NNAcvIdNfGY1f1ON",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Neel Hati By Humayun Ahmed (BDeBooks.Com).pdf",
+      "new_name": "Neel Hati - Humayun Ahmed.pdf",
+      "category": "Short Stories"
+    },
+    {
+      "id": "1wwzWyHJwGtIHg6L-QOwudulnGqIUkCIb",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Nishad by humayun ahmed.pdf",
+      "new_name": "Nishad - humayun ahmed.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1juUg8-KG1LNYnvAKqmFNrhmLAS8cYl29",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Pakhi Amar Ekla Pakhi By Humayun Ahmed.pdf",
+      "new_name": "Pakhi Amar Ekla Pakhi - Humayun Ahmed.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1V8UpGtBo6Y-OrcnxyreVWaVhhv_K2kSQ",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Poka By Humayun Ahmed.pdf",
+      "new_name": "Poka - Humayun Ahmed.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1cDR4SlqQCWrmp0SeS1BwnNDqd6BThW9U",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Raboner Deshe Ami Ebong Amra By Humayun Ahmed.pdf",
+      "new_name": "Raboner Deshe Ami Ebong Amra - Humayun Ahmed.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1JVTs_43joz_rXbAHJKvk6X-MasLFL-ZC",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Rupa By Humayun Ahmed (BDeBooks.Com).pdf",
+      "new_name": "Rupa - Humayun Ahmed.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1LuLyvXznkKSaKvG7oD6stVzoGAutBS4r",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Sajghor By Humayun Ahmed.pdf",
+      "new_name": "Sajghor - Humayun Ahmed.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1JVvJ6uu3Yum-ZQdDv8lPc5z96ZYqTltr",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Sobai Gechhe Bone By Humayun Ahmed.pdf",
+      "new_name": "Sobai Gechhe Bone - Humayun Ahmed.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1uPFvGGfK922OrtvsEPr9cxgpoccCtatT",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Tetul Bone Jochna by Humayun Ahmed.pdf",
+      "new_name": "Tetul Bone Jochna - Humayun Ahmed.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1tpV_a3YRUlAJ6_TbOth2NEsq9egaUePJ",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "The Exorcist By Humayun Ahmed.pdf",
+      "new_name": "The Exorcist - Humayun Ahmed.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1wnSRpWf6Vn1SpeYpWpQbkOgfwl1-2sQF",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Tithir Neel Toyale By Humayun Ahmed.pdf",
+      "new_name": "Tithir Neel Toyale - Humayun Ahmed.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1v10Q3MlXTNYFN2zEmBIYxCI-Whw9c5A5",
+      "action": "rename",
+      "folder": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "old_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "new_parent_id": "1DMHz_QO5y_jGNuh56pZdqIYBk6O1Jxtj",
+      "old_name": "Tondrabilas by humayun ahmed.pdf",
+      "new_name": "Tondrabilas - humayun ahmed.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "17x7Cfi0_Ichv1Aw4h7d9anZcwUX0iMt5",
+      "action": "rename",
+      "folder": "Authors & Scholars/International Authors/C. L. Wilson",
+      "old_parent_id": "1Fmgsrsm1ykP7N7xoMD6IXL0mO2J8dcto",
+      "new_parent_id": "1Fmgsrsm1ykP7N7xoMD6IXL0mO2J8dcto",
+      "old_name": "King of Sword and Sky (ts series 3) by C. L. Wilson.pdf",
+      "new_name": "King of Sword and Sky (The Tairen Soul Book 3) - C. L. Wilson.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1aCfS1Q-R06BbZwKqRPnyS-mjr_FUENbp",
+      "action": "rename",
+      "folder": "Authors & Scholars/International Authors/C. L. Wilson",
+      "old_parent_id": "1Fmgsrsm1ykP7N7xoMD6IXL0mO2J8dcto",
+      "new_parent_id": "1Fmgsrsm1ykP7N7xoMD6IXL0mO2J8dcto",
+      "old_name": "Lady of Light and Shadows (ts series 2) by C. L. Wilson.pdf",
+      "new_name": "Lady of Light and Shadows (The Tairen Soul Book 2) - C. L. Wilson.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1rjVP8JE0eQ-wC8V4L6PSHxPvHdd-2_JF",
+      "action": "rename",
+      "folder": "Authors & Scholars/International Authors/C. L. Wilson",
+      "old_parent_id": "1Fmgsrsm1ykP7N7xoMD6IXL0mO2J8dcto",
+      "new_parent_id": "1Fmgsrsm1ykP7N7xoMD6IXL0mO2J8dcto",
+      "old_name": "Lord of the Fading Lands (ts series 1) by C. L. Wilson.pdf",
+      "new_name": "Lord of the Fading Lands (The Tairen Soul Book 1) - C. L. Wilson.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1TsqROY2sFDlY8HGtSiPmFQv_vsEUMoZf",
+      "action": "rename",
+      "folder": "Authors & Scholars/International Authors/C. L. Wilson",
+      "old_parent_id": "1Fmgsrsm1ykP7N7xoMD6IXL0mO2J8dcto",
+      "new_parent_id": "1Fmgsrsm1ykP7N7xoMD6IXL0mO2J8dcto",
+      "old_name": "Queen of Song and Souls (ts series 4) by C. L. Wilson.pdf",
+      "new_name": "Queen of Song and Souls (The Tairen Soul Book 4) - C. L. Wilson.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1RVxAnkhIevDw3IshVX6CMuqvdVbpfGCK",
+      "action": "rename",
+      "folder": "Education & Textbooks/Madrasa/Qawmi Madrasa/Common & Reference Books/Arabic Reference Library",
+      "old_parent_id": "1eNMzSuYSz0rcb1Wn0llp4_EKq0MqfUKZ",
+      "new_parent_id": "1eNMzSuYSz0rcb1Wn0llp4_EKq0MqfUKZ",
+      "old_name": "تاريخ القرآن والمصاحف1.pdf",
+      "new_name": "تاريخ القرآن والمصاحف ج1 - موسى جار الله روستوفدوني.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1PVIP438NP2sVbbmnDzqYX0d2iMi8wDs2",
+      "action": "rename",
+      "folder": "Education & Textbooks/Madrasa/Qawmi Madrasa/Common & Reference Books/Hadith & Sunnah",
+      "old_parent_id": "1AoyW40fHN850qRgx78CHjwkiwlel5cFv",
+      "new_parent_id": "1AoyW40fHN850qRgx78CHjwkiwlel5cFv",
+      "old_name": "2GdrfF9.pdf",
+      "new_name": "কুরআন ও হাদীস সঞ্চয়ন (১ম, ২য় ও ৩য় খন্ড).pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1-4WNOsjmVrP7mLNogNtXbnegZNUOL1b1",
+      "action": "rename",
+      "folder": "Education & Textbooks/Madrasa/Qawmi Madrasa/Common & Reference Books/Hadith & Sunnah",
+      "old_parent_id": "1AoyW40fHN850qRgx78CHjwkiwlel5cFv",
+      "new_parent_id": "1AoyW40fHN850qRgx78CHjwkiwlel5cFv",
+      "old_name": "2I9CcUU.pdf",
+      "new_name": "কুরআন ও সহীহ হাদীসের আলোকে সহীহ ফাযায়েলে আমল - আব্দুল্লাহ বিন খালিদ.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1NjFg_JzDtahTzMMPUcgE31o6QceFjd1n",
+      "action": "rename",
+      "folder": "Education & Textbooks/Madrasa/Qawmi Madrasa/Common & Reference Books/Hadith & Sunnah",
+      "old_parent_id": "1AoyW40fHN850qRgx78CHjwkiwlel5cFv",
+      "new_parent_id": "1AoyW40fHN850qRgx78CHjwkiwlel5cFv",
+      "old_name": "Hisnul muslimeen(Almodina.com).pdf",
+      "new_name": "হিসনুল মুসলিম বা কুরআন ও হাদীস থেকে সংকলিত দৈনন্দিন যিকর ও দোআর সমাহার.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1gcivHBplXjtbFJU4cPe3Cba-25sfr3WT",
+      "action": "rename",
+      "folder": "Education & Textbooks/Madrasa/Qawmi Madrasa/Common & Reference Books/Hadith & Sunnah",
+      "old_parent_id": "1AoyW40fHN850qRgx78CHjwkiwlel5cFv",
+      "new_parent_id": "1AoyW40fHN850qRgx78CHjwkiwlel5cFv",
+      "old_name": "Mariful-Hadis-4.pdf",
+      "new_name": "মা'আরিফুল হাদীস ৪র্থ খন্ড - মাওলানা মুহাম্মাদ মনযূর নোমানী রহ.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1yOUjvTRy2cg_xqWp6XomU4Ksj2ubcyCA",
+      "action": "rename",
+      "folder": "Education & Textbooks/Madrasa/Qawmi Madrasa/Common & Reference Books/Seerah, Akabir Biographies & Islamic History",
+      "old_parent_id": "1DzrpIU4--eEGjILJ_ZvwFnutFUrMn9j5",
+      "new_parent_id": "1DzrpIU4--eEGjILJ_ZvwFnutFUrMn9j5",
+      "old_name": "নবীয়ে রহমত (সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম).pdf",
+      "new_name": "নবীয়ে রহমত (সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম) - আবুল হাসান আলী নদভী রহ.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "19ScxAEOA70SfNHcXY6wwB4xrlPsDv7Ol",
+      "action": "rename",
+      "folder": "Education & Textbooks/Madrasa/Qawmi Madrasa/Common & Reference Books/Tafseer & Al-Quran",
+      "old_parent_id": "1KatzNhFzR4gmIZGojFwiQj0tzj_Es_jz",
+      "new_parent_id": "1KatzNhFzR4gmIZGojFwiQj0tzj_Es_jz",
+      "old_name": "তাফসীরে মাযহারী ২য় খন্ড.pdf",
+      "new_name": "তাফসীরে মাযহারী ২য় খন্ড - কাযী ছানাউল্লাহ পানিপথী.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1FOUnbJ56_pwUDI7F4JD1tmJjwkvz-YwJ",
+      "action": "rename",
+      "folder": "Education & Textbooks/Madrasa/Qawmi Madrasa/Common & Reference Books/Tafseer & Al-Quran",
+      "old_parent_id": "1KatzNhFzR4gmIZGojFwiQj0tzj_Es_jz",
+      "new_parent_id": "1KatzNhFzR4gmIZGojFwiQj0tzj_Es_jz",
+      "old_name": "তাফসীরে মাযহারী ৩য় খন্ড.pdf",
+      "new_name": "তাফসীরে মাযহারী ৩য় খন্ড - কাযী ছানাউল্লাহ পানিপথী.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "13aZ3HvysC1SbhC6Rs3FS1uTnZR1RkKIo",
+      "action": "rename",
+      "folder": "Education & Textbooks/Madrasa/Qawmi Madrasa/Common & Reference Books/Tafseer & Al-Quran",
+      "old_parent_id": "1KatzNhFzR4gmIZGojFwiQj0tzj_Es_jz",
+      "new_parent_id": "1KatzNhFzR4gmIZGojFwiQj0tzj_Es_jz",
+      "old_name": "তাফসীরে মাযহারী ৪র্থ খন্ড.pdf",
+      "new_name": "তাফসীরে মাযহারী ৪র্থ খন্ড - কাযী ছানাউল্লাহ পানিপথী.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1CZzyPO3Mkmh_to5inXsuSjANEx9_kBbL",
+      "action": "rename",
+      "folder": "Education & Textbooks/Madrasa/Qawmi Madrasa/Common & Reference Books/Tafseer & Al-Quran",
+      "old_parent_id": "1KatzNhFzR4gmIZGojFwiQj0tzj_Es_jz",
+      "new_parent_id": "1KatzNhFzR4gmIZGojFwiQj0tzj_Es_jz",
+      "old_name": "তাফসীরে মাযহারী ৫ম খন্ড.pdf",
+      "new_name": "তাফসীরে মাযহারী ৫ম খন্ড - কাযী ছানাউল্লাহ পানিপথী.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1iba8hIR_asxQM7ry4u7UrCu2xu1Gaea2",
+      "action": "rename",
+      "folder": "Education & Textbooks/Madrasa/Qawmi Madrasa/Common & Reference Books/Tafseer & Al-Quran",
+      "old_parent_id": "1KatzNhFzR4gmIZGojFwiQj0tzj_Es_jz",
+      "new_parent_id": "1KatzNhFzR4gmIZGojFwiQj0tzj_Es_jz",
+      "old_name": "তাফসীরে মাযহারী ৭ম খন্ড.pdf",
+      "new_name": "তাফসীরে মাযহারী ৭ম খন্ড - কাযী ছানাউল্লাহ পানিপথী.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1k9lvvgUUOKbQC2iNO5-oHrQjipkFJOG_",
+      "action": "rename",
+      "folder": "Education & Textbooks/Madrasa/Qawmi Madrasa/Review & Unclassified (Qawmi)/General Islamic Literature & Misc (Level Unspecified)",
+      "old_parent_id": "1x44IFWbIauj-228uDJd6riHIY7k0Jqn0",
+      "new_parent_id": "1x44IFWbIauj-228uDJd6riHIY7k0Jqn0",
+      "old_name": "chepe-rakha-ityhash-(Almodina.com).pdf",
+      "new_name": "Chepe Rakha Ityhash - Allama Golam Ahmad Mortaza.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1C-5tFzKnaLztdDUw69OpYBTeZBSfrue0",
+      "action": "rename",
+      "folder": "Education & Textbooks/Madrasa/Qawmi Madrasa/Review & Unclassified (Qawmi)/General Islamic Literature & Misc (Level Unspecified)",
+      "old_parent_id": "1x44IFWbIauj-228uDJd6riHIY7k0Jqn0",
+      "new_parent_id": "1x44IFWbIauj-228uDJd6riHIY7k0Jqn0",
+      "old_name": "Islam-Communism-O-Pujibad.pdf",
+      "new_name": "ইসলাম কমিউনিজম ও পুঁজিবাদ - মোহাম্মাদ কুতুব.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1rv_FS8wQVYnejCqOwAPuITFcuxM6TwZ-",
+      "action": "rename",
+      "folder": "Education & Textbooks/Madrasa/Qawmi Madrasa/Review & Unclassified (Qawmi)/General Islamic Literature & Misc (Level Unspecified)",
+      "old_parent_id": "1x44IFWbIauj-228uDJd6riHIY7k0Jqn0",
+      "new_parent_id": "1x44IFWbIauj-228uDJd6riHIY7k0Jqn0",
+      "old_name": "Nabiye-Rahmat.pdf",
+      "new_name": "নবীয়ে রহমত (সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম) - আবুল হাসান আলী নদভী রহ.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1OHyaUB6ZmoWrA1b3W0Y-Egvi17YKSG8o",
+      "action": "rename",
+      "folder": "Education & Textbooks/Madrasa/Qawmi Madrasa/Review & Unclassified (Qawmi)/General Islamic Literature & Misc (Level Unspecified)",
+      "old_parent_id": "1x44IFWbIauj-228uDJd6riHIY7k0Jqn0",
+      "new_parent_id": "1x44IFWbIauj-228uDJd6riHIY7k0Jqn0",
+      "old_name": "SunanuIbnMazahInBangla3rdPart.pdf",
+      "new_name": "Sunanu Ibn Mazah 3rd Part.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1-WkHbxdF4QyKhDqzVleo5h8h9etM7zfJ",
+      "action": "rename",
+      "folder": "Education & Textbooks/Madrasa/Qawmi Madrasa/Review & Unclassified (Qawmi)/General Islamic Literature & Misc (Level Unspecified)",
+      "old_parent_id": "1x44IFWbIauj-228uDJd6riHIY7k0Jqn0",
+      "new_parent_id": "1x44IFWbIauj-228uDJd6riHIY7k0Jqn0",
+      "old_name": "অনিঃশেষ আলো ৩য় খণ্ড.pdf",
+      "new_name": "অনিঃশেষ আলো - ৩য় খন্ড - আলতামাশ.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1nHt4NEIletE32jQ4tK0tZtstlw9kIxt6",
+      "action": "rename",
+      "folder": "Education & Textbooks/Madrasa/Qawmi Madrasa/Takmil (Dawra-e-Hadith)/Sahih Al-Bukhari & Shuruh",
+      "old_parent_id": "11MiijOU2WUkyQrf3cp7jvXS31L8bKfrx",
+      "new_parent_id": "11MiijOU2WUkyQrf3cp7jvXS31L8bKfrx",
+      "old_name": "Sahihul_Bukhari_Part-05(6).pdf",
+      "new_name": "Sahih Al Bukhari part 5 - Imam Bukhari.pdf",
+      "category": "Journals & Magazines"
+    },
+    {
+      "id": "1Lgo6n3G04BxtkSkJioPZkR8A88C5DJxv",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Aqidah & Theology (আকিদা)",
+      "old_parent_id": "1q68y2UApr-7oMmTtrSs5g7HrYjnOmieC",
+      "new_parent_id": "1q68y2UApr-7oMmTtrSs5g7HrYjnOmieC",
+      "old_name": "IslamicAqeedahQAndABanglaIslamicBook — D2#Ì°Å\u0018Ã` ½­ùVU¬äa\u0016Ì@7ÙíÌàðJÖôÜ»}ï]ãz¾q\u000e¨\u001a - 9ï\u0005oÂÿÔ«§Æô5Ù.pdf",
+      "new_name": "ইসলামী আকীদাহ বা মৌলিক ধর্মবিশ্বাস - শাইখ মুহাম্মাদ বিন জামীল যাইনু.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1A5TzTJrQRZ3dm5g-pFLgvdK6s4V4w1pM",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Aqidah & Theology (আকিদা)",
+      "old_parent_id": "1q68y2UApr-7oMmTtrSs5g7HrYjnOmieC",
+      "new_parent_id": "1q68y2UApr-7oMmTtrSs5g7HrYjnOmieC",
+      "old_name": "আল্লাহর সাহায্য প্রাপ্ত দলের আকীদা.pdf",
+      "new_name": "সুন্নাতের প্রসারিত ঝাণ্ডা আল্লাহর সাহায্যপ্রাপ্ত দলের আকীদা - শাইখ হাফেয ইব্‌ন আহমদ আল-হাকামী.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1rcCHhxzOxioPOFdEn0PK31SJxDMmUdb_",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Aqidah & Theology (আকিদা)",
+      "old_parent_id": "1q68y2UApr-7oMmTtrSs5g7HrYjnOmieC",
+      "new_parent_id": "1q68y2UApr-7oMmTtrSs5g7HrYjnOmieC",
+      "old_name": "ঈমানের ৭৭ টি শাখা.pdf",
+      "new_name": "ইমানের ৭৭ টি শাখা - ইমাম বায়হাকী.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1Qf2uDU_vDQJJzgfa7cU6r_2fgNfXlCiT",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Aqidah & Theology (আকিদা)",
+      "old_parent_id": "1q68y2UApr-7oMmTtrSs5g7HrYjnOmieC",
+      "new_parent_id": "1q68y2UApr-7oMmTtrSs5g7HrYjnOmieC",
+      "old_name": "কবর যিয়ারত ও কবরবাসীর কাছে সাহায্যের আবেদন.pdf",
+      "new_name": "কবর যিয়ারত ও কবরবাসীর কাছে সাহায্যের আবেদন - শাইখুল ইসলাম ইবন তাইমিয়্যাহ.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1e0OZGVWMOIFSS3IIsDqMF8A36qdFmF7u",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Aqidah & Theology (আকিদা)",
+      "old_parent_id": "1q68y2UApr-7oMmTtrSs5g7HrYjnOmieC",
+      "new_parent_id": "1q68y2UApr-7oMmTtrSs5g7HrYjnOmieC",
+      "old_name": "কাদিয়ানী সমস্যা- কাদিয়ানী সমস্যা.pdf",
+      "new_name": "কাদিয়ানী সমস্যা - সাইয়েদ আবুল আ’লা মওদূদী.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1xVOG3vBY3WKXr5PwzUoL1n_fJE5gr6RN",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Aqidah & Theology (আকিদা)",
+      "old_parent_id": "1q68y2UApr-7oMmTtrSs5g7HrYjnOmieC",
+      "new_parent_id": "1q68y2UApr-7oMmTtrSs5g7HrYjnOmieC",
+      "old_name": "তাওহীদ এবং শিরক.pdf",
+      "new_name": "তাওহীদ এবং শিরক - শেইখ আবুল কালাম আযাদ.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1EJTzFgcRz2qbZqDgAdUukSRlmK7uV5-y",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Aqidah & Theology (আকিদা)",
+      "old_parent_id": "1q68y2UApr-7oMmTtrSs5g7HrYjnOmieC",
+      "new_parent_id": "1q68y2UApr-7oMmTtrSs5g7HrYjnOmieC",
+      "old_name": "তাওহীদ ও তার প্রমাণাদি.pdf",
+      "new_name": "তাওহীদ ও তার প্রমাণাদি - শাইখুল ইসলাম মুহাম্মাদ ইবন আব্দুল ওয়াহহাব রহ.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1PU2JelOXsjNqGf373--o3RnSlni8v0D_",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Aqidah & Theology (আকিদা)",
+      "old_parent_id": "1q68y2UApr-7oMmTtrSs5g7HrYjnOmieC",
+      "new_parent_id": "1q68y2UApr-7oMmTtrSs5g7HrYjnOmieC",
+      "old_name": "সঠিক আকীদা-বিশ্বাস ও যা এর পরিপন্থি.pdf",
+      "new_name": "সঠিক আকীদা-বিশ্বাস ও যা এর পরিপন্থী - শাইখ আব্দুল আযীয ইবন আব্দুল্লাহ ইবন বায.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1Jll4WD5UPyUjosBBnwK-quJzMYkoAQ4Y",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Aqidah & Theology (আকিদা)",
+      "old_parent_id": "1q68y2UApr-7oMmTtrSs5g7HrYjnOmieC",
+      "new_parent_id": "1q68y2UApr-7oMmTtrSs5g7HrYjnOmieC",
+      "old_name": "হজের সাথে সংশ্লিষ্ট আকীদাগত ভুল-ভ্রান্তিসমূহ.pdf",
+      "new_name": "হজের সাথে সংশ্লিষ্ট আকীদাগত ভুল-ভ্রান্তিসমূহ - ড. আহমাদ ইবন উসমান আল-মাযইয়াদ.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1Z7Y4hCU8ccul27sB_y8v_4TcaXIDU3VR",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "chepe rakha ityhash by golam ahmed mortoja.pdf",
+      "new_name": "Chepe Rakha Ityhash - Allama Golam Ahmad Mortaza.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1Vp_f7xgqz5q-V5Rjvpave74t1eyzgBYE",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "english-068.pdf",
+      "new_name": "Muslim Christian Dialogue.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1esrQEZhH3Pg2TDDjLnrIjdgmav8T3pZK",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "Islam Communism O Pujibad.pdf",
+      "new_name": "ইসলাম কমিউনিজম ও পুঁজিবাদ - মোহাম্মাদ কুতুব.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1wfBSu5xtgcusOazu7eJcFiLgMu0sqKHu",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "islam science meditation.pdf",
+      "new_name": "islam science meditation - Quantum Foundation.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1ZNCkjgv8bgiIxbi3dtpPnFA-eOa9wV5h",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "the concept of worship in Islam.pdf",
+      "new_name": "Concept of worship in Islam - WAMY Series on Islam No. 8.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1p3ZUEfyNWHYB9ycy1jy_FkhUC4AtH4tS",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "the status of woman in islam.pdf",
+      "new_name": "the status of woman in Islam - Dr Jamal Badawi.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "16hjFbOS3hAvEIHsL3XR7NmhEUmTk1vSn",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "You Can Win by Shiv Khera.pdf",
+      "new_name": "You Can Win - Shiv Khera.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1AiNzEkzqSOq2mQgNblq7cmhwhMbAYKOh",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "অনিশেষ আলো-3.pdf",
+      "new_name": "অনিঃশেষ আলো - ৩য় খন্ড - আলতামাশ.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1j1gQlPDA7CXdUQhaPOP0UfUd8RBzjinj",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "অন্তরে বিধ্বংসী বিষয় সমুহঃ অহংকার.pdf",
+      "new_name": "অন্তর বিধ্বংসী বিষয়সমূহ অহংকার - মুহাম্মাদ সালেহ আল-মুনাজ্জিদ.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "10RfYNK-H08FiUOWqeOcnVCh05_iOKQZM",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "অন্তরে বিধ্বংসী বিষয় সমুহঃ ঝহড়া-বিবাদ.pdf",
+      "new_name": "অন্তর-বিধ্বংসী বিষয়সমূহ ঝগড়া-বিবাদ - শাইখ মুহাম্মাদ সালেহ আল-মুনাজ্জিদ.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1R661HBQoI82wBQ3B2oytx-iuYMNx0ffa",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "অন্তরে বিধ্বংসী বিষয় সমুহঃ নিফাক.pdf",
+      "new_name": "অন্তর-বিধ্বংসী বিষয়সমূহ নিফাক - শাইখ মুহাম্মাদ সালেহ আল-মুনাজ্জিদ.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1YNrDHith_B_Kyjq1_-fAOgvkEcTRe-Wn",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "অন্তরে বিধ্বংসী বিষয় সমুহঃ মহব্বত.pdf",
+      "new_name": "অন্তর বিধ্বংসী বিষয় দুনিয়ার মহব্বত - মুহাম্মাদ সালেহ আল-মুনাজ্জিদ.pdf",
+      "category": "Novels"
+    },
+    {
+      "id": "1lE24j_WLroxrMw3aMJkg0lm4wryx12W2",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "আত্তশুদ্ধি.pdf",
+      "new_name": "আত্মশুদ্ধি - খালেদ ইবন আব্দুল্লাহ আল-মুসলেহ.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1q4ISEWRywmwiCSMnSiVqvUfxRma8sx5S",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "আল্লাহর পরিচয় সৃষ্টির নিদর্শনে.pdf",
+      "new_name": "আল কুরআনে এবং সৃষ্টির নিদর্শনে আল্লাহ তা'আলার পরিচয় - ড. মুহাম্মদ নজরুল ইসলাম খান.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1z-Y98DOBWtfhHW9e0Yh4P-6uVD15gJmV",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "ইসলাম একমাত্র পরিপূর্ণ দীন.pdf",
+      "new_name": "ইসলাম একমাত্র পরিপূর্ণ দীন - মুহাম্মাদ আল-আমীন ইবন মুহাম্মাদ আল-মুখতার আশ্‌-শানকীতী.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1FEhqZ48PbUpE9DxzKCxeLQXaKQL68TXl",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "ইসলাম ও অন্যান্য ধর্মে নারী.pdf",
+      "new_name": "ইসলামে নারী বনাম ইয়াহূদী-খৃষ্টান ধর্মে নারী - ড. শরীফ আব্দুল আযীম.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1Q-Lacp-CseV-6KDZ9HUNTlcLYVVORxg4",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "ইসলামী শরী‘আতে শাস্তির বিধান.pdf",
+      "new_name": "ইসলামী শরী‘আতে শাস্তির বিধান - ড. আব্দুল কারীম যাইদান.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1qIfbnCPEZOvzPLeEdJHr3Dx7HV96eNd_",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "ইসলামের নীতিমালার আলোকে বরকত অর্জন.pdf",
+      "new_name": "ইসলামী নীতিমালার আলোকে বরকত অর্জন - সালেহ ইবন আবদুল আযীয ইবন মুহাম্মাদ আলে শাইখ.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1MeGMFFNlTIUrk8o34P7M2nYqOMxN-JRv",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "ইসলামের রুকনসমূহের সংক্ষিপ্ত ব্যাখ্যা.pdf",
+      "new_name": "ইসলামের রুকনসমূহের সংক্ষিপ্ত ব্যাখ্যা - কতিপয় ছাত্র.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1r-DZuzKIAr6jPbLczalZYFumA3blncV4",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "ইসলামের সমালোচনা ও তার জবাব.pdf",
+      "new_name": "ইসলামের সমালোচনা ও তার জবাব - ড. সাঈদ ইসমাঈল চীনী.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1IhjWWJdztKTSgdjphF5hjYvtKUGbw98b",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "ঈমানের মৌলিক নীতিমালা সংক্রান্ত মণিমুক্তা.pdf",
+      "new_name": "ঈমানের মৌলিক নীতিমালা সংক্রান্ত মণিমুক্তা - ড. মুহাম্মাদ ইয়োসরী.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1-KT7ih-ZtFP6lgUlLVxJRv4Z6T3146Tp",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "উপদেশতত্ত্ব.pdf",
+      "new_name": "উপদেশতত্ত্ব - আকীল ইবন মুহাম্মাদ আল-মাকতিরী.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1IZjrU_FXcpAoch-Mc6bkj3Pc2Ym10uJc",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "উমরাহ করার নিয়াম.pdf",
+      "new_name": "কুরআন ও সুন্নাহর আলোকে উমরাহ করার নিয়ম - ড. আবু বকর মুহাম্মাদ যাকারিয়া.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1tYkvJfDHqASdNO0Ta9TQykJkFk0Vcwf6",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "উম্মতের ওপর নবী মুহাম্মাদ মোস্তফা সাল্লাল্লাহু ‘আলাইহি ওয়াসাল্লামের অধিকার.pdf",
+      "new_name": "উম্মতের ওপর নবী মুহাম্মাদ মোস্তাফা সাল্লাল্লাহু ‘আলাইহি ওয়াসাল্লামের অধিকার - ড. আহমাদ আল-মাযইয়াদ.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1N04D-zRdjy3VpMwosPZ2rAPj7O-081PK",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "উম্মতের ওপর সাহাবীদের অধিকারসমূহ.pdf",
+      "new_name": "উম্মতের ওপর সাহাবীগণের অধিকারসমূহ - ড. সালিহ ইবন আব্দুল আযীয ইবন উসমান সিন্দী.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1OLyDU3KmRsN6i5AFZY92vE7OZR6TJig5",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "উসীলা গ্রহণ- বৈধ ও অবৈধ পন্থা.pdf",
+      "new_name": "উসীলা গ্রহণ বৈধ ও অবৈধ পন্থা - আব্দুল্লাহ ইবন আব্দুল হামীদ আল-আসারী.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1ML1l__bitPyo6J9kt1mVt4jsuhav-TYs",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "কতিপয় দীনী বিষয়- যা একজন মুসলিমের জানা প্রয়োজন.pdf",
+      "new_name": "কতিপয় দীনী বিষয় যা একজন মুসলিমের জানা প্রয়োজন - মোস্তাফিজুর রহমান ইবন আব্দুল আযীয আল-মাদানী.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1giOD0kPdtjn8jgoEJH23Gpsjftprc5mU",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "কবীরা গুমাহ.pdf",
+      "new_name": "কবীরা গুনাহ - ইমাম শামসুদ্দীন আয-যাহাবী রহ.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1O4OqzM2hiZ0o3J2s49ta1gU2pCNFdp3V",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "কালেমা লা ইলাহা ইল্লাল্লাহ.pdf",
+      "new_name": "কালেমা ‘লা ইলাহা ইল্লাল্লাহ’ - শাইখ আবদুল আযীয ইবন আবদুল্লাহ ইবন বায.pdf",
+      "category": "Novels"
+    },
+    {
+      "id": "1ygJ3Lpsl1Pht4e3Iu4FLFX-TnHbo5z_v",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "কালেমা ‘লা ইলাহা ইল্লাল্লাহ’ এর অর্থ, শর্তসমূহ এবং ব্যক্তি ও সমাজ জীবনে তার প্রভাব.pdf",
+      "new_name": "কালেমা ‘লা ইলাহা ইল্লাল্লাহ’এর অর্থ, শর্তসমূহ এবং ব্যক্তি ও সমাজ জীবনে তার প্রভাব - শায়খ সালেহ ইবন ফাওযান আলে-ফাওযান.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1E82TGaroPeDmm5Fj3cHyGdM2co6JGJ-q",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "কিছু প্রশ্ন ও তার উত্তর .pdf",
+      "new_name": "ইসলামী আইন না মানার বিধান কিছু প্রশ্ন ও তার উত্তর - আবু বকর মুহাম্মাদ যাকারিয়া.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1X43_A-8BNG-UjjLUobz0a9H9ULgmRgqt",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "তত্ত্ব ছেড়ে জীবনে — \u001b¿mîJsh;m×ãqAäd õ\u0014ûÿ\u0016)yïS¼­\u0019 ýr¸3`­È³n\u0001 ~ ô`¦¼ - 4ç^.pdf",
+      "new_name": "ইসলাম তত্ত্ব ছেড়ে জীবনে - শরীফ আবু হায়াত অপু.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "14lnvEuPCdCKwT10O7HTcFbGlBoF7jTs7",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "তোমার রব কে-.pdf",
+      "new_name": "তোমার রব কে - মুহাম্মাদ ইবন আহমদ ইবন মুহাম্মদ আল-আম্মারী.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1PguW18sImjHGHz1dwkfmAHpwzRtYXMzB",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "দীনের ওপর অবিচল থাকার উপায়.pdf",
+      "new_name": "দীনের ওপর অবিচল থাকার উপায় - শাইখ মুহাম্মাদ সালেহ আল-মুনাজ্জিদ.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1DgdZrXiGPfyN-SMYQu0K3qhQZJbFpDde",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "নবী স.. যেভাবে হজ করেছেন.pdf",
+      "new_name": "নবী স.. যেভাবে হজ করেছেন - শাইখ মুহাম্মাদ নাসেরুদ্দীন আল-আলবানী.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "10DF2eP7UcFeoF5CJH3DCcs3Z_dxbODmi",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "নবী সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম যেভাবে পবিত্রতা অর্জন করতেন.pdf",
+      "new_name": "নবী সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম যেভাবে পবিত্রতা অর্জন করতেন - মোস্তাফিজুর রহমান ইবন আব্দুল আযীয আল-মাদানী.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1PSVSaqi4wjqTCeSJrPfO2YNVu-VB4Q7q",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "নবী সাল্লাল্লাহু আলাইহি ওয়াসাল্লামের মহিমান্বিত জীবনের শেষ একশ দিনের অসিয়্যতসমূহ.pdf",
+      "new_name": "নবী সাল্লাল্লাহু আলাইহি ওয়াসাল্লামের মহিমান্বিত জীবনের শেষ একশ দিনের অসিয়্যতসমূহ - সালেহ ইবন আব্দুর রহমান আল-হুসাইন.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1pPurKSyIxLbwx4KI4l51TPJk9sXYtySH",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "নবীর সুন্নতকে আঁকড়ে ধরা ও তার প্রভাব.pdf",
+      "new_name": "নবীর সুন্নতকে আঁকড়ে ধরা ও তার প্রভাব - শাইখ মুহাম্মদ সালিহ আল-‘উসাইমীন রহ.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "12v7QUWCFy11jnmY7NfL5jKcNR1j3dvG9",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "নারীর অধিকাংশই প্রতিষ্ঠায় ইসলাম.pdf",
+      "new_name": "নারীর অধিকার প্রতিষ্ঠায় ইসলাম - শাইখ আব্দুর রাজ্জাক ইবন আব্দুল মুহসিন আল-বদর.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "17oYKH7hOIQYpqeWJ-5t32ve9pQ5LS4qF",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "নারীর জান্নাত যে পথে.pdf",
+      "new_name": "নারীর জান্নাত যে পথে - সানাউল্লাহ নজির আহমদ.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1Kis_K_JJJuTLjP6CqpBngBcFxrsGucyU",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "পর্দা একটি ইবাদত.pdf",
+      "new_name": "পর্দা একটি ইবাদত - মাদারুল ওয়াত্বান.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1Q3bY4FAHaDM2BsSekN9n2DSna5_owof4",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "প্রত্যেক মুসলিম নর-নারীর জন্য যা জানা একান্ত কর্তব্য.pdf",
+      "new_name": "প্রত্যেক মুসলিম নর-নারীর জন্য যা জানা - শাইখ আব্দুল্লাহ ইবন ইবরাহীম আল-কার‘আওয়ী.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "18lILO7deGJ2cx6oLCjrRIsWs0sl-1nSc",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "ফেরারী নারী.pdf",
+      "new_name": "ফেরারী নারী - আবু বকর সিরাজী.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "14Mimo1kC9cqY-bDPOCKB7U6bdz5tjhfd",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "ব্যবসায় নৈতিকতা.pdf",
+      "new_name": "ব্যবসায় ইসলামি নৈতিকতা - রফিক ইসা বীকুন.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1mjLWdrFLFChLrsE5_Mg-GobHcuEVfpad",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "ভারতে মুসলিম নির্যাতন.pdf",
+      "new_name": "ভারতে মুসলিম নির্যাতন - মুহাম্মাদ সিদ্দিক.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1vhmqpFpuLVtyQ-vMDHNbvAQ4QL2tyXLF",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "মুসলিম নারীভেবং সমসাময়িক পেক্ষাপ.pdf",
+      "new_name": "মুসলিম নারী এবং সমসাময়িক প্রেক্ষাপটে তার দায়িত্ব ও কর্তব্য - অধ্যাপক ড. ফালেহ ইবন মুহাম্মাদ আস-সুগাইর.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1z9i9SSfPZ8LpQO79_cnq3sExVitSARDY",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "যুব সমাজের অবক্ষয় ও তার প্রতিকার.pdf",
+      "new_name": "যুব সমাজের অবক্ষয় ও তার প্রতিকার - সালেহ ইবন্ ফাওযান আল-ফাওযান.pdf",
+      "category": "Philosophy & Ethics"
+    },
+    {
+      "id": "1P6s7rv53wLoyCfGVA7Bi5Lc4PCiRN93q",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "যে সকল হারামকে মানুষ তুচ্ছ মনে করে থাকে.pdf",
+      "new_name": "যে সকল হারামকে মানুষ তুচ্ছ মনে করে থাকে - শাইখ মুহাম্মাদ সালেহ আল-মুনাজ্জিদ.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1TRHhYKQqxCvQfwll4dr8iZ5pGUNceXUc",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "শরী‘আতের স্বয়ংসম্পূর্ণতা ও বিদ‘আতের ভয়াবহতা.pdf",
+      "new_name": "শরী‘আতের স্বয়ংসম্পূর্ণতা ও বিদ‘আতের ভয়াবহতা - শাইখ মুহাম্মদ ইবন সালেহ আল-উসাইমীন রহ.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1C9hVygjJvIo284hClIKsxk6s0_yONZX_",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "শাশ্বত জীবন ব্যাবস্থা (হক দীন).pdf",
+      "new_name": "শাশ্বত জীবন ব্যবস্থা (হক দীন) - আশ-শাইখ আবদুর রহমান ইবন হাম্মাদ আ-লে উমার.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1iMxq5TYRDCu5hb-bwQaBLEf9c8j6XM8z",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "শিশুদের পালন-পালন.pdf",
+      "new_name": "শিশুদের লালন-পালন [মাতা-পিতার দায়িত্ব ও সন্তানের করণীয়] - শাইখ মুহাম্মাদ ইবন জামীল যাইনূ রহ.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1SJBN4zvoyWi9lufJGEXGg0rumPsNBO0H",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "সংক্ষিপ্ত হজ,উমরা ও যিয়ারত.pdf",
+      "new_name": "সংক্ষিপ্ত হজ, উমরা ও যিয়ারত - নু‘মান আবুল বাশার আলী হাসান তৈয়ব.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1CMGT_log4_eSDwPEiyWZ7N0LmtUBUioG",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "সবার আগে নিজেকে গড়ো.pdf",
+      "new_name": "সবার আগে নিজেকে গড়ো - আবদুস শহীদ নাসিম.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1lYPajyuHuFFCGUcZzAp1X7_SzophqN79",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "সালাত শিক্ষা.pdf",
+      "new_name": "সালাত শিক্ষা - ড. আব্দুল্লাহ ইবন আহমাদ আলী আয-যাইদ.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1KpyfsGAxMg2bFUrJn8WYz_TWcmayYZGn",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "সালাতের একাগ্রতা অর্জনের ৩৩ টি উপায়.pdf",
+      "new_name": "সালাতে একাগ্রতা অর্জনের ৩৩টি উপায় - শাইখ মুহাম্মাদ সালিহ আল-মুনাজ্জিদ.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1WW2LWyKPKmlZokfeLphrvxuGM-lddhRN",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "সালাতের গুরুত্ব ও ফযীলত.pdf",
+      "new_name": "সালাতের গুরুত্ব ও ফযীলত - শাইখ আব্দুল্লাহ ইবন সা‘দ ইবন ইবরাহীম আল-ফালেহ.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1vWLCJMyi69AXbsAgYAWinzK499IIM1yc",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "সাহাবীগণের হক ও ফযীলত সম্পর্কে যথাযথ করণীয়.pdf",
+      "new_name": "সাহাবীগণের হক ও ফযীলত সম্পর্কে যথাযথ করণীয় - আব্দুল্লাহ ইবন সালিহ আল-কুসাইর.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "16iWfgzR9cqNl4Geqq_YMHlGIIKlNm0G_",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "স্বর্ণ ক্রয়-বিক্রয় সংক্রান্ত বিবিধ প্রশ্ন-উত্তর.pdf",
+      "new_name": "স্বর্ণ ক্রয়-বিক্রয় সংক্রান্ত বিবিধ প্রশ্ন-উত্তর - শাইখ মুহাম্মদ ইবন সালেহ আল-‘উসাইমীন.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1OI5UK5MeB-TuoCAsSTqP_LNGadT020uh",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "সৎ কাজের আদেশ ও মন্দ কাজ থেকে নিষেধ করা.pdf",
+      "new_name": "সৎকাজের আদেশ ও মন্দ কাজ থেকে নিষেধ করা - আব্দুল্লাহ শহীদ আব্দুর রহমান.pdf",
+      "category": "Novels"
+    },
+    {
+      "id": "1gnUVuAX6Nt-w9seFrLxxvyQNHNMAT4AT",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "সৎকর্মশীলদের আসর থেকে চারটি আসর.pdf",
+      "new_name": "সৎব্যক্তিদের আসরসমূহ থেকে চার আসর - শাইখ আহমদ আর-রুমী আল-হানাফী রহ.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1tdWPKTKOpa5XpKCFH8IfvIQLkDen5wun",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Dawah, Tabligh & Other Islamic Books (অন্যান্য)",
+      "old_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "new_parent_id": "1m5Jy86FpEWhtYr7wqnLBVQgybTF8gY3y",
+      "old_name": "হজে প্রদত্ত নবী সাল্লাল্লাহু আলাইহি ওয়াসাল্লামের ফাতাওয়া.pdf",
+      "new_name": "হজে প্রদত্ত নবী সাল্লাল্লাহু আলাইহি ওয়াসাল্লামের ফাতাওয়া - সাঈদ আব্দুল কাদির বাশানফার.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1_vx2GAt_M9waWoKxeX8rj3sltBX5pUu9",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Fiqh & Islamic Jurisprudence (ফিকহ)",
+      "old_parent_id": "1xK37NQeU39vFSbfeN_J4QvESOHdOT2rQ",
+      "new_parent_id": "1xK37NQeU39vFSbfeN_J4QvESOHdOT2rQ",
+      "old_name": "আল ফিকহুল আকবর.pdf",
+      "new_name": "আল-ফিকহুল আকবর - ড. খোন্দকার আব্দুল্লাহ জাহাঙ্গীর.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1abA7pBbXUZNx9Iv9t5f1tXhMK70RK5S5",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Fiqh & Islamic Jurisprudence (ফিকহ)",
+      "old_parent_id": "1xK37NQeU39vFSbfeN_J4QvESOHdOT2rQ",
+      "new_parent_id": "1xK37NQeU39vFSbfeN_J4QvESOHdOT2rQ",
+      "old_name": "আহলে সুন্নাত ওয়াল জামাআতের আকিদা .pdf",
+      "new_name": "আহলে সুন্নাত ওয়াল জামা‘আতের আকীদা - শাইখ মুহাম্মাদ আস-সালেহ আল-উসাইমীন.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1S1bUZLnrhvl5YCeh9dV4ABQBueVMLhKF",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Fiqh & Islamic Jurisprudence (ফিকহ)",
+      "old_parent_id": "1xK37NQeU39vFSbfeN_J4QvESOHdOT2rQ",
+      "new_parent_id": "1xK37NQeU39vFSbfeN_J4QvESOHdOT2rQ",
+      "old_name": "জামাআতের সাথে নামাজ আদায়.pdf",
+      "new_name": "জামা‌‘আতের সাথে নামায আদায় - ড. সায়ীদ ইবন আলী ইবন ওয়াহফ আল্ ক্বাহতানি.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "10rwmPRUigaG1H84jQP7_yH4IN5RggEUr",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Fiqh & Islamic Jurisprudence (ফিকহ)",
+      "old_parent_id": "1xK37NQeU39vFSbfeN_J4QvESOHdOT2rQ",
+      "new_parent_id": "1xK37NQeU39vFSbfeN_J4QvESOHdOT2rQ",
+      "old_name": "তাবেইদের জীবনকথা 03.pdf",
+      "new_name": "তাবি'ঈদের জীবনকথা - ৩য় খন্ড - ডক্টর মুহাম্মদ আবদুল মাবুদ.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1skF-4jW1aRPdQkuJBFthbw8mxbtRmygm",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Fiqh & Islamic Jurisprudence (ফিকহ)",
+      "old_parent_id": "1xK37NQeU39vFSbfeN_J4QvESOHdOT2rQ",
+      "new_parent_id": "1xK37NQeU39vFSbfeN_J4QvESOHdOT2rQ",
+      "old_name": "বিবাহ ও তালাকের বিধান.pdf",
+      "new_name": "বিবাহ ও তালাকের বিধান - মুহাম্মদ ইকবাল কিলানী.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1TCjIMwx6p54-8tvTN3Y20OnhQtEQRnjh",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Fiqh & Islamic Jurisprudence (ফিকহ)",
+      "old_parent_id": "1xK37NQeU39vFSbfeN_J4QvESOHdOT2rQ",
+      "new_parent_id": "1xK37NQeU39vFSbfeN_J4QvESOHdOT2rQ",
+      "old_name": "যাকাত ও সাওম বিষয়ক দু’টি পুস্তিকা.pdf",
+      "new_name": "যাকাত ও সাওম বিষয়ক দু’টি পুস্তিকা - শাইখ আব্দুল আযীয আব্দুল্লাহ ইবন বায রহ.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1ZAtI7E8Gwmpl9mxK-vBEYVCs1TJClYOL",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Fiqh & Islamic Jurisprudence (ফিকহ)",
+      "old_parent_id": "1xK37NQeU39vFSbfeN_J4QvESOHdOT2rQ",
+      "new_parent_id": "1xK37NQeU39vFSbfeN_J4QvESOHdOT2rQ",
+      "old_name": "রুহ সম্পর্কে সংক্ষিপ্ত মাসআলা.pdf",
+      "new_name": "রূহ সম্পর্কিত সংক্ষিপ্ত মাসআলাসমূহ - সুলাইমান ইবন সালিহ আল-খারাশী.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1AI4dOp-0YUyHtcvB2EV04tvrn6HKsv5x",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Hadith & Hadith Sciences (হাদিস)",
+      "old_parent_id": "19at4GraCvp2lAns1K9u3V3HCqF24ZWsc",
+      "new_parent_id": "19at4GraCvp2lAns1K9u3V3HCqF24ZWsc",
+      "old_name": "bangla vasha o sahitte muslim.pdf",
+      "new_name": "বাংলা ভাষা ও সাহিত্যে মুসলিম অবদান.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1YHEYy3smQcCQfF_asHXWBACleiUUL02T",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Hadith & Hadith Sciences (হাদিস)",
+      "old_parent_id": "19at4GraCvp2lAns1K9u3V3HCqF24ZWsc",
+      "new_parent_id": "19at4GraCvp2lAns1K9u3V3HCqF24ZWsc",
+      "old_name": "bn hadither aloke adorsho shami.pdf",
+      "new_name": "হাদীসের আলোকে আদর্শ স্বামী - আব্দুল্লাহ আল মামুন আল আযহারী.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1_l8IC5-a7ivspAA1CbVWg_6vTs7KolKk",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Hadith & Hadith Sciences (হাদিস)",
+      "old_parent_id": "19at4GraCvp2lAns1K9u3V3HCqF24ZWsc",
+      "new_parent_id": "19at4GraCvp2lAns1K9u3V3HCqF24ZWsc",
+      "old_name": "Jame At Tirmiji 1.pdf",
+      "new_name": "জামে আত-তিরমিযী - ১ম খন্ড - ইমাম আবু ঈসা আত তিরমিযী (র).pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1Nk4nzevxtFeJ9K5g_HKgZq3gC7w000Mz",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Hadith & Hadith Sciences (হাদিস)",
+      "old_parent_id": "19at4GraCvp2lAns1K9u3V3HCqF24ZWsc",
+      "new_parent_id": "19at4GraCvp2lAns1K9u3V3HCqF24ZWsc",
+      "old_name": "Riyadus Saleheen 1.pdf",
+      "new_name": "রিয়াদুস সালেহীন - ১ম খন্ড - ইমাম মুহিউদ্দীন ইয়াহইয়া আন-নববী (র).pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1hefNWrNQ2qqG5bCVa5HwqCdJcvCvHSdf",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Hadith & Hadith Sciences (হাদিস)",
+      "old_parent_id": "19at4GraCvp2lAns1K9u3V3HCqF24ZWsc",
+      "new_parent_id": "19at4GraCvp2lAns1K9u3V3HCqF24ZWsc",
+      "old_name": "Riyadus Saleheen 2.pdf",
+      "new_name": "রিয়াদুস সালেহীন - ২য় খন্ড - ইমাম মুহিউদ্দীন ইয়াহইয়া আন-নববী (র).pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1v1CtB4dI_glncP_MOD-n2D21Kmc2nyYL",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Hadith & Hadith Sciences (হাদিস)",
+      "old_parent_id": "19at4GraCvp2lAns1K9u3V3HCqF24ZWsc",
+      "new_parent_id": "19at4GraCvp2lAns1K9u3V3HCqF24ZWsc",
+      "old_name": "the worlds muslims full report.pdf",
+      "new_name": "the worlds muslims full report - Diana Yoo.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1t6isnkE56giGnIJyGQUnEvZksulrTcUZ",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Hadith & Hadith Sciences (হাদিস)",
+      "old_parent_id": "19at4GraCvp2lAns1K9u3V3HCqF24ZWsc",
+      "new_parent_id": "19at4GraCvp2lAns1K9u3V3HCqF24ZWsc",
+      "old_name": "আন্-নওয়াবীর চল্লিশ হাদিস .pdf",
+      "new_name": "আন্‌-নওয়াবীর চল্লিশ হাদীস - ইমাম আবু যাকারিয়া ইয়াহ্‌ইয়া ইবন শরফ আন্‌-নওয়াবী.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1iFcGJCNqMEDkrJrtd2AFVf8ymEppVTRT",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Hadith & Hadith Sciences (হাদিস)",
+      "old_parent_id": "19at4GraCvp2lAns1K9u3V3HCqF24ZWsc",
+      "new_parent_id": "19at4GraCvp2lAns1K9u3V3HCqF24ZWsc",
+      "old_name": "কবর যিয়ারত সংক্রান্ত কতিপয় জাল ও দুর্বল হাদীস.pdf",
+      "new_name": "কবর যিয়ারত সংক্রান্ত কতিপয় জাল ও দুর্বল হাদীস - শাইখ হাম্মাদ ইবন মুহাম্মাদ আল-আনসারী আল-খাযরাজী আস-সা‘দী.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1Ojgj3DxGQ6vwSOnsgU2mb257waYHvF-3",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Hadith & Hadith Sciences (হাদিস)",
+      "old_parent_id": "19at4GraCvp2lAns1K9u3V3HCqF24ZWsc",
+      "new_parent_id": "19at4GraCvp2lAns1K9u3V3HCqF24ZWsc",
+      "old_name": "রিয়াদুস সালেহীন.pdf",
+      "new_name": "রিয়াদুস সালেহীন (২য় খণ্ড) - ইমাম মুহিউদ্দীন আবু যাকারিয়া ইয়াহইয়া ইবন শরফ আন-নাওয়াবী রহ.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1jMHprZViAOdJxm6oebxHleRJ257g48Ld",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Hadith & Hadith Sciences (হাদিস)",
+      "old_parent_id": "19at4GraCvp2lAns1K9u3V3HCqF24ZWsc",
+      "new_parent_id": "19at4GraCvp2lAns1K9u3V3HCqF24ZWsc",
+      "old_name": "সহিহ হাদিসে কুদসি.pdf",
+      "new_name": "সহীহ হাদীসে কুদসী - আবু আব্দুল্লাহ মুস্তফা আল-আদাভী.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1dVCL3MsV3J9EucjPYxqRTWPFpzJ58OP5",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Hadith & Hadith Sciences (হাদিস)",
+      "old_parent_id": "19at4GraCvp2lAns1K9u3V3HCqF24ZWsc",
+      "new_parent_id": "19at4GraCvp2lAns1K9u3V3HCqF24ZWsc",
+      "old_name": "সহীহ হাদীস সম্বলিত অহী ও ঈমান বিশ্বকোষ.pdf",
+      "new_name": "সহীহ হাদীস সম্বলিত অহী ও ঈমান বিশ্বকোষ - দ্বিয়াউর রহমান আব্দুল্লাহ আল-আ‘যামী.pdf",
+      "category": "Dictionaries & Encyclopedias"
+    },
+    {
+      "id": "1LQHHgK2PlD8O38FjgWD2NUaMMTvLNgxy",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Islamic History (ইসলামিক ইতিহাস)",
+      "old_parent_id": "1V3i-Q1vN3Cuyr-qr88EofDdN9rbaRsL5",
+      "new_parent_id": "1V3i-Q1vN3Cuyr-qr88EofDdN9rbaRsL5",
+      "old_name": "a history of the world1.pdf",
+      "new_name": "A History of the World From the 20th to the 21st Century - J.A.S.Grenville.pdf",
+      "category": "History & Civilization"
+    },
+    {
+      "id": "14i9_Ts3DbZvGsb79cFb9XP4xkqGGvX0D",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Islamic History (ইসলামিক ইতিহাস)",
+      "old_parent_id": "1V3i-Q1vN3Cuyr-qr88EofDdN9rbaRsL5",
+      "new_parent_id": "1V3i-Q1vN3Cuyr-qr88EofDdN9rbaRsL5",
+      "old_name": "Biography of Khalifah Abu Bakr As Siddique.pdf",
+      "new_name": "খালীফাতু রাসূলিল্লাহ আবূ বাকর আছছিদ্দীক রা. - ড. আহমদ আলী.pdf",
+      "category": "Biography & Autobiography"
+    },
+    {
+      "id": "1HE_R7uvVO5lW6mRJc_xdA0o-fTOf3IXb",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Islamic History (ইসলামিক ইতিহাস)",
+      "old_parent_id": "1V3i-Q1vN3Cuyr-qr88EofDdN9rbaRsL5",
+      "new_parent_id": "1V3i-Q1vN3Cuyr-qr88EofDdN9rbaRsL5",
+      "old_name": "jibone ja dekhlam 2.pdf",
+      "new_name": "জীবনে যা দেখলাম - দ্বিতীয় খন্ড - অধ্যাপক গোলাম আযম.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1pCqlRNZgiHby6QIunFUwKe-P9VJc3E4d",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Islamic History (ইসলামিক ইতিহাস)",
+      "old_parent_id": "1V3i-Q1vN3Cuyr-qr88EofDdN9rbaRsL5",
+      "new_parent_id": "1V3i-Q1vN3Cuyr-qr88EofDdN9rbaRsL5",
+      "old_name": "jibone ja dekhlam 4.pdf",
+      "new_name": "জীবনে যা দেখলাম - চতুর্থ খন্ড - অধ্যাপক গোলাম আযম.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1kBC-Ye0nvelz7UTDOepF8MJfN6IuJV7u",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Islamic History (ইসলামিক ইতিহাস)",
+      "old_parent_id": "1V3i-Q1vN3Cuyr-qr88EofDdN9rbaRsL5",
+      "new_parent_id": "1V3i-Q1vN3Cuyr-qr88EofDdN9rbaRsL5",
+      "old_name": "jibone ja dekhlam 5.pdf",
+      "new_name": "জীবনে যা দেখলাম - পঞ্চম খন্ড - অধ্যাপক গোলাম আযম.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1x11MV9irqFu8DAmpxozifLEKkJw5CptQ",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Islamic History (ইসলামিক ইতিহাস)",
+      "old_parent_id": "1V3i-Q1vN3Cuyr-qr88EofDdN9rbaRsL5",
+      "new_parent_id": "1V3i-Q1vN3Cuyr-qr88EofDdN9rbaRsL5",
+      "old_name": "Tabeyider JibonKotha Part 03.pdf",
+      "new_name": "তাবি'ঈদের জীবনকথা - ৩য় খন্ড - ডক্টর মুহাম্মদ আবদুল মাবুদ.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1F8wSZUpTQVxvdP0Vg5eUuZnqpdroOdcF",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Islamic History (ইসলামিক ইতিহাস)",
+      "old_parent_id": "1V3i-Q1vN3Cuyr-qr88EofDdN9rbaRsL5",
+      "new_parent_id": "1V3i-Q1vN3Cuyr-qr88EofDdN9rbaRsL5",
+      "old_name": "turki o afgan juge varot.pdf",
+      "new_name": "তুর্কি ও আফগান যুগে ভারত - অসিত কুমার সেন.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1R4ohjxyFv6xTAwc4orRBuxuLYIwZfAam",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Islamic History (ইসলামিক ইতিহাস)",
+      "old_parent_id": "1V3i-Q1vN3Cuyr-qr88EofDdN9rbaRsL5",
+      "new_parent_id": "1V3i-Q1vN3Cuyr-qr88EofDdN9rbaRsL5",
+      "old_name": "আল আকসা মসজিদের ইতিকথা.pdf",
+      "new_name": "আল আকসা মসজিদের ইতিকথা - এ এন এম সিরাজুল ইসলাম.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1htVxR4yFUqesCcKgrXUG6Ug5qwgzXGdV",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Islamic History (ইসলামিক ইতিহাস)",
+      "old_parent_id": "1V3i-Q1vN3Cuyr-qr88EofDdN9rbaRsL5",
+      "new_parent_id": "1V3i-Q1vN3Cuyr-qr88EofDdN9rbaRsL5",
+      "old_name": "আলী রা. সম্পর্কে ১৫০ টি শিক্ষণীয় ঘটনা.pdf",
+      "new_name": "আলী রা. সম্পর্কে ১৫০ টি শিক্ষণীয় ঘটনা - আহমাদ আবদুল আলী তাহতাভী.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1FYAsh_p8hm2tlRvjDMsqO3kpE4PZelwn",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Islamic History (ইসলামিক ইতিহাস)",
+      "old_parent_id": "1V3i-Q1vN3Cuyr-qr88EofDdN9rbaRsL5",
+      "new_parent_id": "1V3i-Q1vN3Cuyr-qr88EofDdN9rbaRsL5",
+      "old_name": "ইসলামের প্রথম মুয়াযযিন হযরত বিলাল (রাঃ).pdf",
+      "new_name": "ইসলামের প্রথম মুয়াযযিন হযরত বিলাল (রাঃ) - হেলেনা খান.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1dQAUd2mJvqSpUSEvRr_505eK67pzU5iq",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Islamic History (ইসলামিক ইতিহাস)",
+      "old_parent_id": "1V3i-Q1vN3Cuyr-qr88EofDdN9rbaRsL5",
+      "new_parent_id": "1V3i-Q1vN3Cuyr-qr88EofDdN9rbaRsL5",
+      "old_name": "উপমহাদেশে ইংরেজ বিরোধী সংগ্রামের সূচনায় উলামায়ে কেরাম.pdf",
+      "new_name": "উপমহাদেশে ইংরেজ বিরোধী সংগ্রামের সূচনায় উলামায়ে কেরাম - আবদুল মান্নান তালিব.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1nx6JYqC7XLF3TD5MMFNfDZ3Kvo_2Ep3Z",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Islamic History (ইসলামিক ইতিহাস)",
+      "old_parent_id": "1V3i-Q1vN3Cuyr-qr88EofDdN9rbaRsL5",
+      "new_parent_id": "1V3i-Q1vN3Cuyr-qr88EofDdN9rbaRsL5",
+      "old_name": "খাদিজা রা. সম্পর্কে ১৫০টি শিক্ষণীয় ঘটনা.pdf",
+      "new_name": "খাদিজা রা. সম্পর্কে ১৫০টি শিক্ষণীয় ঘটনা - মুস্তফা মুহাম্মদ আবুল মা'আতী.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1xuoiYqJxZPts2auXnuMhYzO19og9A-Kz",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Islamic History (ইসলামিক ইতিহাস)",
+      "old_parent_id": "1V3i-Q1vN3Cuyr-qr88EofDdN9rbaRsL5",
+      "new_parent_id": "1V3i-Q1vN3Cuyr-qr88EofDdN9rbaRsL5",
+      "old_name": "মহাবিশ্বের সর্বকালের সর্বশ্রেষ্ঠ মহামানব.pdf",
+      "new_name": "মহাবিশ্বের সর্বকালের সর্বশ্রেষ্ঠ মহামানব - ড. ঈসা মাহদী.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1np9VdgfGokW_ZXMlcR3p4U_PpfMCblmw",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Islamic History (ইসলামিক ইতিহাস)",
+      "old_parent_id": "1V3i-Q1vN3Cuyr-qr88EofDdN9rbaRsL5",
+      "new_parent_id": "1V3i-Q1vN3Cuyr-qr88EofDdN9rbaRsL5",
+      "old_name": "হযরত ফাতেমা যোহরা রা..pdf",
+      "new_name": "হযরত ফাতেমা যোহরা - কাজী আবুল হোসেন.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "113EQqigF7gJH6aEE7hwQP_fVIODPmnxI",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Islamic Literature & Spirituality (ইসলামিক সাহিত্য)",
+      "old_parent_id": "1asu4w2aKv1tVyXtnyTMhWarlvqLHpQRh",
+      "new_parent_id": "1asu4w2aKv1tVyXtnyTMhWarlvqLHpQRh",
+      "old_name": "ইমানের ৭৭ টি শাখাঃ ইমাম বায়হাকী.pdf",
+      "new_name": "ইমানের ৭৭ টি শাখা - ইমাম বায়হাকী.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1ZOWUE5d_UmiwXJHJXanE81is2BknSZ7p",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Islamic Literature & Spirituality (ইসলামিক সাহিত্য)",
+      "old_parent_id": "1asu4w2aKv1tVyXtnyTMhWarlvqLHpQRh",
+      "new_parent_id": "1asu4w2aKv1tVyXtnyTMhWarlvqLHpQRh",
+      "old_name": "ইসলাম ও বিজ্ঞান.pdf",
+      "new_name": "ইসলাম ও বিজ্ঞান - অধ্যাপক গোলাম আযম.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "193w9iPkDZ5MLJpyge9MqdXNpIuFt0Fv3",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Islamic Literature & Spirituality (ইসলামিক সাহিত্য)",
+      "old_parent_id": "1asu4w2aKv1tVyXtnyTMhWarlvqLHpQRh",
+      "new_parent_id": "1asu4w2aKv1tVyXtnyTMhWarlvqLHpQRh",
+      "old_name": "ইসলামী সভ্যতা বনাম পাশ্চাত্য সভ্যতা.pdf",
+      "new_name": "ইসলামী সভ্যতা বনাম পাশ্চাত্য সভ্যতা - অধ্যাপক গোলাম আযম.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "15g2qX2INHWl3_k38PNF_mgMWrcEaO--R",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Islamic Literature & Spirituality (ইসলামিক সাহিত্য)",
+      "old_parent_id": "1asu4w2aKv1tVyXtnyTMhWarlvqLHpQRh",
+      "new_parent_id": "1asu4w2aKv1tVyXtnyTMhWarlvqLHpQRh",
+      "old_name": "ঔপনিবেশিক যুগের শিক্ষা-সাহিত্য.pdf",
+      "new_name": "ঔপনিবেশিক যুগের শিক্ষা-সাহিত্য - মহীবুল আজিজ.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1sK7TB2lJXJnw-Q17cOaMpkOX5WDmDSFV",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Islamic Literature & Spirituality (ইসলামিক সাহিত্য)",
+      "old_parent_id": "1asu4w2aKv1tVyXtnyTMhWarlvqLHpQRh",
+      "new_parent_id": "1asu4w2aKv1tVyXtnyTMhWarlvqLHpQRh",
+      "old_name": "ক্রীতদাস থেকে সাহাবী.pdf",
+      "new_name": "ক্রীতদাস থেকে সাহাবী - এজেডএম শামসুল আলম.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1ojDb3pqZGAERXv7AVbj_qOF-Pm3Gfc2w",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Islamic Literature & Spirituality (ইসলামিক সাহিত্য)",
+      "old_parent_id": "1asu4w2aKv1tVyXtnyTMhWarlvqLHpQRh",
+      "new_parent_id": "1asu4w2aKv1tVyXtnyTMhWarlvqLHpQRh",
+      "old_name": "বাংলাদেশী বনাম বাঙ্গালী জাতীয়তাবাদ.pdf",
+      "new_name": "বাংলাদেশী বনাম বাঙ্গালী জাতীয়তাবাদ - আবদুল খালেক.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1xcDwmIgeLjstdqrc5qEnulOQ4Wl1EFIZ",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Islamic Literature & Spirituality (ইসলামিক সাহিত্য)",
+      "old_parent_id": "1asu4w2aKv1tVyXtnyTMhWarlvqLHpQRh",
+      "new_parent_id": "1asu4w2aKv1tVyXtnyTMhWarlvqLHpQRh",
+      "old_name": "যুগে যুগে ইসলামি আন্দলন.pdf",
+      "new_name": "যুগে যুগে ইসলামী আন্দোলন - এ. কে. এম. নাজির আহমদ.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1KIbVAE-q2DkT4QbhG1TbTZSHLBC_S9bO",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Islamic Literature & Spirituality (ইসলামিক সাহিত্য)",
+      "old_parent_id": "1asu4w2aKv1tVyXtnyTMhWarlvqLHpQRh",
+      "new_parent_id": "1asu4w2aKv1tVyXtnyTMhWarlvqLHpQRh",
+      "old_name": "সুদঃ এক ভয়াবহ অভিশাপ, পরিত্রাণের উপায়.pdf",
+      "new_name": "সুদঃ এক ভয়াবহ অভিশাপ পরিত্রাণের উপায় - শাহ মুহাম্মদ হাবীবুর রহমান.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "14cZWACcaExNuIBLhnhbJleelNv3erfo8",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Quran & Tafsir (কুরআন ও তাফসির)",
+      "old_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "new_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "old_name": "05 quran er haque@Islamke Janun call-01811909111 -01927807760 -01818519600.pdf",
+      "new_name": "আল-কুরআনের হক.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "16Tyvj5ZqnZrTIImi9nc75Ielui_C_UHg",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Quran & Tafsir (কুরআন ও তাফসির)",
+      "old_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "new_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "old_name": "07 kivabe amra quran bjhbo@Islamke Janun call-01811909111 -01927807760 -0181.pdf",
+      "new_name": "আমরা কিভাবে কুরআন বুঝব.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1N5TsxCIZIj0U25P0OcEgTP4vexTpAPyG",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Quran & Tafsir (কুরআন ও তাফসির)",
+      "old_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "new_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "old_name": "Al Qurane Rastro O Sarkar — Maulana Muhammad Abdur Rahim.pdf",
+      "new_name": "আল- কুরআনে রাষ্ট্র ও সরকার.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1jPH_X1XXWQIQ7XGIsBXhcP1eIh4U2WIz",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Quran & Tafsir (কুরআন ও তাফসির)",
+      "old_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "new_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "old_name": "amar kaler kotha.pdf",
+      "new_name": "আমার কালের কথা - আবদুল গফুর.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1AOY9uH6Ef8XgTn4rccNhhnvq7-uqorJx",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Quran & Tafsir (কুরআন ও তাফসির)",
+      "old_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "new_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "old_name": "Belief in Allah — ×rí^s¬eÖîÕL¡.ûð}ð×æ\u00029 - rîAÚêí´éÄkC\u0012\u000e só.pdf",
+      "new_name": "Belief in Allah In the Light of the Qur'an and Sunnah - Shaikh ‘Umar Sulaiman al-Ashqar.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1opYp0iGT5lpU3i6PhZLvVJfoHLEc-SIO",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Quran & Tafsir (কুরআন ও তাফসির)",
+      "old_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "new_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "old_name": "Bishoyvittik Tafsirul Quran-2.pdf",
+      "new_name": "বিষয়ভিত্তিক তাফসীরুল কোরআন - ২য় খন্ড - আল্লামা দেলাওয়ার হোসাইন সাঈদী.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1MNbWauR2mAz9EML8gByppxjFSPQD67YI",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Quran & Tafsir (কুরআন ও তাফসির)",
+      "old_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "new_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "old_name": "bn surah an naba-er tafsir Qurtubi — er_tafsir_Qurtubi.pdf",
+      "new_name": "সূরা আন-নাবা-এর তাফসীর.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "10hnC29umD5MAGl81R060abyic3ykQF8J",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Quran & Tafsir (কুরআন ও তাফসির)",
+      "old_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "new_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "old_name": "Darse Quran 1.pdf",
+      "new_name": "দারসে কুরআন - ১ম খন্ড.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1rPqep29jnWiTT9tAkryjoeVKOhU2Ggbw",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Quran & Tafsir (কুরআন ও তাফসির)",
+      "old_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "new_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "old_name": "ekattorer sriti.pdf",
+      "new_name": "একাত্তরের স্মৃতি - ডঃ সৈয়দ সাজ্জাদ হোসায়েন.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "10cCPQrYFFIquio1ks7OFt19KRXjlcPp9",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Quran & Tafsir (কুরআন ও তাফসির)",
+      "old_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "new_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "old_name": "hadiser name Jaliyati QA.pdf",
+      "new_name": "Hadiser Namee Jaliati - Dr Abdullah Jahangir.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "14h4y9XdSsHsYXQNl3-cVmGcJvCX8bAtX",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Quran & Tafsir (কুরআন ও তাফসির)",
+      "old_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "new_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "old_name": "Minor Resurrection — ÖC - Ö`Ó^h]â¶Ü®` - Ô - S\u001bæºëu - þO - êRÔY¯¯eð\u0007Þ-QKq.pdf",
+      "new_name": "The Minor Resurrection - Dr. Umar Sulaiman al-Ashqar.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1qSh0pfy0AVtQC81hSmDWYUsZsrF0_9sV",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Quran & Tafsir (কুরআন ও তাফসির)",
+      "old_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "new_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "old_name": "nirbachito rochonaboli 3.pdf",
+      "new_name": "সাইয়েদ আবুল আ'লা মওদূদী নির্বাচিত রচনাবলী - ৩য় খন্ড.pdf",
+      "category": "Novels"
+    },
+    {
+      "id": "1Cy0S-tslViwWixeYnj-_iwBvczjm81vm",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Quran & Tafsir (কুরআন ও তাফসির)",
+      "old_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "new_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "old_name": "seminar 2003 2005.pdf",
+      "new_name": "সেমিনার স্মারক-গ্রন্থ - ২০০৩-২০০৫ - মোশাররফ হোসেন খান.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "18uFqczYYfyGJ2fvp-xyij6TvhsH6Ehp1",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Quran & Tafsir (কুরআন ও তাফসির)",
+      "old_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "new_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "old_name": "seminar 2007.pdf",
+      "new_name": "সেমিনা স্মারক-গ্রন্থ - ২০০৭ - মোশাররফ হোসেন খান.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "145_mjgfNCFW-t55nf41pSYSdxM78WsPi",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Quran & Tafsir (কুরআন ও তাফসির)",
+      "old_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "new_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "old_name": "seminar 2008.pdf",
+      "new_name": "সেমিনার স্মারক-গ্রন্থ - ২০০৮ - মোশাররফ হোসেন খান.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1fn1QDL7mkSBxHxZHeQLwJbCzYdfCos-R",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Quran & Tafsir (কুরআন ও তাফসির)",
+      "old_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "new_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "old_name": "shahed alir sreshtho golpo.pdf",
+      "new_name": "শাহেদ আলীর শ্রেষ্ঠ গল্প.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1IN-7z52QT4y2lPOuAJWMhmoGE8kE9aW1",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Quran & Tafsir (কুরআন ও তাফসির)",
+      "old_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "new_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "old_name": "sham1.pdf",
+      "new_name": "“শামের অধিবাসীদের অবস্থা যখন বিপন্ন হবে তখন তোমাদের মধ্যে কোনো কল্যাণ থাকবে না”- এর ব্যাখ্যা - Usama media team.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1qW6-nui6PM3mIcPFT_8i_UEOvXXNH2K3",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Quran & Tafsir (কুরআন ও তাফসির)",
+      "old_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "new_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "old_name": "shia-der boi hat-chere-na — bendhe.pdf",
+      "new_name": "নামায পড়ার সঠিক পদ্ধতি (হাত ছাড়া নাকি বাঁধা ) - লেখক আয়াহুল্লাহ নাজমুদ্দীন তাবসী.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1xiil5XRi-CP57qVV6U9BacNWdUKwW_tA",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Quran & Tafsir (কুরআন ও তাফসির)",
+      "old_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "new_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "old_name": "Siyaasah Shariyyah.pdf",
+      "new_name": "Siyaasah Shar’iyyah - Mizaan Abu Baraa.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1HRoojKtBqK9P-F08kXl2jQuC5WbZikWu",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Quran & Tafsir (কুরআন ও তাফসির)",
+      "old_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "new_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "old_name": "srijonshil chinta.pdf",
+      "new_name": "সৃজনশীল চিন্তা - ইসলামি পরিপ্রেক্ষিত - জামাল বাদি, মুস্তাফা তাজদিন.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1qaVlKvqyxE48tKeyr3vivU69g-p7HtM3",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Quran & Tafsir (কুরআন ও তাফসির)",
+      "old_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "new_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "old_name": "SurahTariq-LinguisticMiracle.pdf",
+      "new_name": "Surah Tariq Tafsir.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1B1R9wQykr4vYebrNBnehL7S7cMLMYQaH",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Quran & Tafsir (কুরআন ও তাফসির)",
+      "old_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "new_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "old_name": "vasani-mujib zia — mujib_zia.pdf",
+      "new_name": "ভাসানী মুজিব জিয়া (১৯৭২-৮১) - জিবলু রহমান.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "16i4L_cqdV6ggIfX2uGIxGEj6VSWE_3Zm",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Quran & Tafsir (কুরআন ও তাফসির)",
+      "old_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "new_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "old_name": "আল কুরআননুল কারীম সরল অর্থানুবাদ.pdf",
+      "new_name": "আল কুরআনুল কারীম সরল অর্থানুবাদ - আল-বায়ান ফাউন্ডেশন বাংলাদেশ.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1jIlZMWbll-86ObQgL5ZHZXAzHYHoRoRy",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Quran & Tafsir (কুরআন ও তাফসির)",
+      "old_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "new_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "old_name": "আল কুরআনের দু আ (www.purepdfbook.com).pdf",
+      "new_name": "আল কুরানের দু'আ - আব্দুস শহীদ নাসিম.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1Bgc2Bz7r-nPG4P7mVaUF9F5a2H6NtNHe",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Quran & Tafsir (কুরআন ও তাফসির)",
+      "old_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "new_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "old_name": "আল-কুরআন ও তার সুমহান মর্যাদা.pdf",
+      "new_name": "আল-কুরআন ও তার সুমহান মর্যাদা - শাইখ আব্দুল আযীয ইবন আবদুল্লাহ আলে শাইখ.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1dRyx4H2LnmIhZcmotvMm_t_xNSdKdigR",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Quran & Tafsir (কুরআন ও তাফসির)",
+      "old_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "new_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "old_name": "আল-কোরআনের দৃষ্টিতে মহাকাশ ও বিজ্ঞান.pdf",
+      "new_name": "আল-কোরআনের দৃষ্টিতে মহাকাশ ও বিজ্ঞান - আল্লামা দেলাওয়ার হোসাইন সাঈদী.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "14tGbVTIfONLbfJWmCG_PIGbCB0oEFGjh",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Quran & Tafsir (কুরআন ও তাফসির)",
+      "old_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "new_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "old_name": "কতিপয় দ্বীনি বিষয় যা জানা একান্ত প্রয়োজন.pdf",
+      "new_name": "কতিপয় দীনী বিষয় যা একজন মুসলিমের জানা প্রয়োজন - মোস্তাফিজুর রহমান ইবন আব্দুল আযীয আল-মাদানী.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1BYljYIzsr9O2ZSRku4lZ-KQlqYElKiOI",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Quran & Tafsir (কুরআন ও তাফসির)",
+      "old_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "new_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "old_name": "কুরআন ও সহীহ হাদীসের আলোকে সহীহ ফাযায়েলে আমল.pdf",
+      "new_name": "কুরআন ও সহীহ হাদীসের আলোকে সহীহ ফাযায়েলে আমল - আব্দুল্লাহ বিন খালিদ.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1NzQCglMRiKywItyPssEf1L2rfDFQNWLk",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Quran & Tafsir (কুরআন ও তাফসির)",
+      "old_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "new_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "old_name": "কুরআন ও সুন্নাহের দৃষ্টিকোণে স্বপ্ন ও তার ব্যাখ্যা.pdf",
+      "new_name": "কুরআন ও সুন্নাহর দৃষ্টিকোণে স্বপ্ন ও তার ব্যাখ্যা - আব্দুল্লাহ শহীদ আব্দুর রহমান.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1el3GfzDIMKkb_W5rsxbMKiyRnOcriFPh",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Quran & Tafsir (কুরআন ও তাফসির)",
+      "old_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "new_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "old_name": "কুরআন ও সুন্নাহ’র আলোকে আযান ও ইকামত.pdf",
+      "new_name": "কুরআন ও সুন্নাহ’র আলোকে আযান ও ইকামত - সাঈদ ইবন আলী ইবন ওহাফ আল-কাহতানী.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1Oan2LcIs51MvYK125EbVDVhaPVONKUvN",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Quran & Tafsir (কুরআন ও তাফসির)",
+      "old_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "new_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "old_name": "কুরআন ও হাদীসের আলোকে সহজ আকীদা.pdf",
+      "new_name": "কুরআন ও হাদীসের আলোকে সহজ আকীদা - ড. আহমাদ ইবন আব্দুর রহমান আল-কাযী.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1Iv3f_gty1Sh1gNd8e_lqjSowaL248I-c",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Quran & Tafsir (কুরআন ও তাফসির)",
+      "old_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "new_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "old_name": "তালীমুল কুরআন — Ö5ôPG¨ - FoáÓá¼¹­ÞÅ4\u00154 - }8 - p(\u0013ÒIG6#Á\u00112±Qï,Îál.pdf",
+      "new_name": "তা'লীমুল কুরআন.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1_PIALZdT-86JqPQUqo96GKaEiGTLqbYr",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Quran & Tafsir (কুরআন ও তাফসির)",
+      "old_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "new_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "old_name": "সাইন্স ফ্রম আল কোরআন.pdf",
+      "new_name": "সাইন্স ফ্রম আল কোরআন - মুহাম্মাদ আবু তালেব.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1p7_BXpkcqN3uil0phxMCb6UPyaZuVu4r",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Quran & Tafsir (কুরআন ও তাফসির)",
+      "old_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "new_parent_id": "1BEmtobmJV-KCqScWpAFpvkQJ8GwiHxVx",
+      "old_name": "সূফীবাদ- কুরআন ও সুন্নাহ এর মানদন্ডে.pdf",
+      "new_name": "কুরআন ও সুন্নাহ-এর মানদণ্ডে - মুহাম্মাদ জামীল যাইনূ.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1JTpKEHHw8aVOsbigyMSDNbtxsldtuuj2",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Seerah & Biography (সীরাত)",
+      "old_parent_id": "13s4loEhY_R7wMVG9SOw41F-pOc4L_3qu",
+      "new_parent_id": "13s4loEhY_R7wMVG9SOw41F-pOc4L_3qu",
+      "old_name": "অমুসলিমদের সাথে রাসূলুল্লাহ্ সাল্লাল্লাহু আলাইহি ওয়াসাল্লামের আচরণ প্রসঙ্গ.pdf",
+      "new_name": "অমুসলিমদের সাথে রাসূলুল্লাহ্ সাল্লাল্লাহু আলাইহি ওয়াসাল্লামের আচরণ প্রসঙ্গ - ড. রাগিব আস-সারজানী.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1Zwa25pgfHCzXvgqdk97P-r4o4qeKDxiA",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Seerah & Biography (সীরাত)",
+      "old_parent_id": "13s4loEhY_R7wMVG9SOw41F-pOc4L_3qu",
+      "new_parent_id": "13s4loEhY_R7wMVG9SOw41F-pOc4L_3qu",
+      "old_name": "খালীফাতু রাসূলিল্লাহ আবূ বাকর আছছিদ্দীক রা.pdf",
+      "new_name": "খালীফাতু রাসূলিল্লাহ আবূ বাকর আছছিদ্দীক রা. - ড. আহমদ আলী.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1ev5sRJkEryGiC1tRu_tMg3EZAOTFBK9_",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Seerah & Biography (সীরাত)",
+      "old_parent_id": "13s4loEhY_R7wMVG9SOw41F-pOc4L_3qu",
+      "new_parent_id": "13s4loEhY_R7wMVG9SOw41F-pOc4L_3qu",
+      "old_name": "রাসূলুল্লাহ সাল্লাল্লাহু ‘আলাইহি ওয়াসাল্লাম তোমাদেরকে যা দিয়েছেন তা গ্রহণ কর.pdf",
+      "new_name": "রাসূলুল্লাহ সা. তোমাদেরকে যা দিয়েছেন তা গ্রহণ কর - আদেল আশ-শিদ্দী.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1rBSW0WqTZ_vdBbmHlyOJxh9scVTvkQ90",
+      "action": "rename",
+      "folder": "Religion Books/Islam/Seerah & Biography (সীরাত)",
+      "old_parent_id": "13s4loEhY_R7wMVG9SOw41F-pOc4L_3qu",
+      "new_parent_id": "13s4loEhY_R7wMVG9SOw41F-pOc4L_3qu",
+      "old_name": "সীরাতে ইবনে হিশাম হযরত মুহাম্মদ (সা) এর জীবনীগ্রন্থ by আকরাম ফারুক ইবনে হিশাম.pdf",
+      "new_name": "সীরাতে ইবনে হিশাম - আকরাম ফারুক ইবনে হিশাম.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1Smw2jxDm-0HNJo8BXmznPSaXFypM2PX8",
+      "action": "rename",
+      "folder": "Bangla Books/Essays & Articles (প্রবন্ধ)",
+      "old_parent_id": "1g50MapBuYOwP9WeDsAcbLQWGOUyQ130d",
+      "new_parent_id": "1g50MapBuYOwP9WeDsAcbLQWGOUyQ130d",
+      "old_name": "leadership(PoragEducation.com) netritto prodan.pdf",
+      "new_name": "Leadership নেতৃত্ব প্রদান - সূলাইমান বিন আওয়াদ ক্বিয়ান.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1WdZuXz9fA86387xj7sSAwHf01pd6YJyF",
+      "action": "rename",
+      "folder": "Bangla Books/History & Culture (ইতিহাস)",
+      "old_parent_id": "18HUvQielYQYgSwFbO0l0aPtTF5lJP08C",
+      "new_parent_id": "18HUvQielYQYgSwFbO0l0aPtTF5lJP08C",
+      "old_name": "tabeyider jibonkotha part-03muminbd tk — ডক্টর মুহাম্মদ আবদুল মাবুদ.pdf",
+      "new_name": "তাবি'ঈদের জীবনকথা - ৩য় খন্ড - ডক্টর মুহাম্মদ আবদুল মাবুদ.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1k7qhWSMJ5GlwVgbxwbvQoiaoYpMtzHt_",
+      "action": "rename",
+      "folder": "Bangla Books/History & Culture (ইতিহাস)",
+      "old_parent_id": "18HUvQielYQYgSwFbO0l0aPtTF5lJP08C",
+      "new_parent_id": "18HUvQielYQYgSwFbO0l0aPtTF5lJP08C",
+      "old_name": "খাদিজা (রা) সম্পর্কে ১৫০টি ঘটনা.pdf",
+      "new_name": "খাদিজা রা. সম্পর্কে ১৫০টি শিক্ষণীয় ঘটনা - মুস্তফা মুহাম্মদ আবুল মা'আতী.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "11Iknj33-IEePI-bZgeikDFVmPTWXgz65",
+      "action": "rename",
+      "folder": "Bangla Books/Language & Grammar (ভাষা ও ব্যাকরণ)",
+      "old_parent_id": "1nTMARTYoJBDCMDlHESVUXphGeF5E_ZFr",
+      "new_parent_id": "1nTMARTYoJBDCMDlHESVUXphGeF5E_ZFr",
+      "old_name": "Colloquial Tamil Through English (english).pdf",
+      "new_name": "Colloquial Tamil The Complete Course for Beginners - R.E.Asher and E.Annamalai.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1l5M13fZSab3ta0BBuBN-PGz9FAyd57Gv",
+      "action": "rename",
+      "folder": "Bangla Books/Literature & Novels (উপন্যাস)",
+      "old_parent_id": "1gspK5vbbS8QiUESrWzxbJAawg0MXE3hR",
+      "new_parent_id": "1gspK5vbbS8QiUESrWzxbJAawg0MXE3hR",
+      "old_name": "agami biplober ghoshonapotro.pdf",
+      "new_name": "আগামী বিপ্লবের ঘোষণাপত্র - সাইয়্যেদ কুতুব শহীদ.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "100AV48PuVqCZkOHc2j7-W7RucEMrVAb5",
+      "action": "rename",
+      "folder": "Bangla Books/Literature & Novels (উপন্যাস)",
+      "old_parent_id": "1gspK5vbbS8QiUESrWzxbJAawg0MXE3hR",
+      "new_parent_id": "1gspK5vbbS8QiUESrWzxbJAawg0MXE3hR",
+      "old_name": "Kichu Shoishob by Hymayun Ahmed.pdf",
+      "new_name": "Kichu Shoishob - Hymayun Ahmed.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1tQXZd4ZnRA1n0aECIVf-bDur-0Tf6bKD",
+      "action": "rename",
+      "folder": "Bangla Books/Literature & Novels (উপন্যাস)",
+      "old_parent_id": "1gspK5vbbS8QiUESrWzxbJAawg0MXE3hR",
+      "new_parent_id": "1gspK5vbbS8QiUESrWzxbJAawg0MXE3hR",
+      "old_name": "Shimanto igol by nosim hejaji.pdf",
+      "new_name": "সীমান্ত ঈগল - নসীম হিজাযী.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1Ycuede6yMuj3cf8XxIrKhYIzF7b2V2qg",
+      "action": "rename",
+      "folder": "Bangla Books/Other Books (অন্যান্য)",
+      "old_parent_id": "1bLcZCmBlrcc67qf7ljDrz-_m2iPy2rw-",
+      "new_parent_id": "1bLcZCmBlrcc67qf7ljDrz-_m2iPy2rw-",
+      "old_name": "আউটসোর্সিং শুরুটা যেভাবে এবং শুরু করার পর.pdf",
+      "new_name": "আউটসোর্সিং শুরুটা যেভাবে এবং শুরু করার পর - মোঃ আমিনুর রহমান.pdf",
+      "category": "Religious Scriptures"
+    },
+    {
+      "id": "1ibW1RCXldtGP8cwqkEM7v02ylXoaz3jI",
+      "action": "rename",
+      "folder": "Bangla Books/Other Books (অন্যান্য)",
+      "old_parent_id": "1bLcZCmBlrcc67qf7ljDrz-_m2iPy2rw-",
+      "new_parent_id": "1bLcZCmBlrcc67qf7ljDrz-_m2iPy2rw-",
+      "old_name": "ইসলামের শাস্তি আইন.pdf",
+      "new_name": "ইসলামের শাস্তি আইন - ড. আহমদ আলী.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "12vFJyK4XeAcNLup4YbCyOVOJuaNP8ujI",
+      "action": "rename",
+      "folder": "Bangla Books/Other Books (অন্যান্য)",
+      "old_parent_id": "1bLcZCmBlrcc67qf7ljDrz-_m2iPy2rw-",
+      "new_parent_id": "1bLcZCmBlrcc67qf7ljDrz-_m2iPy2rw-",
+      "old_name": "ফটোগ্রাফি কলাকৌশল ও মনন.pdf",
+      "new_name": "ফটোগ্রাফি - কলাকৌশল ও মনন - মোঃ রফিকুল ইসলাম.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1Uv1K62upCDLLPTtCu5u65thhEBOsgpY2",
+      "action": "rename",
+      "folder": "Bangla Books/Other Books (অন্যান্য)",
+      "old_parent_id": "1bLcZCmBlrcc67qf7ljDrz-_m2iPy2rw-",
+      "new_parent_id": "1bLcZCmBlrcc67qf7ljDrz-_m2iPy2rw-",
+      "old_name": "ফারায়েয Islamic Inheritance Beginner's Guide.pdf",
+      "new_name": "ফারায়েয Islamic Inheritance Beginner's Guide - Raza Hassan.pdf",
+      "category": "Religious Studies"
+    },
+    {
+      "id": "1IdgQl3L0kNoFcFc3F10uUufThroqVA5T",
+      "action": "rename",
+      "folder": "Bangla Books/Other Books (অন্যান্য)",
+      "old_parent_id": "1bLcZCmBlrcc67qf7ljDrz-_m2iPy2rw-",
+      "new_parent_id": "1bLcZCmBlrcc67qf7ljDrz-_m2iPy2rw-",
+      "old_name": "বাণী চিরন্তন.pdf",
+      "new_name": "বাণী চিরন্তন - ভবেশ রায়.pdf",
+      "category": "Law & Constitution"
+    },
+    {
+      "id": "1SV1YN1nUeZppzxyGi3ZJGG9bVU8IKWbU",
+      "action": "rename",
+      "folder": "Bangla Books/Other Books (অন্যান্য)",
+      "old_parent_id": "1bLcZCmBlrcc67qf7ljDrz-_m2iPy2rw-",
+      "new_parent_id": "1bLcZCmBlrcc67qf7ljDrz-_m2iPy2rw-",
+      "old_name": "বিল গেটস-জ্যানেট লো.pdf",
+      "new_name": "বিল গেটস - দ্যা গ্রেটেস্ট এনট্র্যাপ্রেনার অব সফটওয়্যার - জ্যানেট লো.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1wK7LJ-l_dr1YaEVUeFe5_3miS012790u",
+      "action": "rename",
+      "folder": "Bangla Books/Other Books (অন্যান্য)",
+      "old_parent_id": "1bLcZCmBlrcc67qf7ljDrz-_m2iPy2rw-",
+      "new_parent_id": "1bLcZCmBlrcc67qf7ljDrz-_m2iPy2rw-",
+      "old_name": "রিয়াদুস সালেহীন ১ম খণ্ড.pdf",
+      "new_name": "রিয়াদুস সালেহীন - ১ম খন্ড - ইমাম মুহিউদ্দীন ইয়াহইয়া আন-নববী (র).pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1FKtz52hsuaa6MnImB1pfp6g5bogrHAsC",
+      "action": "rename",
+      "folder": "Bangla Books/Other Books (অন্যান্য)",
+      "old_parent_id": "1bLcZCmBlrcc67qf7ljDrz-_m2iPy2rw-",
+      "new_parent_id": "1bLcZCmBlrcc67qf7ljDrz-_m2iPy2rw-",
+      "old_name": "রিয়াদুস সালেহীন ২য় খণ্ড.pdf",
+      "new_name": "রিয়াদুস সালেহীন - ২য় খন্ড - ইমাম মুহিউদ্দীন ইয়াহইয়া আন-নববী (র).pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1VWq0dwZxtY3mhfYiOvGnfrJRNLkoMK-H",
+      "action": "rename",
+      "folder": "Bangla Books/Other Books (অন্যান্য)",
+      "old_parent_id": "1bLcZCmBlrcc67qf7ljDrz-_m2iPy2rw-",
+      "new_parent_id": "1bLcZCmBlrcc67qf7ljDrz-_m2iPy2rw-",
+      "old_name": "রিয়াদুস সালেহীন ৩য় খণ্ড.pdf",
+      "new_name": "রিয়াদুস সালেহীন ৩য় খণ্ড - ইমাম মুহিউদ্দীন ইয়াহইয়া আন-নববী (র).pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1LmOrIQDagzS5ZzuOwAMF9x9cTRnoGXzr",
+      "action": "rename",
+      "folder": "Bangla Books/Science & Technology (বিজ্ঞান ও প্রযুক্তি)",
+      "old_parent_id": "1o18edosS9-p5zdn6eIyXOHphk15wg_RB",
+      "new_parent_id": "1o18edosS9-p5zdn6eIyXOHphk15wg_RB",
+      "old_name": "Ahok by Humayun Ahmed [Science Fiction].pdf",
+      "new_name": "Ahok - Humayun Ahmed [Science Fiction].pdf",
+      "category": "Science & Technology"
+    },
+    {
+      "id": "1IbtbjbyKeLBDpNP4y_c5TI8PnlvFl-Qn",
+      "action": "rename",
+      "folder": "Bangla Books/Science & Technology (বিজ্ঞান ও প্রযুক্তি)",
+      "old_parent_id": "1o18edosS9-p5zdn6eIyXOHphk15wg_RB",
+      "new_parent_id": "1o18edosS9-p5zdn6eIyXOHphk15wg_RB",
+      "old_name": "জাদু ও তার প্রতিকার.pdf",
+      "new_name": "জাদু ও তার প্রতিকার - শাইখ ওয়াহিদ বিন আব্দুস সালাম বালীর.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "1zfQbuqvpl9lxKyefw4ZbrguFg_Ai-yRU",
+      "action": "rename",
+      "folder": "Bangla Books/Science & Technology (বিজ্ঞান ও প্রযুক্তি)",
+      "old_parent_id": "1o18edosS9-p5zdn6eIyXOHphk15wg_RB",
+      "new_parent_id": "1o18edosS9-p5zdn6eIyXOHphk15wg_RB",
+      "old_name": "পরিবেশ ও স্বাস্থ্য বিজ্ঞানে মুহাম্মদ (স.).pdf",
+      "new_name": "পরিবেশ ও স্বাস্থ্য বিজ্ঞানে মুহাম্মদ (স.) - মাওলানা মোঃ আঃ ছালাম মিয়া (হুমায়ুন).pdf",
+      "category": "Science & Technology"
+    },
+    {
+      "id": "1snVxW3xRa1wD_hcUXxWG8-cA6_k3eT5G",
+      "action": "rename",
+      "folder": "Bangla Books/Science & Technology (বিজ্ঞান ও প্রযুক্তি)",
+      "old_parent_id": "1o18edosS9-p5zdn6eIyXOHphk15wg_RB",
+      "new_parent_id": "1o18edosS9-p5zdn6eIyXOHphk15wg_RB",
+      "old_name": "স্বর্ণযুগে মুসলিম বিজ্ঞানীদের আবিষ্কার.pdf",
+      "new_name": "স্বর্ণযুগে মুসলিম বিজ্ঞানীদের আবিষ্কার - সাহাদত হোসেন খান.pdf",
+      "category": "Science & Technology"
+    },
+    {
+      "id": "1lJiaAWmOg-BNekrYyqX1DNnE9i01yatI",
+      "action": "rename",
+      "folder": "Bangla Books/Thriller, Mystery & Detective (থ্রিলার ও গোয়েন্দা)",
+      "old_parent_id": "11Uih6M8ow5sLpclFRBuedlfxyAhozZ4e",
+      "new_parent_id": "11Uih6M8ow5sLpclFRBuedlfxyAhozZ4e",
+      "old_name": "aabaar taaraanaath(banglabooks.in).pdf",
+      "new_name": "আবার তারানাথ - ত্রিজিৎ কর.pdf",
+      "category": "Unclassified / General"
+    },
+    {
+      "id": "17PHFt5QVeOqkl8KAZqzJcHStLnG2yaBl",
+      "action": "rename",
+      "folder": "Bangla Books/Travel & Geography (ভ্রমণ)",
+      "old_parent_id": "1_Kt20sIAgzvp8JcPEwsBmNwH8bcdInFq",
+      "new_parent_id": "1_Kt20sIAgzvp8JcPEwsBmNwH8bcdInFq",
+      "old_name": "h g wells time machine.pdf",
+      "new_name": "Time Machine - H. G. Wells.pdf",
+      "category": "Unclassified / General"
+    }
+  ],
+  "errors": []
+}

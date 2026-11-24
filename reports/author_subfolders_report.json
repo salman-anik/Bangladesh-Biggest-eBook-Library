@@ -1,0 +1,230 @@
+{
+  "applied_at": "2026-11-24T06:20:05.474925+00:00",
+  "dry_run": false,
+  "authors_organized": 22,
+  "folders_created": 23,
+  "books_moved": 274,
+  "verified_moves": 274,
+  "errors_count": 0,
+  "batch_id": "author_subs_20261124_062005",
+  "authors": [
+    {
+      "author": "আশাপূর্ণা দেবী",
+      "path": "Authors & Scholars/Bangladeshi Authors/আশাপূর্ণা দেবী",
+      "loose_before": 41,
+      "moved": 4,
+      "subfolders": {
+        "গল্প": 4
+      }
+    },
+    {
+      "author": "কাজী নজরুল ইসলাম",
+      "path": "Authors & Scholars/Bangladeshi Authors/কাজী নজরুল ইসলাম",
+      "loose_before": 16,
+      "moved": 7,
+      "subfolders": {
+        "গল্প": 7
+      }
+    },
+    {
+      "author": "নারায়ণ গঙ্গোপাধ্যায়",
+      "path": "Authors & Scholars/Bangladeshi Authors/নারায়ণ গঙ্গোপাধ্যায়",
+      "loose_before": 27,
+      "moved": 8,
+      "subfolders": {
+        "রচনাবলী ও সমগ্র": 8
+      }
+    },
+    {
+      "author": "নীহাররঞ্জন গুপ্ত",
+      "path": "Authors & Scholars/Bangladeshi Authors/নীহাররঞ্জন গুপ্ত",
+      "loose_before": 19,
+      "moved": 6,
+      "subfolders": {
+        "কিরীটী রায় সিরিজ": 6
+      }
+    },
+    {
+      "author": "বঙ্কিমচন্দ্র চট্টোপাধ্যায়",
+      "path": "Authors & Scholars/Bangladeshi Authors/বঙ্কিমচন্দ্র চট্টোপাধ্যায়",
+      "loose_before": 20,
+      "moved": 1,
+      "subfolders": {
+        "উপন্যাস": 1
+      }
+    },
+    {
+      "author": "বিভূতিভূষণ বন্দ্যোপাধ্যায়",
+      "path": "Authors & Scholars/Bangladeshi Authors/বিভূতিভূষণ বন্দ্যোপাধ্যায়",
+      "loose_before": 27,
+      "moved": 12,
+      "subfolders": {
+        "রচনাবলী ও সমগ্র": 12
+      }
+    },
+    {
+      "author": "বিমল কর",
+      "path": "Authors & Scholars/Bangladeshi Authors/বিমল কর",
+      "loose_before": 39,
+      "moved": 4,
+      "subfolders": {
+        "উপন্যাস": 1,
+        "রচনাবলী ও সমগ্র": 3
+      }
+    },
+    {
+      "author": "বুদ্ধদেব গুহ",
+      "path": "Authors & Scholars/Bangladeshi Authors/বুদ্ধদেব গুহ",
+      "loose_before": 7,
+      "moved": 5,
+      "subfolders": {
+        "রচনাবলী ও সমগ্র": 5
+      }
+    },
+    {
+      "author": "মানিক বন্দ্যোপাধ্যায়",
+      "path": "Authors & Scholars/Bangladeshi Authors/মানিক বন্দ্যোপাধ্যায়",
+      "loose_before": 60,
+      "moved": 12,
+      "subfolders": {
+        "গল্প ও ছোটগল্প": 3,
+        "রচনাবলী ও সমগ্র": 9
+      }
+    },
+    {
+      "author": "মুহম্মদ জাফর ইকবাল",
+      "path": "Authors & Scholars/Bangladeshi Authors/মুহম্মদ জাফর ইকবাল",
+      "loose_before": 244,
+      "moved": 40,
+      "subfolders": {
+        "গল্প ও ছোটগল্প": 3,
+        "বিজ্ঞান, গণিত ও প্রবন্ধ": 4,
+        "রচনাবলী ও সমগ্র": 6,
+        "শিশু-কিশোর সাহিত্য": 12,
+        "সায়েন্স ফিকশন": 15
+      }
+    },
+    {
+      "author": "রকিব হাসান",
+      "path": "Authors & Scholars/Bangladeshi Authors/রকিব হাসান",
+      "loose_before": 106,
+      "moved": 19,
+      "subfolders": {
+        "তিন গোয়েন্দা সিরিজ": 19
+      }
+    },
+    {
+      "author": "রবীন্দ্রনাথ ঠাকুর",
+      "path": "Authors & Scholars/Bangladeshi Authors/রবীন্দ্রনাথ ঠাকুর",
+      "loose_before": 60,
+      "moved": 33,
+      "subfolders": {
+        "কবিতা": 2,
+        "গল্প": 3,
+        "রচনাবলী ও সমগ্র": 28
+      }
+    },
+    {
+      "author": "শীর্ষেন্দু মুখোপাধ্যায়",
+      "path": "Authors & Scholars/Bangladeshi Authors/শীর্ষেন্দু মুখোপাধ্যায়",
+      "loose_before": 107,
+      "moved": 7,
+      "subfolders": {
+        "গল্প": 3,
+        "রচনাবলী ও সমগ্র": 4
+      }
+    },
+    {
+      "author": "সত্যজিৎ রায়",
+      "path": "Authors & Scholars/Bangladeshi Authors/সত্যজিৎ রায়",
+      "loose_before": 25,
+      "moved": 1,
+      "subfolders": {
+        "গল্প": 1
+      }
+    },
+    {
+      "author": "সমরেশ বসু",
+      "path": "Authors & Scholars/Bangladeshi Authors/সমরেশ বসু",
+      "loose_before": 69,
+      "moved": 6,
+      "subfolders": {
+        "রচনাবলী ও সমগ্র": 6
+      }
+    },
+    {
+      "author": "সমরেশ মজুমদার",
+      "path": "Authors & Scholars/Bangladeshi Authors/সমরেশ মজুমদার",
+      "loose_before": 139,
+      "moved": 9,
+      "subfolders": {
+        "অর্জুন সিরিজ": 5,
+        "উপন্যাস": 2,
+        "গল্প": 2
+      }
+    },
+    {
+      "author": "সুকুমার রায়",
+      "path": "Authors & Scholars/Bangladeshi Authors/সুকুমার রায়",
+      "loose_before": 19,
+      "moved": 5,
+      "subfolders": {
+        "রচনাবলী ও সমগ্র": 5
+      }
+    },
+    {
+      "author": "সুনীল গঙ্গোপাধ্যায়",
+      "path": "Authors & Scholars/Bangladeshi Authors/সুনীল গঙ্গোপাধ্যায়",
+      "loose_before": 183,
+      "moved": 27,
+      "subfolders": {
+        "উপন্যাস": 4,
+        "কবিতা": 2,
+        "গল্প ও ছোটগল্প": 4,
+        "রচনাবলী ও সমগ্র": 17
+      }
+    },
+    {
+      "author": "সৈয়দ মুস্তাফা সিরাজ",
+      "path": "Authors & Scholars/Bangladeshi Authors/সৈয়দ মুস্তাফা সিরাজ",
+      "loose_before": 55,
+      "moved": 9,
+      "subfolders": {
+        "রচনাবলী ও সমগ্র": 9
+      }
+    },
+    {
+      "author": "সৈয়দ শামসুল হক",
+      "path": "Authors & Scholars/Bangladeshi Authors/সৈয়দ শামসুল হক",
+      "loose_before": 15,
+      "moved": 4,
+      "subfolders": {
+        "রচনাবলী ও সমগ্র": 4
+      }
+    },
+    {
+      "author": "হুমায়ূন আহমেদ",
+      "path": "Authors & Scholars/Bangladeshi Authors/হুমায়ূন আহমেদ",
+      "loose_before": 320,
+      "moved": 51,
+      "subfolders": {
+        "উপন্যাস": 5,
+        "গল্প": 12,
+        "মিসির আলি সিরিজ": 18,
+        "রচনাবলী ও সমগ্র": 5,
+        "শুভ্র সিরিজ": 5,
+        "হিমু সিরিজ": 6
+      }
+    },
+    {
+      "author": "হেমেন্দ্রকুমার রায়",
+      "path": "Authors & Scholars/Bangladeshi Authors/হেমেন্দ্রকুমার রায়",
+      "loose_before": 63,
+      "moved": 4,
+      "subfolders": {
+        "রচনাবলী ও সমগ্র": 4
+      }
+    }
+  ],
+  "errors": []
+}
